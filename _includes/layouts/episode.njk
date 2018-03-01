@@ -1,10 +1,31 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>{{ title }}</h1>
+<h1>№ {{number}}: {{ title }}</h1>
 
+<div class="episode-header">
+    Date: {{podcast_date}}
+    URL: {{podcast_url}}
+    Hosts: {{hosts}}
+</div>
+
+<ul class="notable-moments">
+{% for moment in notable_moments %}
+    <li>{{moment}}</li>
+{% endfor %}
+</ul>
+
+<ul class="firsts">
+{% for first in firsts %}
+    <li>{{first}}</li>
+{% endfor %}
+</ul>
+
+<article class="main-content">
 {{ layoutContent | safe }}
+</article>
 
-<a href="{{ '/' | url }}">← Previous</a>
-<a href="{{ '/' | url }}">Next ←</a>
-
+<nav class="episode-nav">
+    <a href="{{ '/' | url }}">← Previous</a>
+    <a href="{{ '/' | url }}">Next ←</a>
+</nav>

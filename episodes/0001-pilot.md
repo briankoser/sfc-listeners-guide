@@ -1,86 +1,82 @@
 ---
 layout: episode
 tags:
-  - post
-  - another-tag
-title: Pilot
----
-Number: 1
-URL: http://thescifichristian.com/2011/01/episode-101-world-premiere/
-Season: 1
-Date Posted: 
-Date Last Listened: 2018-01-22
-Category: main-topic
-Series: 
-Hosts: Ben, Matt
-Recommendation (essential listen, listen, or don't listen): listen
-Recommendation Reason: Good to see where Matt and Ben started
-Time Loop: 
+  - episode
 
-Notable moments: 
+title: Pilot
+number: 1
+season: 1
+podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
+podcast_date: 2011-01-11
+category: 
+series: 
+hosts:
+  - Ben de Bono
+  - Matt Anderson
+time_loop: false
+top_five: true
+
+notable_moments:
+firsts: 
+  - Mention of The Life Report
+  - Mention of The LOST Report
+  - Sound effect (R2-D2)
+  - It's a Trap! sound effect
+  - Host says Groundhog**'s** Day (Matt)
+prophecy: 
+  - Ben: V just started it's second season and will get cancelled soon
+future_episodes: 
+  - Time travel and God
+  - Are parallel universes compatible with Christianity?
+episode_links: 
+celebrity_invites: 
+
+news: 
+feedback: 
+
+last_listen: 2018-01-22
+recommendation: listen
+recommendation_reason: Lays a good foundation for where Ben and Matt were with their interests when they started the show.
+archivist_note: 
+---
+
+
 The World Premiere! It's great to see where Ben and Matt started from at episode 1. Ben was much more optimistic, Matt was a little more combative.
 Ben revealed that they have a lifetime contract for the show
+
+B: This is all about chemistry baby!
+M: Not that kind of chemistry.
+
 Lost report addicted Ben to podcasting
 Both in seminary in mn
 Matt is youth director, ben is epic life pastoral ministry intern
 epiclifeonline.org
+
+B: Even before I got into Ministry, I am a lifelong nerd and completely Unapologetic about it.
+M: I thought you were going to say, lifelong lover of Christ. 
+B: ...That too.
+
 Specify that they'll be talking about more than just Sci fi. All of genre fiction.
 Ben wants to do a twilight episode. It's cool that twilight is bringing people into geek culture. 
 Skype in guest hosts about topics they're not knowledgeable in 
 News will be a segment
 Reviews of movies and shows
 Philosophy and theology
+
+M: I was surprised by how many people were offended by me saying that Jesus might have been a zombie.
+
 Genre topics related to Christianity eg cloning
 R2-D2 is the transition sound for everything
 Ben likes superhero movies and TV shows
 Ben is doing Netflix dvds
 Matt does Redbox
 
-Hindsight: 
+
 Saddest: both excited about the hobbit movie
 M vowed to read Hobbit before movie came out. His review will be one of the most memorable SFC moments
 B: I wish Spider-Man were in the Avengers movies
 Matt said it would be crazy to buy comic books monthly
 B looking forward to spiderman reboot 
-
-Quotes: 
-B: This is all about chemistry baby!
-M: Not that kind of chemistry.
-
-B: Even before I got into Ministry, I am a lifelong nerd and completely Unapologetic about it.
-M: I thought you were going to say, lifelong lover of Christ. 
-B: ...That too.
-
-M: I was surprised by how many people were offended by me saying that Jesus might have been a zombie.
-
-Firsts: 
-mention of life report
-mention of lost report
-sound effect (r2-D2)
-it's a trap sound effect
-Host says Groundhog**'s** Day (Matt)
-
-Prophecy: 
-B: V just started second season: it will get cancelled soon
-
-Future Episodes:
-Time travel and god
-are parallel universes compatible with christianity
-
-Top 5s: 
-
-News: 
-
-
-Main Topic: 
-
-
-Feedback:
-
-
-
-
-
 
 The Cape
 M: 👍
@@ -117,14 +113,6 @@ B Interested
 The Avengers
 B Interested
 M Interested
-
-
-
-
-
-
-
-
 
 Social network
 B up
