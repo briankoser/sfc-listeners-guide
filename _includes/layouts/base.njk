@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{ title or metadata.title }}</title>
+        <meta name="description" content="The unofficial listener's guide to The Sci-Fi Christian Podcast, hosted by Ben de Bono and Matt Anderson">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#f00">
+    </head>
+    <body>
+        <header role="banner" class="site-header">
+            <h1 class="site-title"><a href="/">{{ metadata.title }}</a></h1>
+        </header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/">Episodes</a>
+            <a href="/">Awards</a>
+            <a href="/">Statistics</a>
+            <a href="/">About</a>
+        </nav>
+        <div class="container body-content">
+            {{ layoutContent | safe }}
+            <footer>
+                <p>Creative Commons License</p>
+            </footer>
+        </div>
+    </body>
+</html>
