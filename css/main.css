@@ -1,3 +1,27 @@
-div[data-rating='yes'] {
-    content: 👍;
+div[data-rating='yes']::after {
+    content: '👍';
+}
+
+div[data-rating='no']::after {
+    content: '👎';
+}
+
+div[data-rating='interested']::after {
+    content: '🤔';
+}
+
+div[data-rating='uninterested']::after {
+    content: '😴';
+}
+
+div[data-rating='dont-know']::after {
+    content: '❓';
+}
+
+.ben {
+    background-color: lightgreen;
+}
+
+.matt {
+    background-color: lightsalmon;
 }
