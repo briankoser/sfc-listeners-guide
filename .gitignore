@@ -47,3 +47,5 @@ Temporary Items
 .apdisk
 
 _site/
+node_modules/
+package-lock.json
