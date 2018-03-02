@@ -5,11 +5,12 @@ tags:
 
 title: Pilot
 number: 1
+slug: 0001-pilot
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
 podcast_date: 2011-01-11
-category: 
-series: 
+category: top-five
+series: interests
 hosts:
   - Ben de Bono
   - Matt Anderson
@@ -22,7 +23,8 @@ firsts:
   - Mention of The LOST Report
   - Sound effect (R2-D2)
   - It's a Trap! sound effect
-  - Host says Groundhog**'s** Day (Matt)
+  - Host says Groundhog's Day (Matt)
+  - Top 5 list
 prophecy: 
   - '[{"host": "Ben", "prophecy": "V just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}]'
 future_episodes: 
@@ -33,6 +35,7 @@ future_episodes:
 episode_links: 
 celebrity_invites: 
 
+opening:
 news: 
 feedback: 
 
@@ -42,6 +45,8 @@ recommendation_reason: Lays a good foundation for where Ben and Matt were with t
 archivist_note: 
 ---
 The World Premiere! It's great to see where Ben and Matt started from at episode 1. Ben is much more optimistic, Matt is a little more combative. Both are enrolled in seminary in MN. At their church Epic Life (epiclifeonline.org), Matt is the youth director and Ben is pastoral ministry intern.
+
+The show is hosted at scifichristianpodcast.com
 
 Ben reveals that they have a lifetime contract for the show.
 
@@ -88,168 +93,226 @@ Ben is looking forward to The Amazing Spider-Man.
   <div class="matt" data-rating="yes"></div>
 </div>
 
-The Event
-M 👍
-B 👎
+<div class="review">
+  <div class="title"><a href="">The Event</a></div>
+  <div class="ben" data-rating="no"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Flash Forward
-M 👍
-B 👎
+<div class="review">
+  <div class="title"><a href="">Flash Forward</a></div>
+  <div class="ben" data-rating="no"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-V
-M 👍
-B 👎
+<div class="review">
+  <div class="title"><a href="">V</a></div>
+  <div class="ben" data-rating="no"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
 
+## Current Recommendations
 
-Current recommendations: 
+<div class="review">
+  <div class="title"><a href="">Wheel of Time</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="dont-know"></div>
+</div>
 
-Wheel of Time
-B 👍
-M Not heard
+<div class="review">
+  <div class="title"><a href="">Fringe</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Fringe
-B 👍
-M 👍
+<div class="review">
+  <div class="title"><a href="">Scott Pilgrim vs. the World</a></div>
+  <div class="ben" data-rating="interested"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Scott Pilgrim vs the World
-M 👍
-B Interested
+<div class="review">
+  <div class="title"><a href="">The Avengers</a></div>
+  <div class="ben" data-rating="interested"></div>
+  <div class="matt" data-rating="interested"></div>
+</div>
 
-The Avengers
-B Interested
-M Interested
+<div class="review">
+  <div class="title"><a href="">The Social Network</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="no"></div>
+</div>
 
-Social network
-B up
-M down
+<div class="review">
+  <div class="title"><a href="">Fables</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="interested"></div>
+</div>
 
-Graphic novels
-B up
+<div class="review">
+  <div class="title"><a href="">Sandman</a></div>
+  <div class="ben" data-rating="yes"></div>
+</div>
 
-Fables
-B up
-M interested
+<div class="review">
+  <div class="title"><a href="">Y: The Last Man</a></div>
+  <div class="ben" data-rating="interested"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Sandman
-B up
+<div class="review">
+  <div class="title"><a href="">Star Trek: The Original Series</a></div>
+  <div class="ben" data-rating="no"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Y the last man
-M up
-B interested
+<div class="review">
+  <div class="title"><a href="">Star Trek II: The Wrath of Khan</a></div>
+  <div class="ben" data-rating="yes"></div>
+</div>
 
-Star Trek TOS 
-M up
-B down
+<div class="review">
+  <div class="title"><a href="">Star Trek: The Motion Picture</a></div>
+  <div class="ben" data-rating="no"></div>
+  <q class="ben">I hated hated hated that movie.</q>
+</div>
 
-Wrath of Khan 
-B up
+<div class="review">
+  <div class="title"><a href="">Star Trek (2009)</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-St 1 movie
-B down
-"I hated hated hated that movie." 
+<div class="review">
+  <div class="title"><a href="">The Happening</a></div>
+  <div class="ben" data-rating="no"></div>
+  <q class="ben">The Crappening</q>
+</div>
 
-St Abrams movie
-B up
-M up
+Matt's favorite themes in fictions are alternate realities and time travel.
 
-The happening 
-B down
+They're recording video as well as audio.
 
-"The Crappening" 
+<div class="review">
+  <div class="title"><a href="">LOST</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Matt favorite themes: Alternate realities, time travel
+<div class="review">
+  <div class="title"><a href="">Ink</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="interested"></div>
+</div>
 
-Videoing while recording
+<div class="review">
+  <div class="title"><a href="">Sunshine</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Lost
-B up
-M up
+<div class="review">
+  <div class="title"><a href="">The Office</a></div>
+  <div class="ben" data-rating="no"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Ink
-B up
-M interested
+<div class="review">
+  <div class="title"><a href="">Community</a></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Sunshine 
-B up
-M up
+<div class="review">
+  <div class="title"><a href="">Outsourced</a></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-The office
-B down
-M up
+<div class="review">
+  <div class="title"><a href="">Parks and Rec</a></div>
+  <div class="ben" data-rating="yes"></div>
+</div>
 
-Community
-M up
-
-Outsourced 
-M up
-
-Parks and rec 
-B up
-
-Firefly
-B up
-M up
-
-Dollhouse 
-B up
-M up
-
-Buffy 
-B up
-M up
-
-Angel 
-B up
-
-Batman year 1
-B up
-M interested
-
-dr horrible
-b up
-m up
+<div class="review">
+  <div class="title"><a href="">Firefly</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
 Firefly is Ben's favorite show of all time
-matt loves attack of the clones (he later retracts the statement) 
 
-First Top 5 sci-fi 
+<div class="review">
+  <div class="title"><a href="">Dollhouse</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-ben
-5 bsg
-4 Dune 
-3 Lord of Light
-2 Firefly
-1 star wars
-H x files 
-H Fahrenheit 451
-H Lost
-H Aliens
-H Inverted world
-H matrix
-H Dark city
+<div class="review">
+  <div class="title"><a href="">Buffy: The Vampire Slayer</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-Matt
-5 star wars
-4 circle Trilogy
-3 Spider-man and batman
-2 back to the future
-1 lost
-H Narnia
-H Planet of the apes
-H Sliders
-H x-files
-H bsg
-H quantum leap
-H Matrix
-H alias
-H groundhog day
-H daybreak
-H X-men
+<div class="review">
+  <div class="title"><a href="">Angel</a></div>
+  <div class="ben" data-rating="yes"></div>
+</div>
 
-Lost ends episodes on a mystery moment, Buffy ended on a character moment.
+<div class="review">
+  <div class="title"><a href="">Batman: Year 1</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="interested"></div>
+</div>
 
-Bryan Singer
-B down
+<div class="review">
+  <div class="title"><a href="">Dr. Horrible's Sing-a-long Blog</a></div>
+  <div class="ben" data-rating="yes"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
-originally at scifichristianpodcast.com
+Matt says he loves Attack of the Clones (although he later retracts the statement) 
+
+<div class="top-five">
+  <div class="ben">
+    <ol reversed>
+      <li>Battlestar Galactica
+      <li>Dune
+      <li>Lord of Light
+      <li>Firefly
+      <li>Star Wars
+    </ol>
+    <ul>
+      <li>X-Files 
+      <li>Fahrenheit 451
+      <li>Lost
+      <li>Aliens
+      <li>Inverted World
+      <li>Matrix
+      <li>Dark City
+    </ul>
+  </div>
+  <div class="matt">
+    <ol reversed>
+      <li>Star Wars
+      <li>Circle Trilogy
+      <li>Spider-Man and Batman
+      <li>Back to the Future
+      <li>LOST
+    </ol>
+    <ul>
+      <li>The Chronicles of Narnia
+      <li>Planet of the Apes
+      <li>Sliders
+      <li>X-Files
+      <li>Battlestar Galactica
+      <li>Quantum Leap
+      <li>The Matrix
+      <li>Alias
+      <li>Groundhog Day
+      <li>Daybreak
+      <li>X-Men
+    </ul>
+  </div>
+</div>
+
+Ben makes the point that while LOST usually ended episodes on a mystery moment, Buffy always ended on a character moment.
