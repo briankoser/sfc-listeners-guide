@@ -5,10 +5,36 @@ The Unofficial Listener's Guide for The Sci-Fi Christian podcast
 
 1. Install node
 
+2. Navigate to repository folder and install dependencies
+
+> cd projects/sfc-listeners/guide
+> npm install
+
+3. Run eleventy
+
+> npm run default  # generates site in _site
+
+or 
+
+> npm run dev  # generates site in _site, generates again when changes are made, serves the site at http://localhost:8080
+
+
+
+
+
+
+
+
+
+
 2. Install eleventy
 
 > npm install -g @11ty/eleventy
 
-3. Run eleventy
+3. Install http-server
+
+> npm install -g http-server
+
+4. Run eleventy
 
 > eleventy
