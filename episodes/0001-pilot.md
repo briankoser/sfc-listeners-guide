@@ -24,8 +24,10 @@ firsts:
   - It's a Trap! sound effect
   - Host says Groundhog**'s** Day (Matt)
 prophecy: 
-  - Ben: V just started it's second season and will get cancelled soon
+  - '[{"host": "Ben", "prophecy": "V just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}]'
 future_episodes: 
+  - Twilight
+  - Clones
   - Time travel and God
   - Are parallel universes compatible with Christianity?
 episode_links: 
@@ -39,48 +41,52 @@ recommendation: listen
 recommendation_reason: Lays a good foundation for where Ben and Matt were with their interests when they started the show.
 archivist_note: 
 ---
+The World Premiere! It's great to see where Ben and Matt started from at episode 1. Ben is much more optimistic, Matt is a little more combative. Both are enrolled in seminary in MN. At their church Epic Life (epiclifeonline.org), Matt is the youth director and Ben is pastoral ministry intern.
 
+Ben reveals that they have a lifetime contract for the show.
 
-The World Premiere! It's great to see where Ben and Matt started from at episode 1. Ben was much more optimistic, Matt was a little more combative.
-Ben revealed that they have a lifetime contract for the show
+<div class="quote">
+<q class="ben">This is all about chemistry baby!</q>
+<q class="matt">Not that kind of chemistry.</q>
+</div>
 
-B: This is all about chemistry baby!
-M: Not that kind of chemistry.
+The LOST Report addicted Ben to podcasting.
 
-Lost report addicted Ben to podcasting
-Both in seminary in mn
-Matt is youth director, ben is epic life pastoral ministry intern
-epiclifeonline.org
+<div class="quote">
+<q class="ben">Even before I got into Ministry, I am a lifelong nerd and completely Unapologetic about it.</q>
+<q class="matt">I thought you were going to say, lifelong lover of Christ.</q>
+<q class="ben">...That too.</q>
+</div>
 
-B: Even before I got into Ministry, I am a lifelong nerd and completely Unapologetic about it.
-M: I thought you were going to say, lifelong lover of Christ. 
-B: ...That too.
+The show won't be strictly sci-fi, it will include all of genre fiction and topics.
 
-Specify that they'll be talking about more than just Sci fi. All of genre fiction.
-Ben wants to do a twilight episode. It's cool that twilight is bringing people into geek culture. 
-Skype in guest hosts about topics they're not knowledgeable in 
-News will be a segment
-Reviews of movies and shows
-Philosophy and theology
+Ben wants to do a Twilight episode (<q class="ben">It's cool that twilight is bringing people into geek culture.</q>)
 
-M: I was surprised by how many people were offended by me saying that Jesus might have been a zombie.
+They will have guest hosts over Skype to discuss topics they're not knowledgeable in.
 
-Genre topics related to Christianity eg cloning
-R2-D2 is the transition sound for everything
-Ben likes superhero movies and TV shows
-Ben is doing Netflix dvds
-Matt does Redbox
+They will report news, review movies and TV shows, and discuss philosophy and theology.
 
+<q class="matt">I was surprised by how many people were offended by me saying that Jesus might have been a zombie.</q>
 
-Saddest: both excited about the hobbit movie
-M vowed to read Hobbit before movie came out. His review will be one of the most memorable SFC moments
-B: I wish Spider-Man were in the Avengers movies
-Matt said it would be crazy to buy comic books monthly
-B looking forward to spiderman reboot 
+R2-D2 is the transition sound for everything.
 
-The Cape
-M: 👍
-B: Uninterested
+Ben likes superhero movies and TV shows.
+
+Saddest moment of the episode: how excited both hosts are about The Hobbit movie
+
+Matt vowed to read The Hobbit before the movie comes out.
+
+<q class="ben">I wish Spider-Man were in the Avengers movies.</q>
+
+Matt said it would be crazy to buy comic books monthly.
+
+Ben is looking forward to The Amazing Spider-Man.
+
+<div class="review">
+  <div class="title"><a href="">The Cape</a></div>
+  <div class="ben" data-rating="uninterested"></div>
+  <div class="matt" data-rating="yes"></div>
+</div>
 
 The Event
 M 👍
