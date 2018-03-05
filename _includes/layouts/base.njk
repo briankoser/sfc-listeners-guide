@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>{{ title or metadata.title }}</title>
+        <title>{% if number %}№ {{number}}: {{title}} · {% elif title %} {{title}} · {% endif %} {{ metadata.title }}</title>
         <meta name="description" content="The unofficial listener's guide to The Sci-Fi Christian Podcast, hosted by Ben de Bono and Matt Anderson">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#f00">
