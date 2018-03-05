@@ -10,8 +10,19 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
+    for (let i = 0; i < episodes.length; i++) {
+      let url =     (episodes[i - 1] || {}).url;
+      let title =  ((episodes[i - 1] || {}).data || {}).title;
+      let number = ((episodes[i - 1] || {}).data || {}).number;
 
-    // add next, prev data
+      episodes[i].data.previous = {url, title, number};
+
+      url =     (episodes[i + 1] || {}).url;
+      title =  ((episodes[i + 1] || {}).data || {}).title;
+      number = ((episodes[i + 1] || {}).data || {}).number;
+
+      episodes[i].data.next = {url, title, number};
+    }
 
     return episodes;
   });

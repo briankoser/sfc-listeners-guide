@@ -28,8 +28,15 @@ layout: layouts/base.njk
 </article>
 
 <nav class="episode-nav">
-    <a href="{{ '/' | url }}">← Previous</a>
-    <a href="{{ '/' | url }}">← Previous in Series</a>
-    <a href="{{ '/' | url }}">Next →</a>
-    <a href="{{ '/' | url }}">Next in Series →</a>
+    {% if previous.url %}
+    <a href="{{ previous.url }}">← Previous</a>
+    {% endif %}
+    
+    <a href="{{ '/' }}">← Previous in Series</a>
+    
+    {% if next.url %}
+    <a href="{{ next.url }}">Next →</a>
+    {% endif %}
+    
+    <a href="{{ '/' }}">Next in Series →</a>
 </nav>
