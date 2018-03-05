@@ -8,7 +8,7 @@ number: 1
 slug: 0001-pilot
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
-podcast_date: 2011-01-11
+date: 2011-01-11
 category: top-five
 series: interests
 hosts:

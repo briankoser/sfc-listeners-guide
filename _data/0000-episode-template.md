@@ -8,7 +8,7 @@ number:
 slug: 
 season: 1
 podcast_url: 
-podcast_date: 
+date: 
 category: 
 series: 
 hosts:

@@ -4,17 +4,19 @@ layout: layouts/base.njk
 <h1>№ {{number}}: {{ title }}</h1>
 
 <div class="episode-header">
-    Date: {{podcast_date}}
+    Date: {{date | readableDate}}
     URL: {{podcast_url}}
     Hosts: {{hosts}}
 </div>
 
+<h2>Notable Moments</h2>
 <ul class="notable-moments">
 {% for moment in notable_moments %}
     <li>{{moment}}</li>
 {% endfor %}
 </ul>
 
+<h2>Firsts</h2>
 <ul class="firsts">
 {% for first in firsts %}
     <li>{{first}}</li>
@@ -27,5 +29,7 @@ layout: layouts/base.njk
 
 <nav class="episode-nav">
     <a href="{{ '/' | url }}">← Previous</a>
-    <a href="{{ '/' | url }}">Next ←</a>
+    <a href="{{ '/' | url }}">← Previous in Series</a>
+    <a href="{{ '/' | url }}">Next →</a>
+    <a href="{{ '/' | url }}">Next in Series →</a>
 </nav>

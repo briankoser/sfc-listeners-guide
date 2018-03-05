@@ -8,16 +8,12 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toISODate();
   });
 
-  // only content in the `episodes/` directory
-  // eleventyConfig.addCollection("episodes", function(collection) {
-  //   return collection.getAllSorted().filter(function(item) {
-  //     return item.inputPath.match(/^\.\/episodes\//) !== null && item.data.tags !== undefined && item.data.tags.includes('episode');
-  //   });
-  // });
   eleventyConfig.addCollection("episodes", function(collection) {
-    return collection.getFilteredByTag("episode").sort(function(a, b) {
-      return a.data.podcast_date - b.data.podcast_date; // sorts oldest first
-    });
+    let episodes = collection.getFilteredByTag("episode");
+
+    // add next, prev data
+
+    return episodes;
   });
 
   eleventyConfig.addPassthroughCopy("img");

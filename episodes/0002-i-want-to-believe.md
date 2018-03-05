@@ -8,7 +8,7 @@ number: 2
 slug: 0002-i-want-to-believe
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/
-podcast_date: 2011-01-16 
+date: 2011-01-16 
 category: fringe-theology
 series: supernatural-creatures
 hosts:
