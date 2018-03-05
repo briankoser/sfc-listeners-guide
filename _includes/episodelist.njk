@@ -1,0 +1,8 @@
+<ol class="episodelist" style="counter-reset: start-from {{ episodelist.length + 1 }}">
+{% for episode in episodelist %}
+	<li class="episodelist-item">
+		<a href="{{ episode.url | url }}" class="episodelist-link">{{ episode.data.title }}</a>
+		<span class="episodelist-date">{{ episode.date | readableDate }}</span>
+	</li>
+{% endfor %}
+</ol>

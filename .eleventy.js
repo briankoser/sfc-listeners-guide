@@ -1,10 +1,17 @@
+const { DateTime } = require("luxon");
+
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
   eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
 
-  // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function(collection) {
+  eleventyConfig.addFilter("readableDate", dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+  });
+
+  // only content in the `episodes/` directory
+  eleventyConfig.addCollection("episodes", function(collection) {
     return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/posts\//) !== null;
+      return item.inputPath.match(/^\.\/episodes\//) !== null;
     });
   });
 
