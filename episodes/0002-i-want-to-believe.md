@@ -19,9 +19,15 @@ top_five: false
 
 notable_moments:
 firsts: 
+  - X-Files theme for Sci-Fi News (and Main Topic transition)
+  - Feedback (from Koby)
+  - It's a Trap transition music
+  - End with "signing off" 
+  - Ben saying "Take that!" ("Take that Jimmy Carter!")
 prophecy: 
-  - '[{"host": "", "prophecy": "", "veracity": true, "comments": ""}]'
 future_episodes: 
+  - Nephilim
+  - How "Life on earth was started by aliens" is compatible with Christianity
 episode_links: 
 celebrity_invites:
   - JJ Abrams
@@ -40,39 +46,24 @@ recommendation: listen
 recommendation_reason: This first "fringe theology" episode includes topics that will be major themes of the podcast, such as the scope of the Bible and what is compatible with Christianity.
 archivist_note: 
 ---
-
+# News
 <span class="quote-context">Regarding Pirates of the Caribbean 3: At World's End</span>
 <q class="ben">I hated it. I hated it. I hated it.</q>
 
-Principle that Bible is for humans and does not preclude things outside that context: for example, aliens
-Thought : if a flying saucer came down would you still be a Christian?
+# Main Topic
 
-Firsts: 
-X-files theme for sci fi news, main topic transition music
-Ben suggested reading feedback about the episode before discussing the main topic
-First feedback is from Koby
-Its a trap transition music
-End with "signing off" 
-B "take that Jimmy Carter
+The Bible is for humans and does not preclude things outside that context: for example, aliens.
 
+If a flying saucer with aliens came to Earth, would you still be a Christian?
 
+# Feedback
+Ben forgot to mention the following Top 5 runners up in the previous episode: 
+- Gattaca
+- Ender's Game and Speaker for the Dead
+- Eternal Sunshine of the Spotless Mind
 
-
-Future Episodes: 
-Nephilim
-How Life on earth was started by aliens is compatible with Christianity
-
-Top 5s: 
-Runners up from previous ep:
-B
-Gattaca
-Enders Game and speaker for the Dead
-Eternal sunshine of the spotless mind
-
-
-
-
-Feedback:
-B Listener Koby writes in on Facebook. Hi Koby. 
-M Hi Koby. He's my friend.
-B He's not my friend. But maybe he will be now.
+<div class="quote">
+<q class="ben">Listener Koby writes in on Facebook. Hi Koby. </q>
+<q class="matt">Hi Koby. He's my friend.</q>
+<q class="ben">He's not my friend. But maybe he will be now.</q>
+</div>
