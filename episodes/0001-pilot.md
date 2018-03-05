@@ -35,15 +35,13 @@ future_episodes:
 episode_links: 
 celebrity_invites: 
 
-opening:
-news: 
-feedback: 
-
 last_listen: 2018-01-22
 recommendation: listen
 recommendation_reason: Lays a good foundation for where Ben and Matt were with their interests when they started the show.
 archivist_note: 
 ---
+# Opening
+
 The World Premiere! It's great to see where Ben and Matt started from at episode 1. Ben is much more optimistic, Matt is a little more combative. Both are enrolled in seminary in MN. At their church Epic Life (epiclifeonline.org), Matt is the youth director and Ben is pastoral ministry intern.
 
 The show is hosted at scifichristianpodcast.com
@@ -86,6 +84,8 @@ Matt vowed to read The Hobbit before the movie comes out.
 Matt said it would be crazy to buy comic books monthly.
 
 Ben is looking forward to The Amazing Spider-Man.
+
+# Main Topic
 
 <div class="review">
   <div class="title"><a href="">The Cape</a></div>
