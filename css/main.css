@@ -1,3 +1,185 @@
+/*! Forked from modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/* Document
+   ========================================================================== */
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+* + * {
+	margin-top: 1.5em;
+}
+
+/**
+ * Use a more readable tab size (opinionated).
+ */
+
+:root {
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* Sections
+   ========================================================================== */
+
+body {
+    background-color: #222;
+    color: white;
+    font-family: 
+        'Ubuntu', 
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    font-size: 24px;
+    font-variant-numeric: oldstyle-nums;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header,
+main,
+footer {
+    margin: 0;
+    padding: 1em;
+}
+
+/* Nav
+   ========================================================================== */
+.site-header,
+.site-footer {
+    background-color: #00d7f4;
+    color: black;
+}
+
+.site-header a,
+.site-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.site-title {
+    letter-spacing: -2px;
+    margin: 0;
+}
+
+.site-header nav a,
+.site-footer nav a {
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.site-header nav a + a {
+    margin-left: 1em;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    font-variant-numeric: lining-nums;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct height in Firefox.
+ */
+
+hr {
+	height: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Add the correct text decoration in Chrome, Edge, and Safari.
+ */
+
+abbr[title] {
+	text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp,
+pre {
+	font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: inherit;
+    vertical-align: baseline;
+}
+
+sub { 
+    font-variant-position: sub; 
+}
+
+sup { 
+    font-variant-position: sup; 
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge and Firefox.
+ */
+
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+	display: list-item;
+}
+
+
+
+
+
 div[data-rating='yes']::after {
     content: '👍';
 }
