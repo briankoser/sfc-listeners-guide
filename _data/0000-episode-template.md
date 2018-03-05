@@ -25,12 +25,18 @@ future_episodes:
 episode_links: 
 celebrity_invites: 
 
-opening:
-news: 
-feedback: 
-
 last_listen: 
 recommendation: 
 recommendation_reason: 
 archivist_note: 
 ---
+# Opening
+
+
+# News
+
+
+# Main Topic
+
+
+# Feedback
