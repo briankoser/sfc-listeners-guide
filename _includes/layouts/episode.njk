@@ -1,27 +1,29 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>№ {{number}} {{ title }}</h1>
+<h1 class="episode-title">№ {{number}} {{ title }}</h1>
 
-<div class="episode-header">
-    Date: {{date | readableDate}}
-    URL: {{podcast_url}}
-    Hosts: {{hosts}}
-</div>
+<header class="episode-header">
+    {{date | readableDate}} · {{ hosts | join(", ") }} · <a href="{{podcast_url}}">🎙️</a>
+</header>
 
+{% if notable_moments %}
 <h2>Notable Moments</h2>
 <ul class="notable-moments">
 {% for moment in notable_moments %}
     <li>{{moment}}</li>
 {% endfor %}
 </ul>
+{% endif %}
 
+{% if firsts %}
 <h2>Firsts</h2>
 <ul class="firsts">
 {% for first in firsts %}
     <li>{{first}}</li>
 {% endfor %}
 </ul>
+{% endif %}
 
 <article class="main-content">
 {{ layoutContent | safe }}

@@ -42,21 +42,21 @@ archivist_note:
 ---
 # Opening
 
-The World Premiere! It's great to see where Ben and Matt started from at episode 1. Ben is much more optimistic, Matt is a little more combative. Both are enrolled in seminary in MN. At their church Epic Life (epiclifeonline.org), Matt is the youth director and Ben is pastoral ministry intern.
+The World Premiere! It's great to see where Ben and Matt started from in episode 1. Ben is much more optimistic, Matt is a little more combative. Both are enrolled in seminary in MN. At their church Epic Life (epiclifeonline.org), Matt is the youth director and Ben is pastoral ministry intern.
 
 The show is hosted at scifichristianpodcast.com
 
 Ben reveals that they have a lifetime contract for the show.
 
 <div class="quote">
-<q class="ben">This is all about chemistry baby!</q>
+<q class="ben">This is all about chemistry, baby!</q>
 <q class="matt">Not that kind of chemistry.</q>
 </div>
 
 The LOST Report addicted Ben to podcasting.
 
 <div class="quote">
-<q class="ben">Even before I got into Ministry, I am a lifelong nerd and completely Unapologetic about it.</q>
+<q class="ben">Even before I got into Ministry, I am a lifelong nerd and completely unapologetic about it.</q>
 <q class="matt">I thought you were going to say, lifelong lover of Christ.</q>
 <q class="ben">...That too.</q>
 </div>
