@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj).toISODate();
   });
 
   // only content in the `episodes/` directory

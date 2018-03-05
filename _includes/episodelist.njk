@@ -1,7 +1,7 @@
 <ol class="episodelist" style="counter-reset: start-from {{ episodelist.length + 1 }}">
 {% for episode in episodelist %}
 	<li class="episodelist-item">
-		<a href="{{ episode.url | url }}" class="episodelist-link">{{ episode.data.title }}</a>
+		<a href="{{ episode.url | url }}" class="episodelist-link">{{ episode.data.title }}</a> ·
 		<span class="episodelist-date">{{ episode.data.podcast_date | readableDate }}</span>
 	</li>
 {% endfor %}
