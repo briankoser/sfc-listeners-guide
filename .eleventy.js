@@ -11,7 +11,8 @@ module.exports = function(eleventyConfig) {
   // only content in the `episodes/` directory
   eleventyConfig.addCollection("episodes", function(collection) {
     return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/episodes\//) !== null;
+      console.log(item.data.tags)
+      return item.inputPath.match(/^\.\/episodes\//) !== null && item.data.tags !== undefined && item.data.tags.includes('episode');
     });
   });
 
