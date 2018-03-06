@@ -1,41 +1,68 @@
+/* todo:
+- reviews
+- top 5s
+- color variables
+- end episode navigation links
+*/
+
 /*! Forked from modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
 
-/* Document
-   ========================================================================== */
+/******************************************************************************
+  FONTS
+******************************************************************************/
+
+
+
+/******************************************************************************
+  VARIABLES
+******************************************************************************/
+:root {
+    --primary-color: #f44336;
+    --secondary-color: #2196F3;
+    --orange: #e67e22;
+}
+
+
+
+/*****************************************************************************
+  ALL
+******************************
+  *, @viewport
+******************************************************************************/
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
 }
 
-* + * {
-	margin-top: 1.5em;
+@-ms-viewport {
+    width: device-width;
 }
 
-div,
-h1 + *,
-h2 + * {
-    margin-top: 0;
+@viewport {
+    width: device-width;
 }
 
-/**
- * Use a more readable tab size (opinionated).
- */
 
-:root {
-	-moz-tab-size: 4;
-	tab-size: 4;
+
+/******************************************************************************
+  SECTIONING AND STRUCTURING
+******************************
+  html, body, header, footer, nav, main, article, aside, section, p, pre,
+  blockquote, figure, figcaption, address, summary, details, div
+******************************************************************************/
+html,
+body,
+.site-footer {
+    height: 100%;
 }
 
 html {
     box-sizing: border-box;
 }
 
-/* Sections
-   ========================================================================== */
-
 body {
-    background-color: #222;
+    background-color: hsl(0, 0%, 13%);
     color: white;
     font-family: 
         'Ubuntu', 
@@ -52,119 +79,119 @@ body {
 header.site-header,
 main,
 footer.site-footer {
-    margin: 0;
     padding: 1em;
 }
 
-/* Nav
-   ========================================================================== */
 header a,
 footer a {
     text-decoration: none;
 }
 
-.site-header,
-.site-footer {
-    background-color: #00d7f4;
-    color: black;
-}
-
-.site-header a,
-.site-footer a {
-    color: black;
-}
-
-.site-title {
-    letter-spacing: -2px;
+/* needs to be reset before `top margin after p` is set */
+h1,
+h2 {
     margin: 0;
 }
 
-.site-header nav {
+main * + *,
+p + h1,
+p + h2 {
+	margin-top: 1.5em;
+}
+
+h1 + *,
+h2 + *,
+li,
+q + q {
+    margin-top: 0;
+}
+
+main a {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    -webkit-hyphens: auto;
+            hyphens: auto;
+    margin: 0;
+}
+
+p + p,
+div + p {
     margin-top: 1.5em;
 }
 
-.site-header nav a,
-.site-footer nav a {
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding: 1em;
-    text-transform: uppercase;
+summary {
+	display: list-item;
 }
 
-.site-header nav a + a {
-    margin-left: 1em;
+details {
+	display: block;
+}
+
+
+
+/******************************************************************************
+  HEADINGS
+************
+  hgroup, h1, h2, h3, h4, h5, h6
+******************************************************************************/
+h1,
+h2 {
+    font-variant-numeric: lining-nums;
 }
 
 h1 {
     font-size: 2em;
-    font-variant-numeric: lining-nums;
-    margin: 1.5em 0 0 0;
 }
 
-h2 {
-    margin: 1.5em 0 0 0;
-}
 
-/* Grouping content
-   ========================================================================== */
+/******************************************************************************
+  LISTS
+*********
+  ul, ol, li, dl, dt, dd, menu, menuitem
+******************************************************************************/
 
-/**
- * Add the correct height in Firefox.
- */
 
-hr {
-	height: 0;
-}
+/******************************************************************************
+  MEDIA
+*********
+  canvas, object, embed, img, audio, video, track, map, area, iframe
+******************************************************************************/
 
-/* Text-level semantics
-   ========================================================================== */
-p {
-    -webkit-hyphens: auto;
-            hyphens: auto;
-    max-width: 33em;
-    margin: 1.5em 0 0 0;
-}
 
-li {
-    margin-top: 0;
-}
 
-/**
- * Add the correct text decoration in Chrome, Edge, and Safari.
- */
+/******************************************************************************
+  FORMS
+*********
+  form, fieldset, legend, label, input, button, select, optgroup, option, 
+  datalist, textarea, output
+******************************************************************************/
 
+
+
+/******************************************************************************
+  TABLES
+**********
+  table, caption, colgroup, col, thead, tfoot, tbody, tr, th, td
+******************************************************************************/
+
+
+
+/******************************************************************************
+  PHRASING
+************
+  a, strong, em, b, i, u, s, sup, sub, small, abbr, dfn, mark, del, ins, q, 
+  cite, data, progress, time, meter, code, var, samp, kbd, keygen, bdi, bdo, 
+  ruby, rt, rp, span
+******************************************************************************/
 abbr[title] {
 	text-decoration: underline dotted;
 }
 
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
 b,
 strong {
-	font-weight: bolder;
-}
-
-/**
- * 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
-code,
-kbd,
-samp,
-pre {
-	font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace; /* 1 */
-	font-size: 1em; /* 2 */
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-
-small {
-	font-size: 80%;
+	font-weight: bold;
 }
 
 sub,
@@ -181,38 +208,126 @@ sup {
     font-variant-position: sup; 
 }
 
-/* Interactive
-   ========================================================================== */
-
-/*
- * Add the correct display in Edge and Firefox.
- */
-
-details {
-	display: block;
+small {
+	font-size: 80%;
 }
 
-/*
- * Add the correct display in all browsers.
- */
-
-summary {
-	display: list-item;
+q {
+    display: inline-block;
+    padding: 0em 0.2em;
 }
 
 
-/* Episodes
-   ========================================================================== */
+
+/******************************************************************************
+  MISCELLANEOUS
+*****************
+  hr
+******************************************************************************/
+hr {
+	height: 0;
+}
+
+
+
+/******************************************************************************
+  HELPER CLASSES
+******************************************************************************/
+
+
+
+/******************************************************************************
+  STRUCTURE CLASSES
+******************************************************************************/
+.site-header,
+.site-footer {
+    background-color: hsl(187, 100%, 48%);
+    color: hsl(0, 0%, 0%);
+}
+
+.site-header nav a,
+.site-footer nav a {
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.site-header a,
+.site-footer a {
+    color: hsl(0, 0%, 0%);
+}
+
+.site-header nav {
+    margin-top: 1.5em;
+}
+
+.site-header nav a + a {
+    margin-left: 1em;
+}
+
+.site-title {
+    letter-spacing: -2px;
+}
+
+
+
+/******************************************************************************
+  EPISODE CLASSES
+******************************************************************************/
 .episode-title {
     font-size: 3em;
     letter-spacing: 3px;
-    margin: 0;
 }
 
-.episode-header {
-    margin: 0;
+.episode-content {
+    max-width: 33em;
 }
 
+.firsts-container {
+    background-color: hsl(187, 75%, 20%);
+    padding: 0.5em 1em;
+}
+
+.notable-moments-container {
+    background-color: hsl(27, 75%, 20%);
+}
+
+
+
+/******************************************************************************
+  HOST CLASSES
+******************************************************************************/
+.ben {
+    background-color: hsl(148, 75%, 20%);
+}
+
+.matt {
+    background-color: hsl(310, 75%, 20%);
+}
+
+
+
+/******************************************************************************
+  QUOTE CLASSES
+******************************************************************************/
+q.inline {
+    display: inline;
+}
+
+q.ben::before {
+    content: 'Ben: ' open-quote;
+}
+
+q.matt::before {
+    content: 'Matt: ' open-quote;
+}
+
+
+
+/******************************************************************************
+  RATING CLASSES
+******************************************************************************/
 div[data-rating='yes']::after {
     content: '👍';
 }
@@ -235,38 +350,12 @@ div[data-rating='dont-know']::after {
 
 
 
-/* Hosts
-   ========================================================================== */
-
-.ben {
-    background-color: #00a84e;
-}
-
-.matt {
-    background-color: #dc6e13;
-}
+/******************************************************************************
+  MEDIA QUERIES
+******************************************************************************/
 
 
-/* Quotes
-   ========================================================================== */
-q {
-    margin-top: 1.5em;
-}
 
-q + q {
-    margin-top: 0;
-}
-
-q.ben,
-q.matt {
-    display: inline-block;
-    padding: 0em 0.2em;
-}
-
-q.ben::before {
-    content: 'Ben: ' open-quote;
-}
-
-q.matt::before {
-    content: 'Matt: ' open-quote;
-}
+/******************************************************************************
+  PRINT STYLES
+******************************************************************************/
