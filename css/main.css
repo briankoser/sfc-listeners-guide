@@ -8,7 +8,6 @@
 - celebrity_invites
 - last_listen, recommendation, recommendation_reason
 - archivist_note
-- color variables
 - end episode navigation links
 */
 
@@ -24,9 +23,14 @@
   VARIABLES
 ******************************************************************************/
 :root {
-    --primary-color: #f44336;
-    --secondary-color: #2196F3;
-    --orange: #e67e22;
+    --sfc-blue: hsl(187, 100%, 48%);
+    --site-background-color: hsl(0, 0%, 13%);
+    --firsts-color: hsl(187, 75%, 20%);
+    --notable-moments-color: hsl(27, 75%, 20%);
+    --ben-color: hsl(148, 75%, 20%);
+    --matt-color: hsl(310, 75%, 20%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
 }
 
 
@@ -69,8 +73,8 @@ html {
 }
 
 body {
-    background-color: hsl(0, 0%, 13%);
-    color: white;
+    background-color: var(--site-background-color);
+    color: var(--white);
     font-family: 
         'Ubuntu', 
 		sans-serif,
@@ -114,7 +118,7 @@ q + q {
 }
 
 main a {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
 }
 
 p {
@@ -252,8 +256,8 @@ hr {
 ******************************************************************************/
 .site-header,
 .site-footer {
-    background-color: hsl(187, 100%, 48%);
-    color: hsl(0, 0%, 0%);
+    background-color: var(--sfc-blue);
+    color: var(--black);
 }
 
 .site-header nav a,
@@ -266,7 +270,7 @@ hr {
 
 .site-header a,
 .site-footer a {
-    color: hsl(0, 0%, 0%);
+    color: var(--black);
 }
 
 .site-header nav {
@@ -304,11 +308,11 @@ hr {
 }
 
 .firsts-container {
-    background-color: hsl(187, 75%, 20%);
+    background-color: var(--firsts-color);
 }
 
 .notable-moments-container {
-    background-color: hsl(27, 75%, 20%);
+    background-color: var(--notable-moments-color);
 }
 
 
@@ -317,11 +321,11 @@ hr {
   HOST CLASSES
 ******************************************************************************/
 .ben {
-    background-color: hsl(148, 75%, 20%);
+    background-color: var(--ben-color);
 }
 
 .matt {
-    background-color: hsl(310, 75%, 20%);
+    background-color: var(--matt-color);
 }
 
 
@@ -347,7 +351,7 @@ q.matt::before {
   REVIEW CLASSES
 ******************************************************************************/
 .review {
-    border: solid 2px hsl(0, 0%, 100%);
+    border: solid 2px var(--white);
     border-radius: 10px;
     max-width: 200px;
 }
@@ -360,9 +364,9 @@ q.matt::before {
 }
 
 .review header {
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
     border-radius: 6px 6px 0 0;
-    color: hsl(0, 0%, 0%);
+    color: var(--black);
     text-align: center;
 }
 
