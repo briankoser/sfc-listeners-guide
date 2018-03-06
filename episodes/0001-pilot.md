@@ -61,9 +61,9 @@ The LOST Report addicted Ben to podcasting.
 <q class="ben">...That too.</q>
 </div>
 
-The show won't be strictly sci-fi, it will include all of genre fiction and topics.
+The show won't be strictly sci-fi, it will include all of genre fiction and related topics.
 
-Ben wants to do a Twilight episode (<q class="ben">It's cool that twilight is bringing people into geek culture.</q>)
+Ben wants to do a Twilight episode (<q class="ben inline">It's cool that Twilight is bringing people into geek culture.</q>)
 
 They will have guest hosts over Skype to discuss topics they're not knowledgeable in.
 
@@ -75,7 +75,7 @@ R2-D2 is the transition sound for everything.
 
 Ben likes superhero movies and TV shows.
 
-Saddest moment of the episode: how excited both hosts are about The Hobbit movie
+Saddest moment of the episode: how excited both hosts are about The Hobbit movie.
 
 Matt vowed to read The Hobbit before the movie comes out.
 
@@ -110,7 +110,6 @@ Ben is looking forward to The Amazing Spider-Man.
   <div class="ben" data-rating="no"></div>
   <div class="matt" data-rating="yes"></div>
 </div>
-
 
 ## Current Recommendations
 
