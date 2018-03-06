@@ -9,6 +9,7 @@
 - last_listen, recommendation, recommendation_reason
 - archivist_note
 - end episode navigation links
+- other variables
 */
 
 /*! Forked from modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -224,6 +225,7 @@ small {
 }
 
 q {
+    border-radius: 10px;
     display: inline-block;
     padding: 0em 0.2em;
 }
@@ -391,6 +393,7 @@ q.matt::before {
 }
 
 .review q {
+    border-radius: 0 0 5px 5px;
     font-size: 0.8em;
 }
 
