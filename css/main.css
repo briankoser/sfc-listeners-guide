@@ -1,6 +1,13 @@
 /* todo:
-- reviews
-- top 5s
+- category
+- series
+- time_loop
+- top_five
+- prophecy
+- future_episodes
+- celebrity_invites
+- last_listen, recommendation, recommendation_reason
+- archivist_note
 - color variables
 - end episode navigation links
 */
@@ -233,7 +240,11 @@ hr {
 /******************************************************************************
   HELPER CLASSES
 ******************************************************************************/
-
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 /******************************************************************************
@@ -333,8 +344,52 @@ q.matt::before {
 
 
 /******************************************************************************
-  RATING CLASSES
+  REVIEW CLASSES
 ******************************************************************************/
+.review {
+    border: solid 2px hsl(0, 0%, 100%);
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+/* clearfix */
+.review:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.review header {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 6px 6px 0 0;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+}
+
+.review .rating {
+    text-align: center;
+    width: 50%;
+}
+
+.review div:last-of-type {
+    border-radius: 0 0 7px 0;
+    float: right;
+}
+
+.review div:first-of-type {
+    border-radius: 0 0 0 7px;
+    float: left;
+}
+
+.review div,
+.review q {
+    margin-top: 0;
+}
+
+.review q {
+    font-size: 0.8em;
+}
+
 div[data-rating='yes']::after {
     content: '👍';
 }

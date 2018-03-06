@@ -88,104 +88,104 @@ Ben is looking forward to The Amazing Spider-Man.
 # Main Topic
 
 <div class="review">
-  <div class="title"><a href="">The Cape</a></div>
-  <div class="ben" data-rating="uninterested"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>The Cape</header>
+  <div class="rating ben" data-rating="uninterested" title="Uninterested"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">The Event</a></div>
-  <div class="ben" data-rating="no"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>The Event</header>
+  <div class="rating ben" data-rating="no" title="No"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Flash Forward</a></div>
-  <div class="ben" data-rating="no"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Flash Forward</header>
+  <div class="rating ben" data-rating="no" title="No"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">V</a></div>
-  <div class="ben" data-rating="no"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>V</header>
+  <div class="rating ben" data-rating="no" title="No"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 ## Current Recommendations
 
 <div class="review">
-  <div class="title"><a href="">Wheel of Time</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="dont-know"></div>
+  <header>Wheel of Time</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="dont-know" title="Never Heard of it"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Fringe</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Fringe</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Scott Pilgrim vs. the World</a></div>
-  <div class="ben" data-rating="interested"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Scott Pilgrim vs. the World</header>
+  <div class="rating ben" data-rating="interested" title="Interested"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">The Avengers</a></div>
-  <div class="ben" data-rating="interested"></div>
-  <div class="matt" data-rating="interested"></div>
+  <header>The Avengers</header>
+  <div class="rating ben" data-rating="interested" title="Interested"></div>
+  <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">The Social Network</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="no"></div>
+  <header>The Social Network</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="no" title="No"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Fables</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="interested"></div>
+  <header>Fables</a></header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Sandman</a></div>
-  <div class="ben" data-rating="yes"></div>
+  <header>Sandman</a></header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Y: The Last Man</a></div>
-  <div class="ben" data-rating="interested"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Y: The Last Man</header>
+  <div class="rating ben" data-rating="interested" title="Interested"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Star Trek: The Original Series</a></div>
-  <div class="ben" data-rating="no"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Star Trek: The Original Series</header>
+  <div class="rating ben" data-rating="no" title="No"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Star Trek II: The Wrath of Khan</a></div>
-  <div class="ben" data-rating="yes"></div>
+  <header>Star Trek II: The Wrath of Khan</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Star Trek: The Motion Picture</a></div>
-  <div class="ben" data-rating="no"></div>
+  <header>Star Trek: The Motion Picture</header>
+  <div class="rating ben" data-rating="no" title="No"></div>
   <q class="ben">I hated hated hated that movie.</q>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Star Trek (2009)</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Star Trek (2009)</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">The Happening</a></div>
-  <div class="ben" data-rating="no"></div>
+  <header>The Happening</header>
+  <div class="rating ben" data-rating="no" title="No"></div>
   <q class="ben">The Crappening</q>
 </div>
 
@@ -194,79 +194,79 @@ Matt's favorite themes in fictions are alternate realities and time travel.
 They're recording video as well as audio.
 
 <div class="review">
-  <div class="title"><a href="">LOST</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>LOST</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Ink</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="interested"></div>
+  <header>Ink</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Sunshine</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Sunshine</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">The Office</a></div>
-  <div class="ben" data-rating="no"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>The Office</header>
+  <div class="rating ben" data-rating="no" title="No"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Community</a></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Community</header>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Outsourced</a></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Outsourced</header>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Parks and Rec</a></div>
-  <div class="ben" data-rating="yes"></div>
+  <header>Parks and Rec</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Firefly</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Firefly</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 Firefly is Ben's favorite show of all time
 
 <div class="review">
-  <div class="title"><a href="">Dollhouse</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Dollhouse</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Buffy: The Vampire Slayer</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Buffy: The Vampire Slayer</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Angel</a></div>
-  <div class="ben" data-rating="yes"></div>
+  <header>Angel</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Batman: Year 1</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="interested"></div>
+  <header>Batman: Year 1</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
 <div class="review">
-  <div class="title"><a href="">Dr. Horrible's Sing-a-long Blog</a></div>
-  <div class="ben" data-rating="yes"></div>
-  <div class="matt" data-rating="yes"></div>
+  <header>Dr. Horrible's Sing-a-long Blog</header>
+  <div class="rating ben" data-rating="yes" title="Yes"></div>
+  <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
 Matt says he loves Attack of the Clones (although he later retracts the statement) 
