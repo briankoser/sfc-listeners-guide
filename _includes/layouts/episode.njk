@@ -8,24 +8,28 @@ layout: layouts/base.njk
 </header>
 
 {% if notable_moments %}
-<h2>Notable Moments</h2>
-<ul class="notable-moments">
-{% for moment in notable_moments %}
-    <li>{{moment}}</li>
-{% endfor %}
-</ul>
+<div class="notable-moments-container">
+    <h2>Notable Moments</h2>
+    <ul class="notable-moments">
+    {% for moment in notable_moments %}
+        <li>{{moment}}</li>
+    {% endfor %}
+    </ul>
+</div>
 {% endif %}
 
 {% if firsts %}
-<h2>Firsts</h2>
-<ul class="firsts">
-{% for first in firsts %}
-    <li>{{first}}</li>
-{% endfor %}
-</ul>
+<div class="firsts-container">
+    <h2>Firsts</h2>
+    <ul class="firsts">
+    {% for first in firsts %}
+        <li>{{first}}</li>
+    {% endfor %}
+    </ul>
+</div>
 {% endif %}
 
-<article class="main-content">
+<article class="episode-content">
 {{ layoutContent | safe }}
 </article>
 
