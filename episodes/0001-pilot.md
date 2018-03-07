@@ -36,7 +36,7 @@ episode_links:
 celebrity_invites: 
 
 last_listen: 2018-01-22
-recommendation: listen
+recommendation: yes
 recommendation_reason: Lays a good foundation for where Ben and Matt were with their interests when they started the show.
 archivist_note: 
 ---
@@ -84,6 +84,8 @@ Matt vowed to read The Hobbit before the movie comes out.
 Matt said it would be crazy to buy comic books monthly.
 
 Ben is looking forward to The Amazing Spider-Man.
+
+
 
 # Main Topic
 

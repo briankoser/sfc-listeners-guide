@@ -42,7 +42,7 @@ news:
 feedback: 
 
 last_listen: 
-recommendation: listen
+recommendation: yes
 recommendation_reason: This first "fringe theology" episode includes topics that will be major themes of the podcast, such as the scope of the Bible and what is compatible with Christianity.
 archivist_note: 
 ---
@@ -50,11 +50,15 @@ archivist_note:
 <span class="quote-context">Regarding Pirates of the Caribbean 3: At World's End</span>
 <q class="ben">I hated it. I hated it. I hated it.</q>
 
+
+
 # Main Topic
 
 The Bible is for humans and does not preclude things outside that context: for example, aliens.
 
 If a flying saucer with aliens came to Earth, would you still be a Christian?
+
+
 
 # Feedback
 Ben forgot to mention the following Top 5 runners up in the previous episode: 

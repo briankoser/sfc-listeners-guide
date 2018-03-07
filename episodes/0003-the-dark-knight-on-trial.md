@@ -41,9 +41,6 @@ recommendation: essential
 recommendation_reason: The first iconic episode and a classic example of the intersection between pop culture and Christianity that the SFC does so well.
 archivist_note:
 ---
-# Opening
-
-
 # News
 At this point Ben is optimistic about genre movies and is excited for "More: more Pirates, more Matrix, more Nolan Batman".
 
