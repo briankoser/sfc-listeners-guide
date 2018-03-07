@@ -10,7 +10,7 @@ number: 3
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-103-the-dark-knight-on-trial/
 podcast_date: 
-category: 
+category: Philosophy
 series: 
 hosts:
   - Ben de Bono

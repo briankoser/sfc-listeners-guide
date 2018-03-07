@@ -9,7 +9,7 @@ slug: 0001-pilot
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
 date: 2011-01-11
-category: top-five
+category: Countdown
 series: interests
 hosts:
   - Ben de Bono

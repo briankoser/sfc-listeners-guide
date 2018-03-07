@@ -1,5 +1,4 @@
 /* todo:
-- category
 - series
 - time_loop
 - top_five
@@ -315,6 +314,43 @@ hr {
 
 .notable-moments-container {
     background-color: var(--notable-moments-color);
+}
+
+
+
+/******************************************************************************
+  CATEGORY CLASSES
+******************************************************************************/
+.category-countdown::after {
+    content: '🚀';
+}
+
+.category-feedback::after {
+    content: '📪';
+}
+
+.category-literature::after {
+    content: '📚';
+}
+
+.category-main-topic::after {
+    content: '👽';
+}
+
+.category-news::after {
+    content: '📰';
+}
+
+.category-philosophy::after {
+    content: '💭';
+}
+
+.category-review::after {
+    content: '👍';
+}
+
+.category-theology::after {
+    content: '⛪';
 }
 
 

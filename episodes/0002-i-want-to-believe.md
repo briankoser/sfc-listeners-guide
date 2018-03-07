@@ -9,7 +9,7 @@ slug: 0002-i-want-to-believe
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/
 date: 2011-01-16 
-category: fringe-theology
+category: Theology
 series: supernatural-creatures
 hosts:
   - Ben de Bono
