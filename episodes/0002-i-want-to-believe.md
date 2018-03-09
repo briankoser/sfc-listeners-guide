@@ -14,7 +14,8 @@ series: Supernatural Creatures
 hosts:
   - Ben de Bono
   - Matt Anderson
-time_loop: false
+time_loop_forward: 125
+time_loop_backward: 
 top_five: false
 
 notable_moments:

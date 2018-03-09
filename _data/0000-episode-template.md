@@ -2,6 +2,8 @@
 layout: episode
 tags:
   - episode
+  - stan-lee-quote-of-the-week
+  - dark-knight-news 
 
 title: 
 number: 
@@ -14,7 +16,8 @@ series:
 hosts:
   - Ben de Bono
   - Matt Anderson
-time_loop: false
+time_loop_forward: 
+time_loop_backward: 
 top_five: false
 
 notable_moments:

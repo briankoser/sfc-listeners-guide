@@ -5,12 +5,26 @@ layout: layouts/base.njk
 
 <header class="episode-header">
     <a href="{{podcast_url}}">🎙️</a> &nbsp;&nbsp;·&nbsp;&nbsp; {{date | readableDate}} &nbsp;&nbsp;·&nbsp;&nbsp; {{ hosts | join(", ") }}
+    
     <div class="category-{{category | slug}}">
         Category: {{category}}
     </div>
+    
     {% if series %}
     <div class="series">
         Series: {{series}}
+    </div>
+    {% endif %}
+
+    {% if time_loop_forward %}
+    <div class="time-loop-forward">
+        (Time Looped in № {{time_loop_forward}})
+    </div>
+    {% endif %}
+
+    {% if time_loop_backward %}
+    <div class="time-loop-backward">
+        Time Loop of № {{time_loop_backward}}
     </div>
     {% endif %}
 </header>

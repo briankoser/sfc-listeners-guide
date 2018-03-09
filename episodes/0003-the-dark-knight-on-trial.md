@@ -15,7 +15,8 @@ series:
 hosts:
   - Ben de Bono
   - Matt Anderson
-timeloop: false
+time_loop_forward: 77
+time_loop_backward: 
 top_five: false
 
 notable_moments:
@@ -31,7 +32,7 @@ firsts:
   - Matt and Ben start blogging on the website
  
 prophecy: 
-  - Matt: reboots are going to get old really fast
+  - '[{"host": "Matt", "prophecy": "Reboots are going to get old really fast.", "veracity": true, "comments": "There will be entire episodes of Ben complaining about reboots."}]'
 future_episodes: 
 episode_links: 
 celebrity_invites: 

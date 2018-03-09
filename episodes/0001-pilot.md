@@ -14,7 +14,8 @@ series:
 hosts:
   - Ben de Bono
   - Matt Anderson
-time_loop: false
+time_loop_forward: 149
+time_loop_backward: 
 top_five: true
 
 notable_moments:
