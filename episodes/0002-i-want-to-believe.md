@@ -34,7 +34,7 @@ celebrity_invites:
   - JJ Abrams
 
 last_listen: 
-recommendation: yes
+recommendation: yes-timeloop
 recommendation_reason: This first "fringe theology" episode includes topics that will be major themes of the podcast, such as the scope of the Bible and what is compatible with Christianity.
 archivist_note: 
 ---

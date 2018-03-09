@@ -37,7 +37,7 @@ episode_links:
 celebrity_invites: 
 
 last_listen: 2018-01-22
-recommendation: yes
+recommendation: yes-timeloop
 recommendation_reason: Lays a good foundation for where Ben and Matt were with their interests when they started the show.
 archivist_note: 
 ---

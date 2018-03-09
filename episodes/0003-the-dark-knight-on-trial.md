@@ -38,7 +38,7 @@ episode_links:
 celebrity_invites: 
 
 last_listen: 2018-01-24
-recommendation: essential
+recommendation: essential-timeloop
 recommendation_reason: The first iconic episode and a classic example of the intersection between pop culture and Christianity that the SFC does so well.
 archivist_note:
 ---
