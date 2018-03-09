@@ -45,38 +45,54 @@ archivist_note:
 # News
 At this point Ben is optimistic about genre movies and is excited for "More: more Pirates, more Matrix, more Nolan Batman".
 
-B "I'm really glad they're rebooting Spider-Man."
-M "Reboots are going to get really old really fast...I don't need to see Spider-Man become Spider-Man again."
+<div class="quote">
+<q class="ben">I'm really glad they're rebooting Spider-Man.</q>
+<q class="matt">Reboots are going to get really old really fast...I don't need to see Spider-Man become Spider-Man again.</q>
+</div>
 
 
 
 # Main Topic
-Is batman justified in his vigilantism?
+Is Batman justified in his vigilantism?
 
-General morality
-Legality
-Motive
-Effectiveness
+There are four areas Batman must be justified:
 
-B we're talking about Jesus the man, not Jesus...
-M oh you're going to separate Jesus now?
+1. General morality
+2. Legality
+3. Motive
+4. Effectiveness
 
-B all it takes for evil to Triumph is for good men to do nothing
-M is that from a comic book?
+<div class="quote">
+<q class="ben">We're talking about Jesus the man, not Jesus...</q>
+<q class="matt">Oh, you're going to separate Jesus now?</q>
+</div>
 
-M you can't say that Batman created all bad. Otherwise he would be called bad man.
+<div class="quote">
+<q class="ben">'All it takes for evil to triumph is for good men to do nothing.'</q>
+<q class="matt">Is that from a comic book?</q>
+</div>
 
-B (on back to the future) I bet there's some really great spiritual themes in there
-M absolutely. There has to be. It's from 1985
+<div class="quote">
+<q class="matt">You can't say that Batman created all bad. Otherwise he would be called 'Badman'.</q>
+</div>
+
+<div class="quote">
+<span class="quote-context">On Back to the Future</span>
+<q class="ben">I bet there's some really great spiritual themes in there.</q>
+<q class="matt">Absolutely. There has to be: it's from 1985.</q>
+</div>
 
 
 
 # Feedback
-After feedback from "prostate gland problems", they turn on spam filter
+After feedback from "Prostate Gland Problems", the hosts turn on the spam filter.
 
-B thank you prostate gland problems!
-M thank you prostate
+<div class="quote">
+<q class="ben">Thank you, Prostate Gland Problems!</q>
+<q class="matt">Thank you, Prostate.</q>
+</div>
 
-M is it a Sci-Fi prostate gland?
-B I don't want any prostate related links going up on the website. Is that too much to ask?
-
+<div class="quote">
+<q class="matt">Is it a sci-fi prostate gland?</q>
+<q class="ben">I don't want any prostate-related links going up on the website. Is that too much to ask?</q>
+</div>

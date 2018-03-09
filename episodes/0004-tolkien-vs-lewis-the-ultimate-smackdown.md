@@ -20,12 +20,12 @@ top_five: false
 
 notable_moments:
 firsts: 
-  - Sci-Fi song of the week (Farewell Apollo, Battlestar Galactica)
+  - Sci-Fi Song of the Week (Farewell Apollo, Battlestar Galactica)
   - Skip Crust mention
   - Post-outro easter egg (Matt saying the Numbers from LOST)
 prophecy: 
 future_episodes: 
-  - Episodes plural on Battlestar Galactica
+  - Battlestar Galactica
 episode_links: 
 celebrity_invites: 
 
@@ -35,7 +35,7 @@ recommendation_reason: Instead watch the highlights on the [YouTube video](https
 archivist_note: 
 ---
 # Opening
-Planning to go to San Diego comic con
+Planning to go to San Diego Comic Con
 
 
 
@@ -53,4 +53,4 @@ Matt argues that allegory is more effective.
 
 
 # Feedback
-Listener Dave Johnson from mobile (named number one fan) gets chief tirell signature for rebel underground
+Listener Dave Johnson from Mobile gets an autographed picture of Aaron Douglas (Chief Tyrol from Battlestar Galactica) for the Rebel Underground and is named the named number one fan of the podcast.

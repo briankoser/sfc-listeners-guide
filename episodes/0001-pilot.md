@@ -57,8 +57,8 @@ Ben reveals that they have a lifetime contract for the show.
 The LOST Report addicted Ben to podcasting.
 
 <div class="quote">
-<q class="ben">Even before I got into Ministry, I am a lifelong nerd and completely unapologetic about it.</q>
-<q class="matt">I thought you were going to say, lifelong lover of Christ.</q>
+<q class="ben">Even before I got into ministry, I am a lifelong nerd and completely unapologetic about it.</q>
+<q class="matt">I thought you were going to say, 'lifelong lover of Christ'.</q>
 <q class="ben">...That too.</q>
 </div>
 

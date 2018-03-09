@@ -52,9 +52,10 @@ Ben says "yes sir" a lot and "yeppers" once.
 # News
 Pirates of the Caribbean 5 was announced, although it would not be released until 2017.
 
+<div class="quote">
 <span class="quote-context">Regarding Pirates of the Caribbean 3: At World's End</span>
 <q class="ben">I hated it. I hated it. I hated it.</q>
-
+</div>
 
 
 # Main Topic
@@ -72,7 +73,7 @@ Ben forgot to mention the following Top 5 runners up in the previous episode:
 - Eternal Sunshine of the Spotless Mind
 
 <div class="quote">
-<q class="ben">Listener Koby writes in on Facebook. Hi Koby. </q>
+<q class="ben">Listener Koby writes in on Facebook. Hi Koby.</q>
 <q class="matt">Hi Koby. He's my friend.</q>
 <q class="ben">He's not my friend. But maybe he will be now.</q>
 </div>
