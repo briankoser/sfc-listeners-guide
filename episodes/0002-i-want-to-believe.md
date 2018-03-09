@@ -32,21 +32,25 @@ episode_links:
 celebrity_invites:
   - JJ Abrams
 
-opening:
-  - Ben and Matt's overall brand for their various media projects is currently The Rebel Underground.
-  - Their first "studio" is called "Rebel Underground Studios".
-  - "Matt and Ben play 'rock scissors paper': Matt plays rock and Ben plays scissors."
-  - Ben says "yes sir" a lot and "yeppers" once.
-news: 
-- Pirates of the Caribbean 5 was announced, although it would not be released until 2017.
-feedback: 
-
 last_listen: 
 recommendation: yes
 recommendation_reason: This first "fringe theology" episode includes topics that will be major themes of the podcast, such as the scope of the Bible and what is compatible with Christianity.
 archivist_note: 
 ---
+# Opening
+Ben and Matt's overall brand for their various media projects is currently "The Rebel Underground".
+
+Their first "studio" is called "Rebel Underground Studios".
+
+Matt and Ben play "rock scissors paper": Matt plays rock and Ben plays scissors.
+
+Ben says "yes sir" a lot and "yeppers" once.
+
+
+
 # News
+Pirates of the Caribbean 5 was announced, although it would not be released until 2017.
+
 <span class="quote-context">Regarding Pirates of the Caribbean 3: At World's End</span>
 <q class="ben">I hated it. I hated it. I hated it.</q>
 
