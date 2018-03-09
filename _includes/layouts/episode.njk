@@ -51,6 +51,22 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
+{% if prophecy %}
+<div class="prophecies-container">
+    <h2>Prophecy</h2>
+    <div class="prophecies">
+    {% for prediction in prophecy %}
+        <div class="prophecy {{host}}">
+            <span class="host">{{host}}</span>: <span class="prediction">{{prophecy}}</span>
+        </div>
+        <div class="veracity {{veracity}}">
+            {{veracity | title}}: {{comments}}
+        </div>
+    {% endfor %}
+    </div>
+</div>
+{% endif %}
+
 <article class="episode-content">
 {{ layoutContent | safe }}
 </article>
