@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
 date: 2011-01-11
 category: Countdown
-series: interests
+series: 
 hosts:
   - Ben de Bono
   - Matt Anderson

@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/
 date: 2011-01-16 
 category: Theology
-series: supernatural-creatures
+series: Supernatural Creatures
 hosts:
   - Ben de Bono
   - Matt Anderson

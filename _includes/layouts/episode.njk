@@ -5,10 +5,14 @@ layout: layouts/base.njk
 
 <header class="episode-header">
     <a href="{{podcast_url}}">🎙️</a> &nbsp;&nbsp;·&nbsp;&nbsp; {{date | readableDate}} &nbsp;&nbsp;·&nbsp;&nbsp; {{ hosts | join(", ") }}
-    <br>
-    <span class="category-{{category | slug}}">
+    <div class="category-{{category | slug}}">
         Category: {{category}}
-    </span>
+    </div>
+    {% if series %}
+    <div class="series">
+        Series: {{series}}
+    </div>
+    {% endif %}
 </header>
 
 {% if notable_moments %}
