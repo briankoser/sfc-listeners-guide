@@ -16,7 +16,6 @@ hosts:
   - Matt Anderson
 time_loop_forward: 149
 time_loop_backward: 
-top_five: true
 
 notable_moments:
 firsts: 
