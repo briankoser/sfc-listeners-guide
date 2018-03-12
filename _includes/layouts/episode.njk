@@ -78,6 +78,17 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
+{% if celebrity_invites %}
+<div class="celebrity-invites-container">
+    <h2>Celebrity Invites</h2>
+    <ul class="celebrity-invites">
+    {% for invite in celebrity_invites %}
+        <li>{{invite}}</li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
 <article class="episode-content">
 {{ layoutContent | safe }}
 </article>
