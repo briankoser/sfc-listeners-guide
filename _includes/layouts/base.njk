@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700" rel="stylesheet">
     </head>
     <body>
+        <div class="section">
         <header class="navbar">
             <h1 class="navbar-brand">
                 <a class="navbar-item" href="/">{{ metadata.title }}</a>
@@ -22,7 +23,7 @@
                 </div>
             </h1>
             <nav id="navMenu" class="navbar-menu">
-                <div class="navbar-start">
+                <div class="navbar-end">
                     <a class="navbar-item" href="/">Home</a>
                     <a class="navbar-item" href="/episodes/">Episodes</a>
                     {# <a href="/">Awards</a>
@@ -31,12 +32,13 @@
                 </div>
             </nav>
         </header>
-        <main class="container body-content">
+        <main class="container">
             {{ layoutContent | safe }}
         </main>
-        <footer class="site-footer">
+        <footer class="footer">
             <p>Creative Commons License</p>
         </footer>
+        </div>
 
         <!-- bulma-provided navbar -->
         <script>
@@ -63,6 +65,6 @@
             }
 
             });
-        </script>    
+        </script>
     </body>
 </html>

@@ -1,57 +1,94 @@
 ---
 layout: layouts/base.njk
 ---
-<h1 class="episode-title">№ {{number}} {{ title }}</h1>
-
-<header class="episode-header">
-    <a href="{{podcast_url}}">🎙️</a> &nbsp;&nbsp;·&nbsp;&nbsp; {{date | readableDate}} &nbsp;&nbsp;·&nbsp;&nbsp; {{ hosts | join(", ") }}
-    
-    <div class="category-{{category | slug}}">
-        Category: {{category}}
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-1">№ {{number}} {{ title }}</h1>
+            <h2 class="subtitle is-3">
+                <a href="{{podcast_url}}">🎙️ (replace with play icon) </a> · {{date | readableDate}} · {{ hosts | join(", ") }}
+            </h2>
+        </div>
     </div>
-    
+</section>
+
+<section class="columns">
+    <div class="column category-{{category | slug}}">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title">Category</p>
+            </header>
+            <div class="card-content">
+                <div class="content">{{category}}</div>
+            </div>
+        </div>
+    </div>
+
     {% if series %}
-    <div class="series">
-        Series: {{series}}
+    <div class="column series">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title">Series</p>
+            </header>
+            <div class="card-content">
+                <div class="content">{{series}}</div>
+            </div>
+        </div>
     </div>
     {% endif %}
 
     {% if time_loop_forward %}
-    <div class="time-loop-forward">
-        (Time Looped in № {{time_loop_forward}})
+    <div class="column time-loop-forward">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title">Time Looped as</p>
+            </header>
+            <div class="card-content">
+                <div class="content">№ {{time_loop_forward}}</div>
+            </div>
+        </div>
     </div>
     {% endif %}
 
     {% if time_loop_backward %}
-    <div class="time-loop-backward">
-        Time Loop of № {{time_loop_backward}}
+    <div class="column time-loop-backward">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title">Time Loop of</p>
+            </header>
+            <div class="card-content">
+                <div class="content">№ {{time_loop_backward}}</div>
+            </div>
+        </div>
     </div>
     {% endif %}
-</header>
+</section>
 
-<div class="recommendation-container">
-    <h2>Recommendation</h2>
-    <div class="recommendation {{recommendation}}">
-    {% if recommendation == 'yes' %}
-        Listen
-    {% elif recommendation == 'yes-timeloop' %}
-        Listen to Timeloop (Episode {{time_loop_forward}})
-    {% elif recommendation == 'essential' %}
-        Essential
-    {% elif recommendation == 'no' %}
-        Skip
-    {% endif %}
+<article class="message recommendation-container">
+    <div class="message-header">
+        <p>Recommendation</p>
+        <p>{{last_listen | readableDate}}</p>
     </div>
+    <div class="message-body">
+        <div class="recommendation {{recommendation}}">
+        {% if recommendation == 'yes' %}
+            Listen (ear icon)
+        {% elif recommendation == 'yes-timeloop' %}
+            Listen to Timeloop (Episode {{time_loop_forward}}) (ear icon)
+        {% elif recommendation == 'essential' %}
+            Essential (exlamation mark icon)
+        {% elif recommendation == 'no' %}
+            Skip (warning icon)
+        {% endif %}
+        </div>
 
-    <div class="recommendation-reason">{{recommendation_reason}}</div>
-    <div class="last-listen">
-        Archivist last listen {{last_listen | readableDate}}
+        <div class="recommendation-reason">{{recommendation_reason}}</div>
     </div>
-</div>
+</article>
 
 {% if notable_moments %}
 <div class="notable-moments-container">
-    <h2>Notable Moments</h2>
+    <h2 class="title is-2">Notable Moments</h2>
     <ul class="notable-moments">
     {% for moment in notable_moments %}
         <li>{{moment}}</li>
@@ -62,7 +99,7 @@ layout: layouts/base.njk
 
 {% if firsts %}
 <div class="firsts-container">
-    <h2>Firsts</h2>
+    <h2 class="title is-2">Firsts</h2>
     <ul class="firsts">
     {% for first in firsts %}
         <li>{{first}}</li>
@@ -114,11 +151,14 @@ layout: layouts/base.njk
 </article>
 
 {% if archivist_note %}
-<div class="archivist-note">
-    <h2>Archivist Note</h2>
-    
-    <p>{{archivist_note}}</p>
-</div>
+<article class="message archivist-note">
+    <div class="message-header">
+        <p>Archivist Note</p>
+    </div>
+    <div class="message-body">
+        {{archivist_note}}
+    </div>
+</article>
 {% endif %}
 
 <nav class="episode-nav">
