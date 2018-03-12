@@ -56,11 +56,11 @@ layout: layouts/base.njk
     <h2>Prophecy</h2>
     <div class="prophecies">
     {% for prediction in prophecy %}
-        <div class="prophecy {{host}}">
-            <span class="host">{{host}}</span>: <span class="prediction">{{prophecy}}</span>
+        <div class="prophecy {{prediction.host}}">
+            <span class="host">{{prediction.host}}</span>: <span class="prediction">{{prediction.prophecy}}</span>
         </div>
-        <div class="veracity {{veracity}}">
-            {{veracity | title}}: {{comments}}
+        <div class="veracity {{prediction.veracity}}">
+            {{prediction.veracity | string | title}}: {{prediction.comments}}
         </div>
     {% endfor %}
     </div>

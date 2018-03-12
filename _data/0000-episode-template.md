@@ -22,7 +22,7 @@ time_loop_backward:
 notable_moments:
 firsts: 
 prophecy: 
-  - '[{"host": "", "prophecy": "", "veracity": true, "comments": ""}]'
+  - {"host": "", "prophecy": "", "veracity": true, "comments": ""}
 future_episodes: 
 episode_links: 
 celebrity_invites: 
