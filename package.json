@@ -24,6 +24,7 @@
     "npm-run-all": "^4.1.2"
   },
   "dependencies": {
+    "bulma": "^0.6.2",
     "npm": "^5.7.1"
   }
 }
