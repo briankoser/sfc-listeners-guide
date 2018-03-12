@@ -29,6 +29,26 @@ layout: layouts/base.njk
     {% endif %}
 </header>
 
+<div class="recommendation-container">
+    <h2>Recommendation</h2>
+    <div class="recommendation {{recommendation}}">
+    {% if recommendation == 'yes' %}
+        Listen
+    {% elif recommendation == 'yes-timeloop' %}
+        Listen to Timeloop (Episode {{time_loop_forward}})
+    {% elif recommendation == 'essential' %}
+        Essential
+    {% elif recommendation == 'no' %}
+        Skip
+    {% endif %}
+    </div>
+
+    <div class="recommendation-reason">{{recommendation_reason}}</div>
+    <div class="last-listen">
+        Archivist last listen {{last_listen | readableDate}}
+    </div>
+</div>
+
 {% if notable_moments %}
 <div class="notable-moments-container">
     <h2>Notable Moments</h2>
