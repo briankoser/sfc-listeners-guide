@@ -67,6 +67,17 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
+{% if future_episodes %}
+<div class="future-episodes-container">
+    <h2>Future Episodes</h2>
+    <ul class="future-episodes">
+    {% for episode in future_episodes %}
+        <li>{{episode}}</li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
 <article class="episode-content">
 {{ layoutContent | safe }}
 </article>
