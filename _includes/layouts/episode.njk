@@ -113,6 +113,14 @@ layout: layouts/base.njk
 {{ layoutContent | safe }}
 </article>
 
+{% if archivist_note %}
+<div class="archivist-note">
+    <h2>Archivist Note</h2>
+    
+    <p>{{archivist_note}}</p>
+</div>
+{% endif %}
+
 <nav class="episode-nav">
     {% if previous.url %}
     <a href="{{ previous.url }}">← Previous</a>
