@@ -7,18 +7,28 @@
         <meta name="description" content="The unofficial listener's guide to The Sci-Fi Christian Podcast, hosted by Ben de Bono and Matt Anderson">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#f00">
-        <link href="/css/main.css" rel="stylesheet" type="text/css">
+        <link href="/css/bulma.css" rel="stylesheet" type="text/css">
+        {# <link href="/css/main.css" rel="stylesheet" type="text/css"> #}
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700" rel="stylesheet">
     </head>
     <body>
-        <header role="banner" class="site-header">
-            <h1 class="site-title"><a href="/">{{ metadata.title }}</a></h1>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/episodes/">Episodes</a>
-                {# <a href="/">Awards</a>
-                <a href="/">Statistics</a> #}
-                <a href="/about/">About</a>
+        <header class="navbar">
+            <h1 class="navbar-brand">
+                <a class="navbar-item" href="/">{{ metadata.title }}</a>
+                <div class="navbar-burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </h1>
+            <nav id="navMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="/">Home</a>
+                    <a class="navbar-item" href="/episodes/">Episodes</a>
+                    {# <a href="/">Awards</a>
+                    <a href="/">Statistics</a> #}
+                    <a class="navbar-item" href="/about/">About</a>
+                </div>
             </nav>
         </header>
         <main class="container body-content">
@@ -27,5 +37,32 @@
         <footer class="site-footer">
             <p>Creative Commons License</p>
         </footer>
+
+        <!-- bulma-provided navbar -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+
+            // Get all "navbar-burger" elements
+            var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(function ($el) {
+                $el.addEventListener('click', function () {
+                    // Get the target from the "data-target" attribute
+                    var target = $el.dataset.target;
+                    var $target = document.getElementById(target);
+
+                    // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+                });
+            }
+
+            });
+        </script>    
     </body>
 </html>
