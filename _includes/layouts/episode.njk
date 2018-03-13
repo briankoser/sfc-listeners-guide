@@ -12,57 +12,41 @@ layout: layouts/base.njk
     </div>
 </section>
 
-<section class="columns">
-    <div class="column category-{{category | slug}}">
-        <div class="card">
-            <header class="card-header">
-                <p class="card-header-title">Category</p>
-            </header>
-            <div class="card-content">
-                <div class="content">{{category}}</div>
-            </div>
+<div class="field is-grouped is-grouped-multiline">
+    <div class="control">
+        <div class="tags has-addons category-{{category | slug}}">
+            <span class="tag is-large is-dark">Category</span>
+            <span class="tag is-large is-primary">{{category}}</span>
         </div>
     </div>
 
     {% if series %}
-    <div class="column series">
-        <div class="card">
-            <header class="card-header">
-                <p class="card-header-title">Series</p>
-            </header>
-            <div class="card-content">
-                <div class="content">{{series}}</div>
-            </div>
+    <div class="control">
+        <div class="tags has-addons">
+            <span class="tag is-large is-dark">Series</span>
+            <span class="tag is-large is-primary">{{series}}</span>
         </div>
     </div>
     {% endif %}
 
     {% if time_loop_forward %}
-    <div class="column time-loop-forward">
-        <div class="card">
-            <header class="card-header">
-                <p class="card-header-title">Time Looped as</p>
-            </header>
-            <div class="card-content">
-                <div class="content">№ {{time_loop_forward}}</div>
-            </div>
+    <div class="control">
+        <div class="tags has-addons">
+            <span class="tag is-large is-dark">Time Looped as</span>
+            <span class="tag is-large is-primary">№ {{time_loop_forward}}</span>
         </div>
     </div>
     {% endif %}
 
     {% if time_loop_backward %}
-    <div class="column time-loop-backward">
-        <div class="card">
-            <header class="card-header">
-                <p class="card-header-title">Time Loop of</p>
-            </header>
-            <div class="card-content">
-                <div class="content">№ {{time_loop_backward}}</div>
-            </div>
+    <div class="control">
+        <div class="tags has-addons">
+            <span class="tag is-large is-dark">Time Looped of</span>
+            <span class="tag is-large is-primary">№ {{time_loop_backward}}</span>
         </div>
     </div>
     {% endif %}
-</section>
+</div>
 
 <article class="message recommendation-container">
     <div class="message-header">
