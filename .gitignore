@@ -49,3 +49,5 @@ Temporary Items
 _site/
 node_modules/
 package-lock.json
+
+css/main.css
