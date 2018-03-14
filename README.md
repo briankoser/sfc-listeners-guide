@@ -15,10 +15,14 @@ The Unofficial Listener's Guide for The Sci-Fi Christian podcast
 
 > npm install --global --production windows-build-tools
 
-4. Run eleventy
+4a. Build site (in _site)
 
-> npm run build  # generates site in _site
+```shell
+npm run build
+```
 
-or 
+4b. Build, watch, serve site (at http://localhost:8080)
 
-> npm run dev  # generates site in _site, watches and generates again when changes are made, serves the site at http://localhost:8080
+```shell
+npm run dev
+```
