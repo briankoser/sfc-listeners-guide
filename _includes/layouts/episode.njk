@@ -10,124 +10,120 @@ layout: layouts/base.njk
             </h2>
         </div>
     </div>
+
+    <div class="hero-foot">
+        <div class="field is-grouped is-grouped-multiline">
+            <div class="control">
+                <div class="tags has-addons">
+                    <span class="tag is-large is-dark">Category</span>
+                    <span class="tag is-large is-success category-{{category | slug}}">{{category}}</span>
+                </div>
+            </div>
+
+            {% if series %}
+            <div class="control">
+                <div class="tags has-addons">
+                    <span class="tag is-large is-dark">Series</span>
+                    <span class="tag is-large is-success">{{series}}</span>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if time_loop_forward %}
+            <div class="control">
+                <div class="tags has-addons">
+                    <span class="tag is-large is-dark">Time Looped as</span>
+                    <span class="tag is-large is-success">№ {{time_loop_forward}}</span>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if time_loop_backward %}
+            <div class="control">
+                <div class="tags has-addons">
+                    <span class="tag is-large is-dark">Time Looped of</span>
+                    <span class="tag is-large is-success">№ {{time_loop_backward}}</span>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
 </section>
+<br>
+<div class="columns">
+    <div class="column is-half ">
+        <article class="message is-info">
+            <div class="message-header">
+                <h3>Recommendation</h3>
+                <p>{{last_listen | readableDate}}</p>
+            </div>
+            <div class="message-body">
+                <div class="recommendation {{recommendation}}">
+                {% if recommendation == 'yes' %}
+                    Listen (ear icon)
+                {% elif recommendation == 'yes-timeloop' %}
+                    Listen to Timeloop (Episode {{time_loop_forward}}) (ear icon)
+                {% elif recommendation == 'essential' %}
+                    Essential (exlamation mark icon)
+                {% elif recommendation == 'no' %}
+                    Skip (warning icon)
+                {% endif %}
+                </div>
 
-<div class="field is-grouped is-grouped-multiline">
-    <div class="control">
-        <div class="tags has-addons category-{{category | slug}}">
-            <span class="tag is-large is-dark">Category</span>
-            <span class="tag is-large is-primary">{{category}}</span>
-        </div>
+                <div class="recommendation-reason">{{recommendation_reason}}</div>
+            </div>
+        </article>
     </div>
-
-    {% if series %}
-    <div class="control">
-        <div class="tags has-addons">
-            <span class="tag is-large is-dark">Series</span>
-            <span class="tag is-large is-primary">{{series}}</span>
-        </div>
-    </div>
-    {% endif %}
-
-    {% if time_loop_forward %}
-    <div class="control">
-        <div class="tags has-addons">
-            <span class="tag is-large is-dark">Time Looped as</span>
-            <span class="tag is-large is-primary">№ {{time_loop_forward}}</span>
-        </div>
-    </div>
-    {% endif %}
-
-    {% if time_loop_backward %}
-    <div class="control">
-        <div class="tags has-addons">
-            <span class="tag is-large is-dark">Time Looped of</span>
-            <span class="tag is-large is-primary">№ {{time_loop_backward}}</span>
-        </div>
-    </div>
-    {% endif %}
 </div>
-
-<article class="message recommendation-container">
-    <div class="message-header">
-        <p>Recommendation</p>
-        <p>{{last_listen | readableDate}}</p>
-    </div>
-    <div class="message-body">
-        <div class="recommendation {{recommendation}}">
-        {% if recommendation == 'yes' %}
-            Listen (ear icon)
-        {% elif recommendation == 'yes-timeloop' %}
-            Listen to Timeloop (Episode {{time_loop_forward}}) (ear icon)
-        {% elif recommendation == 'essential' %}
-            Essential (exlamation mark icon)
-        {% elif recommendation == 'no' %}
-            Skip (warning icon)
-        {% endif %}
-        </div>
-
-        <div class="recommendation-reason">{{recommendation_reason}}</div>
-    </div>
-</article>
 
 {% if notable_moments %}
-<div class="notable-moments-container">
-    <h2 class="title is-2">Notable Moments</h2>
-    <ul class="notable-moments">
-    {% for moment in notable_moments %}
-        <li>{{moment}}</li>
-    {% endfor %}
-    </ul>
-</div>
+<h2>Notable Moments</h2>
+<ul class="notable-moments">
+{% for moment in notable_moments %}
+    <li>{{moment}}</li>
+{% endfor %}
+</ul>
 {% endif %}
 
 {% if firsts %}
-<div class="firsts-container">
-    <h2 class="title is-2">Firsts</h2>
-    <ul class="firsts">
-    {% for first in firsts %}
-        <li>{{first}}</li>
-    {% endfor %}
-    </ul>
-</div>
+<h2>Firsts</h2>
+<ul class="firsts">
+{% for first in firsts %}
+    <li>{{first}}</li>
+{% endfor %}
+</ul>
 {% endif %}
 
 {% if prophecy %}
-<div class="prophecies-container">
-    <h2>Prophecy</h2>
-    <div class="prophecies">
-    {% for prediction in prophecy %}
-        <div class="prophecy {{prediction.host}}">
-            <span class="host">{{prediction.host}}</span>: <span class="prediction">{{prediction.prophecy}}</span>
-        </div>
-        <div class="veracity {{prediction.veracity}}">
-            {{prediction.veracity | string | title}}: {{prediction.comments}}
-        </div>
-    {% endfor %}
+<h2>Prophecy</h2>
+<div class="prophecies">
+{% for prediction in prophecy %}
+    <div class="prophecy {{prediction.host}}">
+        <span class="host">{{prediction.host}}</span>: <span class="prediction">{{prediction.prophecy}}</span>
     </div>
+    <div class="veracity {{prediction.veracity}}">
+        {{prediction.veracity | string | title}}: {{prediction.comments}}
+    </div>
+{% endfor %}
 </div>
 {% endif %}
 
 {% if future_episodes %}
-<div class="future-episodes-container">
     <h2>Future Episodes</h2>
     <ul class="future-episodes">
     {% for episode in future_episodes %}
         <li>{{episode}}</li>
     {% endfor %}
     </ul>
-</div>
 {% endif %}
 
 {% if celebrity_invites %}
-<div class="celebrity-invites-container">
-    <h2>Celebrity Invites</h2>
-    <ul class="celebrity-invites">
-    {% for invite in celebrity_invites %}
-        <li>{{invite}}</li>
-    {% endfor %}
-    </ul>
-</div>
+<h2>Celebrity Invites</h2>
+<ul class="celebrity-invites">
+{% for invite in celebrity_invites %}
+    <li>{{invite}}</li>
+{% endfor %}
+</ul>
 {% endif %}
 
 <article class="episode-content">
@@ -135,7 +131,7 @@ layout: layouts/base.njk
 </article>
 
 {% if archivist_note %}
-<article class="message archivist-note">
+<article class="message">
     <div class="message-header">
         <p>Archivist Note</p>
     </div>
