@@ -1,0 +1,453 @@
+/*! Forked from modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/******************************************************************************
+  FONTS
+******************************************************************************/
+
+
+
+/******************************************************************************
+  VARIABLES
+******************************************************************************/
+:root {
+    --sfc-blue: hsl(187, 100%, 48%);
+    --site-background-color: hsl(0, 0%, 13%);
+    --firsts-color: hsl(187, 75%, 20%);
+    --notable-moments-color: hsl(27, 75%, 20%);
+    --ben-color: hsl(148, 75%, 20%);
+    --matt-color: hsl(310, 75%, 20%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+
+/*****************************************************************************
+  ALL
+******************************
+  *, @viewport
+******************************************************************************/
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+
+
+/******************************************************************************
+  SECTIONING AND STRUCTURING
+******************************
+  html, body, header, footer, nav, main, article, aside, section, p, pre,
+  blockquote, figure, figcaption, address, summary, details, div
+******************************************************************************/
+html,
+body,
+.site-footer {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--site-background-color);
+    color: var(--white);
+    font-family: 
+        'Ubuntu', 
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    font-size: 24px;
+    font-variant-numeric: oldstyle-nums;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header.site-header,
+main,
+footer.site-footer {
+    padding: 1em;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+}
+
+/* needs to be reset before `top margin after p` is set */
+h1,
+h2 {
+    margin: 0;
+}
+
+main * + *,
+p + h1,
+p + h2 {
+	margin-top: 1.5em;
+}
+
+h1 + *,
+h2 + *,
+li,
+q + q {
+    margin-top: 0;
+}
+
+main a {
+    color: var(--white);
+}
+
+p {
+    -webkit-hyphens: auto;
+            hyphens: auto;
+    margin: 0;
+}
+
+p + p,
+div + p {
+    margin-top: 1.5em;
+}
+
+summary {
+	display: list-item;
+}
+
+details {
+	display: block;
+}
+
+
+
+/******************************************************************************
+  HEADINGS
+************
+  hgroup, h1, h2, h3, h4, h5, h6
+******************************************************************************/
+h1,
+h2 {
+    font-variant-numeric: lining-nums;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+/******************************************************************************
+  LISTS
+*********
+  ul, ol, li, dl, dt, dd, menu, menuitem
+******************************************************************************/
+
+
+/******************************************************************************
+  MEDIA
+*********
+  canvas, object, embed, img, audio, video, track, map, area, iframe
+******************************************************************************/
+
+
+
+/******************************************************************************
+  FORMS
+*********
+  form, fieldset, legend, label, input, button, select, optgroup, option, 
+  datalist, textarea, output
+******************************************************************************/
+
+
+
+/******************************************************************************
+  TABLES
+**********
+  table, caption, colgroup, col, thead, tfoot, tbody, tr, th, td
+******************************************************************************/
+
+
+
+/******************************************************************************
+  PHRASING
+************
+  a, strong, em, b, i, u, s, sup, sub, small, abbr, dfn, mark, del, ins, q, 
+  cite, data, progress, time, meter, code, var, samp, kbd, keygen, bdi, bdo, 
+  ruby, rt, rp, span
+******************************************************************************/
+abbr[title] {
+	text-decoration: underline dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+sub,
+sup {
+    font-size: inherit;
+    vertical-align: baseline;
+}
+
+sub { 
+    font-variant-position: sub; 
+}
+
+sup { 
+    font-variant-position: sup; 
+}
+
+small {
+	font-size: 80%;
+}
+
+q {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0em 0.2em;
+}
+
+
+
+/******************************************************************************
+  MISCELLANEOUS
+*****************
+  hr
+******************************************************************************/
+hr {
+	height: 0;
+}
+
+
+
+/******************************************************************************
+  HELPER CLASSES
+******************************************************************************/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/******************************************************************************
+  STRUCTURE CLASSES
+******************************************************************************/
+.site-header,
+.site-footer {
+    background-color: var(--sfc-blue);
+    color: var(--black);
+}
+
+.site-header nav a,
+.site-footer nav a {
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.site-header a,
+.site-footer a {
+    color: var(--black);
+}
+
+.site-header nav {
+    margin-top: 1.5em;
+}
+
+.site-header nav a + a {
+    margin-left: 1em;
+}
+
+.site-title {
+    letter-spacing: -2px;
+    line-height: 1em;
+}
+
+
+
+/******************************************************************************
+  EPISODE CLASSES
+******************************************************************************/
+.episode-title {
+    font-size: 3em;
+    line-height: 1em;
+    word-spacing: 5px;
+}
+
+.episode-content {
+    max-width: 33em;
+}
+
+.firsts-container,
+.notable-moments-container {
+    max-width: 700px;
+    padding: 0.5em 1em;
+}
+
+.firsts-container {
+    background-color: var(--firsts-color);
+}
+
+.notable-moments-container {
+    background-color: var(--notable-moments-color);
+}
+
+
+
+/******************************************************************************
+  CATEGORY CLASSES
+******************************************************************************/
+.category-countdown::after {
+    content: '🚀';
+}
+
+.category-feedback::after {
+    content: '📪';
+}
+
+.category-literature::after {
+    content: '📚';
+}
+
+.category-main-topic::after {
+    content: '👽';
+}
+
+.category-news::after {
+    content: '📰';
+}
+
+.category-philosophy::after {
+    content: '💭';
+}
+
+.category-review::after {
+    content: '👍';
+}
+
+.category-theology::after {
+    content: '⛪';
+}
+
+
+
+/******************************************************************************
+  HOST CLASSES
+******************************************************************************/
+.ben {
+    background-color: var(--ben-color);
+}
+
+.matt {
+    background-color: var(--matt-color);
+}
+
+
+
+/******************************************************************************
+  QUOTE CLASSES
+******************************************************************************/
+q.inline {
+    display: inline;
+}
+
+q.ben::before {
+    content: 'Ben: ' open-quote;
+}
+
+q.matt::before {
+    content: 'Matt: ' open-quote;
+}
+
+
+
+/******************************************************************************
+  REVIEW CLASSES
+******************************************************************************/
+.review {
+    border: solid 2px var(--white);
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+/* clearfix */
+.review:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.review header {
+    background-color: var(--white);
+    border-radius: 6px 6px 0 0;
+    color: var(--black);
+    text-align: center;
+}
+
+.review .rating {
+    text-align: center;
+    width: 50%;
+}
+
+.review div:last-of-type {
+    border-radius: 0 0 7px 0;
+    float: right;
+}
+
+.review div:first-of-type {
+    border-radius: 0 0 0 7px;
+    float: left;
+}
+
+.review div,
+.review q {
+    margin-top: 0;
+}
+
+.review q {
+    border-radius: 0 0 5px 5px;
+    font-size: 0.8em;
+}
+
+div[data-rating='yes']::after {
+    content: '👍';
+}
+
+div[data-rating='no']::after {
+    content: '👎';
+}
+
+div[data-rating='interested']::after {
+    content: '🤔';
+}
+
+div[data-rating='uninterested']::after {
+    content: '😴';
+}
+
+div[data-rating='dont-know']::after {
+    content: '❓';
+}
+
+
+
+/******************************************************************************
+  MEDIA QUERIES
+******************************************************************************/
+
+
+
+/******************************************************************************
+  PRINT STYLES
+******************************************************************************/

@@ -11,10 +11,14 @@ The Unofficial Listener's Guide for The Sci-Fi Christian podcast
 > 
 > npm install
 
-3. Run eleventy
+3. (if running on Windows) Install Windows Build Tools (needed for node-sass)
 
-> npm run default  # generates site in _site
+> npm install --global --production windows-build-tools
+
+4. Run eleventy
+
+> npm run build  # generates site in _site
 
 or 
 
-> npm run dev  # generates site in _site, generates again when changes are made, serves the site at http://localhost:8080
+> npm run dev  # generates site in _site, watches and generates again when changes are made, serves the site at http://localhost:8080

@@ -5,10 +5,12 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "default": "npx eleventy",
+    "css-build": "node-sass _sass/main.scss css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "serve": "http-server ./_site",
-    "dev": "run-p watch serve"
+    "dev": "run-p watch css-watch serve"
   },
   "author": {
     "name": "Brian Koser",
@@ -21,10 +23,12 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.2.14",
     "http-server": "^0.11.1",
+    "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2"
   },
   "dependencies": {
     "bulma": "^0.6.2",
+    "bulmaswatch": "^0.6.2",
     "npm": "^5.7.1"
   }
 }
