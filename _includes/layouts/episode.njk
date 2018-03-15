@@ -90,55 +90,58 @@ layout: layouts/base.njk
     </div>
 </div>
 
-{% if notable_moments %}
-<h2>Notable Moments</h2>
-<ul class="notable-moments">
-{% for moment in notable_moments %}
-    <li>{{moment}}</li>
-{% endfor %}
-</ul>
-{% endif %}
+<div class="box">
 
-{% if firsts %}
-<h2>Firsts</h2>
-<ul class="firsts">
-{% for first in firsts %}
-    <li>{{first}}</li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if prophecy %}
-<h2>Prophecy</h2>
-<div class="prophecies">
-{% for prediction in prophecy %}
-    <div class="prophecy {{prediction.host}}">
-        <span class="host">{{prediction.host}}</span>: <span class="prediction">{{prediction.prophecy}}</span>
-    </div>
-    <div class="veracity {{prediction.veracity}}">
-        {{prediction.veracity | string | title}}: {{prediction.comments}}
-    </div>
-{% endfor %}
-</div>
-{% endif %}
-
-{% if future_episodes %}
-    <h2>Future Episodes</h2>
-    <ul class="future-episodes">
-    {% for episode in future_episodes %}
-        <li>{{episode}}</li>
+    {% if notable_moments %}
+    <h2>Notable Moments</h2>
+    <ul class="notable-moments">
+    {% for moment in notable_moments %}
+        <li>{{moment}}</li>
     {% endfor %}
     </ul>
-{% endif %}
+    {% endif %}
 
-{% if celebrity_invites %}
-<h2>Celebrity Invites</h2>
-<ul class="celebrity-invites">
-{% for invite in celebrity_invites %}
-    <li>{{invite}}</li>
-{% endfor %}
-</ul>
-{% endif %}
+    {% if firsts %}
+    <h2>Firsts</h2>
+    <ul class="firsts">
+    {% for first in firsts %}
+        <li>{{first}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if prophecy %}
+    <h2>Prophecy</h2>
+    <div class="prophecies">
+    {% for prediction in prophecy %}
+        <div class="prophecy {{prediction.host}}">
+            <span class="host">{{prediction.host}}</span>: <span class="prediction">{{prediction.prophecy}}</span>
+        </div>
+        <div class="veracity {{prediction.veracity}}">
+            {{prediction.veracity | string | title}}: {{prediction.comments}}
+        </div>
+    {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if future_episodes %}
+        <h2>Future Episodes</h2>
+        <ul class="future-episodes">
+        {% for episode in future_episodes %}
+            <li>{{episode}}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if celebrity_invites %}
+    <h2>Celebrity Invites</h2>
+    <ul class="celebrity-invites">
+    {% for invite in celebrity_invites %}
+        <li>{{invite}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+</div>
 
 <article class="episode-content">
 {{ layoutContent | safe }}
