@@ -4,50 +4,60 @@ layout: layouts/base.njk
 <section class="hero">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title is-1">№ {{number}} {{ title }}</h1>
-            <h2 class="subtitle is-3">
-                <a href="{{podcast_url}}">🎙️ (replace with play icon) </a> · {{date | readableDate}} · {{ hosts | join(", ") }}
-            </h2>
+            <h1 class="title is-1"><a href="{{podcast_url}}">№ {{number}} {{ title }}</a></h1>
         </div>
     </div>
-
     <div class="hero-foot">
-        <div class="field is-grouped is-grouped-multiline">
-            <div class="control">
-                <div class="tags has-addons">
-                    <span class="tag is-large is-dark">Category</span>
-                    <span class="tag is-large is-success category-{{category | slug}}">{{category}}</span>
+        <nav class="level">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Date</p>
+                    <p class="title">{{date | readableDate}}</p>
+                </div>
+            </div>
+
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Hosts</p>
+                    <p class="title">{{ hosts | join(", ") }}</p>
+                </div>
+            </div>
+
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Category</p>
+                    <p class="title category-{{category | slug}}">{{category}}</p>
                 </div>
             </div>
 
             {% if series %}
-            <div class="control">
-                <div class="tags has-addons">
-                    <span class="tag is-large is-dark">Series</span>
-                    <span class="tag is-large is-success">{{series}}</span>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Series</p>
+                    <p class="title">{{series}}</p>
                 </div>
             </div>
             {% endif %}
 
             {% if time_loop_forward %}
-            <div class="control">
-                <div class="tags has-addons">
-                    <span class="tag is-large is-dark">Time Looped as</span>
-                    <span class="tag is-large is-success">№ {{time_loop_forward}}</span>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Time Looped as</p>
+                    <p class="title">№ {{time_loop_forward}}</p>
                 </div>
             </div>
             {% endif %}
 
             {% if time_loop_backward %}
-            <div class="control">
-                <div class="tags has-addons">
-                    <span class="tag is-large is-dark">Time Looped of</span>
-                    <span class="tag is-large is-success">№ {{time_loop_backward}}</span>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Time Loop of</p>
+                    <p class="title">№ {{time_loop_backward}}</p>
                 </div>
             </div>
             {% endif %}
-        </div>
-    </div>
+        </nav>
+    </div> 
 </section>
 <br>
 <div class="columns">

@@ -157,6 +157,15 @@ q {
 /******************************************************************************
   STRUCTURE CLASSES
 ******************************************************************************/
+.hero-body a {
+    color: white;
+}
+
+.hero-body a:hover {
+    text-decoration: underline;
+    color: hsl(218, 75%, 54%);
+}
+
 .hero-foot {
     padding: 0 1.5rem 1.5rem 1.5rem;
 }
