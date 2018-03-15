@@ -131,7 +131,7 @@ sup {
 
 q {
     border-radius: 10px;
-    display: inline-block;
+    display: table;
     padding: 0em 0.2em;
 }
 
