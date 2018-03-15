@@ -192,6 +192,23 @@ q {
     margin-bottom: 0;
 }
 
+.episode-nav {
+    margin-top: 3em;
+}
+
+.tabs ul {
+    align-items: baseline;
+    margin-left: 0;
+}
+
+.tabs a:hover {
+    background-color: hsl(218, 75%, 54%);
+}
+
+.content .tabs li + li {
+    margin-top: 0;
+}
+
 
 
 /******************************************************************************

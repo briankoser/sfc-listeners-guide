@@ -158,16 +158,25 @@ layout: layouts/base.njk
 </article>
 {% endif %}
 
-<nav class="episode-nav">
-    {% if previous.url %}
-    <a href="{{ previous.url }}">← Previous</a>
-    {% endif %}
-    
-    <a href="{{ '/' }}">← Previous in Series</a>
-    
-    {% if next.url %}
-    <a href="{{ next.url }}">Next →</a>
-    {% endif %}
-    
-    <a href="{{ '/' }}">Next in Series →</a>
+<nav class="columns episode-nav">
+    <div class="column">
+        <div class="tabs is-fullwidth">
+            {% if previous.url %}
+            <ul>
+                <li><a href="{{ previous.url }}">← Previous</a></li>
+                <li><a href="{{ '/' }}">← Previous in Series</a></li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+    <div class="column">
+        <div class="tabs is-fullwidth">
+            {% if next.url %}
+            <ul>    
+                <li><a href="{{ '/' }}">Next in Series →</a></li>
+                <li><a href="{{ next.url }}">Next →</a></li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
 </nav>
