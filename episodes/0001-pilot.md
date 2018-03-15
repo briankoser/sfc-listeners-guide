@@ -281,45 +281,50 @@ Firefly is Ben's favorite show of all time
 Matt says he loves Attack of the Clones (although he later retracts the statement) 
 
 <div class="top-five">
-  <div class="ben">
-    <ol reversed>
-      <li>Battlestar Galactica
-      <li>Dune
-      <li>Lord of Light
-      <li>Firefly
-      <li>Star Wars
-    </ol>
-    <ul>
-      <li>X-Files 
-      <li>Fahrenheit 451
-      <li>Lost
-      <li>Aliens
-      <li>Inverted World
-      <li>Matrix
-      <li>Dark City
-    </ul>
-  </div>
-  <div class="matt">
-    <ol reversed>
-      <li>Star Wars
-      <li>Circle Trilogy
-      <li>Spider-Man and Batman
-      <li>Back to the Future
-      <li>LOST
-    </ol>
-    <ul>
-      <li>The Chronicles of Narnia
-      <li>Planet of the Apes
-      <li>Sliders
-      <li>X-Files
-      <li>Battlestar Galactica
-      <li>Quantum Leap
-      <li>The Matrix
-      <li>Alias
-      <li>Groundhog Day
-      <li>Daybreak
-      <li>X-Men
-    </ul>
+  <h2 class="has-text-centered">Top 5 Sci-Fi Things</h2>
+  <div class="columns">
+    <div class="column ben">
+      <h3>Ben</h3>
+      <ol reversed>
+        <li>Battlestar Galactica
+        <li>Dune
+        <li>Lord of Light
+        <li>Firefly
+        <li>Star Wars
+      </ol>
+      <ul>
+        <li>X-Files 
+        <li>Fahrenheit 451
+        <li>Lost
+        <li>Aliens
+        <li>Inverted World
+        <li>Matrix
+        <li>Dark City
+      </ul>
+    </div>
+    <div class="column matt">
+      <h3>Matt</h3>
+      <ol reversed>
+        <li>Star Wars
+        <li>Circle Trilogy
+        <li>Spider-Man and Batman
+        <li>Back to the Future
+        <li>LOST
+      </ol>
+      <ul>
+        <li>The Chronicles of Narnia
+        <li>Planet of the Apes
+        <li>Sliders
+        <li>X-Files
+        <li>Battlestar Galactica
+        <li>Quantum Leap
+        <li>The Matrix
+        <li>Alias
+        <li>Groundhog Day
+        <li>Daybreak
+        <li>X-Men
+      </ul>
+    </div>
   </div>
 </div>
 
