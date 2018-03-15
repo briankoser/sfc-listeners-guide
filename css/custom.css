@@ -183,9 +183,14 @@ q {
 /******************************************************************************
   EPISODE CLASSES
 ******************************************************************************/
-.message h3 {
+.episode-content div {
+    margin-bottom: 1em;
+}
+
+.episode-content .message h3 {
     margin-bottom: 0;
 }
+
 
 
 /******************************************************************************
@@ -264,7 +269,7 @@ q.matt::before {
     content: 'Matt: ' open-quote;
 }
 
-.quote:not(:last-child) {
+.quote {
     margin-bottom: 1em;
 }
 
@@ -275,7 +280,6 @@ q.matt::before {
 ******************************************************************************/
 .review {
     font-size: 1.6rem;
-    margin-bottom: 2em;
     max-width: 300px;
 }
 
@@ -301,14 +305,13 @@ q.matt::before {
     float: left;
 }
 
-.review div,
-.review q {
-    margin-top: 0;
-}
-
 .review q {
     border-radius: 5px 5px 0 0;
     font-size: 0.8em;
+}
+
+.episode-content .rating {
+    margin-bottom: 0;
 }
 
 div[data-rating='yes']::after {
