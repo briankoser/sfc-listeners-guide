@@ -30,7 +30,7 @@ celebrity_invites:
 
 last_listen: 2018-01-25
 recommendation: no
-recommendation_reason: Instead watch the highlights on the [YouTube video](https://www.youtube.com/watch?v=qGIErCzLlfI). Ben at least later regrets doing this show in a debate format; both hosts were more focused on winning than on discussion. This doesn't make it a bad episode, but it could have been better.
+recommendation_reason: Instead watch the highlights on the <a href="https://www.youtube.com/watch?v=qGIErCzLlfI">YouTube video</a>. Ben at least later regrets doing this show in a debate format; both hosts were more focused on winning than on discussion. This doesn't make it a bad episode, but it could have been better.
 archivist_note: 
 ---
 # Opening
@@ -40,6 +40,7 @@ Planning to go to San Diego Comic Con
 
 # News
 Dark Tower movie casting news 😢
+
 Ender's Game movie 😢
 
 

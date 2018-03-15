@@ -84,7 +84,7 @@ layout: layouts/base.njk
                 <p>{{last_listen | readableDate}}</p>
             </div>
             <div class="message-body">
-                <div class="recommendation-reason">{{recommendation_reason}}</div>
+                <div class="recommendation-reason">{{recommendation_reason | safe}}</div>
             </div>
         </article>
     </div>
