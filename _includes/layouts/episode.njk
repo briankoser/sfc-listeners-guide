@@ -115,14 +115,14 @@ layout: layouts/base.njk
     <div class="prophecies">
     {% for prediction in prophecy %}
         <div class="prophecy clearfix">
-            <header class="{{prediction.host | lower}}">{{prediction.host}}</header>
-            <div class="prediction-container">
-                <div class="prediction">
-                    {{prediction.prophecy}}
-                </div>
-                <div class="veracity {{prediction.veracity}}" title="{{prediction.veracity | string | title}}">
-                    {{prediction.comments}}
-                </div>
+            <header class="host {{prediction.host | lower}}">
+                <div>{{prediction.host}}</div>
+            </header>
+            <div class="prediction">
+                {{prediction.prophecy}}
+            </div>
+            <div class="veracity {{prediction.veracity}}" title="{{prediction.veracity | string | title}}">
+                {{prediction.comments}}
             </div>
         </div>
     {% endfor %}

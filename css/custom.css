@@ -302,35 +302,39 @@ q.matt::before {
   PROPHECY CLASSES
 ******************************************************************************/
 .prophecy {
+    display: flex;
     max-width: 600px;
     margin-bottom: 1em;
 }
 
-.prophecy header {
-    border-radius: 6px 6px 0 0;
-    color: var(--color-white);
-    text-align: center;
+.prophecy header,
+.prophecy .prediction,
+.prophecy .veracity {
+    flex-grow: 1;
+    margin-bottom: 0;
+    padding: 10px;
 }
 
-.prophecy .prediction-container {
+.prophecy header {
+    border-radius: 7px 0 0 7px;
+    color: var(--color-white);
+    flex-basis: 10%;
+}
+
+.prophecy .host {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .prophecy .prediction,
 .prophecy .veracity {
     background-color: var(--color-black);
-    flex-grow: 1;
-    flex-basis: 50%;
-    margin-bottom: 0;
-    padding: 10px;
-}
-
-.prophecy .prediction {
-    border-radius: 0 0 0 7px;
+    flex-basis: 45%;
 }
 
 .prophecy .veracity {
-    border-radius: 0 0 7px 0;
+    border-radius: 0 7px 7px 0;
 }
 
 .prophecy .veracity.true {
@@ -352,7 +356,7 @@ q.matt::before {
 
 .review header {
     background-color: var(--color-dark-grey);
-    border-radius: 6px 6px 0 0;
+    border-radius: 7px 7px 0 0;
     color: var(--color-white);
     text-align: center;
 }
