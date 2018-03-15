@@ -62,24 +62,28 @@ layout: layouts/base.njk
 <br>
 <div class="columns">
     <div class="column is-half ">
-        <article class="message is-info">
+        {% if recommendation == 'yes' or recommendation == 'yes-timeloop' %}
+            <article class="message is-success">
+        {% elif recommendation == 'essential' or recommendation == 'essential-timeloop' %}
+            <article class="message is-primary">
+        {% elif recommendation == 'no' %}
+            <article class="message is-danger">
+        {% endif %}
             <div class="message-header">
-                <h3>Recommendation</h3>
+                {% if recommendation == 'yes' %}
+                    <h3>Listen</h3>
+                {% elif recommendation == 'yes-timeloop' %}
+                    <div><h3>Listen</h3> to Timeloop (<a href="{{time_loop_forward}}">№ {{time_loop_forward}}</a>)</div>
+                {% elif recommendation == 'essential' %}
+                    <h3>Essential</h3>
+                {% elif recommendation == 'essential-timeloop' %}
+                    <div><h3>Essential</h3> Listen to Timeloop (<a href="{{time_loop_forward}}">№ {{time_loop_forward}}</a>)</div>
+                {% elif recommendation == 'no' %}
+                    <h3>Skip</h3>
+                {% endif %}
                 <p>{{last_listen | readableDate}}</p>
             </div>
             <div class="message-body">
-                <div class="recommendation {{recommendation}}">
-                {% if recommendation == 'yes' %}
-                    Listen (ear icon)
-                {% elif recommendation == 'yes-timeloop' %}
-                    Listen to Timeloop (Episode {{time_loop_forward}}) (ear icon)
-                {% elif recommendation == 'essential' %}
-                    Essential (exlamation mark icon)
-                {% elif recommendation == 'no' %}
-                    Skip (warning icon)
-                {% endif %}
-                </div>
-
                 <div class="recommendation-reason">{{recommendation_reason}}</div>
             </div>
         </article>
