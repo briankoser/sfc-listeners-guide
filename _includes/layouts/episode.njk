@@ -114,11 +114,14 @@ layout: layouts/base.njk
     <h2>Prophecy</h2>
     <div class="prophecies">
     {% for prediction in prophecy %}
-        <div class="prophecy {{prediction.host}}">
-            <span class="host">{{prediction.host}}</span>: <span class="prediction">{{prediction.prophecy}}</span>
-        </div>
-        <div class="veracity {{prediction.veracity}}">
-            {{prediction.veracity | string | title}}: {{prediction.comments}}
+        <div class="prophecy clearfix">
+            <header class="{{prediction.host | lower}}">{{prediction.host}}</header>
+            <div class="prediction">
+                {{prediction.prophecy}}
+            </div>
+            <div class="veracity {{prediction.veracity}}" title="{{prediction.veracity | string | title}}">
+                {{prediction.comments}}
+            </div>
         </div>
     {% endfor %}
     </div>

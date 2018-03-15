@@ -10,10 +10,13 @@
   VARIABLES
 ******************************************************************************/
 :root {
-    --ben-color: hsl(348, 100%, 61%);
-    --matt-color: hsl(141, 71%, 48%);
-
-    --review-header-color: hsl(0, 0%, 14%);
+    --color-blue: hsl(218, 75%, 54%);
+    --color-dark-grey: hsl(0, 0%, 14%);
+    --color-green: hsl(141, 71%, 48%);
+    --color-orange: hsl(33, 99%, 54%);
+    --color-purple: hsl(280, 84%, 48%);
+    --color-red: hsl(348, 100%, 61%);
+    --color-yellow: hsl(48, 100%, 67%);
 }
 
 
@@ -164,7 +167,7 @@ q {
 
 .hero-body a:hover {
     text-decoration: underline;
-    color: hsl(218, 75%, 54%);
+    color: var(--color-blue);
 }
 
 .hero-foot {
@@ -202,7 +205,7 @@ q {
 }
 
 .tabs a:hover {
-    background-color: hsl(218, 75%, 54%);
+    background-color: var(--color-blue);
 }
 
 .content .tabs li + li {
@@ -263,11 +266,11 @@ q {
   HOST CLASSES
 ******************************************************************************/
 .ben {
-    background-color: var(--ben-color);
+    background-color: var(--color-purple);
 }
 
 .matt {
-    background-color: var(--matt-color);
+    background-color: var(--color-orange);
 }
 
 
@@ -294,6 +297,47 @@ q.matt::before {
 
 
 /******************************************************************************
+  PROPHECY CLASSES
+******************************************************************************/
+.prophecy {
+    max-width: 600px;
+}
+
+.prophecy header {
+    border-radius: 6px 6px 0 0;
+    color: white;
+    text-align: center;
+}
+
+.prophecy .prediction,
+.prophecy .veracity {
+    margin-bottom: 0;
+    padding: 10px;
+    width: 50%;
+}
+
+.prophecy .prediction {
+    background-color: black;
+    border-radius: 0 0 0 7px;
+    float: left;
+}
+
+.prophecy .veracity {
+    background-color: black;
+    border-radius: 0 0 7px 0;
+    float: right;
+}
+
+.prophecy .veracity.true {
+    background-color: var(--color-green);
+}
+
+.prophecy .veracity.false {
+    background-color: var(--color-red);
+}
+
+
+/******************************************************************************
   REVIEW CLASSES
 ******************************************************************************/
 .review {
@@ -302,7 +346,7 @@ q.matt::before {
 }
 
 .review header {
-    background-color: var(--review-header-color);
+    background-color: var(--color-dark-grey);
     border-radius: 6px 6px 0 0;
     color: white;
     text-align: center;
@@ -313,14 +357,14 @@ q.matt::before {
     width: 50%;
 }
 
-.review div:last-of-type {
-    border-radius: 0 0 7px 0;
-    float: right;
-}
-
 .review div:first-of-type {
     border-radius: 0 0 0 7px;
     float: left;
+}
+
+.review div:last-of-type {
+    border-radius: 0 0 7px 0;
+    float: right;
 }
 
 .review q {
