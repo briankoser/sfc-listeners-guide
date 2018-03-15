@@ -9,7 +9,7 @@ title: The Dark Knight On Trial
 number: 3
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-103-the-dark-knight-on-trial/
-podcast_date: 2011-01-24
+date: 2011-01-24
 category: Philosophy
 series: 
 hosts:
