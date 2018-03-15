@@ -10,6 +10,7 @@
   VARIABLES
 ******************************************************************************/
 :root {
+    --color-black: black;
     --color-blue: hsl(218, 75%, 54%);
     --color-dark-grey: hsl(0, 0%, 14%);
     --color-green: hsl(141, 71%, 48%);
@@ -17,6 +18,7 @@
     --color-purple: hsl(280, 84%, 48%);
     --color-red: hsl(348, 100%, 61%);
     --color-yellow: hsl(48, 100%, 67%);
+    --color-white: white;
 }
 
 
@@ -162,7 +164,7 @@ q {
   STRUCTURE CLASSES
 ******************************************************************************/
 .hero-body a {
-    color: white;
+    color: var(--color-white);
 }
 
 .hero-body a:hover {
@@ -301,31 +303,34 @@ q.matt::before {
 ******************************************************************************/
 .prophecy {
     max-width: 600px;
+    margin-bottom: 1em;
 }
 
 .prophecy header {
     border-radius: 6px 6px 0 0;
-    color: white;
+    color: var(--color-white);
     text-align: center;
+}
+
+.prophecy .prediction-container {
+    display: flex;
 }
 
 .prophecy .prediction,
 .prophecy .veracity {
+    background-color: var(--color-black);
+    flex-grow: 1;
+    flex-basis: 50%;
     margin-bottom: 0;
     padding: 10px;
-    width: 50%;
 }
 
 .prophecy .prediction {
-    background-color: black;
     border-radius: 0 0 0 7px;
-    float: left;
 }
 
 .prophecy .veracity {
-    background-color: black;
     border-radius: 0 0 7px 0;
-    float: right;
 }
 
 .prophecy .veracity.true {
@@ -348,7 +353,7 @@ q.matt::before {
 .review header {
     background-color: var(--color-dark-grey);
     border-radius: 6px 6px 0 0;
-    color: white;
+    color: var(--color-white);
     text-align: center;
 }
 
