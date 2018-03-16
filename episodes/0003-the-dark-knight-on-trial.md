@@ -7,6 +7,7 @@ tags:
 
 title: The Dark Knight On Trial
 number: 3
+slug: 0003-the-dark-knight-on-trial
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-103-the-dark-knight-on-trial/
 date: 2011-01-24

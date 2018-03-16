@@ -20,10 +20,11 @@ time_loop_backward:
 
 notable_moments:
 firsts: 
-  - [SciFi Diner](http://scifidinerpodcast.com/) mention
+  - "<a href='http://scifidinerpodcast.com/'>SciFi Diner</a> mention"
   - "Readalong: The Stand"
+  - Dark Knight News
 prophecy: 
-  - {"host": "Ben", "prophecy": ""I gotta believe If Nolan's putting Robin in the series, he has a really good way of doing it."", "veracity": true, "comments": "Don't remember if Ben liked the Robin reveal, but I think it worked."}
+  - {"host": "Ben", "prophecy": "I gotta believe If Nolan's putting Robin in the series, he has a really good way of doing it.", "veracity": true, "comments": "Don't remember if Ben liked the Robin reveal, but I think it worked."}
   - {"host": "Matt", "prophecy": "Robin will be the villain in The Dark Knight Rises", "veracity": false, "comments": ""}
 
 future_episodes: 
@@ -37,54 +38,107 @@ celebrity_invites:
 
 last_listen: 2018-01-25
 recommendation: no
-recommendation_reason: Not a bad episode, just not noteworthy.
+recommendation_reason: Not a bad episode, but nothing noteworthy.
 archivist_note: 
 ---
 # Opening
-M join the stand reading plan: put down the Bible, pick up the stand
+<div class="quote">
+<q class="matt">Join The Stand reading plan: 'Put down the Bible, pick up The Stand'.</q>
+</div>
 
 # News
-B "I'm getting excited about Thor...The one that looked really sweet to me though was Super 8."
+<div class="quote">
+<q class="ben">I'm getting excited about Thor...The one that looked really sweet to me though was Super 8.</q>
+</div>
 
-B on Pirates 4: "against my better judgment, I am getting excited about this movie...this is looking really, really good." 
+<div class="quote">
+<q class="ben">I'm really glad they're rebooting Spider-Man.</q>
+<q class="matt">Reboots are going to get really old really fast...I don't need to see Spider-Man become Spider-Man again.</q>
+</div>
 
-Ben is really excited about the Hobbit ☹️
+<div class="quote">
+  <span class="quote-context">On Pirates of the Caribbean 4</span>
+  <q class="ben">Against my better judgment, I am getting excited about this movie...this is looking really, really good.</q>
+</div>
+
+Ben is still really excited about the Hobbit ☹️
+
+First Dark Knight Rises news <q class="ben inline">We are going to cover everything that is newsworthy, or even not newsworthy.</q>
 
 # Main Topic
-Top 5 satanic characters
-m
-5 magneto
-4 marsuvius black
-3 the white Witch 
-2 the joker
-1 the emperor 
-R man in black, teelay from circle Trilogy, cigarette smoking man
+<div class="top-five">
+  <h2 class="has-text-centered">Top 5 Satanic Characters</h2>
+  <div class="columns">
+    <div class="column matt">
+      <h3>Matt</h3>
+      <ol reversed>
+        <li>Magneto
+        <li>Marsuvees Black
+        <li>The White Witch 
+        <li>The Joker
+        <li>The Emperor 
+      </ol>
+      <ul class="runner-ups">
+        <li>The Man in Black
+        <li>Teeleh (Circle Trilogy)
+        <li>The Cigarette-Smoking Man
+      </ul>
+    </div>
+    <div class="column ben">
+      <h3>Ben</h3>
+      <ol reversed>
+        <li>Darth Vader
+        <li>Randall Flagg
+        <li>Mayor Wilkins
+        <li>Saruman
+        <li>The joker
+      </ol>
+      <ul class="runner-ups">
+        <li>Sauron
+        <li>The Emperor
+        <li>Agent Smith
+        <li>Brother Cavill (Battlestar Galactica)
+        <li>The Adversary (Fables)
+      </ul>
+    </div>
+  </div>
+</div>
 
-b
-5 darth Vader
-4 Randall flagg
-3 mayor wilkins
-2 saruman
-1 the joker
-R sauron, Palpatine, agent Smith, brother cavill from bsg, the adversary from fables
-
-Top 5 Messciahs
-M
-5 captain america
-4 Thomas hunter circle Trilogy
-3 Luke Skywalker
-2 Batman
-1 neo
-R Jack shepherd 
-
-
-B
-5 angel from Buffy 
-4 Sam from lord of Light
-3 Batman
-2 neo
-1 frodo
-R anakin, Paul atreides, leave from ache, John murdoch from dark city, fox Mulder
+<div class="top-five">
+  <h2 class="has-text-centered">Top 5 Messciahs</h2>
+  <div class="columns">
+    <div class="column matt">
+      <h3>Matt</h3>
+      <ol reversed>
+        <li>Captain America
+        <li>Thomas Hunter (Circle Trilogy)
+        <li>Luke Skywalker
+        <li>Batman
+        <li>Neo
+      </ol>
+      <ul class="runner-ups">
+        <li>Jack Shephard
+      </ul>
+    </div>
+    <div class="column ben">
+      <h3>Ben</h3>
+      <ol reversed>
+        <li>Angel (Buffy)
+        <li>Sam (Lord of Light)
+        <li>Batman
+        <li>Neo
+        <li>Frodo
+      </ol>
+      <ul class="runner-ups">
+        <li>Anakin Skywalker
+        <li>Paul Atreides
+        <li>Leave (Ache)
+        <li>John Murdoch (Dark City)
+        <li>Fox Mulder
+      </ul>
+    </div>
+  </div>
+</div>
 
 Why do messianic characters appear in fiction so often? 
 
