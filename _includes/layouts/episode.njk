@@ -115,7 +115,7 @@ layout: layouts/base.njk
         <h2>Firsts</h2>
         <ul class="firsts">
         {% for first in firsts %}
-            <li>{{first}}</li>
+            <li>{{first | safe}}</li>
         {% endfor %}
         </ul>
         {% endif %}
