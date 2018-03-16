@@ -59,7 +59,7 @@ layout: layouts/base.njk
         </nav>
     </div> 
 </section>
-<br>
+
 <div class="columns">
     <div class="column is-half ">
         {% if recommendation == 'yes' or recommendation == 'yes-timeloop' %}
@@ -71,97 +71,108 @@ layout: layouts/base.njk
         {% endif %}
             <div class="message-header">
                 {% if recommendation == 'yes' %}
-                    <h3>Listen</h3>
+                    <h2 class="title is-3">Listen</h2>
                 {% elif recommendation == 'yes-timeloop' %}
-                    <div><h3>Listen</h3> to Timeloop (<a href="{{time_loop_forward}}">№ {{time_loop_forward}}</a>)</div>
+                    <div>
+                        <h2 class="title is-3">Listen</h2>
+                        <h3 class="subtitle is-5">
+                            to Timeloop (<a href="{{time_loop_forward}}">№ {{time_loop_forward}}</a>)
+                        </h3>
+                    </div>
                 {% elif recommendation == 'essential' %}
-                    <h3>Essential</h3>
+                    <h2 class="title is-3">Essential</h2>
                 {% elif recommendation == 'essential-timeloop' %}
-                    <div><h3>Essential</h3> Listen to Timeloop (<a href="{{time_loop_forward}}">№ {{time_loop_forward}}</a>)</div>
+                    <div>
+                        <h2 class="title is-3">Essential</h2> 
+                        <h3 class="subtitle is-5">
+                            Listen to Timeloop (<a href="{{time_loop_forward}}">№ {{time_loop_forward}}</a>)
+                        </h3>
+                    </div>
                 {% elif recommendation == 'no' %}
-                    <h3>Skip</h3>
+                    <h2 class="title is-3">Skip</h2>
                 {% endif %}
                 <p>{{last_listen | readableDate}}</p>
             </div>
-            <div class="message-body">
+            <div class="message-body content">
                 <div class="recommendation-reason">{{recommendation_reason | safe}}</div>
             </div>
         </article>
     </div>
 </div>
 
-<div class="box">
-
-    {% if notable_moments %}
-    <h2>Notable Moments</h2>
-    <ul class="notable-moments">
-    {% for moment in notable_moments %}
-        <li>{{moment}}</li>
-    {% endfor %}
-    </ul>
-    {% endif %}
-
-    {% if firsts %}
-    <h2>Firsts</h2>
-    <ul class="firsts">
-    {% for first in firsts %}
-        <li>{{first}}</li>
-    {% endfor %}
-    </ul>
-    {% endif %}
-
-    {% if prophecy %}
-    <h2>Prophecy</h2>
-    <div class="prophecies">
-    {% for prediction in prophecy %}
-        <div class="prophecy clearfix">
-            <header class="host {{prediction.host | lower}}">
-                <div>{{prediction.host}}</div>
-            </header>
-            <div class="prediction">
-                {{prediction.prophecy}}
-            </div>
-            <div class="veracity {{prediction.veracity}}" title="{{prediction.veracity | string | title}}">
-                {{prediction.comments}}
-            </div>
-        </div>
-    {% endfor %}
-    </div>
-    {% endif %}
-
-    {% if future_episodes %}
-        <h2>Future Episodes</h2>
-        <ul class="future-episodes">
-        {% for episode in future_episodes %}
-            <li>{{episode}}</li>
+<div class="content">
+    <div class="box">
+        {% if notable_moments %}
+        <h2>Notable Moments</h2>
+        <ul class="notable-moments">
+        {% for moment in notable_moments %}
+            <li>{{moment}}</li>
         {% endfor %}
         </ul>
-    {% endif %}
+        {% endif %}
 
-    {% if celebrity_invites %}
-    <h2>Celebrity Invites</h2>
-    <ul class="celebrity-invites">
-    {% for invite in celebrity_invites %}
-        <li>{{invite}}</li>
-    {% endfor %}
-    </ul>
+        {% if firsts %}
+        <h2>Firsts</h2>
+        <ul class="firsts">
+        {% for first in firsts %}
+            <li>{{first}}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if prophecy %}
+        <h2>Prophecy</h2>
+        <div class="prophecies">
+        {% for prediction in prophecy %}
+            <div class="prophecy clearfix">
+                <header class="host {{prediction.host | lower}}">
+                    <div>{{prediction.host}}</div>
+                </header>
+                <div class="prediction">
+                    {{prediction.prophecy}}
+                </div>
+                <div class="veracity {{prediction.veracity}}" title="{{prediction.veracity | string | title}}">
+                    {{prediction.comments}}
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if future_episodes %}
+            <h2>Future Episodes</h2>
+            <ul class="future-episodes">
+            {% for episode in future_episodes %}
+                <li>{{episode}}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+        {% if celebrity_invites %}
+        <h2>Celebrity Invites</h2>
+        <ul class="celebrity-invites">
+        {% for invite in celebrity_invites %}
+            <li>{{invite}}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+
+    <article class="episode-content">
+    {{ layoutContent | safe }}
+    </article>
+
+    {% if archivist_note %}
+    <article class="message">
+        <div class="message-header">
+            <p>Archivist Note</p>
+        </div>
+        <div class="message-body">
+            {{archivist_note}}
+        </div>
+    </article>
     {% endif %}
 </div>
-
-<article class="episode-content">
-{{ layoutContent | safe }}
-</article>
-
-{% if archivist_note %}
-<article class="message">
-    <div class="message-header">
-        <p>Archivist Note</p>
-    </div>
-    <div class="message-body">
-        {{archivist_note}}
-    </div>
-</article>
-{% endif %}
 
 <nav class="columns episode-nav">
     <div class="column">
@@ -169,7 +180,7 @@ layout: layouts/base.njk
             {% if previous.url %}
             <ul>
                 <li><a href="{{ previous.url }}">← Previous</a></li>
-                <li><a href="{{ '/' }}">← Previous in Series</a></li>
+                {# <li><a href="{{ '/' }}">← Previous in Series</a></li> #}
             </ul>
             {% endif %}
         </div>
@@ -178,7 +189,7 @@ layout: layouts/base.njk
         <div class="tabs is-fullwidth">
             {% if next.url %}
             <ul>    
-                <li><a href="{{ '/' }}">Next in Series →</a></li>
+                {# <li><a href="{{ '/' }}">Next in Series →</a></li> #}
                 <li><a href="{{ next.url }}">Next →</a></li>
             </ul>
             {% endif %}
