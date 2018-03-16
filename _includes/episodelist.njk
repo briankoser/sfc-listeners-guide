@@ -1,8 +1,53 @@
-<ol class="episodelist" style="counter-reset: start-from {{ episodelist.length + 1 }}">
-{% for episode in episodelist %}
-	<li class="episodelist-item">
-		<a href="{{ episode.url }}" class="episodelist-link">{{ episode.data.title }}</a> ·
-		<span class="episodelist-date">{{ episode.data.date | readableDate }}</span>
-	</li>
-{% endfor %}
-</ol>
+<div class="episode-list columns">
+	<div class="column is-half">
+		{% for episode in episodelist %}
+		<div class="card">
+			<header class="card-header">
+				<p class="card-header-title">
+					<a href="{{ episode.url }}">№ {{ episode.data.number }} {{ episode.data.title }}</a>
+				</p>
+				<p class="card-header-icon">{{ episode.data.date | readableDate }}</p>
+			</header>
+			<div class="card-content">
+				<div class="content">
+					<div class="columns">
+						<div class="column is-one-third recommendation">
+							{% if episode.data.recommendation == 'yes' %}
+								<h1 class="title is-3 has-text-success">Listen</h1>
+							{% elif episode.data.recommendation == 'yes-timeloop' %}
+								<div>
+									<h1 class="title is-3 has-text-success">Listen</h1> 
+									<h2 class="subtitle is-5">
+										Timeloop (<a href="{{ episode.data.time_loop_forward }}">№ {{ episode.data.time_loop_forward }}</a>)
+									</h2>
+								</div>
+							{% elif episode.data.recommendation == 'essential' %}
+								<h1 class="title is-3 has-text-primary">Essential</h1>
+							{% elif episode.data.recommendation == 'essential-timeloop' %}
+								<div>
+									<h1 class="title is-3 has-text-primary">Essential</h1> 
+									<h2 class="subtitle is-5">
+										Timeloop (<a href="{{ episode.data.time_loop_forward }}">№ {{ episode.data.time_loop_forward }}</a>)
+									</h2>
+								</div>
+							{% elif episode.data.recommendation == 'no' %}
+								<h1 class="title is-3 has-text-danger has-text-centered">Skip</h1>
+							{% endif %}
+						</div>
+						<div class="column is-two-thirds content">
+							{{ episode.data.recommendation_reason | safe }}
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="card-footer">
+				<a href="{{ episode.url }}" class="card-footer-item">Guide</a>
+				<a href="{{ episode.data.podcast_url }}" class="card-footer-item">Listen</a>
+			</footer>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+
+

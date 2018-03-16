@@ -184,6 +184,14 @@ q {
     max-height: 65px;
 }
 
+main > h1 {
+    margin-top: 1em;
+}
+
+main .hero {
+    margin-bottom: 1.5rem;
+}
+
 
 
 /******************************************************************************
@@ -212,6 +220,34 @@ q {
 
 .content .tabs li + li {
     margin-top: 0;
+}
+
+
+/******************************************************************************
+  EPISODE LIST CLASSES
+******************************************************************************/
+.episode-list .card {
+    margin-bottom: 2em;
+}
+
+.episode-list .card-content a {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+.episode-list .recommendation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.episode-list .card-header-title a:hover {
+    text-decoration: underline;
+    color: var(--color-blue);
+}
+
+.episode-list .card-header-title a {
+    color: var(--color-white);
 }
 
 
