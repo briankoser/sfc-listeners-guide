@@ -21,7 +21,7 @@ notable_moments:
 firsts: 
   - X-Files theme for Sci-Fi News (and Main Topic transition)
   - Feedback (from Koby)
-  - It's a Trap transition music
+  - "\"It's a Trap!\" transition music"
   - End with "signing off" 
   - Ben saying "Take that!" ("Take that Jimmy Carter!")
 prophecy: 

@@ -23,12 +23,12 @@ notable_moments:
 firsts:
   - Wayne Henderson mentioned
   - Sci-Fi Song of the Week (announced)
-  - Mention of The Dark Knight Rises
+  - The Dark Knight Rises mentioned
   - Dr. Horrible main topic transition
-  - Mention of Annie, Ben's wife (she sent in feedback)
-  - "Take that, Matt!"
+  - Annie, Ben's wife mentioned (she sent in feedback)
+  - "\"Take that, Matt!\""
   - Feedback from Stephanie
-  - It's a Trap! listener feedback transition
+  - "\"It's a Trap!\" listener feedback transition"
   - Matt and Ben start blogging on the website
  
 prophecy: 

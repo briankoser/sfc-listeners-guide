@@ -19,10 +19,10 @@ time_loop_backward:
 
 notable_moments:
 firsts: 
-  - Mention of The Life Report
-  - Mention of The LOST Report
+  - The Life Report mentioned
+  - The LOST Report mentioned
   - Sound effect (R2-D2)
-  - It's a Trap! sound effect
+  - "\"It's a Trap!\" sound effect"
   - Host says Groundhog's Day (Matt)
   - Top 5 list
 prophecy: 

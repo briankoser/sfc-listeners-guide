@@ -19,8 +19,8 @@ time_loop_backward:
 
 notable_moments:
 firsts: 
-  - Sci-Fi Song of the Week (Farewell Apollo, Battlestar Galactica)
-  - Skip Crust mention
+  - Sci-Fi Song of the Week ("Farewell Apollo", Battlestar Galactica)
+  - Skip Crust mentioned
   - Post-outro easter egg (Matt saying the Numbers from LOST)
 prophecy: 
 future_episodes: 
