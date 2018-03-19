@@ -10,6 +10,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
+
+    // add previous and next episode data
     for (let i = 0; i < episodes.length; i++) {
       let url =     (episodes[i - 1] || {}).url;
       let title =  ((episodes[i - 1] || {}).data || {}).title;
