@@ -1,0 +1,31 @@
+---
+permalink: searchIndex.json
+---
+{% set numbers = 'episode' %}
+[
+    {%- for episode in collections.episodes -%}
+    {
+        "url": "{{episode.url}}",
+        "tags": {{episode.data.tags | dump | safe}},
+        "title": "{{episode.data.title}}",
+        "number": "{{episode.data.number}}",
+        "date": "{{episode.data.date | readableDate}}",
+        "category": "{{episode.data.category}}",
+        "series": "{{episode.data.series}}",
+        "notable_moments": {{episode.data.notable_moments | dump | safe}},
+        "firsts": {{episode.data.firsts | dump | striptags | safe}},
+        "prophecy": [
+            {%- for prophecy in episode.data.prophecy -%}
+            "{{prophecy.prophecy | safe}} {{prophecy.comments | safe}}" {%- if not loop.last -%} , {%- endif -%}
+            {%- endfor -%}
+        ],
+        "future_episodes": {{episode.data.future_episodes | dump | safe}},
+        "celebrity_invites": {{episode.data.celebrity_invites | dump | safe}},
+        "celebrity_promo": "{{episode.data.celebrity_promo}}",
+        "recommendation_reason": "{{episode.data.recommendation_reason | striptags | safe}}",
+        "archivist_note": "{{episode.data.archivist_note}}",
+        "post": "{{episode.templateContent | striptags | safe}}"
+    }
+    {%- if not loop.last -%} , {% endif -%}
+    {%- endfor %}
+]
