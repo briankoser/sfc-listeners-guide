@@ -12,8 +12,8 @@ date: 2011-01-11
 category: Countdown
 series: 
 hosts:
-  - Ben de Bono
-  - Matt Anderson
+  - Ben
+  - Matt
 time_loop_forward: 149
 time_loop_backward: 
 

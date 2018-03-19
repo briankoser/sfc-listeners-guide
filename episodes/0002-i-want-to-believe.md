@@ -12,8 +12,8 @@ date: 2011-01-16
 category: Theology
 series: Supernatural Creatures
 hosts:
-  - Ben de Bono
-  - Matt Anderson
+  - Ben
+  - Matt
 time_loop_forward: 125
 time_loop_backward: 
 

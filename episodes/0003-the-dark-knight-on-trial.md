@@ -14,8 +14,8 @@ date: 2011-01-24
 category: Philosophy
 series: 
 hosts:
-  - Ben de Bono
-  - Matt Anderson
+  - Ben
+  - Matt
 time_loop_forward: 77
 time_loop_backward: 
 

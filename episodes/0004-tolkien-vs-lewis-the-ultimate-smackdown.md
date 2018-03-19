@@ -12,8 +12,8 @@ date: 2011-01-30
 category: Literature
 series: 
 hosts:
-  - Ben de Bono
-  - Matt Anderson
+  - Ben
+  - Matt
 time_loop_forward: 435
 time_loop_backward: 
 
