@@ -109,19 +109,25 @@
                     let query = searchBar.value;
                     if (query != undefined) {
                         let results = searchIndex.search(query);
-                        
-                        let ol = document.getElementById('searchresults');
-                        ol.innerHTML = '';
-                        
-                        results.forEach(result => {
-                            let a = createA(result.ref, searchStore[result.ref].title);
-                            let li = document.createElement('li');
-                            let box = document.createElement('div');
-                            box.className = 'box';
-                            box.appendChild(a)
-                            li.appendChild(box);
-                            ol.appendChild(li);
-                        })
+
+                        if (results.length === 0) {
+                            showResults(query.length <= 3 ? 'short' : 'empty');
+                        }
+                        else {
+                            showResults('filled');
+
+                            let ol = document.getElementById('searchresults');
+                            ol.innerHTML = '';
+                            
+                            results.forEach(result => {
+                                let a = createA(result.ref, searchStore[result.ref].title);
+                                let li = document.createElement('li');
+                                let box = createDiv('box');
+                                box.appendChild(a)
+                                li.appendChild(box);
+                                ol.appendChild(li);
+                            })
+                        }
                     }
                 }
 
@@ -130,6 +136,18 @@
                     a.href = href;
                     a.innerText = text;
                     return a;
+                }
+
+                function createDiv (className) {
+                    let div = document.createElement('div');
+                    div.classList.add(className);
+                    return div;
+                }
+
+                function showResults (resultsPane) {
+                    document.getElementById('searchfilled').style.display = resultsPane === 'filled' ? 'block' : 'none';
+                    document.getElementById('searchempty').style.display = resultsPane === 'empty' ? 'block' : 'none';
+                    document.getElementById('searchshort').style.display = resultsPane === 'short' ? 'block' : 'none';
                 }
             });
         </script>
