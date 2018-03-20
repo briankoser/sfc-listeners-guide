@@ -22,7 +22,7 @@ permalink: searchIndex.json
         "future_episodes": {{episode.data.future_episodes | dump | safe}},
         "celebrity_invites": {{episode.data.celebrity_invites | dump | safe}},
         "celebrity_promo": "{{episode.data.celebrity_promo}}",
-        "recommendation_reason": "{{episode.data.recommendation_reason | striptags | safe}}",
+        "recommendation_reason": {{episode.data.recommendation_reason | dump | striptags | safe}},
         "archivist_note": "{{episode.data.archivist_note}}",
         "post": "{{episode.templateContent | striptags | safe}}"
     }

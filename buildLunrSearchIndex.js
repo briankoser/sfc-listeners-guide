@@ -1,7 +1,6 @@
 const fs = require( 'fs' );
 const lunr = require('lunr');
 const initialSearchIndexLocation = './_site/searchIndex.json';
-// const initialSearchIndexLocation = './_site/testIndex.json';
 const lunrSearchIndexLocation = './_site/lunrIndex.json';
 
 fs.readFile(initialSearchIndexLocation, 'utf8', (err, data) => {
@@ -11,15 +10,16 @@ fs.readFile(initialSearchIndexLocation, 'utf8', (err, data) => {
     }
 
     let episodes = JSON.parse(data);
-
-    var lunrIndex = lunr(function () {
+    
+    let lunrStore = {};
+    let lunrIndex = lunr(function () {
         this.ref('url')
-        this.field('tags');        
-        this.field('title', { boost: 10 })
+        this.field('tags', { boost: 5 });
+        this.field('title', { boost: 10 });
         this.field('number', { boost: 10 });
-        this.field('date');
-        this.field('category');
-        this.field('series');
+        this.field('date', { boost: 5 });
+        this.field('category', { boost: 5 });
+        this.field('series', { boost: 5 });
         this.field('notable_moments');
         this.field('firsts');
         this.field('prophecy');
@@ -31,16 +31,25 @@ fs.readFile(initialSearchIndexLocation, 'utf8', (err, data) => {
         this.field('post');
         
         episodes.forEach(function (episode) {
-            this.add(episode)
+            this.add(episode);
+            lunrStore[episode.url] = {
+                'title': `№ ${episode.number} ${episode.title}`
+            };
         }, this);
     });
 
-    fs.writeFile(lunrSearchIndexLocation, JSON.stringify(lunrIndex), (err) => {
-        if (err) {
-            console.log('Error writing lunr search index: ' + err);
-        } 
-        else {
-            console.log('Successfully wrote lunr search index.');
+    fs.writeFile(lunrSearchIndexLocation, 
+        JSON.stringify({
+            index: lunrIndex,
+            store: lunrStore
+        }), 
+        (err) => {
+            if (err) {
+                console.log('Error writing lunr search index: ' + err);
+            } 
+            else {
+                console.log('Successfully wrote lunr search index.');
+            }
         }
-    });
+    );
 });
