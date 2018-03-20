@@ -1,0 +1,108 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        /* bulma-provided navbar */
+        // Get all "navbar-burger" elements
+        let $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(function ($el) {
+                $el.addEventListener('click', function () {
+                    // Get the target from the "data-target" attribute
+                    let target = $el.dataset.target;
+                    let $target = document.getElementById(target);
+
+                    // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+        }
+
+        /* search */
+        let searchIndexPath = '/lunrIndex.json';
+        let searchIndex;
+        let searchStore;
+        let searchBar = document.getElementById('searchbar');
+        let searchButton = document.getElementById('searchbutton');
+
+        getSearchIndex();
+        
+        if (searchButton != null) {
+            searchButton.addEventListener('click', requestSearch);
+        }
+
+        searchbar.addEventListener('keyup', event => {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                searchButton.click();
+            }
+        });
+
+        /* search functions */
+        function getSearchIndex () {
+            let httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = () => {
+                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                    if (httpRequest.status === 200) {
+                        let response = JSON.parse(httpRequest.responseText);
+                        searchIndex = lunr.Index.load(response.index);
+                        searchStore = response.store;
+                        searchButton.disabled = false;
+                    } else {
+                        console.log('Search index request error');
+                    }
+                }
+            };
+            httpRequest.open('GET', searchIndexPath);
+            httpRequest.send();
+        }
+
+        function requestSearch () {
+            let query = searchBar.value;
+            if (query != undefined) {
+                let results = searchIndex.search(query);
+
+                if (results.length === 0) {
+                    showResults(query.length <= 3 ? 'short' : 'empty');
+                }
+                else {
+                    showResults('filled');
+
+                    let ol = document.getElementById('searchresults');
+                    ol.innerHTML = '';
+                    
+                    results.forEach(result => {
+                        let a = createA(result.ref, searchStore[result.ref].title);
+                        let li = document.createElement('li');
+                        let box = createDiv('box');
+                        box.appendChild(a)
+                        li.appendChild(box);
+                        ol.appendChild(li);
+                    })
+                }
+            }
+        }
+
+        function createA (href, text) {
+            let a = document.createElement('a');
+            a.href = href;
+            a.innerText = text;
+            return a;
+        }
+
+        function createDiv (className) {
+            let div = document.createElement('div');
+            div.classList.add(className);
+            return div;
+        }
+
+        function showResults (resultsPane) {
+            document.getElementById('searchfilled').style.display = resultsPane === 'filled' ? 'block' : 'none';
+            document.getElementById('searchempty').style.display = resultsPane === 'empty' ? 'block' : 'none';
+            document.getElementById('searchshort').style.display = resultsPane === 'short' ? 'block' : 'none';
+        }
+    });
+</script>
