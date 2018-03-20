@@ -240,6 +240,7 @@ main .hero {
 }
 
 
+
 /******************************************************************************
   EPISODE LIST CLASSES
 ******************************************************************************/
@@ -265,6 +266,24 @@ main .hero {
 
 .episode-list .card-header-title a {
     color: var(--color-white);
+}
+
+
+
+/******************************************************************************
+  EPISODE FILTER CLASSES
+******************************************************************************/
+.episode-filter {
+    margin-bottom: 1em;
+}
+
+.episode-filter .radio {
+    font-size: 1.5em;
+}
+
+.episode-filter input[type=radio] {
+    height: 1.5em;
+    width: 1.5em;
 }
 
 

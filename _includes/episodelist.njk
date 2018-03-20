@@ -1,7 +1,7 @@
 <div class="episode-list columns">
 	<div class="column is-half">
 		{% for episode in episodelist %}
-		<div class="card">
+		<div class="card recommendation-{{episode.data.recommendation}}">
 			<header class="card-header">
 				<p class="card-header-title">
 					<a href="{{ episode.url }}">№ {{ episode.data.number }} {{ episode.data.title }}</a>

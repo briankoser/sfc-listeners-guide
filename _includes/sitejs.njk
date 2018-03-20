@@ -21,6 +21,8 @@
             });
         }
 
+
+
         /* search */
         let searchIndexPath = '/lunrIndex.json';
         let searchIndex;
@@ -103,6 +105,41 @@
             document.getElementById('searchfilled').style.display = resultsPane === 'filled' ? 'block' : 'none';
             document.getElementById('searchempty').style.display = resultsPane === 'empty' ? 'block' : 'none';
             document.getElementById('searchshort').style.display = resultsPane === 'short' ? 'block' : 'none';
+        }
+
+
+
+        /* episode filter */
+        addEventListenerList(document.getElementsByName('episodefilter'), 'click', filterEpisodes);
+
+        function addEventListenerList(list, event, fn) {
+            for (var i = 0, len = list.length; i < len; i++) {
+                list[i].addEventListener(event, fn, false);
+            }
+        }
+
+        function filterEpisodes (event) {
+            let filter = event.srcElement.id;
+            let allCards = document.querySelectorAll('.episode-list .card');
+            let cards;
+
+            switch (filter) {
+                case 'all':
+                    cards = allCards;
+                    break;
+                case 'essential':
+                    cards = document.querySelectorAll('.episode-list .recommendation-essential, .episode-list .recommendation-essential-timeloop');
+                    break;
+                case 'listen':
+                    cards = document.querySelectorAll('.episode-list .recommendation-essential, .episode-list .recommendation-essential-timeloop, .episode-list .recommendation-yes, .episode-list .recommendation-yes-timeloop');
+                    break;
+                case 'skip':
+                    cards = document.querySelectorAll('.episode-list .recommendation-no');
+                    break;
+            }
+
+            allCards.forEach(card => card.style.display = 'none');
+            cards.forEach(card => card.style.display = 'block');
         }
     });
 </script>

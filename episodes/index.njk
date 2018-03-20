@@ -3,6 +3,7 @@ layout: base
 ---
 <h1 class="is-size-2">Episodes</h1>
 
+{% include "episodefilter.njk" %}
+
 {% set episodelist = collections.episodes %}
 {% include "episodelist.njk" %}
-
