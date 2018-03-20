@@ -30,18 +30,18 @@
         let searchBar = document.getElementById('searchbar');
         let searchButton = document.getElementById('searchbutton');
 
-        getSearchIndex();
-        
         if (searchButton != null) {
+            getSearchIndex();
+            
             searchButton.addEventListener('click', requestSearch);
-        }
 
-        searchbar.addEventListener('keyup', event => {
-            event.preventDefault();
-            if (event.keyCode === 13) {
-                searchButton.click();
-            }
-        });
+            searchbar.addEventListener('keyup', event => {
+                event.preventDefault();
+                if (event.keyCode === 13) {
+                    searchButton.click();
+                }
+            });
+        }
 
         /* search functions */
         function getSearchIndex () {
