@@ -7,10 +7,12 @@
   "scripts": {
     "css-build": "node-sass _sass/main.scss css/main.css",
     "css-watch": "npm run css-build -- --watch",
+    "search-index-build": "node buildLunrSearchIndex.js",
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "serve": "http-server ./_site",
-    "dev": "run-p watch css-watch serve"
+    "dev": "run-p watch css-watch serve",
+    "prod": "css-build && search-index-build && build"
   },
   "author": {
     "name": "Brian Koser",

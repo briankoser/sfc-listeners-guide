@@ -26,3 +26,9 @@ npm run build
 ```shell
 npm run dev
 ```
+
+4c. Build for production
+
+```shell
+npm run prod
+```
