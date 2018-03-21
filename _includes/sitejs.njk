@@ -1,5 +1,19 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
+        /* general functions */
+        let getQueryStrings = () => {
+            let queryDict = {};
+            location.search
+                .substr(1)
+                .split('&')
+                .forEach(item => {
+                    queryDict[item.split("=")[0]] = item.split("=")[1]
+                })
+            return queryDict;
+        }
+
+
+
         /* bulma-provided navbar */
         // Get all "navbar-burger" elements
         let $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -109,7 +123,7 @@
 
 
 
-        /* episode filter */
+        /* episode filter - radio buttons */
         addEventListenerList(document.getElementsByName('episodefilter'), 'click', filterEpisodes);
 
         function addEventListenerList(list, event, fn) {
@@ -140,6 +154,17 @@
 
             allCards.forEach(card => card.style.display = 'none');
             cards.forEach(card => card.style.display = 'block');
+        }
+
+
+
+        /* episode filter - query string */
+        {
+            let queryStrings = getQueryStrings();
+            let radio = document.getElementById(queryStrings.r);
+            if (radio) {
+                radio.click();
+            }
         }
     });
 </script>
