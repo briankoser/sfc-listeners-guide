@@ -163,11 +163,13 @@ q {
 /******************************************************************************
   STRUCTURE CLASSES
 ******************************************************************************/
-.hero-body a {
+.hero-body a,
+.hero-foot a {
     color: var(--color-white);
 }
 
-.hero-body a:hover {
+.hero-body a:hover,
+.hero-foot a:hover {
     text-decoration: underline;
     color: var(--color-blue);
 }
