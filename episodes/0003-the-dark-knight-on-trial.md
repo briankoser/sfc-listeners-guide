@@ -16,7 +16,7 @@ series:
 hosts:
   - Ben
   - Matt
-time_loop_forward: 77
+time_loop_forward: {"number": 77}
 time_loop_backward: 
 
 notable_moments:

@@ -18,7 +18,7 @@
 								<div>
 									<h1 class="title is-3 has-text-success">Listen</h1> 
 									<h2 class="subtitle is-5">
-										Timeloop (<a href="{{ episode.data.time_loop_forward }}">№ {{ episode.data.time_loop_forward }}</a>)
+										Timeloop (<a href="{{episode.data.time_loop_forward.url}}">№ {{episode.data.time_loop_forward.number}}</a>)
 									</h2>
 								</div>
 							{% elif episode.data.recommendation == 'essential' %}
@@ -27,7 +27,7 @@
 								<div>
 									<h1 class="title is-3 has-text-primary">Essential</h1> 
 									<h2 class="subtitle is-5">
-										Timeloop (<a href="{{ episode.data.time_loop_forward }}">№ {{ episode.data.time_loop_forward }}</a>)
+										Timeloop (<a href="{{episode.data.time_loop_forward.url}}">№ {{episode.data.time_loop_forward.number}}</a>)
 									</h2>
 								</div>
 							{% elif episode.data.recommendation == 'no' %}
