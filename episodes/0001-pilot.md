@@ -88,25 +88,25 @@ Ben is looking forward to The Amazing Spider-Man.
 
 
 # Main Topic
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>The Cape</header>
   <div class="rating ben" data-rating="uninterested" title="Uninterested"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>The Event</header>
   <div class="rating ben" data-rating="no" title="No"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Flash Forward</header>
   <div class="rating ben" data-rating="no" title="No"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>V</header>
   <div class="rating ben" data-rating="no" title="No"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
@@ -114,133 +114,133 @@ Ben is looking forward to The Amazing Spider-Man.
 
 ## Current Recommendations
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Wheel of Time</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="dont-know" title="Never Heard of it"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Fringe</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Scott Pilgrim vs. the World</header>
   <div class="rating ben" data-rating="interested" title="Interested"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>The Avengers</header>
   <div class="rating ben" data-rating="interested" title="Interested"></div>
   <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>The Social Network</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="no" title="No"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Fables</a></header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Sandman</a></header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt">&nbsp;</div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Y: The Last Man</header>
   <div class="rating ben" data-rating="interested" title="Interested"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Star Trek: The Original Series</header>
   <div class="rating ben" data-rating="no" title="No"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Star Trek II: The Wrath of Khan</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt">&nbsp;</div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Star Trek: The Motion Picture</header>
   <div class="rating ben" data-rating="no" title="No"></div>
   <div class="rating matt">&nbsp;</div>
-  <q class="ben">I hated hated hated that movie.</q>
+  <q class="ben is-size-5">I hated hated hated that movie.</q>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Star Trek (2009)</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>The Happening</header>
   <div class="rating ben" data-rating="no" title="No"></div>
   <div class="rating matt">&nbsp;</div>
-  <q class="ben">The Crappening</q>
+  <q class="ben is-size-5">The Crappening</q>
 </div>
 
 Matt's favorite themes in fictions are alternate realities and time travel.
 
 They're recording video as well as audio.
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>LOST</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Ink</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Sunshine</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>The Office</header>
   <div class="rating ben" data-rating="no" title="No"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Community</header>
   <div class="rating ben">&nbsp;</div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Outsourced</header>
   <div class="rating ben">&nbsp;</div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Parks and Rec</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt">&nbsp;</div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Firefly</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
@@ -248,31 +248,31 @@ They're recording video as well as audio.
 
 Firefly is Ben's favorite show of all time
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Dollhouse</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Buffy: The Vampire Slayer</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Angel</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt">&nbsp;</div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Batman: Year 1</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
-<div class="review clearfix">
+<div class="review clearfix is-size-4">
   <header>Dr. Horrible's Sing-a-long Blog</header>
   <div class="rating ben" data-rating="yes" title="Yes"></div>
   <div class="rating matt" data-rating="yes" title="Yes"></div>

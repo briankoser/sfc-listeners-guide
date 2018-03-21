@@ -178,10 +178,6 @@ q {
     padding: 0 1.5rem 1.5rem 1.5rem;
 }
 
-.navbar-brand a {
-    font-size: 2rem;
-}
-
 .navbar-brand img {
     max-height: 65px;
 }
@@ -292,10 +288,6 @@ main .hero {
 ******************************************************************************/
 .episode-filter {
     margin-bottom: 1em;
-}
-
-.episode-filter .radio {
-    font-size: 1.5em;
 }
 
 .episode-filter input[type=radio] {
@@ -439,7 +431,6 @@ q.matt::before {
   REVIEW CLASSES
 ******************************************************************************/
 .review {
-    font-size: 1.6rem;
     max-width: 300px;
 }
 
@@ -467,7 +458,6 @@ q.matt::before {
 
 .review q {
     border-radius: 5px 5px 0 0;
-    font-size: 0.8em;
 }
 
 .episode-content .rating {
