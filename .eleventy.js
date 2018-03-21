@@ -1,11 +1,16 @@
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("baseHero", "layouts/baseHero.njk");
+  eleventyConfig.addLayoutAlias("baseNavBar", "layouts/baseNavBar.njk");
   eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toISODate();
+  });
+
+  eleventyConfig.addFilter("today", option => {
+    return option === 'year' ? new Date().getFullYear() : new Date();
   });
 
   eleventyConfig.addCollection("episodes", function(collection) {
@@ -41,6 +46,13 @@ module.exports = function(eleventyConfig) {
         timeLoopBackward.url = (pastEpisode || {}).url;
       }
     }
+
+    // eleventy won't let me add counts to the overall collection, so I'm adding it to the first episode
+    let counts = {};
+    counts.essential = episodes.filter(e => e.data.recommendation.startsWith('essential')).length;
+    counts.yes = episodes.filter(e => e.data.recommendation.startsWith('yes')).length;
+    counts.no = episodes.filter(e => e.data.recommendation.startsWith('no')).length;
+    episodes[0].data.counts = counts;
 
     return episodes;
   });

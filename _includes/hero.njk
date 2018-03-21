@@ -1,0 +1,31 @@
+<section class="hero is-primary">
+    <div class="hero-head">
+        <header class="navbar is-primary">
+            <h1 class="navbar-brand">
+                <span class="navbar-item">
+                    <img src="/img/theo-logo-flat.png">
+                </span>
+                <div class="navbar-burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </h1>
+            <nav id="navMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/">Home</a>
+                    <a class="navbar-item" href="/episodes/">Episodes</a>
+                    {# <a href="/">Awards</a>#}
+                    <a class="navbar-item" href="/stats">Stats</a> 
+                    <a class="navbar-item" href="/about/">About</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">{{ metadata.title }}</h1>
+            <h2 class="subtitle">{{ metadata.subtitle }}</h2>
+        </div>
+    </div>
+</section>

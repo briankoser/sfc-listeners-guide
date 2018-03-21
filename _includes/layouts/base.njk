@@ -13,11 +13,8 @@
     </head>
     <body>
         <div class="section">
-            {% include "nav.njk" %}
-
-            <main class="container">
-                {{ layoutContent | safe }}
-            </main>
+            {{ layoutContent | safe }}
+            
             {% include "footer.njk" %}
         </div>
 
