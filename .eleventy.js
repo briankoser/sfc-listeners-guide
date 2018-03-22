@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("baseHero", "layouts/baseHero.njk");
   eleventyConfig.addLayoutAlias("baseNavBar", "layouts/baseNavBar.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {

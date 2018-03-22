@@ -1,7 +1,6 @@
 ---
-layout: baseNavBar
+layout: page
 ---
-<div class="content">
 I started listening to The Sci-Fi Christian in December 2014 with Episode 296. Soon after, I started going back and listening to the old episodes that sounded interesting. That should have been sufficient, but was not:
 
 - I wanted to share the great moments in SFC history with others, but could never remember in what episode they happened.
@@ -12,4 +11,3 @@ For those reasons, in January 2018 I started listening to Episode 1 and compilin
 
 Signing off,
 The Archivist
-</div>
