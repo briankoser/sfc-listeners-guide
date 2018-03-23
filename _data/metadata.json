@@ -6,5 +6,10 @@
       "name": "Brian Koser",
       "email": "brianmkoser@gmail.com"
     },
-    "totalEpisodes": 641
+    "totalEpisodes": 641,
+    "stats": {},
+    "hosts": [
+      {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "chartreuse", "rgb": ""}, "weakness": "squirrels"},
+      {"shortName": "Matt", "fullName": "Matt Anderson", "color": {"name": "mauve", "rgb": ""}, "weakness": "time travel"}
+    ]
   }

@@ -15,7 +15,9 @@
     --color-dark-grey: hsl(0, 0%, 14%);
     --color-green: hsl(141, 71%, 48%);
     --color-orange: hsl(33, 99%, 54%);
+    --color-orange-transparent: hsla(33, 99%, 54%, 0.2);
     --color-purple: hsl(280, 84%, 48%);
+    --color-purple-transparent: hsla(280, 84%, 48%, 0.2);
     --color-red: hsl(348, 100%, 61%);
     --color-yellow: hsl(48, 100%, 67%);
     --color-white: white;
@@ -356,6 +358,22 @@ main .hero {
     background-color: var(--color-orange);
 }
 
+.title.Ben {
+    color: var(--color-purple);
+}
+
+.title.Matt {
+    color: var(--color-orange);
+}
+
+.card.Ben .card-header {
+    background-color: var(--color-purple-transparent);
+}
+
+.card.Matt .card-header {
+    background-color: var(--color-orange-transparent);
+}
+
 
 
 /******************************************************************************
@@ -484,6 +502,14 @@ div[data-rating='dont-know']::after {
     content: '❓';
 }
 
+
+
+/******************************************************************************
+  STATS CLASSES
+******************************************************************************/
+.hosts .card {
+    margin-bottom: 2em;
+}
 
 
 /******************************************************************************

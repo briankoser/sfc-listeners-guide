@@ -1,5 +1,6 @@
 ---
 layout: page
+pageTitle: About
 ---
 I started listening to The Sci-Fi Christian in December 2014 with Episode 296. Soon after, I started going back and listening to the old episodes that sounded interesting. That should have been sufficient, but was not:
 

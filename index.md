@@ -66,19 +66,19 @@ And more!
     <div class="level-item has-text-centered">
         <div>
             <p class="heading">Essential</p>
-            <p class="title">{{ collections.episodes[0].data.counts.essential }}</p>
+            <p class="title">{{ collections.episodes[0].data.stats.counts.essential }}</p>
         </div>
     </div>
     <div class="level-item has-text-centered">
         <div>
             <p class="heading">Listen</p>
-            <p class="title">{{ collections.episodes[0].data.counts.yes }}</p>
+            <p class="title">{{ collections.episodes[0].data.stats.counts.yes }}</p>
         </div>
     </div>
     <div class="level-item has-text-centered">
         <div>
             <p class="heading">Skip</p>
-            <p class="title">{{ collections.episodes[0].data.counts.no }}</p>
+            <p class="title">{{ collections.episodes[0].data.stats.counts.no }}</p>
         </div>
     </div>
 </div>
