@@ -94,6 +94,15 @@ module.exports = function(eleventyConfig) {
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.hosts = hosts;
 
+    let episodeStats = {};
+    let timeLoopGaps = episodes.map(episode => { return {
+      'title': episode.data.title,
+      'number': episode.data.number,
+      'gap': episode.data.time_loop_forward.number - episode.data.number
+    } });
+    episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
+    episodes[0].data.stats.episodes = episodeStats;
+
     return episodes;
   });
 

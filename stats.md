@@ -53,10 +53,20 @@ All stats are through episode № {{ collections.episodes.length }}
 </div>
 </div>
 
-<!-- Longest episode
-Shortest episode
-Quickest time loop
+## Episodes
 
-Episodes released by day of the week, month
+<!-- Longest 
 
-Blog stats -->
+Shortest
+
+Average Length -->
+
+<div>
+<b>Quickest Time Loop</b>
+
+№ {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.title}} ({{collections.episodes[0].data.stats.episodes.quickestTimeLoop.gap}} episodes between original and time loop)
+</div>
+
+<!-- ### Release Day
+
+### Release Month -->
