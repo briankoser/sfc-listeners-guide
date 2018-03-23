@@ -34,6 +34,12 @@ All stats are through episode № {{ collections.episodes.length }}
                     <p class="title">{{host.last}}</p>
                 </div>
             </div>
+            <!-- <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Prophecy</p>
+                    <p class="title">% correct</p>
+                </div>
+            </div> -->
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Weakness</p>
@@ -59,7 +65,13 @@ All stats are through episode № {{ collections.episodes.length }}
 
 Shortest
 
-Average Length -->
+Average Length 
+
+Stan Lee quotes of the Week 
+
+Celebrity promos 
+
+Future episodes promised vs delivered -->
 
 <div>
 <b>Quickest Time Loop</b>
