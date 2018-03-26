@@ -1,8 +1,8 @@
-const { DateTime } = require("luxon");
-const fs = require("fs");
-const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
-
 module.exports = function(eleventyConfig) {
+  const { DateTime } = require("luxon");
+  const fs = require("fs");
+  const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
+
   eleventyConfig.addLayoutAlias("baseHero", "layouts/baseHero.njk");
   eleventyConfig.addLayoutAlias("baseNavBar", "layouts/baseNavBar.njk");
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
@@ -102,6 +102,17 @@ module.exports = function(eleventyConfig) {
     } });
     episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
     episodes[0].data.stats.episodes = episodeStats;
+
+    let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    let releaseDays = episodes.map(episode => (new Date(episode.date)).getDay());
+    let releaseDayStats = [];
+    for (let i = 0; i <= 6; i++) {
+      let day = {};
+      day.name = days[i];
+      day.count = releaseDays.filter(day => day === i).length;
+      releaseDayStats[i] = day;
+    }
+    episodes[0].data.stats.releaseDay = releaseDayStats;
 
     return episodes;
   });

@@ -108,6 +108,9 @@ h2 {
 **********
   table, caption, colgroup, col, thead, tfoot, tbody, tr, th, td
 ******************************************************************************/
+table .number-column {
+    text-align: right;
+}
 
 
 

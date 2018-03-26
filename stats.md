@@ -65,13 +65,7 @@ All stats are through episode № {{ collections.episodes.length }}
 
 Shortest
 
-Average Length 
-
-Stan Lee quotes of the Week 
-
-Celebrity promos 
-
-Future episodes promised vs delivered -->
+Average Length -->
 
 <div>
 <b>Quickest Time Loop</b>
@@ -79,6 +73,48 @@ Future episodes promised vs delivered -->
 № {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.title}} ({{collections.episodes[0].data.stats.episodes.quickestTimeLoop.gap}} episodes between original and time loop)
 </div>
 
-<!-- ### Release Day
+### Release Day
+<div class="columns">
+<div class="column is-one-fifth">
+<table class="table is-striped">
+    <tbody>
+        {% for day in collections.episodes[0].data.stats.releaseDay %}
+<tr>
+    <td>{{day.name}}</td>
+    <td class="number-column">{{day.count}}</td>
+</tr>
+        {% endfor %}
+</tbody>
+</table>
+</div>
+</div>
 
-### Release Month -->
+<!-- ### Production by Month -->
+<!-- percentage of total minutes by month -->
+
+<!-- ### Released Over Time -->
+<!-- minutes release per month from 2011-01 to present -->
+
+<!-- ### Stan Lee Quotes of the Week 
+
+<div>
+<b>First</b>
+
+{{collections.episodes[0].data.stats.episodes.stanLee.first}}
+</div>
+
+<div>
+<b>Last</b>
+
+{{collections.episodes[0].data.stats.episodes.stanLee.last}}
+</div>
+
+<div>
+<b>Total</b>
+
+{{collections.episodes[0].data.stats.episodes.stanLee.count}}
+</div> -->
+
+<!-- Celebrity promos -->
+
+<!-- Future episodes promised vs delivered -->
