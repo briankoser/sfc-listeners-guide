@@ -114,7 +114,3 @@ Average Length -->
 
 {{collections.episodes[0].data.stats.episodes.stanLee.count}}
 </div> -->
-
-<!-- Celebrity promos -->
-
-<!-- Future episodes promised vs delivered -->

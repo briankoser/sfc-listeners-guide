@@ -1,0 +1,15 @@
+{% for prophecy in prophecySet %}
+
+<div class="prophecy clearfix">
+    <header class="host {{prophecy.host | lower}}">
+        <div>{{prophecy.host}}</div>
+    </header>
+    <div class="prediction">
+        {{prophecy.prediction}}
+    </div>
+    <div class="veracity {{prophecy.veracity}}" title="{{prophecy.veracity | string | title}}">
+        {{prophecy.comments}}
+    </div>
+</div>
+
+{% endfor %}

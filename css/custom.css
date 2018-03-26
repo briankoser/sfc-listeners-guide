@@ -14,6 +14,7 @@
     --color-blue: hsl(218, 75%, 54%);
     --color-dark-grey: hsl(0, 0%, 14%);
     --color-green: hsl(141, 71%, 48%);
+    --color-medium-grey: hsl(0, 0%, 21%);
     --color-orange: hsl(33, 99%, 54%);
     --color-orange-transparent: hsla(33, 99%, 54%, 0.2);
     --color-purple: hsl(280, 84%, 48%);
@@ -286,6 +287,10 @@ main .hero {
     color: var(--color-white);
 }
 
+.episode-list .card-footer a:hover {
+    background-color: var(--color-medium-grey);
+}
+
 
 
 /******************************************************************************
@@ -405,7 +410,7 @@ q.matt::before {
 ******************************************************************************/
 .prophecy {
     display: flex;
-    max-width: 600px;
+    max-width: 650px;
     margin-bottom: 1em;
 }
 
@@ -431,8 +436,13 @@ q.matt::before {
 
 .prophecy .prediction,
 .prophecy .veracity {
-    background-color: var(--color-black);
+    background-color: var(--color-medium-grey);
     flex-basis: 45%;
+}
+
+.box .prophecy .prediction,
+.box .prophecy .veracity {
+    background-color: var(--color-black);
 }
 
 .prophecy .veracity {

@@ -26,7 +26,7 @@ firsts:
   - Host says Groundhog's Day (Matt)
   - Top 5 list
 prophecy: 
-  - {"host": "Ben", "prophecy": "V just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}
+  - {"host": "Ben", "prediction": "V just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}
 future_episodes: 
   - Twilight
   - Clones

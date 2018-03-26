@@ -32,7 +32,7 @@ firsts:
   - Matt and Ben start blogging on the website
  
 prophecy: 
-  - {"host": "Matt", "prophecy": "Reboots are going to get old really fast.", "veracity": true, "comments": "There will be entire episodes of Ben complaining about reboots."}
+  - {"host": "Matt", "prediction": "Reboots are going to get old really fast.", "veracity": true, "comments": "There will be entire episodes of Ben complaining about reboots."}
 future_episodes: 
 episode_links: 
 celebrity_invites: 

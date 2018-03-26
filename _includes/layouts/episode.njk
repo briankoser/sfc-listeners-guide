@@ -136,19 +136,8 @@ layout: baseNavBar
         {% if prophecy %}
         <h2>Prophecy</h2>
         <div class="prophecies">
-        {% for prediction in prophecy %}
-            <div class="prophecy clearfix">
-                <header class="host {{prediction.host | lower}}">
-                    <div>{{prediction.host}}</div>
-                </header>
-                <div class="prediction">
-                    {{prediction.prophecy}}
-                </div>
-                <div class="veracity {{prediction.veracity}}" title="{{prediction.veracity | string | title}}">
-                    {{prediction.comments}}
-                </div>
-            </div>
-        {% endfor %}
+            {% set prophecySet = prophecy %}
+            {% include "_macros/prophecy.njk" %}
         </div>
         {% endif %}
 

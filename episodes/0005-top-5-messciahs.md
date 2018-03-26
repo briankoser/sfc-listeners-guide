@@ -24,8 +24,8 @@ firsts:
   - "Readalong: The Stand"
   - Dark Knight News
 prophecy: 
-  - {"host": "Ben", "prophecy": "I gotta believe if Nolan's putting Robin in the series, he has a really good way of doing it.", "veracity": true, "comments": "Don't remember if Ben liked the Robin reveal, but I think it worked."}
-  - {"host": "Matt", "prophecy": "Robin will be the villain in The Dark Knight Rises", "veracity": false, "comments": ""}
+  - {"host": "Ben", "prediction": "I gotta believe if Nolan's putting Robin in the series, he has a really good way of doing it.", "veracity": true, "comments": "Don't remember if Ben liked the Robin reveal, but I think it worked."}
+  - {"host": "Matt", "prediction": "Robin will be the villain in The Dark Knight Rises", "veracity": false, "comments": ""}
 
 future_episodes: 
   - Watchmen
