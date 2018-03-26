@@ -24,9 +24,9 @@
     "url": "git://github.com/briankoser/sfc-listeners-guide"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.2.14",
+    "@11ty/eleventy": "^0.2.15",
     "http-server": "^0.11.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.8.3",
     "npm-run-all": "^4.1.2",
     "typogr": "^0.6.7"
   },
@@ -34,6 +34,6 @@
     "bulma": "^0.6.2",
     "bulmaswatch": "^0.6.2",
     "lunr": "^2.1.6",
-    "npm": "^5.7.1"
+    "npm": "^5.8.0"
   }
 }
