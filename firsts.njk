@@ -1,0 +1,16 @@
+---
+layout: page
+pageTitle: Firsts
+---
+{% for episode in collections.episodes %}
+{% if episode.data.firsts %}
+    <h2 class="is-size-3">№ {{episode.data.number}} {{episode.data.title}}</h2>
+
+    <ul class="firsts">
+    {% for first in episode.data.firsts %}
+        <li>{{first | safe}}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% endfor%}

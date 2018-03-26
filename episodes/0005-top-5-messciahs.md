@@ -20,7 +20,7 @@ time_loop_backward:
 
 notable_moments:
 firsts: 
-  - "<a href='http://scifidinerpodcast.com/'>SciFi Diner</a> mention"
+  - "<a href='http://scifidinerpodcast.com/'>SciFi Diner</a> mentioned"
   - "Readalong: The Stand"
   - Dark Knight News
 prophecy: 
