@@ -1,0 +1,140 @@
+---
+layout: page
+pageTitle: Time Loops
+---
+
+<table class="table is-striped">
+    <thead>
+      <tr>
+        <th>Time Loop</th>
+        <th>Original</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>46</td>
+        <td>27</td>
+      </tr>
+      <tr>
+        <td>65</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>77</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>95</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>125</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>138</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>149</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>158</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>178</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>193</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>201</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>227</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>258</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>269</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>288</td>
+        <td>32, 34</td>
+      </tr>
+      <tr>
+        <td>369</td>
+        <td>33</td>
+      </tr>
+      <tr>
+        <td>379</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>380</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>413</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>435</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>497</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>584</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+  </table>
+
+## Pseudo Time Loops
+
+<table class="table is-striped">
+    <thead>
+      <tr>
+        <th>Time Loop</th>
+        <th>Original</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>202</td>
+        <td>video</td>
+      </tr>
+      <tr>
+        <td>240</td>
+        <td>video</td>
+      </tr>
+      <tr>
+        <td>256</td>
+        <td>video</td>
+      </tr>
+      <tr>
+        <td>293</td>
+        <td>clips of previous eps</td>
+      </tr>
+      <tr>
+        <td>299</td>
+        <td>video</td>
+      </tr>
+      <tr>
+        <td>354</td>
+        <td>video</td>
+      </tr>
+    </tbody>
+</table>
