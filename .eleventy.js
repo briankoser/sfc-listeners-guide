@@ -67,12 +67,14 @@ module.exports = function(eleventyConfig) {
     // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode
     episodes[0].data.stats = {};
 
+    // Counts stats
     let counts = {};
     counts.essential = episodes.filter(e => e.data.recommendation.startsWith('essential')).length;
     counts.yes = episodes.filter(e => e.data.recommendation.startsWith('yes')).length;
     counts.no = episodes.filter(e => e.data.recommendation.startsWith('no')).length;
     episodes[0].data.stats.counts = counts;
 
+    // Host stats
     let hostEpisodes = episodes.map(episode => { 
         return {
           'url': episode.url,
@@ -94,6 +96,7 @@ module.exports = function(eleventyConfig) {
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.hosts = hosts;
 
+    // Episode stats
     let episodeStats = {};
     let timeLoopGaps = episodes.map(episode => { return {
       'title': episode.data.title,
@@ -103,6 +106,7 @@ module.exports = function(eleventyConfig) {
     episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
     episodes[0].data.stats.episodes = episodeStats;
 
+    // Release Day stats
     let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     let releaseDays = episodes.map(episode => (new Date(episode.date)).getDay());
     let releaseDayStats = [];
@@ -113,6 +117,27 @@ module.exports = function(eleventyConfig) {
       releaseDayStats[i] = day;
     }
     episodes[0].data.stats.releaseDay = releaseDayStats;
+
+    // Prophecy Stats
+    let prophecyStats = [];
+    let prophecies = episodes
+      .map(episode => episode.data.prophecy)
+      .filter(prophecy => prophecy != null)
+      .reduce((a, b) => a.concat(b), []);
+    let prophecyHosts = [...new Set(prophecies.map(prophecy => prophecy.host))];
+    prophecyStats = prophecyHosts
+      .map(host => { 
+        let total = prophecies.filter(p => p.host === host).length;
+        let correct = prophecies.filter(p => p.host === host && p.veracity).length;
+
+        return {
+        'name': host,
+        'total': total,
+        'correct': correct,
+        'percentage': correct / total
+      }})
+      .sort( (a, b) => b.percentage > a.percentage );
+    episodes[0].data.stats.prophecy = prophecyStats;
 
     return episodes;
   });

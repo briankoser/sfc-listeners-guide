@@ -34,12 +34,6 @@ All stats are through episode № {{ collections.episodes.length }}
                     <p class="title">{{host.last}}</p>
                 </div>
             </div>
-            <!-- <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Prophecy</p>
-                    <p class="title">% correct</p>
-                </div>
-            </div> -->
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Weakness</p>

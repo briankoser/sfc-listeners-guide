@@ -3,8 +3,37 @@ layout: page
 pageTitle: Prophecy
 ---
 
-stats
+<div class="hosts columns">
+    <div class="column is-one-third">
+        {% for host in collections.episodes[0].data.stats.prophecy %}
+<div class="card {{host.name}}">
+    <header class="card-header">
+        <p class="card-header-title">
+            {{host.name | fullName}}
+        </p>
+    </header>
+    <div class="card-content">
+        <div class="level host-stats">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Prophecies</p>
+                    <p class="title">{{host.total}}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Correct</p>
+                    <p class="title">{{host.percentage * 100 | round(2) }}%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        {% endfor %}
+</div>
+</div>
 
+<h2>Prophecies</h2>
 <div class="prophecies">
 {% for episode in collections.episodes %}
 
