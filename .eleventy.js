@@ -148,9 +148,14 @@ module.exports = function(eleventyConfig) {
 
   return {
     templateFormats: [
+      "html",
       "md",
       "njk",
-      "html"
+      "ico",
+      "png",
+      "svg",
+      "webmanifest",
+      "xml"
     ],
 
     markdownTemplateEngine: "liquid",
