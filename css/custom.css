@@ -237,7 +237,7 @@ main .hero {
     margin-bottom: 1em;
 }
 
-.episode-content .message h3 {
+.episode-content .message-header .title {
     margin-bottom: 0;
 }
 
@@ -256,6 +256,10 @@ main .hero {
 
 .content .tabs li + li {
     margin-top: 0;
+}
+
+.archivist-note {
+    margin-top: 6em;
 }
 
 
@@ -356,8 +360,12 @@ main .hero {
 
 
 /******************************************************************************
-  HOST CLASSES
+  ARCHIVIST/HOST CLASSES
 ******************************************************************************/
+.archivist {
+    background-color: var(--color-blue);
+}
+
 .ben {
     background-color: var(--color-purple);
 }
@@ -387,7 +395,8 @@ main .hero {
 /******************************************************************************
   QUOTE CLASSES
 ******************************************************************************/
-q.inline {
+q.inline,
+q.archivist {
     display: inline;
 }
 
@@ -397,6 +406,14 @@ q.ben::before {
 
 q.matt::before {
     content: 'Matt: ' open-quote;
+}
+
+q.archivist::before {
+    content: 'Archivist: ';
+}
+
+q.archivist::after {
+    content: '';
 }
 
 .quote {

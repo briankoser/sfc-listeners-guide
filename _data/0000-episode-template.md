@@ -18,8 +18,8 @@ series:
 hosts:
   - Ben
   - Matt
-time_loop_forward: 
-time_loop_backward: 
+time_loop_forward: {"number": }
+time_loop_backward: {"number": }
 
 notable_moments:
 firsts: 
@@ -31,7 +31,7 @@ celebrity_invites:
 celebrity_promo: 
 
 last_listen: 
-recommendation: 
+recommendation: essential|essential-timeloop|yes|yes-timeloop|no
 recommendation_reason: 
 archivist_note: 
 ---
@@ -47,6 +47,8 @@ archivist_note:
 # Feedback
 
 
+
+<span class="archivist-note"></span>
 
 <div class="quote">
   <span class="quote-context"></span>

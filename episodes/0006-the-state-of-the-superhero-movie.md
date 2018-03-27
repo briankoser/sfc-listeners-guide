@@ -1,0 +1,126 @@
+---
+layout: episode
+tags:
+  - episode
+  - dark-knight-news 
+
+title: The State of the Super Hero Movie
+number: 6
+season: 1
+podcast_url: http://thescifichristian.com/2011/02/episode-106-the-state-of-the-super-hero-movie/
+date: 2011-02-15
+category: Main Topic
+series: State of the Superhero Movie
+hosts:
+  - Ben
+  - Matt
+time_loop_forward: {"number": 258}
+
+firsts: 
+  - Discussion of postmodernism
+  - Ben challenges Superman movie fans to defend the film
+  - Phone line set up
+  - Mention of Heroes (Ben has not yet seen it) 
+  - Feedback from Colin from the UK
+  - Audio feedback (from Scott Hertzog)
+prophecy: 
+  - {"host": "Ben", "prediction": "Unlikely that Daredevil will have a big screen comeback", "veracity": true, "comments": "Although he will have a Netflix series that both hosts will enjoy."}
+  - {"host": "Matt", "prediction": "DC and WB will continue to make Batman movies in the Nolan-verse", "veracity": false, "comments": ""}
+  - {"host": "Ben", "prediction": "Nolan will continue as executive producer and make more movies in the Nolan-verse", "veracity": false, "comments": "Half correct: Nolan was the executive producer for Batman v Superman and Justice League"}
+  - {"host": "Ben", "prediction": "If Thor, Captain America, and Green Lantern get negative or lukewarm responses it will bring on another period of superhero fatigue.", "veracity": true, "comments": "Thor and Captain America got generally positive responses, but I will count this as true because it was true for Ben personally."}
+  - {"host": "Ben", "prediction": "The superhero genre has solid 4 or 5 years, then another major franchise will need to emerge.", "veracity": false, "comments": "As of 2018, Marvel is still the premier superhero franchise and has no sign of slowing down."}
+  - {"host": "Matt", "prediction": "Superheroes will not bring us through postmodernism; Watchmen is a good reflection of the culture.", "veracity": undefined, "comments": "Looks like this will be correct"}
+  - {"host": "Ben", "prediction": "Postmodernism will break down, due in part to superhero films", "veracity": undefined, "comments": "Has not happened yet"}
+future_episodes: 
+  - Talan Gwynn
+  - Human cloning
+  - Cryosleep
+  - Near-future technology
+  - Parallel universes
+  - LOST
+  - Top 5 sci-fi TV show theme songs
+  - Superman 1-4 commentary
+  - The Prestige
+
+last_listen: 2018-01-26
+recommendation: no
+recommendation_reason: Mostly predictions of which superhero movies will be good.
+archivist_note: Both are very optimistic about the superhero film genre, Ben even more so than Matt.
+---
+# Opening
+Matt played Pandemic for the first time
+
+# News
+Good Omens miniseries coming <q class="archivist">now due to be released in 2019</q>
+
+Rumor: Marion Cotillard is Talia al Ghul
+
+Ryan Reynolds will do a Deadpool standalone movie <q class="archivist">finally made in 2016</q>
+
+Unbreakable will be a trilogy <q class="archivist">happened in 2016</q>
+
+# Main Topic
+
+### Phases of Superhero Movies
+
+1 Early (1978-1997, Superman-Batman and Robin)
+
+2 Rennaisance (2000-2005, includes X-Men 1-2, Spider-Man 1-2, Batman Begins)
+
+3 Fatigue (2005-2008, includes Ghost Rider, Electra, Punisher, Fantastic Four, Superman Returns, X-Men 3, Wolverine, Spider-Man 3)
+
+4 Rejuvenation (2008-, The Dark Knight, Iron Man)
+
+### Factors to determine the future of the superhero genre
+
+1 Will Avengers succeed?
+
+2 What happens to Batman post-Nolan?
+
+3 Will X-Men First Class be a successful spinoff?
+
+4 Will The Amazing Spider-Man be a successful reboot?
+
+5 Can lesser-known characters like Thor, Captain America, and Green Lantern be successful? 
+
+<div class="top-five">
+  <h2 class="has-text-centered">Superhero Genre Predictions</h2>
+  <div class="columns">
+    <div class="column ben">
+      <h3>Matt</h3>
+      <ol>
+        <li>Successful
+        <li>DC and WB will continue to make Batman movies in the Nolan-verse 
+        <li>Will be good, not successful
+        <li>"In my mind, there is almost no way it can fail."
+        <li>High hopes for Captain America, low hopes for Thor (Thor won't get many sequels unless it's fantastic), no hopes for Green Lantern (will not get sequels)
+      </ol>
+    </div>
+    <div class="column matt">
+      <h3>Ben</h3>
+      <ol>
+        <li>Successful
+        <li>Nolan will continue as executive producer and make more movies in the Nolan-verse
+        <li>Good actors, will be awesome
+        <li>It will be awesome
+        <li>Captain America successful, Thor will be the best of the three but will get a so-so reception, Green Lantern bad
+      </ol>
+    </div>
+  </div>
+</div>
+
+Hopefully superhero movies will help bring us through postmodernism.
+
+The genre is unique because it's currently the only one that's mythological.
+
+Will directors and studios see the success of The Dark Knight as caused by it's dark and gritty feel or because it had things deep and objective to say? <q class="archivist">Sorry guys, they took dark and gritty</q>
+
+# Feedback
+
+<div class="quote">
+  <span class="quote-context"></span>
+  <q class="matt">Hopefully someday, Ben, we'll have enough listeners calling in that we can have whole episodes about listener feedback also.</q>
+  <q class="ben">Interesting.</q>
+  <q class="matt">That would be fun.</q>
+  <q class="ben">That would be fun.</q>
+</div>

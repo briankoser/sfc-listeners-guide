@@ -84,25 +84,25 @@ layout: baseNavBar
         {% endif %}
             <div class="message-header">
                 {% if recommendation == 'yes' %}
-                    <h2 class="title is-3">Listen</h2>
+                    <h2 class="title">Listen</h2>
                 {% elif recommendation == 'yes-timeloop' %}
                     <div>
-                        <h2 class="title is-3">Listen</h2>
+                        <h2 class="title">Listen</h2>
                         <h3 class="subtitle is-5">
                             to Timeloop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
                         </h3>
                     </div>
                 {% elif recommendation == 'essential' %}
-                    <h2 class="title is-3">Essential</h2>
+                    <h2 class="title">Essential</h2>
                 {% elif recommendation == 'essential-timeloop' %}
                     <div>
-                        <h2 class="title is-3">Essential</h2> 
+                        <h2 class="title">Essential</h2> 
                         <h3 class="subtitle is-5">
                             Listen to Timeloop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
                         </h3>
                     </div>
                 {% elif recommendation == 'no' %}
-                    <h2 class="title is-3">Skip</h2>
+                    <h2 class="title">Skip</h2>
                 {% endif %}
                 <p>{{last_listen | readableDate}}</p>
             </div>
@@ -165,7 +165,7 @@ layout: baseNavBar
     </article>
 
     {% if archivist_note %}
-    <article class="message">
+    <article class="archivist-note message">
         <div class="message-header">
             <p>Archivist Note</p>
         </div>

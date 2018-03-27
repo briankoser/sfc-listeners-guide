@@ -38,7 +38,7 @@ celebrity_invites:
 
 last_listen: 2018-01-25
 recommendation: no
-recommendation_reason: Not a bad episode, but nothing noteworthy.
+recommendation_reason: Not noteworthy.
 archivist_note: 
 ---
 # Opening
