@@ -31,8 +31,7 @@ future_episodes:
   - The Stand
   - Lord of Light readalong
   - Movie commentary track (like a director's commentary)
-  - This Present Darkness 
-episode_links: 
+  - This Present Darkness
 celebrity_invites: 
 
 last_listen: 2018-01-25

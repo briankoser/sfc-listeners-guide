@@ -31,7 +31,6 @@ future_episodes:
   - Clones
   - Time travel and God
   - Are parallel universes compatible with Christianity?
-episode_links: 
 celebrity_invites: 
 
 last_listen: 2018-01-22

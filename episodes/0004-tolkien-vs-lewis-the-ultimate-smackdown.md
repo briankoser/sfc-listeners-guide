@@ -24,7 +24,6 @@ firsts:
 prophecy: 
 future_episodes: 
   - Battlestar Galactica
-episode_links: 
 celebrity_invites: 
 
 last_listen: 2018-01-25

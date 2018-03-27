@@ -27,7 +27,6 @@ prophecy:
 future_episodes: 
   - Nephilim
   - How "Life on earth was started by aliens" is compatible with Christianity
-episode_links: 
 celebrity_invites:
   - JJ Abrams
 
