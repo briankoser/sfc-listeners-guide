@@ -374,6 +374,10 @@ main .hero {
     background-color: var(--color-orange);
 }
 
+.skip {
+    background-color: var(--color-medium-grey);
+}
+
 .title.Ben {
     color: var(--color-purple);
 }
@@ -400,6 +404,15 @@ q.archivist {
     display: inline;
 }
 
+q.archivist a {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+q.archivist::before {
+    content: 'Archivist: ';
+}
+
 q.ben::before {
     content: 'Ben: ' open-quote;
 }
@@ -408,8 +421,8 @@ q.matt::before {
     content: 'Matt: ' open-quote;
 }
 
-q.archivist::before {
-    content: 'Archivist: ';
+q.skip::before {
+    content: 'Skip Crust: ' open-quote;
 }
 
 q.archivist::after {
