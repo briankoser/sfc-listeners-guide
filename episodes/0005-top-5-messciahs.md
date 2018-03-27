@@ -6,7 +6,6 @@ tags:
 
 title: Top 5 MesSCIahs
 number: 5
-slug: 0005-top-5-messciahs
 season: 1
 podcast_url: http://thescifichristian.com/2011/02/episode-105-top-5-messciahs/
 date: 2011-02-07

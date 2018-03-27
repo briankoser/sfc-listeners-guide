@@ -6,10 +6,10 @@ tags:
   - dark-knight-news 
   - celebrity-promo
   - take-that-science
+  - dream-month
 
 title: 
 number: 
-slug: 
 season: 1
 podcast_url: 
 date: 

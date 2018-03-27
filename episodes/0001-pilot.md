@@ -5,7 +5,6 @@ tags:
 
 title: Pilot
 number: 1
-slug: 0001-pilot
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
 date: 2011-01-11

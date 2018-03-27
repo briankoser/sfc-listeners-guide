@@ -5,7 +5,6 @@ tags:
 
 title: Tolkien Vs. Lewis – The Ultimate Smackdown
 number: 4
-slug: 0004-tolkien-vs-lewis-the-ultimate-smackdown
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-104-tolkien-vs-lewis-the-ultimate-smackdown/
 date: 2011-01-30
