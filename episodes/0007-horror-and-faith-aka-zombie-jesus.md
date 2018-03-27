@@ -19,9 +19,9 @@ time_loop_forward: {"number": 227}
 firsts: 
   - Voicemail feedback (Rick in Wisconsin)
 future_episodes: 
-  - Inception
+  - <i class="work-title">Inception</i>
   - Ghosts
-  - Shaun of the Dead
+  - <i class="work-title">Shaun of the Dead</i>
   - State of the Sci-Fi Movie
   - State of the Fantasy Movie
   - Sci-Fi Movies that Parallel Bible Stories
@@ -34,7 +34,7 @@ archivist_note: "Ben's three subgenres of horror reminded me of Stephen King's t
 # News
 Rumors say that issues are coming up during Man of Steel filming. (<q class="ben inline">It sounds like the problems are with the last third of the script.</q>)
 
-Tom Hardy is signed for multiple Inception sequels
+Tom Hardy is signed for multiple <i class="work-title">Inception</i> sequels
 
 # Main Topic
 Subgenres of Horror: Natural, Monster, Supernatural
@@ -42,7 +42,7 @@ Subgenres of Horror: Natural, Monster, Supernatural
 Is it OK for Christians to watch horror movies when the Bible says "fear not"? 
 
 <div class="quote">
-  <q class="matt">Let's say I go and see Scary Movie, and I go home, I'm thinking about it, I'm worried that something's going to attack me at my house. Who am I going to turn to?</q>
+  <q class="matt">Let's say I go and see <i class="work-title">Scary Movie</i>, and I go home, I'm thinking about it, I'm worried that something's going to attack me at my house. Who am I going to turn to?</q>
   <q class="ben">Ghostbusters!</q>
   <q class="matt">No, not Ghostbusters, God.</q>
 </div>

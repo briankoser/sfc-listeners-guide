@@ -5,10 +5,10 @@
         <div>{{prophecy.host}}</div>
     </header>
     <div class="prediction">
-        {{prophecy.prediction}}
+        {{prophecy.prediction | safe}}
     </div>
     <div class="veracity {{prophecy.veracity}}" title="{{prophecy.veracity | string | title}}">
-        {{prophecy.comments}}
+        {{prophecy.comments | safe}}
     </div>
 </div>
 

@@ -47,10 +47,10 @@ archivist_note:
 
 
 
-<span class="archivist-note"></span>
+<q class="archivist inline"></q>
 
 <div class="quote">
-  <span class="quote-context"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>
 </div>
@@ -78,3 +78,5 @@ archivist_note:
     </div>
   </div>
 </div>
+
+<i class="work-title"></i>

@@ -18,12 +18,12 @@ time_loop_backward:
 
 notable_moments:
 firsts: 
-  - Sci-Fi Song of the Week ("Farewell Apollo", Battlestar Galactica)
+  - Sci-Fi Song of the Week ("Farewell Apollo", <i class="work-title">Battlestar Galactica</i>)
   - Skip Crust mentioned
-  - Post-outro easter egg (Matt saying the Numbers from LOST)
+  - Post-outro easter egg (Matt saying the Numbers from <i class="work-title">LOST</i>)
 prophecy: 
 future_episodes: 
-  - Battlestar Galactica
+  - <i class="work-title">Battlestar Galactica</i>
 celebrity_invites: 
 
 last_listen: 2018-01-25
@@ -37,9 +37,9 @@ Planning to go to San Diego Comic Con
 
 
 # News
-Dark Tower movie casting news 😢
+<i class="work-title">The Dark Tower</i> movie casting news <q class="archivist inline">😢</i>
 
-Ender's Game movie 😢
+<i class="work-title">Ender's Game</i> movie <q class="archivist inline">😢</i>
 
 
 
@@ -51,4 +51,4 @@ Matt argues that allegory is more effective.
 
 
 # Feedback
-Listener Dave Johnson from Mobile gets an autographed picture of Aaron Douglas (Chief Tyrol from Battlestar Galactica) for the Rebel Underground and is named the named number one fan of the podcast.
+Listener Dave Johnson from Mobile gets an autographed picture of Aaron Douglas (Chief Tyrol from <i class="work-title">Battlestar Galactica</i>) for the Rebel Underground and is named the named #1 fan of the podcast.

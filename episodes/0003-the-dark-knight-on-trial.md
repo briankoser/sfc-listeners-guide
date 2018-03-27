@@ -22,8 +22,8 @@ notable_moments:
 firsts:
   - Wayne Henderson mentioned
   - Sci-Fi Song of the Week (announced)
-  - The Dark Knight Rises mentioned
-  - Dr. Horrible main topic transition
+  - <i class="work-title">The Dark Knight Rises</i> mentioned
+  - <i class="work-title">Dr. Horrible</i> main topic transition
   - Annie, Ben's wife mentioned (she sent in feedback)
   - "\"Take that, Matt!\""
   - Feedback from Stephanie
@@ -75,7 +75,7 @@ There are four areas Batman must be justified:
 </div>
 
 <div class="quote">
-<span class="quote-context">On Back to the Future</span>
+<span class="quote-context is-size-6">On <i class="work-title">Back to the Future</i></span>
 <q class="ben">I bet there's some really great spiritual themes in there.</q>
 <q class="matt">Absolutely. There has to be: it's from 1985.</q>
 </div>

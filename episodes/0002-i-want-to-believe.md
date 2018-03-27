@@ -18,7 +18,7 @@ time_loop_backward:
 
 notable_moments:
 firsts: 
-  - X-Files theme for Sci-Fi News (and Main Topic transition)
+  - <i class="work-title">X-Files</i> theme for Sci-Fi News (and Main Topic transition)
   - Feedback (from Koby)
   - "\"It's a Trap!\" transition music"
   - End with "signing off" 
@@ -47,12 +47,13 @@ Ben says "yes sir" a lot and "yeppers" once.
 
 
 # News
-Pirates of the Caribbean 5 was announced, although it would not be released until 2017.
+<i class="work-title">Pirates of the Caribbean 5</i> was announced. <q class="archivist inline">It will not be released until 2017</q>
 
 <div class="quote">
-<span class="quote-context">Regarding Pirates of the Caribbean 3: At World's End</span>
+<span class="quote-context is-size-6">Regarding <i class="work-title">Pirates of the Caribbean 3: At World's End</i></span>
 <q class="ben">I hated it. I hated it. I hated it.</q>
 </div>
+
 
 
 # Main Topic

@@ -145,7 +145,7 @@ layout: baseNavBar
             <h2>Future Episodes</h2>
             <ul class="future-episodes">
             {% for episode in future_episodes %}
-                <li>{{episode}}</li>
+                <li>{{episode | safe}}</li>
             {% endfor %}
             </ul>
         {% endif %}

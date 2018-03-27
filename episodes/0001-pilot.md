@@ -25,9 +25,9 @@ firsts:
   - Host says Groundhog's Day (Matt)
   - Top 5 list
 prophecy: 
-  - {"host": "Ben", "prediction": "V just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}
+  - {"host": "Ben", "prediction": "<i class='work-title'>V</i> just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}
 future_episodes: 
-  - Twilight
+  - <i class="work-title">Twilight</i>
   - Clones
   - Time travel and God
   - Are parallel universes compatible with Christianity?
@@ -39,8 +39,6 @@ recommendation_reason: Lays a good foundation for where Ben and Matt were with t
 archivist_note: The World Premiere! It's great to see where Ben and Matt started from in episode 1. Ben is much more optimistic, Matt is a little more combative. Both attend seminary and work at their church Epic Life (epiclifeonline.org), Matt as the youth director and Ben as pastoral ministry intern.
 ---
 # Opening
-
- 
 
 The show is hosted at scifichristianpodcast.com
 
@@ -61,7 +59,7 @@ The LOST Report addicted Ben to podcasting.
 
 The show won't be strictly sci-fi, it will include all of genre fiction and related topics.
 
-Ben wants to do a Twilight episode (<q class="ben inline">It's cool that Twilight is bringing people into geek culture.</q>)
+Ben wants to do a <i class="work-title">Twilight</i> episode (<q class="ben inline">It's cool that <i class="work-title">Twilight</i> is bringing people into geek culture.</q>)
 
 They will have guest hosts over Skype to discuss topics they're not knowledgeable in.
 
@@ -73,15 +71,15 @@ R2-D2 is the transition sound for everything.
 
 Ben likes superhero movies and TV shows.
 
-Saddest moment of the episode: how excited both hosts are about The Hobbit movie.
+<q class="archivist">Saddest moment of the episode: how excited both hosts are about The Hobbit movie.</q>
 
-Matt vowed to read The Hobbit before the movie comes out.
+Matt vowed to read <i class="work-title">The Hobbit</i> before the movie comes out.
 
 <q class="ben">I wish Spider-Man were in the Avengers movies.</q>
 
 Matt said it would be crazy to buy comic books monthly.
 
-Ben is looking forward to The Amazing Spider-Man.
+Ben is looking forward to <i class="work-title">The Amazing Spider-Man</i>.
 
 
 
@@ -244,7 +242,7 @@ They're recording video as well as audio.
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-Firefly is Ben's favorite show of all time
+<i class="work-title">Firefly</i> is Ben's favorite show of all time
 
 <div class="review clearfix is-size-4">
   <header>Dollhouse</header>
@@ -276,7 +274,7 @@ Firefly is Ben's favorite show of all time
   <div class="rating matt" data-rating="yes" title="Yes"></div>
 </div>
 
-Matt says he loves Attack of the Clones (although he later retracts the statement) 
+Matt says he loves <i class="work-title">Attack of the Clones</i> (although he later retracts the statement) 
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Sci-Fi Things</h2>
@@ -326,4 +324,4 @@ Matt says he loves Attack of the Clones (although he later retracts the statemen
   </div>
 </div>
 
-Ben makes the point that while LOST usually ended episodes on a mystery moment, Buffy always ended on a character moment.
+Ben makes the point that while <i class="work-title">LOST</i> usually ended episodes on a mystery moment, <i class="work-title">Buffy</i> always ended on a character moment.

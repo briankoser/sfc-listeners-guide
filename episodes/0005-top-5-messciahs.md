@@ -24,14 +24,14 @@ firsts:
   - Dark Knight News
 prophecy: 
   - {"host": "Ben", "prediction": "I gotta believe if Nolan's putting Robin in the series, he has a really good way of doing it.", "veracity": true, "comments": "Don't remember if Ben liked the Robin reveal, but I think it worked."}
-  - {"host": "Matt", "prediction": "Robin will be the villain in The Dark Knight Rises", "veracity": false, "comments": ""}
+  - {"host": "Matt", "prediction": "Robin will be the villain in <i class='work-title'>The Dark Knight Rises</i>", "veracity": false, "comments": ""}
 
 future_episodes: 
   - Watchmen
-  - The Stand
-  - Lord of Light readalong
+  - <i class="work-title">The Stand</i>
+  - <i class="work-title">Lord of Light</i> read-along
   - Movie commentary track (like a director's commentary)
-  - This Present Darkness
+  - <i class="work-title">This Present Darkness</i>
 celebrity_invites: 
 
 last_listen: 2018-01-25
@@ -46,7 +46,7 @@ archivist_note:
 
 # News
 <div class="quote">
-<q class="ben">I'm getting excited about Thor...The one that looked really sweet to me though was Super 8.</q>
+<q class="ben">I'm getting excited about <i class="work-title">Thor</i>...The one that looked really sweet to me though was <i class="work-title">Super 8</i>.</q>
 </div>
 
 <div class="quote">
@@ -55,11 +55,11 @@ archivist_note:
 </div>
 
 <div class="quote">
-  <span class="quote-context">On Pirates of the Caribbean 4</span>
+  <span class="quote-context is-size-6">On <i class="work-title">Pirates of the Caribbean 4</i></span>
   <q class="ben">Against my better judgment, I am getting excited about this movie...this is looking really, really good.</q>
 </div>
 
-Ben is still really excited about the Hobbit ☹️
+Ben is still really excited about <i class="work-title">The Hobbit</i> movie <q class="archivist">☹️</q>
 
 First Dark Knight Rises news <q class="ben inline">We are going to cover everything that is newsworthy, or even not newsworthy.</q>
 
