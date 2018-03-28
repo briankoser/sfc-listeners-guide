@@ -32,7 +32,7 @@ celebrity_promo:
 
 last_listen: 2018-01-29
 recommendation: yes-timeloop
-recommendation_reason: 
+recommendation_reason: Full of hate and fun!
 archivist_note: 
 ---
 # Opening
@@ -41,7 +41,6 @@ Ben's favorite part of the podcast is saying his name in the intro
 
 
 # News
-
 <div class="quote">
   <q class="ben">Every single week I have to proclaim my love for Joss Whedon. ...He is the greatest filmaker alive today!</q>
 </div>
