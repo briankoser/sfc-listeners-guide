@@ -17,10 +17,13 @@
     --color-medium-grey: hsl(0, 0%, 21%);
     --color-orange: hsl(33, 99%, 54%);
     --color-orange-transparent: hsla(33, 99%, 54%, 0.2);
+    --color-pink: hsl(350, 100%, 74%);
+    --color-pink-transparent: hsla(350, 100%, 74%, 0.2);
     --color-purple: hsl(280, 84%, 48%);
     --color-purple-transparent: hsla(280, 84%, 48%, 0.2);
     --color-red: hsl(348, 100%, 61%);
     --color-yellow: hsl(48, 100%, 67%);
+    --color-yellow-transparent: hsla(48, 100%, 67%, 0.2);
     --color-white: white;
 }
 
@@ -141,6 +144,7 @@ sup {
 }
 
 q {
+    background-color: var(--color-medium-grey);
     border-radius: 10px;
     display: table;
     padding: 0em 0.2em;
@@ -374,9 +378,14 @@ main .hero {
     background-color: var(--color-orange);
 }
 
-.skip {
-    background-color: var(--color-medium-grey);
+.daniel {
+    background-color: var(--color-yellow);
 }
+
+.koby {
+    background-color: var(--color-pink);
+}
+
 
 .title.Ben {
     color: var(--color-purple);
@@ -386,12 +395,29 @@ main .hero {
     color: var(--color-orange);
 }
 
+.title.Daniel {
+    color: var(--color-yellow);
+}
+
+.title.Koby {
+    color: var(--color-pink);
+}
+
+
 .card.Ben .card-header {
     background-color: var(--color-purple-transparent);
 }
 
 .card.Matt .card-header {
     background-color: var(--color-orange-transparent);
+}
+
+.card.Daniel .card-header {
+    background-color: var(--color-yellow-transparent);
+}
+
+.card.Koby .card-header {
+    background-color: var(--color-pink-transparent);
 }
 
 
@@ -419,6 +445,14 @@ q.ben::before {
 
 q.matt::before {
     content: 'Matt: ' open-quote;
+}
+
+q.daniel::before {
+    content: 'Daniel: ' open-quote;
+}
+
+q.koby::before {
+    content: 'Koby: ' open-quote;
 }
 
 q.skip::before {
