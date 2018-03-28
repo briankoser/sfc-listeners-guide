@@ -61,7 +61,13 @@ Shortest
 
 Average Length -->
 
-<div>
+<div class="standalone-stat">
+<b>Oldest Episode Not Time Looped</b>
+
+№ {{collections.episodes[0].data.stats.episodes.oldestWithoutTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.oldestWithoutTimeLoop.title}}
+</div>
+
+<div class="standalone-stat">
 <b>Quickest Time Loop</b>
 
 № {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.title}} ({{collections.episodes[0].data.stats.episodes.quickestTimeLoop.gap}} episodes between original and time loop)

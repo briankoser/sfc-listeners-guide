@@ -104,6 +104,10 @@ module.exports = function(eleventyConfig) {
       'gap': (episode.data.time_loop_forward || {}).number - episode.data.number
     } });
     episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
+
+    let oldestWithoutTimeLoop = episodes.find(episode => episode.data.time_loop_forward === undefined);
+    episodeStats.oldestWithoutTimeLoop = {'title': oldestWithoutTimeLoop.data.title, 'number': oldestWithoutTimeLoop.data.number };
+    
     episodes[0].data.stats.episodes = episodeStats;
 
     // Release Day stats
