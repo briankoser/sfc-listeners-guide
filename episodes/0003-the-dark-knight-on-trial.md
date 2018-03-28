@@ -23,7 +23,7 @@ firsts:
   - Wayne Henderson mentioned
   - Sci-Fi Song of the Week (announced)
   - <i class="work-title">The Dark Knight Rises</i> mentioned
-  - <i class="work-title">Dr. Horrible</i> main topic transition
+  - <i class="work-title">Dr. Horrible's Sing-Along Blog</i> main topic transition
   - Annie, Ben's wife mentioned (she sent in feedback)
   - "\"Take that, Matt!\""
   - Feedback from Stephanie

@@ -20,7 +20,7 @@ firsts:
   - Ben opens with "We are back!"
 future_episodes: 
   - <i class="work-title">The Adjustment Bureau</i>
-  - <i class="work-title">Dr. Horrible</i>
+  - <i class="work-title">Dr. Horrible's Sing-Along Blog</i>
 celebrity_invites: 
   - Ted Dekker
   - Human Clones
