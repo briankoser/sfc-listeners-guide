@@ -65,6 +65,10 @@ archivist_note:
       <h3>Ben</h3>
       <ol reversed>
         <li>
+        <li>
+        <li>
+        <li>
+        <li>
       </ol>
       <ul class="runner-ups">
         <li>
@@ -73,6 +77,10 @@ archivist_note:
     <div class="column matt">
       <h3>Matt</h3>
       <ol reversed>
+        <li>
+        <li>
+        <li>
+        <li>
         <li>
       </ol>
       <ul class="runner-ups">
