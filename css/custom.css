@@ -461,7 +461,11 @@ q.koby::before {
 }
 
 q.skip::before {
-    content: 'Skip Crust: ' open-quote;
+    content: 'Skip: ' open-quote;
+}
+
+q.talan::before {
+    content: 'Talan: ' open-quote;
 }
 
 q.archivist::after {
@@ -481,6 +485,14 @@ q.archivist::after {
     display: flex;
     max-width: 650px;
     margin-bottom: 1em;
+}
+
+.prophecy a {
+    color: var(--color-white);
+}
+
+.prophecy a:hover {
+    text-decoration: underline;
 }
 
 .prophecy header,

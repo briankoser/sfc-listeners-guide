@@ -12,6 +12,8 @@
       {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "chartreuse", "rgb": ""}, "weakness": "squirrels"},
       {"shortName": "Matt", "fullName": "Matt Anderson", "color": {"name": "mauve", "rgb": ""}, "weakness": "time travel"},
       {"shortName": "Daniel", "fullName": "Daniel Butcher", "color": {"name": "yellow", "rgb": ""}, "weakness": "disney"},
-      {"shortName": "Koby", "fullName": "Koby Radcliffe", "color": {"name": "pink", "rgb": ""}, "weakness": "cats"}
+      {"shortName": "Koby", "fullName": "Koby Radcliffe", "color": {"name": "pink", "rgb": ""}, "weakness": "cats"},
+      {"shortName": "Skip", "fullName": "Skip Crust" },
+      {"shortName": "Talan", "fullName": "Talan Gwynn" }
     ]
   }

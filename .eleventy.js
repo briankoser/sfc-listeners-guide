@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
 
   eleventyConfig.addFilter("color", shortName => {
-    return metadata.hosts.find(host => host.shortName === shortName).color.name;
+    return (metadata.hosts.find(host => host.shortName === shortName).color || {}).name;
   });
 
   eleventyConfig.addFilter("fullName", shortName => {
