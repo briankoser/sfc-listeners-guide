@@ -374,7 +374,8 @@ main .hero {
     background-color: var(--color-purple);
 }
 
-.matt {
+.matt,
+.roger {
     background-color: var(--color-orange);
 }
 
@@ -445,6 +446,10 @@ q.ben::before {
 
 q.matt::before {
     content: 'Matt: ' open-quote;
+}
+
+q.roger::before {
+    content: 'Roger: ' open-quote;
 }
 
 q.daniel::before {

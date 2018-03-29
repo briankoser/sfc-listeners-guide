@@ -26,7 +26,7 @@ celebrity_invites:
   - Human Clones
 
 last_listen: 2018-01-30
-recommendation: essential-timeloop
+recommendation: essential
 recommendation_reason: "\"The Dark Knight on Trial\" was the first iconic episode; \"Attack of the Clones\" is the first great episode. Prepare to have your mind expanded and your beliefs challenged."
 archivist_note: "Ben says that conception is the only point that makes sense for us to say scientifically that life begins, and so this is when a soul enters a body. I think you could also make the case for when the heart starts beating. This gets around the question that identical twins pose: if the soul enters the body at conception, what happens when the twins split after a few days? Does another soul get created? Does the first soul split in two?"
 ---
