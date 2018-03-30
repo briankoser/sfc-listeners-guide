@@ -14,6 +14,7 @@ series: Supernatural Creatures
 hosts:
   - Ben
   - Matt
+guest_hosts:
   - Koby
 time_loop_forward: {"number": 178}
 

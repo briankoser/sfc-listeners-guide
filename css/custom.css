@@ -150,6 +150,10 @@ q {
     padding: 0em 0.2em;
 }
 
+q::before {
+    content: attr(data-name) ': ' open-quote;
+}
+
 
 
 /******************************************************************************
@@ -430,6 +434,10 @@ main .hero {
 /******************************************************************************
   QUOTE CLASSES
 ******************************************************************************/
+.quote {
+    margin-bottom: 1em;
+}
+
 q.inline,
 q.archivist {
     display: inline;
@@ -442,6 +450,10 @@ q.archivist a {
 
 q.archivist::before {
     content: 'Archivist: ';
+}
+
+q.archivist::after {
+    content: '';
 }
 
 q.ben::before {
@@ -462,22 +474,6 @@ q.daniel::before {
 
 q.koby::before {
     content: 'Koby: ' open-quote;
-}
-
-q.skip::before {
-    content: 'Skip: ' open-quote;
-}
-
-q.talan::before {
-    content: 'Talan: ' open-quote;
-}
-
-q.archivist::after {
-    content: '';
-}
-
-.quote {
-    margin-bottom: 1em;
 }
 
 
