@@ -22,7 +22,7 @@ firsts:
   - Feedback (from Koby)
   - "\"It's a Trap!\" transition music"
   - End with "signing off" 
-  - Ben saying "Take that!" ("Take that Jimmy Carter!")
+  - Ben saying "Take that!"
 prophecy: 
 future_episodes: 
   - Nephilim
@@ -52,6 +52,10 @@ Ben says "yes sir" a lot and "yeppers" once.
 <div class="quote">
 <span class="quote-context is-size-6">Regarding <i class="work-title">Pirates of the Caribbean 3: At World's End</i></span>
 <q class="ben">I hated it. I hated it. I hated it.</q>
+</div>
+
+<div class="quote">
+<q class="ben">Take that, Jimmy Carter!</q>
 </div>
 
 
