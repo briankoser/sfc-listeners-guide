@@ -37,7 +37,7 @@ Skip Crust, Matt and Ben's pastor, and Talan Gwynn, homeschooler who's written p
 # News
 <div class="quote">
   <span class="quote-context is-size-6"></span>
-  <q class="skip">That's not entirely true.</q>
+  <q data-name="Skip Crust">That's not entirely true.</q>
   <q class="matt">But it is mostly entirely true.</q>
 </div>
 
@@ -53,11 +53,11 @@ There's a Candy Land movie coming that is designed as Lord of the Rings with can
 <div class="quote">
   <span class="quote-context is-size-6">On plans to attend <i class="work-title">The Dark Knight Rises</i></span>
   <q class="ben">Are you going to come to the second viewing with us the next day?</q>
-  <q class="skip">I will be wearing my Batman nipple suit.</q>
+  <q data-name="Skip Crust">I will be wearing my Batman nipple suit.</q>
 </div>
 
 <div class="quote">
-  <q class="talan">What would Batman and Robin look like without the Bat Nipples?</q>
+  <q data-name="Talan Gwynn">What would Batman and Robin look like without the Bat Nipples?</q>
   <q class="ben">Heterosexuals?</q>
 </div>
 

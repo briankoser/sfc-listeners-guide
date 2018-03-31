@@ -44,7 +44,7 @@ Koby is the winner of the first SFC contest, The Secondhand Spectacular
 
 
 # News
-<i class="work-title">Bill and Ted 3</i> is coming <q class="archivist inline">Still promised as of 3/28/2018</q>
+<i class="work-title">Bill and Ted 3</i> is coming <q class="archivist inline">Still promised as of 3/31/2018</q>
 
 George R. R. Martin and Damon Lindelof feud
 

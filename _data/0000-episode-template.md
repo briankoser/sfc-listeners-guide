@@ -1,5 +1,4 @@
 todo: 
-hosts - class, data-name
 guest hosts
 
 
