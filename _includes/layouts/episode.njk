@@ -20,7 +20,12 @@ layout: baseNavBar
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Hosts</p>
-                    <p class="title">{{ hosts | join(", ") }}</p>
+                    <p class="title">
+                        {{ hosts | join(", ") }}
+                        {%- if guest_hosts -%}
+                        , {{ guest_hosts | join(", ") }}
+                        {% endif %}
+                    </p>
                 </div>
             </div>
 

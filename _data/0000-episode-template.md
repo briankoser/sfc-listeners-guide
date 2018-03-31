@@ -1,7 +1,3 @@
-todo: 
-guest hosts
-
-
 ---
 layout: episode
 tags:
