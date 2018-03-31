@@ -79,22 +79,40 @@ module.exports = function(eleventyConfig) {
         return {
           'url': episode.url,
           'number': episode.data.number,
-          'hosts': episode.data.hosts
+          'hosts': episode.data.hosts,
+          'guest_hosts': episode.data.guest_hosts
         };
     });
     let hostEpisodesReverse = Object.assign([], hostEpisodes);
     hostEpisodesReverse.reverse();
-    let hostStats = hostEpisodes.map(x => x.hosts).reduce((a, b) => a.concat(b), [])
-    let uniqueHosts = [...new Set(hostStats)];
+
+    let hostOccurences = hostEpisodes.map(x => x.hosts).reduce((a, b) => a.concat(b), []);
+    let uniqueHosts = [...new Set(hostOccurences)];
     let hosts = uniqueHosts
       .map(host => { return { 
         'name': host, 
-        'count': hostStats.filter(x => x === host).length,
+        'count': hostOccurences.filter(x => x === host).length,
         'first': hostEpisodes.find(x => x.hosts.includes(host)).number,
         'last': hostEpisodesReverse.find(x => x.hosts.includes(host)).number
       } })
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.hosts = hosts;
+    
+    // Guest host stats
+    let guestHostOccurrences = hostEpisodes
+      .filter(x => x.guest_hosts)
+      .map(x => x.guest_hosts)
+      .reduce((a, b) => a.concat(b), []);
+    let uniqueGuestHosts = [...new Set(guestHostOccurrences)];
+    let guestHosts = uniqueGuestHosts
+      .map(guestHost => { return { 
+        'name': guestHost, 
+        'count': guestHostOccurrences.filter(x => x === guestHost).length,
+        'first': (hostEpisodes.find(x => ((x.guest_hosts || []).includes(guestHost))) || {}).number,
+        'last': (hostEpisodesReverse.find(x => (x.guest_hosts || []).includes(guestHost)) || {}).number
+      } })
+      .sort( (a, b) => b.count > a.count );
+    episodes[0].data.stats.guest_hosts = guestHosts;
 
     // Episode stats
     let episodeStats = {};

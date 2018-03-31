@@ -50,6 +50,37 @@ All stats are through episode № {{ collections.episodes.length }}
     </div>
 </div>
         {% endfor %}
+        {% for host in collections.episodes[0].data.stats.guest_hosts %}
+<div class="card">
+    <header class="card-header">
+        <p class="card-header-title">
+            {{host.name}}
+        </p>
+    </header>
+    <div class="card-content">
+        <div class="level host-stats">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Episodes</p>
+                    <p class="title">{{host.count}}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">First</p>
+                    <p class="title">{{host.first}}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Last</p>
+                    <p class="title">{{host.last}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        {% endfor %}
 </div>
 </div>
 
