@@ -116,11 +116,13 @@ module.exports = function(eleventyConfig) {
 
     // Episode stats
     let episodeStats = {};
-    let timeLoopGaps = episodes.map(episode => { return {
-      'title': episode.data.title,
-      'number': episode.data.number,
-      'gap': (episode.data.time_loop_forward || {}).number - episode.data.number
-    } });
+    let timeLoopGaps = episodes
+      .filter(episode => episode.data.time_loop_forward)
+      .map(episode => { return {
+        'title': episode.data.title,
+        'number': episode.data.number,
+        'gap': episode.data.time_loop_forward.number - episode.data.number
+      } });
     episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
 
     let oldestWithoutTimeLoop = episodes.find(episode => episode.data.time_loop_forward === undefined);
