@@ -456,6 +456,11 @@ q.archivist::after {
     content: '';
 }
 
+.quote q.archivist {
+    margin-top: 1em;
+    display: inline-block;
+}
+
 q.ben::before {
     content: 'Ben: ' open-quote;
 }

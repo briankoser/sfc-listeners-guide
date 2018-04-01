@@ -38,8 +38,8 @@ Joking :
 <div class="quote">
   <q class="matt">We should just start releasing our old episodes over again as new episodes.</q>
   <q class="ben">With new titles.</q>
+  <q class="archivist">They said it as a joke, but of course Matt will start time looping old episodes in Season 2.</q>
 </div>
-<q class="archivist">They said it as a joke, but of course Matt will start time looping old episodes in Season 2.</q>
 
 <div class="quote">
   <span class="quote-context is-size-6">A new Star Trek video game is announced</span>
