@@ -79,7 +79,7 @@ layout: baseNavBar
 </section>
 
 <div class="columns">
-    <div class="column is-half ">
+    <div class="column is-half">
         {% if recommendation == 'yes' or recommendation == 'yes-timeloop' %}
             <article class="message is-success">
         {% elif recommendation == 'essential' or recommendation == 'essential-timeloop' %}
@@ -170,14 +170,18 @@ layout: baseNavBar
     </article>
 
     {% if archivist_note %}
-    <article class="archivist-note message">
-        <div class="message-header">
-            <p>Archivist Note</p>
+    <div class="columns">
+        <div class="column is-half">
+            <article class="archivist-note message">
+                <div class="message-header">
+                    <p>Archivist Note</p>
+                </div>
+                <div class="message-body">
+                    {{archivist_note | safe}}
+                </div>
+            </article>
         </div>
-        <div class="message-body">
-            {{archivist_note | safe}}
-        </div>
-    </article>
+    </div>
     {% endif %}
 </div>
 
