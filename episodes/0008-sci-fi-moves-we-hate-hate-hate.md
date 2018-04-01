@@ -10,7 +10,6 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/03/episode-108-sci-fi-movies-we-hate-hate-hate/
 date: 2011-03-01
 category: Top Fives
-series: 
 hosts:
   - Ben
   - Matt
@@ -27,13 +26,10 @@ future_episodes:
   - Batman and Robin commentary
   - Signs
   - Top 5 Angelic and Demonic figures in sci-fi movies
-celebrity_invites: 
-celebrity_promo: 
 
 last_listen: 2018-01-29
 recommendation: yes-timeloop
 recommendation_reason: Full of hate and fun!
-archivist_note: 
 ---
 # Opening
 Ben's favorite part of the podcast is saying his name in the intro

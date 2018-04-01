@@ -10,7 +10,6 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/03/episode-110-duel-of-the-fates/
 date: 2011-03-30
 category: Review
-series: 
 hosts:
   - Ben
   - Matt
@@ -29,8 +28,6 @@ future_episodes:
   - <i class="work-title">The Lord of the Rings</i> expanded edition marathon
   - Alan Moore
   - Clones Revisited
-celebrity_invites: 
-celebrity_promo: 
 
 last_listen: 2018-01-31
 recommendation: essential-timeloop

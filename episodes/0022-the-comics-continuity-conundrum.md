@@ -31,8 +31,6 @@ future_episodes:
   - <i class="work-title">Snakes on a Plane</i> review
   - <i class="work-title">The Lord of the Rings</i> extended editions marathon 
   - Time travel 
-celebrity_invites: 
-celebrity_promo: 
 
 last_listen: 2018-02-27
 recommendation: yes-timeloop

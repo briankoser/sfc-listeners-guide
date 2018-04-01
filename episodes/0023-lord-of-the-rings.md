@@ -25,8 +25,6 @@ prophecy:
 future_episodes: 
   - More <i class="work-title">Lord of the Rings</i>
   - <i class="work-title">Blade Runner</i> live blog
-celebrity_invites: 
-celebrity_promo: 
 
 last_listen: 2018-02-28
 recommendation: yes-timeloop
