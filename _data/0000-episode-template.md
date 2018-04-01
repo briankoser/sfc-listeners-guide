@@ -55,8 +55,8 @@ archivist_note:
 
 <div class="quote">
   <span class="quote-context is-size-6"></span>
-  <q class="ben" data-name="Ben"></q>
-  <q class="matt" data-name="Matt"></q>
+  <q class="ben"></q>
+  <q class="matt"></q>
 </div>
 
 <div class="quote">
