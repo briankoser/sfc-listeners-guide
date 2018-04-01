@@ -15,8 +15,6 @@ hosts:
   - Ben
   - Matt
 
-firsts: 
-  - Daniel Butcher appearance (voicemail)
 future_episodes: 
   - History of Christianity
   - Alan Moore (sometime this summer) 
