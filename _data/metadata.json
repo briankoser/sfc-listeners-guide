@@ -15,8 +15,12 @@
       {"shortName": "Koby", "fullName": "Koby Radcliffe", "color": {"name": "pink", "rgb": ""}, "weakness": "cats"}
     ],
     "guestHosts": [
+      {"shortName": "Koby", "fullName": "Koby Radcliffe" },
       {"shortName": "Skip", "fullName": "Skip Crust" },
       {"shortName": "Talan", "fullName": "Talan Gwynn" },
-      {"shortName": "Dave", "fullName": "Dave Johnson" }
+      {"shortName": "Dave", "fullName": "Dave Johnson" },
+      {"shortName": "Scott", "fullName": "Scott Herzog" },
+      {"shortName": "Myles", "fullName": "Myles McLachlan" },
+      {"shortName": "CK", "fullName": "C. K. Kubasik" }
     ]
   }
