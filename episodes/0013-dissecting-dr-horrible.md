@@ -18,7 +18,7 @@ hosts:
 notable_moments:
 firsts: 
 prophecy: 
-  - {"host": "Matt", "prediction": "<i class="work-title">Firefly</i> will be back", "veracity": false, "comments": "It's not as of 2018, and Ben and Matt no longer want it to return."}
+  - {"host": "Matt", "prediction": "<i class='work-title'>Firefly</i> will be back", "veracity": false, "comments": "It's not as of 2018, and Ben and Matt no longer want it to return."}
 future_episodes: 
   - Ben and Matt will go see Batman Live when it's in North America next year
   - Top 5 Sci-Fi Theme Songs
