@@ -270,6 +270,10 @@ main .hero {
     margin-top: 2em;
 }
 
+.top-five .column {
+    flex-grow: 0.5;
+}
+
 .archivist-note {
     margin-top: 6em;
 }

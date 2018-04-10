@@ -21,7 +21,7 @@ time_loop_forward: {"number": 288}
 notable_moments:
 firsts: 
   - Take That, Science! 
-  - Take That Science! Sound clip             
+  - Take That, Science! sound clip             
 prophecy: 
   - {"host": "Ben", "prophecy": "The Mass Effect movie will get stuck in development hell and not be seen in theatres.", "veracity": true, "comments": ""}
 future_episodes: 
@@ -43,152 +43,103 @@ archivist_note: 5 of Matt's favorite episodes are on my <a href="http://tto.kose
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <span class="quote-context is-size-6">Ben continues reading through Matt's currently reading list on Goodreads.</span>
+  <q class="ben"><i class="work-title">Don't Waste Your Life</i> by John Piper</q>
+  <q class="matt">Haven't read in at least five years.</q>
+  <q class="ben">OK then, how are you possibly currently reading this?</q>
+  <q class="matt">It's got a bookmark in it.</q>
 </div>
-Ben continues reading through Matt's currently reading list on Goodreads. 
-
-B <i class="work-title">Don't Waste Your Life</i> by John Piper
-M haven't read in at least five years. 
-B OK then, how are you possibly currently reading this? 
-M it's got a bookmark in it. 
 
 
-B the book that killed the life report : <i class="work-title">The Radical Disciple</i> by John Stott. 
+Ben calls <i class="work-title">The Radical Disciple</i> by John Stott "the book that killed The Life Report".
 
-Final score: Matt is actually currently reading 2 of the 27 on his list. 
+Final score: Matt is actually currently reading 2 of the 27 books on his list.
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <q class="ben">Will you ever finish all of these books?</q>
+  <q class="matt">Will I ever? The plan is yes.</q>
 </div>
-B will you ever finish all of these books? 
-M will I ever? The plan is yes. 
+
+
 
 # News
 Mike Poteet suggests a new segment: Take that Science! 
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <q class="ben">Take that, government!</q>
 </div>
-B take that government! 
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <q class="ben">Take that, Obama!</q>
 </div>
-B take that Obama! 
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <q class="ben">Take that, comics!</q>
 </div>
-B take that comics! 
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <q class="ben">Take that, book publishers!</q>
 </div>
-B take that, book publishers! 
+
+
 
 # Main Topic
-After the pilot, Matt thought the monster on the island was a Dinosaur, which did not interest him. 
-B little did you know that it was a man who got flushed down into a golden toilet in the middle of the jungle. 
+<div class="quote">
+  <span class="quote-context is-size-6">After the pilot, Matt thought the monster on the island was a dinosaur, which did not interest him.</span>
+  <q class="ben">Little did you know that it was a man who got flushed down into a golden toilet in the middle of the jungle.</q>
+</div>
 
 The second, Kate-centric episode also did not interest him. 
 
 The first Locke episode hooked him. 
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <span class="quote-context is-size-6">Matt says the show is very rewatchable.</span>
+  <q class="matt">Just like the Bible, I'm always picking up new things along the way.</q>
 </div>
-Matt says the show is very rewatchable.
-M Just like the Bible, I'm always picking up new things along the way.
 
 The <i class="work-title">LOST</i> mystery that drives Matt crazy is Christian Shephard appearing off the island.
 
-They argue about if <i class="work-title">LOST</i> is the best TV show ever.
+<div class="quote">
+  <span class="quote-context is-size-6">They argue about if <i class="work-title">LOST</i> is the best TV show ever.</span>
+  <q class="matt">I honestly can't think of a show that I think is better.</q>
+  <q class="ben">OK, but you spent your life watching <i class="work-title">Quantum Leap</i>.</q>
+</div>
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <span class="quote-context is-size-6">Ben suggests stopping recording and doing a LOST Part 2.</span>
+  <q class="matt">I don't know if I necessarily have prepared enough for...</q>
+  <q class="ben">Oh yeah, I will prepare some for that conversation.</q>
+  <q class="matt">If we have a week, I will prepare some more.</q>
 </div>
-M I honestly can't think of a show that I think is better.
-B OK, but you spent your life watching <i class="work-title">Quantum Leap</i>.
-
-<div class="quote">
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
-</div>
-Ben suggests stopping recording and doing a LOST Part 2.
-M I don't know if I necessarily have prepared enough for...
-B Oh yeah, I will prepare some for that conversation.
-M If we have a week, I will prepare some more.
-
 
 Matt thinks "whatever happened, happened" is the best rule for time travel stories.
-                      
-      
-
-Matt's sixteen favorite episodes (not in any particular order, except for 1-3):
        
 <div class="top-five">
-  <h2 class="has-text-centered">Top 5 </h2>
+  <h2 class="has-text-centered">Top 16 <i class="work-title">LOST</i> episodes (not in any particular order, except for 1-3)</h2>
   <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>
-        <li>
-        <li>
-        <li>
-        <li>
-      </ol>
-      <ul class="runner-ups">
-        <li>
-      </ul>
-    </div>
     <div class="column matt">
       <h3>Matt</h3>
       <ol reversed>
-        <li>
-        <li>
-        <li>
-        <li>
-        <li>
+        <li>The Constant
+        <li>Through the Looking Glass Parts 1 and 2
+        <li>Walkabout
       </ol>
       <ul class="runner-ups">
-        <li>
+        <li>Exodus Parts 1 and 2
+        <li>Lockdown
+        <li>Live Together, Die Alone
+        <li>The Brig
+        <li>The Man Behind the Curtain
+        <li>The Shape of Things to Come
+        <li>Jughead
+        <li>LeFleur
+        <li>LA X
+        <li>What They Died For
+        <li>The End
+        <li>The Other 48 Days
+        <li>The Pilot
       </ul>
     </div>
   </div>
 </div>
-- Exodus Parts 1 and 2
-- Lockdown
-- Live Together, Die Alone
-- The Brig
-- The Man Behind the Curtain
-- The Shape of Things to Come
-- Jughead
-- LeFleur
-- LA X
-- What They Died For
-- The End
-- The Other 48 Days
-- The Pilot
-
-3. The Constant
-2. Through the Looking Glass Parts 1 and 2
-1. Walkabout
-
