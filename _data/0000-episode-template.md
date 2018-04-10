@@ -95,3 +95,5 @@ archivist_note:
 </div>
 
 <i class="work-title"></i>
+
+<a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:28:30">1:28:30</a>

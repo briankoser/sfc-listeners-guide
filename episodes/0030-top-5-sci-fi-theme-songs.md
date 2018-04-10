@@ -25,9 +25,9 @@ celebrity_invites:
   - Jake Lloyd 
 celebrity_promo: C. K. Kubasik
 
-last_listen: 
-recommendation: essential|essential-timeloop|yes|yes-timeloop|no
-recommendation_reason: 
+last_listen: 2018-04-01
+recommendation: no
+recommendation_reason: Some fun moments (check out Matt "playing the marimba"), but not otherwise memorable.
 archivist_note: 
 ---
 # Opening
@@ -83,26 +83,33 @@ The <i class="work-title">Back to the Future</i> trilogy is Matt's favorite movi
       <h3>Matt</h3>
       <ol reversed>
         <li>Superman
-        <li>
-        <li>
-        <li>
-        <li>
+        <li>Star Wars
+        <li>Back to the Future
+        <li>Cloverfield
+        <li>The Empire Strikes Back (Imperial March) 
       </ol>
       <ul class="runner-ups">
-        <li>
+        <li>Batman Begins
+        <li>Star Wars Episode I: The Phantom Menace (Duel of the Fates)
+        <li>Indiana Jones
+        <li>Dr. Horrible's Sing-Along Blog
       </ul>
     </div>
     <div class="column ben">
       <h3>Ben</h3>
       <ol reversed>
         <li>Terminator 2: Judgment Day
-        <li>
-        <li>
-        <li>
-        <li>
+        <li>The Fountain
+        <li>Sunshine
+        <li>The Empire Strikes Back (Imperial March)
+        <li>Jurassic Park
       </ol>
       <ul class="runner-ups">
-        <li>
+        <li>Ink
+        <li>The Matrix
+        <li>The Dark Knight
+        <li>Inception
+        <li>X-Men: First Class
       </ul>
     </div>
   </div>
@@ -113,6 +120,8 @@ The <i class="work-title">Back to the Future</i> trilogy is Matt's favorite movi
 They hug while "Moving On" from <i class="work-title">LOST</i> plays
 
 Ben agrees that the final episode of <i class="work-title">LOST</i> was perfect. 
+
+Matt "plays" the Jurassic Park theme "on the marimba" <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/09/episode-30-top-5-sci-fi-theme-songs/#t=1:28:30">1:28:30</a>
 
 
 
