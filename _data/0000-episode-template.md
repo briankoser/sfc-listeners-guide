@@ -27,7 +27,6 @@ prophecy:
   - {"host": "", "prediction": "", "veracity": true, "comments": ""}
 future_episodes: 
 celebrity_invites: 
-celebrity_promo: 
 
 last_listen: 
 recommendation: essential|essential-timeloop|yes|yes-timeloop|no
