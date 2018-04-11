@@ -23,7 +23,6 @@ firsts:
   - "\"It's a Trap!\" transition music"
   - End with "signing off" 
   - Ben saying "Take that!"
-prophecy: 
 future_episodes: 
   - Nephilim
   - How "Life on earth was started by aliens" is compatible with Christianity

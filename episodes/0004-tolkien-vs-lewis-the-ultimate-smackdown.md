@@ -21,7 +21,6 @@ firsts:
   - Sci-Fi Song of the Week ("Farewell Apollo", <i class="work-title">Battlestar Galactica</i>)
   - Skip Crust mentioned
   - Post-outro easter egg (Matt saying the Numbers from <i class="work-title">LOST</i>)
-prophecy: 
 future_episodes: 
   - <i class="work-title">Battlestar Galactica</i>
 celebrity_invites: 
