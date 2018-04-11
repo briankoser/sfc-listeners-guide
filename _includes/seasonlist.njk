@@ -1,0 +1,21 @@
+<div class="season-list">
+	{% for season in seasonlist %}
+	<div class="card season-card">
+		<header class="card-header">
+			<p class="card-header-title">
+				<a href="{{ season.data.url }}">Season {{ season.data.number }}</a>
+			</p>
+			<p class="card-header-icon">{{ season.data.year }}</p>
+		</header>
+		<div class="card-content">
+			<div class="content">
+				{{ season.data.summary | safe }}
+			</div>
+		</div>
+		<footer class="card-footer">
+			<a href="{{ season.episodes.first.url }}" class="card-footer-item"></a>
+			<a href="{{ season.episodes.last.url }}" class="card-footer-item"></a>
+		</footer>
+	</div>
+	{% endfor %}
+</div>
