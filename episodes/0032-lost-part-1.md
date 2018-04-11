@@ -23,7 +23,7 @@ firsts:
   - Take That, Science! 
   - Take That, Science! sound clip             
 prophecy: 
-  - {"host": "Ben", "prophecy": "The Mass Effect movie will get stuck in development hell and not be seen in theatres.", "veracity": true, "comments": ""}
+  - {"host": "Ben", "prediction": "The Mass Effect movie will get stuck in development hell and not be seen in theatres.", "veracity": true, "comments": ""}
 future_episodes: 
   - End of the Year Listener Jubilee 
   - Time Travel
