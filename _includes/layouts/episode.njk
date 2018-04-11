@@ -78,48 +78,46 @@ layout: baseNavBar
     </div> 
 </section>
 
-<div class="columns">
-    <div class="column is-half">
-        {% if recommendation == 'yes' or recommendation == 'yes-timeloop' %}
-            <article class="message is-success">
-        {% elif recommendation == 'essential' or recommendation == 'essential-timeloop' %}
-            <article class="message is-primary">
-        {% elif recommendation == 'no' %}
-            <article class="message is-danger">
-        {% endif %}
-            <div class="message-header">
-                {% if recommendation == 'yes' %}
+<div class="episode-recommendation">
+    {% if recommendation == 'yes' or recommendation == 'yes-timeloop' %}
+        <article class="message is-success">
+    {% elif recommendation == 'essential' or recommendation == 'essential-timeloop' %}
+        <article class="message is-primary">
+    {% elif recommendation == 'no' %}
+        <article class="message is-danger">
+    {% endif %}
+        <div class="message-header">
+            {% if recommendation == 'yes' %}
+                <h2 class="title">Listen</h2>
+            {% elif recommendation == 'yes-timeloop' %}
+                <div>
                     <h2 class="title">Listen</h2>
-                {% elif recommendation == 'yes-timeloop' %}
-                    <div>
-                        <h2 class="title">Listen</h2>
-                        <h3 class="subtitle is-5">
-                            to Timeloop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
-                        </h3>
-                    </div>
-                {% elif recommendation == 'essential' %}
-                    <h2 class="title">Essential</h2>
-                {% elif recommendation == 'essential-timeloop' %}
-                    <div>
-                        <h2 class="title">Essential</h2> 
-                        <h3 class="subtitle is-5">
-                            Listen to Timeloop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
-                        </h3>
-                    </div>
-                {% elif recommendation == 'no' %}
-                    <h2 class="title">Skip</h2>
-                {% endif %}
-                <p>{{last_listen | readableDate}}</p>
-            </div>
-            <div class="message-body content">
-                <div class="recommendation-reason">{{recommendation_reason | safe}}</div>
-            </div>
-        </article>
-    </div>
+                    <h3 class="subtitle is-5">
+                        to Timeloop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
+                    </h3>
+                </div>
+            {% elif recommendation == 'essential' %}
+                <h2 class="title">Essential</h2>
+            {% elif recommendation == 'essential-timeloop' %}
+                <div>
+                    <h2 class="title">Essential</h2> 
+                    <h3 class="subtitle is-5">
+                        Listen to Timeloop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
+                    </h3>
+                </div>
+            {% elif recommendation == 'no' %}
+                <h2 class="title">Skip</h2>
+            {% endif %}
+            <p>{{last_listen | readableDate}}</p>
+        </div>
+        <div class="message-body content">
+            <div class="recommendation-reason">{{recommendation_reason | safe}}</div>
+        </div>
+    </article>
 </div>
 
 <div class="content">
-    <div class="box">
+    <div class="box episode-secondary-metadata">
         {% if notable_moments %}
         <h2>Notable Moments</h2>
         <ul class="notable-moments">
