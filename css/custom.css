@@ -661,6 +661,10 @@ div[data-rating='dont-know']::after {
     margin-top: 2em;
 }
 
+.season-nav {
+    margin-top: 3em;
+}
+
 
 
 /******************************************************************************

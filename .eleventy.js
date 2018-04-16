@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("baseNavBar", "layouts/baseNavBar.njk");
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
+  eleventyConfig.addLayoutAlias("season", "layouts/season.njk");
 
   eleventyConfig.addFilter("color", shortName => {
     return (metadata.hosts.find(host => host.shortName === shortName).color || {}).name;
@@ -163,6 +164,7 @@ module.exports = function(eleventyConfig) {
     episodes[0].data.stats.prophecy = prophecyStats;
 
     // Season Stats
+    let seasons = collection.getFilteredByTag("season");
     let seasonEpisodes = episodes.map(episode => { 
         return {
           'url': episode.url,
@@ -174,24 +176,40 @@ module.exports = function(eleventyConfig) {
     });
     let seasonEpisodesReverse = Object.assign([], seasonEpisodes);
     seasonEpisodesReverse.reverse();
-    let uniqueSeasons = [...new Set(seasonEpisodes.map(episode => episode.season))];
-    let seasonStats = uniqueSeasons
-      .map(season => { 
+    let seasonStats = seasons
+      .map(season => {
+        let number = season.data.seasonNumber;
         return { 
-        'number': season, 
-        'count': seasonEpisodes.filter(episode => episode.season === season).length,
-        'first': seasonEpisodes.find(episode => episode.season === season),
-        'last': seasonEpisodesReverse.find(episode => episode.season === season),
-        'timeloops': seasonEpisodes.filter(episode => episode.season === season && episode.timeloop).length,
-      } })
+          'number': number,
+          'year': season.data.year,
+          'count': seasonEpisodes.filter(episode => episode.season === number).length,
+          'first': seasonEpisodes.find(episode => episode.season === number),
+          'last': seasonEpisodesReverse.find(episode => episode.season === number),
+          'timeloops': seasonEpisodes.filter(episode => episode.season === number && episode.timeloop).length
+        }   
+      })
       .sort( (a, b) => a.number > b.number );
-    let mergedSeasonStats = [];
-    seasonStats.forEach(season => {
-      mergedSeasonStats.push(Object.assign({}, season, metadata.seasons.find(s => s.number)))
-    });
-    episodes[0].data.stats.seasons = mergedSeasonStats;
+    
+    episodes[0].data.stats.seasons = seasonStats;
 
     return episodes;
+  });
+
+  eleventyConfig.addCollection("seasons", function(collection) {
+    let seasons = collection.getFilteredByTag("season");
+
+    // add previous and next season data
+    for (let i = 0; i < seasons.length; i++) {
+      // previous season
+      let number = ((seasons[i - 1] || {}).data || {}).seasonNumber;
+      seasons[i].data.previousSeason = number;
+
+      // next season
+      number = ((seasons[i + 1] || {}).data || {}).seasonNumber;
+      seasons[i].data.nextSeason = number;
+    }
+
+    return seasons;
   });
 
   eleventyConfig.addPassthroughCopy("img");

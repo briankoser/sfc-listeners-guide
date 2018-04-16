@@ -1,0 +1,71 @@
+---
+layout: baseNavBar
+---
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-1">Season {{seasonNumber}}</a></h1>
+        </div>
+    </div>
+    <div class="hero-foot">
+        <div class="level">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Year</p>
+                    <p class="title">{{year}}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Episodes</p>
+                    <p class="title">{{count}}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Timeloops</p>
+                    <p class="title">{{timeloops}}</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+
+% recommended
+
+end of the year ballots
+
+<div class="content">
+    <article class="season-content">
+    {{ layoutContent | safe }}
+    </article>
+</div>
+
+<nav class="columns season-nav">
+    <div class="column">
+        <div class="tabs is-fullwidth">
+            {% if previousSeason %}
+            <ul>
+                <li><a href="/seasons/{{ previousSeason }}">← Season {{ previousSeason }}</a></li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+    <div class="column">
+        <div class="tabs is-fullwidth">
+            {% if nextSeason %}
+            <ul>    
+                <li><a href="seasons/{{ nextSeason }}">Season {{ nextSeason }} →</a></li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</nav>
+
+
+
+todo:
+- fix seasons page
+- display stats on season 1 page
+- get recommended stats per season (copy front page)
+- end of the year ballots
