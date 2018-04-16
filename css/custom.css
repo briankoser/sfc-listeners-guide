@@ -56,6 +56,10 @@ body {
     font-variant-numeric: oldstyle-nums;
 }
 
+main.container {
+    margin-bottom: 2em;
+}
+
 p {
     -webkit-hyphens: auto;
             hyphens: auto;
@@ -647,6 +651,16 @@ div[data-rating='dont-know']::after {
 .standalone-stat {
     margin-bottom: 2em;
 }
+
+
+
+/******************************************************************************
+  SEASONS CLASSES
+******************************************************************************/
+.season-list {
+    margin-top: 2em;
+}
+
 
 
 /******************************************************************************

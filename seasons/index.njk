@@ -3,5 +3,7 @@ layout: baseNavBar
 ---
 <h1 class="is-size-2">Seasons</h1>
 
-{% set seasonlist = collections.seasons %}
+Season stats are through episode № {{ collections.episodes.length }}
+
+{% set seasonlist = collections.episodes[0].data.stats.seasons %}
 {% include "seasonlist.njk" %}

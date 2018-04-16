@@ -143,13 +143,12 @@ module.exports = function(eleventyConfig) {
     episodes[0].data.stats.releaseDay = releaseDayStats;
 
     // Prophecy Stats
-    let prophecyStats = [];
     let prophecies = episodes
       .map(episode => episode.data.prophecy)
       .filter(prophecy => prophecy != null)
       .reduce((a, b) => a.concat(b), []);
     let prophecyHosts = [...new Set(prophecies.map(prophecy => prophecy.host))];
-    prophecyStats = prophecyHosts
+    let prophecyStats = prophecyHosts
       .map(host => { 
         let total = prophecies.filter(p => p.host === host).length;
         let correct = prophecies.filter(p => p.host === host && p.veracity).length;
@@ -162,6 +161,35 @@ module.exports = function(eleventyConfig) {
       }})
       .sort( (a, b) => b.percentage > a.percentage );
     episodes[0].data.stats.prophecy = prophecyStats;
+
+    // Season Stats
+    let seasonEpisodes = episodes.map(episode => { 
+        return {
+          'url': episode.url,
+          'title': episode.data.title,
+          'number': episode.data.number,
+          'season': episode.data.season,
+          'timeloop': !!episode.data.time_loop_backward
+        };
+    });
+    let seasonEpisodesReverse = Object.assign([], seasonEpisodes);
+    seasonEpisodesReverse.reverse();
+    let uniqueSeasons = [...new Set(seasonEpisodes.map(episode => episode.season))];
+    let seasonStats = uniqueSeasons
+      .map(season => { 
+        return { 
+        'number': season, 
+        'count': seasonEpisodes.filter(episode => episode.season === season).length,
+        'first': seasonEpisodes.find(episode => episode.season === season),
+        'last': seasonEpisodesReverse.find(episode => episode.season === season),
+        'timeloops': seasonEpisodes.filter(episode => episode.season === season && episode.timeloop).length,
+      } })
+      .sort( (a, b) => a.number > b.number );
+    let mergedSeasonStats = [];
+    seasonStats.forEach(season => {
+      mergedSeasonStats.push(Object.assign({}, season, metadata.seasons.find(s => s.number)))
+    });
+    episodes[0].data.stats.seasons = mergedSeasonStats;
 
     return episodes;
   });
