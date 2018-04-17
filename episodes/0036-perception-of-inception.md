@@ -62,13 +62,6 @@ Do you agree with Cobb that reality doesn't matter? Is perception more important
 
 If you woke up in a world without Christianity, and realized that you dreamed your whole life, would you continue to be a Christian?
 
-<q class="archivist">I'd like to think if this happened to me, my response would be the same as Puddleglum in <i class="work-title">The Silver Chair</i>. While the heroes are trapped underground, the villain tries to convince them that they only imagined the world above ground. Puddleglum responds with maybe my favorite theological statement and favorite moment in <i class="work-title">The Chronicles of Narnia</i> (emphasis mine):</q>
-
-<blockquote>
-<p>All you've been saying is quite right, I shouldn't wonder. I'm a chap who always liked to know the worst and then put the best face I can on it. So I won't deny any of what you said. But there's one thing more to be said, even so. Suppose we have only dreamed, or made up, all those things--trees and grass and sun and moon and stars and Aslan himself. Supose we have. Then all I can say is that, in that case, the made-up things seem a good deal more important than the real ones. Suppose this black pit of a kingdom of yours is the only world. Well, it strikes me as a pretty poor one. And that's a funny thing, when you come to think of it. We're just babies making up a game, if you're right. But four babies playing a game can make a play-world which licks your real world hollow. That's why I'm going to stand by the play-world. I'm on Aslan's side even if there isn't any Aslan to lead it. <em>I'm going to live as like a Narnian as I can even if there isn't any Narnia.</em></p>
-<cite>Puddleglum, <i class="work-title">The Silver Chair</i></cite>
-</blockquote>
-
 Colin from the UK started a podcast: Trek News and Views.
 
 
