@@ -12,19 +12,19 @@ permalink: data/searchIndex.json
         "date": "{{episode.data.date | readableDate}}",
         "category": "{{episode.data.category}}",
         "series": "{{episode.data.series}}",
-        "notable_moments": {{episode.data.notable_moments | dump | safe}},
-        "firsts": {{episode.data.firsts | dump | striptags | safe}},
+        "notable_moments": {{episode.data.notable_moments | default('') | dump | safe }},
+        "firsts": {{episode.data.firsts | default('') | dump | striptags | safe}},
         "prophecy": [
             {%- for prophecy in episode.data.prophecy -%}
             "{{prophecy.prophecy | safe}} {{prophecy.comments | safe}}" {%- if not loop.last -%} , {%- endif -%}
             {%- endfor -%}
         ],
-        "future_episodes": {{episode.data.future_episodes | dump | safe}},
-        "celebrity_invites": {{episode.data.celebrity_invites | dump | safe}},
-        "celebrity_promo": "{{episode.data.celebrity_promo}}",
+        "future_episodes": {{episode.data.future_episodes | default('') | dump | safe}},
+        "celebrity_invites": {{episode.data.celebrity_invites | default('') | dump | safe}},
+        "celebrity_promo": "{{episode.data.celebrity_promo | default('')}}",
         "recommendation_reason": {{episode.data.recommendation_reason | dump | striptags | safe}},
-        "archivist_note": "{{episode.data.archivist_note}}",
-        "post": "{{episode.templateContent | striptags | safe}}"
+        "archivist_note": "{{episode.data.archivist_note | default('')}}",
+        "post": "{{episode.templateContent | striptags}}"
     }
     {%- if not loop.last -%} , {% endif -%}
     {%- endfor %}
