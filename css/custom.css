@@ -665,6 +665,10 @@ div[data-rating='dont-know']::after {
     margin-top: 3em;
 }
 
+.season-stats {
+    margin-top: 2em;
+}
+
 
 
 /******************************************************************************

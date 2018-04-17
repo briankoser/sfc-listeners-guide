@@ -1,44 +1,42 @@
-<div class="season-list">
-	{% for season in seasonlist %}
-	<div class="card season-card">
-		<header class="card-header">
-			<p class="card-header-title">
-				<a href="/seasons/{{ season.number }}">Season {{ season.number }}</a>
-			</p>
-		</header>
-		<div class="card-content">
-			<div class="content columns">
-				<div class="column is-two-thirds">
-					{{ season.summary | safe }}
-				</div>
-				<div class="column is-one-third">
-					<div class="level host-stats">
-						<div class="level-item has-text-centered">
-							<div>
-								<p class="heading">Year</p>
-								<p class="title">{{season.year}}</p>
-							</div>
+<div class="columns">
+<div class="column is-half">
+	<div class="season-list">
+		{% for season in seasonlist %}
+		<div class="card season-card">
+			<header class="card-header">
+				<p class="card-header-title">
+					<a href="/seasons/{{ season.data.seasonNumber }}">Season {{ season.data.seasonNumber }}</a>
+				</p>
+			</header>
+			<div class="card-content content">
+				{{ season.data.summary | safe }}
+				<div class="level season-stats">
+					<div class="level-item has-text-centered">
+						<div>
+							<p class="heading">Year</p>
+							<p class="title">{{season.data.year}}</p>
 						</div>
-						<div class="level-item has-text-centered">
-							<div>
-								<p class="heading">Episodes</p>
-								<p class="title">{{season.count}}</p>
-							</div>
+					</div>
+					<div class="level-item has-text-centered">
+						<div>
+							<p class="heading">Episodes</p>
+							<p class="title">{{season.data.count}}</p>
 						</div>
-						<div class="level-item has-text-centered">
-							<div>
-								<p class="heading">Timeloops</p>
-								<p class="title">{{season.timeloops}}</p>
-							</div>
+					</div>
+					<div class="level-item has-text-centered">
+						<div>
+							<p class="heading">Timeloops</p>
+							<p class="title">{{season.data.timeloops}}</p>
 						</div>
 					</div>
 				</div>
 			</div>
+			<footer class="card-footer">
+				<a href="{{ season.data.first.url }}" class="card-footer-item">№ {{season.data.first.number}} {{season.data.first.title}}</a>
+				<a href="{{ season.data.last.url }}" class="card-footer-item">№ {{season.data.last.number}} {{season.data.last.title}}</a>
+			</footer>
 		</div>
-		<footer class="card-footer">
-			<a href="{{ season.first.url }}" class="card-footer-item">№ {{season.first.number}} {{season.first.title}}</a>
-			<a href="{{ season.last.url }}" class="card-footer-item">№ {{season.last.number}} {{season.last.title}}</a>
-		</footer>
+		{% endfor %}
 	</div>
-	{% endfor %}
+</div>
 </div>

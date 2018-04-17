@@ -163,40 +163,12 @@ module.exports = function(eleventyConfig) {
       .sort( (a, b) => b.percentage > a.percentage );
     episodes[0].data.stats.prophecy = prophecyStats;
 
-    // Season Stats
-    let seasons = collection.getFilteredByTag("season");
-    let seasonEpisodes = episodes.map(episode => { 
-        return {
-          'url': episode.url,
-          'title': episode.data.title,
-          'number': episode.data.number,
-          'season': episode.data.season,
-          'timeloop': !!episode.data.time_loop_backward
-        };
-    });
-    let seasonEpisodesReverse = Object.assign([], seasonEpisodes);
-    seasonEpisodesReverse.reverse();
-    let seasonStats = seasons
-      .map(season => {
-        let number = season.data.seasonNumber;
-        return { 
-          'number': number,
-          'year': season.data.year,
-          'count': seasonEpisodes.filter(episode => episode.season === number).length,
-          'first': seasonEpisodes.find(episode => episode.season === number),
-          'last': seasonEpisodesReverse.find(episode => episode.season === number),
-          'timeloops': seasonEpisodes.filter(episode => episode.season === number && episode.timeloop).length
-        }   
-      })
-      .sort( (a, b) => a.number > b.number );
-    
-    episodes[0].data.stats.seasons = seasonStats;
-
     return episodes;
   });
 
   eleventyConfig.addCollection("seasons", function(collection) {
     let seasons = collection.getFilteredByTag("season");
+    let episodes = collection.getFilteredByTag("episode");
 
     // add previous and next season data
     for (let i = 0; i < seasons.length; i++) {
@@ -209,6 +181,32 @@ module.exports = function(eleventyConfig) {
       seasons[i].data.nextSeason = number;
     }
 
+    // Season Stats
+    let seasonEpisodes = episodes.map(episode => { 
+        return {
+          'url': episode.url,
+          'title': episode.data.title,
+          'number': episode.data.number,
+          'season': episode.data.season,
+          'timeloop': !!episode.data.time_loop_backward
+        };
+    });
+    
+    let seasonEpisodesReverse = Object.assign([], seasonEpisodes);
+    seasonEpisodesReverse.reverse();
+
+    let seasonStats = seasons
+      .map(season => {
+        let number = season.data.seasonNumber;
+        let newSeason = season;
+        newSeason.data.count = seasonEpisodes.filter(episode => episode.season === number).length;
+        newSeason.data.first = seasonEpisodes.find(episode => episode.season === number);
+        newSeason.data.last = seasonEpisodesReverse.find(episode => episode.season === number);
+        newSeason.data.timeloops = seasonEpisodes.filter(episode => episode.season === number && episode.timeloop).length;
+        return newSeason;  
+      })
+      .sort( (a, b) => a.data.number > b.data.number );
+    
     return seasons;
   });
 
