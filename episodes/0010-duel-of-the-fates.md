@@ -88,7 +88,6 @@ Is predestination unjust?
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
   <q class="matt">People have to have free will.</q>
   <q class="ben">Hmm...</q>
 </div>
