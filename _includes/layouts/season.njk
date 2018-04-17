@@ -28,13 +28,27 @@ layout: baseNavBar
                     <p class="title">{{timeloops}}</p>
                 </div>
             </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Essential</p>
+                    <p class="title">{{ collections.episodes[0].data.stats.counts.essential }}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Listen</p>
+                    <p class="title">{{ collections.episodes[0].data.stats.counts.yes }}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Skip</p>
+                    <p class="title">{{ collections.episodes[0].data.stats.counts.no }}</p>
+                </div>
+            </div>
         </div>
     </div> 
 </section>
-
-% recommended
-
-end of the year ballots
 
 <div class="content">
     <article class="season-content">
@@ -66,6 +80,5 @@ end of the year ballots
 
 
 {# todo:
-- get essential/yes/no stats per season (copy front page)
 - end of the year ballots
 - add link to nav #}

@@ -181,14 +181,15 @@ module.exports = function(eleventyConfig) {
       seasons[i].data.nextSeason = number;
     }
 
-    // Season Stats
+    // Season Episode Stats
     let seasonEpisodes = episodes.map(episode => { 
         return {
           'url': episode.url,
           'title': episode.data.title,
           'number': episode.data.number,
           'season': episode.data.season,
-          'timeloop': !!episode.data.time_loop_backward
+          'timeloop': !!episode.data.time_loop_backward,
+          'recommendation': episode.data.recommendation
         };
     });
     
@@ -203,6 +204,10 @@ module.exports = function(eleventyConfig) {
         newSeason.data.first = seasonEpisodes.find(episode => episode.season === number);
         newSeason.data.last = seasonEpisodesReverse.find(episode => episode.season === number);
         newSeason.data.timeloops = seasonEpisodes.filter(episode => episode.season === number && episode.timeloop).length;
+        newSeason.counts = {};
+        newSeason.counts.essential = seasonEpisodes.filter(e => e.recommendation.startsWith('essential')).length;
+        newSeason.counts.yes = seasonEpisodes.filter(e => e.recommendation.startsWith('yes')).length;
+        newSeason.counts.no = seasonEpisodes.filter(e => e.recommendation.startsWith('no')).length;
         return newSeason;  
       })
       .sort( (a, b) => a.data.number > b.data.number );
