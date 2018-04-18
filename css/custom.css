@@ -199,14 +199,16 @@ cite i {
   STRUCTURE CLASSES
 ******************************************************************************/
 .hero-body a,
-.hero-foot a {
+.hero-foot a,
+footer.footer a {
     color: var(--color-white);
 }
 
 .hero-body a:hover,
-.hero-foot a:hover {
-    text-decoration: underline;
+.hero-foot a:hover,
+footer.footer a:hover {
     color: var(--color-blue);
+    text-decoration: underline;
 }
 
 .hero-foot {
