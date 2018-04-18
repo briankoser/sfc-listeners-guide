@@ -24,7 +24,7 @@ prophecy:
   - {"host": "Matt", "prediction": "<i class='work-title'>Doctor Strange</i> will be announced within the next year", "veracity": false, "comments": "Doctor Strange was announced in January 2013, 15 months after Matt's prediction."}
   - {"host": "Ben", "prediction": "<i class='work-title'>Doctor Strange</i> will not be announced within the next year", "veracity": true, "comments": ""}
 future_episodes: 
-  - <q class="archivist inline">Super Mario Bros.</q> movie review
+  - <i class="work-title">Super Mario Bros.</i> movie review
   - Time travel 
 celebrity_promo: 
   - Ben de Bono
@@ -47,7 +47,6 @@ Second Stan Lee Quote of the Week by William Shatner
 Evangeline Lilly is worried that fans will hate her in <i class="work-title">The Hobbit</i> because her character is not in the book. 
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
   <q class="ben">Evangeline Lilly: The Jar Jar Binks of <i class="work-title">The Hobbit</i>.</q>
   <q class="archivist inline">Nope, that'll be Alfred</q>
 </div>
