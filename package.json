@@ -33,6 +33,7 @@
   "dependencies": {
     "bulma": "^0.6.2",
     "bulmaswatch": "^0.6.2",
+    "feather-icons": "^4.7.0",
     "lunr": "^2.1.6",
     "npm": "^5.8.0"
   }
