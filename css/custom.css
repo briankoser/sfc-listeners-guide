@@ -698,6 +698,11 @@ div[data-rating='dont-know']::after {
     stroke-width: 2;
 }
 
+footer.footer .feather {
+    height: 16px;
+    width: 16px;
+}
+
 
 
 /******************************************************************************
