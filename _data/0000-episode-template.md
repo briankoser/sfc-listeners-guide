@@ -5,7 +5,6 @@ tags:
   - stan-lee-quote-of-the-week
   - dark-knight-news 
   - take-that-science
-  - dream-month
 
 title: 
 number: 
