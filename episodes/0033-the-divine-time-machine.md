@@ -32,7 +32,6 @@ celebrity_promo:
 last_listen: 2018-03-19
 recommendation: no
 recommendation_reason: Some great, thought-provoking questions, but not a stand-out episode.
-archivist_note: 
 ---
 # Opening
 History of Christianity 1 was the last Life Report episode

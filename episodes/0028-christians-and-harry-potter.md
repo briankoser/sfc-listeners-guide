@@ -37,7 +37,7 @@ Matt calls out Ben for the first time for not keeping up with feedback.
 
 
 # News
-Ben cites a study that says spoilers help you enjoy a story. <q class="archivist inline">Ben raises some good points, but I prefer to experience the story without spoilers first; I can always revisit the material to get the fuller appreciation for characters and themes that Ben mentions. Also, Ben is strongly in favor of not modifying a work to honor the creator's intent (eg not using VidAngel): does it go against creator's intent to spoil yourself?</q>
+Ben cites a study that says spoilers help you enjoy a story. <q class="archivist">Ben raises some good points, but I prefer to experience the story without spoilers first; I can always revisit the material to get the fuller appreciation for characters and themes that Ben mentions. Also, Ben is strongly in favor of not modifying a work to honor the creator's intent (eg not using VidAngel): does it go against creator's intent to spoil yourself?</q>
 
 
 

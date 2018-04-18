@@ -22,7 +22,6 @@ future_episodes:
 last_listen: 2018-02-14
 recommendation: yes
 recommendation_reason: Don't listen for the recommendations, there are better episodes for that. But there are enough notable and funny moments that it's worth a listen.
-archivist_note: 
 ---
 # Opening
 The History of Christianity series was Ben's idea

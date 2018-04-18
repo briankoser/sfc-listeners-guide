@@ -42,7 +42,7 @@ The Scarlet Spider is one of Matt's top 5 superheroes.
   <q class="ben">Take that, terrorists!</q>
 </div> 
 
-Ben says "Lindelhoff" but Matt doesn't call him on it.
+Ben says "Lindelhof" but Matt doesn't call him on it.
 
 <div class="quote">
   <span class="quote-context is-size-6">Mark Hamill said Arkham City is the last time he'll voice the Joker.</span>
@@ -110,4 +110,4 @@ Is torture ever OK?
 
 
 # Feedback
-Dave Johnson reads some of Mark Twain's review of <i class="work-title">The Deerslayer</i>. <q class="archivist inline">Twain's review is hilarious and well-worth reading, but it's not applicable to <i class="work-title">LOST</i>.</q>
+Dave Johnson reads some of Mark Twain's review of <i class="work-title">The Deerslayer</i>. <q class="archivist">Twain's review is hilarious and well-worth reading, but it's not applicable to <i class="work-title">LOST</i>.</q>

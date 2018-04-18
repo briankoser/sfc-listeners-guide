@@ -28,8 +28,7 @@ celebrity_invites:
 
 last_listen: 2018-02-15
 recommendation: yes-timeloop
-recommendation_reason: An interesting and funny discussion of a great sci-fi topic and how it relates to Christianity. Featuring delirious Ben! 
-archivist_note: 
+recommendation_reason: An interesting and funny discussion of a great sci-fi topic and how it relates to Christianity. Featuring delirious Ben!
 ---
 # Opening
 Skip Crust, Matt and Ben's pastor, and Talan Gwynn, homeschooler who's written papers about the podcast, join as guest hosts

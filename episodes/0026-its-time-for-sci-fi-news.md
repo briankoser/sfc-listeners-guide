@@ -50,7 +50,6 @@ Ben is fine without more <i class="work-title">Jurassic Park</i> <q class="archi
 Matt confesses that he didn't meet his goal in watching <i class="work-title">The Shawshank Redemption</i> by the comics continuity episode.
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
   <q class="ben">Have you read ever <i class="work-title">Paradise Lost</i>?</q>
   <q class="matt">Ah yes, by Milton...Bradley!</q>
 </div>

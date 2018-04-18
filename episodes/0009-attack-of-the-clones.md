@@ -64,4 +64,4 @@ Did Jesus die for a human consciousness scanned into a computer?
 
 
 # Feedback
-Based on Col. 1:20, Brady argues that aliens would have to be saved through the blood Jesus shed on the cross, rather than Jesus reincarnating as an alien and dying again for them.
+Based on [Col. 1:20](https://www.biblegateway.com/passage/?search=col+1%3A20&version=ESV), Brady argues that aliens would have to be saved through the blood Jesus shed on the cross, rather than Jesus reincarnating as an alien and dying again for them.

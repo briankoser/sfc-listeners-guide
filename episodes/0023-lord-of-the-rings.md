@@ -18,7 +18,7 @@ time_loop_forward: {"number": 95}
 
 notable_moments:
 firsts: 
-  - Matt corrects Ben on "Lindlehoff"
+  - Matt corrects Ben on "Lindelhof"
   - Feedback from Blondeen (homeschooling mom of ten kids) 
 prophecy: 
   - {"host": "Matt", "prediction": "There will be a sequel to <i class='work-title'>X-Men: First Class</i>", "veracity": true, "comments": ""}
@@ -34,7 +34,7 @@ recommendation_reason: Great discussion of themes from <i class="work-title">The
 
 
 # News
-Matt corrects Ben on "Lindlehoff" <q class="archivist inline">I don't think Ben's doing it deliberately yet</q>
+Matt corrects Ben on "Lindelhof" <q class="archivist inline">I don't think Ben's doing it deliberately yet</q>
 
 <div class="quote">
   <span class="quote-context is-size-6"></span>

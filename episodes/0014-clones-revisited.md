@@ -24,7 +24,6 @@ future_episodes:
 last_listen: 2018-02-08
 recommendation: yes
 recommendation_reason: Listeners add some interesting points to the clone discussion. Plus, the feedback section includes one of the funniest voicemails in SFC history.
-archivist_note: 
 ---
 # Opening
 Both are planning to attend Comic Con 2013

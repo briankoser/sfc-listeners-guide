@@ -27,7 +27,6 @@ future_episodes:
 last_listen: 2018-02-13
 recommendation: yes-timeloop
 recommendation_reason: Another great entry in the "Is X compatible with Christianity?" series
-archivist_note: 
 ---
 # Opening
 Ben wants to rename the show "Fringe Theology"

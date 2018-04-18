@@ -55,9 +55,9 @@ Matt played Pandemic for the first time
 
 Rumor: Marion Cotillard is Talia al Ghul
 
-Ryan Reynolds will do a Deadpool standalone movie <q class="archivist">finally made in 2016</q>
+Ryan Reynolds will do a Deadpool standalone movie <q class="archivist inline">finally made in 2016</q>
 
-Unbreakable will be a trilogy <q class="archivist">happened in 2016</q>
+Unbreakable will be a trilogy <q class="archivist inline">happened in 2016</q>
 
 # Main Topic
 
@@ -106,7 +106,7 @@ Hopefully superhero movies will help bring us through postmodernism.
 
 The genre is unique because it's currently the only one that's mythological.
 
-Will directors and studios see the success of <i class="work-title">The Dark Knight</i> as caused by it's dark and gritty feel or because it had things deep and objective to say? <q class="archivist">Sorry guys, they took dark and gritty</q>
+Will directors and studios see the success of <i class="work-title">The Dark Knight</i> as caused by it's dark and gritty feel or because it had things deep and objective to say? <q class="archivist inline">Sorry guys, they took dark and gritty</q>
 
 # Feedback
 

@@ -40,7 +40,7 @@ future_episodes:
 last_listen: 2018-02-19
 recommendation: yes-timeloop
 recommendation_reason: A shallow look at the Apocalypse, but notable for being the first time that Ben and Matt attack <i class="work-title">Left Behind</i>.
-archivist_note: "It's amusing to hear Matt and Ben attack <i class='work-title'>Left Behind</i> with the fervency of the disillusioned. I was raised with the same eschatology and am currently agnostic on the issue, but to play devil's advocate for dispensational premillennialism: prophecy is often vague, and if there's any area where the church could change doctrine \"late in the game\", it would be eschatology."
+archivist_note: "It's amusing to hear Matt and Ben attack <i class='work-title'>Left Behind</i> with the fervency of the disillusioned. I was raised with the same eschatology and am currently undecided on the issue, but to play devil's advocate for dispensational premillennialism: prophecy is often vague, and if there's any area where the church could change doctrine \"late in the game\", it would be eschatology."
 ---
 # News
 Ben is now done with Stan Lee cameos and end credit scenes
@@ -67,11 +67,11 @@ Ben is now done with Stan Lee cameos and end credit scenes
 - Metaphorical
 
 ## Final Judgment
-- sinners go to hell, Earth is destroyed, saved go to heaven
-- sinners go to hell, Earth is recreated/renewed, the saved are resurrected and live on Earth
+- Sinners go to hell, Earth is destroyed, saved go to heaven
+- Sinners go to hell, Earth is recreated/renewed, the saved are resurrected and live on Earth
 
 ## Rapture 
-- a recent North American misinterpretation of [1 Thess. 4:17](https://www.biblegateway.com/passage/?search=1+thes+4%3A17&version=ESV)
+- A recent North American misinterpretation of [1 Thess. 4:17](https://www.biblegateway.com/passage/?search=1+thes+4%3A17&version=ESV)
 - encourages apathy toward the state of the world
 
 The Left Behind video game series might be the single dumbest thing Ben has ever heard of

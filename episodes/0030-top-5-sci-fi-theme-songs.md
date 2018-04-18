@@ -28,7 +28,6 @@ celebrity_promo: C. K. Kubasik
 last_listen: 2018-04-01
 recommendation: no
 recommendation_reason: Some fun moments (check out Matt "playing the marimba"), but not otherwise memorable.
-archivist_note: 
 ---
 # Opening
 Matt and Ben discuss where they were on 9/11.
