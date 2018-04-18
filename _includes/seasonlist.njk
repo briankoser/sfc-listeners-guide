@@ -32,8 +32,20 @@
 				</div>
 			</div>
 			<footer class="card-footer">
-				<a href="{{ season.data.first.url }}" class="card-footer-item">№ {{season.data.first.number}} {{season.data.first.title}}</a>
-				<a href="{{ season.data.last.url }}" class="card-footer-item">№ {{season.data.last.number}} {{season.data.last.title}}</a>
+				<a href="{{ season.data.first.url }}" class="card-footer-item">
+					<svg class="feather">
+						<use xlink:href="/img/feather-sprite.svg#rewind"/>
+					</svg>
+					&nbsp;
+					№ {{season.data.first.number}} {{season.data.first.title}}
+				</a>
+				<a href="{{ season.data.last.url }}" class="card-footer-item">
+					№ {{season.data.last.number}} {{season.data.last.title}}
+					&nbsp;
+					<svg class="feather">
+						<use xlink:href="/img/feather-sprite.svg#fast-forward"/>
+					</svg>
+				</a>
 			</footer>
 		</div>
 		{% endfor %}
