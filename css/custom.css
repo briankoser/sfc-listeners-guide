@@ -303,6 +303,11 @@ main .hero {
     flex-grow: 0.5;
 }
 
+.top-five a {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
 .archivist-note {
     margin-top: 6em;
 }
