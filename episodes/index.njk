@@ -3,7 +3,15 @@ layout: baseNavBar
 ---
 <h1 class="is-size-2">Episodes</h1>
 
-{% include "episodefilter.njk" %}
+<div class="episode-list columns">
+	<div class="column is-half">
+        {% include "episodefilter.njk" %}
 
-{% set episodelist = collections.episodes %}
-{% include "episodelist.njk" %}
+        {% set episodelist = collections.episodes %}
+        {% include "episodelist.njk" %}
+
+    </div>
+	<div class="column is-half">
+		{% include "search.njk" %}
+	</div>
+</div>

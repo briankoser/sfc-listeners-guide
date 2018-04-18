@@ -166,5 +166,36 @@
                 radio.click();
             }
         }
+
+
+
+        /* episode filter - sort episodes */
+        let sortEpisodesButton = document.getElementById('sortEpisodes');
+
+        if (sortEpisodesButton != null) {
+            sortEpisodesButton.addEventListener('click', toggleEpisodeSort);
+        }
+
+        function toggleEpisodeSort () {
+            const namespace = 'http://www.w3.org/1999/xlink';
+            const iconPathUp = '/img/feather-sprite.svg#chevrons-up';
+            const iconPathDown = '/img/feather-sprite.svg#chevrons-down';
+            
+            // toggle icon
+            let sortEpisodesIcon = document.getElementById('sortEpisodesIcon');
+            let currentIconPath = sortEpisodesIcon.getAttributeNS(namespace, 'href');
+            sortEpisodesIcon.setAttributeNS(
+                namespace, 'xlink:href', currentIconPath === iconPathUp ? iconPathDown : iconPathUp);
+            
+            // toggle episode order
+            let episodeList = document.getElementById('episodeList');
+            reverseElements(episodeList);
+        }
+
+        function reverseElements (element) {
+            for (let i = 0; i < element.childNodes.length; i++) { 
+                element.insertBefore(element.childNodes[i], element.firstChild);
+            }
+        }
     });
 </script>

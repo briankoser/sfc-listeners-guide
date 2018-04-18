@@ -703,6 +703,16 @@ footer.footer .feather {
     width: 16px;
 }
 
+.feather.is-large {
+    height: 36px;
+    width: 36px;
+}
+
+.feather-button {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
 
 
 /******************************************************************************
