@@ -4,7 +4,6 @@ tags:
   - episode
   - stan-lee-quote-of-the-week
   - dark-knight-news
-  - take-that-science
   - celebrity-promo
 
 title: It's Time for Sci-Fi News
