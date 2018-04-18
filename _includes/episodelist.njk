@@ -41,8 +41,18 @@
 				</div>
 			</div>
 			<footer class="card-footer">
-				<a href="{{ episode.url }}" class="card-footer-item">Guide</a>
-				<a href="{{ episode.data.podcast_url }}" class="card-footer-item">Listen</a>
+				<a href="{{ episode.url }}" class="card-footer-item">
+					<svg class="feather">
+						<use xlink:href="/img/feather-sprite.svg#book-open"/>
+					</svg>&nbsp;
+					Guide
+				</a>
+				<a href="{{ episode.data.podcast_url }}" class="card-footer-item">
+					<svg class="feather">
+						<use xlink:href="/img/feather-sprite.svg#radio"/>
+					</svg>&nbsp;
+					Listen
+				</a>
 			</footer>
 		</div>
 		{% endfor %}
