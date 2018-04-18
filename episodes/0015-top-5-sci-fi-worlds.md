@@ -28,7 +28,8 @@ future_episodes:
 last_listen: 2018-02-12
 recommendation: yes
 recommendation_reason: One of the funniest episodes, with the all-time great moment of Ben singing the Avatar closing credits song.
-archivist_note: 
+spoilers:
+- <i class="work-title">The Dark Knight Rises</i>
 ---
 # Opening
 Matt said he will read Beowulf. It is now a 2018 planned episode.
@@ -159,7 +160,6 @@ Maybe the worst title in the history of titles announced: Terminator 2012
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
   <q class="matt">Do you see the similarities between Lord Sidious and the pope?</q>
   <q class="ben">...No.</q>
 </div>

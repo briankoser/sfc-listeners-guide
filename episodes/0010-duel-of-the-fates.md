@@ -32,6 +32,8 @@ future_episodes:
 last_listen: 2018-01-31
 recommendation: essential-timeloop
 recommendation_reason: Less a review of <i class="work-title">The Adjustment Bureau</i>, and more a discussion on free will vs sovereignty.
+spoilers:
+- <i class="work-title">The Dark Knight Rises</i>
 archivist_note: The Secondhand Spectacular is my favorite moment from the first ten episodes of the show.
 ---
 # Opening

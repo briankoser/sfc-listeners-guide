@@ -31,14 +31,14 @@ future_episodes:
 last_listen: 2018-03-01
 recommendation: no
 recommendation_reason: Mostly just a discussion about <i class="work-title">Fringe</i>
+spoilers:
+- <i class="work-title">Fringe</i>, Season 3
 ---
 # News
-
-Joking :
 <div class="quote">
-  <q class="matt">We should just start releasing our old episodes over again as new episodes.</q>
+  <q class="matt">(joking) We should just start releasing our old episodes over again as new episodes.</q>
   <q class="ben">With new titles.</q>
-  <q class="archivist">They said it as a joke, but of course Matt will start time looping old episodes in Season 2.</q>
+  <q class="archivist">They said it as a joke, but Matt will start time looping old episodes in Season 2.</q>
 </div>
 
 <div class="quote">

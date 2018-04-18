@@ -32,6 +32,8 @@ celebrity_promo: C. K. Kubasik
 last_listen: 2018-04-16
 recommendation: no
 recommendation_reason: Any news that's interesting in hindsight I've added to the listener's guide.
+spoilers:
+- <i class="work-title">The Dark Knight Rises</i>
 ---
 # Opening
 Matt and Ryan bought a bunch of country flags. For a game the planned to create but never did, Matt chose Jamaica as his captain country and Ryan chose Belgium. 

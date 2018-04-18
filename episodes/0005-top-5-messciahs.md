@@ -37,6 +37,8 @@ celebrity_invites:
 last_listen: 2018-01-25
 recommendation: no
 recommendation_reason: Not noteworthy.
+spoilers:
+- <i class="work-title">The Dark Knight Rises</i>
 archivist_note: 
 ---
 # Opening

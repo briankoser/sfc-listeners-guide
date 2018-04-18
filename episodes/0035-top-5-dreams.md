@@ -30,6 +30,8 @@ future_episodes:
 last_listen: 2011-03-27
 recommendation: yes
 recommendation_reason: Another "so bad it's good" episode. Ridiculously simple and ridiculous.
+spoilers:
+- <i class="work-title">Once Upon a Time</i>
 ---
 # Opening
 Matt wants to not reset episode numbering each season <q class="archivist inline">Thank you!</q>

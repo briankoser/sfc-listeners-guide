@@ -36,6 +36,8 @@ celebrity_promo: George Lucas
 last_listen: 2018-03-17
 recommendation: no
 recommendation_reason: Listen only if you're a big <i class="work-title">LOST</i> fan.
+spoilers:
+- <i class="work-title">LOST</i>
 archivist_note: 5 of Matt's favorite episodes are on my <a href="http://tto.koser.us/episodes/036-lost-episodes/">top ten list</a>; 3 are on my wife's.
 ---
 # Opening

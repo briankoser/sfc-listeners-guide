@@ -30,6 +30,8 @@ celebrity_invites:
 last_listen: 
 recommendation: essential|essential-timeloop|yes|yes-timeloop|no
 recommendation_reason: 
+spoilers: 
+- <i class="work-title"></i>
 archivist_note: 
 ---
 # Opening

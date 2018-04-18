@@ -21,6 +21,8 @@ future_episodes:
 last_listen: 2011-03-28
 recommendation: yes
 recommendation_reason: Good discussion of a great movie.
+spoilers:
+- <i class="work-title">Inception</i>
 ---
 # Opening
 Ben and Matt switch roles for the opening because Matt will be taking the lead on the podcast.

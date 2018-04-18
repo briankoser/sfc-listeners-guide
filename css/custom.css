@@ -275,11 +275,18 @@ main .hero {
 }
 
 .episode-recommendation,
+.spoilers,
 .episode-secondary-metadata,
 .episode-content p,
+.episode-content ol,
+.episode-content ul,
 .episode-content blockquote,
 .episode-content .quote {
-    max-width: 33em;
+    max-width: 45rem;
+}
+
+.episode-recommendation {
+    margin-bottom: 1.5em;
 }
 
 .tabs ul {
@@ -337,8 +344,8 @@ a.timestamp:hover {
 }
 
 .episode-list .card-header-title a:hover {
-    text-decoration: underline;
     color: var(--color-blue);
+    text-decoration: underline;
 }
 
 .episode-list .card-header-title a {
@@ -485,8 +492,7 @@ a.timestamp:hover {
     line-height: 1em;
 }
 
-q.inline,
-q.archivist {
+q.inline {
     display: inline;
 }
 
@@ -541,9 +547,6 @@ q.koby::before {
 
 .prophecy a {
     color: var(--color-white);
-}
-
-.prophecy a:hover {
     text-decoration: underline;
 }
 
@@ -621,7 +624,7 @@ q.koby::before {
 }
 
 .review q {
-    border-radius: 5px 5px 0 0;
+    border-radius: 0;
 }
 
 .episode-content .rating {
