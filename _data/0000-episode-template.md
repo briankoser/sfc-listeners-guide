@@ -8,7 +8,7 @@ tags:
 
 title: 
 number: 
-season: 1
+season: 2
 podcast_url: 
 date: 
 category: 
