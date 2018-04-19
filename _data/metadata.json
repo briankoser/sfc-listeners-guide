@@ -22,5 +22,10 @@
       {"shortName": "Scott", "fullName": "Scott Herzog" },
       {"shortName": "Myles", "fullName": "Myles McLachlan" },
       {"shortName": "CK", "fullName": "C. K. Kubasik" }
+    ],
+    "tags": [
+      {"slug": "dark-knight-news", "name": "Dark Knight News"},
+      {"slug": "stan-lee-quote-of-the-week", "name": "Stan Lee Quote of the Week"},
+      {"slug": "take-that-science", "name": "Take That, Science!"}
     ]
   }

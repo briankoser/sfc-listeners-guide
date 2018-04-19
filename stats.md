@@ -25,13 +25,13 @@ All stats are through episode № {{ collections.episodes.length }}
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">First</p>
-                    <p class="title">{{host.first}}</p>
+                    <p class="title">№ {{host.first}}</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Last</p>
-                    <p class="title">{{host.last}}</p>
+                    <p class="title">№ {{host.last}}</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
@@ -68,13 +68,13 @@ All stats are through episode № {{ collections.episodes.length }}
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">First</p>
-                    <p class="title">{{host.first}}</p>
+                    <p class="title">№ {{host.first}}</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Last</p>
-                    <p class="title">{{host.last}}</p>
+                    <p class="title">№ {{host.last}}</p>
                 </div>
             </div>
         </div>
@@ -103,6 +103,28 @@ Average Length -->
 
 № {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.title}} ({{collections.episodes[0].data.stats.episodes.quickestTimeLoop.gap}} episodes between original and time loop)
 </div>
+
+### Segment Count
+<table class="table is-striped">
+    <thead>
+        <tr>
+            <th>Segment</th>
+            <th>Total</th>
+            <th>First</th>
+            <th>Last</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for tag in collections.episodes[0].data.stats.tags %}    
+<tr>
+    <th>{{tag.name}}</th>
+    <td>{{tag.count}}</td>
+    <td>№ {{tag.first}}</td>
+    <td>№ {{tag.last}}</td>
+</tr>
+    {% endfor %}
+</tbody>
+</table>
 
 ### Release Day
 <div class="columns">

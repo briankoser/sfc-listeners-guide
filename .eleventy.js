@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
-
+    
     // add previous and next episode data
     for (let i = 0; i < episodes.length; i++) {
       // previous episode
@@ -127,7 +127,10 @@ module.exports = function(eleventyConfig) {
     episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
 
     let oldestWithoutTimeLoop = episodes.find(episode => episode.data.time_loop_forward === undefined);
-    episodeStats.oldestWithoutTimeLoop = {'title': oldestWithoutTimeLoop.data.title, 'number': oldestWithoutTimeLoop.data.number };
+    episodeStats.oldestWithoutTimeLoop = {
+      'title': oldestWithoutTimeLoop.data.title, 
+      'number': oldestWithoutTimeLoop.data.number 
+    };
     
     episodes[0].data.stats.episodes = episodeStats;
 
@@ -162,6 +165,29 @@ module.exports = function(eleventyConfig) {
       }})
       .sort( (a, b) => b.percentage > a.percentage );
     episodes[0].data.stats.prophecy = prophecyStats;
+
+    // Tag Stats
+    let episodeTags = episodes
+      .map(episode => { 
+        return {
+          'number': episode.data.number,
+          'tags': episode.data.tags
+        }
+      });
+    let episodeTagsReverse = Object.assign([], episodeTags);
+    episodeTagsReverse.reverse();
+    let tagOccurences = episodeTags.map(episode => episode.tags).reduce((a, b) => a.concat(b), []);
+    let uniqueTags = [...new Set(tagOccurences)]
+      .filter(tag => tag !== 'episode');
+    let tagStats = uniqueTags
+      .map(tag => { return { 
+        'name': (metadata.tags.find(t => t.slug === tag) || {}).name || tag,
+        'count': tagOccurences.filter(x => x === tag).length,
+        'first': (episodeTags.find(x => ((x.tags || []).includes(tag))) || {}).number,
+        'last': (episodeTagsReverse.find(x => (x.tags || []).includes(tag)) || {}).number
+      } })
+      .sort( (a, b) => b.count > a.count );
+    episodes[0].data.stats.tags = tagStats;
 
     return episodes;
   });
