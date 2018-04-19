@@ -3,9 +3,7 @@ layout: episode
 tags:
   - episode
   - stan-lee-quote-of-the-week
-  - dark-knight-news 
-  - take-that-science
-  - dream-month
+  - dark-knight-news
 
 title: Christians and Harry Potter
 number: 28

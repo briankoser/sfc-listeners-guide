@@ -4,7 +4,6 @@ tags:
   - episode
   - stan-lee-quote-of-the-week
   - dark-knight-news
-  - celebrity-promo
   - take-that-science
 
 title: The Divine Time Machine
