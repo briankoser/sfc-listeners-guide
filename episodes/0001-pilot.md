@@ -36,7 +36,7 @@ celebrity_invites:
 last_listen: 2018-01-22
 recommendation: yes-timeloop
 recommendation_reason: Lays a good foundation for where Ben and Matt were with their interests when they started the show.
-archivist_note: The World Premiere! It's great to see where Ben and Matt started from in episode 1. Ben is much more optimistic, Matt is a little more combative. Both attend seminary and work at their church Epic Life (epiclifeonline.org), Matt as the youth director and Ben as pastoral ministry intern.
+archivist_note: The World Premiere! It's great to see where Ben and Matt started from in episode 1. Ben is much more optimistic, Matt is a little more combative.
 ---
 # Opening
 
