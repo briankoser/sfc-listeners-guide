@@ -8,7 +8,7 @@
                         {% set icon_name = 'arrow-left' %}
                         {% include "_macros/icon.njk" %}
                         &nbsp;
-                        Previous
+                        № {{ previous.number }} {{ previous.title }}
                     </a>
                 </li>
                 {# <li><a href="{{ '/' }}">← Previous in Series</a></li> #}
@@ -23,7 +23,7 @@
                 {# <li><a href="{{ '/' }}">Next in Series →</a></li> #}
                 <li>
                     <a href="{{ next.url }}">
-                        Next
+                        № {{ next.number }} {{ next.title }}
                         &nbsp;
                         {% set icon_name = 'arrow-right' %}
                         {% include "_macros/icon.njk" %}
