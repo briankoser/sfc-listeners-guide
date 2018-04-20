@@ -199,41 +199,4 @@ layout: baseNavBar
     {% endif %}
 </div>
 
-<nav class="columns episode-nav">
-    <div class="column">
-        <div class="tabs is-fullwidth">
-            {% if previous.url %}
-            <ul>
-                <li>
-                    <a href="{{ previous.url }}">
-                        <svg class="feather">
-                            <use xlink:href="/img/feather-sprite.svg#arrow-left"/>
-                        </svg>
-                        &nbsp;
-                        Previous
-                    </a>
-                </li>
-                {# <li><a href="{{ '/' }}">← Previous in Series</a></li> #}
-            </ul>
-            {% endif %}
-        </div>
-    </div>
-    <div class="column">
-        <div class="tabs is-fullwidth">
-            {% if next.url %}
-            <ul>    
-                {# <li><a href="{{ '/' }}">Next in Series →</a></li> #}
-                <li>
-                    <a href="{{ next.url }}">
-                        Next
-                        &nbsp; 
-                        <svg class="feather">
-                            <use xlink:href="/img/feather-sprite.svg#arrow-right"/>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            {% endif %}
-        </div>
-    </div>
-</nav>
+{% include "layouts/episodeNav.njk" %}
