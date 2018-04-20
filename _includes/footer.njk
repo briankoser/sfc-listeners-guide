@@ -1,23 +1,22 @@
 <footer class="footer columns">
     <div class="column has-text-left">
         <p>
-            <svg class="feather">
-                <use xlink:href="/img/feather-sprite.svg#user"/>
-            </svg>
+            {% set icon_name = 'user' %}
+            {% include "_macros/icon.njk" %}
             &nbsp;
             Created by The Archivist
         </p>
         <p>
-            <svg class="feather">
-                <use xlink:href="/img/feather-sprite.svg#database"/>
-            </svg>
+            {% set icon_name = 'database' %}
+            {% include "_macros/icon.njk" %}
             &nbsp;
-            Built with <a href="https://www.11ty.io/">Eleventy</a>, <a href="https://bulma.io/">Bulma</a>, <a href="https://jenil.github.io/bulmaswatch/">Bulma Swatch</a>, and <a href="https://feathericons.com/"><svg class="feather"><use xlink:href="/img/feather-sprite.svg#feather"/></svg> Feather Icons</a>
+            Built with <a href="https://www.11ty.io/">Eleventy</a>, <a href="https://bulma.io/">Bulma</a>, <a href="https://jenil.github.io/bulmaswatch/">Bulma Swatch</a>, and <a href="https://feathericons.com/">
+            {% set icon_name = 'feather' %}
+            {% include "_macros/icon.njk" %} Feather Icons</a>
         </p>
         <p>
-            <svg class="feather">
-                <use xlink:href="/img/feather-sprite.svg#power"/>
-            </svg>
+            {% set icon_name = 'power' %}
+            {% include "_macros/icon.njk" %}
             &nbsp;
             Powered by a flux capacitor and squirrels
         </p>

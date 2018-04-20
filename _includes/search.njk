@@ -2,9 +2,8 @@
 	<p class="control has-icons-left">
 		<input type="search" id="searchbar" class="input is-large search-bar" placeholder="Search episodes">
 		<span class="icon is-small is-left">
-			<svg class="feather">
-				<use xlink:href="/img/feather-sprite.svg#search"/>
-			</svg>
+			{% set icon_name = 'search' %}
+			{% include "_macros/icon.njk" %}
 		</span>
 	</p>
 	<p class="control">
