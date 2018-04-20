@@ -27,7 +27,7 @@ future_episodes:
 
 last_listen: 2018-03-03
 recommendation: no
-recommendation_reason: I enjoy news episodes, but usually the only interesting part of old news is seeing it in hindsight, and you can read this guide to get that.
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
 Ben says as long as superhero films are popular they will do State of the Superhero episodes <q class="archivist inline">He underestimated either how long his patience would last with superhero movies, or how long they would be popular.</q>

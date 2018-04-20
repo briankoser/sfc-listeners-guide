@@ -29,7 +29,7 @@ celebrity_invites:
 
 last_listen: 
 recommendation: essential|essential-timeloop|yes|yes-timeloop|no
-recommendation_reason: 
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
 spoilers: 
 - <i class="work-title"></i>
 archivist_note: 

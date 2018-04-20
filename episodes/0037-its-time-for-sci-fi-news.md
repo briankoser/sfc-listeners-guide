@@ -30,7 +30,7 @@ celebrity_promo: C. K. Kubasik
 
 last_listen: 2018-04-16
 recommendation: no
-recommendation_reason: Any news that's interesting in hindsight I've added to the listener's guide.
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 spoilers:
 - <i class="work-title">The Dark Knight Rises</i>
 ---
