@@ -125,7 +125,7 @@ layout: baseNavBar
         This guide entry contains spoilers for:
         <ul>
         {% for spoiler in spoilers %}
-            <li><strong>{{spoiler}}</strong></li>
+            <li><strong>{{spoiler | safe}}</strong></li>
         {% endfor %}
         </ul>
     </div>
