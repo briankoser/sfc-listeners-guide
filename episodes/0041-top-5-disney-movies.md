@@ -19,6 +19,8 @@ featuring:
   - Daniel Butcher
 
 notable_moments:
+future_episodes: 
+  - Top 5 Pixar Movies
 firsts: 
   - Daniel Butcher appearance
   - Matt says the episode title before the music
@@ -65,7 +67,7 @@ Daniel blogs at [Between Disney](http://www.betweendisney.com/)
   </div>
 </div>
 
-If Snow White had failed, Disney would likely have gone out of business. 
+If <i class="work-title">Snow White</i> had failed, Disney would likely have gone out of business. 
 
 "Feed the Birds" was Walt Disney's favorite song.
 
@@ -75,4 +77,4 @@ If Snow White had failed, Disney would likely have gone out of business.
   <q class="matt">I don't think I've heard of the wife auction. Is that something they let the visitors participate in?</q>
 </div>
 
-Treasure Island was the first Disney live-action film.
+<i class="work-title">Treasure Island</i> was the first Disney live-action film.
