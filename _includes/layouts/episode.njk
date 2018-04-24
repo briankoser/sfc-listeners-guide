@@ -133,6 +133,7 @@ layout: baseNavBar
 {% endif %}
 
 <div class="content">
+    {% if notable_moments or firsts or prophecy or future_episodes or celebrity_invites %}
     <div class="box episode-secondary-metadata">
         {% if notable_moments %}
         <h2>Notable Moments</h2>
@@ -178,6 +179,7 @@ layout: baseNavBar
         </ul>
         {% endif %}
     </div>
+    {% endif %}
 
     <article class="episode-content">
     {{ layoutContent | safe }}
