@@ -321,6 +321,10 @@ main .hero {
     margin-top: 6em;
 }
 
+a.timestamp {
+    border-radius: 30px 0 0 30px;
+}
+
 a.timestamp:hover {
     text-decoration: none;
     opacity: 0.75;
