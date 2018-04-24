@@ -15,6 +15,9 @@ series: State of the Superhero
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 notable_moments:
 future_episodes: 

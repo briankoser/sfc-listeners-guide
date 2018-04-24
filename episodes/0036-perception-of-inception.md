@@ -13,6 +13,9 @@ category: Review
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 notable_moments:
 future_episodes: 

@@ -17,6 +17,9 @@ hosts:
   - Ben
   - Matt
 guest_hosts:
+featuring:
+  - Ben
+  - Matt
 time_loop_forward: {"number": }
 time_loop_backward: {"number": }
 

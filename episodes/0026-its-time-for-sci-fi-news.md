@@ -14,6 +14,9 @@ category: News
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 prophecy: 
   - {"host": "Ben", "prediction": "There's no way George Lucas is going to let someone else direct a <i class='work-title'>Star Wars</i> movie.", "veracity": false, "comments": "Lucas sold <i class='work-title'>Star Wars</i> to Disney a little over a year later."}

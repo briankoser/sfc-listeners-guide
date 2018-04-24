@@ -16,6 +16,9 @@ series: Lost
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 time_loop_forward: {"number": 288}
 
 notable_moments:

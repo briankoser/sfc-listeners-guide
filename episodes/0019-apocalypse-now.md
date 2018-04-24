@@ -15,6 +15,9 @@ series:
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 time_loop_forward: {"number": 193}
 
 notable_moments:

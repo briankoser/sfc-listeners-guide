@@ -14,6 +14,9 @@ category: Literature
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 notable_moments:
 firsts: 

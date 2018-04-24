@@ -14,6 +14,9 @@ series: Clones
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 firsts: 
   - Episode revisit (№ 9 Attack of the Clones)

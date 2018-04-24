@@ -14,6 +14,9 @@ series: Clones
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 firsts: 
   - Hiatus (Ben went to Israel) 
