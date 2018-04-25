@@ -24,6 +24,10 @@ pageTitle: Time Loops
         <td><a href="/episodes/0003-the-dark-knight-on-trial/">№ 3 The Dark Knight On Trial</a></td>
       </tr>
       <tr>
+        <td>№ 87 The SFC Time Loop – Cloning and the Transfer of Consciousness</td>
+        <td><a href="/episodes/0023-lord-of-the-rings/">№ 9 Attack of the Clones</a></td>
+      </tr>
+      <tr>
         <td>№ 95</td>
         <td><a href="/episodes/0023-lord-of-the-rings/">№ 23 Lord of the Rings</a></td>
       </tr>
