@@ -113,6 +113,10 @@ pageTitle: Time Loops
     </thead>
     <tbody>
       <tr>
+        <td><a href="/episodes/0043-star-wars/">№ 43 Star Wars</a></td>
+        <td>Life Report № 0</td>
+      </tr>
+      <tr>
         <td>№ 202</td>
         <td>video</td>
       </tr>
