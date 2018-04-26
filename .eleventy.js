@@ -36,21 +36,25 @@ module.exports = function(eleventyConfig) {
     let episodesReverse = Object.assign([], episodes);
     episodesReverse.reverse();
 
+    let episodeToLinkFormat = episode => {
+      if (!episode) {
+        return undefined;
+      }
+
+      let url = episode.url;
+      let title = episode.data.title;
+      let number = episode.data.number;
+
+      return {url, title, number};
+    };
+
     // add previous and next episode data
     for (let i = 0; i < episodes.length; i++) {
       // previous episode
-      let url =     (episodes[i - 1] || {}).url;
-      let title =  ((episodes[i - 1] || {}).data || {}).title;
-      let number = ((episodes[i - 1] || {}).data || {}).number;
-
-      episodes[i].data.previous = {url, title, number};
+      episodes[i].data.previous = episodeToLinkFormat(episodes[i - 1]);
 
       // next episode
-      url =     (episodes[i + 1] || {}).url;
-      title =  ((episodes[i + 1] || {}).data || {}).title;
-      number = ((episodes[i + 1] || {}).data || {}).number;
-
-      episodes[i].data.next = {url, title, number};
+      episodes[i].data.next = episodeToLinkFormat(episodes[i + 1]);
 
       // time loop forward url
       let timeLoopForward = episodes[i].data.time_loop_forward;
