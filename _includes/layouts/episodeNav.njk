@@ -1,7 +1,7 @@
 <nav class="columns episode-nav">
     <div class="column">
         <div class="tabs is-fullwidth">
-            {% if previous.url %}
+            {% if previous %}
             <ul>
                 <li>
                     <a href="{{ previous.url }}">
@@ -11,16 +11,14 @@
                         № {{ previous.number }} {{ previous.title }}
                     </a>
                 </li>
-                {# <li><a href="{{ '/' }}">← Previous in Series</a></li> #}
             </ul>
             {% endif %}
         </div>
     </div>
     <div class="column">
         <div class="tabs is-fullwidth">
-            {% if next.url %}
-            <ul>    
-                {# <li><a href="{{ '/' }}">Next in Series →</a></li> #}
+            {% if next %}
+            <ul>
                 <li>
                     <a href="{{ next.url }}">
                         № {{ next.number }} {{ next.title }}
