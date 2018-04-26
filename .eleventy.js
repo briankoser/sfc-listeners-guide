@@ -33,7 +33,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
-    
+    let episodesReverse = Object.assign([], episodes);
+    episodesReverse.reverse();
+
     // add previous and next episode data
     for (let i = 0; i < episodes.length; i++) {
       // previous episode
@@ -133,6 +135,31 @@ module.exports = function(eleventyConfig) {
     };
     
     episodes[0].data.stats.episodes = episodeStats;
+
+    // Series stats
+    let episodeSeries = episodes
+    .map(episode => {
+      return {
+        'number': episode.data.number,
+        'series': episode.data.series
+      }
+    });
+    let seriesOccurences = episodeSeries
+      .map(episode => episode.series)
+      .reduce((a, b) => a.concat(b), [])
+      .filter(series => series != undefined);
+    let uniqueSeries = [...new Set(seriesOccurences)];
+    let seriesStats = uniqueSeries
+      .map(series => { return {
+        'name': series,
+        'summary': (metadata.series.find(s => s.name === series) || {}).summary,
+        'count': seriesOccurences.filter(s => s === series).length,
+        'first': episodes.find(episode => episode.data.series === series),
+        'last': episodesReverse.find(episode => episode.data.series === series)
+    } })
+    .sort( (a, b) => b.last.data.number > a.last.data.number );
+
+    episodes[0].data.stats.series = seriesStats;
 
     // Release Day stats
     let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];

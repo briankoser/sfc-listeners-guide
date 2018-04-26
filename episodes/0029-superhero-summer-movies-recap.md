@@ -11,7 +11,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-29-superhero-summer-movies-recap/
 date: 2011-09-05
 category: Review
-series: State of the Superhero
+series: State of the Superhero Movie
 hosts:
   - Ben
   - Matt
