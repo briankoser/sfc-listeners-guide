@@ -41,16 +41,14 @@
 		</div>
 		<footer class="card-footer">
 			<a href="{{ episode.url }}" class="card-footer-item">
-				<svg class="feather">
-					<use xlink:href="/img/feather-sprite.svg#book-open"/>
-				</svg>
+				{% set icon_name = 'book-open' %}
+				{% include "_macros/icon.njk" %}
 				&nbsp;
 				Guide
 			</a>
 			<a href="{{ episode.data.podcast_url }}" class="card-footer-item">
-				<svg class="feather">
-					<use xlink:href="/img/feather-sprite.svg#radio"/>
-				</svg>
+				{% set icon_name = 'radio' %}
+				{% include "_macros/icon.njk" %}
 				&nbsp;
 				Listen
 			</a>

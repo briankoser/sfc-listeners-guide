@@ -2,7 +2,8 @@
 layout: episode
 tags:
 - episode
-- dark-knight-news 
+- dark-knight-news
+
 title: Perception of Inception
 number: 36
 season: 1
@@ -10,6 +11,9 @@ podcast_url: http://thescifichristian.com/2011/12/episode-36-perception-of-incep
 date: 2011-12-04
 category: Review
 hosts:
+  - Ben
+  - Matt
+featuring: 
   - Ben
   - Matt
 

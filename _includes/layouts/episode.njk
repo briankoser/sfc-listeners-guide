@@ -5,7 +5,7 @@ layout: baseNavBar
     <div class="hero-body">
         <div class="container">
             <h1 class="title is-1"><a href="{{podcast_url}}">№ {{number}} {{ title }}</a></h1>
-            <h2 class="subtitle is-5">Season {{season}}</h2>
+            <h2 class="subtitle is-5"><a href="/seasons/{{season}}">Season {{season}}</a></h2>
         </div>
     </div>
     <div class="hero-foot">
@@ -125,7 +125,7 @@ layout: baseNavBar
         This guide entry contains spoilers for:
         <ul>
         {% for spoiler in spoilers %}
-            <li><strong>{{spoiler}}</strong></li>
+            <li><strong>{{spoiler | safe}}</strong></li>
         {% endfor %}
         </ul>
     </div>
@@ -133,6 +133,7 @@ layout: baseNavBar
 {% endif %}
 
 <div class="content">
+    {% if notable_moments or firsts or prophecy or future_episodes or celebrity_invites %}
     <div class="box episode-secondary-metadata">
         {% if notable_moments %}
         <h2>Notable Moments</h2>
@@ -178,6 +179,7 @@ layout: baseNavBar
         </ul>
         {% endif %}
     </div>
+    {% endif %}
 
     <article class="episode-content">
     {{ layoutContent | safe }}
@@ -199,41 +201,4 @@ layout: baseNavBar
     {% endif %}
 </div>
 
-<nav class="columns episode-nav">
-    <div class="column">
-        <div class="tabs is-fullwidth">
-            {% if previous.url %}
-            <ul>
-                <li>
-                    <a href="{{ previous.url }}">
-                        <svg class="feather">
-                            <use xlink:href="/img/feather-sprite.svg#arrow-left"/>
-                        </svg>
-                        &nbsp;
-                        Previous
-                    </a>
-                </li>
-                {# <li><a href="{{ '/' }}">← Previous in Series</a></li> #}
-            </ul>
-            {% endif %}
-        </div>
-    </div>
-    <div class="column">
-        <div class="tabs is-fullwidth">
-            {% if next.url %}
-            <ul>    
-                {# <li><a href="{{ '/' }}">Next in Series →</a></li> #}
-                <li>
-                    <a href="{{ next.url }}">
-                        Next
-                        &nbsp; 
-                        <svg class="feather">
-                            <use xlink:href="/img/feather-sprite.svg#arrow-right"/>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            {% endif %}
-        </div>
-    </div>
-</nav>
+{% include "layouts/episodeNav.njk" %}

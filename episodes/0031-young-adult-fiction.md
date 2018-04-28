@@ -4,7 +4,6 @@ tags:
   - episode
   - stan-lee-quote-of-the-week
   - dark-knight-news 
-  - celebrity-promo
 
 title: Young Adult Fiction
 number: 31
@@ -12,7 +11,11 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-31-young-adult-fiction/
 date: 2011-09-18
 category: Literature
+series: Recommendations
 hosts:
+  - Ben
+  - Matt
+featuring: 
   - Ben
   - Matt
 

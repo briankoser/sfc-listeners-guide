@@ -14,6 +14,9 @@ category: Countdown
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 notable_moments:
 future_episodes: 
@@ -120,7 +123,7 @@ They hug while "Moving On" from <i class="work-title">LOST</i> plays
 
 Ben agrees that the final episode of <i class="work-title">LOST</i> was perfect. 
 
-Matt "plays" the Jurassic Park theme "on the marimba" <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/09/episode-30-top-5-sci-fi-theme-songs/#t=1:28:30">1:28:30</a>
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/09/episode-30-top-5-sci-fi-theme-songs/#t=1:28:30">1:28:30</a> Matt "plays" the Jurassic Park theme "on the marimba"
 
 
 

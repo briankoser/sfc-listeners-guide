@@ -13,6 +13,9 @@ category: Main Topic
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 guest_hosts:
   - Skip Crust
   - Talan Gwynn

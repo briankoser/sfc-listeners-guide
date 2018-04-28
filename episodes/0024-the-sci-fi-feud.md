@@ -17,7 +17,12 @@ hosts:
 guest_hosts:
   - Scott Herzog
   - Myles McLachlan
-
+featuring: 
+  - Ben
+  - Matt
+  - Scott Herzog
+  - Myles McLachlan
+  
 notable_moments:
 firsts: 
   - Ben's ponytail mentioned

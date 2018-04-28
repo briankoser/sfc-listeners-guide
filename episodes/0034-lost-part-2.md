@@ -4,7 +4,6 @@ tags:
   - episode
   - stan-lee-quote-of-the-week
   - dark-knight-news
-  - celebrity-promo  
   - take-that-science
 
 title: LOST Part 2
@@ -13,8 +12,11 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/10/episode-34-lost-part-2/
 date: 2011-10-23
 category: Review
-series: Lost
+series: LOST
 hosts:
+  - Ben
+  - Matt
+featuring: 
   - Ben
   - Matt
 time_loop_forward: {"number": 288}

@@ -33,22 +33,28 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
+    let episodesReverse = Object.assign([], episodes);
+    episodesReverse.reverse();
+
+    let episodeToLinkFormat = episode => {
+      if (!episode) {
+        return undefined;
+      }
+
+      let url = episode.url;
+      let title = episode.data.title;
+      let number = episode.data.number;
+
+      return {url, title, number};
+    };
 
     // add previous and next episode data
     for (let i = 0; i < episodes.length; i++) {
       // previous episode
-      let url =     (episodes[i - 1] || {}).url;
-      let title =  ((episodes[i - 1] || {}).data || {}).title;
-      let number = ((episodes[i - 1] || {}).data || {}).number;
-
-      episodes[i].data.previous = {url, title, number};
+      episodes[i].data.previous = episodeToLinkFormat(episodes[i - 1]);
 
       // next episode
-      url =     (episodes[i + 1] || {}).url;
-      title =  ((episodes[i + 1] || {}).data || {}).title;
-      number = ((episodes[i + 1] || {}).data || {}).number;
-
-      episodes[i].data.next = {url, title, number};
+      episodes[i].data.next = episodeToLinkFormat(episodes[i + 1]);
 
       // time loop forward url
       let timeLoopForward = episodes[i].data.time_loop_forward;
@@ -127,9 +133,37 @@ module.exports = function(eleventyConfig) {
     episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
 
     let oldestWithoutTimeLoop = episodes.find(episode => episode.data.time_loop_forward === undefined);
-    episodeStats.oldestWithoutTimeLoop = {'title': oldestWithoutTimeLoop.data.title, 'number': oldestWithoutTimeLoop.data.number };
+    episodeStats.oldestWithoutTimeLoop = {
+      'title': oldestWithoutTimeLoop.data.title, 
+      'number': oldestWithoutTimeLoop.data.number 
+    };
     
     episodes[0].data.stats.episodes = episodeStats;
+
+    // Series stats
+    let episodeSeries = episodes
+    .map(episode => {
+      return {
+        'number': episode.data.number,
+        'series': episode.data.series
+      }
+    });
+    let seriesOccurences = episodeSeries
+      .map(episode => episode.series)
+      .reduce((a, b) => a.concat(b), [])
+      .filter(series => series != undefined);
+    let uniqueSeries = [...new Set(seriesOccurences)];
+    let seriesStats = uniqueSeries
+      .map(series => { return {
+        'name': series,
+        'summary': (metadata.series.find(s => s.name === series) || {}).summary,
+        'count': seriesOccurences.filter(s => s === series).length,
+        'first': episodes.find(episode => episode.data.series === series),
+        'last': episodesReverse.find(episode => episode.data.series === series)
+    } })
+    .sort( (a, b) => b.last.data.number > a.last.data.number );
+
+    episodes[0].data.stats.series = seriesStats;
 
     // Release Day stats
     let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -162,6 +196,29 @@ module.exports = function(eleventyConfig) {
       }})
       .sort( (a, b) => b.percentage > a.percentage );
     episodes[0].data.stats.prophecy = prophecyStats;
+
+    // Tag Stats
+    let episodeTags = episodes
+      .map(episode => { 
+        return {
+          'number': episode.data.number,
+          'tags': episode.data.tags
+        }
+      });
+    let episodeTagsReverse = Object.assign([], episodeTags);
+    episodeTagsReverse.reverse();
+    let tagOccurences = episodeTags.map(episode => episode.tags).reduce((a, b) => a.concat(b), []);
+    let uniqueTags = [...new Set(tagOccurences)]
+      .filter(tag => tag !== 'episode');
+    let tagStats = uniqueTags
+      .map(tag => { return { 
+        'name': (metadata.tags.find(t => t.slug === tag) || {}).name || tag,
+        'count': tagOccurences.filter(x => x === tag).length,
+        'first': (episodeTags.find(x => ((x.tags || []).includes(tag))) || {}).number,
+        'last': (episodeTagsReverse.find(x => (x.tags || []).includes(tag)) || {}).number
+      } })
+      .sort( (a, b) => b.count > a.count );
+    episodes[0].data.stats.tags = tagStats;
 
     return episodes;
   });

@@ -12,6 +12,9 @@ category: Feedback
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 future_episodes: 
   - End of the Year Listener Appreciation Jubilee
@@ -20,7 +23,7 @@ future_episodes:
 
 last_listen: 2018-04-16
 recommendation: no
-recommendation_reason: Any feedback that's interesting in hindsight I've added to the listener's guide.
+recommendation_reason: Any notable feedback is included in the guide.
 ---
 # Opening
 Matt does the intro like a wrestling announcer. 

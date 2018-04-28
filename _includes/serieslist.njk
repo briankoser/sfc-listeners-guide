@@ -1,0 +1,44 @@
+<div class="columns">
+<div class="column is-half">
+	<div class="series-list">
+		{% for series in serieslist %}
+		<div class="card series-card">
+			<header class="card-header">
+				<p class="card-header-title">
+					{{ series.name }}
+				</p>
+			</header>
+			<div class="columns card-content content">
+				<div class="column is-two-thirds">
+					{{ series.summary | safe }}
+				</div>
+				<div class="column is-one-third">
+					<div class="level series-stats">
+						<div class="level-item has-text-centered">
+							<div>
+								<p class="heading">Episodes</p>
+								<p class="title">{{series.count}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="card-footer">
+				<a href="{{ series.first.url }}" class="card-footer-item">
+					{% set icon_name = 'rewind' %}
+					{% include "_macros/icon.njk" %}
+					&nbsp;
+					№ {{series.first.data.number}} {{series.first.data.title}}
+				</a>
+				<a href="{{ series.last.url }}" class="card-footer-item">
+					№ {{series.last.data.number}} {{series.last.data.title}}
+					&nbsp;
+					{% set icon_name = 'fast-forward' %}
+					{% include "_macros/icon.njk" %}
+				</a>
+			</footer>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+</div>

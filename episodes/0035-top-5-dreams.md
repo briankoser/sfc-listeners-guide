@@ -4,7 +4,6 @@ tags:
   - episode
   - dark-knight-news 
   - take-that-science
-  - dream-month
 
 title: Top 5 Dreams
 number: 35
@@ -16,10 +15,14 @@ series: Bad but Great
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 
 notable_moments:
 firsts: 
   - Voicemail from Mike Poteet
+  - Episode of Dream Month
 prophecy: 
   - {"host": "Matt", "prediction": "The Sheriff on <i class='work-title'>Once Upon a Time</i> is the Big Bad Wolf.", "veracity": false, "comments": "He was The Huntsman from Snow White."}
 future_episodes: 

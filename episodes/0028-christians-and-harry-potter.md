@@ -3,9 +3,7 @@ layout: episode
 tags:
   - episode
   - stan-lee-quote-of-the-week
-  - dark-knight-news 
-  - take-that-science
-  - dream-month
+  - dark-knight-news
 
 title: Christians and Harry Potter
 number: 28
@@ -14,6 +12,9 @@ podcast_url: http://thescifichristian.com/2011/08/episode-28-christians-and-harr
 date: 2011-08-22
 category: Main Topic
 hosts:
+  - Ben
+  - Matt
+featuring: 
   - Ben
   - Matt
 

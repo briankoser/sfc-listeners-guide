@@ -4,7 +4,6 @@ tags:
   - episode
   - stan-lee-quote-of-the-week
   - dark-knight-news
-  - celebrity-promo
   - take-that-science
 
 title: The Divine Time Machine
@@ -15,6 +14,9 @@ date: 2011-10-09
 category: Main Topic
 series: 
 hosts:
+  - Ben
+  - Matt
+featuring: 
   - Ben
   - Matt
 time_loop_forward: {"number": 369}

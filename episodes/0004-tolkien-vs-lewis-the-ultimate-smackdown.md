@@ -13,8 +13,10 @@ series:
 hosts:
   - Ben
   - Matt
+featuring: 
+  - Ben
+  - Matt
 time_loop_forward: {"number": 435}
-time_loop_backward: 
 
 notable_moments:
 firsts: 

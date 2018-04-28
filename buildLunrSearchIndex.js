@@ -25,11 +25,11 @@ fs.readFile(initialSearchIndexLocation, 'utf8', (err, data) => {
     let lunrIndex = lunr(function () {
         this.ref('url')
         this.field('tags', { boost: 5 });
-        this.field('title', { boost: 10 });
-        this.field('number', { boost: 10 });
+        this.field('title', { boost: 15 });
+        this.field('number', { boost: 15 });
         this.field('date', { boost: 5 });
         this.field('category', { boost: 5 });
-        this.field('series', { boost: 5 });
+        this.field('series', { boost: 10 });
         this.field('notable_moments');
         this.field('firsts');
         this.field('prophecy');

@@ -13,8 +13,11 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-32-lost-part-1/
 date: 2011-09-27
 category: Review
-series: Lost
+series: LOST
 hosts:
+  - Ben
+  - Matt
+featuring: 
   - Ben
   - Matt
 time_loop_forward: {"number": 288}
