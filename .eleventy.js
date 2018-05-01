@@ -44,8 +44,9 @@ module.exports = function(eleventyConfig) {
       let url = episode.url;
       let title = episode.data.title;
       let number = episode.data.number;
+      let season = episode.data.season;
 
-      return {url, title, number};
+      return {url, title, number, season};
     };
 
     // add previous and next episode data

@@ -49,6 +49,7 @@ And more!
     <a href="{{ collections.episodes[0].data.last.url }}">
         № {{ collections.episodes[0].data.last.number }} {{ collections.episodes[0].data.last.title }}
     </a>
+    (<a href="/seasons/{{ collections.episodes[0].data.last.season }}">Season {{ collections.episodes[0].data.last.season }}</a>)
 </div>
 
 <div class="level stats">
