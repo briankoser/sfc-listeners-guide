@@ -74,6 +74,10 @@ module.exports = function(eleventyConfig) {
     // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode
     episodes[0].data.stats = {};
 
+    // Last episode
+    let lastEpisodeIndex = episodes.length - 1;
+    episodes[0].data.last = episodeToLinkFormat(episodes[lastEpisodeIndex]);
+
     // Counts stats
     let counts = {};
     counts.essential = episodes.filter(e => e.data.recommendation.startsWith('essential')).length;

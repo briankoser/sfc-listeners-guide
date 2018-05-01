@@ -238,6 +238,7 @@ main .hero {
 ******************************************************************************/
 .home .recommendations,
 .home .historical-record,
+.home .last-episode,
 .home .stats {
     margin-bottom: 4em;
 }
