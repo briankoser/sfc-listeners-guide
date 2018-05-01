@@ -55,6 +55,7 @@ archivist_note:
 <q class="archivist inline"></q>
 
 <div class="quote">
+  <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:28:30">1:28:30</a>
   <span class="quote-context is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>
