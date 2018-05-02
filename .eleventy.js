@@ -44,8 +44,9 @@ module.exports = function(eleventyConfig) {
       let url = episode.url;
       let title = episode.data.title;
       let number = episode.data.number;
+      let season = episode.data.season;
 
-      return {url, title, number};
+      return {url, title, number, season};
     };
 
     // add previous and next episode data
@@ -73,6 +74,10 @@ module.exports = function(eleventyConfig) {
 
     // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode
     episodes[0].data.stats = {};
+
+    // Last episode
+    let lastEpisodeIndex = episodes.length - 1;
+    episodes[0].data.last = episodeToLinkFormat(episodes[lastEpisodeIndex]);
 
     // Counts stats
     let counts = {};

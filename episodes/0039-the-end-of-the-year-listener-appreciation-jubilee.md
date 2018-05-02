@@ -31,7 +31,7 @@ celebrity_promo: C. K. Kubasik
 
 last_listen: 2018-04-19
 recommendation: yes
-recommendation_reason: If you want the 3 minute Season 1 overview, listen to the Season 1 Archive Summary. If you want the 1 hour version, listen to this episode. If you want the 3 hour version, listen to № 40.
+recommendation_reason: If you want the 1-hour Season 1 overview, listen to № 39. If you want the 3-hour version, listen to № 40.
 ---
 [2011 End of the Year Listener Appreciation Jubilee Ballot](http://thescifichristian.com/2011/12/the-sci-fi-christian-end-of-the-year-listener-appreciation-jubilee/)
 

@@ -17,6 +17,6 @@ featuring:
 
 last_listen: 
 recommendation: yes
-recommendation_reason: If you want the 3 minute Season 1 overview, listen to the Season 1 Archive Summary. If you want the 1 hour version, listen to № 39. If you want the 3 hour version, listen to this episode.
+recommendation_reason: If you want the 1-hour Season 1 overview, listen to № 39. If you want the 3-hour version, listen to № 40.
 archivist_note: Great selection of Season 1 clips.
 ---
