@@ -59,7 +59,7 @@ archivist_note:
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6">On <i class="work-title">Pirates of the Caribbean 4</i></span>
+  <span class="quote-context tag is-size-6">On <i class="work-title">Pirates of the Caribbean 4</i></span>
   <q class="ben">Against my better judgment, I am getting excited about this movie...this is looking really, really good.</q>
 </div>
 

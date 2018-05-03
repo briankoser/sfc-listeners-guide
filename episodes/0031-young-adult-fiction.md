@@ -51,7 +51,7 @@ archivist_note: The DuckTales cartoon does not hold up very well as an adult, bu
 They discuss their favorite cartoons 
 
 <div class="quote">
-  <span class="quote-context is-size-6">On <i class="work-title">Captain Planet</i>'s brainwashing</span>
+  <span class="quote-context tag is-size-6">On <i class="work-title">Captain Planet</i>'s brainwashing</span>
   <q class="ben">This obviously didn't...</q>
   <q class="matt">It did not work on me.</q>
   <q class="ben">You are the most un-green person on Planet Earth.</q>
@@ -109,7 +109,7 @@ Recommendations:
 - The Old Man and the Sea
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
+  <span class="quote-context tag is-size-6"></span>
   <q class="matt">Ben, you want to tell everybody what I'm holding in my hand?</q>
   <q class="ben">You're sticking your hand up the butt of a stuffed animal.</q>
   <q class="matt">It's a puppet!</q>
@@ -130,7 +130,7 @@ If yes, is it OK to purposely give children lower-quality stories?
 Stories are more than entertainment.
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
+  <span class="quote-context tag is-size-6"></span>
   <q class="ben">Let's say you don't like your kid to hear strong language and it has two uses of the F-word in it.</q>
   <q class="matt">Well, I mean, they're probably going to hear that around the household.</q>
 </div>

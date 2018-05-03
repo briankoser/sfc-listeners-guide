@@ -41,7 +41,7 @@ The opening "We are back!" becomes official
 The <i class="work-title">Game of Thrones</i> TV series just started, and Ben already doubts that Martin will finish the books before the show catches up.
 
 <div class="quote">
-  <span class="quote-context is-size-6">On <i class="work-title">A Song of Ice and Fire</i> and George R R Martin</span>
+  <span class="quote-context tag is-size-6">On <i class="work-title">A Song of Ice and Fire</i> and George R R Martin</span>
   <q class="matt">He has to have a great ending, otherwise he's going to be a laughingstock. And I'll be at the front of the line of laughers.</q>
 </div>
 

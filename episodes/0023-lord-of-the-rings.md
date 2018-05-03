@@ -40,7 +40,7 @@ recommendation_reason: Great discussion of themes from <i class="work-title">The
 Matt corrects Ben on "Lindelhof" <q class="archivist inline">I don't think Ben's doing it deliberately yet</q>
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
+  <span class="quote-context tag is-size-6"></span>
   <q class="ben">Amazon.com's Germany branch has messed up.</q>
   <q class="matt">Oh my gosh, Germany. They screwed up again. Germany just can't get it right, can they?</q>
   <q class="ben">They can't get it right.</q>

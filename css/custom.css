@@ -511,8 +511,8 @@ a.timestamp:hover {
 }
 
 .quote-context {
-    display: inline-block;
-    line-height: 1em;
+    border-radius: unset;
+    margin: -4px;
 }
 
 q.inline {

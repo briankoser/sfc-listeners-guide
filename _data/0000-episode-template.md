@@ -56,7 +56,7 @@ archivist_note:
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
-  <span class="quote-context is-size-6"></span>
+  <span class="quote-context tag is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>
 </div>

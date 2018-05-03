@@ -38,7 +38,7 @@ Skip Crust, Matt and Ben's pastor, and Talan Gwynn, homeschooler who's written p
 
 # News
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
+  <span class="quote-context tag is-size-6"></span>
   <q data-name="Skip Crust">That's not entirely true.</q>
   <q class="matt">But it is mostly entirely true.</q>
 </div>
@@ -53,7 +53,7 @@ More making fun of Stan Lee
 There's a Candy Land movie coming that is designed as Lord of the Rings with candy
 
 <div class="quote">
-  <span class="quote-context is-size-6">On plans to attend <i class="work-title">The Dark Knight Rises</i></span>
+  <span class="quote-context tag is-size-6">On plans to attend <i class="work-title">The Dark Knight Rises</i></span>
   <q class="ben">Are you going to come to the second viewing with us the next day?</q>
   <q data-name="Skip Crust">I will be wearing my Batman nipple suit.</q>
 </div>
@@ -92,6 +92,6 @@ Was the fall inevitable?
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6">Skip doesn't want alternate universes to exist because it would make theology messy.</span>
+  <span class="quote-context tag is-size-6">Skip doesn't want alternate universes to exist because it would make theology messy.</span>
   <q class="ben">Well, if it exists, we probably won't find out about it so long as you are the pastor at Epic Life Church. So don't sweat it.</q>
 </div>

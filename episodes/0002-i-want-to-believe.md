@@ -51,7 +51,7 @@ Ben says "yes sir" a lot and "yeppers" once.
 <i class="work-title">Pirates of the Caribbean 5</i> was announced. <q class="archivist inline">It will not be released until 2017</q>
 
 <div class="quote">
-<span class="quote-context is-size-6">Regarding <i class="work-title">Pirates of the Caribbean 3: At World's End</i></span>
+<span class="quote-context tag is-size-6">Regarding <i class="work-title">Pirates of the Caribbean 3: At World's End</i></span>
 <q class="ben">I hated it. I hated it. I hated it.</q>
 </div>
 

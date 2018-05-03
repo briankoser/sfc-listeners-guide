@@ -52,7 +52,7 @@ Koby is the winner of the first SFC contest, The Secondhand Spectacular
 George R. R. Martin and Damon Lindelof feud
 
 <div class="quote">
-  <span class="quote-context is-size-6">After George R. R. Martin bashes the end of LOST</span>
+  <span class="quote-context tag is-size-6">After George R. R. Martin bashes the end of LOST</span>
   <q class="matt">I hate this author. I will never read a book by him.</q>
 </div>
 
@@ -111,7 +111,7 @@ Ben sings "Be a Missionary"
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6"></span>
+  <span class="quote-context tag is-size-6"></span>
   <q class="ben">The Holy Spirit's got you beat.</q>
   <q class="matt">Dang it, not again!</q>
 </div>

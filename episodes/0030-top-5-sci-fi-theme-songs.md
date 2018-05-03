@@ -130,6 +130,6 @@ Ben agrees that the final episode of <i class="work-title">LOST</i> was perfect.
 # Feedback
 
 <div class="quote">
-  <span class="quote-context is-size-6">For once, all of the feedback is people agreeing with Matt. </span>
+  <span class="quote-context tag is-size-6">For once, all of the feedback is people agreeing with Matt. </span>
   <q class="matt">Only took 30 frickin' episodes.</q>
 </div>

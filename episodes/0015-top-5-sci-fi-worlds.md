@@ -88,7 +88,7 @@ Maybe the worst title in the history of titles announced: Terminator 2012
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6">On Avatar</span>
+  <span class="quote-context tag is-size-6">On Avatar</span>
   <q class="matt">We've already figured out how to take over their land; I think it's time to take over their religion.</q>
 </div>
 

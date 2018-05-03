@@ -47,7 +47,7 @@ spoilers:
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6">A new Star Trek video game is announced</span>
+  <span class="quote-context tag is-size-6">A new Star Trek video game is announced</span>
   <q class="ben">Do you know what type of game it's going to be?</q>
   <q class="matt">I don't even know what that question means.</q>
   <q class="ben">Like, is it an RPG, is it a shooter, is it adventure?</q>

@@ -73,7 +73,7 @@ If <i class="work-title">Snow White</i> had failed, Disney would likely have gon
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/01/episode-41-top-5-disney-movies/#t=20:02">20:02</a>
-  <span class="quote-context is-size-6">On the Pirates of the Caribbean ride at Disney World</span>
+  <span class="quote-context tag is-size-6">On the Pirates of the Caribbean ride at Disney World</span>
   <q class="matt">I don't think I've heard of the wife auction. Is that something they let the visitors participate in?</q>
 </div>
 

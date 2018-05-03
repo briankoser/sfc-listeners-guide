@@ -41,7 +41,7 @@ spoilers:
 Matt and Ryan bought a bunch of country flags. For a game the planned to create but never did, Matt chose Jamaica as his captain country and Ryan chose Belgium. 
 
 <div class="quote">
-  <span class="quote-context is-size-6">Matt now gets all the feedback voicemails and emails.</span>
+  <span class="quote-context tag is-size-6">Matt now gets all the feedback voicemails and emails.</span>
   <q class="matt">It's been awesome, I can't wait until Ben leaves.</q>
 </div>
 
@@ -49,6 +49,6 @@ Matt and Ryan bought a bunch of country flags. For a game the planned to create 
 
 # Main Topic
 <div class="quote">
-  <span class="quote-context is-size-6">Mythbusters accidentally shot a cannonball into someone's van. </span>
+  <span class="quote-context tag is-size-6">Mythbusters accidentally shot a cannonball into someone's van. </span>
   <q class="ben">Take that, San Francisco!</q>
 </div>

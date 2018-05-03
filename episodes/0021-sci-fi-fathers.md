@@ -37,7 +37,7 @@ Grant Morrison said that Superman is the human race's greatest idea ever
 Ben and Matt pitch a sci-fi Noah short story anthology to any Christian publishers listening
 
 <div class="quote">
-  <span class="quote-context is-size-6"><i class="work-title">X-Men: First Class</i> was accused of racism, and Ben explains how the point of the franchise is an argument against racism</span>
+  <span class="quote-context tag is-size-6"><i class="work-title">X-Men: First Class</i> was accused of racism, and Ben explains how the point of the franchise is an argument against racism</span>
   <q class="ben">It was a metaphor for civil rights...it's about people who are looked down upon because of how they look and how they're born...</q>
   <q class="matt">How they're born?</q>
   <q class="ben">Yeah.</q>

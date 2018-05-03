@@ -38,7 +38,7 @@ Matt is a preschool worker, connector (greeter), records and posts sermons onlin
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/01/episode-43-star-wars//#t=7:39">7:39</a>
-  <span class="quote-context is-size-6">Ben and Matt invite the listeners to ask questions</span>
+  <span class="quote-context tag is-size-6">Ben and Matt invite the listeners to ask questions</span>
   <q class="matt">Usually I try to pretend like I always know, so I say lies confidently.</q>
   <q class="ben">Me too. Yes, you will get lied to in a way you've never experienced before on this podcast, and it's gonna change your life.</q>
   <q class="matt">I like to call it, 'Epic Lie Church'.</q>
