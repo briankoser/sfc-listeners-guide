@@ -9,6 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/02/episode-45-knowing-gods-will/
 date: 2012-02-08
 category: Theology
+series: Ben Sermons
 hosts:
   - Matt
 featuring:
