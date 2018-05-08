@@ -48,7 +48,7 @@ Ben says "yes sir" a lot and "yeppers" once.
 
 
 # News
-<i class="work-title">Pirates of the Caribbean 5</i> was announced. <q class="archivist inline">It will not be released until 2017</q>
+<i class="work-title">Pirates of the Caribbean 5</i> was announced. <q class="archivist inline">Not released until 2017</q>
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/#t=13:11">13:11</a>
