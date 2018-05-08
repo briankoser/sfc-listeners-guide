@@ -46,17 +46,13 @@ The show is hosted at scifichristianpodcast.com
 
 Ben reveals that they have a lifetime contract for the show.
 
-<div class="quote">
-<q class="ben">This is all about chemistry, baby!</q>
-<q class="matt">Not that kind of chemistry.</q>
-</div>
-
 The LOST Report addicted Ben to podcasting.
 
 <div class="quote">
-<q class="ben">Even before I got into ministry, I am a lifelong nerd and completely unapologetic about it.</q>
-<q class="matt">I thought you were going to say, 'lifelong lover of Christ'.</q>
-<q class="ben">...That too.</q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/01/episode-101-world-premiere/#t=4:21">4:21</a>
+  <q class="ben">Even before I got into ministry, I am a lifelong nerd and completely unapologetic about it.</q>
+  <q class="matt">I thought you were going to say, 'lifelong lover of Christ'.</q>
+  <q class="ben">...That too.</q>
 </div>
 
 The show won't be strictly sci-fi, it will include all of genre fiction and related topics.
