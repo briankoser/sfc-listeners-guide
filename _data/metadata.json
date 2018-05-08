@@ -9,8 +9,8 @@
     "totalEpisodes": 641,
     "stats": {},
     "hosts": [
-      {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "chartreuse", "rgb": ""}, "weakness": "squirrels"},
-      {"shortName": "Matt", "fullName": "Matt Anderson", "color": {"name": "mauve", "rgb": ""}, "weakness": "time travel"},
+      {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "blue", "rgb": ""}, "weakness": "squirrels"},
+      {"shortName": "Matt", "fullName": "Matt Anderson", "color": {"name": "orange", "rgb": ""}, "weakness": "time travel"},
       {"shortName": "Daniel", "fullName": "Daniel Butcher", "color": {"name": "yellow", "rgb": ""}, "weakness": "disney"},
       {"shortName": "Koby", "fullName": "Koby Radcliffe", "color": {"name": "pink", "rgb": ""}, "weakness": "cats"}
     ],

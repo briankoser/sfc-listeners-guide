@@ -10,8 +10,10 @@
   VARIABLES
 ******************************************************************************/
 :root {
+    --color-primary: rgb(65, 198, 231); /* duplicated in main.scss for bulma */
     --color-black: black;
-    --color-blue: hsl(218, 75%, 54%);
+    --color-blue: hsl(258, 84%, 48%);
+    --color-blue-transparent: hsla(258, 84%, 48%, 0.2);
     --color-dark-grey: hsl(0, 0%, 14%);
     --color-green: hsl(141, 71%, 48%);
     --color-medium-grey: hsl(0, 0%, 21%);
@@ -198,6 +200,11 @@ cite i {
 /******************************************************************************
   STRUCTURE CLASSES
 ******************************************************************************/
+.hero.is-primary,
+.navbar.is-primary {
+    text-shadow: black 0px 0px 3px;
+}
+
 .hero-body a,
 .hero-foot a,
 footer.footer a {
@@ -207,7 +214,7 @@ footer.footer a {
 .hero-body a:hover,
 .hero-foot a:hover,
 footer.footer a:hover {
-    color: var(--color-blue);
+    color: var(--color-primary);
     text-decoration: underline;
 }
 
@@ -307,7 +314,7 @@ main .hero {
 }
 
 .tabs a:hover {
-    background-color: var(--color-blue);
+    background-color: var(--color-primary);
 }
 
 .content .tabs li + li {
@@ -333,6 +340,7 @@ main .hero {
 
 a.tag.timestamp.is-rounded {
     border-radius: 30px 0 0 30px;
+    text-shadow: black 0px 0px 2px;
 }
 
 a.timestamp:hover {
@@ -360,7 +368,7 @@ a.timestamp:hover {
 }
 
 .episode-list .card-header-title a:hover {
-    color: var(--color-blue);
+    color: var(--color-primary);
     text-decoration: underline;
 }
 
@@ -440,11 +448,12 @@ a.timestamp:hover {
   ARCHIVIST/HOST CLASSES
 ******************************************************************************/
 .archivist {
-    background-color: var(--color-blue);
+    background-color: var(--color-primary);
+    color: var(--color-black);
 }
 
 .ben {
-    background-color: var(--color-purple);
+    background-color: var(--color-blue);
 }
 
 .matt,
@@ -469,7 +478,7 @@ a.timestamp:hover {
 
 
 .title.Ben {
-    color: var(--color-purple);
+    color: var(--color-blue);
 }
 
 .title.Matt {
@@ -486,7 +495,7 @@ a.timestamp:hover {
 
 
 .card.Ben .card-header {
-    background-color: var(--color-purple-transparent);
+    background-color: var(--color-blue-transparent);
 }
 
 .card.Matt .card-header {
