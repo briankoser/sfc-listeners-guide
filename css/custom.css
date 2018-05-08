@@ -245,13 +245,16 @@ main .hero {
 ******************************************************************************/
 .home .recommendations,
 .home .historical-record,
-.home .last-episode,
 .home .stats {
     margin-bottom: 4em;
 }
 
 .home .recommendations .notification:hover {
     opacity: 0.75;
+}
+
+.notification.is-warning h2 {
+    color: var(--color-black);
 }
 
 

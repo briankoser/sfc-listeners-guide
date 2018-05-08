@@ -5,15 +5,15 @@ layout: baseHero
     
 <h1>Recommendations</h1>
 <div class="columns recommendations">
-    <div class="column is-one-third">
+    <div class="column is-one-quarter">
         <a href="/episodes/?r=essential">
             <div class="notification is-primary">
                 <h2>Essential</h2>
-                The best of the best
+                The best of the best from each season
             </div>
         </a>
     </div>
-    <div class="column is-one-third">
+    <div class="column is-one-quarter">
         <a href="/episodes/?r=listen">
             <div class="notification is-success">
                 <h2>Listen</h2>
@@ -21,11 +21,19 @@ layout: baseHero
             </div>
         </a>
     </div>
-    <div class="column is-one-third">
+    <div class="column is-one-quarter">
         <a href="/episodes/0001-pilot/">
             <div class="notification is-danger">
                 <h2>All</h2>
                 Start at № 1 (for the completionists)
+            </div>
+        </a>
+    </div>
+    <div class="column is-one-quarter">
+        <a href="{{ collections.episodes[0].data.last.url }}">
+            <div class="notification is-warning">
+                <h2>Latest</h2>
+                № {{ collections.episodes[0].data.last.number }} {{ collections.episodes[0].data.last.title }}
             </div>
         </a>
     </div>
@@ -42,14 +50,6 @@ layout: baseHero
 
 And more!
     </div>
-</div>
-
-<div class="last-episode">
-    <h1>Latest Archived</h1>
-    <a href="{{ collections.episodes[0].data.last.url }}">
-        № {{ collections.episodes[0].data.last.number }} {{ collections.episodes[0].data.last.title }}
-    </a>
-    (<a href="/seasons/{{ collections.episodes[0].data.last.season }}">Season {{ collections.episodes[0].data.last.season }}</a>)
 </div>
 
 <div class="level stats">
