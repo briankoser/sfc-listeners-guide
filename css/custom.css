@@ -388,13 +388,28 @@ a.timestamp:hover {
 /******************************************************************************
   EPISODE FILTER CLASSES
 ******************************************************************************/
-.episode-filter {
-    margin-bottom: 1em;
+.navbar.episode-filter {
+    border: none;
 }
 
 .episode-filter input[type=radio] {
     height: 1.5em;
     width: 1.5em;
+}
+
+.sort-button-container {
+    position: relative;
+}
+
+.sort-button-container .feather-button {
+    position: absolute;
+    top: 25%;
+}
+
+@media (max-width: 768px) {
+    .columns.episode-filter-container {
+        margin-bottom: 2em;
+    }
 }
 
 
