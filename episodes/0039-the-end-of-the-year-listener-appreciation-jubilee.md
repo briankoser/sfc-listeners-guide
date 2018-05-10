@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - celebrity-promo
 
 title: The End of the Year Listener Appreciation Jubilee
 number: 39
