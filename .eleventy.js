@@ -262,19 +262,19 @@ module.exports = function(eleventyConfig) {
       .map(season => {
         let number = season.data.seasonNumber;
         let newSeason = season;
-        newSeason.data.count = seasonEpisodes.filter(episode => episode.season === number).length;
-        newSeason.data.first = seasonEpisodes.find(episode => episode.season === number);
-        newSeason.data.last = seasonEpisodesReverse.find(episode => episode.season === number);
-        newSeason.data.timeloops = seasonEpisodes.filter(episode => episode.season === number && episode.timeloop).length;
-        newSeason.counts = {};
-        newSeason.counts.essential = seasonEpisodes.filter(e => e.recommendation.startsWith('essential')).length;
-        newSeason.counts.yes = seasonEpisodes.filter(e => e.recommendation.startsWith('yes')).length;
-        newSeason.counts.no = seasonEpisodes.filter(e => e.recommendation.startsWith('no')).length;
+        newSeason.data.count = seasonEpisodes.filter(e => e.season === number).length;
+        newSeason.data.first = seasonEpisodes.find(e => e.season === number);
+        newSeason.data.last = seasonEpisodesReverse.find(e => e.season === number);
+        newSeason.data.timeloops = seasonEpisodes.filter(e => e.season === number && e.timeloop).length;
+        newSeason.data.counts = {};
+        newSeason.data.counts.essential = seasonEpisodes.filter(e => e.season === number && e.recommendation.startsWith('essential')).length;
+        newSeason.data.counts.yes = seasonEpisodes.filter(e => e.season === number && e.recommendation.startsWith('yes')).length;
+        newSeason.data.counts.no = seasonEpisodes.filter(e => e.season === number && e.recommendation.startsWith('no')).length;
         return newSeason;  
       })
       .sort( (a, b) => a.data.number > b.data.number );
-    
-    return seasons;
+
+    return seasonStats;
   });
 
   eleventyConfig.addPassthroughCopy("img");
