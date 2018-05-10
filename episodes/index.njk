@@ -4,15 +4,21 @@ pageTitle: Episodes
 ---
 <h1 class="is-size-2">Episodes</h1>
 
-<div class="episode-list columns">
-	<div class="column is-half">
-        {% include "episodefilter.njk" %}
+<div class="episode-list">
+    <div class="columns">
+        <div class="column is-half">
+            {% include "episodefilter.njk" %}
 
-        {% set episodelist = collections.episodes %}
-        {% include "episodelist.njk" %}
-
+        </div>
+        <div class="column is-half">
+            {% include "search.njk" %}
+        </div>
     </div>
-	<div class="column is-half">
-		{% include "search.njk" %}
-	</div>
+
+    <div class="columns">
+        <div class="column is-half">
+            {% set episodelist = collections.episodes %}
+            {% include "episodelist.njk" %}
+        </div>
+    </div>
 </div>
