@@ -379,10 +379,28 @@ a.timestamp:hover {
     color: var(--color-white);
 }
 
+.episode-list .card-header-icon {
+    justify-content: left;
+}
+
 .episode-list .card-footer a:hover {
     background-color: var(--color-medium-grey);
 }
 
+
+@media (max-width: 768px) {
+    .episode-list .card-header {
+        flex-direction: column;
+    }
+
+    .episode-list .card-header-title {
+        padding: 0.75rem 0.75rem 0 0.75rem;
+    }
+
+    .episode-list .card-header-icon {
+        padding: 0 0.75rem 0.75rem 0.75rem;
+    }
+}
 
 
 /******************************************************************************
