@@ -560,6 +560,10 @@ a.timestamp:hover {
     margin: -4px;
 }
 
+.quote-context:empty {
+    display: none;
+}
+
 q.inline {
     display: inline;
 }
