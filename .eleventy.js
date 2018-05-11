@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
     let episodesReverse = Object.assign([], episodes);
     episodesReverse.reverse();
 
-    let episodeToLinkFormat = episode => {
+    let buildLinkModel = episode => {
       if (!episode) {
         return undefined;
       }
@@ -49,13 +49,13 @@ module.exports = function(eleventyConfig) {
       return {url, title, number, season};
     };
 
-    // add previous and next episode data
+    // add episode data
     for (let i = 0; i < episodes.length; i++) {
       // previous episode
-      episodes[i].data.previous = episodeToLinkFormat(episodes[i - 1]);
+      episodes[i].data.previous = buildLinkModel(episodes[i - 1]);
 
       // next episode
-      episodes[i].data.next = episodeToLinkFormat(episodes[i + 1]);
+      episodes[i].data.next = buildLinkModel(episodes[i + 1]);
 
       // time loop forward url
       let timeLoopForward = episodes[i].data.time_loop_forward;
@@ -70,6 +70,24 @@ module.exports = function(eleventyConfig) {
         let pastEpisode = episodes.filter(e => e.data.number === timeLoopBackward.number)[0];
         timeLoopBackward.url = (pastEpisode || {}).url;
       }
+
+      // combine `hosts`, `guest_hosts`, and `featuring` into `all_hosts`
+      let hosts = episodes[i].data.hosts;
+      let guest_hosts = episodes[i].data.guest_hosts || [];
+      let featuring = episodes[i].data.featuring || [];
+
+      let all_hosts = [...hosts, ...guest_hosts];
+      let hosts_guests = [];
+      if (all_hosts.length == featuring.length && all_hosts.every((host, i) => host === featuring[i])) {
+        hosts_guests = all_hosts;
+      }
+      else {
+        let all_hosts_not_featured = all_hosts.filter(host => !featuring.includes(host));
+        let featuring_display = featuring.map(x => `<b>${x}</b>`);
+        
+        hosts_guests = [...all_hosts_not_featured, ...featuring_display];
+      }
+      episodes[i].data.hosts_guests = hosts_guests;
     }
 
     // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode
@@ -77,7 +95,7 @@ module.exports = function(eleventyConfig) {
 
     // Last episode
     let lastEpisodeIndex = episodes.length - 1;
-    episodes[0].data.last = episodeToLinkFormat(episodes[lastEpisodeIndex]);
+    episodes[0].data.last = buildLinkModel(episodes[lastEpisodeIndex]);
 
     // Counts stats
     let counts = {};
