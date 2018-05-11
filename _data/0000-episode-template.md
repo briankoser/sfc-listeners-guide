@@ -62,6 +62,7 @@ archivist_note:
 </div>
 
 <div class="quote">
+  <span class="quote-source tag is-size-6"></span>
   <q data-name=""></q>
 </div>
 
