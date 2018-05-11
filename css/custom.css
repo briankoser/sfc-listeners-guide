@@ -629,7 +629,7 @@ q.koby::before {
 .prophecy header {
     border-radius: 7px 0 0 7px;
     color: var(--color-white);
-    flex-basis: 10%;
+    flex-basis: 12%;
 }
 
 .prophecy .host {
@@ -641,7 +641,7 @@ q.koby::before {
 .prophecy .prediction,
 .prophecy .veracity {
     background-color: var(--color-medium-grey);
-    flex-basis: 45%;
+    flex-basis: 44%;
 }
 
 .box .prophecy .prediction,
