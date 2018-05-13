@@ -83,7 +83,7 @@ module.exports = function(eleventyConfig) {
       }
       else {
         let all_hosts_not_featured = all_hosts.filter(host => !featuring.includes(host));
-        let featuring_display = featuring.map(x => `<b>${x}</b>`);
+        let featuring_display = featuring.map(x => `<span class="featured">${x}</span>`);
         
         hosts_guests = [...all_hosts_not_featured, ...featuring_display];
       }

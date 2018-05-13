@@ -351,6 +351,10 @@ a.timestamp:hover {
     opacity: 0.75;
 }
 
+.featured {
+    text-shadow: 0 0 5px var(--color-white), 0 0 10px var(--color-primary);
+}
+
 
 /******************************************************************************
   EPISODE LIST CLASSES
