@@ -249,6 +249,10 @@ main .hero {
     margin-bottom: 4em;
 }
 
+.home .recommendations .notification {
+    height: 100%;
+}
+
 .home .recommendations .notification:hover {
     opacity: 0.75;
 }
@@ -373,7 +377,7 @@ a.timestamp:hover {
     flex-direction: column;
     justify-content: center;
 }
-
+    
 .episode-list .card-header-title a:hover {
     color: var(--color-primary);
     text-decoration: underline;
