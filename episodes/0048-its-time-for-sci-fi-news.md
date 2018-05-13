@@ -28,7 +28,6 @@ future_episodes:
 last_listen: 2018-05-01
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
-archivist_note: 
 ---
 # Opening
 The Eleventh Doctor is Daniel's least favorite Doctor.
@@ -47,4 +46,4 @@ Matt asks the listeners to go to the website and donate so he can buy a new elec
 
 Koby is reading ESPN articles during the recording.
 
-<i class="work-title">Green Arrow</i> CW show announced, as requested by Matt in [№ 29 Superhero Summer Movies Recap](/episodes/0029-superhero-summer-movies-recap/).
+<i class="work-title">Green Arrow</i> CW show announced <q class="archivist inline"></q>As requested by Matt in [№ 29 Superhero Summer Movies Recap](/episodes/0029-superhero-summer-movies-recap/)</q>
