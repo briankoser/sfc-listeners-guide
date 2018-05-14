@@ -127,6 +127,10 @@ h2 {
 **********
   table, caption, colgroup, col, thead, tfoot, tbody, tr, th, td
 ******************************************************************************/
+.content table {
+    width: initial;
+}
+
 table .number-column {
     text-align: right;
 }
