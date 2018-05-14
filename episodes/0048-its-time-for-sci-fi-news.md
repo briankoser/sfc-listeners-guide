@@ -13,12 +13,8 @@ date: 2012-03-26
 category: News
 hosts:
   - Matt
-guest_hosts:
-  - Daniel Butcher
-featuring:
-  - Matt
-  - Daniel Butcher 
-  - Koby Radcliffe
+  - Daniel
+  - Koby
 
 notable_moments:
 future_episodes: 

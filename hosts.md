@@ -54,19 +54,19 @@ All stats are through episode № {{ collections.episodes.length }}
 <table class="table is-striped">
     <thead>
         <tr>
-            <th>Guest Host</th>
+            <th>Guest</th>
             <th>Appearances</th>
             <th>First</th>
             <th>Last</th>
         </tr>
     </thead>
     <tbody>
-    {% for host in collections.episodes[0].data.stats.guest_hosts %}    
+    {% for guest in collections.episodes[0].data.stats.guests %}    
 <tr>
-    <td>{{host.name}}</td>
-    <td>{{host.count}}</td>
-    <td>№ {{host.first}}</td>
-    <td>№ {{host.last}}</td>
+    <td>{{guest.name}}</td>
+    <td>{{guest.count}}</td>
+    <td>№ {{guest.first}}</td>
+    <td>№ {{guest.last}}</td>
 </tr>
     {% endfor %}
 </tbody>

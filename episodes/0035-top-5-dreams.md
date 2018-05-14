@@ -15,9 +15,6 @@ series: Bad but Great
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 
 notable_moments:
 firsts: 

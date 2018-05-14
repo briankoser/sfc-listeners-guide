@@ -14,9 +14,6 @@ series: Clones
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 time_loop_forward: {"number": 87}
 
 firsts: 

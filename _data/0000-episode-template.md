@@ -16,10 +16,10 @@ series:
 hosts:
   - Ben
   - Matt
-guest_hosts:
-featuring:
-  - Ben
-  - Matt
+  - Daniel
+  - Koby
+guests:
+  - 
 time_loop_backward: {"number": }
 
 notable_moments:

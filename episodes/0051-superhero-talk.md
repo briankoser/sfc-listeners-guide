@@ -11,10 +11,6 @@ date: 2012-04-15
 category: Main Topic
 hosts:
   - Matt
-guest_hosts:
-  - Daniel
-  - Koby
-featuring:
   - Daniel
   - Koby
 

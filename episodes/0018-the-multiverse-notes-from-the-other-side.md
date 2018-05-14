@@ -13,10 +13,7 @@ category: Main Topic
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
-guest_hosts:
+guests:
   - Skip Crust
   - Talan Gwynn
 time_loop_forward: {"number": 138}

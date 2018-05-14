@@ -13,9 +13,6 @@ category: Countdown
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 
 prophecy: 
   - {"host": "Ben", "prediction": "Rebuilt Wayne Manor will be in <i class='work-title'>The Dark Knight Rises</i>", "veracity": true, "comments": ""}

@@ -11,8 +11,6 @@ date: 2012-01-29
 category: Review
 series: George Lucas
 hosts:
-  - Matt
-featuring:
   - Ben
   - Matt
 

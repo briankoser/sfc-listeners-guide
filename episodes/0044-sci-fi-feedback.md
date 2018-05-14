@@ -11,11 +11,7 @@ date: 2012-02-05
 category: Feedback
 hosts:
   - Matt
-guest_hosts:
-  - Koby Radcliffe
-featuring:
-  - Matt
-  - Koby Radcliffe
+  - Koby
 
 notable_moments:
 firsts: 

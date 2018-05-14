@@ -12,9 +12,6 @@ category: Feedback
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 
 future_episodes: 
   - End of the Year Listener Appreciation Jubilee

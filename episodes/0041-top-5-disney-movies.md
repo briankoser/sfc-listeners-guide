@@ -12,11 +12,7 @@ category: Countdown
 series: Disney-Pixar
 hosts:
   - Matt
-guest_hosts:
-  - Daniel Butcher
-featuring:
-  - Matt
-  - Daniel Butcher
+  - Daniel
 
 notable_moments:
 future_episodes: 

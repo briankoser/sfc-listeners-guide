@@ -15,9 +15,6 @@ series: Recommendations
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 
 notable_moments:
 firsts: 

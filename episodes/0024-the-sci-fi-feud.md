@@ -14,12 +14,7 @@ category: Review
 hosts:
   - Ben
   - Matt
-guest_hosts:
-  - Scott Herzog
-  - Myles McLachlan
-featuring: 
-  - Ben
-  - Matt
+guests:
   - Scott Herzog
   - Myles McLachlan
   

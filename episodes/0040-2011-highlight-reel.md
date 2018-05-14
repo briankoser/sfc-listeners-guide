@@ -11,9 +11,8 @@ date: 2012-01-15
 category: Clip Show
 hosts:
   - Matt
-featuring: 
+guests: 
   - Ben
-  - Matt
 
 last_listen: 
 recommendation: yes

@@ -14,9 +14,6 @@ series: Recommendations
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 
 future_episodes: 
   - History of Christianity

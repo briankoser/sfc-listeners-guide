@@ -12,7 +12,7 @@ category: Theology
 series: Ben Sermons
 hosts:
   - Matt
-featuring:
+guests:
   - Ben
   - Skip Crust
 

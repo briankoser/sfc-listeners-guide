@@ -14,11 +14,7 @@ category: Main Topic
 hosts:
   - Ben
   - Matt
-guest_hosts:
-  - Dave Johnson
-featuring: 
-  - Ben
-  - Matt
+guests:
   - Dave Johnson
 time_loop_forward: {"number": 158}
 

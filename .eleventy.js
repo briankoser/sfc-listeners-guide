@@ -71,23 +71,11 @@ module.exports = function(eleventyConfig) {
         timeLoopBackward.url = (pastEpisode || {}).url;
       }
 
-      // combine `hosts`, `guest_hosts`, and `featuring` into `all_hosts`
+      // combine `hosts` and `guests` into `appearances`
       let hosts = episodes[i].data.hosts;
-      let guest_hosts = episodes[i].data.guest_hosts || [];
-      let featuring = episodes[i].data.featuring || [];
-
-      let all_hosts = [...hosts, ...guest_hosts];
-      let hosts_guests = [];
-      if (all_hosts.length == featuring.length && all_hosts.every((host, i) => host === featuring[i])) {
-        hosts_guests = all_hosts;
-      }
-      else {
-        let all_hosts_not_featured = all_hosts.filter(host => !featuring.includes(host));
-        let featuring_display = featuring.map(x => `<span class="featured">${x}</span>`);
-        
-        hosts_guests = [...all_hosts_not_featured, ...featuring_display];
-      }
-      episodes[i].data.hosts_guests = hosts_guests;
+      let guests = episodes[i].data.guests || [];
+      
+      episodes[i].data.appearances = [...hosts, ...guests];
     }
 
     // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode
@@ -110,7 +98,7 @@ module.exports = function(eleventyConfig) {
           'url': episode.url,
           'number': episode.data.number,
           'hosts': episode.data.hosts,
-          'guest_hosts': episode.data.guest_hosts
+          'guests': episode.data.guests
         };
     });
     let hostEpisodesReverse = Object.assign([], hostEpisodes);
@@ -128,21 +116,34 @@ module.exports = function(eleventyConfig) {
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.hosts = hosts;
     
-    // Guest host stats
-    let guestHostOccurrences = hostEpisodes
-      .filter(x => x.guest_hosts)
-      .map(x => x.guest_hosts)
+    // Guest stats
+    let guestOccurrences = hostEpisodes
+      .filter(x => x.guests)
+      .map(x => x.guests)
       .reduce((a, b) => a.concat(b), []);
-    let uniqueGuestHosts = [...new Set(guestHostOccurrences)];
-    let guestHosts = uniqueGuestHosts
-      .map(guestHost => { return { 
-        'name': guestHost, 
-        'count': guestHostOccurrences.filter(x => x === guestHost).length,
-        'first': (hostEpisodes.find(x => ((x.guest_hosts || []).includes(guestHost))) || {}).number,
-        'last': (hostEpisodesReverse.find(x => (x.guest_hosts || []).includes(guestHost)) || {}).number
+    let uniqueGuests = [...new Set(guestOccurrences)];
+    let guests = uniqueGuests
+      .map(guest => { return { 
+        'name': guest, 
+        'count': guestOccurrences.filter(x => x === guest).length,
+        'first': (hostEpisodes.find(x => ((x.guests || []).includes(guest))) || {}).number,
+        'last': (hostEpisodesReverse.find(x => (x.guests || []).includes(guest)) || {}).number
       } })
-      .sort( (a, b) => b.count > a.count );
-    episodes[0].data.stats.guest_hosts = guestHosts;
+      .sort( (a, b) => {
+        // sort by count of episodes appeared in (descending), last episode appeared in (descending), name 
+        let diff = b.count - a.count;
+        if (diff !== 0) {
+          return diff;
+        }
+
+        diff = b.last - a.last;
+        if (diff !== 0) {
+          return diff;
+        }
+
+        return a.name - b.name;
+      });
+    episodes[0].data.stats.guests = guests;
 
     // Episode stats
     let episodeStats = {};

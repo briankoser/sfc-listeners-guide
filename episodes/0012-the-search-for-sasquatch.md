@@ -14,12 +14,8 @@ series: Supernatural Creatures
 hosts:
   - Ben
   - Matt
-guest_hosts:
-  - Koby Radcliffe
-featuring: 
-  - Ben
-  - Matt
-  - Koby Radcliffe
+guests:
+  - Koby
 time_loop_forward: {"number": 178}
 
 firsts: 
@@ -31,7 +27,7 @@ future_episodes:
 last_listen: 2018-02-06
 recommendation: no
 recommendation_reason: A pretty funny episode with some amusing Bigfoot theories, but no.
-archivist_note: Koby will become a full-time host in Season 2
+archivist_note: Koby will become a full-time host in Season 2.
 ---
 # News
 <i class="work-title">Dr. Horrible 2</i> is probably Joss Whedon's next project after <i class="work-title">The Avengers</i>

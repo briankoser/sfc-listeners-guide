@@ -13,9 +13,6 @@ series: Supernatural Creatures
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 time_loop_forward: {"number": 125}
 
 notable_moments:

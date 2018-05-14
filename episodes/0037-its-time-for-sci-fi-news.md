@@ -14,9 +14,6 @@ category: News
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 
 notable_moments:
 firsts: 

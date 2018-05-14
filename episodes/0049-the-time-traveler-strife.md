@@ -11,13 +11,9 @@ date: 2012-04-01
 category: Main Topic
 hosts:
   - Matt
-guest_hosts:
-  - Daniel Butcher
-  - Koby Radcliffe 
-featuring:
-  - Matt
-  - Daniel Butcher
-  - Koby Radcliffe
+  - Daniel
+  - Koby 
+guests:
   - Ben
 
 notable_moments:

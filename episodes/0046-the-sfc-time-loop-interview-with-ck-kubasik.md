@@ -10,10 +10,9 @@ podcast_url: http://thescifichristian.com/2012/03/episode-46-the-sfc-time-loop-i
 date: 2012-03-08
 category: Interview
 hosts:
-  - Matt
-featuring:
   - Ben
   - Matt
+guests:
   - C. K. Kubasik
 time_loop_backward: {"number": 27}
 

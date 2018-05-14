@@ -14,9 +14,6 @@ category: Countdown
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 time_loop_forward: {"number": 65}
 
 future_episodes: 

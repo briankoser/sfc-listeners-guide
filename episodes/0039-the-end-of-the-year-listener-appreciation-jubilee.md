@@ -13,9 +13,6 @@ series: End of the Year Listener Appreciation Jubilees
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 
 notable_moments:
 prophecy: 

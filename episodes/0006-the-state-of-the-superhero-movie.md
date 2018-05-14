@@ -14,9 +14,6 @@ series: State of the Superhero Movie
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 time_loop_forward: {"number": 258}
 
 firsts: 

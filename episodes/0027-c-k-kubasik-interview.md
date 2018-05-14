@@ -13,9 +13,7 @@ category: Interview
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
+guests:
   - C. K. Kubasik
 time_loop_forward: {"number": 46}
 

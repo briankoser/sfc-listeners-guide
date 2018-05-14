@@ -13,9 +13,6 @@ series: Recommendations
 hosts:
   - Ben
   - Matt
-featuring: 
-  - Ben
-  - Matt
 time_loop_forward: {"number": 149}
 
 notable_moments:

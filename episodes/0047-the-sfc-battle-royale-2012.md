@@ -11,11 +11,7 @@ date: 2012-03-21
 category: News
 hosts:
   - Matt
-guest_hosts:
-  - Daniel Butcher
-featuring:
-  - Matt
-  - Daniel Butcher
+  - Daniel
 
 notable_moments:
 firsts:
