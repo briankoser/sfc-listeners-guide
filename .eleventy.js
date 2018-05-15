@@ -210,13 +210,15 @@ module.exports = function(eleventyConfig) {
     let prophecyStats = prophecyHosts
       .map(host => { 
         let total = prophecies.filter(p => p.host === host).length;
+        let totalResolved = prophecies.filter(p => p.host === host && p.veracity !== 'undefined').length;
         let correct = prophecies.filter(p => p.host === host && p.veracity).length;
 
         return {
         'name': host,
         'total': total,
         'correct': correct,
-        'percentage': correct / total
+        'percentage': totalResolved === 0 ? 0 : correct / totalResolved,
+        'unresolved': total - totalResolved
       }})
       .sort( (a, b) => b.percentage > a.percentage );
     episodes[0].data.stats.prophecy = prophecyStats;

@@ -4,7 +4,7 @@ pageTitle: Prophecy
 ---
 
 <div class="hosts columns">
-    <div class="column is-one-third">
+    <div class="column is-half">
         {% for host in collections.episodes[0].data.stats.prophecy %}
 <div class="card {{host.name}}">
     <header class="card-header">
@@ -24,6 +24,12 @@ pageTitle: Prophecy
                 <div>
                     <p class="heading">Correct</p>
                     <p class="title">{{ (host.percentage * 100) | round(2) }}%</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Unresolved</p>
+                    <p class="title">{{host.unresolved}}</p>
                 </div>
             </div>
         </div>
