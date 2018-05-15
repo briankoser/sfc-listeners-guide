@@ -32,7 +32,7 @@ spoilers:
 - <i class="work-title">The Dark Knight Rises</i>
 ---
 # Opening
-Matt said he will read Beowulf. It is now a 2018 planned episode.
+Matt said he will read Beowulf. <q class="archivist inline">It is now a 2018 planned episode.</q>
 
 
 
@@ -45,7 +45,7 @@ Only Iron Man and Iron Man 2 have been released, and Ben is already worried that
 
 Superman renounced his American citizenship (the same week the US military killed Osama Bin Laden)
 
-Maybe the worst title in the history of titles announced: Terminator 2012
+Maybe the worst title in the history of titles announced: Terminator 2012.
 
 
 
