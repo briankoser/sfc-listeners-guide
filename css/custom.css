@@ -283,7 +283,7 @@ main .hero {
   SEARCH CLASSES
 ******************************************************************************/
 .search-bar {
-    width: 20em;
+    max-width: 20em;
 }
 
 .search-results {
