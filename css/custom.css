@@ -769,6 +769,19 @@ div[data-rating='dont-know']::after {
     margin-bottom: 2em;
 }
 
+.season-list .card-footer-item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.season-list .card-footer-item-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .season-nav {
     margin-top: 3em;
 }

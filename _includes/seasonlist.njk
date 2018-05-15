@@ -32,18 +32,33 @@
 				</div>
 			</div>
 			<footer class="card-footer">
-				<a href="{{ season.data.first.url }}" class="card-footer-item">
-					{% set icon_name = 'rewind' %}
-					{% include "_macros/icon.njk" %}
-					&nbsp;
-					№ {{season.data.first.number}} {{season.data.first.title}}
-				</a>
-				<a href="{{ season.data.last.url }}" class="card-footer-item">
-					№ {{season.data.last.number}} {{season.data.last.title}}
-					&nbsp;
-					{% set icon_name = 'fast-forward' %}
-					{% include "_macros/icon.njk" %}
-				</a>
+				<div class="card-footer-item">
+					<a href="{{ season.data.first.url }}">
+						<div class="columns">
+							<div class="card-footer-item-icon column is-one-fifth">
+								{% set icon_name = 'rewind' %}
+								{% include "_macros/icon.njk" %}
+							</div>
+							<div class="column is-four-fifths">
+								№ {{season.data.first.number}} {{season.data.first.title}}
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="card-footer-item">
+					<a href="{{ season.data.last.url }}">
+						<div class="columns">
+							<div class="column is-four-fifths">
+								№ {{season.data.last.number}} {{season.data.last.title}}
+							</div>
+							<div class="card-footer-item-icon column is-one-fifth">
+								{% set icon_name = 'fast-forward' %}
+								{% include "_macros/icon.njk" %}
+							</div>
+						</div>
+					</a>
+				</div>
 			</footer>
 		</div>
 		{% endfor %}
