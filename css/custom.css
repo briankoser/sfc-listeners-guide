@@ -34,9 +34,17 @@
 /*****************************************************************************
   ALL
 ******************************
-  *, @viewport
+  *, @viewport, ::selection
 ******************************************************************************/
+::-moz-selection { 
+    background: var(--color-primary);
+    color: var(--color-black);
+}
 
+::selection { 
+    background: var(--color-primary);
+    color: var(--color-black);
+}
 
 
 
