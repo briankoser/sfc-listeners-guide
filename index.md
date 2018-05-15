@@ -44,7 +44,7 @@ layout: baseHero
         <h1>Stats and Minutiae</h1>
             The guide is not transcripts or even show notes (usually), just a collection of trivia I found interesting:
 
-- [When did Ben first sing "Avataaaaaar"](/0015-top-5-sci-fi-worlds)?
+- [When did Ben first sing “Avataaaaaar”](/0015-top-5-sci-fi-worlds)?
 - [Which three superhero shows did Matt correctly predict?](/0029-superhero-summer-movies-recap)
 - [How many episodes have had a Stan Lee Quote of the Week?](/stats)
 

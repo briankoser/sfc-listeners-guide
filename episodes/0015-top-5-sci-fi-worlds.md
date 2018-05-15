@@ -32,7 +32,7 @@ spoilers:
 - <i class="work-title">The Dark Knight Rises</i>
 ---
 # Opening
-Matt said he will read Beowulf. It is now a 2018 planned episode.
+Matt said he will read Beowulf. <q class="archivist inline">It is now a 2018 planned episode.</q>
 
 
 
@@ -45,7 +45,7 @@ Only Iron Man and Iron Man 2 have been released, and Ben is already worried that
 
 Superman renounced his American citizenship (the same week the US military killed Osama Bin Laden)
 
-Maybe the worst title in the history of titles announced: Terminator 2012
+Maybe the worst title in the history of titles announced: Terminator 2012.
 
 
 
@@ -107,10 +107,10 @@ Maybe the worst title in the history of titles announced: Terminator 2012
 </div>
 
 <div class="quote">
-  <q class="matt">Much like Martin Luther's Reformation, that's what I see happening in the world of 1984.</q>
+  <q class="matt">Much like Martin Luther's Reformation, that's what I see happening in the world of <i class="work-title">1984</i>.</q>
   <q class="ben">Martin Luther wasn't under an authoritatian dictatorial regime.</q>
   <q class="matt">Hello? The pope.</q>
-  <q class="ben">...was not a dictator in the sense of 1984!</q>
+  <q class="ben">...was not a dictator in the sense of <i class="work-title">1984</i>!</q>
   <q class="matt">You think so?</q>
 </div>
 
@@ -148,7 +148,7 @@ Maybe the worst title in the history of titles announced: Terminator 2012
 </div>
 
 <div class="quote">
-  <q class="ben">There needs to be a sequel series to LOST called <i class="work-title">Matt Anderson Lives Outside"</i>.</q>
+  <q class="ben">There needs to be a sequel series to <i class="work-title">LOST</i> called <i class="work-title">Matt Anderson Lives Outside"</i>.</q>
 </div>
 
 <div class="quote">
