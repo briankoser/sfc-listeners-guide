@@ -41,6 +41,30 @@ Average Length -->
 
 
 
+### Duplicate Titles
+<table class="table is-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Total</th>
+            <th>First</th>
+            <th>Last</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for title in collections.episodes[0].data.stats.episodes.duplicateTitles %}    
+<tr>
+    <th>{{title.title}}</th>
+    <td>{{title.count}}</td>
+    <td>№ {{title.first}}</td>
+    <td>№ {{title.last}}</td>
+</tr>
+    {% endfor %}
+</tbody>
+</table>
+
+
+
 ### Segment Count
 <table class="table is-striped">
     <thead>

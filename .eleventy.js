@@ -171,6 +171,18 @@ module.exports = function(eleventyConfig) {
     episodeStats.longestTitle = episodes
       .filter(e => e.data.title.length === longestTitleLength)
       .map(e => `№ ${e.data.number} ${e.data.title}`);
+
+    let uniqueTitles = [...new Set(titles)].sort();
+    let duplicateTitles = uniqueTitles
+      .map(title => { return { 
+        'title': title,
+        'count': titles.filter(x => x === title).length,
+        'first': episodes.find(x => x.data.title === title).data.number,
+        'last': episodesReverse.find(x => x.data.title === title).data.number
+      } })
+      .filter(x => x.count > 1)
+      .sort( (a, b) => b.count > a.count );
+    episodeStats.duplicateTitles = duplicateTitles;
     
     episodes[0].data.stats.episodes = episodeStats;
 
