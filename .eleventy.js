@@ -161,6 +161,16 @@ module.exports = function(eleventyConfig) {
       'title': oldestWithoutTimeLoop.data.title, 
       'number': oldestWithoutTimeLoop.data.number 
     };
+
+    let titles = episodes.map(e => e.data.title);
+    let shortestTitleLength = titles.sort( (a, b) => a.length - b.length)[0].length;
+    let longestTitleLength = titles.sort( (a, b) => b.length - a.length)[0].length;
+    episodeStats.shortestTitle = episodes
+      .filter(e => e.data.title.length === shortestTitleLength)
+      .map(e => `№ ${e.data.number} ${e.data.title}`);
+    episodeStats.longestTitle = episodes
+      .filter(e => e.data.title.length === longestTitleLength)
+      .map(e => `№ ${e.data.number} ${e.data.title}`);
     
     episodes[0].data.stats.episodes = episodeStats;
 

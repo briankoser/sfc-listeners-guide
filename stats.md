@@ -27,6 +27,18 @@ Average Length -->
 № {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.title}} ({{collections.episodes[0].data.stats.episodes.quickestTimeLoop.gap}} episodes between original and time loop)
 </div>
 
+<div class="standalone-stat">
+<b>Shortest Episode Title</b>
+
+{{ collections.episodes[0].data.stats.episodes.shortestTitle | join(", ") }}
+</div>
+
+<div class="standalone-stat">
+<b>Longest Episode Title</b>
+
+{{ collections.episodes[0].data.stats.episodes.longestTitle | join(", ") }}
+</div>
+
 
 
 ### Segment Count
