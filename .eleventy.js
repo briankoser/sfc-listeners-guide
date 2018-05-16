@@ -192,10 +192,10 @@ module.exports = function(eleventyConfig) {
         'name': series,
         'summary': (metadata.series.find(s => s.name === series) || {}).summary,
         'count': seriesOccurences.filter(s => s === series).length,
-        'first': episodes.find(episode => episode.data.series === series),
-        'last': episodesReverse.find(episode => episode.data.series === series)
+        'first': buildLinkModel(episodes.find(episode => episode.data.series === series)),
+        'last': buildLinkModel(episodesReverse.find(episode => episode.data.series === series))
     } })
-    .sort( (a, b) => b.last.data.number > a.last.data.number );
+    .sort( (a, b) => b.last.number > a.last.number );
 
     episodes[0].data.stats.series = seriesStats;
 

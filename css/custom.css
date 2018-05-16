@@ -299,6 +299,17 @@ main .hero {
     line-height: 1;
 }
 
+.range-card-footer-item .card-footer-item-icon,
+.range-card-footer-item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.range-card-footer-item a {
+    width: 100%;
+}
+
 
 
 /******************************************************************************
@@ -767,19 +778,6 @@ div[data-rating='dont-know']::after {
 
 .season-list .card {
     margin-bottom: 2em;
-}
-
-.season-list .card-footer-item a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-
-.season-list .card-footer-item-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .season-nav {

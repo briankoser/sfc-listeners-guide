@@ -24,18 +24,9 @@
 				</div>
 			</div>
 			<footer class="card-footer">
-				<a href="{{ series.first.url }}" class="card-footer-item">
-					{% set icon_name = 'rewind' %}
-					{% include "_macros/icon.njk" %}
-					&nbsp;
-					№ {{series.first.data.number}} {{series.first.data.title}}
-				</a>
-				<a href="{{ series.last.url }}" class="card-footer-item">
-					№ {{series.last.data.number}} {{series.last.data.title}}
-					&nbsp;
-					{% set icon_name = 'fast-forward' %}
-					{% include "_macros/icon.njk" %}
-				</a>
+				{% set first = series.first %}
+				{% set last = series.last %}
+				{% include "_macros/rangeCardFooterItems.njk" %}
 			</footer>
 		</div>
 		{% endfor %}

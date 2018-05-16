@@ -32,33 +32,9 @@
 				</div>
 			</div>
 			<footer class="card-footer">
-				<div class="card-footer-item">
-					<a href="{{ season.data.first.url }}">
-						<div class="columns">
-							<div class="card-footer-item-icon column is-one-fifth">
-								{% set icon_name = 'rewind' %}
-								{% include "_macros/icon.njk" %}
-							</div>
-							<div class="column is-four-fifths">
-								№ {{season.data.first.number}} {{season.data.first.title}}
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="card-footer-item">
-					<a href="{{ season.data.last.url }}">
-						<div class="columns">
-							<div class="column is-four-fifths">
-								№ {{season.data.last.number}} {{season.data.last.title}}
-							</div>
-							<div class="card-footer-item-icon column is-one-fifth">
-								{% set icon_name = 'fast-forward' %}
-								{% include "_macros/icon.njk" %}
-							</div>
-						</div>
-					</a>
-				</div>
+				{% set first = season.data.first %}
+				{% set last = season.data.last %}
+				{% include "_macros/rangeCardFooterItems.njk" %}
 			</footer>
 		</div>
 		{% endfor %}
