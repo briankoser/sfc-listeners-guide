@@ -528,14 +528,12 @@ a.timestamp:hover {
     background-color: var(--color-orange);
 }
 
-.daniel h3,
 .koby h3 {
     color: var(--color-black);
 }
 
 .daniel {
-    background-color: var(--color-yellow);
-    color: var(--color-black);
+    background-color: var(--color-purple);
 }
 
 .koby {
@@ -553,7 +551,7 @@ a.timestamp:hover {
 }
 
 .title.Daniel {
-    color: var(--color-yellow);
+    color: var(--color-purple);
 }
 
 .title.Koby {
@@ -570,7 +568,7 @@ a.timestamp:hover {
 }
 
 .card.Daniel .card-header {
-    background-color: var(--color-yellow-transparent);
+    background-color: var(--color-purple-transparent);
 }
 
 .card.Koby .card-header {
