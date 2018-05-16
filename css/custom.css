@@ -156,20 +156,6 @@ abbr[title] {
 	text-decoration: underline dotted;
 }
 
-sub,
-sup {
-    font-size: inherit;
-    vertical-align: baseline;
-}
-
-sub { 
-    font-variant-position: sub; 
-}
-
-sup { 
-    font-variant-position: sup; 
-}
-
 q::before {
     content: attr(data-name) ': ' open-quote;
 }
@@ -829,6 +815,22 @@ footer.footer .feather {
     opacity: 0.75;
 }
 
+
+
+/******************************************************************************
+  STYLE GUIDE CLASSES
+******************************************************************************/
+.swatch {
+    float: left;
+    padding: .75em;
+    margin-right: .25em;
+    margin-bottom: .25em;
+    border-radius: 5px;
+}
+
+.swatch.black {
+    border: solid 1px white;
+}
 
 
 /******************************************************************************
