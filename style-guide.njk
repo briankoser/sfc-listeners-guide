@@ -314,34 +314,36 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
 
 
 <h1 class="title is-1">Categories</h1>
-{# add loop #}
-{# <p class="title category-{{category | slug}}">{{category}}</p> #}
+{% for category in ['Countdown', 'Feedback', 'Literature', 'Main Topic', 'News', 'Philosophy', 'Review', 'Theology', 'Special', 'Clip Show'] %}
+<p class="title category-{{category | slug}}">{{category}}</p>
+{% endfor %}
+
 
 
 
 <h1 class="title is-1">Reviews</h1>
-{# create njk #}
-<div class="review clearfix is-size-4">
-  <header>Indiana Jones</header>
-  <div class="rating ben" data-rating="yes" title="Yes"></div>
-  <div class="rating matt" data-rating="no" title="No"></div>
-</div>
+{% set review = {
+    "title": "Indiana Jones",
+    "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt", "rating": "No"}]
+} %} 
+{% include "_macros/review.njk" %}
 
-<div class="review clearfix is-size-4">
-  <header>Obscure Film</header>
-  <div class="rating ben" data-rating="yes" title="Yes"></div>
-  <div class="rating matt"></div>
-</div>
+{% set review = {
+    "title": "Obscure Film",
+    "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt"}]
+} %} 
+{% include "_macros/review.njk" %}
 
-<div class="review clearfix is-size-4">
-  <header>Jeremy Thatcher: Dragon Hatcher</header>
-  <div class="rating ben" data-rating="uninterested" title="Uninterested"></div>
-  <div class="rating matt" data-rating="interested" title="Interested"></div>
-</div>
+{% set review = {
+    "title": "Jeremy Thatcher: Dragon Hatcher",
+    "hosts": [{"name": "Ben", "rating": "Uninterested"}, {"name": "Matt", "rating": "Interested"}]
+} %} 
+{% include "_macros/review.njk" %}
 
-<div class="review clearfix is-size-4">
-  <header>Everything Good In This World</header>
-  <div class="rating koby" data-rating="dont-know" title="Don't Know"></div>
-</div>
+{% set review = {
+    "title": "Everything Good In This World",
+    "hosts": [{"name": "Koby", "rating": "Don't Know"}]
+} %} 
+{% include "_macros/review.njk" %}
 
 </div>
