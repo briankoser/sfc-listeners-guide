@@ -1,0 +1,72 @@
+{# 
+{% set episode = {
+    "url": "", 
+    "data": { 
+        "date": "", 
+        "number": 0, 
+        "podcast_url": "", 
+        "recommendation": "", 
+        "recommendation_reason": "", 
+        "time_loop_forward": {
+            "number": 0, 
+            "url": ""
+        }, 
+        "title": "" 
+    }
+} %} 
+#}
+
+<div class="card recommendation-{{episode.data.recommendation}}">
+    <header class="card-header">
+        <p class="card-header-title">
+            <a href="{{ episode.url }}">№ {{ episode.data.number }} {{ episode.data.title }}</a>
+        </p>
+        <p class="card-header-icon">{{ episode.data.date | readableDate }}</p>
+    </header>
+    <div class="card-content">
+        <div class="content">
+            <div class="columns">
+                <div class="column is-one-third recommendation">
+                    {% if episode.data.recommendation == 'yes' %}
+                        <h1 class="title is-3 has-text-success">Listen</h1>
+                    {% elif episode.data.recommendation == 'yes-timeloop' %}
+                        <div>
+                            <h1 class="title is-3 has-text-success">Listen</h1> 
+                            <h2 class="subtitle is-5">
+                                Time Loop (<a href="{{episode.data.time_loop_forward.url}}">№ {{episode.data.time_loop_forward.number}}</a>)
+                            </h2>
+                        </div>
+                    {% elif episode.data.recommendation == 'essential' %}
+                        <h1 class="title is-3 has-text-primary">Essential</h1>
+                    {% elif episode.data.recommendation == 'essential-timeloop' %}
+                        <div>
+                            <h1 class="title is-3 has-text-primary">Essential</h1> 
+                            <h2 class="subtitle is-5">
+                                Time Loop (<a href="{{episode.data.time_loop_forward.url}}">№ {{episode.data.time_loop_forward.number}}</a>)
+                            </h2>
+                        </div>
+                    {% elif episode.data.recommendation == 'no' %}
+                        <h1 class="title is-3 has-text-danger">Skip</h1>
+                    {% endif %}
+                </div>
+                <div class="column is-two-thirds content">
+                    {{ episode.data.recommendation_reason | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <a href="{{ episode.url }}" class="card-footer-item">
+            {% set icon_name = 'book-open' %}
+            {% include "_macros/icon.njk" %}
+            &nbsp;
+            Guide
+        </a>
+        <a href="{{ episode.data.podcast_url }}" class="card-footer-item">
+            {% set icon_name = 'radio' %}
+            {% include "_macros/icon.njk" %}
+            &nbsp;
+            Listen
+        </a>
+    </footer>
+</div>

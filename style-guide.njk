@@ -7,11 +7,20 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 
 <h1 class="title">Colors</h1>
 <div class="swatches clearfix">
-    <div class="swatch" style="background-color: var(--color-primary); color: var(--color-black);">SFC Blue - Nav bar, Links, Archivist</div>    
-    <div class="swatch" style="background-color: var(--color-blue); color: var(--color-white);">Ben Blue</div>
-    <div class="swatch" style="background-color: var(--color-orange); color: var(--color-white);">Matt Orange</div>
-    <div class="swatch" style="background-color: var(--color-purple); color: var(--color-white);">Daniel Purple</div>
-    <div class="swatch" style="background-color: var(--color-pink); color: var(--color-black);">Koby Pink</div>
+    {% set swatch = {'background': 'var(--color-primary)', 'color': 'var(--color-black)', 'text': 'SFC Blue - Nav bar, Links, Archivist'} %}
+    {% include "_macros/swatch.njk" %}
+
+    {% set swatch = {'background': 'var(--color-blue)', 'text': 'Ben Blue'} %}
+    {% include "_macros/swatch.njk" %}
+
+    {% set swatch = {'background': 'var(--color-orange)', 'text': 'Matt Orange'} %}
+    {% include "_macros/swatch.njk" %}
+
+    {% set swatch = {'background': 'var(--color-purple)', 'text': 'Daniel Purple'} %}
+    {% include "_macros/swatch.njk" %}
+
+    {% set swatch = {'background': 'var(--color-pink)', 'color': 'var(--color-black)', 'text': 'Koby Pink'} %}
+    {% include "_macros/swatch.njk" %}
 </div>
     
 <div class="swatches clearfix">
@@ -21,10 +30,17 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 </div>
 
 <div class="swatches clearfix">
-    <div class="swatch black" style="background-color: var(--color-black); color: var(--color-white);">Black - Site Background, Text, Prophecies</div>
-    <div class="swatch" style="background-color: var(--color-white); color: var(--color-black);">White - Text, Prophecies, Reviews</div>
-    <div class="swatch" style="background-color: var(--color-dark-grey); color: var(--color-white);">Dark Grey - Reviews</div>
-    <div class="swatch" style="background-color: var(--color-medium-grey); color: var(--color-white);">Medium Grey - Quotes, Prophecies</div>
+    {% set swatch = {'background': 'var(--color-black)', 'text': 'Black - Site Background, Text, Prophecies'} %}
+    {% include "_macros/swatch.njk" %}
+
+    {% set swatch = {'background': 'var(--color-white)', 'color': 'var(--color-black)', 'text': 'White - Text, Prophecies, Reviews'} %}
+    {% include "_macros/swatch.njk" %}
+
+    {% set swatch = {'background': 'var(--color-dark-grey)', 'text': 'Dark Grey - Reviews'} %}
+    {% include "_macros/swatch.njk" %}
+
+    {% set swatch = {'background': 'var(--color-medium-grey)', 'text': 'Medium Grey - Quotes, Prophecies'} %}
+    {% include "_macros/swatch.njk" %}
 </div>
 
 
@@ -39,10 +55,13 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 <h2 class="title is-2">Links</h2>
 <p><a href="#">Blue Links</a> for body
 
-<p><a href="#">White Links</a> for nav, headers
+<p><a href="#">White Obvious Links</a> for nav, headers
+
+<p><a href="#">White Subtle Links</a> for nav, headers
 
 <h2 class="title is-2">Timestamps</h2>
-<a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
+{% set timestamp = {'url': 'http://thescifichristian.com/2018/03/episode-639-a-brand-new-website-and-other-news', 'time': '1:23:45'} %}
+{% include "_macros/timestamp.njk" %}
 
 
 
@@ -190,106 +209,113 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
 
 
 
-<h1 class="title is-1">Series Cards</h1>
+<h1 class="title is-1">Cards</h1>
+<h2 class="title is-2">Episodes</h2>
 
-{# create macro #}
-<div class="card recommendation-{{episode.data.recommendation}}">
-    <header class="card-header">
-        <p class="card-header-title">
-            <a href="{{ episode.url }}">№ {{ episode.data.number }} {{ episode.data.title }}</a>
-        </p>
-        <p class="card-header-icon">{{ episode.data.date | readableDate }}</p>
-    </header>
-    <div class="card-content">
-        <div class="content">
-            <div class="columns">
-                <div class="column is-one-third recommendation">
-                    {% if episode.data.recommendation == 'yes' %}
-                        <h1 class="title is-3 has-text-success">Listen</h1>
-                    {% elif episode.data.recommendation == 'yes-timeloop' %}
-                        <div>
-                            <h1 class="title is-3 has-text-success">Listen</h1> 
-                            <h2 class="subtitle is-5">
-                                Time Loop (<a href="{{episode.data.time_loop_forward.url}}">№ {{episode.data.time_loop_forward.number}}</a>)
-                            </h2>
-                        </div>
-                    {% elif episode.data.recommendation == 'essential' %}
-                        <h1 class="title is-3 has-text-primary">Essential</h1>
-                    {% elif episode.data.recommendation == 'essential-timeloop' %}
-                        <div>
-                            <h1 class="title is-3 has-text-primary">Essential</h1> 
-                            <h2 class="subtitle is-5">
-                                Time Loop (<a href="{{episode.data.time_loop_forward.url}}">№ {{episode.data.time_loop_forward.number}}</a>)
-                            </h2>
-                        </div>
-                    {% elif episode.data.recommendation == 'no' %}
-                        <h1 class="title is-3 has-text-danger">Skip</h1>
-                    {% endif %}
-                </div>
-                <div class="column is-two-thirds content">
-                    {{ episode.data.recommendation_reason | safe }}
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="card-footer">
-        <a href="{{ episode.url }}" class="card-footer-item">
-            {% set icon_name = 'book-open' %}
-            {% include "_macros/icon.njk" %}
-            &nbsp;
-            Guide
-        </a>
-        <a href="{{ episode.data.podcast_url }}" class="card-footer-item">
-            {% set icon_name = 'radio' %}
-            {% include "_macros/icon.njk" %}
-            &nbsp;
-            Listen
-        </a>
-    </footer>
+<div class="columns episode-list">
+<div class="column is-half">
+
+{% set episode = {
+    "url": "/episodes/0013-dissecting-dr-horrible/", 
+    "data": { 
+        "date": "2011-04-19", 
+        "number": 13, 
+        "podcast_url": "http://thescifichristian.com/2011/04/episode-113-dissecting-dr-horrible/", 
+        "recommendation": "yes", 
+        "recommendation_reason": "Good listen if you've seen Dr. Horrible.",
+        "title": "Dissecting Dr. Horrible" 
+    }
+} %} 
+{% include "_macros/episodeCard.njk" %}
+
+{% set episode = {
+    "url": "/episodes/0001-pilot/", 
+    "data": { 
+        "date": "2011-01-11", 
+        "number": 1, 
+        "podcast_url": "http://thescifichristian.com/2011/01/episode-101-world-premiere/", 
+        "recommendation": "yes-timeloop", 
+        "recommendation_reason": "Lays a good foundation for where Ben and Matt were with their interests when they started the show.", 
+        "time_loop_forward": {
+            "number": 149, 
+            "url": "/episodes/0149-episode-placeholder-link/"
+        }, 
+        "title": "Pilot" 
+    }
+} %}
+{% include "_macros/episodeCard.njk" %}
+
+{% set episode = {
+    "url": "/episodes/0009-attack-of-the-clones/", 
+    "data": { 
+        "date": "2011-03-24", 
+        "number": 9, 
+        "podcast_url": "http://thescifichristian.com/2011/03/episode-109-attack-of-the-clones/", 
+        "recommendation": "essential", 
+        "recommendation_reason": "\"The Dark Knight on Trial\" was the first iconic episode; \"Attack of the Clones\" is the first great episode. Prepare to have your mind expanded and your beliefs challenged.", 
+        "title": "Attack of the Clones" 
+    }
+} %} 
+{% include "_macros/episodeCard.njk" %}
+
+{% set episode = {
+    "url": "/episodes/0003-the-dark-knight-on-trial/", 
+    "data": { 
+        "date": "2011-01-24", 
+        "number": 3, 
+        "podcast_url": "http://thescifichristian.com/2011/01/episode-103-the-dark-knight-on-trial/", 
+        "recommendation": "essential-timeloop", 
+        "recommendation_reason": "The first iconic episode and a classic example of the intersection between pop culture and Christianity that the SFC does so well.", 
+        "time_loop_forward": {
+            "number": 77, 
+            "url": "/episodes/0077-episode-placeholder-link/"
+        }, 
+        "title": "The Dark Knight On Trial" 
+    }
+} %} 
+{% include "_macros/episodeCard.njk" %}
+
+{% set episode = {
+    "url": "/episodes/0004-tolkien-vs-lewis-the-ultimate-smackdown/", 
+    "data": { 
+        "date": "2011-01-29", 
+        "number": 4, 
+        "podcast_url": "http://thescifichristian.com/2011/01/episode-104-tolkien-vs-lewis-the-ultimate-smackdown/", 
+        "recommendation": "no", 
+        "recommendation_reason": "Instead watch the highlights on the <a href='https://www.youtube.com/watch?v=qGIErCzLlfI'>YouTube video</a>. Ben at least later regrets doing this show in a debate format; both hosts were more focused on winning than on discussion. This doesn't make it a bad episode, but it could have been better.", 
+        "title": "Tolkien Vs. Lewis – The Ultimate Smackdown" 
+    }
+} %} 
+{% include "_macros/episodeCard.njk" %}
+
+</div>
 </div>
 
-{# create macro #}
-<div class="card season-card">
-    <header class="card-header">
-        <p class="card-header-title">
-            <a href="/seasons/{{ season.data.seasonNumber }}">Season {{ season.data.seasonNumber }}</a>
-        </p>
-    </header>
-    <div class="card-content content">
-        {{ season.data.summary | safe }}
-        <div class="level season-stats">
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Year</p>
-                    <p class="title">{{season.data.year}}</p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Episodes</p>
-                    <p class="title">{{season.data.count}}</p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="heading">Time Loops</p>
-                    <p class="title">{{season.data.timeloops}}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="card-footer">
-        {% set first = season.data.first %}
-        {% set last = season.data.last %}
-        {% include "_macros/rangeCardFooterItems.njk" %}
-    </footer>
+<div class="columns season-list">
+<div class="column is-half">
+
+<h2 class="title is-2">Seasons</h2>
+{% set season = {
+    "data": {
+        "count": 39,
+        "first": {"url": "/episodes/0001-pilot/", "number": 1, "title": "Pilot"},
+        "last": {"url": "/episodes/0039-the-end-of-the-year-listener-appreciation-jubilee/", "number": 39, "title": "The End of the Year Listener Appreciation Jubilee"},
+        "seasonNumber": 1,
+        "summary": "The Beginning: Young Ben and Young Matt",
+        "timeloops": 0,
+        "year": 2011
+    }
+} %}
+{% include "_macros/seasonCard.njk" %}
+
+</div>
 </div>
 
 
 
 <h1 class="title is-1">Categories</h1>
 {# add loop #}
-<p class="title category-{{category | slug}}">{{category}}</p>
+{# <p class="title category-{{category | slug}}">{{category}}</p> #}
 
 
 

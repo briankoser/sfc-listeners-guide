@@ -16,7 +16,7 @@ pageTitle: Time Loops
         <td><a href="/episodes/0027-c-k-kubasik-interview/">№ 27 C.K. Kubasik Interview</a></td>
       </tr>
       <tr>
-        <td>№ 65</td>
+        <td>№ 65 The SFC Time Loop – Happy Sci-Fi Father’s Day!</td>
         <td><a href="/episodes/0021-sci-fi-fathers/">№ 21 Sci-Fi Fathers</td>
       </tr>
       <tr>

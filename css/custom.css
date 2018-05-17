@@ -832,6 +832,11 @@ footer.footer .feather {
     border: solid 1px white;
 }
 
+.swatches .notification {
+    margin-bottom: .25em;
+}
+
+
 
 /******************************************************************************
   MEDIA QUERIES

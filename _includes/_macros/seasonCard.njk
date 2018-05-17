@@ -1,0 +1,46 @@
+{# {% set season = {
+    "data": {
+        "count": 0,
+        "first": {"url": "", "number": 0, "title": ""},
+        "last": {"url": "", "number": 0, "title": ""},
+        "seasonNumber": 0,
+        "summary": "",
+        "timeloops": 0,
+        "year": 0
+    }
+} %}  #}
+<div class="card season-card">
+    <header class="card-header">
+        <p class="card-header-title">
+            <a href="/seasons/{{ season.data.seasonNumber }}">Season {{ season.data.seasonNumber }}</a>
+        </p>
+    </header>
+    <div class="card-content content">
+        {{ season.data.summary | safe }}
+        <div class="level season-stats">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Year</p>
+                    <p class="title">{{season.data.year}}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Episodes</p>
+                    <p class="title">{{season.data.count}}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Time Loops</p>
+                    <p class="title">{{season.data.timeloops}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="card-footer">
+        {% set first = season.data.first %}
+        {% set last = season.data.last %}
+        {% include "_macros/rangeCardFooterItems.njk" %}
+    </footer>
+</div>

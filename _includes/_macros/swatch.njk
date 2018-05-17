@@ -1,0 +1,11 @@
+{# 
+{% set swatch = {
+    'background': '', 
+    'color': '', 
+    'text': ''
+} %} 
+#}
+<div class="swatch {{cssClasses}} {{'black' if swatch.background === 'var(--color-black)'}}" 
+    style="background-color: {{swatch.background}}; color: {{swatch.color or '--color-white'}};">
+    {{swatch.text}}
+</div>    
