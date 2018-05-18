@@ -4,19 +4,20 @@
         "first": {"url": "", "number": 0, "title": ""},
         "last": {"url": "", "number": 0, "title": ""},
         "seasonNumber": 0,
-        "summary": "",
+        "tagline": "",
         "timeloops": 0,
+        "title": "",
         "year": 0
     }
 } %}  #}
 <div class="card season-card">
     <header class="card-header">
         <p class="card-header-title">
-            <a href="/seasons/{{ season.data.seasonNumber }}">Season {{ season.data.seasonNumber }}</a>
+           <a href="/seasons/{{ season.data.seasonNumber }}">Season {{ season.data.seasonNumber }}: {{ season.data.title }}</a>
         </p>
     </header>
     <div class="card-content content">
-        {{ season.data.summary | safe }}
+        {{ season.data.tagline | safe }}
         <div class="level season-stats">
             <div class="level-item has-text-centered">
                 <div>
