@@ -164,7 +164,7 @@ q {
     background-color: var(--color-medium-grey);
     border-radius: 10px;
     display: table;
-    padding: 0em 0.2em;
+    padding: 0.2em;
 }
 
 cite::before {
@@ -507,23 +507,26 @@ a.timestamp:hover {
 
 .ben {
     background-color: var(--color-blue);
+    color: var(--color-white);
 }
 
 .matt,
 .roger {
     background-color: var(--color-orange);
-}
-
-.koby h3 {
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 .daniel {
     background-color: var(--color-purple);
+    color: var(--color-white);
 }
 
 .koby {
     background-color: var(--color-pink);
+    color: var(--color-black);
+}
+
+.koby h3 {
     color: var(--color-black);
 }
 
@@ -602,11 +605,11 @@ q.archivist::after {
 }
 
 q.ben::before {
-    content: 'Ben: ' open-quote;
+    content: 'Ben: ' attr(data-action) ' ' open-quote;
 }
 
 q.matt::before {
-    content: 'Matt: ' open-quote;
+    content: 'Matt: ' attr(data-action) ' ' open-quote;
 }
 
 q.roger::before {
@@ -614,11 +617,11 @@ q.roger::before {
 }
 
 q.daniel::before {
-    content: 'Daniel: ' open-quote;
+    content: 'Daniel: ' attr(data-action) ' ' open-quote;
 }
 
 q.koby::before {
-    content: 'Koby: ' open-quote;
+    content: 'Koby: ' attr(data-action) ' ' open-quote;
 }
 
 
