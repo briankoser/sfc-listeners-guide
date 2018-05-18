@@ -7,7 +7,7 @@ title: The Avengers – Instant Reaction
 number: 55
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-55-the-avengers-instant-reaction/
-date: 2018-05-14
+date: 2012-05-05
 category: Review
 hosts:
   - Matt
