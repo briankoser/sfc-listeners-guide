@@ -7,12 +7,12 @@
       "name": "Brian Koser",
       "email": "archivist@sfc.blue"
     },
-    "totalEpisodes": 652,
+    "totalEpisodes": 654,
     "stats": {},
     "hosts": [
       {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "blue", "rgb": ""}, "weakness": "squirrels"},
       {"shortName": "Matt", "fullName": "Matt Anderson", "color": {"name": "orange", "rgb": ""}, "weakness": "time travel"},
-      {"shortName": "Daniel", "fullName": "Daniel Butcher", "color": {"name": "yellow", "rgb": ""}, "weakness": "disney"},
+      {"shortName": "Daniel", "fullName": "Daniel Butcher", "color": {"name": "purple", "rgb": ""}, "weakness": "disney"},
       {"shortName": "Koby", "fullName": "Koby Radcliffe", "color": {"name": "pink", "rgb": ""}, "weakness": "cats"}
     ],
     "guests": [
@@ -30,6 +30,7 @@
       {"name": "Disney-Pixar", "summary": "A quick two-parter including some of Daniel Butcher's best work."},
       {"name": "End of the Year Listener Appreciation Jubilees", "summary": "The annual end of year award shows"},
       {"name": "George Lucas", "summary": "The man, the myth, the beard. The behind-the-scenes looks at Star Wars are as interesting as anything Lucas has himself produced."},
+      {"name": "History of Christianity", "summary": "A project for one of Matt's Master's classes. One of the most infamous series in the show's history."},
       {"name": "LOST", "summary": "Matt's favorite show of all time"},
       {"name": "Recommendations", "summary": "Follow Ben and Matt's likes and dislikes through the years."},
       {"name": "State of the Superhero Movie", "summary": "Superhero movie eras, trends, and predictions. The story of two men who loved superhero movies; one remained in love while the other's love turned to hate."},

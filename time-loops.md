@@ -12,14 +12,14 @@ pageTitle: Time Loops
     </thead>
     <tbody>
       <tr>
-        <td>№ 46</td>
+        <td><a href="/episodes/0046-the-sfc-time-loop-interview-with-ck-kubasik/">№ 46 The SFC Time Loop – Interview with C.K. Kubasik</a></td>
         <td><a href="/episodes/0027-c-k-kubasik-interview/">№ 27 C.K. Kubasik Interview</a></td>
       </tr>
       <tr>
-        <td>№ 65 The SFC Time Loop – Happy Sci-Fi Father’s Day!</td>
+        <td><a href="/episodes/0065-the-sfc-time-loop-happy-sci-fi-fathers-day">№ 65 The SFC Time Loop – Happy Sci-Fi Father’s Day!</a></td>
         <td><a href="/episodes/0021-sci-fi-fathers/">№ 21 Sci-Fi Fathers</td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td>№ 77</td>
         <td><a href="/episodes/0003-the-dark-knight-on-trial/">№ 3 The Dark Knight On Trial</a></td>
       </tr>
@@ -102,7 +102,7 @@ pageTitle: Time Loops
       <tr>
         <td>№ 584</td>
         <td><a href="/episodes/0005-top-5-messciahs/">№ 5 Top 5 MesSCIahs</a></td>
-      </tr>
+      </tr> -->
     </tbody>
   </table>
 
@@ -124,7 +124,7 @@ pageTitle: Time Loops
         <td><a href="/episodes/0053-joss-whedon-talk/">№ 53 Joss Whedon Talk</a></td>
         <td>Life Report № 0.5 (practice episode 2)</td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td>№ 202</td>
         <td>video</td>
       </tr>
@@ -147,6 +147,6 @@ pageTitle: Time Loops
       <tr>
         <td>№ 354</td>
         <td>video</td>
-      </tr>
+      </tr> -->
     </tbody>
 </table>
