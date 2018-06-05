@@ -44,7 +44,7 @@ Ben's favorite part of the podcast is saying his name in the intro
 
 Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", Ben says "Dark Seed"
 
-<q class="archivist"><a href="http://www.imdb.com/name/nm0004303">Gavin Hood</a> ended up directing Ender's Game, so maybe Wolfgang Petersen wouldn't have been the worst choice.</q>
+<q class="archivist"><a href="http://www.imdb.com/name/nm0004303" class="link-obvious">Gavin Hood</a> ended up directing Ender's Game, so maybe Wolfgang Petersen wouldn't have been the worst choice.</q>
 
 <div class="quote">
   <q class="matt">OK listeners: prepare yourselves. We're going to be doing an episode of Alan Moore within the next three episodes.</q>

@@ -96,7 +96,7 @@ Ben sings "Be a Missionary"
       <ol reversed>
         <li>Telekinesis 
         <li>Accelerated Healing (in case of attacks from the natives) 
-        <li>Shape-Shifting (<a href="https://www.biblegateway.com/passage/?search=1+cor+9%3A20&version=ESV">1 Cor. 9:20</a>)
+        <li>Shape-Shifting (<a href="https://www.biblegateway.com/passage/?search=1+cor+9%3A20&version=ESV" class="link-obvious">1 Cor. 9:20</a>)
         <li>Omni-linguism 
         <li>Mind Control
       </ol>

@@ -22,7 +22,7 @@ firsts:
   - Not recorded in Rebel Underground Studios (Colorado)
   - Mention of squirrels by Ben (not his obsession though) 
 prophecy: 
-  - {"host": "Matt", "prediction": "Justin Lin will be picked to direct <i class='work-title'>Candyland</i>", "veracity": false, "comments": "Kevin Lima was picked to direct, although the movie was never made (possibly due to <a href='https://www.hollywoodreporter.com/thr-esq/sonys-adam-sandler-candy-land-719285'>Hasbro not having the license to the characters</a>, although I don't know the results of the lawsuit)."}
+  - {"host": "Matt", "prediction": "Justin Lin will be picked to direct <i class='work-title'>Candyland</i>", "veracity": false, "comments": "Kevin Lima was picked to direct, although the movie was never made (possibly due to <a href='https://www.hollywoodreporter.com/thr-esq/sonys-adam-sandler-candy-land-719285' class='link-obvious'>Hasbro not having the license to the characters</a>, although I don't know the results of the lawsuit)."}
 celebrity_invites: 
   - Stan Lee
 

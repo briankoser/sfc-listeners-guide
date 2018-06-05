@@ -25,7 +25,7 @@ firsts:
 prophecy: 
   - {"host": "Matt", "prediction": "<i class='work-title'>Green Lantern</i> sequel will not be made", "veracity": true, "comments": ""}
   - {"host": "Ben", "prediction": "<i class='work-title'>Fringe</i> will last at most 5 seasons", "veracity": true, "comments": "Fringe aired 5 seasons"}
-  - {"host": "Matt", "prediction": "TV shows will never go to short seasons", "veracity": false, "comments": "This actually started happening in 2011 (<a href='https://www.theringer.com/tv/2017/8/4/16094348/inefficiency-week-mourning-the-lost-long-tv-season'>source</a>)"}
+  - {"host": "Matt", "prediction": "TV shows will never go to short seasons", "veracity": false, "comments": "This actually started happening in 2011 (<a href='https://www.theringer.com/tv/2017/8/4/16094348/inefficiency-week-mourning-the-lost-long-tv-season'  class='link-obvious'>source</a>)"}
 
 future_episodes: 
   - <i class="work-title">Snakes on a Plane</i> review
@@ -93,7 +93,7 @@ The continuity conundrum is that Marvel and DC continuity is convoluted and conf
 - Matt: Reduce number of Marvel titles, limit characters to one title
 - Ben: Scrap the continuities, set a time limit of e.g. 10 years with the intent of having the story end and starting over again at the end
 
-<q class="archivist"><a href="https://en.m.wikipedia.org/wiki/Green_Lantern:_Rebirth">Green Lantern: Rebirth</a> was released in 2004, not 1994.</q>
+<q class="archivist"><a href="https://en.m.wikipedia.org/wiki/Green_Lantern:_Rebirth"  class="link-obvious">Green Lantern: Rebirth</a> was released in 2004, not 1994.</q>
 
 ## Superhero comic recommendations
 - Dave: All-Star Superman, Green Lantern: Rebirth, Green Lantern: Sinestro Corps War, Identity Crisis

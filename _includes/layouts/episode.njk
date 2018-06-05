@@ -4,8 +4,8 @@ layout: baseNavBar
 <section class="hero">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title is-1"><a href="{{podcast_url}}">№ {{number}} {{ title }}</a></h1>
-            <h2 class="subtitle is-5"><a href="/seasons/{{season}}">Season {{season}}</a></h2>
+            <h1 class="title is-1"><a href="{{podcast_url}}" class="link-subtle">№ {{number}} {{ title }}</a></h1>
+            <h2 class="subtitle is-5"><a href="/seasons/{{season}}" class="link-subtle">Season {{season}}</a></h2>
         </div>
     </div>
     <div class="hero-foot">
@@ -48,7 +48,7 @@ layout: baseNavBar
                     <p class="heading">Time Looped as</p>
                     <p class="title">№
                         {% if time_loop_forward.url %}
-                        <a href="{{time_loop_forward.url}}">{{time_loop_forward.number}}</a>
+                        <a href="{{time_loop_forward.url}}" class="link-subtle">{{time_loop_forward.number}}</a>
                         {% else %}
                         {{time_loop_forward.number}}
                         {% endif %}
@@ -63,7 +63,7 @@ layout: baseNavBar
                     <p class="heading">Time Loop of</p>
                     <p class="title">№ 
                         {% if time_loop_backward.url %}
-                        <a href="{{time_loop_backward.url}}">{{time_loop_backward.number}}</a>
+                        <a href="{{time_loop_backward.url}}" class="link-subtle">{{time_loop_backward.number}}</a>
                         {% else %}
                         {{time_loop_backward.number}}
                         {% endif %}
@@ -90,7 +90,7 @@ layout: baseNavBar
                 <div>
                     <h2 class="title">Listen</h2>
                     <h3 class="subtitle is-5">
-                        to Time Loop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
+                        to Time Loop (<a href="{{time_loop_forward.url}}" class="link-obvious">№ {{time_loop_forward.number}}</a>)
                     </h3>
                 </div>
             {% elif recommendation == 'essential' %}
@@ -99,7 +99,7 @@ layout: baseNavBar
                 <div>
                     <h2 class="title">Essential</h2> 
                     <h3 class="subtitle is-5">
-                        Listen to Time Loop (<a href="{{time_loop_forward.url}}">№ {{time_loop_forward.number}}</a>)
+                        Listen to Time Loop (<a href="{{time_loop_forward.url}}" class="link-obvious">№ {{time_loop_forward.number}}</a>)
                     </h3>
                 </div>
             {% elif recommendation == 'no' %}

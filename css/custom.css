@@ -10,7 +10,8 @@
   VARIABLES
 ******************************************************************************/
 :root {
-    --color-primary: rgb(65, 198, 231); /* duplicated in main.scss for bulma */
+    --color-primary: hsl(192, 78%, 58%); /* duplicated in main.scss for bulma */
+    --color-primary-light: hsl(192, 78%, 80%);
     --color-black: black;
     --color-blue: hsl(258, 84%, 48%);
     --color-blue-transparent: hsla(258, 84%, 48%, 0.2);
@@ -152,6 +153,29 @@ table .number-column {
   cite, data, progress, time, meter, code, var, samp, kbd, keygen, bdi, bdo, 
   ruby, rt, rp, span
 ******************************************************************************/
+a {
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: var(--color-primary-light);
+}
+
+a.link-obvious,
+a.link-subtle {
+    color: var(--color-white);
+}
+
+a.link-obvious:hover,
+a.link-subtle:hover {
+    color: var(--color-primary);
+}
+
+a.link-obvious,
+a.link-subtle:hover {
+    text-decoration: underline;
+}
+
 abbr[title] {
 	text-decoration: underline dotted;
 }
@@ -205,19 +229,6 @@ cite i {
 .hero.is-primary,
 .navbar.is-primary {
     text-shadow: black 0px 0px 3px;
-}
-
-.hero-body a,
-.hero-foot a,
-footer.footer a {
-    color: var(--color-white);
-}
-
-.hero-body a:hover,
-.hero-foot a:hover,
-footer.footer a:hover {
-    color: var(--color-primary);
-    text-decoration: underline;
 }
 
 .hero-foot {
@@ -349,11 +360,6 @@ main .hero {
     flex-grow: 0.5;
 }
 
-.top-five a {
-    color: var(--color-white);
-    text-decoration: underline;
-}
-
 .archivist-note {
     margin-top: 6em;
 }
@@ -376,11 +382,6 @@ a.timestamp:hover {
     margin-bottom: 2em;
 }
 
-.episode-list .card-content a {
-    color: var(--color-white);
-    text-decoration: underline;
-}
-
 .episode-list .recommendation {
     display: flex;
     flex-direction: column;
@@ -390,10 +391,6 @@ a.timestamp:hover {
 .episode-list .card-header-title a:hover {
     color: var(--color-primary);
     text-decoration: underline;
-}
-
-.episode-list .card-header-title a {
-    color: var(--color-white);
 }
 
 .episode-list .card-header-icon {
@@ -586,11 +583,6 @@ q.inline {
     display: inline;
 }
 
-q.archivist a {
-    color: var(--color-white);
-    text-decoration: underline;
-}
-
 q.archivist::before {
     content: 'Archivist: ';
 }
@@ -633,11 +625,6 @@ q.koby::before {
     display: flex;
     max-width: 650px;
     margin-bottom: 1em;
-}
-
-.prophecy a {
-    color: var(--color-white);
-    text-decoration: underline;
 }
 
 .prophecy header,

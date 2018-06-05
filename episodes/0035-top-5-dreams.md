@@ -129,4 +129,4 @@ Mike Poteet had a dream where he travelled to random suburban houses in the TARD
 
 Matt watches for the <i class="work-title">LOST</i> numbers in real life.
 
-Skip Crust refers to himself as "#2 fan of the podcast" <q class="archivist inline"><a href="/episodes/0004-tolkien-vs-lewis-the-ultimate-smackdown/">Dave Johnson is #1</a></q>
+Skip Crust refers to himself as "#2 fan of the podcast" <q class="archivist inline"><a href="/episodes/0004-tolkien-vs-lewis-the-ultimate-smackdown/" class="link-obvious">Dave Johnson is #1</a></q>
