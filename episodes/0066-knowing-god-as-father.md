@@ -35,9 +35,3 @@ Sermon Ben preached at Epic Life on 2011-06-19
 3. God can lead us with his Spirit
 4. Knowing God as father gives us a stake in Christ's inheritance and changes our hope for the future
 5. Changes our expectations for what life should look like: enduring suffering is part of being God's children
-
-
-
-<i class="work-title"></i>
-
-<a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
