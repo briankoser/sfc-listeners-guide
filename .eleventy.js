@@ -1,6 +1,9 @@
 module.exports = function(eleventyConfig) {
   const { DateTime } = require("luxon");
   const fs = require("fs");
+  const http = require("http");
+  const parseXml = require('xml2js').parseString;
+
   const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
 
   eleventyConfig.addLayoutAlias("baseHero", "layouts/baseHero.njk");
@@ -22,7 +25,44 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("today", option => {
-    return option === 'year' ? new Date().getFullYear() : new Date();
+    return option === "year" ? new Date().getFullYear() : new Date();
+  });
+
+  eleventyConfig.addFilter("totalSfcEpisodes", option => {
+    let latestEpisodeNumber;
+
+    http.get("http://thescifichristian.com/feed/", response => {
+      const { statusCode } = response;
+      const contentType = response.headers['content-type'];
+    
+      let error;
+      if (statusCode !== 200) {
+        error = new Error('Request Failed.\n' + `Status Code: ${statusCode}`);
+      } else if (contentType !== 'application/rss+xml; charset=UTF-8') {
+        error = new Error('Invalid content-type.\n' + `Expected rss+xml but received ${contentType}`);
+      }
+      if (error) {
+        console.error(error.message);
+        // consume response data to free up memory
+        response.resume();
+        return;
+      }
+    
+      response.setEncoding('utf8');
+      let rawData = '';
+      response.on('data', (chunk) => { rawData += chunk; });
+      response.on('end', () => {
+        try {
+          parseXml(rawData, (err, result) => {
+            latestEpisodeNumber = result.rss.channel[0].item[0].title[0].match(/[0-9]+/)[0];
+          })
+        } catch (e) {
+          console.error(e.message);
+        }
+      });
+    });
+
+    return latestEpisodeNumber;
   });
 
   eleventyConfig.addFilter("weakness", shortName => {
