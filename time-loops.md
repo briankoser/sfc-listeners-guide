@@ -106,12 +106,12 @@ pageTitle: Time Loops
     </tbody>
   </table>
 
-## Pseudo Time Loops
+## Recycles
 
 <table class="table is-striped">
     <thead>
       <tr>
-        <th>Time Loop</th>
+        <th>Episode</th>
         <th>Original</th>
       </tr>
     </thead>
@@ -123,6 +123,10 @@ pageTitle: Time Loops
       <tr>
         <td><a href="/episodes/0053-joss-whedon-talk/">№ 53 Joss Whedon Talk</a></td>
         <td>Life Report № 0.5 (practice episode 2)</td>
+      </tr>
+      <tr>
+        <td><a href="/episodes/0066-knowing-god-as-father/">№ 66 Knowing God as Father</a></td>
+        <td>Epic Life sermon from The Life Report</td>
       </tr>
       <!-- <tr>
         <td>№ 202</td>
