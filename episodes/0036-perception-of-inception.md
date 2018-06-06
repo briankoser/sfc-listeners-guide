@@ -18,6 +18,8 @@ notable_moments:
 future_episodes: 
   - Clip show
   - The History of Christianity
+take_that:
+  - \'Jenny\'
 
 last_listen: 2011-03-28
 recommendation: yes

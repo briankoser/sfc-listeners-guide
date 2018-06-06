@@ -23,7 +23,9 @@ future_episodes:
   - Recommendations (aka sci-fi current events) 
   - Multiverse with Talan Gwinn
   - Post-apocalyptic worlds in sci-fi  
-
+take_that:
+  - Brady
+  - talking animals
 
 last_listen: 2018-02-12
 recommendation: yes
@@ -169,4 +171,4 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
 
 
 # Feedback
-Ben makes fun of Celine Dion singing at the end of Avatar.
+Ben makes fun of Celine Dion singing at the end of <i class="work-title">Avatar</i>.

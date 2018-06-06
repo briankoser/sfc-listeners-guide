@@ -28,7 +28,12 @@ prophecy:
 future_episodes: 
   - End of the Year Listener Jubilee 
   - Time Travel
-               
+take_that:
+  - Science
+  - government
+  - Obama
+  - comics
+  - book publishers
 celebrity_invites: 
   - Any astronaut
 celebrity_promo: George Lucas

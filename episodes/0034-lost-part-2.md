@@ -23,6 +23,9 @@ firsts:
   - Matt's love for Scarlet Spider mentioned
 future_episodes: 
   - Top 5 Dreams
+take_that:
+  - terrorists
+  - Sayid
 celebrity_promo: Damon Lindelof and Carlton Cuse 
 
 last_listen: 2018-03-21

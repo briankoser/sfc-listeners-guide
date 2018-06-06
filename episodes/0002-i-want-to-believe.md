@@ -25,13 +25,14 @@ firsts:
 future_episodes: 
   - Nephilim
   - How "Life on earth was started by aliens" is compatible with Christianity
+take_that:
+  - Jimmy Carter
 celebrity_invites:
   - JJ Abrams
 
 last_listen: 2018-01-23
 recommendation: yes-timeloop
 recommendation_reason: This first "fringe theology" episode includes topics that will be major themes of the podcast, such as the scope of the Bible and what is compatible with Christianity.
-archivist_note:  
 ---
 # Opening
 Ben and Matt's overall brand for their various media projects is currently "The Rebel Underground".

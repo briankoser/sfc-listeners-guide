@@ -26,6 +26,11 @@ future_episodes:
   - Inception
   - Biblical dreams
   - The Sci-Fi Christian End of the Year Listener Appreciation Jubilee
+take_that:
+  - Brigham Young
+  - James Cameron
+  - Justin Timberlake
+  - math
 
 last_listen: 2011-03-27
 recommendation: yes

@@ -24,11 +24,11 @@ firsts:
   - <i class="work-title">The Dark Knight Rises</i> mentioned
   - <i class="work-title">Dr. Horrible's Sing-Along Blog</i> main topic transition
   - Annie, Ben's wife mentioned (she sent in feedback)
-  - "\"Take that, Matt!\""
   - Feedback from Stephanie
   - "\"It's a Trap!\" listener feedback transition"
   - Matt and Ben start blogging on the website
- 
+take_that:
+  - Matt
 prophecy: 
   - {"host": "Matt", "prediction": "Reboots are going to get old really fast.", "veracity": true, "comments": "There will be entire episodes of Ben complaining about reboots."}
 future_episodes: 
@@ -77,6 +77,10 @@ There are four areas Batman must be justified:
 <span class="quote-context tag is-size-6">On <i class="work-title">Back to the Future</i></span>
 <q class="ben">I bet there's some really great spiritual themes in there.</q>
 <q class="matt">Absolutely. There has to be: it's from 1985.</q>
+</div>
+
+<div class="quote">
+<q class="ben">Take that, Matt!</q>
 </div>
 
 

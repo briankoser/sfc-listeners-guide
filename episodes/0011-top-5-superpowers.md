@@ -30,6 +30,9 @@ future_episodes:
   - Real religions generated from sci-fi properties
   - Portrayal of the apocalypse in sci-fi 
   - Time Travel
+take_that:
+  - movie
+  - Simon Pegg and Nick Frost who wrote the movie <i class="work-title">Paul</i>
 
 last_listen: 2018-02-01
 recommendation: yes-timeloop

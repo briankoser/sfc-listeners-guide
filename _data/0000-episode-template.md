@@ -23,11 +23,15 @@ guests:
 time_loop_backward: {"number": }
 
 notable_moments:
-firsts: 
+firsts:
+  -  
 prophecy: 
   - {"host": "", "prediction": "", "veracity": true, "comments": ""}
 future_episodes: 
+take_that:
+  - 
 celebrity_invites: 
+  - 
 
 last_listen: 
 recommendation: essential|essential-timeloop|yes|yes-timeloop|no
