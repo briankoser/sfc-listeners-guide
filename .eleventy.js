@@ -28,7 +28,7 @@ module.exports = function(eleventyConfig) {
     return option === "year" ? new Date().getFullYear() : new Date();
   });
 
-  eleventyConfig.addFilter("totalSfcEpisodes", option => {
+  eleventyConfig.addNunjucksAsyncFilter("totalSfcEpisodes", function(ignore, callback) {
     let latestEpisodeNumber;
 
     http.get("http://thescifichristian.com/feed/", response => {
@@ -45,7 +45,7 @@ module.exports = function(eleventyConfig) {
         console.error(error.message);
         // consume response data to free up memory
         response.resume();
-        return;
+        callback(error);
       }
     
       response.setEncoding('utf8');
@@ -55,14 +55,14 @@ module.exports = function(eleventyConfig) {
         try {
           parseXml(rawData, (err, result) => {
             latestEpisodeNumber = result.rss.channel[0].item[0].title[0].match(/[0-9]+/)[0];
+            callback(null, latestEpisodeNumber);
           })
         } catch (e) {
           console.error(e.message);
+          callback(e);
         }
       });
     });
-
-    return latestEpisodeNumber;
   });
 
   eleventyConfig.addFilter("weakness", shortName => {

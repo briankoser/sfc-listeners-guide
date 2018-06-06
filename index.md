@@ -62,8 +62,8 @@ And more!
     <div class="level-item has-text-centered">
         <div>
             <p class="heading">Total Episodes</p>
-            <p class="title">{{ 'total' | totalSfcEpisodes }}</p>
-            <!-- <p class="title">{{ metadata.totalEpisodes }}</p> -->
+            <!-- <p class="title">{{ '' | totalSfcEpisodes }}</p> -->
+            <p class="title">{{ metadata.totalEpisodes }}</p>
         </div>
     </div>
     <div class="level-item has-text-centered">
