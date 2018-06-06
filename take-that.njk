@@ -1,0 +1,13 @@
+---
+layout: page
+pageTitle: Take That!
+---
+<ul class="take_that">
+{% for episode in collections.episodes %}
+{% if episode.data.take_that %}
+    {% for item in episode.data.take_that %}
+        <li>Take that, {{item | safe}}! (<a href="{{episode.url}}">№ {{episode.data.number}}</a>)</li>
+    {% endfor %}
+{% endif %}
+{% endfor%}
+</ul>
