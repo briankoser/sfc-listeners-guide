@@ -320,7 +320,6 @@ module.exports = function(eleventyConfig) {
       })
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.tags = tagStats;
-    console.log(tagStats);
 
     return episodes;
   });

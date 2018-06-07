@@ -65,7 +65,7 @@ Average Length -->
 
 
 
-### Segment Count
+### Recurring Segments
 <table class="table is-striped">
     <thead>
         <tr>
@@ -73,6 +73,7 @@ Average Length -->
             <th>Total</th>
             <th>First</th>
             <th>Last</th>
+            <th>Seasons</th>
         </tr>
     </thead>
     <tbody>
@@ -82,6 +83,27 @@ Average Length -->
     <td>{{tag.count}}</td>
     <td>№ {{tag.first}}</td>
     <td>№ {{tag.last}}</td>
+    <td>
+        <!-- {{tag.seasons}} -->
+        <!-- <svg height="50" width="100">
+        <g>
+            <rect x="2" y="15" width="16" fill="var(--color-primary)" height="35">7</rect>
+            <text x="5" y="46" font-family="Consolas, monospace" font-size="18" fill="white">1</text>
+            <rect x="18" y="0" width="16" fill="var(--color-primary)" height="50">10</rect>
+            <text x="20" y="46" font-family="Consolas, monospace" font-size="18" fill="white">2</text>
+            <rect x="34" y="40" width="16" fill="var(--color-primary)" height="10">2</rect>
+            <text x="36" y="46" font-family="Consolas, monospace" font-size="18" fill="white">3</text>
+        </g>
+        </svg> -->
+        <div id="chart-tag-{{tag.name | slug}}" class="sfc-chart"></div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                let chartContainer = document.getElementById('chart-tag-{{tag.name | slug}}');
+                let options = {'height': 50, 'barWidth': 16};
+                sfcChart.createBarChart(chartContainer, {{tag.seasons}}, options);
+            });
+        </script>
+    </td>
 </tr>
     {% endfor %}
 </tbody>
