@@ -290,6 +290,7 @@ module.exports = function(eleventyConfig) {
       .map(episode => { 
         return {
           'number': episode.data.number,
+          'season': episode.data.season,
           'tags': episode.data.tags
         }
       });
@@ -298,15 +299,28 @@ module.exports = function(eleventyConfig) {
     let tagOccurences = episodeTags.map(episode => episode.tags).reduce((a, b) => a.concat(b), []);
     let uniqueTags = [...new Set(tagOccurences)]
       .filter(tag => tag !== 'episode');
+    let maxSeason = Math.max(...episodeTags.map(episode => episode.season));
+    let tagSeasons = [...Array(maxSeason).keys()].map(x => x + 1);
+
     let tagStats = uniqueTags
-      .map(tag => { return { 
-        'name': (metadata.tags.find(t => t.slug === tag) || {}).name || tag,
-        'count': tagOccurences.filter(x => x === tag).length,
-        'first': (episodeTags.find(x => ((x.tags || []).includes(tag))) || {}).number,
-        'last': (episodeTagsReverse.find(x => (x.tags || []).includes(tag)) || {}).number
-      } })
+      .map(tag => { 
+        let seasonsMap = new Map(
+          tagSeasons.map(season => 
+            [season, episodeTags.filter(e => e.season === season && (e.tags || []).includes(tag)).length])
+        );
+        let seasons = [...seasonsMap].map(x => x[1]);
+
+        return { 
+          'name': (metadata.tags.find(t => t.slug === tag) || {}).name || tag,
+          'count': tagOccurences.filter(x => x === tag).length,
+          'first': (episodeTags.find(x => ((x.tags || []).includes(tag))) || {}).number,
+          'last': (episodeTagsReverse.find(x => (x.tags || []).includes(tag)) || {}).number,
+          'seasons': seasons
+        } 
+      })
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.tags = tagStats;
+    console.log(tagStats);
 
     return episodes;
   });
