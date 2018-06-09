@@ -88,7 +88,11 @@ Average Length -->
         <script>
             document.addEventListener('DOMContentLoaded', function () {
                 let chartContainer = document.getElementById('chart-tag-{{tag.name | slug}}');
-                let options = {'height': 60, 'barWidth': 16};
+                let options = {
+                    chartBarWidth: 16,
+                    chartHeight: 60,
+                    labelFontSize: 18
+                };
                 sfcChart.createBarChart(chartContainer, {{tag.seasons}}, options);
             });
         </script>
