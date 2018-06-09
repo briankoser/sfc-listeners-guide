@@ -16,7 +16,7 @@ hosts:
 
 notable_moments:
 firsts: 
-  - Ben de Bono Countdown music (aka "Whoa-oh-oh-oh-oh, whoa-<em>oh</em>-oh-oh-oh Oh-oh-oh-oh-oh")
+  - Ben de Bono Countdown music (aka "Whoa-oh-oh-oh-oh, whoa-<em>oh</em>-oh-oh-oh Oh-oh Oh-oh-oh")
 
 last_listen: 2018-05-14
 recommendation: no

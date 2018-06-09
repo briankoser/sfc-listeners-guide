@@ -2,7 +2,7 @@
 layout: page
 pageTitle: Firsts
 ---
-{% for episode in collections.episodes %}
+{% for episode in collections.episodes | reverse %}
 {% if episode.data.firsts %}
     <h2 class="is-size-3">№ {{episode.data.number}} {{episode.data.title}}</h2>
 

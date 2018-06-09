@@ -17,7 +17,7 @@ pageTitle: Episodes
 
     <div class="columns">
         <div class="column is-half">
-            {% set episodelist = collections.episodes %}
+            {% set episodelist = collections.episodes | reverse %}
             {% include "episodelist.njk" %}
         </div>
     </div>
