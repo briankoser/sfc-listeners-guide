@@ -84,7 +84,7 @@ Average Length -->
     <td>№ {{tag.first}}</td>
     <td>№ {{tag.last}}</td>
     <td>
-        <div id="chart-tag-{{tag.name | slug}}" class="sfc-chart"></div>
+        <div id="chart-tag-{{tag.name | slug}}" class="sfc-chart sfc-bar-chart"></div>
         <script>
             document.addEventListener('DOMContentLoaded', function () {
                 let chartContainer = document.getElementById('chart-tag-{{tag.name | slug}}');

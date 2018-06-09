@@ -370,6 +370,13 @@ module.exports = function(eleventyConfig) {
       })
       .sort( (a, b) => a.data.number > b.data.number );
 
+    // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode
+    seasonStats[0].data.stats = {};
+
+    // Season Recommendation Stats
+    let recommendationsStats = seasonStats.map(season => 
+      [season.data.counts.essential, season.data.counts.yes, season.data.counts.no]);
+    seasonStats[0].data.stats.recommendations = recommendationsStats;
     return seasonStats;
   });
 

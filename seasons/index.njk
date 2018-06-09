@@ -6,5 +6,21 @@ pageTitle: Seasons
 
 Season stats are through episode № {{ collections.episodes.length }}
 
+<div id="chart-tag-season-recommendations" class="sfc-chart sfc-stacked-bar-chart"></div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let chartContainer = document.getElementById('chart-tag-season-recommendations');
+        let options = {
+            chartBarMargin: 10,
+            chartBarHeight: 120,
+            chartBarWidth: 32,
+            chartHeight: 150,
+            labelFontSize: 24
+        };
+        sfcChart.createStackedBarChart(
+            chartContainer, {{collections.seasons[0].data.stats.recommendations | dump}}, options);
+    });
+</script>
+
 {% set seasonlist = collections.seasons %}
 {% include "seasonlist.njk" %}
