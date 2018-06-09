@@ -8,7 +8,7 @@
     "css-build": "node-sass _sass/main.scss css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "search-index-build": "node buildLunrSearchIndex.js",
-    "typography": "typogr --inplace --force _site",
+    "typography": "typogr --inplace --force _site/about && typogr --inplace --force _site/episodes && typogr --inplace --force _site/hosts && typogr --inplace --force _site/prophecy && typogr --inplace --force _site/seasons && typogr --inplace --force _site/series && typogr --inplace --force _site/stats && typogr --inplace --force _site/style-guide && typogr --inplace --force _site/take-that && typogr --inplace --force _site/time-loops && typogr --inplace --force _site/index.html",
     "build": "npx eleventy",
     "watch": "npx eleventy --serve",
     "serve": "http-server ./_site",
