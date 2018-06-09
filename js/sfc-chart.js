@@ -1,6 +1,19 @@
 (function (window, document) {
     "use strict";
 
+    let settings = {
+        chart: {
+            color: getComputedStyle(document.body).getPropertyValue('--color-primary')
+        },
+        labels: {
+            color: getComputedStyle(document.body).getPropertyValue('--color-white'),
+            font: {
+                family: 'Consolas, monospace',
+                size: 18
+            }
+        }
+    }
+
     function createBarChart (container, data, options) {
         let svgNS = 'http://www.w3.org/2000/svg';
         let svg = document.createElementNS(svgNS, 'svg');
@@ -16,20 +29,24 @@
             rect.setAttribute('x', barX);
             rect.setAttribute('y', options.height - height)
             rect.setAttribute('width', options.barWidth);
-            rect.setAttribute('fill', 'hsl(192, 78%, 58%)');
+            rect.setAttribute('fill', settings.chart.color);
             rect.setAttribute('height', height);
-            //rect.innerText = data[i];
+            let title = document.createElementNS(svgNS, 'title');
+            let titleTextNode = document.createTextNode(data[i]);
+            title.appendChild(titleTextNode);
+            rect.appendChild(title);
             svg.appendChild(rect);
 
             let text = document.createElementNS(svgNS, 'text');
             let textX = barX + (i === 0 ? 3 : 2); // the 1 needs to start 3px left, all other seasons are 2px
             text.setAttribute('x', textX);
             text.setAttribute('y', options.height - 4);
-            text.setAttribute('font-family', 'Consolas, monospace');
-            text.setAttribute('font-size', 18);
-            text.setAttribute('fill', '#fff');
-            let textNode = document.createTextNode(i + 1);
-            text.appendChild(textNode);
+            text.setAttribute('font-family', settings.labels.font.family);
+            text.setAttribute('font-size', settings.labels.font.size);
+            text.setAttribute('fill', settings.labels.color);
+            let textTextNode = document.createTextNode(i + 1);
+            text.appendChild(textTextNode);
+            text.appendChild(title);
             svg.appendChild(text);
 
             barX += options.barWidth;
