@@ -14,7 +14,7 @@
         let settings = Object.assign({}, defaultSettings, options);
         let svg = document.createElementNS(svgNS, 'svg');
         svg.setAttribute('height', settings.chartHeight);
-        svg.setAttribute('width', (settings.chartBarWidth + settings.chartBarMargin || 0) * data.length);
+        svg.setAttribute('width', (settings.chartBarWidth + (settings.chartBarMargin || 0)) * data.length);
 
         let barX = 2; // starting point on x-axis
         let heightMultiplier = Math.round(settings.chartHeight / Math.max(...data));
@@ -45,7 +45,7 @@
             text.appendChild(title);
             svg.appendChild(text);
 
-            barX += settings.chartBarWidth + settings.chartBarMargin;
+            barX += settings.chartBarWidth + (settings.chartBarMargin || 0);
         }
 
         container.appendChild(svg);
