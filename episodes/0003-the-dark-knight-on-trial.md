@@ -31,13 +31,10 @@ take_that:
   - Matt
 prophecy: 
   - {"host": "Matt", "prediction": "Reboots are going to get old really fast.", "veracity": true, "comments": "There will be entire episodes of Ben complaining about reboots."}
-future_episodes: 
-celebrity_invites: 
 
 last_listen: 2018-01-24
 recommendation: essential-timeloop
 recommendation_reason: The first iconic episode and a classic example of the intersection between pop culture and Christianity that the SFC does so well.
-archivist_note:
 ---
 # News
 At this point Ben is optimistic about genre movies and is excited for "More: more Pirates, more Matrix, more Nolan Batman".
@@ -60,8 +57,8 @@ There are four areas Batman must be justified:
 4. Effectiveness
 
 <div class="quote">
-<q class="ben">We're talking about Jesus the man, not Jesus...</q>
-<q class="matt">Oh, you're going to separate Jesus now?</q>
+<q class="ben">We're talking about Jesus the man, not Jesus the God--</q>
+<q class="matt">You can't separate them. Oh, you're going to separate Jesus now?</q>
 </div>
 
 <div class="quote">
@@ -70,7 +67,7 @@ There are four areas Batman must be justified:
 </div>
 
 <div class="quote">
-<q class="matt">You can't say that Batman created all bad. Otherwise he would be called 'Badman'.</q>
+<q class="matt">Even if you can say that Batman created supervillains (which I'm not even sure if you can 100% say that), you can't say that Batman created all bad. Otherwise he would be called 'Badman'.</q>
 </div>
 
 <div class="quote">

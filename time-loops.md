@@ -19,11 +19,11 @@ pageTitle: Time Loops
         <td><a href="/episodes/0065-the-sfc-time-loop-happy-sci-fi-fathers-day">№ 65 The SFC Time Loop – Happy Sci-Fi Father’s Day!</a></td>
         <td><a href="/episodes/0021-sci-fi-fathers/">№ 21 Sci-Fi Fathers</td>
       </tr>
-      <!-- <tr>
-        <td>№ 77</td>
+      <tr>
+        <td><a href="/episodes/0077-the-sfc-time-loop-the-dark-knight-on-trial">№ 77 The SFC Time Loop – The Dark Knight On Trial</a></td>
         <td><a href="/episodes/0003-the-dark-knight-on-trial/">№ 3 The Dark Knight On Trial</a></td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td>№ 87 The SFC Time Loop – Cloning and the Transfer of Consciousness</td>
         <td><a href="/episodes/0023-lord-of-the-rings/">№ 9 Attack of the Clones</a></td>
       </tr>
