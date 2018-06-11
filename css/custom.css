@@ -191,6 +191,15 @@ q {
     padding: 0.2em;
 }
 
+q a {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+q a:hover {
+    color: var(--color-black);
+}
+
 cite::before {
     content: '– '
 }
