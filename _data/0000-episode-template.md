@@ -3,7 +3,6 @@ layout: episode
 tags:
   - episode
   - stan-lee-quote-of-the-week
-  - dark-knight-news 
   - take-that-science
 
 title: 
@@ -43,13 +42,7 @@ archivist_note:
 # Opening
 
 
-# News
-
-
 # Main Topic
-
-
-# Feedback
 
 
 # Closing
@@ -58,16 +51,13 @@ archivist_note:
 
 <q class="archivist inline"></q>
 
+<i class="work-title"></i>
+
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="#t=1:23:45">1:23:45</a>
   <span class="quote-context tag is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>
-</div>
-
-<div class="quote">
-  <span class="quote-source tag is-size-6"></span>
-  <q data-name=""></q>
 </div>
 
 <div class="top-five">
@@ -101,5 +91,3 @@ archivist_note:
     </div>
   </div>
 </div>
-
-<i class="work-title"></i>
