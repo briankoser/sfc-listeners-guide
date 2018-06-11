@@ -10,6 +10,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-75-the-dark-knight-rises-journey/
 date: 2012-07-19
 category: Clip Show
+series: Batman Month
 hosts:
   - Ben
   - Matt
