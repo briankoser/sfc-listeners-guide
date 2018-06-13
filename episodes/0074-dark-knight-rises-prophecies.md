@@ -24,7 +24,6 @@ prophecy:
   - {"host": "Ben", "prediction": "Bane will die", "veracity": true, "comments": ""}
   - {"host": "Ben", "prediction": "Commissioner Gordon will survive the movie", "veracity": true, "comments": ""}
   - {"host": "Ben", "prediction": "Alfred will survive the movie", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Bane will no longer be an unintelligent character in DC comics", "veracity": undefined, "comments": "According to my brief Wikipedia research, Bane was always intelligent in the comics, so I'm not counting this one either way."}
   - {"host": "Ben", "prediction": "Commissioner Gordon learns that Bruce Wayne is Batman", "veracity": true, "comments": ""}
   - {"host": "Ben", "prediction": "Catwoman learns the Bruce Wayne is Batman", "veracity": true, "comments": ""}
   - {"host": "Ben", "prediction": "If Marion Cotillard is Talia, she learns that Bruce Wayne is Batman", "veracity": true, "comments": ""}
@@ -73,7 +72,9 @@ How did Helen Keller do it?
 
 
 # Main Topic
-Matt wants Batman to die because this might be the only chance to do that in film. 
+Matt wants Batman to die because this might be the only chance to do that in film.
+
+Ben predicts that Bane will no longer be an unintelligent character in DC comics. <q class="archivist">According to my <a href="https://en.m.wikipedia.org/wiki/Bane_(DC_Comics)">brief Wikipedia research</a>, Bane was always intelligent in the comics. Because of the false premise this is neither a true nor false prophecy.</q>
 
 
 
