@@ -275,7 +275,7 @@ module.exports = function(eleventyConfig) {
         let resolved = prophecies.filter(p => p.host === host && p.veracity != 'undefined'); // undefined value is converted to `undefined` string by 11ty
         let totalResolved = resolved.length;
         let correct = resolved.filter(p => p.veracity).length;
-console.log(`host: ${host}, total: ${total}, totalResolved: ${totalResolved}, correct: ${correct}`);
+
         return {
           'name': host,
           'total': total,

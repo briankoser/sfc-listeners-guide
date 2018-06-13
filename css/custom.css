@@ -267,7 +267,8 @@ main .hero {
 ******************************************************************************/
 .home .recommendations,
 .home .historical-record,
-.home .stats {
+.home .stats,
+.home .testimonials {
     margin-bottom: 4em;
 }
 
@@ -281,6 +282,36 @@ main .hero {
 
 .notification.is-warning h2 {
     color: var(--color-black);
+}
+
+.testimonial {
+    padding: 1.25rem 1.25rem 35px 55px;
+    position: relative;
+}
+
+.testimonial::before {
+    content: "“";
+    font-family: Georgia, serif;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.testimonial::after {
+    content: '— ' attr(data-name);
+    position: absolute;
+    right: 55px;
+    bottom: 5px;
+}
+
+.testimonial.ben {
+    background-color: var(--color-blue-transparent);
+}
+
+.testimonial.matt {
+    background-color: var(--color-orange-transparent);
 }
 
 

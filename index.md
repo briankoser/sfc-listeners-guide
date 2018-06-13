@@ -45,10 +45,19 @@ layout: baseHero
             The guide is not transcripts or even show notes (usually), just a collection of trivia I found interesting:
 
 - [When did Ben first sing “Avataaaaaar”](/episodes/0015-top-5-sci-fi-worlds)?
-- [Which three superhero shows did Matt correctly predict?](/episodes/0029-superhero-summer-movies-recap)
+- [Which three superhero TV shows did Matt correctly predict?](/episodes/0029-superhero-summer-movies-recap)
 - [How many episodes have had a Stan Lee Quote of the Week?](/stats)
 
 And more!
+    </div>
+</div>
+
+<div class="testimonials">
+    <div class="box testimonial ben" data-name="Ben De Bono">
+        I cannot tell you how much I love this...This is my favorite thing any listener has done.
+    </div>
+    <div class="box testimonial matt" data-name="Matt Anderson">
+        It's awesome...I don't know how you could make one better.
     </div>
 </div>
 
