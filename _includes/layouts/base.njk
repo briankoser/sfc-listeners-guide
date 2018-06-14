@@ -22,11 +22,11 @@
         <div class="section">
             {{ layoutContent | safe }}
             
-            {% include "footer.njk" %}
+            {% include "components/footer.njk" %}
         </div>
 
         <script src="/js/lunr.js"></script>
         <script src="/js/sfc-chart.js"></script>        
-        {% include "sitejs.njk" %}
+        {% include "components/sitejs.njk" %}
     </body>
 </html>

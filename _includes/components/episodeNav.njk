@@ -6,7 +6,7 @@
                 <li>
                     <a href="{{ previous.url }}">
                         {% set icon_name = 'arrow-left' %}
-                        {% include "_macros/icon.njk" %}
+                        {% include "macros/icon.njk" %}
                         &nbsp;
                         № {{ previous.number }} {{ previous.title }}
                     </a>
@@ -24,7 +24,7 @@
                         № {{ next.number }} {{ next.title }}
                         &nbsp;
                         {% set icon_name = 'arrow-right' %}
-                        {% include "_macros/icon.njk" %}
+                        {% include "macros/icon.njk" %}
                     </a>
                 </li>
             </ul>

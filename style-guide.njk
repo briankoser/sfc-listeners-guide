@@ -8,19 +8,19 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 <h1 class="title">Colors</h1>
 <div class="swatches clearfix">
     {% set swatch = {'background': 'var(--color-primary)', 'color': 'var(--color-black)', 'text': 'SFC Blue - Nav bar, Links, Archivist'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 
     {% set swatch = {'background': 'var(--color-blue)', 'text': 'Ben Blue'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 
     {% set swatch = {'background': 'var(--color-orange)', 'text': 'Matt Orange'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 
     {% set swatch = {'background': 'var(--color-purple)', 'text': 'Daniel Purple'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 
     {% set swatch = {'background': 'var(--color-pink)', 'color': 'var(--color-black)', 'text': 'Koby Pink'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 </div>
     
 <div class="swatches clearfix">
@@ -31,16 +31,16 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 
 <div class="swatches clearfix">
     {% set swatch = {'background': 'var(--color-black)', 'text': 'Black - Site Background, Text, Prophecies'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 
     {% set swatch = {'background': 'var(--color-white)', 'color': 'var(--color-black)', 'text': 'White - Text, Prophecies, Reviews'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 
     {% set swatch = {'background': 'var(--color-dark-grey)', 'text': 'Dark Grey - Reviews'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 
     {% set swatch = {'background': 'var(--color-medium-grey)', 'text': 'Medium Grey - Quotes, Prophecies'} %}
-    {% include "_macros/swatch.njk" %}
+    {% include "macros/swatch.njk" %}
 </div>
 
 
@@ -61,40 +61,40 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 
 <h2 class="title is-2">Timestamps</h2>
 {% set timestamp = {'url': 'http://thescifichristian.com/2018/03/episode-639-a-brand-new-website-and-other-news', 'time': '1:23:45'} %}
-{% include "_macros/timestamp.njk" %}
+{% include "macros/timestamp.njk" %}
 
 
 
 <h1 class="title is-1">Icons</h1>
 {% set icon_name = 'rewind' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'fast-forward' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'book-open' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'radio' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'user' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'database' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'feather' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'power' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'arrow-left' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'arrow-right' %}
-{% include "_macros/icon.njk" %}
+{% include "macros/icon.njk" %}
 
 {% set icon_name = 'search' %}
 
@@ -204,7 +204,7 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
 <h1 class="title is-1">Prophecies</h1>
 <div class="prophecies">
     {% set prophecySet = [{"host": "Matt", "prediction": "<i class='work-title'>LOST</i> will still be my favorite television show above all other television shows in 5 minutes.", "veracity": true, "comments": "It is indeed still his favorite show"}, {"host": "Ben", "prediction": "Squirrels will be in heaven", "veracity": false, "comments": ""}] %}
-    {% include "_macros/prophecy.njk" %}
+    {% include "macros/prophecy.njk" %}
 </div>
 
 
@@ -226,7 +226,7 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
         "title": "Dissecting Dr. Horrible" 
     }
 } %} 
-{% include "_macros/episodeCard.njk" %}
+{% include "macros/episodeCard.njk" %}
 
 {% set episode = {
     "url": "/episodes/0001-pilot/", 
@@ -243,7 +243,7 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
         "title": "Pilot" 
     }
 } %}
-{% include "_macros/episodeCard.njk" %}
+{% include "macros/episodeCard.njk" %}
 
 {% set episode = {
     "url": "/episodes/0009-attack-of-the-clones/", 
@@ -256,7 +256,7 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
         "title": "Attack of the Clones" 
     }
 } %} 
-{% include "_macros/episodeCard.njk" %}
+{% include "macros/episodeCard.njk" %}
 
 {% set episode = {
     "url": "/episodes/0003-the-dark-knight-on-trial/", 
@@ -273,7 +273,7 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
         "title": "The Dark Knight On Trial" 
     }
 } %} 
-{% include "_macros/episodeCard.njk" %}
+{% include "macros/episodeCard.njk" %}
 
 {% set episode = {
     "url": "/episodes/0004-tolkien-vs-lewis-the-ultimate-smackdown/", 
@@ -286,7 +286,7 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
         "title": "Tolkien Vs. Lewis – The Ultimate Smackdown" 
     }
 } %} 
-{% include "_macros/episodeCard.njk" %}
+{% include "macros/episodeCard.njk" %}
 
 </div>
 </div>
@@ -307,7 +307,7 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
         "year": 2011
     }
 } %}
-{% include "_macros/seasonCard.njk" %}
+{% include "macros/seasonCard.njk" %}
 
 </div>
 </div>
@@ -327,24 +327,24 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
     "title": "Indiana Jones",
     "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt", "rating": "No"}]
 } %} 
-{% include "_macros/review.njk" %}
+{% include "macros/review.njk" %}
 
 {% set review = {
     "title": "Obscure Film",
     "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt"}]
 } %} 
-{% include "_macros/review.njk" %}
+{% include "macros/review.njk" %}
 
 {% set review = {
     "title": "Jeremy Thatcher: Dragon Hatcher",
     "hosts": [{"name": "Ben", "rating": "Uninterested"}, {"name": "Matt", "rating": "Interested"}]
 } %} 
-{% include "_macros/review.njk" %}
+{% include "macros/review.njk" %}
 
 {% set review = {
     "title": "Everything Good In This World",
     "hosts": [{"name": "Koby", "rating": "Don't Know"}]
 } %} 
-{% include "_macros/review.njk" %}
+{% include "macros/review.njk" %}
 
 </div>

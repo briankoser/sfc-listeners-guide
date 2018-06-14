@@ -7,18 +7,18 @@ pageTitle: Episodes
 <div class="episode-list">
     <div class="columns">
         <div class="column is-half">
-            {% include "episodefilter.njk" %}
+            {% include "components/episodefilter.njk" %}
 
         </div>
         <div class="column is-half">
-            {% include "search.njk" %}
+            {% include "components/search.njk" %}
         </div>
     </div>
 
     <div class="columns">
         <div class="column is-half">
             {% set episodelist = collections.episodes | reverse %}
-            {% include "episodelist.njk" %}
+            {% include "components/episodelist.njk" %}
         </div>
     </div>
 </div>
