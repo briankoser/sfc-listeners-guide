@@ -5,6 +5,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "cache-bust": "node bustCache.js",
     "css-build": "node-sass _sass/main.scss css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "search-index-build": "node buildLunrSearchIndex.js",
@@ -13,7 +14,7 @@
     "watch": "npx eleventy --serve",
     "serve": "http-server ./_site",
     "dev": "run-p watch css-build serve",
-    "prod": "npm run css-build && npm run build && npm run search-index-build && npm run typography"
+    "prod": "npm run css-build && npm run build && npm run cache-bust && npm run search-index-build && npm run typography"
   },
   "author": {
     "name": "Brian Koser",
