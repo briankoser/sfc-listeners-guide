@@ -2,33 +2,7 @@
 <div class="column is-half">
 	<div class="series-list">
 		{% for series in serieslist %}
-		<div class="card series-card">
-			<header class="card-header">
-				<p class="card-header-title">
-					{{ series.name }}
-				</p>
-			</header>
-			<div class="columns card-content content">
-				<div class="column is-two-thirds">
-					{{ series.summary | safe }}
-				</div>
-				<div class="column is-one-third">
-					<div class="level series-stats">
-						<div class="level-item has-text-centered">
-							<div>
-								<p class="heading">Episodes</p>
-								<p class="title">{{series.count}}</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<footer class="card-footer">
-				{% set first = series.first %}
-				{% set last = series.last %}
-				{% include "macros/rangeCardFooterItems.njk" %}
-			</footer>
-		</div>
+		{% include "macros/seriesCard.njk" %}
 		{% endfor %}
 	</div>
 </div>
