@@ -226,6 +226,29 @@ module.exports = function(eleventyConfig) {
     
     episodes[0].data.stats.episodes = episodeStats;
 
+    // Categories stats
+    let episodeCategories = episodes
+    .map(episode => {
+      return {
+        'number': episode.data.number,
+        'category': episode.data.category
+      }
+    });
+    let categoryOccurences = episodeCategories
+      .map(episode => episode.category)
+      .reduce((a, b) => a.concat(b), []);
+    let uniqueCategories = [...new Set(categoryOccurences)];
+    let categoryStats = uniqueCategories
+      .map(category => { return {
+        'name': category,
+        'count': categoryOccurences.filter(c => c === category).length,
+        'first': buildLinkModel(episodes.find(episode => episode.data.category === category)),
+        'last': buildLinkModel(episodesReverse.find(episode => episode.data.category === category))
+    } })
+    .sort( (a, b) => b.last.number > a.last.number );
+
+    episodes[0].data.stats.categories = categoryStats;
+
     // Series stats
     let episodeSeries = episodes
     .map(episode => {
