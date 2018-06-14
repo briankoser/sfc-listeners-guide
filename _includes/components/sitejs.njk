@@ -1,6 +1,19 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         /* general functions */
+        let createA = (href, text) => {
+            let a = document.createElement('a');
+            a.href = href;
+            a.innerText = text;
+            return a;
+        }
+
+        let createDiv = className => {
+            let div = document.createElement('div');
+            div.classList.add(className);
+            return div;
+        }
+
         let getQueryStrings = () => {
             let queryDict = {};
             location.search
@@ -10,6 +23,11 @@
                     queryDict[item.split("=")[0]] = item.split("=")[1]
                 })
             return queryDict;
+        }
+
+        let htmlDecode = input => {
+            var doc = new DOMParser().parseFromString(input, "text/html");
+            return doc.documentElement.textContent;
         }
 
 
@@ -91,7 +109,7 @@
                     ol.innerHTML = '';
                     
                     results.forEach(result => {
-                        let a = createA(result.ref, searchStore[result.ref].title);
+                        let a = createA(result.ref, htmlDecode(searchStore[result.ref].title));
                         let li = document.createElement('li');
                         let box = createDiv('box');
                         box.appendChild(a)
@@ -100,19 +118,6 @@
                     })
                 }
             }
-        }
-
-        function createA (href, text) {
-            let a = document.createElement('a');
-            a.href = href;
-            a.innerText = text;
-            return a;
-        }
-
-        function createDiv (className) {
-            let div = document.createElement('div');
-            div.classList.add(className);
-            return div;
         }
 
         function showResults (resultsPane) {
