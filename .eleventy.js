@@ -244,8 +244,16 @@ module.exports = function(eleventyConfig) {
         'count': categoryOccurences.filter(c => c === category).length,
         'first': buildLinkModel(episodes.find(episode => episode.data.category === category)),
         'last': buildLinkModel(episodesReverse.find(episode => episode.data.category === category))
-    } })
-    .sort( (a, b) => b.last.number > a.last.number );
+      } })
+      .sort( (a, b) => {
+        // sort by count of episodes (descending), last episode (descending) 
+        let diff = b.count - a.count;
+        if (diff !== 0) {
+          return diff;
+        }
+
+        return b.last - a.last;
+      });
 
     episodes[0].data.stats.categories = categoryStats;
 
