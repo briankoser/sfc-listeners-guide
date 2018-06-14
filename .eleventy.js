@@ -241,6 +241,7 @@ module.exports = function(eleventyConfig) {
     let categoryStats = uniqueCategories
       .map(category => { return {
         'name': category,
+        'summary': (metadata.categories.find(c => c.name === category) || {}).summary,
         'count': categoryOccurences.filter(c => c === category).length,
         'first': buildLinkModel(episodes.find(episode => episode.data.category === category)),
         'last': buildLinkModel(episodesReverse.find(episode => episode.data.category === category))

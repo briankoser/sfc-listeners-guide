@@ -23,6 +23,20 @@
       {"shortName": "Myles", "fullName": "Myles McLachlan" },
       {"shortName": "CK", "fullName": "C. K. Kubasik" }
     ],
+    "categories": [
+      {"name": "Award Show", "summary": "End of the Year award shows"},
+      {"name": "Clip Show", "summary": "A compilation of previous episodes"},
+      {"name": "Conversation", "summary": "Either no set topic, or so many tangents that the main topic becomes secondary"},
+      {"name": "Countdown", "summary": "Top 5s, Top 50s, Top 100s"},
+      {"name": "Feedback", "summary": "Listener feedback"},
+      {"name": "Interview", "summary": "Interviews, separate from guest host appearances"},
+      {"name": "Literature", "summary": "Discussion of written works, not necessarily 'sci-fi'"},
+      {"name": "Main Topic", "summary": "The catch-all category. Usually a mixture of theology and pop culture."},
+      {"name": "News", "summary": "It's time for Sci-Fi News!"},
+      {"name": "Philosophy", "summary": "I think, therefore I podcast"},
+      {"name": "Review", "summary": "Reviews of books, movies, TV shows"},
+      {"name": "Theology", "summary": "Theology without a sci-fi tie-in"}
+    ],
     "series": [
       {"name": "Bad but Great", "summary": "The quality spectrum is a loop, and these episodes have gone so far towards the bad side they've looped around and are great."},
       {"name": "Ben Sermons", "summary": "Sermons from Protestant Ben."},
