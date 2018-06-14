@@ -5,206 +5,248 @@ pageTitle: Style Guide
 <div class="content">
 Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cyborg theme</a>
 
+
+
 <h1 class="title">Colors</h1>
-<div class="swatches clearfix">
-    {% set swatch = {'background': 'var(--color-primary)', 'color': 'var(--color-black)', 'text': 'SFC Blue - Nav bar, Links, Archivist'} %}
-    {% include "macros/swatch.njk" %}
+<div class="livedemo">
+    <div class="swatches clearfix">
+        {% set swatch = {'background': 'var(--color-primary)', 'color': 'var(--color-black)', 'text': 'SFC Blue - Nav bar, Links, Archivist'} %}
+        {% include "macros/swatch.njk" %}
 
-    {% set swatch = {'background': 'var(--color-blue)', 'text': 'Ben Blue'} %}
-    {% include "macros/swatch.njk" %}
+        {% set swatch = {'background': 'var(--color-blue)', 'text': 'Ben Blue'} %}
+        {% include "macros/swatch.njk" %}
 
-    {% set swatch = {'background': 'var(--color-orange)', 'text': 'Matt Orange'} %}
-    {% include "macros/swatch.njk" %}
+        {% set swatch = {'background': 'var(--color-orange)', 'text': 'Matt Orange'} %}
+        {% include "macros/swatch.njk" %}
 
-    {% set swatch = {'background': 'var(--color-purple)', 'text': 'Daniel Purple'} %}
-    {% include "macros/swatch.njk" %}
+        {% set swatch = {'background': 'var(--color-purple)', 'text': 'Daniel Purple'} %}
+        {% include "macros/swatch.njk" %}
 
-    {% set swatch = {'background': 'var(--color-pink)', 'color': 'var(--color-black)', 'text': 'Koby Pink'} %}
-    {% include "macros/swatch.njk" %}
-</div>
-    
-<div class="swatches clearfix">
-    <div class="swatch notification is-success">Success Green</div>
-    <div class="swatch notification is-warning">Warning Yellow</div>
-    <div class="swatch notification is-danger">Danger Red</div>
-</div>
+        {% set swatch = {'background': 'var(--color-pink)', 'color': 'var(--color-black)', 'text': 'Koby Pink'} %}
+        {% include "macros/swatch.njk" %}
+    </div>
+        
+    <div class="swatches clearfix">
+        <div class="swatch notification is-success">Success Green</div>
+        <div class="swatch notification is-warning">Warning Yellow</div>
+        <div class="swatch notification is-danger">Danger Red</div>
+    </div>
 
-<div class="swatches clearfix">
-    {% set swatch = {'background': 'var(--color-black)', 'text': 'Black - Site Background, Text, Prophecies'} %}
-    {% include "macros/swatch.njk" %}
+    <div class="swatches clearfix">
+        {% set swatch = {'background': 'var(--color-black)', 'text': 'Black - Site Background, Text, Prophecies'} %}
+        {% include "macros/swatch.njk" %}
 
-    {% set swatch = {'background': 'var(--color-white)', 'color': 'var(--color-black)', 'text': 'White - Text, Prophecies, Reviews'} %}
-    {% include "macros/swatch.njk" %}
+        {% set swatch = {'background': 'var(--color-white)', 'color': 'var(--color-black)', 'text': 'White - Text, Prophecies, Reviews'} %}
+        {% include "macros/swatch.njk" %}
 
-    {% set swatch = {'background': 'var(--color-dark-grey)', 'text': 'Dark Grey - Reviews'} %}
-    {% include "macros/swatch.njk" %}
+        {% set swatch = {'background': 'var(--color-dark-grey)', 'text': 'Dark Grey - Reviews'} %}
+        {% include "macros/swatch.njk" %}
 
-    {% set swatch = {'background': 'var(--color-medium-grey)', 'text': 'Medium Grey - Quotes, Prophecies'} %}
-    {% include "macros/swatch.njk" %}
+        {% set swatch = {'background': 'var(--color-medium-grey)', 'text': 'Medium Grey - Quotes, Prophecies'} %}
+        {% include "macros/swatch.njk" %}
+    </div>
 </div>
 
 
 
 <h1 class="title is-1">Typography</h1>
-<p><abbr title="The Sci-Fi Christian Listener's Guide">SFCLG</abbr>
+<div class="livedemo">
+    <p><abbr title="The Sci-Fi Christian Listener's Guide">SFCLG</abbr>
+</div>
 
-<p><span class="glow">Glowing text</span> 
+<div class="livedemo">
+    <p><span class="glow">Glowing text</span> 
+</div>
 
-<p><i class="work-title">The Lord of the Rings</i>
+<div class="livedemo">
+    <p><i class="work-title">The Lord of the Rings</i>
+</div>
+
+
 
 <h2 class="title is-2">Links</h2>
-<p><a href="#">Blue Links</a> for body
+<div class="livedemo">
+    <p><a href="#">Blue Links</a> for body
+</div>
 
-<p><a href="#" class="link-obvious">White Obvious Links</a> for nav, headers
+<div class="livedemo">
+    <p><a href="#" class="link-obvious">White Obvious Links</a> for nav, headers
+</div>
 
-<p><a href="#" class="link-subtle">White Subtle Links</a> for nav, headers
+<div class="livedemo">
+    <p><a href="#" class="link-subtle">White Subtle Links</a> for nav, headers
+</div>
+
+
 
 <h2 class="title is-2">Timestamps</h2>
-{% set timestamp = {'url': 'http://thescifichristian.com/2018/03/episode-639-a-brand-new-website-and-other-news', 'time': '1:23:45'} %}
-{% include "macros/timestamp.njk" %}
+<div class="livedemo">
+    {% set timestamp = {'url': 'http://thescifichristian.com/2018/03/episode-639-a-brand-new-website-and-other-news', 'time': '1:23:45'} %}
+    {% include "macros/timestamp.njk" %}
+</div>
 
 
 
-<h1 class="title is-1">Icons</h1>
-{% set icon_name = 'rewind' %}
-{% include "macros/icon.njk" %}
+<div class="livedemo">
+    <h1 class="title is-1">Icons</h1>
+    {% set icon_name = 'rewind' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'fast-forward' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'fast-forward' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'book-open' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'book-open' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'radio' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'radio' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'user' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'user' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'database' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'database' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'feather' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'feather' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'power' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'power' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'arrow-left' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'arrow-left' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'arrow-right' %}
-{% include "macros/icon.njk" %}
+    {% set icon_name = 'arrow-right' %}
+    {% include "macros/icon.njk" %}
 
-{% set icon_name = 'search' %}
+    {% set icon_name = 'search' %}
+</div>
 
 
 
 <h1 class="title is-1">Tables</h1>
-<table class="table is-striped">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>Random Number</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt Anderson</td>
-      <td class="number-column">5</td>
-    </tr>
-    <tr>
-      <td>Ben De Bono</td>
-      <td class="number-column">123456</td>
-    </tr>
-    <tr>
-      <td>Koby Radcliffe</td>
-      <td class="number-column">0</td>
-    </tr>
-    <tr>
-      <td>Daniel Butcher</td>
-      <td class="number-column">89</td>
-    </tr>
-  </tbody>
-</table>
+<div class="livedemo">
+    <table class="table is-striped">
+    <thead>
+        <tr>
+        <th>Host</th>
+        <th>Random Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>Matt Anderson</td>
+        <td class="number-column">5</td>
+        </tr>
+        <tr>
+        <td>Ben De Bono</td>
+        <td class="number-column">123456</td>
+        </tr>
+        <tr>
+        <td>Koby Radcliffe</td>
+        <td class="number-column">0</td>
+        </tr>
+        <tr>
+        <td>Daniel Butcher</td>
+        <td class="number-column">89</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
 
 
 
 <h1 class="title is-1">Quotes</h1>
-
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
-  <q class="ben">This is a quote with a timestamp.</q>
-  <q class="matt">Hi!</q>
+<div class="livedemo">
+    <div class="quote">
+    <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
+    <q class="ben">This is a quote with a timestamp.</q>
+    <q class="matt">Hi!</q>
+    </div>
 </div>
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
-  <span class="quote-context tag is-size-6">This is a quote with a timestamp and context</span>
-  <q class="daniel">A long, wrapping quote that will go to at least two lines so we may observe how that displays. It must be quite long for those extra-wide monitors that some prefer in this day and age.</q>
-  <q class="koby" data-action="*this is an action*">Hi!</q>
+<div class="livedemo">
+    <div class="quote">
+    <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
+    <span class="quote-context tag is-size-6">This is a quote with a timestamp and context</span>
+    <q class="daniel">A long, wrapping quote that will go to at least two lines so we may observe how that displays. It must be quite long for those extra-wide monitors that some prefer in this day and age.</q>
+    <q class="koby" data-action="*this is an action*">Hi!</q>
+    </div>
 </div>
 
-Some text in a paragraph.
-<q class="archivist">Replying to the paragraph.</q>
-
-<q data-name="Epictetus">It is impossible for anyone to begin to learn that which he thinks he already knows.</q>
-
-<div class="quote" style="margin-top:2em;">
-  <span class="quote-source tag is-size-6">The Hobbit</span>
-  <q data-name="J. R. R. Tolkien">In a hole in the ground there lived a hobbit.</q>
+<div class="livedemo">
+    Some text in a paragraph.
+    <q class="archivist">Replying to the paragraph.</q>
 </div>
 
-<blockquote>
-<p>All you've been saying is quite right, I shouldn't wonder. I'm a chap who always liked to know the worst and then put the best face I can on it. So I won't deny any of what you said. But there's one thing more to be said, even so. Suppose we have only dreamed, or made up, all those things--trees and grass and sun and moon and stars and Aslan himself. Supose we have. Then all I can say is that, in that case, the made-up things seem a good deal more important than the real ones. Suppose this black pit of a kingdom of yours is the only world. Well, it strikes me as a pretty poor one. And that's a funny thing, when you come to think of it. We're just babies making up a game, if you're right. But four babies playing a game can make a play-world which licks your real world hollow. That's why I'm going to stand by the play-world. I'm on Aslan's side even if there isn't any Aslan to lead it. <em>I'm going to live as like a Narnian as I can even if there isn't any Narnia.</em></p>
-<cite>Puddleglum, <i class="work-title">The Silver Chair</i></cite>
-</blockquote>
+<div class="livedemo">
+    <q data-name="Epictetus">It is impossible for anyone to begin to learn that which he thinks he already knows.</q>
+</div>
 
-Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <q class="matt inline">Hey!</q>
+<div class="livedemo">
+    <div class="quote" style="margin-top:2em;">
+    <span class="quote-source tag is-size-6">The Hobbit</span>
+    <q data-name="J. R. R. Tolkien">In a hole in the ground there lived a hobbit.</q>
+    </div>
+</div>
+
+<div class="livedemo">
+    <blockquote>
+    <p>All you've been saying is quite right, I shouldn't wonder. I'm a chap who always liked to know the worst and then put the best face I can on it. So I won't deny any of what you said. But there's one thing more to be said, even so. Suppose we have only dreamed, or made up, all those things--trees and grass and sun and moon and stars and Aslan himself. Supose we have. Then all I can say is that, in that case, the made-up things seem a good deal more important than the real ones. Suppose this black pit of a kingdom of yours is the only world. Well, it strikes me as a pretty poor one. And that's a funny thing, when you come to think of it. We're just babies making up a game, if you're right. But four babies playing a game can make a play-world which licks your real world hollow. That's why I'm going to stand by the play-world. I'm on Aslan's side even if there isn't any Aslan to lead it. <em>I'm going to live as like a Narnian as I can even if there isn't any Narnia.</em></p>
+    <cite>Puddleglum, <i class="work-title">The Silver Chair</i></cite>
+    </blockquote>
+</div>
+
+<div class="livedemo">
+    Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <q class="matt inline">Hey!</q>
+</div>
 
 
 
 <h1 class="title is-1">Top 5 Lists</h1>
-
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Random Things</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Horses
-        <li>Tea kettles
-        <li>Rocket ships
-        <li>Dreams
-        <li>Stone plinths
-      </ol>
-      <ul class="runner-ups">
-        <li>Acrylic plinths
-        <li>Platinum plinths
-      </ul>
+<div class="livedemo">
+    <div class="top-five">
+    <h2 class="has-text-centered">Top 5 Random Things</h2>
+    <div class="columns">
+        <div class="column ben">
+        <h3>Ben</h3>
+        <ol reversed>
+            <li>Horses
+            <li>Tea kettles
+            <li>Rocket ships
+            <li>Dreams
+            <li>Stone plinths
+        </ol>
+        <ul class="runner-ups">
+            <li>Acrylic plinths
+            <li>Platinum plinths
+        </ul>
+        </div>
+        <div class="column matt">
+        <h3>Matt</h3>
+        <ol reversed>
+            <li>The number 5
+            <li>The color mauve
+            <li>The feeling of despair
+            <li>A cool wind on a clear day
+            <li>The smell of what sandpaper feels like
+        </ol>
+        <ul class="runner-ups">
+            <li>Turtles
+        </ul>
+        </div>
     </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The number 5
-        <li>The color mauve
-        <li>The feeling of despair
-        <li>A cool wind on a clear day
-        <li>The smell of what sandpaper feels like
-      </ol>
-      <ul class="runner-ups">
-        <li>Turtles
-      </ul>
     </div>
-  </div>
 </div>
 
 
 
 <h1 class="title is-1">Prophecies</h1>
-<div class="prophecies">
-    {% set prophecySet = [{"host": "Matt", "prediction": "<i class='work-title'>LOST</i> will still be my favorite television show above all other television shows in 5 minutes.", "veracity": true, "comments": "It is indeed still his favorite show"}, {"host": "Ben", "prediction": "Squirrels will be in heaven", "veracity": false, "comments": ""}] %}
-    {% include "macros/prophecy.njk" %}
+<div class="livedemo">
+    <div class="prophecies">
+        {% set prophecySet = [{"host": "Matt", "prediction": "<i class='work-title'>LOST</i> will still be my favorite television show above all other television shows in 5 minutes.", "veracity": true, "comments": "It is indeed still his favorite show"}, {"host": "Ben", "prediction": "Squirrels will be in heaven", "veracity": false, "comments": ""}] %}
+        {% include "macros/prophecy.njk" %}
+    </div>
 </div>
 
 
@@ -315,36 +357,39 @@ Some text <q class="archivist inline">Hi!</q> <q class="ben inline">Hello!</q> <
 
 
 <h1 class="title is-1">Categories</h1>
-{% for category in ['Countdown', 'Feedback', 'Literature', 'Main Topic', 'News', 'Philosophy', 'Review', 'Theology', 'Special', 'Clip Show'] %}
-<p class="title category-{{category | slug}}">{{category}}</p>
-{% endfor %}
-
+<div class="livedemo">
+    {% for category in ['Countdown', 'Feedback', 'Literature', 'Main Topic', 'News', 'Philosophy', 'Review', 'Theology', 'Special', 'Clip Show'] %}
+    <p class="title category-{{category | slug}}">{{category}}</p>
+    {% endfor %}
+</div>
 
 
 
 <h1 class="title is-1">Reviews</h1>
-{% set review = {
-    "title": "Indiana Jones",
-    "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt", "rating": "No"}]
-} %} 
-{% include "macros/review.njk" %}
+<div class="livedemo">
+    {% set review = {
+        "title": "Indiana Jones",
+        "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt", "rating": "No"}]
+    } %} 
+    {% include "macros/review.njk" %}
 
-{% set review = {
-    "title": "Obscure Film",
-    "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt"}]
-} %} 
-{% include "macros/review.njk" %}
+    {% set review = {
+        "title": "Obscure Film",
+        "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt"}]
+    } %} 
+    {% include "macros/review.njk" %}
 
-{% set review = {
-    "title": "Jeremy Thatcher: Dragon Hatcher",
-    "hosts": [{"name": "Ben", "rating": "Uninterested"}, {"name": "Matt", "rating": "Interested"}]
-} %} 
-{% include "macros/review.njk" %}
+    {% set review = {
+        "title": "Jeremy Thatcher: Dragon Hatcher",
+        "hosts": [{"name": "Ben", "rating": "Uninterested"}, {"name": "Matt", "rating": "Interested"}]
+    } %} 
+    {% include "macros/review.njk" %}
 
-{% set review = {
-    "title": "Everything Good In This World",
-    "hosts": [{"name": "Koby", "rating": "Don't Know"}]
-} %} 
-{% include "macros/review.njk" %}
+    {% set review = {
+        "title": "Everything Good In This World",
+        "hosts": [{"name": "Koby", "rating": "Don't Know"}]
+    } %} 
+    {% include "macros/review.njk" %}
+</div>
 
 </div>

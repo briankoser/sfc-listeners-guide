@@ -880,6 +880,13 @@ footer.footer .feather {
     margin-bottom: .25em;
 }
 
+.livedemo {
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
 
 
 /******************************************************************************

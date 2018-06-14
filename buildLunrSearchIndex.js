@@ -4,13 +4,17 @@ const lunr = require('lunr');
 const initialSearchIndexLocation = './_site/data/searchIndex.json';
 const lunrSearchIndexLocation = './_site/data/lunrIndex.json';
 
-const ensureDirectoryExistence = function (filePath) {
+let ensureDirectoryExistence = function (filePath) {
     var dirname = path.dirname(filePath);
     if (fs.existsSync(dirname)) {
         return true;
     }
     ensureDirectoryExistence(dirname);
     fs.mkdirSync(dirname);
+}
+
+let removeEmpty = (obj) => {
+    Object.keys(obj).forEach((key) => (Object.keys(obj[key]).length === 0) && delete obj[key]);
 }
 
 fs.readFile(initialSearchIndexLocation, 'utf8', (err, data) => {
