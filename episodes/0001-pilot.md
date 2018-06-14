@@ -8,7 +8,7 @@ number: 1
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
 date: 2011-01-11
-category: Countdown
+category: Conversation
 series: Recommendations
 hosts:
   - Ben
