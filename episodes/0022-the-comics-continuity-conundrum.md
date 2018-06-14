@@ -79,7 +79,7 @@ Ben and Matt are going to write their Noah fan fiction on the website
 - Noah 2012 (this time, the Ark is not enough!) 
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Dave thinks Christina Hendricks is too buxom to play Wonder Woman</span>
+  <span class="quote-context is-size-6">Dave thinks Christina Hendricks is too buxom to play Wonder Woman</span>
   <q class="ben">I'm not looking at bad stuff, I'm just trying to see if she's buxom.</q>
 </div>
 

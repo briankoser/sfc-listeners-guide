@@ -55,7 +55,7 @@ Koby said <i class="work-title">Firefly</i> can't be a good show because it got 
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/02/episode-44-sci-fi-feedback/#t=33:58">33:58</a>
-  <span class="quote-context tag is-size-6">Matt and Koby discuss how easy it is to podcast</span>
+  <span class="quote-context is-size-6">Matt and Koby discuss how easy it is to podcast</span>
   <q class="matt">You're proving right now how it's not easy.</q>
   <q class="koby">I'm proving right now it's super easy. It's so easy, people. If you ever want to do this, seriously. I'm texting right now, at this very moment.</q>
 </div>

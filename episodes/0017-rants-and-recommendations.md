@@ -48,7 +48,7 @@ Going to Comic Con next year
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="ben">I thought that it was very powerful thematically-</q>
   <q class="matt">That's what you say every time you want to make it sound smart! (bad Ben impression) 'Hmm, I thought it was powerful thematically.'</q>
   <q class="ben">It was!</q>

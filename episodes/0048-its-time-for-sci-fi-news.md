@@ -30,7 +30,7 @@ The Eleventh Doctor is Daniel's least favorite Doctor.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/03/episode-48-its-time-for-sci-fi-news//#t=24:42">24:42</a>
-  <span class="quote-context tag is-size-6">Koby is talking about his dinner from Taco Bell</span>
+  <span class="quote-context is-size-6">Koby is talking about his dinner from Taco Bell</span>
   <q class="matt">I have to tell you something important about this show. I know you haven't haven't been on that much, but part of how this works is if you talk in to the microphone, then everyone can hear you, but if you just talk out in the...oh, are you leaving?</q>
   <q class="koby">I'm going to the bathroom.</q>
   <q class="daniel">That's great!</q>

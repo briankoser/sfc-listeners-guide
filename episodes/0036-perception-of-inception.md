@@ -50,7 +50,7 @@ Matt has recorded [Christmas albums](https://soundcloud.com/lswidbin).
 Ben finished <i class="work-title">The Wire</i> and says it's the greatest show ever made.
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Matt dreamed a girl that he had a crush on in first grade was mean to him on the playground, breaking his crush in real life.</span>
+  <span class="quote-context is-size-6">Matt dreamed a girl that he had a crush on in first grade was mean to him on the playground, breaking his crush in real life.</span>
   <q class="matt">Take that, 'Jenny'!</q>
 </div>
 

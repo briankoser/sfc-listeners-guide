@@ -28,7 +28,7 @@ Matt doesn't like denominations. Ben doesn't know if he agrees.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/05/episode-59-the-history-of-christianity-part-3/#t=15:36">15:36</a>
-  <span class="quote-context tag is-size-6">Matt discusses the Western Schism</span>
+  <span class="quote-context is-size-6">Matt discusses the Western Schism</span>
   <q class="matt">This whole schism separated the church, and there ended up being two popes, Ben. This is crazy.</q>
   <q class="ben">Double popes.</q>
   <q class="matt">Yeah. Double popes. So one in Avignon, and one in Rome.</q>

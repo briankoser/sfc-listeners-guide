@@ -99,13 +99,13 @@ Matt is obsessed with The Rock
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Matt picks John the Disciple as a runner-up Best Sidekick</span>
+  <span class="quote-context is-size-6">Matt picks John the Disciple as a runner-up Best Sidekick</span>
   <q class="ben">It's not a sci-fi sidekick.</q>
   <q class="matt">What? There's tons of sci-fi in the Bible!</q>
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Matt picks "fish" as a runner-up Best Sidekick</span>
+  <span class="quote-context is-size-6">Matt picks "fish" as a runner-up Best Sidekick</span>
   <q class="ben">Just the fish in the ocean?</q>
   <q class="matt">Yep!</q>
   <q class="ben">That might be the worst entry we've ever had on a top five list ever! The fish?!</q>
@@ -113,7 +113,7 @@ Matt is obsessed with The Rock
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">Girlfriends can be a sidekick, everybody. You learned it here on The Sci-Fi Christian.</q>
   <q class="ben">That's basically what a wife is, right?</q>
 </div>

@@ -26,7 +26,7 @@ recommendation_reason: Good discussion with some disagreement between hosts. Unl
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-72-the-amazing-spider-man-movie-review/#t=1:01">1:01</a>
   <div class="quote">
-  <span class="quote-context tag is-size-6">Matt asks Daniel to rate the movie out of 5 stars.</span>
+  <span class="quote-context is-size-6">Matt asks Daniel to rate the movie out of 5 stars.</span>
   <q class="daniel">I'm going to cheat and break the "out of 5". Because there's a Facebook comment from Jason that says 6/10, and I agree with Jason...so I guess that would make it a 3/5 if I was to...</q>
   <q class="matt">It's not exact science.</q>
 </div>

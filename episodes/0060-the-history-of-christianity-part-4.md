@@ -31,7 +31,7 @@ Matt says Martin Luther is "a bit" older than he and Ben. Ben says it's the dumb
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/05/episode-60-the-history-of-christianity-part-4/#t=14:50">14:50</a>
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="ben">I'd like to have a friend named 'Frederick the Wise'.</q>
   <q class="matt">I tell people sometimes that I have a friend named 'Ben the Wise'.</q>
   <q class="ben">Yeah? Quite accurately. I never tell anyone that I have a friend named 'Matt the Wise'.</q>

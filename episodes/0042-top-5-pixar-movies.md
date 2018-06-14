@@ -53,6 +53,6 @@ Pixar had to make the water in <i class="work-title">Finding Nemo</i> look more 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/01/episode-42-top-5-pixar-movies/#t=8:15">8:15</a> Matt realizes that movies aren't "streaming free on Netflix" because he is paying for Netflix every month. 
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Matt says he'll have to have Daniel on again to talk about more Disney or whatever else he's into. </span>
+  <span class="quote-context is-size-6">Matt says he'll have to have Daniel on again to talk about more Disney or whatever else he's into. </span>
   <q class="daniel">We can talk about my collection of spoons next time.</q>
 </div>

@@ -44,7 +44,7 @@ Great history quick history of television
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/08/episode-27-c-k-kubasik-interview/#t=1:18:38">1:18:38</a>
-  <span class="quote-context tag is-size-6">What is it about moral dilemmas that makes stories intriguing?</span>
+  <span class="quote-context is-size-6">What is it about moral dilemmas that makes stories intriguing?</span>
   <q data-name="C. K. Kubasik">It is my belief that these moral dilemas are what storytelling is about.</q>
 </div>
 

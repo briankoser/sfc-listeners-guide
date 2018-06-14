@@ -28,6 +28,8 @@
     --color-yellow: hsl(48, 100%, 67%);
     --color-yellow-transparent: hsla(48, 100%, 67%, 0.2);
     --color-white: white;
+
+    --transition-time: 0.5s;
 }
 
 
@@ -159,6 +161,7 @@ a {
 
 a:hover {
     color: var(--color-primary-light);
+    transition: var(--transition-time);
 }
 
 a.link-obvious,
@@ -278,6 +281,7 @@ main .hero {
 
 .home .recommendations .notification:hover {
     opacity: 0.75;
+    transition: var(--transition-time);
 }
 
 .notification.is-warning h2 {
@@ -405,13 +409,17 @@ main .hero {
 }
 
 a.tag.timestamp.is-rounded {
-    border-radius: 30px 0 0 30px;
-    text-shadow: black 0px 0px 2px;
+    background-color: initial;
+    border-top: 2px solid var(--color-white);
+    border-left: 2px solid var(--color-white);
+    border-radius: 10px;
 }
 
-a.timestamp:hover {
+a.tag.timestamp.is-rounded:hover {
+    background-color: var(--color-primary);
+    text-shadow: var(--color-black) 0px 0px 2px;
     text-decoration: none;
-    opacity: 0.75;
+    transition: .5s;
 }
 
 
@@ -611,8 +619,9 @@ a.timestamp:hover {
 }
 
 .quote-context {
-    border-radius: unset;
-    margin: -4px;
+    display: inline-block;
+    line-height: 1.2em;
+    margin-left: 0.5em;
 }
 
 .quote-context:empty {
@@ -634,6 +643,10 @@ q.archivist::after {
 .quote q.archivist {
     margin-top: 1em;
     display: inline-block;
+}
+
+.content blockquote {
+    border-left-color: var(--color-primary);
 }
 
 q.ben::before {

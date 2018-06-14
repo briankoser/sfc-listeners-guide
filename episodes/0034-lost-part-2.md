@@ -47,7 +47,7 @@ The Scarlet Spider is one of Matt's top 5 superheroes.
 Ben says "Lindelhof" but Matt doesn't call him on it.
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Mark Hamill said Arkham City is the last time he'll voice the Joker.</span>
+  <span class="quote-context is-size-6">Mark Hamill said Arkham City is the last time he'll voice the Joker.</span>
   <q class="matt">At least it's not Kevin Conroy. If we lost him as the voice of Batman...that would be the worst.</q>
   <q class="archivist inline">The next game in the series, Arkham Origins, had different voice actors for Batman and Joker. The final entry, Arkham Knight, featured both Conroy and Hamill.</q>
 </div>

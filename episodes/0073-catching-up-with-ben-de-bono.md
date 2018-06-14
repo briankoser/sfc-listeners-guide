@@ -42,7 +42,7 @@ Ben is tired of mediocre superhero movies.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-73-catching-up-with-ben-de-bono/#t=17:25">17:25</a>
-  <span class="quote-context tag is-size-6">Ben doesn't like going to theatres.</span>
+  <span class="quote-context is-size-6">Ben doesn't like going to theatres.</span>
   <q class="ben">Like for example, we took our kids to go see <i class="work-title">Brave</i> earlier this week. $26! Just for the tickets! We could have bought the stupid DVD for that much.</q>
   <q class="matt">See man? This is why it's way better to be single and childless!</q>
   <q class="ben">I hear ya.</q>
@@ -55,7 +55,7 @@ Matt suggests leaving The Incredible Hulk as a supporting character in the movie
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-73-catching-up-with-ben-de-bono/#t=21:52">21:52</a>
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">So Joss Whedon, <i class="work-title">Cabin in the Woods</i>, you asked me to see it with you, I said 'yes', and then you saw it with somebody else.</q>
   <q class="ben">No, you said, 'No, cuz I'm worried that I'll be scared and wet myself like a little sissy because of how terrifying it is.'</q>
   <q class="matt">This is a paraphrase.</q>
@@ -64,7 +64,7 @@ Matt suggests leaving The Incredible Hulk as a supporting character in the movie
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-73-catching-up-with-ben-de-bono/#t=37:35">37:35</a>
-  <span class="quote-context tag is-size-6">The hosts discuss <i class="work-title">Prometheus</i></span>
+  <span class="quote-context is-size-6">The hosts discuss <i class="work-title">Prometheus</i></span>
   <q class="matt">As with the former Alien movies, there were some intense, horrific images in this one.</q>
   <q class="ben">Did you have to shut your eyes?</q>
   <q class="matt">Yeah. I'm not ashamed to admit that I shut my eyes during things.</q>

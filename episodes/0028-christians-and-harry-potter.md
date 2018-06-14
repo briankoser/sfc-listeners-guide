@@ -72,7 +72,7 @@ Ben would let his children read the books with the caveats that he would want to
 
 # Feedback
 <div class="quote">
-  <span class="quote-context tag is-size-6">The hosts listen to a voicemail from Colin in the UK</span>
+  <span class="quote-context is-size-6">The hosts listen to a voicemail from Colin in the UK</span>
   <q data-name="Colin">How you managed before Ben intrigues me. God certainly brought you two together for a reason.</q>
   <q class="matt">How I managed before you?</q>
   <q class="ben">We don't actually live together.</q>

@@ -51,7 +51,7 @@ SFC is doing another readalong
 They are going to Comic Con next year 
 
 <div class="quote">
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">What's it called when the voice is going over the action?</q>
   <q class="ben">Voiceover.</q>
 </div>
@@ -63,7 +63,7 @@ Idea board
 Ben finished reading <i class="work-title">A Dance with Dragons</i>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">On <i class="work-title">A Dance with Dragons</i></span>
+  <span class="quote-context is-size-6">On <i class="work-title">A Dance with Dragons</i></span>
   <q class="ben">There's way too many cliffhangers at the end of this book for me to wait five and a half years [for the next book in the series].</q>
   <q class="archivist">At this point it's been almost 7 years with no new book, although Season 7 of the show came out in July 2017, exactly 6 years later.</q>
 </div>
@@ -102,7 +102,7 @@ Ben finished reading <i class="work-title">A Dance with Dragons</i>
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="ben">So everyone who goes swimming is doing a Jesus-y thing? </q>
   <q class="matt">It's a runner up.</q>
   <q class="ben">So if I take a bath, I'm being Jesus-y.</q>

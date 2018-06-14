@@ -101,6 +101,6 @@ DeBonism "invented" (God elects, and those elect have the responsibility to make
 # Feedback
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">One of Matt's friends told him that they stopped listening to the podcast because Matt and Ben talk over each other.</span>
+  <span class="quote-context is-size-6">One of Matt's friends told him that they stopped listening to the podcast because Matt and Ben talk over each other.</span>
   <q class="matt">So I threw something at them, and then kicked them. And that friendship is over.</q>
 </div>

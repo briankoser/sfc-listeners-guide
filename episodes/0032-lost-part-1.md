@@ -51,7 +51,7 @@ archivist_note: 5 of Matt's favorite episodes are on my <a href="http://tto.kose
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Ben continues reading through Matt's currently reading list on Goodreads.</span>
+  <span class="quote-context is-size-6">Ben continues reading through Matt's currently reading list on Goodreads.</span>
   <q class="ben"><i class="work-title">Don't Waste Your Life</i> by John Piper</q>
   <q class="matt">Haven't read in at least five years.</q>
   <q class="ben">OK then, how are you possibly currently reading this?</q>
@@ -93,7 +93,7 @@ Mike Poteet suggests a new segment: Take that Science!
 
 # Main Topic
 <div class="quote">
-  <span class="quote-context tag is-size-6">After the pilot, Matt thought the monster on the island was a dinosaur, which did not interest him.</span>
+  <span class="quote-context is-size-6">After the pilot, Matt thought the monster on the island was a dinosaur, which did not interest him.</span>
   <q class="ben">Little did you know that it was a man who got flushed down into a golden toilet in the middle of the jungle.</q>
 </div>
 
@@ -102,20 +102,20 @@ The second, Kate-centric episode also did not interest him.
 The first Locke episode hooked him. 
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Matt says the show is very rewatchable.</span>
+  <span class="quote-context is-size-6">Matt says the show is very rewatchable.</span>
   <q class="matt">Just like the Bible, I'm always picking up new things along the way.</q>
 </div>
 
 The <i class="work-title">LOST</i> mystery that drives Matt crazy is Christian Shephard appearing off the island.
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">They argue about if <i class="work-title">LOST</i> is the best TV show ever.</span>
+  <span class="quote-context is-size-6">They argue about if <i class="work-title">LOST</i> is the best TV show ever.</span>
   <q class="matt">I honestly can't think of a show that I think is better.</q>
   <q class="ben">OK, but you spent your life watching <i class="work-title">Quantum Leap</i>.</q>
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Ben suggests stopping recording and doing a LOST Part 2.</span>
+  <span class="quote-context is-size-6">Ben suggests stopping recording and doing a LOST Part 2.</span>
   <q class="matt">I don't know if I necessarily have prepared enough for...</q>
   <q class="ben">Oh yeah, I will prepare some for that conversation.</q>
   <q class="matt">If we have a week, I will prepare some more.</q>

@@ -34,7 +34,7 @@ spoilers:
 ---
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-70-sci-fi-feedback/#t=7:00">7:00</a>
-  <span class="quote-context tag is-size-6">The hosts discuss possibly doing an episode with Doug about fatherhood, even though Matt is not a father.</span>
+  <span class="quote-context is-size-6">The hosts discuss possibly doing an episode with Doug about fatherhood, even though Matt is not a father.</span>
   <q class="koby">You can kick Matt out then. That would be nice.</q>
   <q class="matt">There could never be a show without me. I've been on every episode. I am 100% a part of The Sci-Fi Christian.</q>
   <q class="koby">Wow, someone has an ego.</q>
@@ -45,6 +45,6 @@ Doug Payton from Atlanta started the [Consider This!](http://considerthis.ctpodc
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-70-sci-fi-feedback/#t=28:44">28:44</a>
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="daniel">Take that, Koby!</q>
 </div>

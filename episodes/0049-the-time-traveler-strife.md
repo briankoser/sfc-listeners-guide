@@ -43,7 +43,7 @@ Koby doesn't like N. T. Wright
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=3:49">3:49</a>
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">Koby: back years ago, I remember you first heard about open theism, and you got so mad. Tell me why.</q>
   <q class="koby">I just don't like it.</q>
   <q class="matt">I'm so glad that you're on the show today.</q>
@@ -67,7 +67,7 @@ God made time stand still for Joshua. <q class="archivist inline">He also made t
 How does God see time? 
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Mere Christianity</span>
+  <span class="quote-context is-size-6">Mere Christianity</span>
   <q data-name="C. S. Lewis">Almost certainly God is not in Time. His life does not consist of moments following one another. If a million people are praying to Him at ten-thirty tonight, He need not listen to them all in that one little snippet which we call ten-thirty. Ten-thirty-and every other moment from the beginning of the world-is always the Present for Him.</q>
 </div>
 
@@ -88,7 +88,7 @@ Not a Scrooge scenario where it's observation only.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=46:36">46:36</a>
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">Let's say that in ten years I time travel for the first time.</q>
   <q class="koby">I doubt it.</q>
   <q class="matt">Back to 1992.</q>
@@ -132,6 +132,6 @@ The last 6 minutes of the show are the hosts trying to come up with episode titl
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=1:18:39">1:18:39</a>
-  <span class="quote-context tag is-size-6">Matt asks if Daniel or Koby has read Slaughterhouse-Five</span>
+  <span class="quote-context is-size-6">Matt asks if Daniel or Koby has read Slaughterhouse-Five</span>
   <q class="koby">I don't read books.</q>
 </div>

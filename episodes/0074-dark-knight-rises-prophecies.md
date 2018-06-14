@@ -50,7 +50,7 @@ Ben says if you lost the sense of touch you'd be paralyzed. Matt disagrees.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-prophecies/#t=5:05">5:05</a>
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">On the other hand though, it would suck to not have any feeling.</q>
   <q class="ben">Well yeah. How would you know if you're naked?</q>
   <q class="matt">Well you would know cuz you can look with your eyes.</q>
@@ -83,7 +83,7 @@ Ben and Matt "sing" along to the <i class="work-title">Batman: The Animated Seri
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-prophecies/#t=37:33">37:33</a>
-  <span class="quote-context tag is-size-6">Matt mentions that Andrew Garfield didn't wear anything under his Spider-Man suit. Ben says it looks pretty tight.</span>
+  <span class="quote-context is-size-6">Matt mentions that Andrew Garfield didn't wear anything under his Spider-Man suit. Ben says it looks pretty tight.</span>
   <q class="matt">I'm not going to let you ruin The Sci-Fi Christian.</q>
 </div>
 
@@ -94,7 +94,7 @@ Ben and Matt "sing" along to the <i class="work-title">Batman: The Animated Seri
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-prophecies/#t=39:44">39:44</a>
-  <span class="quote-context tag is-size-6">Talking about Batman's future in the DC movies</span>
+  <span class="quote-context is-size-6">Talking about Batman's future in the DC movies</span>
   <q class="matt">What if he is the villain in the Superman movie? Not the new one [<i class="work-title">Man of Steel</i>].</q>
   <q class="ben">But then Superman would have to win and that would suck.</q>
   <q class="matt">What if he kills Superman?</q>

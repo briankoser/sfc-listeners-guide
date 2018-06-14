@@ -119,7 +119,7 @@ Matt's deja vu theory: we're all a little bit psychic and we dream about the fut
 </div> 
 
 <div class="quote">
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">A radio had three different cassettes playing at the same time, though we didn't actually hear any music? How is that possible, Ben?</q>
   <q class="ben">...They're blank.</q>
   <q class="matt">You solved the riddle!</q>

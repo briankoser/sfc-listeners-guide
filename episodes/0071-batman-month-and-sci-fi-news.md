@@ -29,7 +29,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-71-batman-month-and-sci-fi-news/#t=49:20">49:20</a>
-  <span class="quote-context tag is-size-6"></span>
+  <span class="quote-context is-size-6"></span>
   <q class="matt">Well, I guess that's all from here! I'm Matt Anderson.</q>
   <q class="koby">I'm Koby Radcliffe.</q>
   <q class="matt">And we're the Sci-Fi Christians.</q>
@@ -48,7 +48,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-71-batman-month-and-sci-fi-news/#t=51:48">51:48</a>
-  <span class="quote-context tag is-size-6">Koby is wearing a pair of Matt's headphones</span>
+  <span class="quote-context is-size-6">Koby is wearing a pair of Matt's headphones</span>
   <q class="koby">Who wears these?</q>
   <q class="matt">The last one to wear those headphones was Ben De Bono, when he was over here.</q>
   <q class="koby">Why are they so large?</q>

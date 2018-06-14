@@ -46,7 +46,7 @@ archivist_note: "It's amusing to hear Matt and Ben attack <i class='work-title'>
 Ben is now done with Stan Lee cameos and end credit scenes
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">On the possibility of of <i class="work-title">The Dark Knight Rises</i> being scary</span>
+  <span class="quote-context is-size-6">On the possibility of of <i class="work-title">The Dark Knight Rises</i> being scary</span>
   <q class="ben">Do you think you'll be able to get through it without holding my hand?</q>
   <q class="matt">I hope not.</q>
 </div>
@@ -97,7 +97,7 @@ Is dystopian fiction always post-apocalyptic fiction?
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">On multiple universes</span>
+  <span class="quote-context is-size-6">On multiple universes</span>
   <q class="ben">What if God makes all your alternate selves fight in a giant cage match?</q>
   <q class="matt">At the end of time? During Judgment Day?</q>
   <q class="ben">Yeah.</q>

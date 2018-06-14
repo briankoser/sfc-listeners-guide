@@ -35,13 +35,13 @@ AMC is starting a Walking Dead talk show
 Matt predicts 3 superhero shows: (19:30, 22:30)
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Matt "predicts" <i class="work-title">Arrow</i> and <i class="work-title">Flash</i></span>
+  <span class="quote-context is-size-6">Matt "predicts" <i class="work-title">Arrow</i> and <i class="work-title">Flash</i></span>
   <q class="ben">Who would you like to be in a CW show? DC character.</q>
   <q class="matt">...I like Flash, I think I'd like to see that. I wouldn't mind seeing Green Arrow. I like Green Arrow.</q>
 </div>
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">Matt "predicts" <i class="work-title">Gotham</i></span>
+  <span class="quote-context is-size-6">Matt "predicts" <i class="work-title">Gotham</i></span>
   <q class="matt">I've said two, I would like to see either Flash or Green Arrow. Who would you pick?</q>
   <q class="ben">Batman.</q>
   <q class="ben">You can't pick Batman.</q>
@@ -61,7 +61,7 @@ Colin from the UK gives a glowing review to Batman: On Stage
 Follow up to State of the Superhero episode 
 
 <div class="quote">
-  <span class="quote-context tag is-size-6">On <i class="work-title">Thor</i> </span>
+  <span class="quote-context is-size-6">On <i class="work-title">Thor</i> </span>
   <q class="ben">I have warmed up to it a little bit.</q>
   <q class="matt">Oh that's interesting. How come? </q>
   <q class="ben">Just because it's so absurd...it's like, you know, you have a friend who's just kind of dumb, and they just say dumb things, and yeah they're stupid but you like hanging out with them because they amuse you, and you learn all sorts of great stuff from them even though it's absolutely ridiculous, and they don't have anything actually sensible to say, there's just something kind of amusing about the relationship because of how absolutely absurd it is.</q>

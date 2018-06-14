@@ -44,7 +44,7 @@ They announce a contest with the prizes being a <i class="work-title">The Curiou
 
 # News
 <div class="quote">
-  <span class="quote-context tag is-size-6">Variety said that Joseph Gordon-Levitt would be playing Alberto Falcone in <i class="work-title">The Dark Knight Rises</i>.</span>
+  <span class="quote-context is-size-6">Variety said that Joseph Gordon-Levitt would be playing Alberto Falcone in <i class="work-title">The Dark Knight Rises</i>.</span>
   <q class="ben">I'm greatly relieved because this means he's not playing Robin...two days later Entertainment Weekly comes out and says..it's definitely not Falcone.</q>
   <q class="matt">I'm keeping my fingers crossed for Robin.</q>
   <q class="ben">Oh my gosh.</q>

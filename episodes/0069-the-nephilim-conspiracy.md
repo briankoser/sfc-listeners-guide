@@ -40,7 +40,7 @@ Theories on who the Nephilim are:
 14:38 Sci fi catholic
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-69-the-nephilim-conspiracy/#t=14:10">14:10</a>
-  <span class="quote-context tag is-size-6">Koby reads a passage from Jubilees 5 about the Nephilim</span>
+  <span class="quote-context is-size-6">Koby reads a passage from Jubilees 5 about the Nephilim</span>
   <q class="matt">Before you read on, can you talk about what The Apocrypha is and why we don't really believe it's true?</q>
   <q class="koby">No!</q>
   <q class="matt">Why?</q>

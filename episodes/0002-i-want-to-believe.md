@@ -50,7 +50,7 @@ Ben says "yes sir" a lot and "yeppers" once.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/#t=13:11">13:11</a>
-  <span class="quote-context tag is-size-6">Regarding <i class="work-title">Pirates of the Caribbean 3: At World's End</i></span>
+  <span class="quote-context is-size-6">Regarding <i class="work-title">Pirates of the Caribbean 3: At World's End</i></span>
   <q class="ben">I hated it. I hated it. I hated it.</q>
 </div>
 
