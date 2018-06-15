@@ -61,23 +61,23 @@ Matt was mildly disappointed on the first view of the movie, liked it better on 
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=1:23:45">40:28</a>
   <span class="quote-context is-size-6"></span>
   <q class="matt">What is Rick Lee James's podcast about? Why was he talking about Batman? I thought he was about music.</q>
-  <q class="ben">Well he's just, he just brings on different intelligent, highly-entertaining, charismatic guests to talk about different topics.</q>
+  <q class="ben">Well he just brings on different intelligent, highly-entertaining, charismatic guests to talk about different topics.</q>
   <q class="matt">So it's not about music.</q>
-  <q class="ben">Not exclusively. He'll have people who've written books on there, he'll have scholars on, he has musicians on, he has geniuses on. You know, he just brings on the best people. It's what he does.</q>
+  <q class="ben">Not exclusively. He'll have people who've written books on there, he'll have scholars on, he has musicians on, he has geniuses on. You know, he just brings on the best people.</q>
 </div>
 
-49:23 lindelof, whedon
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=1:23:45">1:23:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=49:19">49:19</a>
+  <span class="quote-context is-size-6">Joss Whedon has signed on with Marvel through 2015</span>
+  <q class="ben">And how do you think about this news?</q>
+  <q class="matt">Awesome, of course. Joss Whedon is the greatest person other than Damon Lindelof that exists.</q>
+  <q class="ben">Sorry Jesus.</q>
 </div>
 
-52:50 I want my chair back
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=1:23:45">1:23:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=52:34">53:34</a>
+  <span class="quote-context is-size-6">Ben has more free time, so he might start appearing on the podcast again. Matt says he won't welcome Ben back with open arms; his new co-hosts have been dedicated.</span>
+  <q class="ben">But it's not the genius spark that you and I have. Koby gets up to go to the bathroom all the time! He's got the weakest bladder in the world!</q>
+  <q class="matt">He continues to receive text messages after numerous warnings.</q>
+  <q class="ben">You need a co-host who doesn't text and has an ironclad bladder, and that is me. I want my chair back.</q>
 </div>
