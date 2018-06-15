@@ -354,6 +354,12 @@ module.exports = function(eleventyConfig) {
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.tags = tagStats;
 
+    // Timeloops and Recycles
+    let timeloopsRecyclesCount = episodes
+      .filter(e => e.data.hasOwnProperty('time_loop_backward') || e.data.hasOwnProperty('visit'))
+      .length;
+    episodes[0].data.stats.episodes.timeloopsvisits = timeloopsRecyclesCount;
+
     return episodes;
   });
 

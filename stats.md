@@ -39,6 +39,12 @@ Average Length -->
 {{ collections.episodes[0].data.stats.episodes.longestTitle | join(", ") }}
 </div>
 
+<div class="standalone-stat">
+<b>Time Loops and Visits to Other Podcasts</b>
+
+{{collections.episodes[0].data.stats.episodes.timeloopsvisits}}
+</div>
+
 
 
 ### Duplicate Titles
