@@ -15,6 +15,7 @@ hosts:
 guests:
   - Ben
   - Skip Crust
+visit: Epic Life sermon from The Life Report
 
 notable_moments:
 

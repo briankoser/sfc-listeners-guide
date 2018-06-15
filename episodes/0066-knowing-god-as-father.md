@@ -14,7 +14,7 @@ hosts:
   - Matt
 guests:
   - Ben
-recycle: Epic Life sermon from The Life Report
+visit: Epic Life sermon from The Life Report
 
 firsts: 
   - Two episodes released on the same day (№ 65 and 66)
@@ -22,7 +22,6 @@ firsts:
 last_listen: 2018-05-21
 recommendation: yes
 recommendation_reason: Another good sermon
-archivist_note: 
 ---
 
 Sermon Ben preached at Epic Life on 2011-06-19

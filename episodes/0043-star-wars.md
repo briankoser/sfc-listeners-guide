@@ -13,6 +13,7 @@ series: George Lucas
 hosts:
   - Ben
   - Matt
+visit: Life Report № 0 (practice episode 1)
 
 notable_moments:
 firsts: 

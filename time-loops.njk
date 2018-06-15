@@ -106,7 +106,10 @@ pageTitle: Time Loops
     </tbody>
   </table>
 
-## Recycles
+
+
+<h1 class="title">Visits</h1>
+<h2 class="subtitle is-5">Appearances on other podcasts</h2>
 
 <table class="table is-striped">
     <thead>
@@ -116,6 +119,13 @@ pageTitle: Time Loops
       </tr>
     </thead>
     <tbody>
+      {% for episode in collections.visits %}
+      <tr>
+        <td><a href="{{episode.url}}">{{episode.displayTitle}}</a></td>
+        <td>{{episode.visit | safe}}</td>
+      </tr>
+      {% endfor %}
+      <!--
       <tr>
         <td><a href="/episodes/0043-star-wars/">№ 43 Star Wars</a></td>
         <td>Life Report № 0 (practice episode 1)</td>
@@ -128,7 +138,7 @@ pageTitle: Time Loops
         <td><a href="/episodes/0066-knowing-god-as-father/">№ 66 Knowing God as Father</a></td>
         <td>Epic Life sermon from The Life Report</td>
       </tr>
-      <!-- <tr>
+       <tr>
         <td>№ 202</td>
         <td>video</td>
       </tr>

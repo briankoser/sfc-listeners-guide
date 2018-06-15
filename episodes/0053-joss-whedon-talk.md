@@ -12,6 +12,7 @@ category: Main Topic
 hosts:
   - Ben
   - Matt
+visit: Life Report № 0.5 (practice episode 2)
 
 notable_moments:
 

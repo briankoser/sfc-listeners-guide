@@ -413,6 +413,18 @@ module.exports = function(eleventyConfig) {
     return seasonStats;
   });
 
+  eleventyConfig.addCollection("visits", function(collection) {
+    let episodes = collection.getFilteredByTag("episode");
+
+    return episodes
+      .filter(e => e.data.hasOwnProperty('visit'))
+      .map(e => {return {
+        'url': e.url,
+        'displayTitle': `№ ${e.data.number} ${e.data.title}`,
+        'visit': e.data.visit
+      }});
+  })
+
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");

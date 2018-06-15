@@ -14,6 +14,7 @@ hosts:
   - Matt
 guests:
   - Ben
+visit: Epic Life sermon from The Life Report
 
 notable_moments:
 firsts: 
