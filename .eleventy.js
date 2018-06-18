@@ -354,11 +354,12 @@ module.exports = function(eleventyConfig) {
       .sort( (a, b) => b.count > a.count );
     episodes[0].data.stats.tags = tagStats;
 
-    // Timeloops and Recycles
-    let timeloopsRecyclesCount = episodes
-      .filter(e => e.data.hasOwnProperty('time_loop_backward') || e.data.hasOwnProperty('visit'))
-      .length;
-    episodes[0].data.stats.episodes.timeloopsvisits = timeloopsRecyclesCount;
+    // Timeloops and Visits
+    let timeloopsCount = episodes.filter(e => e.data.hasOwnProperty('time_loop_backward')).length;
+    episodes[0].data.stats.episodes.timeloops = timeloopsCount;
+
+    let visitCount = episodes.filter(e => e.data.hasOwnProperty('visit')).length;
+    episodes[0].data.stats.episodes.visits = visitCount;
 
     return episodes;
   });
@@ -386,6 +387,7 @@ module.exports = function(eleventyConfig) {
           'number': episode.data.number,
           'season': episode.data.season,
           'timeloop': !!episode.data.time_loop_backward,
+          'visit': !!episode.data.visit,
           'recommendation': episode.data.recommendation
         };
     });
@@ -401,6 +403,7 @@ module.exports = function(eleventyConfig) {
         newSeason.data.first = seasonEpisodes.find(e => e.season === number);
         newSeason.data.last = seasonEpisodesReverse.find(e => e.season === number);
         newSeason.data.timeloops = seasonEpisodes.filter(e => e.season === number && e.timeloop).length;
+        newSeason.data.visits = seasonEpisodes.filter(e => e.season === number && e.visit).length;
         newSeason.data.counts = {};
         newSeason.data.counts.essential = seasonEpisodes.filter(e => e.season === number && e.recommendation.startsWith('essential')).length;
         newSeason.data.counts.yes = seasonEpisodes.filter(e => e.season === number && e.recommendation.startsWith('yes')).length;
@@ -416,6 +419,15 @@ module.exports = function(eleventyConfig) {
     let recommendationsStats = seasonStats.map(season => 
       [season.data.counts.essential, season.data.counts.yes, season.data.counts.no]);
     seasonStats[0].data.stats.recommendations = recommendationsStats;
+
+    // Season Timeloops and Visits Stats
+    let timeloopVisitsChartData = seasonStats.map(season => { 
+      let normalCount = season.data.count - season.data.timeloops - season.data.visits;
+      return [season.data.timeloops, season.data.visits, normalCount]
+    });
+
+    seasonStats[0].data.stats.timeloopVisitsChart = timeloopVisitsChartData;
+
     return seasonStats;
   });
 

@@ -911,8 +911,12 @@ footer.footer .feather {
 
 .sfc-stacked-bar-chart {
     height: 120px;
-    margin: 30px 0;
-} 
+    margin: 2em 0;
+}
+
+.sfc-stacked-bar-chart-timeloops {
+    margin: 2em 0 4em 0;
+}
 
 
 /******************************************************************************

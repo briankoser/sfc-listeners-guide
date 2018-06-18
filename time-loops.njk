@@ -1,7 +1,27 @@
 ---
 layout: page
-pageTitle: Time Loops
+pageTitle: Time Loops and Visits
 ---
+
+<div id="chart-tag-season-timeloops" class="sfc-chart sfc-stacked-bar-chart sfc-stacked-bar-chart-timeloops"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let chartContainer = document.getElementById('chart-tag-season-timeloops');
+    let options = {
+      chartBarMargin: 10,
+      chartBarHeight: 120,
+      chartBarWidth: 32,
+      chartHeight: 150,
+      labelFontSize: 24
+    };
+    sfcChart.createStackedBarChart(
+        chartContainer, {{collections.seasons[0].data.stats.timeloopVisitsChart | dump}}, options);
+  });
+</script>
+
+
+
+<h2 class="title is-3">Time Loops</h2>
 
 <table class="table is-striped">
     <thead>
@@ -108,7 +128,7 @@ pageTitle: Time Loops
 
 
 
-<h1 class="title">Visits</h1>
+<h2 class="title is-3">Visits</h2>
 <h2 class="subtitle is-5">Appearances on other podcasts</h2>
 
 <table class="table is-striped">
