@@ -26,7 +26,7 @@ Matt's favorite number is 5.
 
 Koby decided it would be his favorite movie before he saw it.
 
-<table class="table is-striped">
+<table class="table is-striped rating">
   <thead>
     <tr>
       <th>Host</th>
