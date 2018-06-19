@@ -723,6 +723,21 @@ q.koby::before {
     background-color: var(--color-red);
 }
 
+@media (max-width: 768px) {
+    .prophecy {
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .prophecy header {
+        border-radius: 7px 7px 0 0;
+    }
+
+    .prophecy .veracity {
+        border-radius: 0 0 7px 7px;
+    }
+}
+
 
 /******************************************************************************
   REVIEW CLASSES
@@ -928,11 +943,6 @@ footer.footer .feather {
     display: inline;
     margin-right: 1em;
 }
-
-
-/******************************************************************************
-  MEDIA QUERIES
-******************************************************************************/
 
 
 
