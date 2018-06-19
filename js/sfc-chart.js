@@ -100,6 +100,26 @@
         }
 
         container.appendChild(svg);
+
+        createLegend(container, options);
+    }
+
+    function createLegend (container, options) {
+        if (options.legend === undefined) {
+            return;
+        }
+
+        let ol = document.createElement('ol');
+        ol.classList.add('chart-legend');
+
+        for (let i = 0; i < options.legend.length; i++) {
+            let li = document.createElement('li');
+            li.innerText = options.legend[i].title;
+            li.style.color = options.legend[i].color;
+            ol.appendChild(li);
+        }
+
+        container.appendChild(ol);
     }
 
     window.sfcChart = {};

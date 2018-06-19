@@ -9,9 +9,9 @@ pageTitle: Time Loops and Visits
     let chartContainer = document.getElementById('chart-tag-season-timeloops');
 
     let bodyStyles = getComputedStyle(document.body);
-    let colors = [bodyStyles.getPropertyValue('--color-primary'), 
-        bodyStyles.getPropertyValue('--color-purple'),
-        bodyStyles.getPropertyValue('--color-dark-grey')];
+    let timeloopsColor = bodyStyles.getPropertyValue('--color-primary');
+    let visitsColor = bodyStyles.getPropertyValue('--color-purple');
+    let colors = [timeloopsColor, visitsColor, bodyStyles.getPropertyValue('--color-dark-grey')];
 
     let options = {
       barMargin: 10,
@@ -19,7 +19,8 @@ pageTitle: Time Loops and Visits
       barWidth: 32,
       colors: colors,
       chartHeight: 150,
-      labelFontSize: 24
+      labelFontSize: 24,
+      legend: [{'title': 'Time Loops', 'color': timeloopsColor}, {'title': 'Visits', 'color': visitsColor}]
     };
 
     sfcChart.createStackedBarChart(

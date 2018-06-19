@@ -12,17 +12,22 @@ Season stats are through episode № {{ collections.episodes.length }}
         let chartContainer = document.getElementById('chart-tag-season-recommendations');
         
         let bodyStyles = getComputedStyle(document.body);
-        let colors = [bodyStyles.getPropertyValue('--color-primary'), 
-            bodyStyles.getPropertyValue('--color-green'),
-            bodyStyles.getPropertyValue('--color-red')];
+        let essentialColor = bodyStyles.getPropertyValue('--color-primary');
+        let listenColor = bodyStyles.getPropertyValue('--color-green');
+        let skipColor = bodyStyles.getPropertyValue('--color-red');
         
         let options = {
             barMargin: 10,
             barHeight: 120,
             barWidth: 32,
             chartHeight: 150,
-            colors: colors,
-            labelFontSize: 24
+            colors: [essentialColor, listenColor, skipColor],
+            labelFontSize: 24,
+            legend: [
+                {'title': 'Essential', 'color': essentialColor}, 
+                {'title': 'Listen', 'color': listenColor},
+                {'title': 'Skip', 'color': skipColor}
+            ]
         };
         
         sfcChart.createStackedBarChart(
