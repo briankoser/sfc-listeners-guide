@@ -422,6 +422,13 @@ a.tag.timestamp.is-rounded:hover {
     transition: .5s;
 }
 
+@media (max-width: 768px) {
+    .hero-body h1.title {
+        font-size: 2rem;
+    }
+}
+
+
 
 /******************************************************************************
   EPISODE LIST CLASSES
