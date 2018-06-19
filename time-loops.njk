@@ -7,13 +7,21 @@ pageTitle: Time Loops and Visits
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     let chartContainer = document.getElementById('chart-tag-season-timeloops');
+
+    let bodyStyles = getComputedStyle(document.body);
+    let colors = [bodyStyles.getPropertyValue('--color-primary'), 
+        bodyStyles.getPropertyValue('--color-purple'),
+        bodyStyles.getPropertyValue('--color-dark-grey')];
+
     let options = {
-      chartBarMargin: 10,
-      chartBarHeight: 120,
-      chartBarWidth: 32,
+      barMargin: 10,
+      barHeight: 120,
+      barWidth: 32,
+      colors: colors,
       chartHeight: 150,
       labelFontSize: 24
     };
+
     sfcChart.createStackedBarChart(
         chartContainer, {{collections.seasons[0].data.stats.timeloopVisitsChart | dump}}, options);
   });

@@ -101,7 +101,7 @@ Average Length -->
             document.addEventListener('DOMContentLoaded', function () {
                 let chartContainer = document.getElementById('chart-tag-{{tag.name | slug}}');
                 let options = {
-                    chartBarWidth: 16,
+                    barWidth: 16,
                     chartHeight: 60,
                     labelFontSize: 18
                 };

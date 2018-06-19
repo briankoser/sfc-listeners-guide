@@ -2,9 +2,7 @@
     "use strict";
 
     let defaultSettings = {
-        primaryColor: getComputedStyle(document.body).getPropertyValue('--color-primary'),
-        yesColor: getComputedStyle(document.body).getPropertyValue('--color-green'),
-        noColor: getComputedStyle(document.body).getPropertyValue('--color-red'),
+        barColor: getComputedStyle(document.body).getPropertyValue('--color-primary'),
         labelColor: getComputedStyle(document.body).getPropertyValue('--color-white'),
         labelFontFamily: 'Consolas, monospace'
     };
@@ -14,7 +12,7 @@
         let settings = Object.assign({}, defaultSettings, options);
         let svg = document.createElementNS(svgNS, 'svg');
         svg.setAttribute('height', settings.chartHeight);
-        svg.setAttribute('width', (settings.chartBarWidth + (settings.chartBarMargin || 0)) * data.length);
+        svg.setAttribute('width', (settings.barWidth + (settings.barMargin || 0)) * data.length);
 
         let barX = 2; // starting point on x-axis
         let heightMultiplier = Math.round(settings.chartHeight / Math.max(...data));
@@ -24,8 +22,8 @@
             let rect = document.createElementNS(svgNS, 'rect');
             rect.setAttribute('x', barX);
             rect.setAttribute('y', settings.chartHeight - height)
-            rect.setAttribute('width', settings.chartBarWidth);
-            rect.setAttribute('fill', settings.primaryColor);
+            rect.setAttribute('width', settings.barWidth);
+            rect.setAttribute('fill', settings.barColor);
             rect.setAttribute('height', height);
             let title = document.createElementNS(svgNS, 'title');
             let titleTextNode = document.createTextNode(data[i]);
@@ -45,7 +43,7 @@
             text.appendChild(title);
             svg.appendChild(text);
 
-            barX += settings.chartBarWidth + (settings.chartBarMargin || 0);
+            barX += settings.barWidth + (settings.barMargin || 0);
         }
 
         container.appendChild(svg);
@@ -55,24 +53,23 @@
         let settings = Object.assign({}, defaultSettings, options);
         let svg = document.createElementNS(svgNS, 'svg');
         svg.setAttribute('height', settings.chartHeight);
-        svg.setAttribute('width', (settings.chartBarWidth + settings.chartBarMargin || 0) * data.length);
+        svg.setAttribute('width', (settings.barWidth + settings.barMargin || 0) * data.length);
 
         let barX = 2; // starting point on x-axis
         let maxSeasonEpisodeCount = Math.max(...data.map(arr => arr.reduce((a, b) => a + b, 0)));
-        let heightMultiplier = Math.round(settings.chartBarHeight / maxSeasonEpisodeCount);
-        let colors = [settings.primaryColor, settings.yesColor, settings.noColor];
+        let heightMultiplier = Math.round(settings.barHeight / maxSeasonEpisodeCount);
 
         for (let i = 0; i < data.length; i++) {
             let season = data[i];
-            let barY = settings.chartBarHeight;
+            let barY = settings.barHeight;
             for (let j = 0; j < season.length; j++) {
                 let height = season[j] * heightMultiplier;
                 let rect = document.createElementNS(svgNS, 'rect');
                 rect.setAttribute('x', barX);
                 barY -= height;
                 rect.setAttribute('y', barY);
-                rect.setAttribute('width', settings.chartBarWidth);
-                rect.setAttribute('fill', colors[j]);
+                rect.setAttribute('width', settings.barWidth);
+                rect.setAttribute('fill', settings.colors[j]);
                 rect.setAttribute('height', height);
 
                 let title = document.createElementNS(svgNS, 'title');
@@ -99,25 +96,10 @@
             text.appendChild(textTitle);
             svg.appendChild(text);
 
-            barX += settings.chartBarWidth + settings.chartBarMargin;
+            barX += settings.barWidth + settings.barMargin;
         }
 
         container.appendChild(svg);
-
-        // <svg height="120" width="220">
-        // <g>
-        //     <rect x="2" y="15" width="32" fill="#f00" height="15"></rect>
-        //     <rect x="2" y="30" width="32" fill="#0f0" height="20"></rect>
-        //     <rect x="2" y="50" width="32" fill="#00f" height="40"></rect>
-        //     <text x="12" y="112" font-family="Consolas, monospace" font-size="24" fill="white">1</text>
-
-        //     <rect x="44" y="0" width="32" fill="var(--color-primary)" height="90">10</rect>
-        //     <text x="54" y="112" font-family="Consolas, monospace" font-size="24" fill="white">2</text>
-
-        //     <rect x="86" y="40" width="32" fill="var(--color-primary)" height="50">2</rect>
-        //     <text x="96" y="112" font-family="Consolas, monospace" font-size="24" fill="white">3</text>
-        // </g>
-        // </svg>
     }
 
     window.sfcChart = {};

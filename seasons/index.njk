@@ -10,13 +10,21 @@ Season stats are through episode № {{ collections.episodes.length }}
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         let chartContainer = document.getElementById('chart-tag-season-recommendations');
+        
+        let bodyStyles = getComputedStyle(document.body);
+        let colors = [bodyStyles.getPropertyValue('--color-primary'), 
+            bodyStyles.getPropertyValue('--color-green'),
+            bodyStyles.getPropertyValue('--color-red')];
+        
         let options = {
-            chartBarMargin: 10,
-            chartBarHeight: 120,
-            chartBarWidth: 32,
+            barMargin: 10,
+            barHeight: 120,
+            barWidth: 32,
             chartHeight: 150,
+            colors: colors,
             labelFontSize: 24
         };
+        
         sfcChart.createStackedBarChart(
             chartContainer, {{collections.seasons[0].data.stats.recommendations | dump}}, options);
     });
