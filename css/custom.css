@@ -351,6 +351,12 @@ main .hero {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .range-card-footer-item .card-footer-item-icon {
+        display: none;
+    }
+}
+
 
 
 /******************************************************************************
