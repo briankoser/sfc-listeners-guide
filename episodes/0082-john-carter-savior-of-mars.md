@@ -34,7 +34,7 @@ recommendation_reason: Less a review than a discussion of the book series and re
         <td class="number-column">2/5</td>
       </tr>
       <tr>
-        <td>Matt Anderson</td>
+        <td>Matt</td>
         <td class="number-column">4/5</td>
       </tr>
       <tr>
