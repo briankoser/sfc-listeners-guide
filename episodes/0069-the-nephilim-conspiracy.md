@@ -16,8 +16,8 @@ hosts:
 
 notable_moments:
 
-last_listen: 2018-06-07
-recommendation: yes
+last_listen: 2018-06-27
+recommendation: skip
 recommendation_reason: Not bad for a season 2 episode. This episode gives you a good look at the dynamic between Matt, Daniel, and Koby. 
 ---
 
