@@ -351,6 +351,12 @@ main .hero {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .range-card-footer-item .card-footer-item-icon {
+        display: none;
+    }
+}
+
 
 
 /******************************************************************************
@@ -421,6 +427,13 @@ a.tag.timestamp.is-rounded:hover {
     text-decoration: none;
     transition: .5s;
 }
+
+@media (max-width: 768px) {
+    .hero-body h1.title {
+        font-size: 2rem;
+    }
+}
+
 
 
 /******************************************************************************
@@ -723,6 +736,21 @@ q.koby::before {
     background-color: var(--color-red);
 }
 
+@media (max-width: 768px) {
+    .prophecy {
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .prophecy header {
+        border-radius: 7px 7px 0 0;
+    }
+
+    .prophecy .veracity {
+        border-radius: 0 0 7px 7px;
+    }
+}
+
 
 /******************************************************************************
   REVIEW CLASSES
@@ -911,13 +939,23 @@ footer.footer .feather {
 
 .sfc-stacked-bar-chart {
     height: 120px;
-    margin: 30px 0;
-} 
+    margin: 2em 0 4em 0;
+}
 
+.sfc-stacked-bar-chart-timeloops {
+    margin: 2em 0 6em 0;
+}
 
-/******************************************************************************
-  MEDIA QUERIES
-******************************************************************************/
+.sfc-chart .chart-legend {
+    font-size: .8em;
+    list-style: none;
+    margin: 0;
+}
+
+.sfc-chart .chart-legend li {
+    display: inline;
+    margin-right: 1em;
+}
 
 
 

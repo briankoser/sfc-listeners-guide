@@ -9,11 +9,17 @@ All stats are through episode № {{ collections.episodes.length }}
 
 ## Episodes
 
-<!-- Longest 
+<div class="standalone-stat">
+<b>Time Loops</b>
 
-Shortest
+{{collections.episodes[0].data.stats.episodes.timeloops}}
+</div>
 
-Average Length -->
+<div class="standalone-stat">
+<b>Visits to Other Podcasts</b>
+
+{{collections.episodes[0].data.stats.episodes.visits}}
+</div>
 
 <div class="standalone-stat">
 <b>Oldest Episode Not Time Looped</b>
@@ -27,6 +33,12 @@ Average Length -->
 № {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.title}} ({{collections.episodes[0].data.stats.episodes.quickestTimeLoop.gap}} episodes between original and time loop)
 </div>
 
+<!-- Longest 
+
+Shortest
+
+Average Length -->
+
 <div class="standalone-stat">
 <b>Shortest Episode Title</b>
 
@@ -37,12 +49,6 @@ Average Length -->
 <b>Longest Episode Title</b>
 
 {{ collections.episodes[0].data.stats.episodes.longestTitle | join(", ") }}
-</div>
-
-<div class="standalone-stat">
-<b>Time Loops and Visits to Other Podcasts</b>
-
-{{collections.episodes[0].data.stats.episodes.timeloopsvisits}}
 </div>
 
 
@@ -95,7 +101,7 @@ Average Length -->
             document.addEventListener('DOMContentLoaded', function () {
                 let chartContainer = document.getElementById('chart-tag-{{tag.name | slug}}');
                 let options = {
-                    chartBarWidth: 16,
+                    barWidth: 16,
                     chartHeight: 60,
                     labelFontSize: 18
                 };
