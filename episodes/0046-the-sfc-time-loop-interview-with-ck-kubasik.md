@@ -14,7 +14,7 @@ hosts:
   - Matt
 guests:
   - C. K. Kubasik
-time_loop_backward: {"number": 27}
+time_loop_backward: [{"number": 27}]
 
 notable_moments:
 firsts: 

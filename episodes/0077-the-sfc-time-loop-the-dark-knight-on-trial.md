@@ -13,7 +13,7 @@ series: Batman Month
 hosts:
   - Ben
   - Matt
-time_loop_backward: {"number": 3}
+time_loop_backward: [{"number": 3}]
 
 notable_moments:
 

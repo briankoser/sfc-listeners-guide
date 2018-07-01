@@ -19,7 +19,7 @@ hosts:
   - Koby
 guests:
   - 
-time_loop_backward: {"number": }
+time_loop_backward: [{"number": }]
 visit: 
 
 notable_moments:

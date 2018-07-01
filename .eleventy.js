@@ -73,6 +73,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
+    console.log(`first url: ${episodes[0].url}`)
     let episodesReverse = Object.assign([], episodes);
     episodesReverse.reverse();
 
@@ -85,6 +86,7 @@ module.exports = function(eleventyConfig) {
       let title = episode.data.title;
       let number = episode.data.number;
       let season = episode.data.season;
+      console.log(`number: ${number}, url: ${url}`);
 
       return {url, title, number, season};
     };
@@ -107,8 +109,10 @@ module.exports = function(eleventyConfig) {
       // time loop backward url
       let timeLoopBackward = episodes[i].data.time_loop_backward;
       if (timeLoopBackward) {
-        let pastEpisode = episodes.filter(e => e.data.number === timeLoopBackward.number)[0];
-        timeLoopBackward.url = (pastEpisode || {}).url;
+        for (let i = 0; i < timeLoopBackward.length; i++) {
+          let pastEpisode = episodes.filter(e => e.data.number === timeLoopBackward[i].number)[0];
+          timeLoopBackward[i].url = (pastEpisode || {}).url;
+        } 
       }
 
       // combine `hosts` and `guests` into `appearances`
@@ -386,7 +390,7 @@ module.exports = function(eleventyConfig) {
           'title': episode.data.title,
           'number': episode.data.number,
           'season': episode.data.season,
-          'timeloop': !!episode.data.time_loop_backward,
+          'timeloop': (episode.data.time_loop_backward || {}).length > 0,
           'visit': !!episode.data.visit,
           'recommendation': episode.data.recommendation
         };

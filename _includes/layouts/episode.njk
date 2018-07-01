@@ -62,11 +62,9 @@ layout: baseNavBar
                 <div>
                     <p class="heading">Time Loop of</p>
                     <p class="title">№ 
-                        {% if time_loop_backward.url %}
-                        <a href="{{time_loop_backward.url}}" class="link-subtle">{{time_loop_backward.number}}</a>
-                        {% else %}
-                        {{time_loop_backward.number}}
-                        {% endif %}
+                        {% for episode in time_loop_backward %}
+                        <a href="{{episode.url}}" class="link-subtle">{{episode.number}}</a>
+                        {% endfor %}
                     </p>
                 </div>
             </div>
