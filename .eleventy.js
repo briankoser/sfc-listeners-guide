@@ -73,7 +73,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
-    console.log(`first url: ${episodes[0].url}`)
     let episodesReverse = Object.assign([], episodes);
     episodesReverse.reverse();
 
@@ -86,7 +85,6 @@ module.exports = function(eleventyConfig) {
       let title = episode.data.title;
       let number = episode.data.number;
       let season = episode.data.season;
-      console.log(`number: ${number}, url: ${url}`);
 
       return {url, title, number, season};
     };
