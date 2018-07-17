@@ -58,7 +58,7 @@ What is the overall story of the Nolan Batman trilogy?
 Matt was mildly disappointed on the first view of the movie, liked it better on the second view.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=1:23:45">40:28</a>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=40:28">40:28</a>
   <span class="quote-context is-size-6"></span>
   <q class="matt">What is Rick Lee James's podcast about? Why was he talking about Batman? I thought he was about music.</q>
   <q class="ben">Well he just brings on different intelligent, highly-entertaining, charismatic guests to talk about different topics.</q>

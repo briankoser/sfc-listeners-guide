@@ -50,7 +50,7 @@ Ben transferred to a Catholic college before even considering converting.
 
 8:50 raise some eyebrows
 <div class="quote">
-  <a class="timestamp tag is-medium is-primary" href="http://thescifichristian.com/2012/08/episode-79-the-sci-fi-catholic/#t=1:23:45">8:53</a>
+  <a class="timestamp tag is-medium is-primary" href="http://thescifichristian.com/2012/08/episode-79-the-sci-fi-catholic/#t=8:53">8:53</a>
   <q class="ben">So I started to read the Catechism of the Catholic Church, and I started to read the apostolic fathers, so the earliest New Testament writings.</q>
   <q class="matt">You didn't put those on Goodreads. You were keeping them under wraps.</q>
   <q class="ben">Apostolic fathers is there. I have several books that I've read in the last several months that aren't on Goodreads.</q>
@@ -73,7 +73,7 @@ Ben says he may have time to podcast again.
 Ben also took up pipe smoking and cut off his ponytail.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-primary" href="http://thescifichristian.com/2012/08/episode-79-the-sci-fi-catholic/#t=1:23:45">17:36</a>
+  <a class="timestamp tag is-medium is-primary" href="http://thescifichristian.com/2012/08/episode-79-the-sci-fi-catholic/#t=17:36">17:36</a>
   <q class="matt">I was already, as opposed to some evangelicals, I was pretty for Catholicism. Now I'm even more, cuz if Ben is for it, who can be against it?</q>
 </div>
 
