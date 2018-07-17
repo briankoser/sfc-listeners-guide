@@ -30,9 +30,6 @@ last_listen: 2018-02-28
 recommendation: yes-timeloop
 recommendation_reason: Great discussion of themes from <i class="work-title">The Lord of the Rings</i>.
 ---
-# Opening
-
-
 # News
 Matt corrects Ben on "Lindelhof" <q class="archivist inline">I don't think Ben's doing it deliberately yet</q>
 

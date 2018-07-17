@@ -419,6 +419,7 @@ a.tag.timestamp.is-rounded {
     border-top: 2px solid var(--color-white);
     border-left: 2px solid var(--color-white);
     border-radius: 10px;
+    margin-right: 0.5em;
 }
 
 a.tag.timestamp.is-rounded:hover {
@@ -634,7 +635,6 @@ a.tag.timestamp.is-rounded:hover {
 .quote-context {
     display: inline-block;
     line-height: 1.2em;
-    margin-left: 0.5em;
 }
 
 .quote-context:empty {
