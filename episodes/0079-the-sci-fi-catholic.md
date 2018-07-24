@@ -48,7 +48,6 @@ Ben says one reason Catholics get a bad rap is confusion about salvation by work
 
 Ben transferred to a Catholic college before even considering converting.
 
-8:50 raise some eyebrows
 <div class="quote">
   <a class="timestamp tag is-medium is-primary" href="http://thescifichristian.com/2012/08/episode-79-the-sci-fi-catholic/#t=8:53">8:53</a>
   <q class="ben">So I started to read the Catechism of the Catholic Church, and I started to read the apostolic fathers, so the earliest New Testament writings.</q>
