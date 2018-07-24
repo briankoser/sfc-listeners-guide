@@ -17,6 +17,8 @@ hosts:
   - Koby
 
 notable_moments:
+firsts:
+  - All four hosts together
 future_episodes: 
   - Listener feedback on The Dark Knight Rises
 
