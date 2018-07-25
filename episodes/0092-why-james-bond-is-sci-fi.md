@@ -35,6 +35,8 @@ Daniel compares James Bond to Batman.
 
 Is James Bond morally justified?
 
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-92-why-james-bond-is-sci-fi/#t=19:53">19:53</a> Listen 40 seconds for the most unintentionally-innapropriate moment in Sci-Fi Christian history
+
 
 
 # Spoilers
