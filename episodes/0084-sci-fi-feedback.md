@@ -18,7 +18,7 @@ notable_moments:
 future_episodes: 
   - G. T. Anders's book <i class="work-title">Tower of Babel</i>
   - Brady's book Duncan Ross 
-  - what should Matt write a book about?
+  - What should Matt write a book about?
 
 last_listen: 2018-06-19
 recommendation: no

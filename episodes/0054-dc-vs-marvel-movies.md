@@ -11,8 +11,8 @@ date: 2012-05-03
 category: Main Topic
 hosts:
   - Matt
-  - Koby 
   - Daniel
+  - Koby
 guest:
   - Ben
 

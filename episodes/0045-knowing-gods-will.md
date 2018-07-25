@@ -21,7 +21,7 @@ firsts:
   - Sermon
 
 last_listen: 2018-04-26
-recommendation: listen
+recommendation: yes
 recommendation_reason: Great sermon on a different way to think about "God's will".
 archivist_note: In hindsight, it's easy to hear the Catholic views Ben holds at this point before actually making the switch (mostly as he talks about the sacraments and receiving grace through communion).
 ---

@@ -165,7 +165,7 @@ Ben is worried about <i class="work-title">The Hobbit</i> becoming a trilogy <q 
   <q class="matt">I haven't seen Space Odyssey, 2001.</q>
   <q class="ben">I only watched part of it.</q>
   <q class="matt">Not good, or it was OK?</q>
-  <q class="ben">I got bored, cuz the first 30 minutes is just monkies dancing around.</q>
+  <q class="ben">I got bored, cuz the first 30 minutes is just monkeys dancing around.</q>
   <q class="matt">Hmm, interesting. I'll have to check that out.</q>
-  <q class="ben">Like I'm not even kidding! The movie starts with 30 minutes of monkies!</q>
+  <q class="ben">Like I'm not even kidding! The movie starts with 30 minutes of monkeys!</q>
 </div>
