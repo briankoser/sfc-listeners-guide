@@ -15,7 +15,7 @@ hosts:
 
 notable_moments:
 firsts:
-  - Feedback from Alan Reini
+  - Feedback from Allan Reini
   - Mention of <i class="work-title">Flight of the Angels</i>
   - Feedback from Robin in the UK
 future_episodes: 
@@ -53,38 +53,24 @@ Matt is reading Brady's book, Alan and Aaron's book (<i class="work-title">Fligh
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=37:04">37:04</a>
   <span class="quote-context is-size-6"></span>
   <q class="matt">Did you listen to this episode? Tell me the truth. The Batman Live instant reaction?</q>
-  <q class="koby"></q>
+  <q class="koby">Um, I listened to part of it, but I was laughing, so I just shut it off.</q>
   <q class="matt">Because you hate humor.</q>
 </div>
 
-Robin from the UK is going back and listening to every episode from the beginning, even though there are a lot of them. <q class="archivist inline">Hahaha</q>
+Robin from the UK is going back and listening to every episode from the beginning, even though there are a lot of them. <q class="archivist inline">Ha ha ha</q>
 
-43:08 Ben Bullies koby instead of Matt 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=3:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
-</div>
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=43:13">43:13</a> Matt is happy that Koby is on the podcast now, because it means that Ben now has someone else to bully.
 
-44:06 punch Ben in the face 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=3:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=43:42">43:42</a>
+  <q class="matt">I can literally feel your pain because I have it still in my heart from Season 1. Here in Season 2 it's been a little bit better, I've got a little bit more respect because I kept the ship afloat. You, however, have been kind of brutally bullied by him.</q>
+  <q class="koby">Just unwarranted. And I've dealth with bullies in the past; I'm just going to punch him in the face.</q>
 </div>
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=45:00">45:00</a> Koby suggests doing a live episode.
-<q class="archivist inline">They did in № 500.</q>
+<q class="archivist inline">They will in № 500.</q>
 
-46:03 emancipated, koby cartoon character
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=3:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
-</div>
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=46:15">46:15</a> Robin in the UK says the show is so good because Matt eventually became "emancipated" from Ben. Also, Koby "sounds like a cartoon character, but in a good way." Also, Daniel failed to "hold his attention as much as the glory days."
 
 Matt promises to do more news episodes in 2013.
 
@@ -92,20 +78,16 @@ Some listeners, like Robin in the UK, have written in to say they prefer Season 
 
 Koby thinks Black Panther's superpower is that he turns into a panther.
 
-59:06 Koby thinks black Panther movie will not do well
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=3:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=59:03">3:45</a>
+  <q class="koby">You make a Black Panther movie, people are going to be like, 'What's that?'</q>
 </div>
+<q class="archivist inline"><i class="work-title">Black Panther</i> was the fifth-biggest opening of all time, and brought in $1.3 billion worldwide to become the most lucrative comic book movie ever.</q>
 
-1:08:10 LaHaye 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=3:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=1:08:11">1:08:11</a>
+  <span class="quote-context is-size-6">The Reinis pitch <i class="work-title">Flight of the Angels</i> to Matt.</span>
+  <q data-name="Allan Reini">If you like <i class="work-title">Flight of the Angels</i>, our names are Allan and Aaron Reini, and it would be an honor to have it reviewed by The Sci-Fi Christian. If you don't like it, our names are Jerry Jenkins and Tim LaHaye, and we wrote <i class="work-title">Left Behind</i>.</q>
 </div>
 
 Matt's favorite Bible version is the ESV.
