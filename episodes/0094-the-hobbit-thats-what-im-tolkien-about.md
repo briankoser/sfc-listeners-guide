@@ -48,7 +48,7 @@ Bilbo is implied to be the author of <i class="work-title">The Hobbit</i>.
 
 Tolkien heavily retconned <i class="work-title">The Hobbit</i>: Gandalf's motivation for helping the quest, the nature of the Ring, the relationship between dwarves and elves, and especially how Bilbo gets the Ring from Gollum. 
 
-The biggest theme of the book is Bilbo's growth from a joke to a hero. <q class="archivist inline">One of my 3 issues with the movie is that it didn't keep this theme.</q>
+The biggest theme of the book is Bilbo's growth from a joke to a hero. <q class="archivist inline">One of my three issues with the movie is that it didn't keep this theme.</q>
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-what-im-tolkien-about/#t=49:39">49:39</a>
