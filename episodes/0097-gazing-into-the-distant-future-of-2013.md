@@ -32,40 +32,34 @@ spoilers:
 - <i class="work-title">Star Trek Into Darkness</i>
 ---
 # Opening
-1:34 we walked hand in hand in our gowns.
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="#t=1:23:45">1:23:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-97-gazing-into-the-distant-future-of-2013/#t=00:01:33">1:33</a>
+  <span class="quote-context is-size-6">Matt says he and Ben graduated together from Northwestern this past May.</span>
+  <q class="ben">We walked hand in hand in our gowns.</q>
 </div>
 
 Ben will finish his ThM (Masters of Theology) in the spring.
 
-9:05 huge drunk 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="#t=1:23:45">1:23:45</a>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-97-gazing-into-the-distant-future-of-2013/#t=00:09:07">9:07</a>
   <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <q class="matt">I don't know if people know this, but I don't drink alcohol, and Ben is basically a huge drunk most days.</q>
 </div>
 
 Ben's favorite beer is Guinness.
 
 Why do so many Christians not drink?
-<q class="archivist inline">It's pretty easy to read verses like Proverbs 23:31 (Do not look at wine when it is red) and Ephesians 5:18 (do not get drunk with wine) and believe it's wrong. That's how I was always taught, although I personally now think it's OK.</q>
+<q class="archivist inline">It's pretty easy to read verses like Proverbs 23:31 (Do not look at wine when it is red) and Ephesians 5:18 (do not get drunk with wine) and believe it's wrong. That's how I was always taught, although I personally now think drinking is OK.</q>
 
 
 
 # Main Topic
 Ben is going to restart the <i class="work-title">Game of Thrones</i> video reviews.
 
-24:40 how much koby
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="#t=1:23:45">1:23:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-97-gazing-into-the-distant-future-of-2013/#t=00:24:39">24:39</a>
+  <span class="quote-context is-size-6">Matt wants to record 100 episodes in Season 3.</span>
+  <q class="ben">I can't record two a week, so think of how much Koby you're going to have to have in there. Bad idea.</q>
 </div>
 
 Matt wants to do "some sort of <i class="work-title">X-Files</i> retrospective".
