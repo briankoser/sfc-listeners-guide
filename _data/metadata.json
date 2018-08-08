@@ -24,13 +24,14 @@
       {"shortName": "CK", "fullName": "C. K. Kubasik" }
     ],
     "categories": [
+      {"name": "Announcements", "summary": "Shows dedicated to life or show announcements"},
       {"name": "Award Show", "summary": "End of the Year award shows"},
       {"name": "Clip Show", "summary": "A compilation of previous episodes"},
       {"name": "Conversation", "summary": "Either no set topic, or so many tangents that the main topic becomes secondary"},
       {"name": "Countdown", "summary": "Top 5s, Top 50s, Top 100s"},
       {"name": "Feedback", "summary": "Listener feedback"},
       {"name": "Interview", "summary": "Interviews, separate from guest host appearances"},
-      {"name": "Literature", "summary": "Discussion of written works, not necessarily 'sci-fi'"},
+      {"name": "Literature", "summary": "Discussions of classic books"},
       {"name": "Main Topic", "summary": "The catch-all category. Usually a mixture of theology and pop culture."},
       {"name": "News", "summary": "It's time for Sci-Fi News!"},
       {"name": "Philosophy", "summary": "I think, therefore I podcast"},
@@ -39,16 +40,19 @@
     ],
     "series": [
       {"name": "Bad but Great", "summary": "The quality spectrum is a loop, and these episodes have gone so far towards the bad side they've looped around and are great."},
-      {"name": "Ben Sermons", "summary": "Sermons from Protestant Ben."},
+      {"name": "Batman Month", "summary": "All the episodes in the month around The Dark Knight Rises premiere were on Batman."},
+      {"name": "Catholicism", "summary": "Discussion about Ben's conversion or Catholic teaching."},
       {"name": "Clones", "summary": "Morality regarding clones. The first episode generated so much good feedback it became a mini-series."},
       {"name": "Disney-Pixar", "summary": "A quick two-parter including some of Daniel Butcher's best work."},
-      {"name": "End of the Year Listener Appreciation Jubilees", "summary": "The annual end of year award shows"},
+      {"name": "Feuds", "summary": "Arguments with other podcasts."},
       {"name": "George Lucas", "summary": "The man, the myth, the beard. The behind-the-scenes looks at Star Wars are as interesting as anything Lucas himself produced."},
       {"name": "History of Christianity", "summary": "A project for one of Matt's Master's classes. One of the most infamous series in the show's history."},
       {"name": "LOST", "summary": "Matt's favorite show of all time"},
       {"name": "Recommendations", "summary": "Follow Ben and Matt's likes and dislikes through the years."},
+      {"name": "Sermons", "summary": "Sermons from Protestant Ben and Mike Poteet."},
       {"name": "State of the Superhero Movie", "summary": "Superhero movie eras, trends, and predictions. The story of two men who loved superhero movies; one remained in love while the other's love turned to hate."},
-      {"name": "Supernatural Creatures", "summary": "A favorite choice of topic early in the show."}
+      {"name": "Supernatural Creatures", "summary": "A favorite choice of topic early in the show."},
+      {"name": "Tolkien", "summary": "Discussion about the books and films set in Middle Earth."}
     ],
     "tags": [
       {"slug": "dark-knight-news", "name": "Dark Knight News"},

@@ -11,6 +11,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/07/episode-24-the-sci-fi-feud/
 date: 2011-07-07
 category: Review
+series: Feuds
 hosts:
   - Ben
   - Matt

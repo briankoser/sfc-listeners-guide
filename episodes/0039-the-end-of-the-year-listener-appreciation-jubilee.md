@@ -9,7 +9,6 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-38-the-end-of-the-year-listener-appreciation-jubilee/
 date: 2011-12-25
 category: Award Show
-series: End of the Year Listener Appreciation Jubilees
 hosts:
   - Ben
   - Matt

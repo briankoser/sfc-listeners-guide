@@ -9,7 +9,6 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-100-the-sci-fi-christian-end-of-the-year-listener-appreciation-jubilee/
 date: 2012-12-25
 category: Award Show
-series: Listener Appreciation Jubilees
 hosts:
   - Ben
   - Matt
