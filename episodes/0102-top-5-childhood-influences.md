@@ -93,7 +93,8 @@ Season 3, still using the Dr. Horrible main topic transition.
   <q class="matt">With abductions, on a scale of one to five, how often during your abductions are you probed? Koby. Five being 'often', one being 'not so much, just here and there'.</q>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/#t=00:38:51">38:51</a> Matt tells the story of Hercules yelling, "Disappointed"! <q class="archivist inline"><a href="https://www.youtube.com/watch?v=_O1hM-k3aUY">YouTube link</a></q>
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/#t=00:38:51">38:51</a> Matt tells the story of Hercules yelling, "Disappointed"! 
+<q class="archivist"><a href="https://www.youtube.com/watch?v=_O1hM-k3aUY">YouTube link</a></q>
 
 The only reason Koby started watching Netflix is because they got <i class="work-title">Power Rangers</i>.
 
@@ -107,16 +108,14 @@ The only reason Koby started watching Netflix is because they got <i class="work
   <q class="koby">I wish I had one. Seriously.</q>
 </div>
 
-57:15 
-
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/#t=00:57:10">57:10</a>
   <q class="matt">Alright, number one!</q>
   <q class="daniel">Number one for Matthew.</q>
   <q class="matt">Yes, number one.</q>
   <q class="koby">It better not be pathetic.</q>
+  <q class="archivist">Pathetic like wanting a Power Rangers tattoo at 24?</q>
 </div>
-<q class="archivist inline">Pathetic like wanting a Power Rangers tattoo at 24?</q>
 
 Matt wants to release 100 episodes in Season 3.
 
@@ -133,4 +132,4 @@ Daniel admits that there's a Disney movie that's terrible: <i class="work-title"
   <q class="matt">Still recording, folks.</q>
   <q class="daniel">I'm aware.</q>
 </div>
-<q class="archivist inline">Guessing this is a reference to Matt getting engaged in № 111</q>
+<q class="archivist inline">Guessing this is a reference to Matt getting engaged (№ 111)</q>
