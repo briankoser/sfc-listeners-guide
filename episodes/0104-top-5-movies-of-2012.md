@@ -29,7 +29,7 @@ recommendation_reason: Just a list of 2012 movies.
       <ol reversed>
         <li>Cabin in the Woods
         <li>The Hobbit
-        <li>Prometheus 
+        <li>Prometheus
         <li>The Dark Knight Rises
         <li>The Avengers
       </ol>

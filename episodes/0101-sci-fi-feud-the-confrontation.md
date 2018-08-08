@@ -14,7 +14,7 @@ hosts:
   - Matt
   - Daniel
   - Koby
-visit: 
+guests: 
   - Ben Avery
   - Steve MacDonald
 

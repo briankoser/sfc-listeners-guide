@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-66-knowing-god-as-father/
 date: 2012-06-17
 category: Theology
-series: Ben Sermons
+series: Sermons
 hosts:
   - Matt
 guests:
