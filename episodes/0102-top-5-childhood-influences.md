@@ -21,15 +21,15 @@ future_episodes:
   - Top 5 Current Sci-Fi favorites
   - Top 5 2012 Sci-Fi movies
 
-last_listen: 2013-07-27
+last_listen: 2018-07-27
 recommendation: no
 recommendation_reason: Brief lists of the Koby, Daniel, and Matt's childhood sci-fi favorites.
 ---
 # Opening
 
-Daniel is 37
-Matt is 30
-Koby is 24
+- Daniel is 37
+- Matt is 30
+- Koby is 24
 
 Matt was Koby's youth leader.
 
