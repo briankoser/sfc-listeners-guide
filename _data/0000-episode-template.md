@@ -10,6 +10,7 @@ title:
 number: 
 season: 3
 podcast_url: 
+podcast_file_url: 
 date: 
 category: 
 series: 
