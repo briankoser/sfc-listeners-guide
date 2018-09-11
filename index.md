@@ -101,11 +101,11 @@ And more!
     </div>
 </div>
 
-<article class="message is-warning">
+<!-- <article class="message is-warning">
     <div class="message-header">
         Progress Stopped
     </div>
     <div class="message-body">
         Cannot complete the next episode until I: <strong>watch <i class="work-title">Looper</i></strong>
     </div>
-</div>
+</div> -->
