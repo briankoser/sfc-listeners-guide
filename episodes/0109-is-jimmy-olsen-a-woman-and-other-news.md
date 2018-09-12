@@ -5,6 +5,7 @@ tags:
   - stan-lee-quote-of-the-week
   - take-that-science
   - dark-knight-news
+  - bleeping
 
 title: Is Jimmy Olsen a Woman?…And Other News
 number: 109
@@ -33,10 +34,8 @@ celebrity_invites:
 
 last_listen: 
 recommendation: essential yes no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
-spoilers: 
-- <i class="work-title"></i>
-archivist_note: Episode bleep count: 3
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
+archivist_note: "Episode bleep count: 3"
 ---
 # Opening
 Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but he is looking forward to their continued contributions. 
