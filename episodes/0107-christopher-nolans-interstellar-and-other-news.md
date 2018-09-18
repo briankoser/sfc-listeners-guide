@@ -23,9 +23,9 @@ firsts:
   - Matt bleeps Ben
   - Last News of the Day sound clip
 prophecy: 
-  - {"host": "Matt", "prediction": "Michael Caine will be in <i class="work-title">Interstellar</i>", "veracity": true, "comments": ""}
+  - {"host": "Matt", "prediction": "Michael Caine will be in <i class='work-title'>Interstellar</i>", "veracity": true, "comments": ""}
   - {"host": "Ben", "prediction": "Patriots will beat the 49ers in the Super Bowl.", "veracity": false, "comments": "Half right: Ravens beat the 49ers."}
-  - {"host": "Matt", "prediction": "<i class="work-title">Guardians of the Galaxy</i> will have a <i class="work-title">Star Wars</i> easter egg.", "veracity": true, "comments": "According to Kevin Feige, each MCU Phase 2 movie pays tribute to <i class="work-title">Star Wars</i> by having a character lose an arm (like Anakin and Luke lost hands)."}
+  - {"host": "Matt", "prediction": "<i class='work-title'>Guardians of the Galaxy</i> will have a <i class='work-title'>Star Wars</i> easter egg.", "veracity": true, "comments": "According to Kevin Feige, each MCU Phase 2 movie pays tribute to <i class='work-title'>Star Wars</i> by having a character lose an arm (like Anakin and Luke lost hands)."}
 future_episodes:
   - Top 5 Sci-Fi Geniuses Gone Bad
   - Bible Trivia podcast
@@ -83,7 +83,7 @@ Take that, Science: A petition on petitions.gov asking the US government to buil
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/dcc22c68-e4d4-388f-7da1-60a9169ba2a0.mp3#t=00:33:03">33:03</a>
   <span class="quote-context is-size-6">Matt is mad that the book and movies are called <i class="work-title">The Three Musketeers</i> when there are four of them.</span>
-  <q class="ben">Well, the last guy's name was *bleep*.</q>
+  <q class="ben">Well, the last guy's name was [bleep].</q>
   <q class="matt">No, Dumas. Dumas.</q>
 </div>
 

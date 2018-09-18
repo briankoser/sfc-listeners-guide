@@ -10,6 +10,7 @@ title: Is Jimmy Olsen a Woman?…And Other News
 number: 109
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-109-is-jimmy-olsen-a-woman-and-other-news/
+podcast_file_url: http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3
 date: 2013-01-26
 category: News
 hosts:
@@ -20,103 +21,95 @@ guests:
 
 notable_moments:
 firsts:
-  -  Appearance of Brandon Gibbs
+  - Appearance of Brandon Gibbs
+  - Matt swears
   - Matt bleeps himself
-prophecy: 
-  - {"host": "", "prediction": "", "veracity": true, "comments": ""}
-future_episodes:
-  - 
 take_that:
   - Listeners
-celebrity_invites: 
-  - 
 
-last_listen: 
-recommendation: essential yes no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
-spoilers: 
-- <i class="work-title"></i>
-archivist_note: Episode bleep count: 3
+last_listen: 2018-09-10
+recommendation: no
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
+archivist_note: "Episode bleep count: 3"
 ---
 # Opening
 Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but he is looking forward to their continued contributions. 
 
-12:07 nq janujesus
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:11:58">11:58</a> "Janujesus"
 
-14:21 Matt bleeps himself Jim Carrey in kickass
+<div class="quote">
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:14:26">14:26</a>
+  <q class="matt">Well, you know Jim Carrey is going to be in a superhero movie.</q>
+  <q class="ben"><i class="work-title">The Mask</i>?</q>
+  <q class="matt">No, he's in <i class="work-title">Kick-[bleep] 2</i>.</q>
+  <q class="ben">Oooh. Wait, shouldn't you get bleeped for that, since you bleeped me for talking about Alexander Dumas last time?</q>
+  <q class="matt">This is the first swear word you've probably ever heard me say.</q>
+  <q class="ben">Yeah! Well, I think you said, 'what the [bleep]' earlier.</q>
+  <q class="matt">Yeah, wow!</q>
+  <q class="ben">But you were quoting something I had said, so that doesn't entirely count.</q>
+  <q class="matt">Dang, OK, gotta write down the time code.</q>
+</div>
+
+<div class="quote">
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:15:04">15:04</a>
+  <q class="matt">Brandon, did you hear the episode where I had to bleep Ben out?</q>
+  <q data-name="Brandon Gibbs">Which one?</q>
+  <q class="matt">Yeah, exactly.</q>
+  <q class="ben">Well, I've been—usually what has happened—</q>
+  <q class="matt">The last two episodes.</q>
+  <q class="ben">The last two?!</q>
+  <q class="matt">Yeah.</q>
+  <q class="ben">What did you have to bleep me for in the second one?</q>
+  <q class="matt">Because I had—I played the clip—</q>
+  <q data-name="Brandon Gibbs">I think I listened to that one today.</q>
+  <q class="matt">Yeah, I played where you listened to André's—</q>
+  <q class="ben">I said, 'what the [bleep]'!</q>
+  <q class="matt">Yeah, exactly.</q>
+  <q class="ben">That's not a swear word!</q>
+  <q class="matt">I thought it would be funny—it makes it funnier—</q>
+  <q class="ben">It sounds a lot worse.</q>
+  <q class="matt">Yeah.</q>
+  <q class="ben">Sometimes ambiguity is worse than actually just leaving it in there.</q>
+  <q class="matt">It's actually pretty—it's a pretty funny clip.</q>
+  <q class="ben">That's awesome.</q>
+  <q class="matt">Yeah.</q>
+  <q class="ben">André's going to be like—I'm never going to make friends with André now!</q>
+  <q class="matt">The funny thing is, I just bleeped you out again, and so no one—still people won't know what you're saying.</q>
+  <q class="ben">Oh. Uh, 'H-E-double-hockey-sticks'.</q>
+</div>
 
 Epic Life Church is now defunct, due to finances. Matt thinks it would be funny to restart The Life Report. 
 
-22:28 bow your head
+<div class="quote">
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:22:33">22:33</a>
+  <q class="matt">Yeah, so everybody, let's just bow our heads for a second.</q>
+  <q class="ben">A moment of silence for The Life Report.</q>
+  <q class="matt">I just want to have a moment of silence and pray for The Life Report.</q>
+  <q class="ben">We're not going to pray for The Life Report.</q>
+  <q class="matt">If you're in your car right now, just close your eyes and bow your head.</q>
+</div>
 
-Marvel is considering making a Heroes for Hire movie. 
-Ben makes a stand: no more Marvel movies. 
+Marvel is considering making a Heroes for Hire movie. Ben makes a stand: no more Marvel movies. 
 
-Ben calls Ron Howard the most average director in the world. 
+Ben calls Ron Howard the most average director in the world.
 
-Zeus ra Buddha team up for godyssey a movie based on a comic book. The comic book also featured Jesus.
+Zeus, Ra, and Buddha team up for <i class="work-title">Godyssey</i>, a comic-book movie. The comic book also featured Jesus.
 
 Matt observes that NBC has started doing short TV seasons like Ben called for two years ago. 
 
-Take that science : scientists hid an object in space and time, creating a temporal hole in light. 
-
-39:11 take that listeners! 
-
-Take that science : back to the future fan made a DeLorean hovercraft
-
-Take that science : scientists think they found signs of life on Mars
-
-Take that science : nasa transmitted the image of the Mona Lisa to the moon with lasers
-
-Take that science : scientists think they found a planet with the core of a diamond
-
-Ben brings back the dark knight news music 
-
-# Closing
-
-
-
-<q class="archivist inline"></q>
-
-<i class="work-title"></i>
+Take That, Science: scientists hid an object in space and time, creating a temporal hole in light. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:39:11">39:11</a>
+  <q class="ben">Take that, listeners!</q>
 </div>
 
-<q data-name="non host"></q>
+Take That, Science: a <i class="work-title">Back to the Future</i> fan made a DeLorean hovercraft.
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 </h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>
-        <li>
-        <li>
-        <li>
-        <li>
-      </ol>
-      <ul class="runner-ups">
-        <li>
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>
-        <li>
-        <li>
-        <li>
-        <li>
-      </ol>
-      <ul class="runner-ups">
-        <li>
-      </ul>
-    </div>
-  </div>
-</div>
+Take That, Science: scientists think they found signs of life on Mars.
+
+Take That, Science: NASA transmitted the image of the Mona Lisa to the moon with lasers.
+
+Take That, Science: scientists think they found a planet with the core of a diamond.
+
+Ben brings back the Dark Knight News music. 
