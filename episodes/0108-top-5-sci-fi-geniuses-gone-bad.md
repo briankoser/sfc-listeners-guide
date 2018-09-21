@@ -165,4 +165,4 @@ Ben jokes that he'll just stop forwarding feedback to Matt. <q class="archivist 
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3#t=01:06:54">1:06:54</a> Recording of the Sci-Fi Christian Story Time sound clip
 
-Sci-Fi Christian Story Time: Sci-Fi Catholics Unite
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3#t=01:07:03">1:07:03</a> Sci-Fi Christian Story Time: Sci-Fi Catholics Unite

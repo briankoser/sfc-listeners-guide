@@ -5,6 +5,8 @@ tags:
   - stan-lee-quote-of-the-week
   - take-that-science
   - sci-fi-christian-story-time
+  - dark-knight-news
+  - bleeping
 
 title: 
 number: 

@@ -5,6 +5,7 @@ tags:
   - stan-lee-quote-of-the-week
   - take-that-science
   - dark-knight-news
+  - bleeping
 
 title: Is Jimmy Olsen a Woman?…And Other News
 number: 109

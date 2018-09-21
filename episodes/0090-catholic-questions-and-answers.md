@@ -88,7 +88,7 @@ The Exodus was a form of baptism (1 Cor. 10:2), and adults and children went thr
   <q class="ben">It's the marijuana of Catholicism.</q>
 </div>
 
-Ben shifted from believing in ordinances to sacraments. He came to believe in the importance of liturgy, which led him to <i class="work-title">Evangelical Is Not Enough</i> by Thomas Howard. That eventually led to the church fathers (which were obvious Catholics), which led to the Catholic catechism.
+Ben shifted from believing in ordinances to sacraments. He came to believe in the importance of liturgy, which led him to <i class="work-title">Evangelical Is Not Enough</i> by Thomas Howard. That eventually led to the church fathers (which were obvious Catholics), which led to the Catholic Catechism.
 
 Until the 1960s, Protestants were against birth control. Catholics still don't believe you should separate sex and procreation.
 
@@ -126,7 +126,7 @@ The rosary is supposed to slow you down and make you contemplate.
   <q class="matt">Why do think Catholics are so confused in general?</q>
 </div>
 
-The Catholic catechism says that all who die in friendship with Christ will be made perfect before going to heaven. That's purgatory.
+The Catholic Catechism says that all who die in friendship with Christ will be made perfect before going to heaven. That's purgatory.
 
 The common views of purgatory are not official Catholic doctrine.
 
