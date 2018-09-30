@@ -184,7 +184,7 @@ module.exports = function(eleventyConfig) {
         'first': hostEpisodes.find(x => x.hosts.includes(host)).number,
         'last': hostEpisodesReverse.find(x => x.hosts.includes(host)).number
       } })
-      .sort( (a, b) => b.count > a.count );
+      .sort( (a, b) => b.count - a.count );
     episodes[0].data.stats.hosts = hosts;
     
     // Episode stats
@@ -196,7 +196,7 @@ module.exports = function(eleventyConfig) {
         'number': episode.data.number,
         'gap': episode.data.time_loop_forward.number - episode.data.number
       } });
-    episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap > b.gap)[0];
+    episodeStats.quickestTimeLoop = timeLoopGaps.sort( (a, b) => a.gap - b.gap)[0];
 
     let oldestWithoutTimeLoop = episodes.find(episode => episode.data.time_loop_forward === undefined);
     episodeStats.oldestWithoutTimeLoop = {
@@ -223,7 +223,7 @@ module.exports = function(eleventyConfig) {
         'last': episodesReverse.find(x => x.data.title === title).data.number
       } })
       .filter(x => x.count > 1)
-      .sort( (a, b) => b.count > a.count );
+      .sort( (a, b) => b.count - a.count );
     episodeStats.duplicateTitles = duplicateTitles;
     
     episodes[0].data.stats.episodes = episodeStats;
@@ -281,7 +281,7 @@ module.exports = function(eleventyConfig) {
         'first': buildLinkModel(episodes.find(episode => episode.data.series === series)),
         'last': buildLinkModel(episodesReverse.find(episode => episode.data.series === series))
     } })
-    .sort( (a, b) => b.last.number > a.last.number );
+    .sort( (a, b) => b.last.number - a.last.number );
 
     episodes[0].data.stats.series = seriesStats;
 
@@ -317,7 +317,7 @@ module.exports = function(eleventyConfig) {
           'percentage': total === 0 ? 0 : correct / total,
           'unresolved': total - totalResolved
       }})
-      .sort( (a, b) => b.percentage > a.percentage );
+      .sort( (a, b) => b.percentage - a.percentage );
     episodes[0].data.stats.prophecy = prophecyStats;
 
     // Tag Stats
@@ -353,7 +353,7 @@ module.exports = function(eleventyConfig) {
           'seasons': seasons
         } 
       })
-      .sort( (a, b) => b.count > a.count );
+      .sort( (a, b) => b.count - a.count );
     episodes[0].data.stats.tags = tagStats;
 
     // Timeloops and Visits
@@ -412,7 +412,7 @@ module.exports = function(eleventyConfig) {
         newSeason.data.counts.no = seasonEpisodes.filter(e => e.season === number && e.recommendation.startsWith('no')).length;
         return newSeason;  
       })
-      .sort( (a, b) => a.data.number > b.data.number );
+      .sort( (a, b) => a.data.number - b.data.number );
 
     // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode
     seasonStats[0].data.stats = {};

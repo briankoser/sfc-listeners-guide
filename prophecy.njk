@@ -41,7 +41,7 @@ pageTitle: Prophecy
 
 <h2>Prophecies</h2>
 <div class="prophecies">
-{% for episode in collections.episodes %}
+{% for episode in collections.episodes | reverse %}
 
 {% if episode.data.prophecy %}
 <h2 class="is-size-3">№ {{episode.data.number}} {{episode.data.title}}</h2>

@@ -77,7 +77,7 @@ Average Length -->
 
 
 
-### Recurring Segments
+### Recurring Segments / Occurrences
 <table class="table is-striped">
     <thead>
         <tr>
