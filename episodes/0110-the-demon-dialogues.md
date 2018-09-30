@@ -9,7 +9,7 @@ number: 110
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-110-the-demon-dialogues/
 podcast_file_url: http://scifichristian.hipcast.com/deluge/e1167c07-30e0-378b-3cbd-bf2f5e6a215f.mp3
-date: 2018-01-28
+date: 2013-01-28
 category: Theology
 series: Demons
 hosts:
