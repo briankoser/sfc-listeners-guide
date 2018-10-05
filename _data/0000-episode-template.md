@@ -37,6 +37,7 @@ take_that:
   - 
 celebrity_invites: 
   - 
+celebrity_promo: 
 
 last_listen: 
 recommendation: essential yes no
