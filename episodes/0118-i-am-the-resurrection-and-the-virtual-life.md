@@ -23,7 +23,7 @@ future_episodes:
 last_listen: 2018-09-25
 recommendation: essential
 recommendation_reason: Great discussion of some ethical considerations regarding virtual reality. 
-archivist_note: https://www.youtube.com/watch?v=z0lWCZYL9ho
+archivist_note: If you enjoyed this episode, I'd also recommend listening to John Dyer's <a href="https://www.youtube.com/watch?v=z0lWCZYL9ho">Theological Reflections on Artificial Intelligence</a> (42 minutes).
 ---
 # Opening
 Ben makes "pow pow pow" sounds during the opening music.
