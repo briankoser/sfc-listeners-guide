@@ -46,11 +46,11 @@ layout: baseNavBar
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Time Looped as</p>
-                    <p class="title">№
+                    <p class="title">
                         {% if time_loop_forward.url %}
-                        <a href="{{time_loop_forward.url}}" class="link-subtle">{{time_loop_forward.number}}</a>
+                        <a href="{{time_loop_forward.url}}" class="link-subtle">№ {{time_loop_forward.number}}</a>
                         {% else %}
-                        {{time_loop_forward.number}}
+                        № {{time_loop_forward.number}}
                         {% endif %}
                     </p>
                 </div>
@@ -63,7 +63,7 @@ layout: baseNavBar
                     <p class="heading">Time Loop of</p>
                     <p class="title">
                         {% for episode in time_loop_backward %}
-                        № <a href="{{episode.url}}" class="link-subtle">{{episode.number}}</a>
+                        <a href="{{episode.url}}" class="link-subtle">№ {{episode.number}}</a>
                         {%- if not loop.last %}, {% endif %}
                         {% endfor %}
                     </p>
