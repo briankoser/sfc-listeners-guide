@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/02/episode-113-top-5-sci-fi-bible
 podcast_file_url: http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3
 date: 2013-02-02
 category: Countdown
-series: Bad but Good
+series: Bad but Great
 hosts:
   - Ben
   - Matt

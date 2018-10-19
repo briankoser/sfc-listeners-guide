@@ -8,7 +8,7 @@ number: 97
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-97-gazing-into-the-distant-future-of-2013/
 date: 2012-12-21
-category: Announcements
+category: Announcement
 series: 
 hosts:
   - Ben
