@@ -24,7 +24,7 @@
       {"shortName": "CK", "fullName": "C. K. Kubasik" }
     ],
     "categories": [
-      {"name": "Announcements", "summary": "Shows dedicated to life or show announcements"},
+      {"name": "Announcement", "summary": "Shows dedicated to life or show announcements"},
       {"name": "Award Show", "summary": "End of the Year award shows"},
       {"name": "Clip Show", "summary": "A compilation of previous episodes"},
       {"name": "Conversation", "summary": "Either no set topic, or so many tangents that the main topic becomes secondary"},
@@ -43,6 +43,7 @@
       {"name": "Batman Month", "summary": "All the episodes in the month around The Dark Knight Rises premiere were on Batman."},
       {"name": "Catholicism", "summary": "Discussion about Ben's conversion or Catholic teaching."},
       {"name": "Clones", "summary": "Morality regarding clones. The first episode generated so much good feedback it became a mini-series."},
+      {"name": "Demons", "summary": "So far, no interviews with demons."},
       {"name": "Disney-Pixar", "summary": "A quick two-parter including some of Daniel Butcher's best work."},
       {"name": "Feuds", "summary": "Arguments with other podcasts."},
       {"name": "George Lucas", "summary": "The man, the myth, the beard. The behind-the-scenes looks at Star Wars are as interesting as anything Lucas himself produced."},
@@ -51,8 +52,10 @@
       {"name": "Recommendations", "summary": "Follow Ben and Matt's likes and dislikes through the years."},
       {"name": "Sermons", "summary": "Sermons from Protestant Ben and Mike Poteet."},
       {"name": "State of the Superhero Movie", "summary": "Superhero movie eras, trends, and predictions. The story of two men who loved superhero movies; one remained in love while the other's love turned to hate."},
+      {"name": "Superhero Spotlight", "summary": "Matt and a guest pick a superhero and discuss their history."},
       {"name": "Supernatural Creatures", "summary": "A favorite choice of topic early in the show."},
-      {"name": "Tolkien", "summary": "Discussion about the books and films set in Middle Earth."}
+      {"name": "Tolkien", "summary": "Discussion about the books and films set in Middle Earth."},
+      {"name": "Virtual Ethics", "summary": "Ethics in a virtual reality."}
     ],
     "tags": [
       {"slug": "bleeping", "name": "Bleeping 'Profanity'"},
