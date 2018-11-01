@@ -8,7 +8,7 @@ number: 4
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-104-tolkien-vs-lewis-the-ultimate-smackdown/
 date: 2011-01-30
-category: Literature
+category: Philosophy
 series: 
 hosts:
   - Ben
