@@ -27,4 +27,4 @@ archivist_note: "Tip for young aspiring podcasters: don't put one voice on the l
 
 Rick invited Matt onto "Voices in My Head" to be the interviewer.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:04:00">4:00</a> Interview starts
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/810d9da8-7866-4b46-bd27-211e03818aaf.mp3#t=00:04:00">4:00</a> Interview starts
