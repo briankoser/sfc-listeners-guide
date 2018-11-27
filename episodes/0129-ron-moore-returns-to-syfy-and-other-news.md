@@ -43,7 +43,7 @@ Take That, Science: a "study" showed that red shirts died in greater numbers in 
 # Feedback
 The hosts decide they can't read every piece of feedback any more.
 
-Palindrome (one of the Blondeens) suggested the hosts live blog <i class="work-title">2001: A Space Odyssey</i> like they did for <i class="work-title">Lord of the Rings</i>.
+Palindrome (one of the Blondeens) suggested the hosts live blog <i class="work-title">2001: A Space Odyssey</i> like they did for <i class="work-title">The Lord of the Rings</i>.
 
 Matt really wants to LARP once. Ben would do it.
 

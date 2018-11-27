@@ -47,7 +47,7 @@ More making fun of Stan Lee
   <q class="matt">We're Christians; we can talk about the Bible! I think it's allowed!</q>
 </div>
 
-There's a Candy Land movie coming that is designed as Lord of the Rings with candy
+There's a Candy Land movie coming that is designed as "<i class="work-title">The Lord of the Rings</i> with candy"
 
 <div class="quote">
   <span class="quote-context is-size-6">On plans to attend <i class="work-title">The Dark Knight Rises</i></span>

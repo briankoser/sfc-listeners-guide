@@ -26,6 +26,8 @@ guests:
   - 
 time_loop_backward: [{"number": }]
 visit: 
+sponsors:
+  - 
 
 notable_moments:
 firsts:

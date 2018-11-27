@@ -19,7 +19,7 @@ notable_moments:
 last_listen: 2018-07-23
 recommendation: yes
 recommendation_reason: Part 1 of the Shakespearean tragedy that is "Ben and Matt come to hate <i class="work-title">The Hobbit</i>.
-archivist_note: The movie is alright, but I've always had three problems with it. 1) Bilbo does not keep his arc from the book of slowing growing from a homebody to an adventurer. 2) Jackson tried to make it as epic as his <i class="work-title">Lord of the Rings</i> films (for example, all the slow motion action at the climax) instead of keeping it to a small-scale adventure. LotR felt like Jackson compressed; The Hobbit felt like he expanded. 3) The CGI is overused and obvious; Azog is cartoonish compared to the LotR orcs.
+archivist_note: The movie is alright, but I've always had three problems with it. 1) Bilbo does not keep his arc from the book of slowing growing from a homebody to an adventurer. 2) Jackson tried to make it as epic as his <i class="work-title">The Lord of the Rings</i> films (for example, all the slow motion action at the climax) instead of keeping it to a small-scale adventure. LotR felt like Jackson compressed; The Hobbit felt like he expanded. 3) The CGI is overused and obvious; Azog is cartoonish compared to the LotR orcs.
 ---
 
 Instead of a spoiler alert, Ben issues a "spoiler smackdown" because it's based on a 70-year-old book.

@@ -34,7 +34,7 @@ Ben remembers that they used to gift autographed copies of their show notes from
 
 Mike Poteet came up with a contest: describe in 75 words or fewer the novel Tolkien and Lewis could have co-wrote.
 
-The prize is an autographed copy of a <i class="work-title">Lord of the Rings</i>-themed devotional. 
+The prize is an autographed copy of a <i class="work-title">The Lord of the Rings</i>-themed devotional. 
 
 Matt's latest fundraising scheme: for $15 he will record an audio description of a Geek Grab Bag of the donor's choice. 
 

@@ -23,7 +23,7 @@ firsts:
 prophecy: 
   - {"host": "Matt", "prediction": "There will be a sequel to <i class='work-title'>X-Men: First Class</i>", "veracity": true, "comments": ""}
 future_episodes: 
-  - More <i class="work-title">Lord of the Rings</i>
+  - More <i class="work-title">The Lord of the Rings</i>
   - <i class="work-title">Blade Runner</i> live blog
 
 last_listen: 2018-02-28

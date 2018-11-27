@@ -49,7 +49,7 @@ recommendation_reason: Not a super interesting discussion.
     <div class="column matt">
       <h3>Matt</h3>
       <ol reversed>
-        <li>Lord of the Rings 
+        <li>The Lord of the Rings 
         <li>The Matrix
         <li>Back to the Future 
         <li>The Dark Knight Trilogy
