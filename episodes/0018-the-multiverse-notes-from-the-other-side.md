@@ -72,7 +72,7 @@ Is there an alternate universe where Jesus didn't die for us? Where Eve fell but
 - Parallel universe: Fringe 
 - Alternate or deviant timeline: branching multiverse 
 
-Ben threatens to sue Rob bell
+Ben threatens to sue Rob Bell
 
 Ben proves that if alternate universes exist, humans are spiritually connected to their alternate universe counterparts, and since there will be at least one version of everyone that is saved, everyone will be saved ([Eph. 1:23](https://www.biblegateway.com/passage/?search=ephesians+1%3A23&version=ESV), [1 Cor. 15:25](https://www.biblegateway.com/passage/?search=1+cor+15%3A25&version=ESV)) 
 
