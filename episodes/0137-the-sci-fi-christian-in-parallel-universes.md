@@ -35,12 +35,9 @@ Ben is about to release a video review of a <i class="work-title">Game of Throne
 
 Ben is promoting moderation and enjoyment for alcohol and smoking. 
 
-7:10 take that listeners 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:07:09">7:09</a>
+  <q class="matt">Take that, listeners!</q>
 </div>
 
 
@@ -87,24 +84,22 @@ How do you reconcile God's immutability (unchangeability) with the incarnation?
 
 Ben says Augustine's <i class="work-title">De Trinitate</i> and Aquinas's <i class="work-title">Summa Theologica</i> argue that nothing in God changed with the incarnation. Nothing was added to the divine part of God.
 
-49:15 he's 50 50 let's be honest
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:49:01">49:01</a>
+  <span class="quote-context is-size-6">Ben says early Christianity was touchy about the Arian heresy (God the Father created Jesus)</span>
+  <q class="ben">And that's where the whole formula, "100% God, 100% man", comes from. It's an attempt to get around that exact point.</q>
+  <q class="matt">And it really mathematically doesn't make any sense.</q>
+  <q class="ben">No. No.</q>
+  <q class="matt">He's 50-50. Let's be honest.</q>
 </div>
 
 Western theology starts with one God and works to three persons. Eastern theology starts with three persons and works to one God. That makes Eastern believers more susceptible to Arianism, and Western believers to modalism.
 
 Legend goes that Saint Nicholas punched Arius in the face at the Council of Nicea. 
 
-52:55 take that arius
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:52:09">52:09</a>
+  <q class="ben">Take that, Arius.</q>
 </div>
 
 What about a parallel universe where the incarnation happened at a different time period? Was there a reason Jesus came when he did? Ben thinks it's significant that Jesus came before the destruction of the second temple. It proved Paul was right against the Judaizers in saying that Gentiles did not need to become Jews.
@@ -119,18 +114,11 @@ What if Jesus came today?
 - After the fall of Rome, maybe you have polytheistic paganism at least through the Middle Ages. Does the Enlightenment even happen? 
 - Religious platonism (deistic belief in God, emphasis on mythological value of God) continues as intellectual religion.
 
-1:05:17 take that John
+# Feedback
+
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=01:05:14">1:05:14</a>
+  <q class="ben">Take that, John.</q>
 </div>
 
-1:08:55 Sci-Fi Christian Story Time: Ben gets Busted
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
-</div>
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/69ebd961-3075-8b34-9079-b24813042d2c.mp3#t=01:08:53">1:08:53</a> Sci-Fi Christian Story Time: Ben gets Busted
