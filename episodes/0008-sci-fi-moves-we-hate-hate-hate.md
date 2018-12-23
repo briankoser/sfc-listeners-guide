@@ -20,7 +20,7 @@ notable_moments:
 firsts: 
   - Daniel Butcher mentioned
   - Dark Knight News music 
-  - Skip Crust appearance (voice mail)
+  - Skip Crust appearance (voicemail)
 future_episodes: 
   - All-Star Superman movie
   - Alan Moore
