@@ -100,7 +100,7 @@ module.exports = function(eleventyConfig) {
       // time loop forward url
       let timeLoopForward = episodes[i].data.time_loop_forward;
       if (timeLoopForward) {
-        let futureEpisode = episodes.filter(e => e.data.number === timeLoopForward.number)[0];
+        let futureEpisode = episodes.filter(e => e.data.number === timeLoopForward.number && e.data.category !== 'Spinoff')[0];
         timeLoopForward.url = (futureEpisode || {}).url;
       }
 
@@ -108,7 +108,7 @@ module.exports = function(eleventyConfig) {
       let timeLoopBackward = episodes[i].data.time_loop_backward;
       if (timeLoopBackward) {
         for (let i = 0; i < timeLoopBackward.length; i++) {
-          let pastEpisode = episodes.filter(e => e.data.number === timeLoopBackward[i].number)[0];
+          let pastEpisode = episodes.filter(e => e.data.number === timeLoopBackward[i].number && e.data.category !== 'Spinoff')[0];
           timeLoopBackward[i].url = (pastEpisode || {}).url;
         } 
       }
@@ -362,6 +362,10 @@ module.exports = function(eleventyConfig) {
 
     let visitCount = episodes.filter(e => e.data.hasOwnProperty('visit')).length;
     episodes[0].data.stats.episodes.visits = visitCount;
+
+    // Spinoffs
+    let spinoffCount = episodes.filter(e => e.data.category === 'Spinoff').length;
+    episodes[0].data.stats.episodes.spinoffs = spinoffCount;
 
     return episodes;
   });
