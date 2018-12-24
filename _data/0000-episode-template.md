@@ -2,13 +2,13 @@
 layout: episode
 tags:
   - episode
-  - stan-lee-quote-of-the-week
-  - take-that-science
-  - sci-fi-christian-story-time
-  - dark-knight-news
-  - bleeping
   - a-slew-of-casting-news
   - ben-is-right
+  - bleeping
+  - odd-opening
+  - sci-fi-christian-story-time
+  - stan-lee-quote-of-the-week
+  - take-that-science
 
 title: 
 number: 
