@@ -15,6 +15,8 @@ category: News
 hosts:
   - Ben
   - Matt
+sponsors:
+  - David
 
 notable_moments:
 celebrity_invites: 

@@ -14,6 +14,8 @@ category: Theology
 hosts:
   - Ben
   - Matt
+sponsors: 
+  - Stephen in Australia
 
 notable_moments:
 future_episodes:
@@ -24,8 +26,6 @@ last_listen: 2018-10-04
 recommendation: essential
 recommendation_reason: Great discussion of a controversial topic and a book that is iconic to the show.
 archivist_note: I had already planned to read the book as I try to figure out what I believe on this topic, and made sure to read it for this episode. You can read my <a href="https://www.goodreads.com/review/show/2531430265">Goodreads review</a>. Basically, I think Walton's theory is a great possibility, expected to be convinced by the book, and was not convinced. I don't really like the other options though, so I'm still leaning toward this or the framework hypothesis.
-
-sponsor: Stephen in Australia
 ---
 # Opening
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4d9b4fe5-30a6-5e69-3ebb-8b4a0f64b7cb.mp3">0:00</a> After Matt introduces the episode, Ben surprises him by saying, "hoo hoo hoo".
