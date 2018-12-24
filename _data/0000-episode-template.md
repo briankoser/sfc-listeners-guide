@@ -8,6 +8,7 @@ tags:
   - dark-knight-news
   - bleeping
   - a-slew-of-casting-news
+  - ben-is-right
 
 title: 
 number: 
