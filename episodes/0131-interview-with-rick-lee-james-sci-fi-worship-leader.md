@@ -14,8 +14,7 @@ hosts:
   - Matt
 guests:
   - Rick Lee James
-visit: 
-  - Matt
+visit: Voices in My Head podcast
 
 notable_moments:
 
