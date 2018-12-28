@@ -2,9 +2,9 @@
 layout: episode
 tags:
   - episode
+  - bleeping
   - stan-lee-quote-of-the-week
   - take-that-science
-  - bleeping
 
 title: “The Terror” by Dan Simmons Comes to AMC and Other News
 number: 123

@@ -2,9 +2,9 @@
 layout: episode
 tags:
   - episode
+  - a-slew-of-casting-news
   - stan-lee-quote-of-the-week
   - take-that-science
-  - a-slew-of-casting-news
 
 title: What is Theo’s List?…and Other News
 number: 139

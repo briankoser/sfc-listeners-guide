@@ -3,8 +3,8 @@ layout: episode
 tags:
   - episode
   - ben-is-right
-  - sci-fi-christian-story-time
   - odd-opening
+  - sci-fi-christian-story-time
 
 title: What If Tolkien and Lewis Wrote Together?
 number: 140

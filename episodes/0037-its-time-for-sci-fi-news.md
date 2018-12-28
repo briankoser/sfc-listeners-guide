@@ -2,8 +2,8 @@
 layout: episode
 tags:
   - episode
-  - stan-lee-quote-of-the-week
   - dark-knight-news
+  - stan-lee-quote-of-the-week
 
 title: It's Time for Sci-Fi News
 number: 37

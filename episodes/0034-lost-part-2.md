@@ -2,8 +2,8 @@
 layout: episode
 tags:
   - episode
-  - stan-lee-quote-of-the-week
   - dark-knight-news
+  - stan-lee-quote-of-the-week
   - take-that-science
 
 title: LOST Part 2

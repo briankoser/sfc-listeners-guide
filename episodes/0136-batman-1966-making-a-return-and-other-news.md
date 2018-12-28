@@ -2,9 +2,9 @@
 layout: episode
 tags:
   - episode
+  - ben-is-right
   - stan-lee-quote-of-the-week
   - take-that-science
-  - ben-is-right
 
 title: Batman 1966 Making a Return?…and Other News
 number: 136

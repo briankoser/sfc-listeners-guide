@@ -2,9 +2,9 @@
 layout: episode
 tags:
   - episode
+  - a-slew-of-casting-news
   - stan-lee-quote-of-the-week
   - take-that-science
-  - a-slew-of-casting-news
 
 title: Disney is Closing LucasArts and Other News
 number: 142

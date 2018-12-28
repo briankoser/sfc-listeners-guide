@@ -2,8 +2,8 @@
 layout: episode
 tags:
   - episode
-  - sci-fi-christian-story-time
   - bleeping
+  - sci-fi-christian-story-time
 
 title: The Fandom Menace
 number: 116
