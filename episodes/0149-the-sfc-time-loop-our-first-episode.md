@@ -3,49 +3,42 @@ layout: episode
 tags:
   - episode
 
-title: Pilot
-number: 1
-season: 1
-podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
-podcast_file_url: http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3
-date: 2011-01-11
+title: The SFC Time Loop – Our First Episode
+number: 149
+season: 3
+podcast_url: http://thescifichristian.com/2013/04/episode-149-the-sfc-time-loop-our-first-episode/
+podcast_file_url: http://scifichristian.hipcast.com/deluge/e0dbf584-6091-0746-c4c1-c06352f7c23f.mp3
+date: 2013-04-30
 category: Conversation
 series: Recommendations
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 149}
+time_loop_backward: [{"number": 1}]
 
 notable_moments:
-firsts: 
-  - The Life Report mentioned
-  - The LOST Report mentioned
-  - Sound effect (R2-D2)
-  - "\"It's a Trap!\" sound effect"
-  - Host says Groundhog's Day (Matt)
-  - Top 5 list
-prophecy: 
-  - {"host": "Ben", "prediction": "<i class='work-title'>V</i> just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}
-future_episodes: 
-  - <i class="work-title">Twilight</i>
-  - Clones
-  - Time travel and God
-  - Are parallel universes compatible with Christianity?
-celebrity_invites: 
 
-last_listen: 2018-01-22
-recommendation: yes-timeloop
+last_listen: 2018-12-05
+recommendation: yes
 recommendation_reason: Lays a good foundation for where Ben and Matt were with their interests when they started the show.
-archivist_note: The World Premiere! It's great to see where Ben and Matt started from in episode 1. Ben is much more optimistic, Matt is a little more combative.
+archivist_note: I finally realized that Matt named the first episode "Pilot" not because it's a pilot episode, but because the first episode of LOST is titled "Pilot". 🤦‍♂️
 ---
 # Opening
+
+Unedited because there's only 6 minutes of news
+
+Ben says he was less negative but also less right.
+
+
+
+# Time Loop
 
 Ben reveals that they have a lifetime contract for the show.
 
 The LOST Report addicted Ben to podcasting.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:04:21">4:21</a>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e0dbf584-6091-0746-c4c1-c06352f7c23f.mp3#t=00:06:18">6:18</a>
   <q class="ben">Even before I got into ministry, I am a lifelong nerd and completely unapologetic about it.</q>
   <q class="matt">I thought you were going to say, 'lifelong lover of Christ'.</q>
   <q class="ben">...That too.</q>
@@ -60,7 +53,7 @@ They will have guest hosts over Skype to discuss topics they're not knowledgeabl
 They will report news, review movies and TV shows, and discuss philosophy and theology.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:09:47">9:47</a>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e0dbf584-6091-0746-c4c1-c06352f7c23f.mp3#t=00:11:44">11:44</a>
   <q class="matt">I was surprised by how many people were offended by me saying that Jesus might have been a zombie.</q>
 </div>
 
@@ -68,7 +61,7 @@ R2-D2 is the transition sound for everything.
 
 
 
-# News
+## News
 Ian McKellen, Andy Serkis, Elijah Wood, and Orlando Bloom have officially signed on to do the Hobbit movies. 
 
 <q class="archivist">Saddest moment of the episode: how excited both hosts are about <i class="work-title">The Hobbit</i> movie.</q>
@@ -84,7 +77,7 @@ Matt vowed to read <i class="work-title">The Hobbit</i> before the movie comes o
 Ben likes superhero movies and TV shows.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:14:40">14:40</a>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e0dbf584-6091-0746-c4c1-c06352f7c23f.mp3#t=00:16:37">16:37</a>
   <span class="quote-context is-size-6">Ben was interested in <i class="work-title">The Cape</i> until it got bad reviews</span>
   <q class="ben">It has Summer Glau in it. And I love Summer Glau--</q>
   <q class="matt">Yep, she's good.</q>
@@ -111,7 +104,7 @@ Ben likes superhero movies and TV shows.
 
 
 
-# Main Topic
+## Main Topic
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Current Sci-Fi Favorites</h2>
@@ -139,9 +132,9 @@ Ben likes superhero movies and TV shows.
   </div>
 </div>
 
-Ben did only sci-fi, no fantasy
+Ben did only sci-fi, no fantasy <q class="archivist inline"><i class="work-title">The Wheel of Time</i> isn't fantasy?</q>
 
-Matt has never heard of <i class="work-title">The Wheel of Time</i> .
+Matt has never heard of <i class="work-title">The Wheel of Time</i>.
 
 Ben thinks Fringe is a 4-5 season show. 
 
@@ -192,7 +185,7 @@ Ben calls it "The Crappening".
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:30:44">30:44</a>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e0dbf584-6091-0746-c4c1-c06352f7c23f.mp3#t=00:32:40">32:40</a>
   <span class="quote-context is-size-6">On <i class="work-title">Star Trek: The Motion Picture</i></span>
   <q class="ben">I hated hated hated that movie.</q>
 </div>

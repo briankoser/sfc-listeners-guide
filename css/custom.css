@@ -433,10 +433,6 @@ a.tag.timestamp.is-rounded:hover {
     font-size: 1.2rem;
 }
 
-.message .title {
-    margin-bottom: 0;
-}
-
 @media (max-width: 768px) {
     .hero-body h1.title {
         font-size: 2rem;
