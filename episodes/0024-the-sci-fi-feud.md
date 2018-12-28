@@ -11,7 +11,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/07/episode-24-the-sci-fi-feud/
 date: 2011-07-07
 category: Review
-series: Feuds
+series: The Sci-Fi Diner
 hosts:
   - Ben
   - Matt
@@ -65,7 +65,7 @@ Ben mentions his children watching Disney movies <q class="archivist inline">He 
 
 
 # Main Topic
-Ben and Matt declare victory in The Sci-Fi Feud
+Ben and Matt declare victory in The Sci-Fi Feud against The Sci-Fi Diner
 
 Skip Crust betrays the SFC 
 

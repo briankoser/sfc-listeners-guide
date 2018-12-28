@@ -9,7 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-101-sci-fi-feud-the-confrontation/
 date: 2013-01-02
 category: Announcement
-series: Feuds
+series: Strangers and Aliens
 hosts:
   - Matt
   - Daniel
