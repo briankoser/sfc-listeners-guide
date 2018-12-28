@@ -9,6 +9,7 @@ tags:
   - sci-fi-christian-story-time
   - stan-lee-quote-of-the-week
   - take-that-science
+  - what-the-frodo
 
 title: 
 number: 
@@ -107,3 +108,18 @@ Take That, Science:
     </div>
   </div>
 </div>
+
+<table class="table is-striped rating">
+  <thead>
+    <tr>
+      <th>Host</th>
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Matt</td>
+      <td>2/5</td>
+    </tr>
+  </tbody>
+</table>
