@@ -25,7 +25,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
-Both do a voice to open.
+Both do a voice during the opening.
 
 Ben calls Koby "the Jar Jar Binks of The Sci-Fi Christian".
 
@@ -33,7 +33,6 @@ Matt says he probably won't have Koby on any more episodes with Ben.
 
 Ben decides to put Koby on Theo's List. He thinks a couple <i class="work-title">Batman and Robin</i> DVDs would be a fair trade. 
 
-6:12 good to bump things
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/cc7777dd-9ee7-efeb-4c47-b2a75c206476.mp3#t=00:06:11">6:11</a>
   <span class="quote-context is-size-6"></span>
