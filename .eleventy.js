@@ -118,6 +118,9 @@ module.exports = function(eleventyConfig) {
       let guests = episodes[i].data.guests || [];
       
       episodes[i].data.appearances = [...hosts, ...guests];
+
+      let hasGuests = (episodes[i].data.guests || []).length > 0;
+      episodes[i].data.hasGuests = hasGuests;
     }
 
     // eleventy won't let me add data to the overall collection, so I'm adding it to the first episode

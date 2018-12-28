@@ -20,7 +20,7 @@ layout: baseNavBar
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Featuring</p>
-                    <p class="title">
+                    <p class="title {{'guests' if hasGuests}}">
                         {{ appearances | join(", ") | safe }}
                     </p>
                 </div>
@@ -75,13 +75,10 @@ layout: baseNavBar
 </section>
 
 <div class="episode-recommendation">
-    {% if recommendation == 'yes' or recommendation == 'yes-timeloop' %}
-        <article class="message is-success">
-    {% elif recommendation == 'essential' or recommendation == 'essential-timeloop' %}
-        <article class="message is-primary">
-    {% elif recommendation == 'no' %}
-        <article class="message is-danger">
-    {% endif %}
+    <article class="message 
+        {{'is-success' if recommendation == 'yes' or recommendation == 'yes-timeloop'}} 
+        {{'is-primary' if recommendation == 'essential' or recommendation == 'essential-timeloop'}}
+        {{'is-danger'  if recommendation == 'no'}}">
         <div class="message-header">
             {% if recommendation == 'yes' %}
                 <h2 class="title">Listen</h2>
