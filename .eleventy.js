@@ -119,7 +119,7 @@ module.exports = function(eleventyConfig) {
       
       episodes[i].data.appearances = [...hosts, ...guests];
 
-      let hasGuests = (episodes[i].data.guests || []).length > 0;
+      let hasGuests = episodes[i].data.appearances.length > 3;
       episodes[i].data.hasGuests = hasGuests;
     }
 
