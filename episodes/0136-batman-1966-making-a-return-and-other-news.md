@@ -19,7 +19,7 @@ hosts:
 
 notable_moments:
 firsts:
-  -  Ben is right
+  -  Ben is Right
 prophecy: 
   - {"host": "Matt", "prediction": "Godzilla will win the Battle Royale", "veracity": false, "comments": ""}
   - {"host": "Ben", "prediction": "Mal Reynolds will win the Battle Royale", "veracity": true, "comments": ""}
