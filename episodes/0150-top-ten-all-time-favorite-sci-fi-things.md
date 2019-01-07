@@ -151,7 +151,7 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
       <ol reversed>
         <li>Game of Thrones or Breaking Bad
         <li>Firefly
-        <li>Buffy 
+        <li>Buffy
         <li>Mad Men
         <li>The Wire
       </ol>
