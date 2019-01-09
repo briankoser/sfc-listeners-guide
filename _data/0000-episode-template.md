@@ -5,6 +5,7 @@ tags:
   - a-slew-of-casting-news
   - ben-is-right
   - bleeping
+  - encouraging-signs
   - odd-opening
   - sci-fi-christian-story-time
   - stan-lee-quote-of-the-week
@@ -59,10 +60,17 @@ archivist_note:
 
 # Closing
 
+Ben is Right: 
 
+Encouraging Signs: 
+  
 <a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:03:45">3:45</a> Sci-Fi Christian Story Time
 
+Stan Lee Quote of the Week: 
+
 Take That, Science: 
+
+What the Frodo: 
 
 <q class="archivist inline"></q>
 
