@@ -17,6 +17,8 @@ guests:
   - Ben
 
 notable_moments:
+firsts:
+  - Post-outro episode title discussion
 prophecy: 
   - {"host": "Matt", "prediction": "Time travel will be invented.", "veracity": undefined, "comments": ""}
   - {"host": "Daniel", "prediction": "Time travel will not be invented.", "veracity": undefined, "comments": ""}
@@ -29,7 +31,7 @@ celebrity_invites:
 last_listen: 2018-05-03
 recommendation: yes
 recommendation_reason: Decent. Daniel drove the discussion and Koby was Koby.
-archivist_note: Didn't realize the title was a pun on The Time Traveller's Wife until the post-credits scene.
+archivist_note: Didn't realize the title was a pun on The Time Traveller's Wife until the post-outro scene.
 ---
 # Main Topic
 
