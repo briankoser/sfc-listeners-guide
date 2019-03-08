@@ -49,7 +49,7 @@ Matt asked Ben for an outline for the next episode during the Super Bowl. Ben ha
 
 Ben is a Narnian Publicationist.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3#t=00:16:00">16:00</a> Daniel butchers "Damon Lindelhoff"'s name.
+<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3#t=00:16:00">16:00</a> Daniel butchers "Damon Lindelhof"'s name.
 
 Ben promotes Daniel to the A Squad and demotes Koby to the Z Squad. 
 

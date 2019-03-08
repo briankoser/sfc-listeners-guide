@@ -63,15 +63,15 @@ Stan Lee Quote of the Week: Stan thinks "comicbook" should be one word because t
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/98cd87f8-d61d-ae25-7a4f-8010e435905b.mp3#t=00:30:17">30:17</a>
-  <q class="ben">So Damon Lindelhoff, whatever you have to say about—</q>
-  <q class="matt">No, 'Lindeloff'.</q>
+  <q class="ben">So Damon Lindelhof, whatever you have to say about—</q>
+  <q class="matt">No, 'Lindelof'.</q>
   <q class="ben">What? What did I say?</q>
   <q class="matt">You added a 'hoff', like—</q>
-  <q class="ben">Yeah, Lindeloff. Lindelhoff.</q>
+  <q class="ben">Yeah, Lindelof. Lindelhof.</q>
   <q class="matt">No no no.</q>
-  <q class="ben">It's not 'Lindelhoff'?</q>
-  <q class="matt">'Lindeloff'. With an 'L'.</q>
-  <q class="ben">Lindeloff? Like, 'Go Lindeloff yourself!' 'Lindel off!'</q>
+  <q class="ben">It's not 'Lindelhof'?</q>
+  <q class="matt">'Lindelof'. With an 'L'.</q>
+  <q class="ben">Lindelof? Like, 'Go Lindelof yourself!' 'Lindel off!'</q>
 </div>
 
 Take That, Science: babies conceived in space might not develop normally.
