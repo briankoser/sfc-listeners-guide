@@ -34,8 +34,8 @@ take_that:
   - America
 
 last_listen: 2018-08-05
-recommendation: yes
-recommendation_reason: 
+recommendation: no
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 spoilers: 
 - <i class="work-title">Star Wars</i>
 - <i class="work-title">Interstellar</i>
