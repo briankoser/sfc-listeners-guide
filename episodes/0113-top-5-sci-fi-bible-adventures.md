@@ -68,7 +68,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:22:48">22:48</a>
   <span class="quote-context is-size-6">Matt tells his story "Draver the Donkey and the Sorcerer's Sword"</span>
   <q class="matt">What's going to actually happen (spoiler alert) is Balaam is going to betray him and kill him with his sword. But—</q>
-  <q class="ben">Ooh, he puts the sword in the *bleep*.</q>
+  <q class="ben">Ooh, he puts the sword in the [bleep].</q>
   <q class="matt">...</q>
   <q class="ben">That's not a swear! It's a correct usage!</q>
   <q class="matt">Of 'donkey'?</q>
@@ -81,7 +81,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
   <q class="matt">But, when his plan falls apart, Ehud is forced to fight the evil king to the death! The gluttonous king is famous for his swordplay. However, Ehud ends up stabbing him in the stomach! In the disgusting conclusion to their battle, Ehud must push the sword in so deeply that King Eglon's fat actually covers the hilt of the sword.</q>
   <q class="ben">That's so cool.</q>
   <q class="matt">Then, pushing it further into his stomach until it is not even visible, Ehud completes the assassination. It's at this point that Eglon loses—this is disgusting—it's at this point that Eglon loses control of his bowels, and begins to defecate mercilessly all over his chamber.</q>
-  <q class="ben">What the *bleep*! I can't believe you included that!</q>
+  <q class="ben">What the [bleep]! I can't believe you included that!</q>
 </div>
 
 <div class="quote">
@@ -118,7 +118,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
   <q class="matt">No, cuz what if Daniel and Koby are on it?</q>
   <q class="ben">They can have their own song. This was my idea. My song!</q>
   <q class="matt">You're really going to say this is your song?</q>
-  <q class="ben">I want a selfish *bleep* moment!</q>
+  <q class="ben">I want a selfish [bleep] moment!</q>
 </div>
 
 <div class="quote">
@@ -131,5 +131,5 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
   <q class="matt">Yeah. This has never been—</q>
   <q class="ben">Oh, but now they see me caving. I caved!</q>
   <q class="matt">OK, I won't keep this on then.</q>
-  <q class="ben">No, you can keep this on. It's good for people to know I'm not a complete *bleep*.</q>
+  <q class="ben">No, you can keep this on. It's good for people to know I'm not a complete [bleep].</q>
 </div>

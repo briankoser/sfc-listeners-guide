@@ -51,7 +51,7 @@ Is fandom a problem? Ben says yes, Matt says maybe.
   <span class="quote-context is-size-6">Ben shares an analogy for his and Matt's attitudes toward fandom.</span>
   <q class="ben">You're the guy who hears about child labor sweatshops in third-world countries, says, 'That sucks,' and then heads off to a mall to go buy Nikes.</q>
   <q class="matt">Thanks. Thanks, Ben.</q>
-  <q class="ben">I'm the guy who is the wild-haired crazy person standing outside the store selling Nikes demanding that everyone else boycott while everyone just walks past me and says, 'What the *bleep* is his problem?'</q>
+  <q class="ben">I'm the guy who is the wild-haired crazy person standing outside the store selling Nikes demanding that everyone else boycott while everyone just walks past me and says, 'What the [bleep] is his problem?'</q>
   <q class="matt">*sigh*</q>
   <q class="ben">That's not a swear!</q>
   <q class="matt">Still gonna beep it out.</q>
