@@ -2,6 +2,7 @@
 layout: episode
 tags:
   - episode
+  - bleeping
   - stan-lee-quote-of-the-week
   - take-that-science
 
@@ -67,7 +68,7 @@ Ben is going to restart the <i class="work-title">Game of Thrones</i> videos wit
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/a0f1329f-584d-09a2-9327-7cf498bf210c.mp3#t=00:33:58">33:58</a>
   <span class="quote-context is-size-6">Matt's friend Brad emailed some feedback</span>
   <q class="matt">'The bleeping in your recent episode is hilarious.' So, thanks for swearing, Ben.</q>
-  <q class="ben">You bet your *bleep*!</q>
+  <q class="ben">You bet your [bleep]!</q>
 </div>
 
 Take that, Science: an engineer petitioned the US Government to do a feasibility study on building a Starship Enterprise.

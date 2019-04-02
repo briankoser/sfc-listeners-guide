@@ -78,7 +78,7 @@ Ben does "For It or Against It" for which <i class="work-title">Star Wars</i> ch
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/6b79d5df-1973-3616-4a16-1e622c07bdd3.mp3#t=00:42:11">42:11</a>
   <span class="quote-context is-size-6">Admiral Akbar was not listed as a possible spinoff character.</span>
-  <q class="ben">Now, why in the *bleep*—</q>
+  <q class="ben">Now, why in the [bleep]—</q>
   <q class="matt">No!</q>
   <q class="ben">You don't have to censor that.</q>
   <q class="matt">I do!</q>
