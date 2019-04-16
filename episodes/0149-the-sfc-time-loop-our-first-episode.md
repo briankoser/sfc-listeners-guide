@@ -249,7 +249,7 @@ Ben calls it "The Crappening".
       <ul>
         <li>X-Files 
         <li>Fahrenheit 451
-        <li>Lost
+        <li>LOST
         <li>Aliens
         <li>Inverted World
         <li>Matrix

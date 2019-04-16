@@ -78,7 +78,7 @@ Matt plans to start time looping episodes, although he doesn't yet know what he 
 - Matt Reading Books
 
 ## Worst Episode
-**№ 34 Lost Part 2**
+**№ 34 LOST Part 2**
 - № 35 Top 5 Dreams
 - № 12 The Search for Sasquatch
 
