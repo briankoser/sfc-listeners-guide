@@ -144,7 +144,7 @@ No winner
 ## Uncovered Topic 
 **Doctor Who**
 - Comic Reboots
-- Lost Part 3
+- LOST Part 3
 - Phillip K. Dick
 - Independent Christian Sci-Fi Authors
 - Will George R. R. Martin ever finish A Song of Ice and Fire

@@ -34,7 +34,7 @@ sponsors:
 
 notable_moments:
 firsts:
-  -  
+  - 
 prophecy: 
   - {"host": "", "prediction": "", "veracity": true, "comments": ""}
 future_episodes:
