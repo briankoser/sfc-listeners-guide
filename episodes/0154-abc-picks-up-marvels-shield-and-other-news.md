@@ -66,7 +66,7 @@ Koby debuted on Strangers and Aliens episode 67.
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/23e9e29c-6eef-bac7-54c5-3d049d318f55.mp3#t=00:11:35">11:35</a>
   <span class="quote-context is-size-6">Ben says Koby has recently been eloquent and logical.</span>
-  <q class="ben">He's making all these very compelling, intellectualy-honest, coherent thoughts, and I don't know what to do with this. And then he puts up the <i class="work-title">S.H.I.E.L.D.</i> trailer and says, 'It's my favorite show!', even though it doesn't debut for four months. And I wrote, 'There's the Koby we all know and love'. It's good to have you back, little buddy!</q>
+  <q class="ben">He's making all these very compelling, intellectually-honest, coherent thoughts, and I don't know what to do with this. And then he puts up the <i class="work-title">S.H.I.E.L.D.</i> trailer and says, 'It's my favorite show!', even though it doesn't debut for four months. And I wrote, 'There's the Koby we all know and love'. It's good to have you back, little buddy!</q>
 </div>
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/23e9e29c-6eef-bac7-54c5-3d049d318f55.mp3#t=00:12:27">12:27</a> Ben introduces a new segment: What the Frodo. Matt loses it.
