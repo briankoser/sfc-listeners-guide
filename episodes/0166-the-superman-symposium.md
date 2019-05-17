@@ -74,9 +74,9 @@ Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic b
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e095f8c6-f0c5-6be4-fbe7-bbb9c8b04535.mp3#t=00:59:57">59:57</a>
   <span class="quote-context is-size-6">Comics objectify women</span>
-  <q class="Rick Lee James">You know, basically the equivalent of a female superhero would wear, like, lingerie to fight crime in, you know--</q>
+  <q data-name="Rick Lee James">You know, basically the equivalent of a female superhero would wear, like, lingerie to fight crime in, you know--</q>
   <q class="ben">Well yeah, isn't that true?</q>
-  <q class="Rick Lee James">I mean, that's what I would be more comfortable in, of course.</q>
+  <q data-name="Rick Lee James">I mean, that's what I would be more comfortable in, of course.</q>
   <q class="ben">Absolutely. In fact, Matt is wearing lingerie right now.</q>
   <q class="matt">I like to be comfortable when I podcast.</q>
 </div>
@@ -109,7 +109,7 @@ Rick says God doesn't recognize country borders. <q class="archivist inline">I d
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e095f8c6-f0c5-6be4-fbe7-bbb9c8b04535.mp3#t=01:44:52">1:44:52</a>
-  <q class="Rick Lee James">And I was a little worried...this is gonna sound maybe racist, but that we had Perry Black instead of Perry White.</q>
+  <q data-name="Rick Lee James">And I was a little worried...this is gonna sound maybe racist, but that we had Perry Black instead of Perry White.</q>
   <q class="matt">Ooh, you're right, that was racist. That was completely racist! Wow.</q>
 </div>
 
