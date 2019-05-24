@@ -55,7 +55,7 @@ Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic b
 <div class="top-five">
   <h2 class="has-text-centered">8 Cons about <i class="work-title">Man of Steel</i></h2>
   <div class="columns">
-    <div class="column ben">
+    <div class="column">
       <h3>Rick</h3>
       <ol reversed>
         <li>Women in media are objectifying Henry Cavill.
@@ -86,7 +86,7 @@ Ben owns a Windows phone.
 <div class="top-five">
   <h2 class="has-text-centered">8 Pros about <i class="work-title">Man of Steel</i></h2>
   <div class="columns">
-    <div class="column ben">
+    <div class="column">
       <h3>Rick</h3>
       <ol reversed>
         <li>Christ-like symbolism
