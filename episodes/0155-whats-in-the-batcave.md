@@ -14,7 +14,7 @@ podcast_url: http://thescifichristian.com/2013/05/episode-155-whats-in-the-batca
 podcast_file_url: http://scifichristian.hipcast.com/deluge/2eae447e-2e7e-cd1c-4e23-89cfc3a0f46b.mp3
 date: 2013-05-17
 category: Main Topic
-series: Bad but Good
+series: Bad but Great
 hosts:
   - Ben
   - Matt
