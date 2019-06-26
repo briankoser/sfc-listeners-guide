@@ -53,11 +53,11 @@ And more!
 </div>
 
 <div class="testimonials">
+    <div class="box testimonial matt" data-name="Matt Anderson">
+        My favorite site on the entire Internet.
+    </div>
     <div class="box testimonial ben" data-name="Ben De Bono">
         I cannot tell you how much I love this...This is my favorite thing any listener has done.
-    </div>
-    <div class="box testimonial matt" data-name="Matt Anderson">
-        It's awesome...I don't know how you could make one better.
     </div>
 </div>
 
