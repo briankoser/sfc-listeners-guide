@@ -6,7 +6,7 @@ tags:
   - odd-opening
 
 title: Marriage Advice For Matt
-number: 169
+number: 168
 season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-168-marriage-advice-for-matt/
 podcast_file_url: http://scifichristian.hipcast.com/deluge/fb7058c6-7c87-fabc-ee5f-4928d0c54f5d.mp3
