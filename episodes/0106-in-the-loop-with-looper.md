@@ -53,24 +53,7 @@ Matt is afraid listeners will think this episode is a time loop and skip it.
 
 {% timeLink podcast_file_url, '16:50' %} The hosts voted three to one to not give time loops new episode numbers, but Matt continues to do it anyway. <q class="archivist inline">Thanks, Matt!</q>
 
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>Rating</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>4/5</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>5/5</td>
-    </tr>
-  </tbody>
-</table>
+{% rating 'Looper', 5, 4 %}
 
 {% timeLink podcast_file_url, '16:50' %} The Ben De Bono countdown music
 

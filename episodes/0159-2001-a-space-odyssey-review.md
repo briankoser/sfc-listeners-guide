@@ -31,24 +31,7 @@ Ben chants "monkeys" over the opening theme.
 
 
 # Main Topic
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>Rating</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>2.5/5</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>5/5</td>
-    </tr>
-  </tbody>
-</table>
+{% rating '2001: A Space Odyssey', 5, 2.5 %}
 
 [2001: A Space Odyssey Live Blog](http://thescifichristian.com/2013/05/2001-a-space-odyssey-live-blog/)
 

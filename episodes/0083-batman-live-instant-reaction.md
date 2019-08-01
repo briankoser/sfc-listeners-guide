@@ -48,21 +48,21 @@ archivist_note: Batman Live only toured for two more months after this recording
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
       <tr>
         <td>Matt</td>
-        <td class="number-column">1/5</td>
+        <td>🟊</td>
       </tr>
       <tr>
         <td>Daniel</td>
-        <td class="number-column">-2/5</td>
+        <td>-2</td>
       </tr>
       <tr>
         <td>Ben</td>
-        <td class="number-column">0.5/5</td>
+        <td>½</td>
       </tr>
   </tbody>
 </table>

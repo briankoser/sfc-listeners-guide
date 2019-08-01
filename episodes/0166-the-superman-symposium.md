@@ -33,21 +33,21 @@ Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic b
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Ben</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Matt</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Rick</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
   </tbody>
 </table>

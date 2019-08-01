@@ -43,25 +43,25 @@ Why should Star Trek matter to Christians?
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Matt</td>
-      <td>5/5</td>
+      <td>🟊🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Ben</td>
-      <td>5/5</td>
+      <td>🟊🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Koby</td>
-      <td>4.7/5</td>
+      <td>4.7</td>
     </tr>
     <tr>
       <td>Rich Kumarcy</td>
-      <td>5/5</td>
+      <td>🟊🟊🟊🟊🟊</td>
     </tr>
   </tbody>
 </table>

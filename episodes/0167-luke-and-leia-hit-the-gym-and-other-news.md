@@ -42,7 +42,7 @@ Matt moved
 
 # Main Topic
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/70c9c7aa-65be-069e-67d6-ebacfe9bdf04.mp3#t=00:17:30">17:30</a>
+  {% timeLink podcast_file_url, '17:30' %}
   <q class="ben">You love Jeff Goldblum?</q>
   <q class="matt">Oh, yeah! He's awesome! He's so cool. I miss that guy.</q>
   <q class="ben">Are you being serious?</q>
@@ -55,13 +55,13 @@ Matt moved
 What the Frodo: a Captain Planet movie is coming
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/70c9c7aa-65be-069e-67d6-ebacfe9bdf04.mp3#t=00:22:40">22:40</a>
+  {% timeLink podcast_file_url, '22:40' %}
   <span class="quote-context is-size-6">Captain Planet live action movie</span>
   <q class="ben">Do you think they'll bring Jeff Goldblum back?</q>
   <q class="matt">Be still my heart!</q>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/70c9c7aa-65be-069e-67d6-ebacfe9bdf04.mp3#t=00:26:46">26:46</a> Racist News of the Day
+{% timeLink podcast_file_url, '26:46' %} Racist News of the Day
 
 <div class="top-five">
   <h2 class="has-text-centered">3 Recent Deaths</h2>

@@ -30,21 +30,21 @@ Koby decided it would be his favorite movie before he saw it.
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Matt</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Koby</td>
-      <td>4.89/5</td>
+      <td>4.89</td>
     </tr>
     <tr>
       <td>Daniel</td>
-      <td>4.75/5</td>
+      <td>4.75</td>
     </tr>
   </tbody>
 </table>

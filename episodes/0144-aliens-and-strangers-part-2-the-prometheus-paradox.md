@@ -54,33 +54,33 @@ archivist_note: Strangers and Aliens cohost <a href="https://m.imdb.com/name/nm2
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Steve</td>
-      <td>1/5</td>
+      <td>🟊</td>
     </tr>
     <tr>
       <td>Jayce</td>
-      <td>1/5</td>
+      <td>🟊</td>
     </tr>
     <tr>
       <td>Ben Avery</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Ben</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Koby</td>
-      <td>1/5 or 2/5</td>
+      <td>🟊 or 🟊🟊</td>
     </tr>
     <tr>
       <td>Matt</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
   </tbody>
 </table>

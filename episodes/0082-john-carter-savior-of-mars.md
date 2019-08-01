@@ -25,21 +25,21 @@ recommendation_reason: Less a review than a discussion of the book series and re
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
       <tr>
         <td>Koby</td>
-        <td class="number-column">2/5</td>
+        <td>🟊🟊</td>
       </tr>
       <tr>
         <td>Matt</td>
-        <td class="number-column">4/5</td>
+        <td>🟊🟊🟊🟊</td>
       </tr>
       <tr>
         <td>Daniel</td>
-        <td class="number-column">4.75/5</td>
+        <td>4.75</td>
       </tr>
   </tbody>
 </table>

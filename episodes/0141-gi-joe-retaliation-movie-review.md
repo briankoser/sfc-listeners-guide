@@ -25,21 +25,21 @@ recommendation_reason: Daniel fills in aptly for Ben.
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Daniel</td>
-      <td>2/5</td>
+      <td>🟊🟊</td>
     </tr>
     <tr>
       <td>Koby</td>
-      <td>3.8/5</td>
+      <td>3.8</td>
     </tr>
     <tr>
       <td>Matt</td>
-      <td>2.5/5</td>
+      <td>🟊🟊½</td>
     </tr>
   </tbody>
 </table>

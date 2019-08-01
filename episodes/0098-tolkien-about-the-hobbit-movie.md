@@ -27,24 +27,7 @@ Instead of a spoiler alert, Ben issues a "spoiler smackdown" because it's based 
 Ben predicted 3.5 stars (terribly disappointing)
 Matt predicted 3 stars
 
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>Rating</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ben</td>
-      <td>5/5</td>
-    </tr>
-    <tr>
-      <td>Matt</td>
-      <td>5/5</td>
-    </tr>
-  </tbody>
-</table>
+{% rating 'The Hobbit: An Unexpected Journey', 5, 5 %}
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:13:03">13:03</a> Matt rants about the "stupid eagles".
 

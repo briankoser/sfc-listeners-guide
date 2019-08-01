@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   const http = require("http");
   const parseXml = require('xml2js').parseString;
 
+  const ratingShortCode = require('./_includes/shortcodes/rating-shortcode.js');
   const timeLinkShortCode = require('./_includes/shortcodes/timelink-shortcode.js');
 
   const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
@@ -78,6 +79,7 @@ module.exports = function(eleventyConfig) {
 
 
   eleventyConfig.addShortcode("timeLink", timeLinkShortCode);
+  eleventyConfig.addShortcode("rating", ratingShortCode);
 
 
 

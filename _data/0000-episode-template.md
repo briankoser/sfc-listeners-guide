@@ -77,7 +77,7 @@ What the Frodo:
 <i class="work-title"></i>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:23' %} 
+  {% timeLink podcast_file_url, '1:23' %}
   <span class="quote-context is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>
@@ -117,17 +117,19 @@ What the Frodo:
   </div>
 </div>
 
+{% rating 'Work', 1.5, 5 %}
+
 <table class="table is-striped rating">
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Matt</td>
-      <td>2/5</td>
+      <td>🟊🟊½</td>
     </tr>
   </tbody>
 </table>

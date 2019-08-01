@@ -25,17 +25,17 @@ recommendation_reason: Not sure that anyone remembers this movie.
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Ben Avery</td>
-      <td>2.5/5</td>
+      <td>🟊🟊½</td>
     </tr>
     <tr>
       <td>Matt</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
   </tbody>
 </table>

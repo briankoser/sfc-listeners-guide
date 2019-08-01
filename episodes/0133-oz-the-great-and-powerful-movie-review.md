@@ -24,17 +24,17 @@ recommendation_reason: Daniel makes Ben proud and gives a scathing review to a D
   <thead>
     <tr>
       <th>Host</th>
-      <th>Rating</th>
+      <th>☆☆☆☆☆</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Matt</td>
-      <td>4/5</td>
+      <td>🟊🟊🟊🟊</td>
     </tr>
     <tr>
       <td>Daniel</td>
-      <td>1.5/5</td>
+      <td>🟊½</td>
     </tr>
   </tbody>
 </table>

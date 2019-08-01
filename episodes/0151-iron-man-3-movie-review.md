@@ -24,24 +24,7 @@ last_listen: 2018-12-06
 recommendation: no
 recommendation_reason: Good review, but in general, reviews of mediocre movies aren't super interesting.
 ---
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>Rating</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>3/5</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>2/5</td>
-    </tr>
-  </tbody>
-</table>
+{% rating 'Iron Man 3', 2, 3 %}
 
 Ben was offended by how the film handles Tony Stark's PTSD: it's introduced as a serious topic and then becomes a joke for the rest of the movie. 
 
