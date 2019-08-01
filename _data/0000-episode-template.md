@@ -64,7 +64,7 @@ Ben is Right:
 
 Encouraging Signs: 
   
-<a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:03:45">3:45</a> Sci-Fi Christian Story Time
+{% timeLink podcast_file_url, '1:23' %}  Sci-Fi Christian Story Time
 
 Stan Lee Quote of the Week: 
 
@@ -77,7 +77,7 @@ What the Frodo:
 <i class="work-title"></i>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:03:45">3:45</a>
+  {% timeLink podcast_file_url, '1:23' %} 
   <span class="quote-context is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>

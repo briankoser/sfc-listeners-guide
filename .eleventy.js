@@ -4,13 +4,19 @@ module.exports = function(eleventyConfig) {
   const http = require("http");
   const parseXml = require('xml2js').parseString;
 
+  const timeLinkShortCode = require('./_includes/shortcodes/timelink-shortcode.js');
+
   const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
+
+
 
   eleventyConfig.addLayoutAlias("baseHero", "layouts/baseHero.njk");
   eleventyConfig.addLayoutAlias("baseNavBar", "layouts/baseNavBar.njk");
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
   eleventyConfig.addLayoutAlias("season", "layouts/season.njk");
+
+
 
   eleventyConfig.addFilter("color", shortName => {
     return (metadata.hosts.find(host => host.shortName === shortName).color || {}).name;
@@ -26,6 +32,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("today", option => {
     return option === "year" ? new Date().getFullYear() : new Date();
+  });
+
+  eleventyConfig.addFilter("weakness", shortName => {
+    return metadata.hosts.find(host => host.shortName === shortName).weakness;
   });
 
   eleventyConfig.addNunjucksAsyncFilter("totalSfcEpisodes", function(ignore, callback) {
@@ -65,9 +75,9 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter("weakness", shortName => {
-    return metadata.hosts.find(host => host.shortName === shortName).weakness;
-  });
+
+
+  eleventyConfig.addShortcode("timeLink", timeLinkShortCode);
 
 
 
@@ -468,7 +478,7 @@ module.exports = function(eleventyConfig) {
       "xml"
     ],
 
-    markdownTemplateEngine: "liquid",
+    markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
