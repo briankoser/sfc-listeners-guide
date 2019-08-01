@@ -10,7 +10,7 @@ title: Batman 1966 Making a Return?…and Other News
 number: 136
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-136-batman-1966-making-a-return-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/4f6097bb-4bda-67c9-17fe-6061045f7fd4.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0136.mp3
 date: 2013-03-27
 category: News
 hosts:
@@ -37,7 +37,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 # News
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f6097bb-4bda-67c9-17fe-6061045f7fd4.mp3#t=00:07:21">7:21</a>
+  {% timeLink podcast_file_url, '7:21' %}
   <span class="quote-context is-size-6">Matt wants to own Batman 1966 on DVD but it's not available. Ben suggests he buy pirated copies.</span>
   <q class="matt">How about this, Ben: my birthday's in May.</q>
   <q class="ben">Yeah.</q>
@@ -52,7 +52,7 @@ Nicolas Cage is starring in a <i class="work-title">Left Behind</i> reboot film.
 
 Matt hates <i class="work-title">Left Behind</i> and hopes Nicolas Cage kills the belief in the rapture.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f6097bb-4bda-67c9-17fe-6061045f7fd4.mp3#t=00:21:24">21:24</a> New segment: Ben is Right
+{% timeLink podcast_file_url, '21:24' %} New segment: Ben is Right
 
 The audio is so good Matt starts laughing and crying.
 
@@ -65,7 +65,7 @@ Stan Lee Quote of the Week: Stan hates people who pack products in too much plas
 Take That, Science: scientists have made a phaser like device with sound waves.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f6097bb-4bda-67c9-17fe-6061045f7fd4.mp3#t=00:34:53">34:53</a>
+  {% timeLink podcast_file_url, '34:53' %}
   <q class="ben">Take that, Calvin!</q>
 </div>
 

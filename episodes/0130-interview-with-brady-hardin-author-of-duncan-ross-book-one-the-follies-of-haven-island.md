@@ -8,7 +8,7 @@ title: "Interview with Brady Hardin, Author of Duncan Ross Book One: The Follies
 number: 130
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-130-interview-with-brady-hardin-author-of-duncan-ross-book-one-the-follies-of-haven-island/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/ca594e20-fe48-d935-3db5-8df4ccf5b832.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0130.mp3
 date: 2013-03-16
 category: Interview
 hosts:
@@ -33,7 +33,7 @@ archivist_note: It only took Matt 11 months after this episode to finish the las
 Brady enjoyed cruising on his honeymoon. Matt is considering cruising for his honeymoon. Ben recommends never going on a cruise.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ca594e20-fe48-d935-3db5-8df4ccf5b832.mp3#t=00:04:55">4:55</a>
+  {% timeLink podcast_file_url, '4:55' %}
   <q class="ben">Take that, Daniel Butcher!</q>
 </div>
 
@@ -57,7 +57,7 @@ Ben clarifies the Catholic view on grace versus works for salvation: grace initi
 Brady was heavily influenced by Campbell's <i class="work-title">Hero of a Thousand Faces</i>.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ca594e20-fe48-d935-3db5-8df4ccf5b832.mp3#t=00:57:11">57:11</a>
+  {% timeLink podcast_file_url, '57:11' %}
   <q class="ben">Older women have a thing for the Amish. That's your fact of the day on The Sci-Fi Christian.</q>
   <q data-name="Brady">I wonder if they have podcasts like this, where it's like, The Amish Christian.</q>
   <q class="ben">The Amish? I don't think so. I mean, the Amish don't even have electricity.</q>
@@ -77,15 +77,15 @@ Brady was heavily influenced by Campbell's <i class="work-title">Hero of a Thous
   <q class="matt">What would we do? Like, introduce them to lights?</q>
 </div>
 
-<a class="timestamp tag is-medium is-rounded  is-primary" href="http://scifichristian.hipcast.com/deluge/ca594e20-fe48-d935-3db5-8df4ccf5b832.mp3#t=01:04:55">1:04:55</a> Sci-Fi Christian Story Time: Dashed Hopes
+{% timeLink podcast_file_url, '1:04:55' %} Sci-Fi Christian Story Time: Dashed Hopes
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ca594e20-fe48-d935-3db5-8df4ccf5b832.mp3#t=01:07:11">1:07:11</a>
+  {% timeLink podcast_file_url, '1:07:11' %}
   <q class="ben">Because if there ever was a book written for me, it's <i class="work-title">Middle Earth and Pipe Smoking</i>.</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ca594e20-fe48-d935-3db5-8df4ccf5b832.mp3#t=01:09:03">1:09:03</a>
+  {% timeLink podcast_file_url, '1:09:03' %}
   <q class="matt">Donate to The Sci-Fi Christian.</q>
   <q class="ben">It's just as good as tithing!</q>
 </div>

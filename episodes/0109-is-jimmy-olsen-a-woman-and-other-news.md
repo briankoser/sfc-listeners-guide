@@ -11,7 +11,7 @@ title: Is Jimmy Olsen a Woman?…And Other News
 number: 109
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-109-is-jimmy-olsen-a-woman-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0109.mp3
 date: 2013-01-26
 category: News
 hosts:
@@ -36,10 +36,10 @@ archivist_note: "Episode bleep count: 3"
 # Opening
 Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but he is looking forward to their continued contributions. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:11:58">11:58</a> "Janujesus"
+{% timeLink podcast_file_url, '11:58' %} "Janujesus"
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:14:26">14:26</a>
+  {% timeLink podcast_file_url, '14:26' %}
   <q class="matt">Well, you know Jim Carrey is going to be in a superhero movie.</q>
   <q class="ben"><i class="work-title">The Mask</i>?</q>
   <q class="matt">No, he's in <i class="work-title">Kick-[bleep] 2</i>.</q>
@@ -52,7 +52,7 @@ Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but h
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:15:04">15:04</a>
+  {% timeLink podcast_file_url, '15:04' %}
   <q class="matt">Brandon, did you hear the episode where I had to bleep Ben out?</q>
   <q data-name="Brandon Gibbs">Which one?</q>
   <q class="matt">Yeah, exactly.</q>
@@ -82,7 +82,7 @@ Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but h
 Epic Life Church is now defunct, due to finances. Matt thinks it would be funny to restart The Life Report. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:22:33">22:33</a>
+  {% timeLink podcast_file_url, '22:33' %}
   <q class="matt">Yeah, so everybody, let's just bow our heads for a second.</q>
   <q class="ben">A moment of silence for The Life Report.</q>
   <q class="matt">I just want to have a moment of silence and pray for The Life Report.</q>
@@ -101,7 +101,7 @@ Matt observes that NBC has started doing short TV seasons like Ben called for tw
 Take That, Science: scientists hid an object in space and time, creating a temporal hole in light. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f867d073-5cc8-c5e4-d18f-cd9fc4f10dc3.mp3#t=00:39:11">39:11</a>
+  {% timeLink podcast_file_url, '39:11' %}
   <q class="ben">Take that, listeners!</q>
 </div>
 
@@ -113,4 +113,4 @@ Take That, Science: NASA transmitted the image of the Mona Lisa to the moon with
 
 Take That, Science: scientists think they found a planet with the core of a diamond.
 
-Ben brings back the Dark Knight News music. 
+Ben brings back the Dark Knight News music.

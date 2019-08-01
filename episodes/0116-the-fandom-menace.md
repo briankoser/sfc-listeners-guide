@@ -9,7 +9,7 @@ title: The Fandom Menace
 number: 116
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-116-the-fandom-menace/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/fa5f6c58-f778-d6e8-6933-def67522c726.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0116.mp3
 date: 2013-02-08
 category: Philosophy
 series: Fandom
@@ -31,7 +31,7 @@ Ben opens with "pow pow pow" sound effects.
 
 
 # Main Topic
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/fa5f6c58-f778-d6e8-6933-def67522c726.mp3#t=00:16:13">16:13</a> Main topic starts
+{% timeLink podcast_file_url, '16:13' %} Main topic starts
 
 ## Types of Stories
 - Mythology - answering the big questions
@@ -47,14 +47,14 @@ Does fandom distract us from what we're supposed to get from stories?
 Is fandom a problem? Ben says yes, Matt says maybe.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/fa5f6c58-f778-d6e8-6933-def67522c726.mp3#t=01:06:30">1:01:32</a>
+  {% timeLink podcast_file_url, '1:01:32' %}
   <span class="quote-context is-size-6">Ben shares an analogy for his and Matt's attitudes toward fandom.</span>
   <q class="ben">You're the guy who hears about child labor sweatshops in third-world countries, says, 'That sucks,' and then heads off to a mall to go buy Nikes.</q>
   <q class="matt">Thanks. Thanks, Ben.</q>
   <q class="ben">I'm the guy who is the wild-haired crazy person standing outside the store selling Nikes demanding that everyone else boycott while everyone just walks past me and says, 'What the [bleep] is his problem?'</q>
   <q class="matt">*sigh*</q>
   <q class="ben">That's not a swear!</q>
-  <q class="matt">Still gonna beep it out.</q>
+  <q class="matt">I'm still gonna beep it out.</q>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/fa5f6c58-f778-d6e8-6933-def67522c726.mp3#t=01:07:08">1:07:08</a> Sci-Fi Christian Story Time: Even Batman Hates Batman Live
+{% timeLink podcast_file_url, '1:07:08' %} Sci-Fi Christian Story Time: Even Batman Hates Batman Live

@@ -9,7 +9,7 @@ title: Can Superman Save the Justice League?…and Other News
 number: 115
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-115-can-superman-save-the-justice-league-and-other-news/ 
-podcast_file_url: http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0115.mp3
 date: 2013-02-06
 category: News
 hosts:
@@ -35,7 +35,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Matt asked Ben for an outline for the next episode during the Super Bowl. Ben had too many beers to send it. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3#t=00:03:24">3:24</a>
+  {% timeLink podcast_file_url, '3:24' %}
   <span class="quote-context is-size-6">Ben watched a football game with some friends.</span>
   <q class="ben">Alcohol makes you kind of tired, so I was just relaxed. We all thought—you know, the other three guys there were drinking as well, so everything was really funny, and it was a good time.</q>
   <q class="matt">Right now all of our listeners that were with us back in Season 1 are like, just praying that you'll become Protestant again.</q>
@@ -49,15 +49,15 @@ Matt asked Ben for an outline for the next episode during the Super Bowl. Ben ha
 
 Ben is a Narnian Publicationist.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3#t=00:16:00">16:00</a> Daniel butchers "Damon Lindelhof"'s name.
+{% timeLink podcast_file_url, '16:00' %} Daniel butchers "Damon Lindelhof"'s name.
 
 Ben promotes Daniel to the A Squad and demotes Koby to the Z Squad. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3#t=00:23:26">23:26</a> 
+{% timeLink podcast_file_url, '23:26' %}
 IgnotusWyrd remixed The History of Christianity: <a href="https://youtu.be/O7P6B8yMD2o">Triple Popes</a>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3#t=00:30:22">30:22</a>
+  {% timeLink podcast_file_url, '30:22' %}
   <span class="quote-context is-size-6">Marvel cast a female actress in the next Captain America movie. No one knows what character she is yet.</span>
   <q class="matt">There's talks though that this actress might be related to—so like, he'll have dated the grandma and then dated the granddaughter. That's hot.</q>
 </div>
@@ -73,7 +73,7 @@ Take That, Science: The closest asteroid yet will be passing Earth.
 Take That, Science: Science has proven that pretending to be a superhero can make you a better person. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5721c4bb-8819-4d7f-cece-acb3a7c615b3.mp3#t=00:47:23">47:23</a>
+  {% timeLink podcast_file_url, '47:23' %}
   <q class="matt">John Chu might be the new director of <i class="work-title">Matched</i>.</q>
   <q class="ben">I have no idea who John Chu is.</q>
   <q class="matt">Do you want to know what <i class="work-title">Matched</i> is about?</q>

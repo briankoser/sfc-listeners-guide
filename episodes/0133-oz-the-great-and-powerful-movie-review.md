@@ -7,7 +7,7 @@ title: Oz The Great and Powerful Movie Review
 number: 133
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-133-oz-the-great-and-powerful-movie-review/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/7985cabf-374f-d625-75f3-1d2f630b1741.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0133.mp3
 date: 2013-03-19
 category: Review
 hosts:

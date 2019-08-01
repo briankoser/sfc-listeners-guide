@@ -9,7 +9,7 @@ title: Death By Superheroes
 number: 153
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-153-death-by-superheroes/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/97ae4b65-ccf4-470c-b9ec-f4869a440199.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0153.mp3
 date: 2013-05-12
 category: Main Topic
 hosts:
@@ -83,4 +83,4 @@ Comic book characters represent mythological characters. When the villain dies, 
 
 Ben is defending his thesis tomorrow: "Is Christ Divided? A Study in Dissenting Ecclesiology from the Donatist Controversy to the Reformation". They will post the audio or video of his defense.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/97ae4b65-ccf4-470c-b9ec-f4869a440199.mp3#t=00:51:50">51:50</a> Sci-Fi Christian Story Time: Ben is Right: Annie agreed the parking sign was confusing
+{% timeLink podcast_file_url, '51:50' %} Sci-Fi Christian Story Time: Ben is Right: Annie agreed the parking sign was confusing

@@ -7,7 +7,7 @@ title: Interview with Rick Lee James, Sci-Fi Worship Leader
 number: 131
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-131-interview-with-rick-lee-james-sci-fi-worship-leader/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/810d9da8-7866-4b46-bd27-211e03818aaf.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0131.mp3
 date: 2013-03-17
 category: Interview
 hosts:
@@ -26,4 +26,4 @@ archivist_note: "Tip for young aspiring podcasters: don't put one voice on the l
 
 Rick invited Matt onto "Voices in My Head" to be the interviewer.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/810d9da8-7866-4b46-bd27-211e03818aaf.mp3#t=00:04:00">4:00</a> Interview starts
+{% timeLink podcast_file_url, '4:00' %} Interview starts

@@ -13,7 +13,7 @@ title: Summer Movie Preview 2013
 number: 143
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-143-summer-movie-preview-2013/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/991dc028-2264-6eaa-014c-7bb81a627169.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0143.mp3
 date: 2013-04-16
 category: Main Topic
 series: Movie Preview
@@ -45,7 +45,7 @@ Matt announces his birthday is May 5 for all the listeners who want to send him 
 
 9:15 torture
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/991dc028-2264-6eaa-014c-7bb81a627169.mp3#t=00:03:45">3:45</a>
+  {% timeLink podcast_file_url, '9:15' %}
   <span class="quote-context is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>
@@ -54,7 +54,7 @@ Matt announces his birthday is May 5 for all the listeners who want to send him 
 Ben is Right: William Shatner was joking/not joking when he dissed JJ Abrams
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/991dc028-2264-6eaa-014c-7bb81a627169.mp3#t=00:15:06">15:06</a>
+  {% timeLink podcast_file_url, '15:06' %}
   <span class="quote-context is-size-6">Matt says it's cool that Will Smith is getting his son acting jobs, even in bad movies like <i class="work-title">After Earth</i>.</span>
   <q class="matt">Will Smith: way to be a father.</q>
   <q class="ben">Yeah. Good job.</q>
@@ -98,4 +98,4 @@ Matt refuses to say the title of the movie <i class="work-title">Kickass 2</i>.
 
 Still excited about <i class="work-title">The Hobbit: Desolation of Smaug</i>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="scifichristian.hipcast.com/deluge/991dc028-2264-6eaa-014c-7bb81a627169.mp3#t=00:39:05#t=00:39:05">39:05</a> Sci-Fi Christian Story Time: Ben got a library fine and a parking ticket from St. John's
+{% timeLink podcast_file_url, '39:05' %}ci-Fi Christian Story Time: Ben got a library fine and a parking ticket from St. John's

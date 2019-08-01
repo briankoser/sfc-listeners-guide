@@ -7,7 +7,7 @@ title: The Proposal
 number: 111
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-111-the-proposal/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/4d72bee4-0acd-75ea-cbd6-c3766daf8f4d.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0111.mp3
 date: 2013-01-29
 category: Announcement
 hosts:

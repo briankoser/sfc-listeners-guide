@@ -10,7 +10,7 @@ title: Christopher Nolan Conquers the DC Universe and Other News
 number: 126
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-126-christopher-nolan-conquers-the-dc-universe-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0126.mp3
 date: 2013-03-05
 category: News
 hosts:
@@ -42,7 +42,7 @@ recommendation_reason: No need to listen to old news.
 It's rumored that Christopher Nolan is in charge of the complete DC movie universe, Zac Snyder is directing <i class="work-title">Justice League</i>, and Christopher Bale is returning as Batman for <i class="work-title">Justice League</i>. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=00:10:41">10:41</a>
+  {% timeLink podcast_file_url, '10:41' %}
   <q class="matt">So this is what I'm thinking: I don't think we're going to see a Justice League movie.</q>
   <q class="ben">Really.</q>
   <q class="matt">I think it's gonna be—I think the first movie will be 'Superman-Batman'. Or another title for it, back in—</q>
@@ -56,12 +56,12 @@ It's rumored that Christopher Nolan is in charge of the complete DC movie univer
 
 Ben wants DC to fire Henry Cavill and cast Benedict Cumberbatch and Martin Freeman as Batman and Superman.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=00:22:34">22:34</a> Matt invents a new segment: A Slew of Casting News. Ben pushes to record a musical intro.
+{% timeLink podcast_file_url, '22:34' %} Matt invents a new segment: A Slew of Casting News. Ben pushes to record a musical intro.
 
 Stan Lee Quote of the Week: Stan thinks that kids that wear helmets while roller skating are "soggy"
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=00:40:37">40:37</a>
+  {% timeLink podcast_file_url, '40:37' %}
   <span class="quote-context is-size-6">Ben says The History Channel shows are low quality.</span>
   <q class="matt">What about The Bible last night?</q>
   <q class="ben">I heard it sucked. I mean, the Bible's great, but the adaptation...</q>
@@ -72,27 +72,27 @@ Take That, Science: The world's first space tourist is planning to fund a trip t
 Take That, Science: scientists cured HIV in a newborn baby
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=00:47:36">47:36</a>
+  {% timeLink podcast_file_url, '47:36' %}
   <span class="quote-context is-size-6">President Obama referenced a "Jedi mind meld"</span>
   <q class="ben">Take that, Obama!</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=00:48:52">48:52</a>
+  {% timeLink podcast_file_url, '48:52' %}
   <q class="ben">Take that, wizard!</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=01:03:23">1:03:23</a>
+  {% timeLink podcast_file_url, '1:03:23' %}
   <q class="ben">Take that, Andre!</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=01:05:26">1:05:26</a>
+  {% timeLink podcast_file_url, '1:05:26' %}
   <q class="ben">Take that, RC!</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/81bd76fd-2e19-06c9-7267-e612db1aef37.mp3#t=01:17:12">1:17:12</a>
+  {% timeLink podcast_file_url, '1:17:12' %}
   <q class="ben">Down with bronies!</q>
 </div>

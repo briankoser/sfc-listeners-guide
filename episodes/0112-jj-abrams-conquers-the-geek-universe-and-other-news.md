@@ -10,7 +10,7 @@ title: J.J. Abrams Conquers the Geek Universe and Other News
 number: 112
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-112-j-j-abrams-conquers-the-geek-universe-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/a0f1329f-584d-09a2-9327-7cf498bf210c.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0112.mp3
 date: 2013-01-31
 category: News
 hosts:
@@ -31,7 +31,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 This episode sponsored by David, who set a new record for largest donation. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/a0f1329f-584d-09a2-9327-7cf498bf210c.mp3#t=00:01:45">1:45</a>
+  {% timeLink podcast_file_url, '1:45' %}
   <span class="quote-context is-size-6">Ben walks the listeners through donating on the website.</span>
   <q class="ben">Way easier than giving to church.</q>
   <q class="matt">Way easier.</q>
@@ -48,7 +48,7 @@ Ben is resigned to the fact of new <i class="work-title">Star Wars</i> movies, a
 
 Ben thinks they should replace the robot in the Bad Robot opening to <i class="work-title">Star Wars Episode VII</i> with R2-D2.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/a0f1329f-584d-09a2-9327-7cf498bf210c.mp3#t=00:17:10">17:10</a> Ben had a dream that Matt pranked him.
+{% timeLink podcast_file_url, '17:10' %} Ben had a dream that Matt pranked him.
 
 Matt asks and Ben elucidates: "De Bono", capital "D", space before "Bono".
 
@@ -57,7 +57,7 @@ Ben loves <i class="work-title">Doctor Who</i> now.
 Ben is going to restart the <i class="work-title">Game of Thrones</i> videos without Matt. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/a0f1329f-584d-09a2-9327-7cf498bf210c.mp3#t=00:31:17">31:17</a>
+  {% timeLink podcast_file_url, '31:17' %}
   <span class="quote-context is-size-6">Matt thinks <i class="work-title">X-Men: Days of Future Past</i> is trying to bring all the X-Men film characters together to emulate <i class="work-title">The Avengers</i></span>
   <q class="ben">I think it's a true theory. I endorse it.</q>
   <q class="matt">Thank you.</q>
@@ -65,7 +65,7 @@ Ben is going to restart the <i class="work-title">Game of Thrones</i> videos wit
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/a0f1329f-584d-09a2-9327-7cf498bf210c.mp3#t=00:33:58">33:58</a>
+  {% timeLink podcast_file_url, '33:58' %}
   <span class="quote-context is-size-6">Matt's friend Brad emailed some feedback</span>
   <q class="matt">'The bleeping in your recent episode is hilarious.' So, thanks for swearing, Ben.</q>
   <q class="ben">You bet your [bleep]!</q>

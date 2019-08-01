@@ -8,7 +8,7 @@ title: Top 5 Sci-Fi Things We’re Not Into, But Wish We Were
 number: 127
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-127-top-5-sci-fi-things-were-not-into-but-wish-we-were/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/daa35811-0ee7-dcb0-5e9a-65e90a4da177.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0127.mp3
 date: 2013-03-07
 category: Countdowns
 hosts:
@@ -90,7 +90,7 @@ Ben says you have to embrace the cheesiness to enjoy <i class="work-title">Docto
 Ben says <i class="work-title">The Wire</i> is the greatest show of all time.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/daa35811-0ee7-dcb0-5e9a-65e90a4da177.mp3#t=00:17:49">17:49</a>
+  {% timeLink podcast_file_url, '17:49' %}
   <q class="ben">The number one sci-fi thing I am not into but wish I was: <i class="work-title">2001: A Space Odyssey</i>.</q>
   <q class="matt">Yeah. I mean, I want to watch it. But you're not going to be into it, you just want to check it out.</q>
   <q class="ben">Yeah. I want to check it out. I have seen the part with the monkeys.</q>
@@ -107,7 +107,7 @@ Ben says <i class="work-title">The Wire</i> is the greatest show of all time.
 Ben quit halfway through the last <i class="work-title">Sword of Truth</i> book. <q class="archivist inline">Very similar for me: I think our library didn't have the last 3 books. By the time they did I had come to my senses.</q>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/daa35811-0ee7-dcb0-5e9a-65e90a4da177.mp3#t=00:22:19">22:19</a>
+  {% timeLink podcast_file_url, '22:19' %}
   <q class="ben">Take that, Joe!</q>
 </div>
 
@@ -151,7 +151,7 @@ Ben quit halfway through the last <i class="work-title">Sword of Truth</i> book.
   </div>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/daa35811-0ee7-dcb0-5e9a-65e90a4da177.mp3#t=00:41:50">41:50</a> Sci-Fi Christian Story Time: Matt has a Zombie Nightmare
+{% timeLink podcast_file_url, '41:50' %} Sci-Fi Christian Story Time: Matt has a Zombie Nightmare
 
 Ben says it's the creepiest story time the show has ever had.
 
@@ -160,10 +160,10 @@ Ben says it's the creepiest story time the show has ever had.
 # Closing
 Ben is defending his thesis at the end of April. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/daa35811-0ee7-dcb0-5e9a-65e90a4da177.mp3#t=00:47:58">47:58</a> Ben and Matt don't realize the mic is still on. They try to figure out when they should reveal that Koby isn't real, he's just a persona Ben plays.
+{% timeLink podcast_file_url, '47:58' %} Ben and Matt don't realize the mic is still on. They try to figure out when they should reveal that Koby isn't real, he's just a persona Ben plays.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/daa35811-0ee7-dcb0-5e9a-65e90a4da177.mp3#t=00:49:37">49:37</a>
+  {% timeLink podcast_file_url, '49:37' %}
   <q class="ben">I mean, eventually someone's going to get it. There's no way that guy could be real. We made a Facebook page for a cat; who does that?</q>
 </div>
 

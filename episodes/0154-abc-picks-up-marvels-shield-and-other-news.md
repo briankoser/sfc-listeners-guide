@@ -12,7 +12,7 @@ title: 154
 number: ABC Picks Up Marvel’s S.H.I.E.L.D. and Other News
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-154-abc-picks-up-marvels-s-h-i-e-l-d-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/23e9e29c-6eef-bac7-54c5-3d049d318f55.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0154.mp3
 date: 2013-05-16
 category: News
 hosts:
@@ -64,12 +64,12 @@ Koby debuted on Strangers and Aliens episode 67.
 <i class="work-title">Marvel's Agents of S.H.I.E.L.D.</i> isn't out yet but Koby said it's already his favorite show. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/23e9e29c-6eef-bac7-54c5-3d049d318f55.mp3#t=00:11:35">11:35</a>
+  {% timeLink podcast_file_url, '11:35' %}
   <span class="quote-context is-size-6">Ben says Koby has recently been eloquent and logical.</span>
   <q class="ben">He's making all these very compelling, intellectually-honest, coherent thoughts, and I don't know what to do with this. And then he puts up the <i class="work-title">S.H.I.E.L.D.</i> trailer and says, 'It's my favorite show!', even though it doesn't debut for four months. And I wrote, 'There's the Koby we all know and love'. It's good to have you back, little buddy!</q>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/23e9e29c-6eef-bac7-54c5-3d049d318f55.mp3#t=00:12:27">12:27</a> Ben introduces a new segment: What the Frodo. Matt loses it.
+{% timeLink podcast_file_url, '12:27' %} Ben introduces a new segment: What the Frodo. Matt loses it.
 
 What the Frodo: <i class="work-title">24</i> is returning
 
@@ -89,7 +89,7 @@ EA will be making Star Wars video games. They've registered the following URLs:
 Stan Lee Quote of the Week: Stan wants an Academy Award for best cameos
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/23e9e29c-6eef-bac7-54c5-3d049d318f55.mp3#t=00:40:18">40:18</a>
+  {% timeLink podcast_file_url, '40:18' %}
   <q class="ben">How many <i class="work-title">Iron Man 3</i>s is it going to take for you to stop being in favor of more Marvel movies?</q>
   <q class="matt">I don't know. I'm not sure how many.</q>
   <q class="ben">OK, well I just want to keep that as an open question.</q>
@@ -102,7 +102,7 @@ Take That, Science: 78,000 people have applied for positions on a private Mars c
 Take That, Science: boob armor is dangerous
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/23e9e29c-6eef-bac7-54c5-3d049d318f55.mp3#t=00:45:49">45:49</a>
+  {% timeLink podcast_file_url, '45:49' %}
   <span class="quote-context is-size-6"></span>
   <q class="ben">Here we go. 'Why Boob Plate Armor Will Kill You'.</q>
   <q class="matt">How did you find this article, Ben?</q>

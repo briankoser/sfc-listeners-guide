@@ -11,7 +11,7 @@ title: Marvel Studios Acquires the Rights to Daredevil and Other News
 number: 148
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-148-marvel-studios-acquires-the-rights-to-daredevil-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0148.mp3
 date: 2013-04-29
 category:  News
 hosts:
@@ -35,7 +35,7 @@ Matt's favorite Koby moment was his first episode where he had a title but no co
 Ben's favorite Koby moment was selling him on Theo's List. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:11:27">11:27</a>
+  {% timeLink podcast_file_url, '11:27' %}
   <span class="quote-context is-size-6">Marvel regained the film and TV rights to Daredevil</span>
   <q class="ben">I'm actually pretty psyched about this cuz Daredevil is probably my favorite Marvel superhero.</q>
   <q class="matt">That's shocking.</q>
@@ -51,27 +51,27 @@ Ben predicts <i class="work-title">Iron Man 3</i> will be a 4 star movie. Matt p
 Dave Johnson suggests uploading podcast episodes to YouTube. <q class="archivist inline">No no no</q>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:23:41">23:41</a>
+  {% timeLink podcast_file_url, '23:41' %}
   <q class="ben">Take that, JJ!</q>
 </div>
 
 Take That, Science: a new discovery on Europa could lead to finding alien life. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:24:11">24:11</a>
+  {% timeLink podcast_file_url, '24:11' %}
   <q class="ben">Do you ever feel like we got gypped in the moon category?</q>
   <q class="matt">Yeah, cuz we just have one and we call it 'moon'?</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:24:33">24:33</a>
+  {% timeLink podcast_file_url, '24:33' %}
   <q class="ben">We should find a way to launch a second moon.</q>
   <q class="matt">OK. Hmm, interesting. Wouldn't that mess up our gravity?</q>
   <q class="ben">Probably, but it would be worth it.</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:26:24">26:24</a>
+  {% timeLink podcast_file_url, '26:24' %}
   <q class="ben">If we were going to launch part of planet Earth into space to be Moon 2--</q>
   <q class="matt">Canada. What would you say?</q>
   <q class="ben">I'm good with Canada.</q>
@@ -87,7 +87,7 @@ Stan Lee Quote of the Week: Stan teams up with hishe to make fun of Star wars
 Stan Lee Quote of the Week: Stan is tough and gritty
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:35:18">35:18</a>
+  {% timeLink podcast_file_url, '35:18' %}
   <span class="quote-context is-size-6">Bryan Singer is adding two more X-Men to <i class="work-title">X-Men: Days of Future Past</i></span>
   <q class="matt">Bishop.</q>
   <q class="ben">Enough. Enough, Bryan Singer!</q>
@@ -100,7 +100,7 @@ Stan Lee Quote of the Week: Stan is tough and gritty
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:35:50">35:50</a>
+  {% timeLink podcast_file_url, '35:50' %}
   <span class="quote-context is-size-6">Lee Pace may play The Collector in <i class="work-title">Guardians of the Galaxy</i></span>
   <q class="matt">I'm for it, and I'm also for Bishop, but I'm against Warpath.</q>
   <q class="ben">Little racist there.</q>
@@ -116,7 +116,7 @@ Taylor argues that oversaturation can only be defined in hindsight: as long as s
 Ben's says oversaturation means low quality and poor intent, not quantity.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/feb20eff-91ba-ae65-69cd-3c98784d6e05.mp3#t=00:47:25">47:25</a>
+  {% timeLink podcast_file_url, '47:25' %}
   <q class="ben">I don't hate anybody.</q>
   <q class="matt">Koby?</q>
   <q class="ben">I don't hate him! I think he's a fool...</q>

@@ -9,7 +9,7 @@ title: Top 5 Sci-Fi Bible Adventures
 number: 113
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-113-top-5-sci-fi-bible-adventures/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0113.mp3
 date: 2013-02-02
 category: Countdown
 series: Bad but Great
@@ -65,7 +65,7 @@ recommendation_reason: Bonkers. In a good way.
 Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:22:48">22:48</a>
+  {% timeLink podcast_file_url, '22:48' %}
   <span class="quote-context is-size-6">Matt tells his story "Draver the Donkey and the Sorcerer's Sword"</span>
   <q class="matt">What's going to actually happen (spoiler alert) is Balaam is going to betray him and kill him with his sword. But—</q>
   <q class="ben">Ooh, he puts the sword in the [bleep].</q>
@@ -76,7 +76,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:26:40">26:40</a>
+  {% timeLink podcast_file_url, '26:40' %}
   <span class="quote-context is-size-6">Matt tells his story 'Ehud the Left-Handed Assassin'</span>
   <q class="matt">But, when his plan falls apart, Ehud is forced to fight the evil king to the death! The gluttonous king is famous for his swordplay. However, Ehud ends up stabbing him in the stomach! In the disgusting conclusion to their battle, Ehud must push the sword in so deeply that King Eglon's fat actually covers the hilt of the sword.</q>
   <q class="ben">That's so cool.</q>
@@ -85,7 +85,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:38:03">38:03</a>
+  {% timeLink podcast_file_url, '38:03' %}
   <span class="quote-context is-size-6">Matt reads listener feedback</span>
   <q class="matt">Koby wrote—</q>
   <q class="ben">Who?</q>
@@ -93,10 +93,10 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
   <q class="ben">Wait, we don't have one of those.</q>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:43:44">43:44</a> Sci-Fi Christian Story Time: Is that you, Matt and Ben? 
+{% timeLink podcast_file_url, '43:44' %} Sci-Fi Christian Story Time: Is that you, Matt and Ben? 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:44:22">44:22</a>
+  {% timeLink podcast_file_url, '44:22' %}
   <span class="quote-context is-size-6">Ben introduces a sound clip from 'It's Always Sunny in Philadelphia', explaining the premise of the show.</span>
   <q class="ben">It's just kind of, fairly inappropriate, adults only. But don't worry—</q>
   <q class="matt">Much like The Sci-Fi Christian has become.</q>
@@ -107,10 +107,10 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 
 
 # Closing 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:49:43">49:43</a> The Sci-Fi Christian Countdown sound clip recording
+{% timeLink podcast_file_url, '49:43' %} The Sci-Fi Christian Countdown sound clip recording
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:50:19">50:19</a>
+  {% timeLink podcast_file_url, '50:19' %}
   <span class="quote-context is-size-6">Continuing to record new Countdown sound clips</span>
   <q class="ben">Welcome to The Sci-Fi Christian Countdown! With Ben de Bono!</q>
   <q class="matt">And Matt Anderson! And maybe other people! This is dumb. We can't do it this way! We just have to have it ambiguous in case—</q>
@@ -122,7 +122,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b8b9433d-0c0d-fbd8-e83d-55ef35fe0ee6.mp3#t=00:53:45">53:45</a>
+  {% timeLink podcast_file_url, '53:45' %}
   <span class="quote-context is-size-6">Continuing to record new Countdown sound clips</span>
   <q class="matt">This is actually awesome for the people that are listening to this.</q>
   <q class="ben">Yeah.</q>

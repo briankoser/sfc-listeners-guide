@@ -7,7 +7,7 @@ title: You Say You Want a Revolution?
 number: 121
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-121-you-say-you-want-a-revolution/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/cfd261c1-f3fe-c921-3a38-2c1a9af04ef3.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0121.mp3
 date: 2013-02-24
 category: Philosophy
 hosts:

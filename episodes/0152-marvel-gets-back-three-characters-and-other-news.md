@@ -9,7 +9,7 @@ title: Marvel Gets Back Three Characters and Other News
 number: 152
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-152-marvel-gets-back-three-characters-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/83fdac70-f9fb-6690-92ac-bfbab68a7762.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0152.mp3
 date: 2013-05-09
 category: News
 hosts:
@@ -43,14 +43,14 @@ Joss Whedon liked <i class="work-title">Iron Man 3</i> and said it will be hard 
 Ben is disappointed that Joss Whedon has betrayed his philosophy of "story should always have a purpose".
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/83fdac70-f9fb-6690-92ac-bfbab68a7762.mp3#t=00:02:21">2:21</a>
+  {% timeLink podcast_file_url, '2:21' %}
   <q class="ben">Joss Whedon has, for the sake of being a fanboy, completely betrayed his set of principles that made him famous in the first place.</q>
   <q class="matt">Wow. I hope he's listening to this. Joss, we want you on the show. We're not going to make you answer for your crimes, but we just want to talk it out.</q>
 </div>
 
 Ben bought Matt <i class="work-title">The 5-Minute Iliad and Other Instant Classics: Great Books For The Short Attention Span</i> by Greg Nagan for his birthday.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/83fdac70-f9fb-6690-92ac-bfbab68a7762.mp3#t=00:07:54">7:54</a> Ben and Koby at the theatre
+{% timeLink podcast_file_url, '7:54' %} Ben and Koby at the theatre
 
 
 
@@ -74,7 +74,7 @@ Noah donated to the show, so they read his 5-page email.
 Noah asks for a new rule: no talking over the "Ben is Right" clip
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/83fdac70-f9fb-6690-92ac-bfbab68a7762.mp3#t=00:51:16">51:16</a>
+  {% timeLink podcast_file_url, '51:16' %}
   <span class="quote-context is-size-6">Noah compares weird bronies to sinful Catholics</span>
   <q class="ben">Here's the difference, Noah: you don't have a brony pope to help you sort it out. So take that, protestants! And bronies. Kill two birds with one stone there.</q>
   <q class="matt">Take that, bronies!</q>

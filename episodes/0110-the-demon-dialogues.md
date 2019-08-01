@@ -8,7 +8,7 @@ title: The Demon Dialogues
 number: 110
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-110-the-demon-dialogues/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/e1167c07-30e0-378b-3cbd-bf2f5e6a215f.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0110.mp3
 date: 2013-01-28
 category: Theology
 series: Demons
@@ -37,7 +37,7 @@ Ben is planning to get a Doctorate in Historical Theology.
 Ben is learning to read French.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e1167c07-30e0-378b-3cbd-bf2f5e6a215f.mp3#t=00:02:55">2:55</a>
+  {% timeLink podcast_file_url, '2:55' %}
   <span class="quote-context is-size-6">Ben calls the Eiffel Tower "a huge erection".</span>
   <q class="matt">Why? Why are you like this?</q>
 </div>
@@ -47,7 +47,7 @@ Ben is learning to read French.
 What are demons? 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e1167c07-30e0-378b-3cbd-bf2f5e6a215f.mp3#t=00:06:26">6:26</a>
+  {% timeLink podcast_file_url, '6:26' %}
   <span class="quote-context is-size-6">Ben talks about his research on demons.</span>
   <q class="ben">The first place I went with this, because the Bible's—the information's pretty scattered and all over the place, so I was curious, as a Catholic, what does the Catechism have to say about demons.</q>
   <q class="matt">'Curious as a Catholic', it's like, 'as curious as a cat'.</q>
@@ -68,7 +68,7 @@ If Ben could ask the pope one question, he would ask, "Batman or Superman"?
 Ben had a nightmare that the pope was a Green Bay Packers fan and held a Packers rally at the Vatican. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e1167c07-30e0-378b-3cbd-bf2f5e6a215f.mp3#t=00:28:41">28:41</a>
+  {% timeLink podcast_file_url, '28:41' %}
   <span class="quote-context is-size-6">They start to talk about demonic possession</span>
   <q class="matt">So, Catholic view: for or against?</q>
 </div>
@@ -80,4 +80,4 @@ Are angels corporeal? Did Gabriel have a body when he appeared to Mary?
 
 
 # Closing
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e1167c07-30e0-378b-3cbd-bf2f5e6a215f.mp3#t=01:01:27">1:01:27</a> Sci-Fi Christian Story Time: Matt Anderson Gets Engaged
+{% timeLink podcast_file_url, '1:01:27' %} Sci-Fi Christian Story Time: Matt Anderson Gets Engaged

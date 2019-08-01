@@ -8,7 +8,7 @@ title: Top 5 Things I’m Nostalgic For
 number: 170
 season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-170-top-5-things-im-nostalgic-for/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/4b5ba13d-50e8-e062-7b35-5bad0d194276.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0170.mp3
 date: 2013-07-16
 category: Countdowns
 hosts:
@@ -140,7 +140,7 @@ Ben started biking this year. Today he did his first mile in under three minutes
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4b5ba13d-50e8-e062-7b35-5bad0d194276.mp3#t=01:00:52">1:00:52</a>
+  {% timeLink podcast_file_url, '1:00:52' %}
   <span class="quote-context is-size-6">Ben describes the premise of the video game <i class="work-title">DOOM</i>.</span>
   <q class="ben">You're on a moon base, and they open up a portal and demons come through.</q>
   <q class="matt">Why don't they just not open the portal?</q>
@@ -150,7 +150,7 @@ Ben started biking this year. Today he did his first mile in under three minutes
 Ben is Right: video games let you choose your own adventure, so the book series is unnecessary
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4b5ba13d-50e8-e062-7b35-5bad0d194276.mp3#t=01:07:48">1:07:48</a>
+  {% timeLink podcast_file_url, '1:07:48' %}
   <q class="matt">I just started watching this past weekend <i class="work-title">Downton Abbey</i>.</q>
   <q class="ben">Yeah, there you go.</q>
   <q class="matt">Upon your recommendation.</q>
@@ -164,7 +164,7 @@ Ben is Right: video games let you choose your own adventure, so the book series 
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4b5ba13d-50e8-e062-7b35-5bad0d194276.mp3#t=01:09:45">1:09:45</a>
+  {% timeLink podcast_file_url, '1:09:45' %}
   <span class="quote-context is-size-6">Ben first watched <i class="work-title">Aliens</i> with his dad</span>
   <q class="matt">That must have been awesome. I grew up without my father.</q>
   <q class="ben">*laughs* Painful memories.</q>
@@ -176,7 +176,7 @@ Ben is Right: video games let you choose your own adventure, so the book series 
 Matt is reading <i class="work-title">Morning Glories</i> monthly. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4b5ba13d-50e8-e062-7b35-5bad0d194276.mp3#t=01:22:47">1:22:47</a>
+  {% timeLink podcast_file_url, '1:22:47' %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">That's all from here. I'm Matt Anderson.</q>
   <q class="ben">Don't do drugs if you're pregnant. I'm Ben de Bono.</q>

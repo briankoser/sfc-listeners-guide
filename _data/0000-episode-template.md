@@ -16,7 +16,7 @@ title:
 number: 
 season: 3
 podcast_url: 
-podcast_file_url: 
+podcast_file_url: http://thescifichristian.com/sfc/sfc0200.mp3
 date: 
 category: 
 series: 

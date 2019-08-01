@@ -10,7 +10,7 @@ title: Disney is Closing LucasArts and Other News
 number: 142
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-142-disney-is-closing-lucasarts-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/download/41519abd-c950-93b2-ec23-c573e309837c.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0142.mp3
 date: 2013-04-14
 category: News
 hosts:
@@ -42,7 +42,7 @@ Ben accidentally calls Koby, "Koby"
 Stan Lee Quote of the Week: Stan Lee rants against neckties
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/download/41519abd-c950-93b2-ec23-c573e309837c.mp3#t=00:24:17">24:17</a>
+  {% timeLink podcast_file_url, '24:17' %}
   <span class="quote-context is-size-6">Ben says he doesn't like neckties because he has a large neck</span>
   <q class="matt">You have a large neck?</q>
   <q class="ben">Yeah. So it's uncomfortable.</q>
@@ -63,10 +63,10 @@ Take That, Science: <i>Voyager 1</i> exited the solar system
 
 Roger Ebert died
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/download/41519abd-c950-93b2-ec23-c573e309837c.mp3#t=00:31:12">31:12</a> Ben reads some of Roger Ebert's sci-fi movie reviews
+{% timeLink podcast_file_url, '31:12' %} Ben reads some of Roger Ebert's sci-fi movie reviews
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/download/41519abd-c950-93b2-ec23-c573e309837c.mp3#t=00:34:20">34:20</a>
+  {% timeLink podcast_file_url, '34:20' %}
   <q class="matt">Peter Berg, who is a director for <i class="work-title">Friday Night Lights</i>, these two other bad movies: <i class="work-title">Hancock</i>, <i class="work-title">Battleship</i>. He's on board to direct the pilot for <i class="work-title">The Leftovers</i>. Ben?</q>
   <q class="ben">Yeah, that's gonna suck.</q>
 </div>
@@ -74,7 +74,7 @@ Roger Ebert died
 Ben gives his <i class="work-title">The Lord of the Rings</i> pipe questions again. So far no one has entered the contest. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/download/41519abd-c950-93b2-ec23-c573e309837c.mp3#t=00:44:10">44:10</a>
+  {% timeLink podcast_file_url, '44:10' %}
   <span class="quote-context is-size-6">Ben reviews the questions for his contest</span>
   <q class="ben">And question 5: what was Tolkien's preferred pipe material? And you need to be specific there. Like you said, when you guessed, you said wood. I'm not saying whether wood is right or not, but wood, even if it was right, would not have counted cuz it's not specific.</q>
   <q class="matt">Like I would have had to have said like, pine wood.</q>

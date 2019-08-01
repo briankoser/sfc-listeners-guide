@@ -9,7 +9,7 @@ title: "2001: A Space Odyssey Review"
 number: 159
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-159-2001-a-space-odyssey-review/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/a7e8b604-a8bb-75ec-1ef7-18ed0ebfb16a.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0159.mp3
 date: 2013-05-27
 category: Review
 hosts:
@@ -53,7 +53,7 @@ Ben chants "monkeys" over the opening theme.
 [2001: A Space Odyssey Live Blog](http://thescifichristian.com/2013/05/2001-a-space-odyssey-live-blog/)
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/a7e8b604-a8bb-75ec-1ef7-18ed0ebfb16a.mp3#t=00:30:50">30:50</a>
+  {% timeLink podcast_file_url, '30:50' %}
   <q class="ben">Take that, Kubrick!</q>
   <q class="matt">Take that, Kubrick!</q>
 </div>

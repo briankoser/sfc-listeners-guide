@@ -7,7 +7,7 @@ title: Iron Man 3 Movie Review
 number: 151
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-151-iron-man-3-movie-review/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/80dbc01e-c841-9861-5be8-47071487fadb.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0151.mp3
 date: 2013-05-07
 category: Review
 hosts:
@@ -55,7 +55,7 @@ Ben tried to sleep in the theatre.
 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/80dbc01e-c841-9861-5be8-47071487fadb.mp3#t=00:25:53">25:53</a>
+  {% timeLink podcast_file_url, '25:53' %}
   <q class="matt">We're recommending: don't see it. And maybe then Marvel will get their act together and release some good stories.</q>
   <q class="ben">Boycott Marvel!</q>
   <q class="matt">I wouldn't go that far.</q>

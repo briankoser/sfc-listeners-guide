@@ -7,7 +7,7 @@ title: Star Trek Roundtable Discussion
 number: 163
 season: 3
 podcast_url: http://thescifichristian.com/2013/06/episode-163-star-trek-roundtable-discussion/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/73c27bcf-2032-8c82-4afb-85987bf76edb.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0163.mp3
 date: 2013-06-11
 category: Main Topic
 hosts:

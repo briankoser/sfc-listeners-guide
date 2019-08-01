@@ -32,3 +32,6 @@ npm run dev
 ```shell
 npm run prod
 ```
+
+## Architecture
+[Layouts, Templates, Components, Partials, Macros](https://css-tricks.com/component-led-design-patterns-nunjucks-grunt/)

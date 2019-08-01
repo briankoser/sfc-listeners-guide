@@ -7,7 +7,7 @@ title: The Quicksilver Conundrum
 number: 160
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-160-the-quicksilver-conundrum/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/3dbca653-87e3-7bb7-2012-ab4538a1401f.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0160.mp3
 date: 2013-05-28
 category: News
 hosts:

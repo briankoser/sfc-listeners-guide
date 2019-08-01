@@ -13,7 +13,7 @@ title: "Virtual Ethics: Morality and MMOs"
 number: 146
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-146-virtual-ethics-morality-and-mmos/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/5eea7a65-6b23-3cbd-bfad-88a9a7f674d6.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0146.mp3
 date: 2013-04-25
 category: Philosophy
 series: Virtual Ethics
@@ -32,11 +32,11 @@ recommendation_reason: Great philosophical questions in a new context
 
 The mob has used MMOs to launder money and call hits on people. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5eea7a65-6b23-3cbd-bfad-88a9a7f674d6.mp3#t=00:14:43">14:43</a>
+{% timeLink podcast_file_url, '14:43' %}
 Pat Robertson clip: D&D destroyed people's lives
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5eea7a65-6b23-3cbd-bfad-88a9a7f674d6.mp3#t=00:03:45">16:26</a>
+  {% timeLink podcast_file_url, '16:26' %}
   <span class="quote-context is-size-6">Ben and Matt were warned about D&D in their church youth groups</span>
   <q class="matt">I was told to stay away from Dungeons & Dragons.</q>
   <q class="ben">So yeah, you know what I'm talking about.</q>
@@ -59,7 +59,7 @@ Are you disobeying an authority if you break a game's rules? If you cheat at che
 
 Ben thinks cheating at checkers is not a sin. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:45:39">45:39</a> Sci-Fi Christian Story Time: Ben appeals his parking ticket
+{% timeLink podcast_file_url, '45:39' %} Sci-Fi Christian Story Time: Ben appeals his parking ticket
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 4 Reasons Ben Shouldn't Get a Parking Ticket</h2>

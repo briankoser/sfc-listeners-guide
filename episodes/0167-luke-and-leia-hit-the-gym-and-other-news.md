@@ -12,7 +12,7 @@ title: Luke and Leia Hit the Gym and Other News
 number: 167
 season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-167-luke-and-leia-hit-the-gym-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/70c9c7aa-65be-069e-67d6-ebacfe9bdf04.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0167.mp3
 date: 2013-07-06
 category: News
 hosts:
@@ -77,7 +77,7 @@ What the Frodo: a Captain Planet movie is coming
   </div>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/70c9c7aa-65be-069e-67d6-ebacfe9bdf04.mp3#t=00:30:43">30:43</a> Matt wants news to brighten him up after the obituaries, so Ben introduces a new segment: Encouraging Signs.
+{% timeLink podcast_file_url, '30:43' %} Matt wants news to brighten him up after the obituaries, so Ben introduces a new segment: Encouraging Signs.
 
 Encouraging Signs: networks are doing short TV seasons 
 

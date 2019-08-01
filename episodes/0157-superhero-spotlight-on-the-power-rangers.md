@@ -8,7 +8,7 @@ title: Superhero Spotlight On the Power Rangers
 number: 157
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-157-superhero-spotlight-on-the-power-rangers/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/a1847464-58a4-c3f7-82aa-dce9ea4e6576.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0157.mp3
 date: 2013-05-21
 category: Review
 hosts:
@@ -27,7 +27,7 @@ Strangers and Aliens didn't send the comics, so Matt declares the sale of Koby v
 
 
 # Main Topic
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/a1847464-58a4-c3f7-82aa-dce9ea4e6576.mp3#t=00:04:45">4:45</a> Ben leaves a voicemail challenging Koby to list his top 5 themes from <i class="work-title">Power Rangers</i>.
+{% timeLink podcast_file_url, '4:45' %} Ben leaves a voicemail challenging Koby to list his top 5 themes from <i class="work-title">Power Rangers</i>.
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 themes from <i class="work-title">Power Rangers</i></h2>
@@ -70,4 +70,4 @@ Matt asked the listeners to send three-word reactions to <i class="work-title">P
 - Jason: Best show ever
 - Tom: Thunderbirds are go
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:59:00">59:00</a> Sci-Fi Christian Story Time: Koby says the Feud with Ben is over
+{% timeLink podcast_file_url, '59:00' %} Sci-Fi Christian Story Time: Koby says the Feud with Ben is over

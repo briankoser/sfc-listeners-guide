@@ -11,7 +11,7 @@ title: The Lone Ranger Shoots Himself in the Foot and Other News
 number: 169
 season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-169-the-lone-ranger-shoots-himself-in-the-foot-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/b0e9cca3-946b-e22c-d7e4-862567ceffad.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0169.mp3
 date: 2013-07-13
 category: News
 hosts:

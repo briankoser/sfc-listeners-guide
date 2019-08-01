@@ -10,7 +10,7 @@ title: What If Tolkien and Lewis Wrote Together?
 number: 140
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-140-what-if-tolkien-and-lewis-wrote-together/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0140.mp3
 date: 2013-04-02
 category: Literature
 hosts:
@@ -35,15 +35,15 @@ Matt says they should get Sci-Fi Christian t-shirts
 # Contest Winners
 
 ## 3 Matthew Lowdon 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3#t=00:05:53">5:53</a>
+{% timeLink podcast_file_url, '5:53' %}
 The Elves Sail to Narnia
 
 ## 2 Rick Lee James
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3#t=00:07:27">7:27</a>
+{% timeLink podcast_file_url, '7:27' %}
 Child Aslan in Middle Earth
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3#t=00:10:01">10:01</a>
+  {% timeLink podcast_file_url, '10:01' %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">Good job, Rick.</q>
   <q class="ben">Yeah, I like Rick.</q>
@@ -51,18 +51,18 @@ Child Aslan in Middle Earth
 </div>
 
 ## 1. Aaron Reini 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3#t=00:10:12">10:12</a> Fantasy Land with Hidden Language
+{% timeLink podcast_file_url, '10:12' %} Fantasy Land with Hidden Language
 
 # Host Entries
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3#t=00:13:54">13:54</a>  Matt's entry: The Wood Between Worlds
+{% timeLink podcast_file_url, '13:54' %}  Matt's entry: The Wood Between Worlds
 
 Ben again makes fun of how Matt says "Middle Earth".
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3#t=00:18:10">18:10</a> Ben's entry: a drama to show why they would never collaborate
+{% timeLink podcast_file_url, '18:10' %} Ben's entry: a drama to show why they would never collaborate
 
 Ben is Right: Tolkien and Lewis wouldn't have written fiction together
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4f3f3e54-8165-397d-d81f-2bab50be3417.mp3#t=00:23:40">23:40</a> Sci-Fi Christian Story Time: Ben "Ben is right"ed his wife
+{% timeLink podcast_file_url, '23:40' %} Sci-Fi Christian Story Time: Ben "Ben is right"ed his wife
 
 Ben is Right: Outback Steakhouse was busy Easter week
 

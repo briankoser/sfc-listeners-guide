@@ -9,7 +9,7 @@ title: New Animated Star Wars and Other News
 number: 161
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-161-new-animated-star-wars-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/f72be0a4-48cc-eeb8-5647-9037793391bd.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0161.mp3
 date: 2013-05-31
 category: News
 hosts:
@@ -39,7 +39,7 @@ Christopher Lee is releasing his second heavy metal album, titled "Charlemagne: 
 
 Ben wants to pause Stan Lee Quote of the Week and start a Christopher Lee Fact of the Week segment.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f72be0a4-48cc-eeb8-5647-9037793391bd.mp3#t=00:19:20">19:20</a> Ben tries to make a sound clip for Christopher Lee Fact of the Week
+{% timeLink podcast_file_url, '19:20' %} Ben tries to make a sound clip for Christopher Lee Fact of the Week
 
 New segment for bad news: Aw Shire <q class="archivist inline">I believe this was a one and done</q>
 
@@ -47,12 +47,12 @@ Aw Shire: AMC wants <i class="work-title">The Walking Dead</i> to run indefinite
 
 Ben wants to hire Damon Lindelof to script doctor the podcast. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f72be0a4-48cc-eeb8-5647-9037793391bd.mp3#t=00:23:57">23:57</a> Ben tickles Matt while trying to give him a neck rub
+{% timeLink podcast_file_url, '23:57' %} Ben tickles Matt while trying to give him a neck rub
 
 Matt Smith is returning for <i class="work-title">Doctor Who</i> Series 8
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f72be0a4-48cc-eeb8-5647-9037793391bd.mp3#t=00:26:20">26:20</a>
+  {% timeLink podcast_file_url, '26:20' %}
   <q class="ben">Take that, Matt!</q>
 </div>
 
@@ -61,7 +61,7 @@ Ben is for a Halo TV show, but against an Assassins Creed movie.
 They try to do a Marvel news segment sound clip.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f72be0a4-48cc-eeb8-5647-9037793391bd.mp3#t=00:36:30">36:30</a>
+  {% timeLink podcast_file_url, '36:30' %}
   <span class="quote-context is-size-6">Ben makes a sound clip for David Lindelof news</span>
   <q class="matt">David Lindelof, you heard of him?</q>
   <q class="ben">Again?</q>
@@ -70,7 +70,7 @@ They try to do a Marvel news segment sound clip.
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f72be0a4-48cc-eeb8-5647-9037793391bd.mp3#t=00:37:49">37:49</a>
+  {% timeLink podcast_file_url, '37:49' %}
   <span class="quote-context is-size-6">A school banned children from pretending to be superheroes.</span>
   <q class="ben">Don't take that away from kids, you stupid school system!</q>
   <q class="matt">Yeah! Schools! Who needs 'em!</q>

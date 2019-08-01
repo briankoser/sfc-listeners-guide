@@ -8,7 +8,7 @@ title: The Lost World of Genesis
 number: 124
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-124-the-lost-world-of-genesis/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/4d9b4fe5-30a6-5e69-3ebb-8b4a0f64b7cb.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0124.mp3
 date: 2013-02-27
 category: Theology
 hosts:
@@ -28,7 +28,7 @@ recommendation_reason: Great discussion of a controversial topic and a book that
 archivist_note: I had already planned to read the book as I try to figure out what I believe on this topic, and made sure to read it for this episode. You can read my <a href="https://www.goodreads.com/review/show/2531430265">Goodreads review</a>. Basically, I think Walton's theory is a great possibility, expected to be convinced by the book, and was not convinced. I don't really like the other options though, so I'm still leaning toward this or the framework hypothesis.
 ---
 # Opening
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4d9b4fe5-30a6-5e69-3ebb-8b4a0f64b7cb.mp3">0:00</a> After Matt introduces the episode, Ben surprises him by saying, "hoo hoo hoo".
+{% timeLink podcast_file_url, '0:00' %} After Matt introduces the episode, Ben surprises him by saying, "hoo hoo hoo".
 
 Both Ben and Matt wrote papers on Genesis 1 in grad school. This book was recommended to them by a professor. 
 
@@ -121,10 +121,10 @@ Ben believes in evolution because the Bible is silent on the issue.
 
 When someone says evolution happened by chance, they are making a physical and a metaphysical statement: evolution is a scientific theory, by chance is a metaphysical theory. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4d9b4fe5-30a6-5e69-3ebb-8b4a0f64b7cb.mp3#t=01:16:30">1:16:30</a> Sci-Fi Christian Story Time: CS Lewis: Sci-Fi Catholic? 
+{% timeLink podcast_file_url, '1:16:30' %} Sci-Fi Christian Story Time: CS Lewis: Sci-Fi Catholic? 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/4d9b4fe5-30a6-5e69-3ebb-8b4a0f64b7cb.mp3#t=01:19:06">1:19:06</a>
+  {% timeLink podcast_file_url, '1:19:06' %}
   <span class="quote-context is-size-6">Ben realized the scene on Ramandu's island in <i class="work-title">The Voyage of the Dawn Treader</i> is symbolic of Eucharist.</span>
   <q class="ben">This entire section from them getting to the table, through the water, is Catholic Eucharist through and through. Let me explain.</q>
   <q class="matt">OK. I'm looking at you in stunned silence. As if you couldn't make people more mad.</q>

@@ -7,7 +7,7 @@ title: Sci-Fi Feedback
 number: 128
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-128-sci-fi-feedback/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/c13a6fa8-ba75-5f29-5a4c-0ce29f7f5777.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0128.mp3
 date: 2013-03-10
 category: Feedback
 hosts:
@@ -31,7 +31,7 @@ recommendation_reason: Any notable feedback is included in the guide.
 Matt sets a one-hour timer for the episode. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/c13a6fa8-ba75-5f29-5a4c-0ce29f7f5777.mp3#t=00:27:45">27:45</a>
+  {% timeLink podcast_file_url, '27:45' %}
   <span class="quote-context is-size-6">Koby wishes he was a planeteer.</span>
   <q class="koby">I wish I was heart.</q>
 </div>

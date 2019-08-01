@@ -8,7 +8,7 @@ title: Top 5 Sci-Fi Geniuses Gone Bad
 number: 108
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-108-top-5-sci-fi-geniuses-gone-bad/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0108.mp3
 date: 2013-01-20
 category: Countdown
 hosts:
@@ -41,7 +41,7 @@ Matt's latest fundraising scheme: for $15 he will record an audio description of
 
 
 # Main Topic
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3#t=00:13:37">13:37</a> Countdown starts
+{% timeLink podcast_file_url, '13:37' %} Countdown starts
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Sci-Fi Geniuses Gone Bad</h2>
@@ -86,7 +86,7 @@ Matt's love for <i class="work-title">Reign of Fire</i> comes up again.
 Ben thinks <i class="work-title">Temple of Doom</i> is worse than <i class="work-title">Kingdom of the Crystal Skull</i> (for now).
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3#t=00:29:42">29:42</a>
+  {% timeLink podcast_file_url, '29:42' %}
   <q class="ben">We at The Sci-Fi Christian are against racism.</q>
   <q class="matt">Yes, and—</q>
   <q class="ben">Officially.</q>
@@ -103,7 +103,7 @@ Ben thinks <i class="work-title">Temple of Doom</i> is worse than <i class="work
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3#t=00:33:43">33:43</a>
+  {% timeLink podcast_file_url, '33:43' %}
   <q class="matt">But like this new one <i class="work-title">AE</i> with Will Smith and, and Son…Smith—</q>
   <q class="ben">'Son Smith'?! That's awesome!</q>
   <q class="matt">I'll see that.</q>
@@ -163,6 +163,6 @@ Ben says the schedule is to release two episodes a week, with special appearance
 
 Ben jokes that he'll just stop forwarding feedback to Matt. <q class="archivist inline">For now it's a joke.</q> 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3#t=01:06:54">1:06:54</a> Recording of the Sci-Fi Christian Story Time sound clip
+{% timeLink podcast_file_url, '1:06:54' %} Recording of the Sci-Fi Christian Story Time sound clip
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/ab37af35-97ec-0360-9ab7-e0a9ac792112.mp3#t=01:07:03">1:07:03</a> Sci-Fi Christian Story Time: Sci-Fi Catholics Unite
+{% timeLink podcast_file_url, '1:07:03' %} Sci-Fi Christian Story Time: Sci-Fi Catholics Unite

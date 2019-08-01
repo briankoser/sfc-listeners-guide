@@ -7,7 +7,7 @@ title: Superhero Spotlight on The New 52
 number: 156
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-156-superhero-spotlight-on-the-new-52/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/cbd4327d-b207-a3ac-8d7e-dc28413ffa4a.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0156.mp3
 date: 2013-05-18
 category: Review
 hosts:

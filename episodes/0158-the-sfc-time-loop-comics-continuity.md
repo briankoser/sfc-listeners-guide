@@ -7,7 +7,7 @@ title: The SFC Time Loop – Comics Continuity
 number: 158
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-158-the-sfc-time-loop-comics-continuity/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/324957f9-1957-7cae-72e5-433470e1547f.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0158.mp3
 date: 2013-05-25
 category: Time Loop
 hosts:

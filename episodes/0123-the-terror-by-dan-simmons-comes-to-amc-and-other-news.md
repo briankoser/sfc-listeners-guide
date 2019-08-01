@@ -10,7 +10,7 @@ title: “The Terror” by Dan Simmons Comes to AMC and Other News
 number: 123
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-123-the-terror-by-dan-simmons-comes-to-amc-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/6b79d5df-1973-3616-4a16-1e622c07bdd3.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0123.mp3
 date: 2013-02-26
 category: News
 hosts:
@@ -43,9 +43,8 @@ The lights go out while Ben beat boxes with the theme song.
 
 Ben reveals that Matt lives with Ryan Strelau in Scotland Green Apartments in Mountains View, MN
 
-6:00 I refuse to edit this episode
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/6b79d5df-1973-3616-4a16-1e622c07bdd3.mp3#t=00:06:14">6:14</a>
+  {% timeLink podcast_file_url, '6:14' %}
   <span class="quote-context is-size-6">Matt wants to be nominated for the Battle Royale, since he's a sci-fi creator.</span>
   <q class="ben">[And a] permanent member of the A Squad.</q>
   <q class="matt">Unless I quit this year.</q>
@@ -76,7 +75,7 @@ Matt stopped reading a book (<i class="work-title">The Christian Atheist</i>) an
 Ben does "For It or Against It" for which <i class="work-title">Star Wars</i> characters should get a spinoff. Matt likes it and has Ben do "For It or Against It" for news items at the end of the show. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/6b79d5df-1973-3616-4a16-1e622c07bdd3.mp3#t=00:42:11">42:11</a>
+  {% timeLink podcast_file_url, '42:11' %}
   <span class="quote-context is-size-6">Admiral Akbar was not listed as a possible spinoff character.</span>
   <q class="ben">Now, why in the [bleep]—</q>
   <q class="matt">No!</q>
@@ -121,7 +120,7 @@ Ben reads Colin in the UK s email in an English accent. Halfway through he inexp
 
 # Listener Feedback
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/6b79d5df-1973-3616-4a16-1e622c07bdd3.mp3#t=00:56:40">56:40</a> Listeners rave about "You Say You Want a Revolution?" Ben is put out and calls Brad Jorde, "Gordie".
+{% timeLink podcast_file_url, '56:40' %} Listeners rave about "You Say You Want a Revolution?" Ben is put out and calls Brad Jorde, "Gordie".
 
 Koby made a Facebook page for his cat Kitty Radcliffe.
 

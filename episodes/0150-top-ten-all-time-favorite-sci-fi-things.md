@@ -8,7 +8,7 @@ title: Top Ten All Time Favorite Sci-Fi Things
 number: 150
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-150-top-ten-all-time-favorite-sci-fi-things/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/9e1390cb-a764-976a-8f66-90225a0c74e2.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0150.mp3
 date: 2013-05-01
 category: Countdowns
 series: Recommendations
@@ -80,7 +80,7 @@ Matt is thinking about reading <i class="work-title">Paradise Lost</i>.
 C. S. Lewis's rule: for every new book you read, you should read an old book. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/9e1390cb-a764-976a-8f66-90225a0c74e2.mp3#t=00:32:10">32:10</a>
+  {% timeLink podcast_file_url, '32:10' %}
   <span class="quote-context is-size-6">Matt says there are no shows currently on as great as <i class="work-title">LOST</i></span>
   <q class="matt">When I watched <i class="work-title">LOST</i>, I actually felt—this is gonna sound strong, I know we're Christians, so I'm gonna use this word, and it's gonna sound crazy—</q>
   <q class="ben">Aroused?</q>
@@ -137,7 +137,7 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/9e1390cb-a764-976a-8f66-90225a0c74e2.mp3#t=00:35:00">35:00</a>
+  {% timeLink podcast_file_url, '35:00' %}
   <span class="quote-context is-size-6">Matt almost put <i class="work-title">Star Trek</i> on his list</span>
   <q class="ben">It sucks though.</q>
   <q class="matt">No, I don't think we feel exactly the same on that.</q>
@@ -161,6 +161,6 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
 
 C. S. Lewis said <i class="work-title">The Lord of the Rings</i> is the greatest work of literature since <i class="work-title">The Odyssey</i>.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/9e1390cb-a764-976a-8f66-90225a0c74e2.mp3#t=01:00:11">1:00:11</a> Sci-Fi Christian Story Time: Ben's Parking Ticket, Part 3
+{% timeLink podcast_file_url, '1:00:11' %} Sci-Fi Christian Story Time: Ben's Parking Ticket, Part 3
 
 Ben is Right: Ben got his parking ticket revoked.

@@ -13,7 +13,7 @@ title: Man of Steel Sequel Confirmed and Other News
 number: 164
 season: 3
 podcast_url: http://thescifichristian.com/2013/06/episode-164-man-of-steel-sequel-confirmed-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/e6f8c523-503e-c598-0d87-0f67bcf5b7f5.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0164.mp3
 date: 2013-06-17
 category: News
 hosts:
@@ -36,7 +36,7 @@ Matt opens with an odd cadence.
 
 # News 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/e6f8c523-503e-c598-0d87-0f67bcf5b7f5.mp3#t=00:06:06">6:06</a>
+  {% timeLink podcast_file_url, '6:06' %}
   <span class="quote-context is-size-6">The writers' strike hurt <i class="work-title">Heroes</i></span>
   <q class="ben">That's kinda what killed <i class="work-title">LOST</i> too, wasn't it.</q>
   <q class="matt">No, nothing killed <i class="work-title">LOST</i>.</q>

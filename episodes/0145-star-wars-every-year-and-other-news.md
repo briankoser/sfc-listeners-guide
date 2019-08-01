@@ -12,7 +12,7 @@ title: Star Wars Every Year?…and Other News
 number: 145
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-145-star-wars-every-year-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/cc7777dd-9ee7-efeb-4c47-b2a75c206476.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0145.mp3
 date: 2013-04-23
 category: News
 hosts:
@@ -35,7 +35,7 @@ Matt says he probably won't have Koby on any more episodes with Ben.
 Ben decides to put Koby on Theo's List. He thinks a couple <i class="work-title">Batman and Robin</i> DVDs would be a fair trade. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/cc7777dd-9ee7-efeb-4c47-b2a75c206476.mp3#t=00:06:11">6:11</a>
+  {% timeLink podcast_file_url, '6:11' %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">Good to see you. Fistbump.</q>
   <q class="ben">Yeah, fistbump.</q>

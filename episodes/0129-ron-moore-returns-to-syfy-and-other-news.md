@@ -9,7 +9,7 @@ title: Ron Moore Returns to Syfy and Other News
 number: 129
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-129-ron-moore-returns-to-syfy-and-other-news/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/74d7e784-902d-94c2-dc03-22ce4d3dbe32.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0129.mp3
 date: 2013-03-12
 category: News
 hosts:

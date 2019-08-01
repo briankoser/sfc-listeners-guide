@@ -7,7 +7,7 @@ title: Interview with Michael D. Sellers, Author of John Carter and the Gods of 
 number: 119
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-119-interview-with-michael-d-sellers-author-of-john-carter-and-the-gods-of-hollywood/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/cde04f08-b897-740d-7079-328427724455.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0119.mp3
 date: 2013-02-19
 category: Interview
 hosts:
@@ -25,7 +25,7 @@ recommendation_reason: If you're interested in John Carter, check out this behin
 # Opening
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/cde04f08-b897-740d-7079-328427724455.mp3#t=00:01:35">1:35</a>
+  {% timeLink podcast_file_url, '1:35' %}
   <q class="matt">There does seem to be—there was some force working against <i class="work-title">John Carter</i> being made into a movie—</q>
   <q class="koby">God.</q>
 </div>

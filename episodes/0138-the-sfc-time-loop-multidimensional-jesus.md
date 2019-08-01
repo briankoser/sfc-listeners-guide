@@ -6,7 +6,7 @@ title: The SFC Time Loop – Multidimensional Jesus
 number: 138
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-138-the-sfc-time-loop-multidimensional-jesus/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/b247e47b-996d-eaf9-debb-43f1c702f1c1.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0138.mp3
 date: 2013-03-29
 category: Main Topic
 series: Parallel Universes
@@ -52,12 +52,12 @@ Would doctrine be identical across the multiverse?
 Was the Fall inevitable? 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b247e47b-996d-eaf9-debb-43f1c702f1c1.mp3#t=00:30:53">30:53</a>
+  {% timeLink podcast_file_url, '30:53' %}
   <q class="ben">Maybe there's a universe of raccoons, where raccoons are sentient beings, and Jesus comes as a racoon.</q>
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/b247e47b-996d-eaf9-debb-43f1c702f1c1.mp3#t=00:50:55">50:55</a>
+  {% timeLink podcast_file_url, '50:55' %}
   <span class="quote-context is-size-6">Skip doesn't want alternate universes to exist because it would make theology messy.</span>
   <q class="ben">Well, if it exists, we probably won't find out about it so long as you are the pastor at Epic Life Church. So don't sweat it.</q>
 </div>

@@ -7,6 +7,7 @@ title: The Dragon Sermon
 number: 105
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-105-the-dragon-sermon/
+podcast_file_url: http://thescifichristian.com/sfc/sfc0105.mp3
 date: 2013-01-11
 category: Theology
 series: Sermons

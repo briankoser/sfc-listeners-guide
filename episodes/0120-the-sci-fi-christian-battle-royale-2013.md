@@ -7,7 +7,7 @@ title: The Sci-Fi Christian Battle Royale 2013
 number: 120
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-120-the-sci-fi-christian-battle-royale-2013/
-podcast_file_url: 
+podcast_file_url: http://thescifichristian.com/sfc/sfc0120.mp3
 date: 2013-02-22
 category: Announcement
 hosts:

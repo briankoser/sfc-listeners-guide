@@ -7,7 +7,7 @@ title: "Aliens and Strangers Part 2: The Prometheus Paradox"
 number: 144
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-144-aliens-and-strangers-part-2-the-prometheus-paradox/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/5020e149-44cb-6af9-0f6f-4108b9069f4f.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0144.mp3
 date: 2013-04-18
 category: Review
 series: Strangers and Aliens
@@ -43,8 +43,7 @@ archivist_note: Strangers and Aliens cohost <a href="https://m.imdb.com/name/nm2
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5020e149-44cb-6af9-0f6f-4108b9069f4f.mp3#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
+  {% timeLink podcast_file_url, '3:45' %}
   <q data-name="Jayce">Koby has a cool name. I agree with him.</q>
   <q class="koby">Amen brother!</q>
   <q class="ben">Yeah, he has a few of them.</q>
@@ -89,7 +88,7 @@ archivist_note: Strangers and Aliens cohost <a href="https://m.imdb.com/name/nm2
 In the original script, Jesus was an emissary of the aliens. Steve says it's blasphemous to write fiction like that. <q class="archivist inline">I actually like it (when not done tackily) and don't see the harm. I would think engagement, even from a position of unbelief, is preferable to ignorance and ignoring of Christianity.</q>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/5020e149-44cb-6af9-0f6f-4108b9069f4f.mp3#t=00:39:06">39:06</a>
+  {% timeLink podcast_file_url, '39:06' %}
   <q class="ben">Take that, Koby!</q>
 </div>
 

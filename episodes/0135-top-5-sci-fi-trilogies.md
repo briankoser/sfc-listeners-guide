@@ -8,7 +8,7 @@ title: Top 5 Sci-Fi Trilogies
 number: 135
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-135-top-5-sci-fi-trilogies/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/f67d6316-a366-e140-e04b-6b3bd0fc7ec3.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0135.mp3
 date: 2013-03-21
 category: Countdowns
 hosts:
@@ -103,7 +103,7 @@ recommendation_reason: Not a super interesting discussion.
 Ben and Matt are both reading <i class="work-title">Out of the Silent Planet</i> for the Strangers and Aliens book club. Both dislike the book. <q class="archivist inline">👍</q>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f67d6316-a366-e140-e04b-6b3bd0fc7ec3.mp3#t=00:48:48">48:48</a>
+  {% timeLink podcast_file_url, '48:48' %}
   <q class="matt">I kind of have a personal goal that in my lifetime I want to read everything C. S. Lewis ever put out.</q>
   <q class="ben">You know that he wrote a lot of literary criticism as well that might not appeal to you.</q>
   <q class="matt">I mean, I don't always meet all my goals.</q>
@@ -116,4 +116,4 @@ Ben and Matt call foul on Chad picking <i class="work-title">The Hitchhiker's Gu
 
 Aaron Reini names <i class="work-title">The Hobbit</i> movie trilogy "the most unnecessary trilogy". Ben says he could not disagree more after how good the first movie was.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f67d6316-a366-e140-e04b-6b3bd0fc7ec3.mp3#t=00:55:51">55:51</a> Sci-Fi Christian Story Time: Ben Gives in to Fandom
+{% timeLink podcast_file_url, '55:51' %} Sci-Fi Christian Story Time: Ben Gives in to Fandom

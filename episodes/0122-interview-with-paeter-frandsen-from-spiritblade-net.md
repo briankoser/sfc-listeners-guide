@@ -7,7 +7,7 @@ title: Interview with Paeter Frandsen from SpiritBlade.net
 number: 122
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-122-interview-with-paeter-frandsen-from-spritiblade-net/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/68b34112-e6bd-01fc-d57f-2dd50f1b83be.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0122.mp3
 date: 2013-02-25
 category: Interview
 hosts:

@@ -11,7 +11,7 @@ title: "Fables: The Motion Picture and Other News"
 number: 162
 season: 3
 podcast_url: http://thescifichristian.com/2013/06/episode-162-fables-the-motion-picture-and-other-news/ 
-podcast_file_url: http://scifichristian.hipcast.com/deluge/1993735d-abc1-1c73-cdb7-25925d154d29.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0162.mp3
 date: 2013-06-06
 category: News
 hosts:
@@ -38,7 +38,7 @@ For the first time they lost 5 minutes of recording with no video backup. They d
 # news
 Matt is shocked by <i class="work-title">Guardians of the Galaxy</i> casting. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/1993735d-abc1-1c73-cdb7-25925d154d29.mp3#t=00:04:48">4:48</a> <i class="work-title">Guardians of the Galaxy</i> will either be amazing or terrible
+{% timeLink podcast_file_url, '4:48' %} <i class="work-title">Guardians of the Galaxy</i> will either be amazing or terrible
 
 What the Frodo: Whoopi Goldberg was cast in <i class="work-title">Teenage Mutant Ninja Turtles</i>.
 
@@ -89,7 +89,7 @@ What the Frodo: there's a Trolls movie coming that will explain the origin of th
 More video game news: Ben tries again to create a sound clip. 
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/1993735d-abc1-1c73-cdb7-25925d154d29.mp3#t=00:28:57">28:57</a>
+  {% timeLink podcast_file_url, '28:57' %}
   <q class="ben">But I thought Damon Lindelof maybe wasn't quite as good as we thought he was.</q>
   <q class="matt">That was only said one time, in private.</q>
 </div>
@@ -105,8 +105,8 @@ A Grumpy Cat movie is in the works.
 Matt put <i class="work-title">Talladega Nights</i> on his wedding registry.
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/1993735d-abc1-1c73-cdb7-25925d154d29.mp3#t=00:38:18">38:18</a>
+  {% timeLink podcast_file_url, '38:18' %}
   <q class="ben">Legendary sci-fi author Jack Vance is dead. But he was like 90, so, it happens.</q>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/1993735d-abc1-1c73-cdb7-25925d154d29.mp3#t=00:41:28">41:28</a> Ben explains what he means by "depth" in art
+{% timeLink podcast_file_url, '41:28' %} Ben explains what he means by "depth" in art

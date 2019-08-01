@@ -8,7 +8,7 @@ title: I Am the Resurrection and the Virtual Life
 number: 118
 season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-118-i-am-the-resurrection-and-the-virtual-life/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/f46cbaf7-2bcb-a64a-1ff0-3c5482029858.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0118.mp3
 date: 2013-02-15
 category: Philosophy
 series: Virtual Ethics
@@ -34,7 +34,7 @@ Ben makes "pow pow pow" sounds during the opening music.
 What would be the ethics of choosing to live in a virtual world?
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f46cbaf7-2bcb-a64a-1ff0-3c5482029858.mp3#t=00:09:18">9:18</a>
+  {% timeLink podcast_file_url, '9:18' %}
   <span class="quote-context is-size-6">Ben just read <i class="work-title">Ready Player One</i></span>
   <q class="matt">So do you recommend this book?</q>
   <q class="ben">Absolutely. Very entertaining.</q>
@@ -63,9 +63,9 @@ Could we have a church if a group of Christians decided to live in the virtual w
   </div>
 </div>
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f46cbaf7-2bcb-a64a-1ff0-3c5482029858.mp3#t=00:54:55">54:55</a> Sci-Fi Christian Story Time: Cleverbot meets Ben De Bono
+{% timeLink podcast_file_url, '54:55' %} Sci-Fi Christian Story Time: Cleverbot meets Ben De Bono
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/f46cbaf7-2bcb-a64a-1ff0-3c5482029858.mp3#t=00:55:52">55:52</a> Sci-Fi Christian Story Time: Is my wife a prophet?
+{% timeLink podcast_file_url, '55:52' %} Sci-Fi Christian Story Time: Is my wife a prophet?
 
 
 
