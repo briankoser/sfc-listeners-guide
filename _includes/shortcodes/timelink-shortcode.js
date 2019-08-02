@@ -1,5 +1,5 @@
 module.exports = function timeLinkShortCode (url, time) {
-    let timePieces = time.split(':'); 
+    let timePieces = time.split(':');
     
     while(timePieces.length < 3) { 
         timePieces.unshift('00'); 

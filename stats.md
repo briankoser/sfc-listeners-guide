@@ -2,23 +2,26 @@
 layout: page
 pageTitle: Stats
 ---
-All stats are through episode № {{ collections.episodes.length }}. The {{collections.episodes[0].data.stats.episodes.spinoffs}} spinoff episodes are included.
+All stats are through episode № {{ collections.episodes.length - collections.episodes[0].data.stats.episodes.spinoffs }}. The {{collections.episodes[0].data.stats.episodes.spinoffs}} spinoff episodes are included.
 
 <div class="columns">
 <div class="column is-two-thirds">
 
 ## Episodes
 
-<div class="standalone-stat">
-<b>Time Loops</b>
-
-{{collections.episodes[0].data.stats.episodes.timeloops}}
-</div>
-
-<div class="standalone-stat">
-<b>Visits to Other Podcasts</b>
-
-{{collections.episodes[0].data.stats.episodes.visits}}
+<div class="level stats">
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">Time Loops</p>
+            <p class="title">{{collections.episodes[0].data.stats.episodes.timeloops}}</p>
+        </div>
+    </div>
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">Visits to Other Podcasts</p>
+            <p class="title">{{collections.episodes[0].data.stats.episodes.visits}}</p>
+        </div>
+    </div>
 </div>
 
 <div class="standalone-stat">
@@ -33,11 +36,19 @@ All stats are through episode № {{ collections.episodes.length }}. The {{colle
 № {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.number}} {{collections.episodes[0].data.stats.episodes.quickestTimeLoop.title}} ({{collections.episodes[0].data.stats.episodes.quickestTimeLoop.gap}} episodes between original and time loop)
 </div>
 
-<!-- Longest 
+<div class="standalone-stat">
+<b>Shortest Episode</b>
 
-Shortest
+№ {{collections.episodes[0].data.stats.episodes.shortestEpisode.number}} {{collections.episodes[0].data.stats.episodes.shortestEpisode.title}} ({{collections.episodes[0].data.stats.episodes.shortestEpisode.length}})
+</div>
 
-Average Length -->
+<div class="standalone-stat">
+<b>Longest Episode</b>
+
+№ {{collections.episodes[0].data.stats.episodes.longestEpisode.number}} {{collections.episodes[0].data.stats.episodes.longestEpisode.title}} ({{collections.episodes[0].data.stats.episodes.longestEpisode.length}})
+</div>
+
+<!-- Average Length -->
 
 <div class="standalone-stat">
 <b>Shortest Episode Title</b>

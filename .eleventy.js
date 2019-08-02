@@ -219,6 +219,23 @@ module.exports = function(eleventyConfig) {
       'number': oldestWithoutTimeLoop.data.number 
     };
 
+    let lengthToSeconds = length => { 
+      let timePieces = length.split(':').map(x => Number(x)); 
+      let seconds = timePieces[0] * 3600 + timePieces[1] * 60 + timePieces[2];
+      return seconds;
+    }
+
+    let episodeLengths = episodes
+      .map(episode => { return {
+        'title': episode.data.title,
+        'number': episode.data.number,
+        'length': episode.data.length,
+        'seconds': lengthToSeconds(episode.data.length)
+      }})
+      .sort( (a,b) => a.seconds - b.seconds);
+    episodeStats.shortestEpisode = episodeLengths[0];
+    episodeStats.longestEpisode = episodeLengths[episodeLengths.length - 1];
+
     let titles = episodes.map(e => e.data.title);
     let shortestTitleLength = titles.sort( (a, b) => a.length - b.length)[0].length;
     let longestTitleLength = titles.sort( (a, b) => b.length - a.length)[0].length;
