@@ -8,6 +8,7 @@ number: 78
 season: 2
 podcast_url: http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/
 date: 2012-08-09
+length: '00:54:03'
 category: Review
 series: Batman Month
 hosts:

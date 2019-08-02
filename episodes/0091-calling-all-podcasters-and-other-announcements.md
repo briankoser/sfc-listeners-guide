@@ -8,6 +8,7 @@ number: 91
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-91-calling-all-podcasters-and-other-announcements/
 date: 2012-11-11
+length: '00:23:26'
 category: Announcement
 hosts:
   - Matt

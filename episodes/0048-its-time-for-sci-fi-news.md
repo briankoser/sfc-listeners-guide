@@ -10,6 +10,7 @@ number: 48
 season: 2
 podcast_url: http://thescifichristian.com/2012/03/episode-48-its-time-for-sci-fi-news/
 date: 2012-03-26
+length: '00:40:18'
 category: News
 hosts:
   - Matt

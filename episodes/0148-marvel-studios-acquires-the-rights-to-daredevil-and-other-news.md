@@ -13,6 +13,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-148-marvel-studios-acquires-the-rights-to-daredevil-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0148.mp3
 date: 2013-04-29
+length: '00:57:33'
 category:  News
 hosts:
   - Ben

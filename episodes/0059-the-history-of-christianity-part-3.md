@@ -8,6 +8,7 @@ number: 59
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-59-the-history-of-christianity-part-3/
 date: 2012-05-19
+length: '00:19:22'
 category: Theology
 series: History of Christianity
 hosts:

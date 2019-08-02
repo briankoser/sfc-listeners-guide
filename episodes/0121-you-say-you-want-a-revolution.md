@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-121-you-say-you-want-a-revolution/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0121.mp3
 date: 2013-02-24
+length: '01:15:55'
 category: Philosophy
 hosts:
   - Matt

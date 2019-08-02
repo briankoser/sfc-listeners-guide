@@ -12,6 +12,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-142-disney-is-closing-lucasarts-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0142.mp3
 date: 2013-04-14
+length: '00:46:19'
 category: News
 hosts:
   - Ben

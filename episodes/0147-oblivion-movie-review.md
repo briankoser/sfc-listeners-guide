@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-147-oblivion-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0147.mp3
 date: 2013-04-27
+length: '00:50:38'
 category: Review
 hosts:
   - Matt

@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-124-the-lost-world-of-genesis/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0124.mp3
 date: 2013-02-27
+length: '01:25:37'
 category: Theology
 hosts:
   - Ben

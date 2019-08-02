@@ -9,6 +9,7 @@ season: 3
 podcast_url:  http://thescifichristian.com/2013/02/episode-114-superhero-spotlight-on-aquaman/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0114.mp3
 date: 2013-02-04
+length: '01:53:30'
 category: Main Topic
 series: Superhero Spotlight
 hosts:

@@ -9,6 +9,7 @@ number: 11
 season: 1
 podcast_url: http://thescifichristian.com/2011/04/episode-111-top-5-superpowers/
 date: 2011-04-06
+length: '01:12:42'
 category: Countdown
 series: Bad but Great
 hosts:

@@ -11,6 +11,7 @@ number: 34
 season: 1
 podcast_url: http://thescifichristian.com/2011/10/episode-34-lost-part-2/
 date: 2011-10-23
+length: '01:36:29'
 category: Review
 series: LOST
 hosts:

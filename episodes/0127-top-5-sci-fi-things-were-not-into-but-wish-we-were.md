@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-127-top-5-sci-fi-things-were-not-into-but-wish-we-were/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0127.mp3
 date: 2013-03-07
+length: '00:55:36'
 category: Countdowns
 hosts:
   - Ben

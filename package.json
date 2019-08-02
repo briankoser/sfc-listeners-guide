@@ -14,7 +14,7 @@
     "watch": "npx eleventy --serve",
     "serve": "http-server ./_site",
     "dev": "run-p watch css-build serve",
-    "prod": "npm run css-build && npm run build && npm run cache-bust && npm run search-index-build && npm run typography"
+    "prod": "npm run css-build && npm run build && npm run search-index-build && npm run typography"
   },
   "author": {
     "name": "Brian Koser",

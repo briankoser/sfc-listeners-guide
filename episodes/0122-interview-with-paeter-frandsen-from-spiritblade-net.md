@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-122-interview-with-paeter-frandsen-from-spritiblade-net/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0122.mp3
 date: 2013-02-25
+length: '00:49:40'
 category: Interview
 hosts:
   - Matt

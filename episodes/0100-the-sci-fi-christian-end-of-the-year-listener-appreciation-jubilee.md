@@ -8,6 +8,7 @@ number: 100
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-100-the-sci-fi-christian-end-of-the-year-listener-appreciation-jubilee/
 date: 2012-12-25
+length: '01:54:35'
 category: Award Show
 hosts:
   - Ben
@@ -17,7 +18,7 @@ hosts:
 
 notable_moments:
 firsts:
-  -  All four hosts together in studio
+  - All four hosts together in studio
 future_episodes: 
   - Alan Moore
   - Colin in the UK

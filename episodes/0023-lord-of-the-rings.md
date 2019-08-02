@@ -10,6 +10,7 @@ number: 23
 season: 1
 podcast_url: http://thescifichristian.com/2011/07/episode-23-lord-of-the-rings/
 date: 2011-07-02
+length: '01:58:46'
 category: Literature
 hosts:
   - Ben

@@ -8,6 +8,7 @@ number: 79
 season: 2
 podcast_url: http://thescifichristian.com/2012/08/episode-79-the-sci-fi-catholic/
 date: 2012-08-12
+length: '00:27:29'
 category: Theology
 hosts:
   - Ben

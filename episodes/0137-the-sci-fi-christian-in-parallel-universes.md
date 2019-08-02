@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-137-the-sci-fi-christian-in-parallel-universes/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0137.mp3
 date: 2013-03-28
+length: '01:14:49'
 category: Main Topic
 series: Parallel Universes
 hosts:

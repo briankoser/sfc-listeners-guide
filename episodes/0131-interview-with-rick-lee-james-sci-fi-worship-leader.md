@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-131-interview-with-rick-lee-james-sci-fi-worship-leader/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0131.mp3
 date: 2013-03-17
+length: '00:56:46'
 category: Interview
 hosts:
   - Matt

@@ -11,6 +11,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-134-christian-bale-as-moses-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0134.mp3
 date: 2013-03-20
+length: '00:56:11'
 category: News
 hosts:
   - Ben
@@ -47,7 +48,7 @@ Ben says the listeners can send in as many shows as they like. Matt reins him in
 
 
 # News
-Skip Crust started listening again. 
+Skip Crust started listening again.
 
 <div class="quote">
   {% timeLink podcast_file_url, '15:59' %}
@@ -76,51 +77,48 @@ Stan Lee Quote of the Week: Stan thinks "comicbook" should be one word because t
 
 Take That, Science: babies conceived in space might not develop normally.
 
-Oh because I'm not married
-Sex in space
 <div class="quote">
-  {% timeLink podcast_file_url, '30:40' %}
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  {% timeLink podcast_file_url, '30:48' %}
+  <q class="ben">If you're gonna go to space, Matt, there's something you might not want to do.</q>
+  <q class="matt">What?</q>
+  <q class="ben">Have sex.</q>
+  <q class="matt">In space?</q>
+  <q class="ben">In space.</q>
+  <q class="matt">Why?</q>
+  <q class="ben">Well, apparently—</q>
+  <q class="matt">Oh, because I'm not married.</q>
+</div>
+
+<div class="quote">
+  {% timeLink podcast_file_url, '31:27' %}
+  <span class="quote-context is-size-6">Matt wants to write fiction based on the last Take That, Science</span>
+  <q class="matt">This is an idea for a book.</q>
+  <q class="ben">It is.</q>
+  <q class="matt">OK.</q>
+  <q class="ben">So two people go have sex in space—</q>
+  <q class="matt">Let's just leave it. We don't want to ruin any of the surprises.</q>
+  <q class="ben">So it'll be called <i class="work-title">Sex in Space</i>, coming to a book store near you.</q>
+  <q class="matt">Probably not going to be the title, cuz we're gonna have to brand it Sci-Fi Christian. So I don't know if—</q>
+  <q class="ben"><i class="work-title">The Sci-Fi Christian's Guide to Sex in Space</i>.</q>
 </div>
 
 Take That, Science: people are trying to ban Google glass 
 
-32:55 take that Matt Anderson
-Take that lasik surgery
 <div class="quote">
-  {% timeLink podcast_file_url, '32:55' %}
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  {% timeLink podcast_file_url, '33:02' %}
+  <q class="ben">Take that, Matt Anderson!</q>
+  <q class="matt">Take that, lasik surgery!</q>
 </div>
 
 Matt forgot to save the Slew of Casting News sound clip
 
-40:40 punished
 <div class="quote">
-  {% timeLink podcast_file_url, '40:40' %}
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  {% timeLink podcast_file_url, '40:39' %}
+  <q class="matt">Some of our listeners didn't listen closely when I asked to keep their listener feedback shorter so we could pick good soundbites. And so you're going to be punished and I'm not going to read your feedback. I'm sorry, listeners. You had your chance.</q>
+  <q class="ben">I love it! I love being hard on our listeners.</q>
 </div>
 
 
 
 # Feedback 
 {% timeLink podcast_file_url, '41:15' %} Hank sends 3 emails excoriating Ben. <q class="archivist inline">The hardest I've heard Matt and Ben laugh during feedback to this point.</q>
-
-
-
-
-
-
-
-
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://scifichristian.hipcast.com/deluge/98cd87f8-d61d-ae25-7a4f-8010e435905b.mp3#t=00:03:45">3:45</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
-</div>

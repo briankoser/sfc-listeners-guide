@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-156-superhero-spotlight-on-the-new-52/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0156.mp3
 date: 2013-05-18
+length: '02:07:34'
 category: Review
 hosts:
   - Matt

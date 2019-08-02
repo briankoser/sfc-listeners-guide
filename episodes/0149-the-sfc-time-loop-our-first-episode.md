@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-149-the-sfc-time-loop-our-first-episode/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0149.mp3
 date: 2013-04-30
+length: '01:08:28'
 category: Conversation
 series: Recommendations
 hosts:

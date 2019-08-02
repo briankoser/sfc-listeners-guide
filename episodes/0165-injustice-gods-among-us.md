@@ -11,6 +11,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/06/episode-165-injustice-gods-among-us/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0165.mp3
 date: 2013-06-18
+length: '01:03:24'
 category: Review
 hosts:
   - Ben

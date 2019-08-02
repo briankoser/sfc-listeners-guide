@@ -8,6 +8,7 @@ number: 64
 season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-64-the-history-of-christianity-part-8/
 date: 2012-06-07
+length: '00:20:53'
 category: Theology
 series: History of Christianity
 hosts:

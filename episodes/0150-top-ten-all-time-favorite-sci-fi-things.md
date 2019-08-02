@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-150-top-ten-all-time-favorite-sci-fi-things/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0150.mp3
 date: 2013-05-01
+length: '01:02:37'
 category: Countdowns
 series: Recommendations
 hosts:

@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-174-indiana-jones-and-the-theology-of-the-lost-ark/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0174.mp3
 date: 2013-07-26
+length: '00:52:18'
 category: Theology
 series: Indiana Jones Theology
 hosts:

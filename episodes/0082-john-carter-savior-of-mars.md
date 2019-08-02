@@ -8,6 +8,7 @@ number: 82
 season: 2
 podcast_url: http://thescifichristian.com/2012/09/episode-82-john-carter-savior-of-mars/
 date: 2012-09-16
+length: '00:41:21'
 category: Review 
 hosts:
   - Matt

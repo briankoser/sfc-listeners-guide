@@ -10,6 +10,7 @@ number: 26
 season: 1
 podcast_url: http://thescifichristian.com/2011/07/episode-26-its-time-for-sci-fi-news/
 date: 2011-07-31
+length: '02:05:35'
 category: News
 hosts:
   - Ben

@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-133-oz-the-great-and-powerful-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0133.mp3
 date: 2013-03-19
+length: '00:34:21'
 category: Review
 hosts:
   - Matt

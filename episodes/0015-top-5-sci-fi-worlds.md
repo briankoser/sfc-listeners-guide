@@ -9,6 +9,7 @@ number: 15
 season: 1
 podcast_url: http://thescifichristian.com/2011/05/episode-115-top-5-sci-fi-worlds/
 date: 2011-05-03
+length: '01:36:38'
 category: Countdown
 hosts:
   - Ben

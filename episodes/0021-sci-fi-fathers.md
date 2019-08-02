@@ -10,6 +10,7 @@ number: 21
 season: 1
 podcast_url: http://thescifichristian.com/2011/06/episode-1-21-sci-fi-fathers/
 date: 2011-06-19
+length: '02:09:47'
 category: Countdown
 hosts:
   - Ben

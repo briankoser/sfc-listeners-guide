@@ -13,6 +13,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-169-the-lone-ranger-shoots-himself-in-the-foot-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0169.mp3
 date: 2013-07-13
+length: '00:32:34'
 category: News
 hosts:
   - Ben

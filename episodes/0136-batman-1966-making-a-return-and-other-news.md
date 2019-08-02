@@ -12,6 +12,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-136-batman-1966-making-a-return-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0136.mp3
 date: 2013-03-27
+length: '00:49:53'
 category: News
 hosts:
   - Ben

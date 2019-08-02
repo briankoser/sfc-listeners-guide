@@ -8,6 +8,7 @@ number: 83
 season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-83-batman-live-instant-reaction/
 date: 2012-10-01
+length: '00:41:47'
 category: Review
 hosts:
   - Ben

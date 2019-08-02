@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-125-the-sfc-time-loop-is-the-existence-of-aliens-compatible-with-a-biblical-worldview/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0125.mp3
 date: 2013-02-28
+length: '00:46:19'
 category: Theology
 series: Supernatural Creatures
 hosts:

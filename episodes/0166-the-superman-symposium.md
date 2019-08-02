@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/06/episode-166-the-superman-symposium/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0166.mp3
 date: 2013-06-27
+length: '02:09:15'
 category: Main Topic
 hosts:
   - Ben

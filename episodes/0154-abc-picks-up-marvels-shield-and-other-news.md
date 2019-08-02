@@ -14,6 +14,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-154-abc-picks-up-marvels-s-h-i-e-l-d-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0154.mp3
 date: 2013-05-16
+length: '01:11:34'
 category: News
 hosts:
   - Ben

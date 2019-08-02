@@ -11,6 +11,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-153-death-by-superheroes/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0153.mp3
 date: 2013-05-12
+length: '00:55:50'
 category: Main Topic
 hosts:
   - Ben

@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-141-g-i-joe-retaliation-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0141.mp3
 date: 2013-04-07
+length: '00:22:18'
 category: Review
 hosts:
   - Matt

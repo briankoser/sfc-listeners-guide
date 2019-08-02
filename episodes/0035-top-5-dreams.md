@@ -10,6 +10,7 @@ number: 35
 season: 1
 podcast_url: http://thescifichristian.com/2011/11/episode-35/
 date: 2011-11-12
+length: '01:25:09'
 category: Main Topic
 series: Bad but Great
 hosts:

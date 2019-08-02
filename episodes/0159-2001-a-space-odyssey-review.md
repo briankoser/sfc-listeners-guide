@@ -11,6 +11,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-159-2001-a-space-odyssey-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0159.mp3
 date: 2013-05-27
+length: '00:34:50'
 category: Review
 hosts:
   - Ben

@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-106-in-the-loop-with-looper/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0106.mp3
 date: 2013-01-13
+length: '00:59:25'
 category: Review
 hosts:
   - Ben

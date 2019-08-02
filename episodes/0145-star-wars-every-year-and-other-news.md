@@ -14,6 +14,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-145-star-wars-every-year-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0145.mp3
 date: 2013-04-23
+length: '00:54:29'
 category: News
 hosts:
   - Ben

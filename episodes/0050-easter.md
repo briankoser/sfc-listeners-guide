@@ -8,6 +8,7 @@ number: 50
 season: 2
 podcast_url: http://thescifichristian.com/2012/04/episode-50-easter/
 date: 2012-04-08
+length: '00:49:45'
 category: Theology
 series: Sermons
 hosts:

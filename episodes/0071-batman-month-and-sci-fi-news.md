@@ -11,6 +11,7 @@ number: 71
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-71-batman-month-and-sci-fi-news/
 date: 2012-07-12
+length: '00:53:08'
 category: News
 series: Batman Month
 hosts:

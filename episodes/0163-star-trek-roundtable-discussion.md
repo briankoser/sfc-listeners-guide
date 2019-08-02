@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/06/episode-163-star-trek-roundtable-discussion/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0163.mp3
 date: 2013-06-11
+length: '01:21:25'
 category: Main Topic
 hosts:
   - Ben

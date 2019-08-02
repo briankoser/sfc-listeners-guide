@@ -18,13 +18,12 @@ season: 3
 podcast_url: 
 podcast_file_url: http://thescifichristian.com/sfc/sfc0200.mp3
 date: 
+length: '00:12:34'
 category: 
 series: 
 hosts:
   - Ben
   - Matt
-  - Daniel
-  - Koby
 guests:
   - 
 time_loop_backward: [{"number": }]

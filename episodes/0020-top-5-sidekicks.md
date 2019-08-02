@@ -9,6 +9,7 @@ number: 20
 season: 1
 podcast_url: http://thescifichristian.com/2011/06/episode-120-top-5-sidekicks/
 date: 2011-06-12
+length: '01:53:11'
 category: Countdown
 hosts:
   - Ben

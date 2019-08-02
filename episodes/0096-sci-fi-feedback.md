@@ -8,6 +8,7 @@ number: 96
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/
 date: 2012-12-16
+length: '01:35:56'
 category: Feedback
 hosts:
   - Matt

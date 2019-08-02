@@ -9,6 +9,7 @@ number: 36
 season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-36-perception-of-inception/
 date: 2011-12-04
+length: '01:32:44'
 category: Review
 hosts:
   - Ben

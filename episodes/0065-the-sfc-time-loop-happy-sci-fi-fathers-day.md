@@ -8,6 +8,7 @@ number: 65
 season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-65-the-sfc-time-loop-–-happy-sci-fi-fathers-day/
 date: 2012-06-17
+length: '00:51:35'
 category: Countdown
 hosts:
   - Ben

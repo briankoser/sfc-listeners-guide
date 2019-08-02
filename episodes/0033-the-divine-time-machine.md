@@ -11,6 +11,7 @@ number: 33
 season: 1
 podcast_url: http://thescifichristian.com/2011/10/episode-33-the-divine-time-machine/
 date: 2011-10-09
+length: '01:03:30'
 category: Main Topic
 series: 
 hosts:

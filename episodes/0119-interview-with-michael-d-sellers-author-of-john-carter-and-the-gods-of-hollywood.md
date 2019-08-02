@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-119-interview-with-michael-d-sellers-author-of-john-carter-and-the-gods-of-hollywood/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0119.mp3
 date: 2013-02-19
+length: '01:11:54'
 category: Interview
 hosts:
   - Matt

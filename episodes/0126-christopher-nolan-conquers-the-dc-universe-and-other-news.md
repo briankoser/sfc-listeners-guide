@@ -12,6 +12,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-126-christopher-nolan-conquers-the-dc-universe-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0126.mp3
 date: 2013-03-05
+length: '01:17:17'
 category: News
 hosts:
   - Ben

@@ -8,6 +8,7 @@ number: 86
 season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-86-the-morality-of-immortality/
 date: 2012-10-13
+length: '01:02:22'
 category: Philosophy
 hosts:
   - Ben

@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-130-interview-with-brady-hardin-author-of-duncan-ross-book-one-the-follies-of-haven-island/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0130.mp3
 date: 2013-03-16
+length: '01:09:40'
 category: Interview
 hosts:
   - Ben

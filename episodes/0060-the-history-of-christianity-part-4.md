@@ -8,6 +8,7 @@ number: 60
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-60-the-history-of-christianity-part-4/
 date: 2012-05-20
+length: '00:19:57'
 category: Theology
 series: History of Christianity
 hosts:

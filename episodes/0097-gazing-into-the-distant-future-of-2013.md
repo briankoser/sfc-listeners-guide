@@ -8,6 +8,7 @@ number: 97
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-97-gazing-into-the-distant-future-of-2013/
 date: 2012-12-21
+length: '00:34:11'
 category: Announcement
 series: 
 hosts:

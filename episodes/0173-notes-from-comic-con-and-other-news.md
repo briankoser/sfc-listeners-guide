@@ -15,6 +15,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-173-notes-from-comic-con-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0173.mp3
 date: 2013-07-24
+length: '01:09:25'
 category: News
 hosts:
   - Ben

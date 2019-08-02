@@ -9,6 +9,7 @@ number: 7
 season: 1
 podcast_url: http://thescifichristian.com/2011/02/episode-107-horror-and-faith-aka-zombie-jesus/
 date: 2011-02-22
+length: '01:08:13'
 category: Theology
 series: Supernatural Creatures
 hosts:

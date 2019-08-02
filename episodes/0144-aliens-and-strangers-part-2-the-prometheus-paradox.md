@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-144-aliens-and-strangers-part-2-the-prometheus-paradox/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0144.mp3
 date: 2013-04-18
+length: '00:49:25'
 category: Review
 series: Strangers and Aliens
 hosts:

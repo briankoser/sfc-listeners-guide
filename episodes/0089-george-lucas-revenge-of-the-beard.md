@@ -8,6 +8,7 @@ number: 89
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-89-george-lucas-revenge-of-the-beard/
 date: 2012-11-02
+length: '00:46:25'
 category: News
 series: George Lucas
 hosts:

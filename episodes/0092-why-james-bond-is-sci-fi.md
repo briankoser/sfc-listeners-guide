@@ -8,6 +8,7 @@ number: 92
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-92-why-james-bond-is-sci-fi/
 date: 2012-11-15
+length: '00:45:48'
 category: Review
 hosts:
   - Matt

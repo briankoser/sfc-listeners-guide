@@ -10,6 +10,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-172-what-we-would-change-about-the-comics-industry/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0172.mp3
 date: 2013-07-18
+length: '01:27:18'
 category: Main Topic
 hosts:
   - Ben

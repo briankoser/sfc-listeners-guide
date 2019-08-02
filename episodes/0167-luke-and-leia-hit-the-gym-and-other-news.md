@@ -14,6 +14,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-167-luke-and-leia-hit-the-gym-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0167.mp3
 date: 2013-07-06
+length: '01:03:28'
 category: News
 hosts:
   - Ben

@@ -10,6 +10,7 @@ number: 67
 season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-67-its-time-for-sci-fi-news/
 date: 2012-06-25
+length: '00:48:44'
 category: News
 hosts:
   - Matt

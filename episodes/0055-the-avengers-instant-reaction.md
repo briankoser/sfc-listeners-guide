@@ -8,6 +8,7 @@ number: 55
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-55-the-avengers-instant-reaction/
 date: 2012-05-05
+length: '00:34:03'
 category: Review
 hosts:
   - Matt

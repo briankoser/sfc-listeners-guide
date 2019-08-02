@@ -10,6 +10,7 @@ number: 37
 season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-37-its-time-for-sci-fi-news/
 date: 2011-12-11
+length: '00:26:02'
 category: News
 hosts:
   - Ben

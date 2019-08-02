@@ -10,6 +10,7 @@ number: 19
 season: 1
 podcast_url: http://thescifichristian.com/2011/06/episode-119-apocalypse-now/
 date: 2011-06-05
+length: '01:55:19'
 category: Theology
 series: 
 hosts:

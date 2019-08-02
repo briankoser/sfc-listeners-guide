@@ -7,8 +7,9 @@ title: The Four Different Resurrections
 number: 1
 season: 3
 podcast_url: http://thescifichristian.com/2013/03/episode-1-the-four-different-resurrections/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/d0377be5-b826-efbe-dbc1-f919f01ee784.mp3
+podcast_file_url: 
 date: 2013-03-31
+length: '00:12:49'
 category: Spinoff
 series: The Bible Trivia Podcast
 hosts:

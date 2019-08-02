@@ -12,6 +12,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-123-the-terror-by-dan-simmons-comes-to-amc-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0123.mp3
 date: 2013-02-26
+length: '01:12:38'
 category: News
 hosts:
   - Ben

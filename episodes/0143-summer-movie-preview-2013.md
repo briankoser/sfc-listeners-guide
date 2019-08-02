@@ -15,6 +15,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-143-summer-movie-preview-2013/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0143.mp3
 date: 2013-04-16
+length: '00:42:19'
 category: Main Topic
 series: Movie Preview
 hosts:
@@ -43,12 +44,10 @@ They realized they accidentally recorded this episode through the laptop mic, so
 # Main Topic
 Matt announces his birthday is May 5 for all the listeners who want to send him a present.
 
-9:15 torture
 <div class="quote">
-  {% timeLink podcast_file_url, '9:15' %}
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
+  {% timeLink podcast_file_url, '9:10' %}
+  <q class="ben">Theatre is a subpar experience. You're paying to be tortured.</q>
+  <q class="matt">I like it.</q>
 </div>
 
 Ben is Right: William Shatner was joking/not joking when he dissed JJ Abrams

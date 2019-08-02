@@ -11,6 +11,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/02/episode-116-the-fandom-menace/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0116.mp3
 date: 2013-02-08
+length: '01:12:14'
 category: Philosophy
 series: Fandom
 hosts:

@@ -7,8 +7,9 @@ title: The Oz/Wonderland Chronicles
 number: 1
 season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-1-the-ozwonderland-chronicles/
-podcast_file_url: http://scifichristian.hipcast.com/deluge/d00d198d-0a73-90d3-ecab-89d833418e5a.mp3
+podcast_file_url: 
 date: 2013-04-28
+length: ''
 category: Spinoff
 series: Issues of the Day
 hosts:

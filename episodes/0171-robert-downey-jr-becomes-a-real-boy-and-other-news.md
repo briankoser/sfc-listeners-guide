@@ -14,6 +14,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/07/episode-171-robert-downey-jr-becomes-a-real-boy-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0171.mp3
 date: 2013-07-17
+length: '00:41:16'
 category: News
 hosts:
   - Ben

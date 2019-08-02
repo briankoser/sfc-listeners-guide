@@ -15,6 +15,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-146-virtual-ethics-morality-and-mmos/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0146.mp3
 date: 2013-04-25
+length: '00:51:28'
 category: Philosophy
 series: Virtual Ethics
 hosts:

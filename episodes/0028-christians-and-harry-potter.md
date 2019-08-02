@@ -10,6 +10,7 @@ number: 28
 season: 1
 podcast_url: http://thescifichristian.com/2011/08/episode-28-christians-and-harry-potter/
 date: 2011-08-22
+length: '01:32:35'
 category: Main Topic
 hosts:
   - Ben

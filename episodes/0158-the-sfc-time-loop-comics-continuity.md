@@ -9,6 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-158-the-sfc-time-loop-comics-continuity/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0158.mp3
 date: 2013-05-25
+length: '01:08:13'
 category: Time Loop
 hosts:
   - Ben

@@ -8,6 +8,7 @@ number: 41
 season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-41-top-5-disney-movies/
 date: 2012-01-16
+length: '01:19:10'
 category: Countdown
 series: Disney-Pixar
 hosts:
@@ -25,7 +26,7 @@ last_listen: 2018-04-23
 recommendation: yes
 recommendation_reason: Daniel presents a great, interesting history of Disney.
 ---
-Daniel has listened to every Life Report and Sci-Fi Christian episode. 
+Daniel is the Family Ministries Pastor at Epic Life. He has listened to every Life Report and Sci-Fi Christian episode.
 
 According to Matt, Daniel is the epitome of Disney expert.
 

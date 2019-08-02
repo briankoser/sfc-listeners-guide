@@ -12,6 +12,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-140-what-if-tolkien-and-lewis-wrote-together/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0140.mp3
 date: 2013-04-02
+length: '00:32:30'
 category: Literature
 hosts:
   - Ben

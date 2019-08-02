@@ -9,6 +9,7 @@ number: 8
 season: 1
 podcast_url: http://thescifichristian.com/2011/03/episode-108-sci-fi-movies-we-hate-hate-hate/
 date: 2011-03-01
+length: '01:36:37'
 category: Countdown
 series: Recommendations
 hosts:

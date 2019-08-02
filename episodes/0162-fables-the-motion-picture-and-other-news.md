@@ -13,6 +13,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/06/episode-162-fables-the-motion-picture-and-other-news/ 
 podcast_file_url: http://thescifichristian.com/sfc/sfc0162.mp3
 date: 2013-06-06
+length: '00:50:46'
 category: News
 hosts:
   - Ben

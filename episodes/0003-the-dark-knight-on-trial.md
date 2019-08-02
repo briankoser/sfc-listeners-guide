@@ -10,6 +10,7 @@ number: 3
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-103-the-dark-knight-on-trial/
 date: 2011-01-24
+length: '01:01:53'
 category: Philosophy
 series: 
 hosts:
