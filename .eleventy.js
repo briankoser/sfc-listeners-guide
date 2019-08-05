@@ -39,43 +39,6 @@ module.exports = function(eleventyConfig) {
     return metadata.hosts.find(host => host.shortName === shortName).weakness;
   });
 
-  eleventyConfig.addNunjucksAsyncFilter("totalSfcEpisodes", function(ignore, callback) {
-    let latestEpisodeNumber;
-
-    http.get("http://thescifichristian.com/feed/", response => {
-      const { statusCode } = response;
-      const contentType = response.headers['content-type'];
-    
-      let error;
-      if (statusCode !== 200) {
-        error = new Error('Request Failed.\n' + `Status Code: ${statusCode}`);
-      } else if (contentType !== 'application/rss+xml; charset=UTF-8') {
-        error = new Error('Invalid content-type.\n' + `Expected rss+xml but received ${contentType}`);
-      }
-      if (error) {
-        console.error(error.message);
-        // consume response data to free up memory
-        response.resume();
-        callback(error);
-      }
-    
-      response.setEncoding('utf8');
-      let rawData = '';
-      response.on('data', (chunk) => { rawData += chunk; });
-      response.on('end', () => {
-        try {
-          parseXml(rawData, (err, result) => {
-            latestEpisodeNumber = result.rss.channel[0].item[0].title[0].match(/[0-9]+/)[0];
-            callback(null, latestEpisodeNumber);
-          })
-        } catch (e) {
-          console.error(e.message);
-          callback(e);
-        }
-      });
-    });
-  });
-
 
 
   eleventyConfig.addShortcode("timeLink", timeLinkShortCode);
