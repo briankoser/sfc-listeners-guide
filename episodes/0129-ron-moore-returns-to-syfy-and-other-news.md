@@ -37,7 +37,7 @@ Ben suggests making the show's statute of limitations on spoilers 10 years.
 
 Ben's idea for the opening of <i class="work-title">Star Wars: Episode VII</i>: the opening scrawl says there's a Gungan reunion party on Naboo. Then a Death Star nukes Naboo. Then there's a second scrawl and the movie goes from there.
 
-Take That, Science: a "study" showed that red shirts died in greater numbers in TOS but not in greater number proportionally. Ben says that's the worst news ever reported on the show.
+Take That, Science: a "study" showed that red shirts died in greater numbers in <i class="work-title">Star Trek: TOS</i> but not in greater number proportionally. Ben says that's the worst news ever reported on the show.
 
 
 
