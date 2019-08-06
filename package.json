@@ -12,8 +12,7 @@
     "typography": "npx typogr --force _site _site-typogr",
     "build": "npx eleventy",
     "watch": "npx eleventy --serve",
-    "serve": "http-server ./_site",
-    "dev": "run-p watch css-build serve",
+    "dev": "run-p css-build watch",
     "prod": "npm run css-build && npm run build && npm run search-index-build && npm run typography"
   },
   "author": {
@@ -26,7 +25,6 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "http-server": "^0.11.1",
     "jsdom": "^15.1.1",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.9.2",
