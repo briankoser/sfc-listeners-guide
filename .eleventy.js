@@ -23,6 +23,24 @@ module.exports = function(eleventyConfig) {
     return (metadata.hosts.find(host => host.shortName === shortName).color || {}).name;
   });
 
+  eleventyConfig.addFilter("displayLength", length => {
+    let pieces = length.split(':');
+    let hours = parseInt(pieces[0]);
+    let minutes = pieces[1];
+    
+    let hoursMinutes = '';
+    if (hours === 0) {
+      hoursMinutes = parseInt(minutes);
+    }
+    else {
+      hoursMinutes = `${hours}:${minutes}`;
+    }
+    
+    let seconds = pieces[2];
+
+    return `${hoursMinutes}:${seconds}`;
+  });
+
   eleventyConfig.addFilter("fullName", shortName => {
     return metadata.hosts.find(host => host.shortName === shortName).fullName;
   });
