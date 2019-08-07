@@ -3,7 +3,6 @@ layout: episode
 tags:
   - episode
   - ben-is-right
-  - odd-opening
   - sci-fi-christian-story-time
 
 title: What If Tolkien and Lewis Wrote Together?
@@ -19,14 +18,12 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben acts surprised when Matt says the title.
 
 last_listen: 2018-11-09
 recommendation: yes
 recommendation_reason: Some fun ideas
 ---
-# Opening
-Ben acts surprised when Matt says the title. 
-
 In 75 words or less, if Tolkien and Lewis wrote fiction together, what would they have written?
 
 Matt says they should get Sci-Fi Christian t-shirts 

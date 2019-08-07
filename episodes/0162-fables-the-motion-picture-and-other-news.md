@@ -3,7 +3,6 @@ layout: episode
 tags:
   - episode
   - a-slew-of-casting-news
-  - odd-opening
   - take-that-science
   - what-the-frodo
 
@@ -20,6 +19,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Matt and Ben open calmly.
 firsts:
   - Lost audio
 future_episodes:
@@ -29,10 +29,7 @@ last_listen: 2018-12-28
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-# Opening
-Matt and Ben open calmly.
-
-For the first time they lost 5 minutes of recording with no video backup. They do a fast forward recap.  
+For the first time they lost 5 minutes of recording with no video backup. They do a fast-forward recap.  
 
 
 

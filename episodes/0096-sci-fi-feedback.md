@@ -15,6 +15,7 @@ hosts:
   - Koby
 
 notable_moments:
+odd_opening: Matt talks like he's wearing a mask
 firsts:
   - Feedback from Allan Reini
   - Mention of <i class="work-title">Flight of the Angels</i>
@@ -34,8 +35,6 @@ recommendation_reason: Don't listen to six months-worth of feedback. Any notable
   <q class="koby">Sure. Sci-Fied Feedback. Oh crap.</q>
 </div>
 <q class="archivist inline">First Koby <a href="/episodes/0084-sci-fi-feedback/">wouldn't</a>, now he couldn't.</q>
-
-Matt says the opening like he has on a mask distorting his voice. 
 
 
 

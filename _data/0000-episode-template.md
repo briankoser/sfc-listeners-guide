@@ -6,7 +6,6 @@ tags:
   - ben-is-right
   - bleeping
   - encouraging-signs
-  - odd-opening
   - sci-fi-christian-story-time
   - stan-lee-quote-of-the-week
   - take-that-science
@@ -32,6 +31,7 @@ sponsors:
   - 
 
 notable_moments:
+odd_opening: 
 firsts:
   - 
 prophecy: 

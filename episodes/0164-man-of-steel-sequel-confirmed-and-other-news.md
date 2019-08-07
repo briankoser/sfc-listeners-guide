@@ -4,7 +4,6 @@ tags:
   - episode
   - a-slew-of-casting-news
   - ben-is-right
-  - odd-opening
   - stan-lee-quote-of-the-week
   - take-that-science
   - what-the-frodo
@@ -22,6 +21,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Matt opens with an odd cadence.
 future_episodes:
   - Marriage advice for Matt
   - "Injustice: Gods Among Us review"
@@ -30,12 +30,6 @@ last_listen: 2019-01-02
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-# Opening
-Matt opens with an odd cadence. 
-
-
-
-# News 
 <div class="quote">
   {% timeLink podcast_file_url, '6:06' %}
   <span class="quote-context is-size-6">The writers' strike hurt <i class="work-title">Heroes</i></span>

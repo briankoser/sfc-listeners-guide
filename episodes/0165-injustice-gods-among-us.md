@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - odd-opening
   - sci-fi-christian-story-time
 
 title: "Injustice: Gods Among Us"
@@ -18,6 +17,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Matt opens with a silly voice and goes out of control.
 future_episodes:
   - Red Son review
 
@@ -25,9 +25,6 @@ last_listen: 2018-01-03
 recommendation: no
 recommendation_reason: Listen if you're interested in playing the game.
 ---
-# Opening
-Matt opens with a silly voice and goes out of control. 
-
 Ben drives 30 minutes each way to podcast, and Matt is about to move farther away. 
 
 Both are on the exercise app Endomondo.

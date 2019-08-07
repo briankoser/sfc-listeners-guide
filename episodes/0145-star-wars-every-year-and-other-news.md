@@ -4,7 +4,6 @@ tags:
   - episode
   - a-slew-of-casting-news
   - ben-is-right
-  - odd-opening
   - stan-lee-quote-of-the-week
   - take-that-science
 
@@ -21,14 +20,12 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Both do a voice during the opening.
 
 last_listen: 2018-11-21
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-# Opening
-Both do a voice during the opening.
-
 Ben calls Koby "the Jar Jar Binks of The Sci-Fi Christian".
 
 Matt says he probably won't have Koby on any more episodes with Ben. 

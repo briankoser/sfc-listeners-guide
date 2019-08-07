@@ -3,7 +3,6 @@ layout: episode
 tags:
   - episode
   - ben-is-right
-  - odd-opening
 
 title: Marriage Advice For Matt
 number: 168
@@ -21,6 +20,7 @@ guests:
   - Des Anderson
 
 notable_moments:
+odd_opening: Matt says his name wrong in the opening.
 firsts:
   - Parental warning 
 future_episodes:
@@ -30,8 +30,7 @@ last_listen: 2019-01-30
 recommendation: yes
 recommendation_reason: Fun interaction with Des, plus some good advice.
 ---
-# Opening
-{% timeLink podcast_file_url, '0:28' %} Matt says his name wrong in the opening. 
+{% timeLink podcast_file_url, '0:28' %} Matt says his name wrong in the opening.
 
 5 weeks to the wedding. Ben is a groomsman.
 
