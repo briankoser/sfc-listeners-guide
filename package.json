@@ -5,7 +5,6 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "cache-bust": "node bustCache.js",
     "search-index-build": "node buildLunrSearchIndex.js",
     "typography": "npx typogr --force _site _site-typogr",
     "build": "npx eleventy",
