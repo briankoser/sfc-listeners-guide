@@ -1,0 +1,11 @@
+---
+layout: page
+pageTitle: Odd Openings
+---
+<div class="odd-openings">
+{% for episode in collections.episodes | reverse %}
+{% if episode.data.odd_opening %}
+    <div>{% timeLink episode.data.podcast_file_url, '0:00' %} № {{episode.data.number}} {{episode.data.odd_opening | safe}}</div>
+{% endif %}
+{% endfor%}
+</div>
