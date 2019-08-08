@@ -18,6 +18,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben beatboxes and uses the mic as a drum
 future_episodes:
   - Worship songs
   - Matt's engagement story
@@ -29,8 +30,6 @@ recommendation: yes
 recommendation_reason: More for the banter than the theological discussion.
 ---
 # Opening
-Ben beatboxes and uses the mic as a drum for the opening. 
-
 Matt withdrew from his M. Div. program.
 
 Ben is planning to get a Doctorate in Historical Theology.

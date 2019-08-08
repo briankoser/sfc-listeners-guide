@@ -18,6 +18,7 @@ hosts:
 time_loop_forward: {"number": 497}
 
 notable_moments:
+odd_opening: Matt imitates Ben
 firsts: 
   - Matt re-listening to SFC episodes mentioned
 
@@ -34,8 +35,6 @@ recommendation: no
 recommendation_reason: Some funny moments as always, but nothing noteworthy in the top 5s
 ---
 # Opening
-Matt imitates Ben to open the show
-
 Matt listened to the last episode twice after recording
 
 Brandon Gibbs designed a new logo (the first logo had a sketch of Admiral Akbar; the new one features the alien that will be named Theo)

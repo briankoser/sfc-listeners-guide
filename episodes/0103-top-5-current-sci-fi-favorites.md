@@ -16,6 +16,7 @@ hosts:
   - Koby
 
 notable_moments:
+odd_opening: Matt talks with a deep voice
 prophecy: 
   - {"host": "Koby", "prediction": "<i class='work-title'>Revolution</i> will not be canceled in two years", "veracity": false, "comments": "It was cancelled one year, four months later"}
   - {"host": "Koby", "prediction": "Ant Man will be in an Avengers movie before his own movie", "veracity": false, "comments": ""}
@@ -32,12 +33,6 @@ recommendation_reason: Not much happens other than the lists
 spoilers:
 - "<i class='work-title'>Star Wars: The Force Awakens</i>"
 ---
-# Opening
-Matt says the opening in a deep voice.
-
-
-
-# Main Topic
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Current Sci-Fi Favorites</h2>

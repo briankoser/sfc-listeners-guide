@@ -15,7 +15,7 @@ hosts:
   - Koby
 
 notable_moments:
-odd_opening: Matt talks like he's wearing a mask
+odd_opening: Koby can't say the intro. Matt talks like he's wearing a mask.
 firsts:
   - Feedback from Allan Reini
   - Mention of <i class="work-title">Flight of the Angels</i>

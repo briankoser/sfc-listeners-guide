@@ -18,6 +18,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben coos like a dove
 future_episodes:
   - State of the Disney Union
   - Star Trek round table
@@ -27,12 +28,6 @@ last_listen: 2018-10-15
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-# Opening
-Ben coos like a dove in time with the opening music. 
-
-
-
-# Main Topic
 Ben suggests making the show's statute of limitations on spoilers 10 years.
 
 Ben's idea for the opening of <i class="work-title">Star Wars: Episode VII</i>: the opening scrawl says there's a Gungan reunion party on Naboo. Then a Death Star nukes Naboo. Then there's a second scrawl and the movie goes from there.

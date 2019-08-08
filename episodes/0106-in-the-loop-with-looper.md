@@ -17,6 +17,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben sings along to the theme song
 firsts:
   - Both Ben and Matt can play sound clips
   - Ben De Bono countdown music
@@ -28,8 +29,6 @@ recommendation: no
 recommendation_reason: Fine look at a good movie.
 archivist_note: I was going to listen without having seen the movie, but I reconsidered when both hosts rated it highly and described it as "understated sci-fi". So I switched over to a baseball podcast about the MLB trade deadline. They mentioned that the Phillies had just acquired the obscure player Aaron Loup, which led to a brief discussion about the film <i class="work-title">Looper</i>. It was a sign. I watched it. 4.5 out of 5 stars.
 ---
-# Opening
-Ben sings along to the theme song. 
 
 {% timeLink podcast_file_url, '4:34' %} Ben gives his thoughts on <i class="work-title">John Carter</i>
 

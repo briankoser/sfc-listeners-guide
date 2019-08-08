@@ -19,6 +19,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben beat boxes and a light goes out
 firsts:
   - Mention of Half-Price Books
   - For It or Against It
@@ -40,8 +41,6 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
-The lights go out while Ben beat boxes with the theme song. 
-
 Ben reveals that Matt lives with Ryan Strelau in Scotland Green Apartments in Mountains View, MN
 
 <div class="quote">

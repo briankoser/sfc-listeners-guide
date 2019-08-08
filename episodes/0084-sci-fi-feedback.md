@@ -16,6 +16,7 @@ hosts:
   - Koby
 
 notable_moments:
+odd_opening: Koby refuses to do the intro
 future_episodes: 
   - G. T. Anders's book <i class="work-title">Tower of Babel</i>
   - Brady's book Duncan Ross 

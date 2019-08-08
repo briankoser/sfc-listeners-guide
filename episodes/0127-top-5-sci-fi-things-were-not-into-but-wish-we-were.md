@@ -17,6 +17,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Matt and Ben do sound effects
 future_episodes:
   - Doctor Who
   - X-Files retrospective
@@ -30,10 +31,13 @@ recommendation: no
 recommendation_reason: The lists are interesting, the discussion is not very in-depth
 ---
 # Opening
-Both hosts do sound effects to the opening music.
 
-Ben says it's the Sci-Fi Christian Golden Age. 
-
+<div class="quote">
+  {% timeLink podcast_file_url, '0:25' %}
+  <q class="ben">Matt, do you know what's going on here these days? What's going on here in Ryan Strelau Studios these days?</q>
+  <q class="matt">There's something special in the air. There's something happening at The Sci-Fi Christian.</q>
+  <q class="ben">It's the Golden Age of The Sci-Fi Christian.</q>
+</div>
 
 
 # Main Topic

@@ -16,14 +16,12 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben and Matt talk like robots
 
 last_listen: 2018-06-15
 recommendation: no
 recommendation_reason: Ben and Matt try to manufacture a feud.
 ---
-# Opening
-Ben and Matt open talking like robots.
-
 Ben continues to lobby for Koby to leave the show.
 
 Matt continues to try to start a feud with Strangers and Aliens.

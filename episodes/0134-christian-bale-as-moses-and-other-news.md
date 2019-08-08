@@ -18,6 +18,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: I'm not sure what they're doing here
 prophecy: 
   - {"host": "Ben", "prediction": "Google takes over the world in 2015.", "veracity": false, "comments": "It did form Alphabet Inc., launch Project Fi, and unveil a new logo."}
   - {"host": "Matt", "prediction": "Google takes over the world à la Skynet in 2023.", "veracity": undefined, "comments": ""}
@@ -33,9 +34,6 @@ last_listen: 2018-10-22
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-# Opening
-
-Matt and Ben open like they're riding a rollercoaster.
 
 Jorge Bergoglio becomes the first pope from the Americas (and the first from the Southern Hemisphere), the first Jesuit pope, and the first pope named Francis. He's also the first non-European pope in a millennium.
 

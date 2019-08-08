@@ -19,6 +19,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben makes "pow pow pow" sound effects
 future_episodes:
   - Marriage Advice for Matt
 
@@ -26,10 +27,6 @@ last_listen: 2018-09-21
 recommendation: essential
 recommendation_reason: This episode feels like the culmination of the first couple years of the show, while also being the start to one of the show's best series.
 ---
-# Opening
-Ben opens with "pow pow pow" sound effects.
-
-
 
 # Main Topic
 {% timeLink podcast_file_url, '16:13' %} Main topic starts
