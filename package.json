@@ -6,10 +6,9 @@
   "license": "MIT",
   "scripts": {
     "search-index-build": "node buildLunrSearchIndex.js",
-    "typography": "npx typogr --force _site _site-typogr",
     "build": "npx eleventy",
     "dev": "npx eleventy --serve",
-    "prod": "npm run build && npm run search-index-build && npm run typography"
+    "prod": "npm run build && npm run search-index-build"
   },
   "author": {
     "name": "Brian Koser",
@@ -23,12 +22,12 @@
     "@11ty/eleventy": "^0.8.3",
     "jsdom": "^15.1.1",
     "node-fetch": "^2.6.0",
-    "typogr": "^0.6.8",
     "xml2js": "^0.4.19"
   },
   "dependencies": {
     "feather-icons": "^4.7.3",
     "lunr": "^2.3.1",
-    "npm": "^5.10.0"
+    "npm": "^5.10.0",
+    "request": "^2.88.0"
   }
 }
