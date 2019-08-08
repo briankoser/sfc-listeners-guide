@@ -70,7 +70,7 @@ And more!
     </div>
     <div class="level-item has-text-centered">
         <div>
-            <p class="heading">Total Episodes</p>
+            <p class="heading">Episodes Aired</p>
             <p class="title">{{ fetchdata.totalEpisodes }}</p>
         </div>
     </div>
