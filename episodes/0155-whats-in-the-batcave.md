@@ -3,7 +3,6 @@ layout: episode
 tags:
   - episode
   - ben-is-right
-  - odd-opening
   - take-that-science
   - what-the-frodo
 
@@ -21,14 +20,12 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben chants "What's in the Batcave" as Matt opens.
 
 last_listen: 2018-12-21
 recommendation: essential
 recommendation_reason: In the running for funniest episode ever. In the finest SFC tradition, it's basically riffing on Wikipedia, and it is glorious.
 ---
-# Opening
-Ben chants "What's in the Batcave" as Matt opens.
-
 Matt realizes before he starts that this isn't going to be a good episode. <q class="archivist inline">But it is going to be a great episode.</q>
 
 

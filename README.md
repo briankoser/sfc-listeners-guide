@@ -24,13 +24,13 @@ npm run build
 4b. Build, watch, serve site (at http://localhost:8080)
 
 ```shell
-npm run dev
+env:NODE_ENV="dev"; npm run dev # could not set NOD_ENV from node, so do in ps for now
 ```
 
 4c. Build for production
 
 ```shell
-npm run prod
+env:NODE_ENV="prod"; npm run prod # could not set NOD_ENV from node, so do in ps for now
 ```
 
 ## Architecture

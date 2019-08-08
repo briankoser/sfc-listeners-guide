@@ -39,13 +39,13 @@ All stats are through episode № {{ collections.episodes.length - collections.e
 <div class="standalone-stat">
 <b>Shortest Episode</b>
 
-№ {{collections.episodes[0].data.stats.episodes.shortestEpisode.number}} {{collections.episodes[0].data.stats.episodes.shortestEpisode.title}} ({{collections.episodes[0].data.stats.episodes.shortestEpisode.length}})
+№ {{collections.episodes[0].data.stats.episodes.shortestEpisode.number}} {{collections.episodes[0].data.stats.episodes.shortestEpisode.title}} ({{collections.episodes[0].data.stats.episodes.shortestEpisode.length | displayLength}})
 </div>
 
 <div class="standalone-stat">
 <b>Longest Episode</b>
 
-№ {{collections.episodes[0].data.stats.episodes.longestEpisode.number}} {{collections.episodes[0].data.stats.episodes.longestEpisode.title}} ({{collections.episodes[0].data.stats.episodes.longestEpisode.length}})
+№ {{collections.episodes[0].data.stats.episodes.longestEpisode.number}} {{collections.episodes[0].data.stats.episodes.longestEpisode.title}} ({{collections.episodes[0].data.stats.episodes.longestEpisode.length | displayLength}})
 </div>
 
 <!-- Average Length -->

@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - odd-opening
   - take-that-science
 
 title: "2001: A Space Odyssey Review"
@@ -18,6 +17,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben chants "monkeys" over the opening theme.
 take_that:
   - Kubrick
 
@@ -26,12 +26,6 @@ recommendation: yes
 recommendation_reason: The first step on the road to becoming Ben's favorite movie.
 archivist_note: Watched the movie for the first time for this episode. Reading along with the live blog was a good choice.
 ---
-# Opening
-Ben chants "monkeys" over the opening theme. 
-
-
-
-# Main Topic
 {% rating '2001: A Space Odyssey', 5, 2.5 %}
 
 [2001: A Space Odyssey Live Blog](http://thescifichristian.com/2013/05/2001-a-space-odyssey-live-blog/)

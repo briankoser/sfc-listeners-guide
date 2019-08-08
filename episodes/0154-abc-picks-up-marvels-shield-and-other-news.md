@@ -8,8 +8,8 @@ tags:
   - what-the-frodo
   - video-game-news
 
-title: 154
-number: ABC Picks Up Marvel’s S.H.I.E.L.D. and Other News
+title: ABC Picks Up Marvel’s S.H.I.E.L.D. and Other News
+number: 154
 season: 3
 podcast_url: http://thescifichristian.com/2013/05/episode-154-abc-picks-up-marvels-s-h-i-e-l-d-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0154.mp3

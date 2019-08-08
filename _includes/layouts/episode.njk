@@ -28,6 +28,13 @@ layout: baseNavBar
 
             <div class="level-item has-text-centered">
                 <div>
+                    <p class="heading">Length</p>
+                    <p class="title">{{length | displayLength}}</p>
+                </div>
+            </div>
+
+            <div class="level-item has-text-centered">
+                <div>
                     <p class="heading">Category</p>
                     <p class="title category-{{category | slug}}">{{category}}</p>
                 </div>
@@ -126,7 +133,7 @@ layout: baseNavBar
 {% endif %}
 
 <div class="content">
-    {% if notable_moments or firsts or prophecy or future_episodes or celebrity_invites %}
+    {% if notable_moments or firsts or prophecy or future_episodes or celebrity_invites or odd_opening %}
     <div class="box episode-secondary-metadata">
         {% if notable_moments %}
         <h2>Notable Moments</h2>
@@ -170,6 +177,11 @@ layout: baseNavBar
             <li>{{invite}}</li>
         {% endfor %}
         </ul>
+        {% endif %}
+
+        {% if odd_opening %}
+        <h2>Odd Opening</h2>
+        <p>{{odd_opening}}</p>
         {% endif %}
     </div>
     {% endif %}
