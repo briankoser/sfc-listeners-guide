@@ -6,14 +6,11 @@
   "license": "MIT",
   "scripts": {
     "cache-bust": "node bustCache.js",
-    "css-build": "node-sass _sass/main.scss css/main.css",
-    "css-watch": "npm run css-build -- --watch",
     "search-index-build": "node buildLunrSearchIndex.js",
     "typography": "npx typogr --force _site _site-typogr",
     "build": "npx eleventy",
-    "watch": "npx eleventy --serve",
-    "dev": "npm run css-build && npm run watch",
-    "prod": "npm run css-build && npm run build && npm run search-index-build && npm run typography"
+    "dev": "npx eleventy --serve",
+    "prod": "npm run build && npm run search-index-build && npm run typography"
   },
   "author": {
     "name": "Brian Koser",
@@ -27,13 +24,10 @@
     "@11ty/eleventy": "^0.8.3",
     "jsdom": "^15.1.1",
     "node-fetch": "^2.6.0",
-    "node-sass": "^4.9.2",
     "typogr": "^0.6.8",
     "xml2js": "^0.4.19"
   },
   "dependencies": {
-    "bulma": "^0.6.2",
-    "bulmaswatch": "^0.6.2",
     "feather-icons": "^4.7.3",
     "lunr": "^2.3.1",
     "npm": "^5.10.0"
