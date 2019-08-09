@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/09/episode-80-top-5-sci-fi-visionaries/
 date: 2012-09-01
 length: '00:41:21'
-category: Countdown
+category: Countdowns
 hosts:
   - Ben
   - Matt

@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - odd-opening
   - tv-show-countdown-2013
 
 title: "Top 50 Sci-Fi TV Show Countdown: 30-21"

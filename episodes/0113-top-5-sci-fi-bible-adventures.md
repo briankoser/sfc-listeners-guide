@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/02/episode-113-top-5-sci-fi-bible
 podcast_file_url: http://thescifichristian.com/sfc/sfc0113.mp3
 date: 2013-02-02
 length: '00:55:02'
-category: Countdown
+category: Countdowns
 series: Bad but Great
 hosts:
   - Ben
