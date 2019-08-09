@@ -6,3 +6,5 @@ pageTitle: Categories
 
 Category data are through episode № {{ collections.episodes.length }}
 
+{% set categorylist = collections.episodes[0].data.stats.categories %}
+{% include "components/categoryList.njk" %}
