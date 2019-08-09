@@ -5,7 +5,6 @@ module.exports = function(eleventyConfig) {
   const parseXml = require('xml2js').parseString;
 
   const ratingShortCode = require('./_includes/shortcodes/rating-shortcode.js');
-  const timeLinkShortCode = require('./_includes/shortcodes/timelink-shortcode.js');
 
   const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
 
