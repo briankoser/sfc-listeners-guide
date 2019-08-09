@@ -402,7 +402,7 @@ module.exports = function(eleventyConfig) {
       .sort( (a, b) => b.count - a.count );
     episodes[0].data.stats.tags = tagStats;
 
-    // Timeloops and Visits
+    // Time loops and Visits
     let timeloopsCount = episodes.filter(e => e.data.hasOwnProperty('time_loop_backward')).length;
     episodes[0].data.stats.episodes.timeloops = timeloopsCount;
 
