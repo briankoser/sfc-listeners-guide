@@ -28,7 +28,7 @@
       {"name": "Award Show", "summary": "End of the Year award shows"},
       {"name": "Clip Show", "summary": "A compilation of previous episodes"},
       {"name": "Conversation", "summary": "Either no set topic, or so many tangents that the main topic becomes secondary"},
-      {"name": "Countdown", "summary": "Top 5s, Top 50s, Top 100s"},
+      {"name": "Countdowns", "summary": "Top 5s, Top 50s, Top 100s"},
       {"name": "Feedback", "summary": "Listener feedback"},
       {"name": "Interview", "summary": "Interviews, separate from guest host appearances"},
       {"name": "Literature", "summary": "Discussions of classic books"},
