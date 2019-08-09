@@ -35,7 +35,7 @@ recommendation_reason: No need to listen to old announcements. Check the guide f
   <q class="koby">Wait, didn't I win something last year?</q>
   <q class="daniel">Oh, dude.</q>
   <q class="matt">Yeah, you won 'Cohost of the Year', or no, it was 'Guest Host of the Year' I think.</q>
-  <q class="daniel">Base solely on going to the bathroom.</q>
+  <q class="daniel">Based solely on going to the bathroom.</q>
   <q class="koby">OK, that's awesome though. Immortalized.</q>
 </div>
 

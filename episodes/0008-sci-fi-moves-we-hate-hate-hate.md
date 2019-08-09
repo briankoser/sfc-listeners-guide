@@ -18,6 +18,7 @@ hosts:
 time_loop_forward: {"number": 413}
 
 notable_moments:
+odd_opening: Ben overdoes the intro
 firsts: 
   - Daniel Butcher mentioned
   - Dark Knight News music 

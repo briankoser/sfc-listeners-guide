@@ -17,6 +17,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Matt and Ben say the opening together
 firsts:
   - Sci-Fi Christian Story Time
   - Next Week on The Sci-Fi Christian
@@ -28,8 +29,6 @@ last_listen: 2018-09-06
 recommendation: no
 recommendation_reason: Some fun moments. 
 ---
-# Opening
-Matt and Ben say the opening together. 
 
 Ben remembers that they used to gift autographed copies of their show notes from The Life Report.
 

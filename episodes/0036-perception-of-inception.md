@@ -16,6 +16,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben and Matt switch roles
 future_episodes: 
   - Clip show
   - The History of Christianity

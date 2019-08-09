@@ -17,6 +17,7 @@ hosts:
   - Koby
 
 notable_moments:
+odd_opening: Ben leaves Daniel and Koby out
 firsts:
   - All four hosts together in studio
 future_episodes: 

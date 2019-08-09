@@ -18,6 +18,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben makes "pow pow pow" sound effects
 future_episodes:
   - Ethics in MMOs
 
@@ -26,10 +27,6 @@ recommendation: essential
 recommendation_reason: Great discussion of some ethical considerations regarding virtual reality. 
 archivist_note: If you enjoyed this episode, I'd also recommend listening to John Dyer's <a href="https://www.youtube.com/watch?v=z0lWCZYL9ho">Theological Reflections on Artificial Intelligence</a> (42 minutes).
 ---
-# Opening
-Ben makes "pow pow pow" sounds during the opening music.
-
-
 
 # Main Topic
 What would be the ethics of choosing to live in a virtual world?

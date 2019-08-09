@@ -16,6 +16,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Matt leaves Ben out of the opening
 
 last_listen: 2018-05-16
 recommendation: no

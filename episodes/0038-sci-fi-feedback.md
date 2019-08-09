@@ -14,6 +14,8 @@ hosts:
   - Ben
   - Matt
 
+notable_moments:
+odd_opening: Matt talks like a wrestling announcer
 future_episodes: 
   - End of the Year Listener Appreciation Jubilee
   - <i class="work-title">The Space Trilogy</i>
@@ -23,8 +25,6 @@ last_listen: 2018-04-16
 recommendation: no
 recommendation_reason: Any notable feedback is included in the guide.
 ---
-# Opening
-Matt does the intro like a wrestling announcer. 
 
 Daniel Butcher and Dave Johnson were the two Life Report listeners. 
 

@@ -22,4 +22,4 @@ last_listen: 2018-05-18
 recommendation: no
 recommendation_reason: Just a list of movies that came out summer 2012.
 ---
-Blooper at the end: Matt says "Summy" instead of "summer"
+Blooper at the end: Matt says "summy" instead of "summer"
