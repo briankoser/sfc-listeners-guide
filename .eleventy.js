@@ -60,7 +60,21 @@ module.exports = function(eleventyConfig) {
 
 
   eleventyConfig.addShortcode("rating", ratingShortCode);
-  eleventyConfig.addShortcode("timeLink", timeLinkShortCode);
+  
+  // can't go in it's own file because it will lose access to the global data variable metadata
+  eleventyConfig.addShortcode("timeLink", function (url, time) {
+    let linkUrl = `${process.env.NODE_ENV === 'prod' ? metadata.analytics_url : ''}${url}`;
+
+    let timePieces = time.split(':');
+    
+    while(timePieces.length < 3) {
+        timePieces.unshift('00'); 
+    }
+
+    let paddedTime = timePieces.map(x => x.padStart(2, '0')).join(':');
+    
+    return `<a class="timestamp tag is-medium is-rounded is-primary" href="${linkUrl}#t=${paddedTime}">${time}</a>`;
+  });
 
 
 

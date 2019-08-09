@@ -1,12 +1,13 @@
 {
     "title": "The Unofficial Sci-Fi Christian Listener’s Guide",
-    "titleAbbreviation": "SFCLG",
+    "title_abbreviation": "SFCLG",
     "subtitle": "Recommendations, Stats, and Minutiae for the Ultimate Christian-Pop Culture Podcast",
     "url": "http://sfc.blue/",
     "author": {
       "name": "Brian Koser",
       "email": "archivist@sfc.blue"
     },
+    "analytics_url": "http://media.blubrry.com/scifichristian/",
     "stats": {},
     "hosts": [
       {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "blue", "rgb": ""}, "weakness": "squirrels"},
