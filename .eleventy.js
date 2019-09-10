@@ -252,6 +252,14 @@ module.exports = function(eleventyConfig) {
       return seconds;
     }
 
+    let secondsToLength = seconds => {
+      let date = new Date(null);
+      date.setSeconds(seconds);
+
+      // returns hh:mm:ss
+      return date.toISOString().substr(11, 8);
+    }
+
     let episodeLengths = episodes
       .map(episode => { return {
         'title': episode.data.title,
@@ -262,6 +270,9 @@ module.exports = function(eleventyConfig) {
       .sort( (a,b) => a.seconds - b.seconds);
     episodeStats.shortestEpisode = episodeLengths[0];
     episodeStats.longestEpisode = episodeLengths[episodeLengths.length - 1];
+    
+    let totalSeconds = episodeLengths.map(x => x.seconds).reduce( (sum, current) => sum + current);
+    episodeStats.averageLength = secondsToLength(Math.round(totalSeconds / episodes.length));
 
     let titles = episodes.map(e => e.data.title);
     let shortestTitleLength = titles.sort( (a, b) => a.length - b.length)[0].length;

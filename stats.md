@@ -48,6 +48,12 @@ All stats are through episode № {{ collections.episodes.length - collections.e
 № {{collections.episodes[0].data.stats.episodes.longestEpisode.number}} {{collections.episodes[0].data.stats.episodes.longestEpisode.title}} ({{collections.episodes[0].data.stats.episodes.longestEpisode.length | displayLength}})
 </div>
 
+<div class="standalone-stat">
+<b>Average Episode Length</b>
+
+{{collections.episodes[0].data.stats.episodes.averageLength | displayLength}}
+</div>
+
 <!-- Average Length -->
 
 <div class="standalone-stat">
