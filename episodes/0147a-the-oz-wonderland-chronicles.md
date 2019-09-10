@@ -9,7 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/04/episode-1-the-ozwonderland-chronicles/
 podcast_file_url: 
 date: 2013-04-28
-length: ''
+length: '01:17:03'
 category: Spinoff
 series: Issues of the Day
 hosts:
