@@ -57,7 +57,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("seriesName", slug => {
-    return (metadata.series.find(s => s.slug === slug) || {}).name;
+    return (metadata.series.find(s => s.slug === slug) || {}).name || slug;
   });
 
   eleventyConfig.addFilter("today", option => {

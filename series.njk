@@ -25,7 +25,10 @@ pageTitle: Series
 {% else %}
 
 <h1 class="is-size-2">Series</h1>
-{% set serieslist = collections.episodes[0].data.stats.series %}
-{% include "components/seriesList.njk" %}
-
+<div class="columns">
+    <div class="column is-half">
+        {% set serieslist = collections.episodes[0].data.stats.series %}
+        {% include "components/seriesList.njk" %}
+    </div>
+</div>
 {% endif %}

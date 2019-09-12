@@ -12,7 +12,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0182.mp3
 date: 2013-08-27
 length: '00:32:05'
 category: Countdowns
-series: hiatus-countdown
+series: tv-show-countdown
 hosts:
   - Ben
   - Matt
