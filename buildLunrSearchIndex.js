@@ -13,10 +13,6 @@ let ensureDirectoryExistence = function (filePath) {
     fs.mkdirSync(dirname);
 }
 
-let removeEmpty = (obj) => {
-    Object.keys(obj).forEach((key) => (Object.keys(obj[key]).length === 0) && delete obj[key]);
-}
-
 fs.readFile(initialSearchIndexLocation, 'utf8', (err, data) => {
     if (err) {
         console.log('Error reading initial search index: ' + err);

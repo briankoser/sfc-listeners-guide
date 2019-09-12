@@ -5,10 +5,10 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "search-index-build": "node buildLunrSearchIndex.js",
+    "build-search-index": "node buildLunrSearchIndex.js",
     "build": "npx eleventy",
     "dev": "npx eleventy --serve",
-    "prod": "npm run build && npm run search-index-build"
+    "prod": "npm run build && npm run build-search-index"
   },
   "author": {
     "name": "Brian Koser",

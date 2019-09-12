@@ -48,8 +48,16 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toISODate();
   });
 
+  eleventyConfig.addFilter('seriesFilter', function(episodes, series) {
+    if (!series) {
+      return episodes;
+    }
+
+    return episodes.filter(e => e.data.series == series);
+  });
+
   eleventyConfig.addFilter("seriesName", slug => {
-    return metadata.series.find(s => s.slug === slug).name;
+    return (metadata.series.find(s => s.slug === slug) || {}).name;
   });
 
   eleventyConfig.addFilter("today", option => {

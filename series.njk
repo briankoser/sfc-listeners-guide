@@ -1,10 +1,31 @@
 ---
 layout: baseNavBar
+pagination:
+  data: collections.episodes
+  size: 1
+  alias: episode
+permalink: /series/{{ episode.data.series }}/
 pageTitle: Series
 ---
+
+{% set series = episode.data.series %}
+
+{% if series %}
+<h1 class="is-size-2">{{series | seriesName}}</h1>
+
+<div class="episode-list">
+    <div class="columns">
+        <div class="column is-half">
+            {% set episodelist = collections.episodes | seriesFilter(series) | reverse %}
+            {% include "components/episodeList.njk" %}
+        </div>
+    </div>
+</div>
+
+{% else %}
+
 <h1 class="is-size-2">Series</h1>
-
-Series data are through episode № {{ collections.episodes.length }}
-
 {% set serieslist = collections.episodes[0].data.stats.series %}
 {% include "components/seriesList.njk" %}
+
+{% endif %}
