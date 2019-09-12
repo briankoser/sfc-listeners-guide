@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/01/episode-42-top-5-pixar-movies/
 date: 2012-01-22
 length: '00:48:22'
 category: Countdowns
-series: Disney-Pixar
+series: disney-pixar
 hosts:
   - Matt
   - Daniel

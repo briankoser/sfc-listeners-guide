@@ -10,7 +10,6 @@ podcast_url: http://thescifichristian.com/2011/01/episode-104-tolkien-vs-lewis-t
 date: 2011-01-30
 length: '01:20:10'
 category: Philosophy
-series: 
 hosts:
   - Ben
   - Matt

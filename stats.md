@@ -54,8 +54,6 @@ All stats are through episode № {{ collections.episodes.length - collections.e
 {{collections.episodes[0].data.stats.episodes.averageLength | displayLength}}
 </div>
 
-<!-- Average Length -->
-
 <div class="standalone-stat">
 <b>Shortest Episode Title</b>
 

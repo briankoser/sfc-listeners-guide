@@ -12,7 +12,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0168.mp3
 date: 2013-07-09
 length: '01:10:45'
 category: Feedback
-series: Advice
+series: advice
 hosts:
   - Ben
   - Matt

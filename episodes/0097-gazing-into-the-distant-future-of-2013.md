@@ -10,7 +10,6 @@ podcast_url: http://thescifichristian.com/2012/12/episode-97-gazing-into-the-dis
 date: 2012-12-21
 length: '00:34:11'
 category: Announcement
-series: 
 hosts:
   - Ben
   - Matt
@@ -50,7 +49,7 @@ Ben will finish his ThM (Masters of Theology) in the spring.
 Ben's favorite beer is Guinness.
 
 Why do so many Christians not drink?
-<q class="archivist inline">It's pretty easy to read verses like Proverbs 23:31 (Do not look at wine when it is red) and Ephesians 5:18 (do not get drunk with wine) and believe it's wrong. That's how I was always taught, although I personally now think drinking is OK.</q>
+<q class="archivist inline">It's pretty easy to read verses like Proverbs 23:31 (do not look at red wine) and Ephesians 5:18 (do not get drunk with wine) and believe it's wrong. That's how I was always taught, although I personally now think drinking is OK.</q>
 
 
 

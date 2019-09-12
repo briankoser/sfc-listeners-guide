@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/12/episode-98-tolkien-about-the-h
 date: 2012-12-22
 length: '00:53:51'
 category: Review
-series: Tolkien
+series: tolkien
 hosts:
   - Ben
   - Matt

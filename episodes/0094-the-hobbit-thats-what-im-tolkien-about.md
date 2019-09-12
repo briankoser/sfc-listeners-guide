@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-wh
 date: 2012-11-25
 length: '01:28:19'
 category: Review
-series: Tolkien
+series: tolkien
 hosts:
   - Ben
   - Matt

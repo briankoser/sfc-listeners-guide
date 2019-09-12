@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2011/02/episode-106-the-state-of-the-s
 date: 2011-02-15
 length: '01:49:09'
 category: Main Topic
-series: State of the Superhero Movie
+series: state-of-the-superhero-movie
 hosts:
   - Ben
   - Matt

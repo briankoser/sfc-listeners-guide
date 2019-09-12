@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/11/episode-89-george-lucas-reveng
 date: 2012-11-02
 length: '00:46:25'
 category: News
-series: George Lucas
+series: george-lucas
 hosts:
   - Ben
   - Matt

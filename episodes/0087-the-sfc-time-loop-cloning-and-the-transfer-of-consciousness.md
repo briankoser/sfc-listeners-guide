@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/10/episode-87-the-sfc-time-loop-c
 date: 2012-10-31
 length: '01:56:21'
 category: Main Topic
-series: 
+series: clones
 hosts:
   - Ben
   - Matt

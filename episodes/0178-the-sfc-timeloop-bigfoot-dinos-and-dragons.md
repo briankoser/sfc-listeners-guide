@@ -11,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0178.mp3
 date: 2013-08-13
 length: '00:39:41'
 category: Time Loop
-series: Supernatural Creatures
+series: supernatural-creatures
 hosts:
   - Ben
   - Matt

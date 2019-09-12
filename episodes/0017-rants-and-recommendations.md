@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2011/05/episode-117-rants-and-recommen
 date: 2011-05-20
 length: '01:46:58'
 category: Main Topic
-series: Recommendations
+series: recommendations
 hosts:
   - Ben
   - Matt

@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2012/07/episode-75-the-dark-knight-ris
 date: 2012-07-19
 length: '02:34:32'
 category: Clip Show
-series: Batman Month
+series: batman-month
 hosts:
   - Ben
   - Matt

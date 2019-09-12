@@ -12,7 +12,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0110.mp3
 date: 2013-01-28
 length: '01:07:19'
 category: Theology
-series: Demons
+series: demons
 hosts:
   - Ben
   - Matt

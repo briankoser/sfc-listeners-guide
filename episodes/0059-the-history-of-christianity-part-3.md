@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/05/episode-59-the-history-of-chri
 date: 2012-05-19
 length: '00:19:22'
 category: Theology
-series: History of Christianity
+series: history-of-christianity
 hosts:
   - Ben
   - Matt

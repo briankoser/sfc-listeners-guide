@@ -13,7 +13,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0113.mp3
 date: 2013-02-02
 length: '00:55:02'
 category: Countdowns
-series: Bad but Great
+series: bad-but-great
 hosts:
   - Ben
   - Matt

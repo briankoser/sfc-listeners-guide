@@ -48,6 +48,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toISODate();
   });
 
+  eleventyConfig.addFilter("seriesName", slug => {
+    return metadata.series.find(s => s.slug === slug).name;
+  });
+
   eleventyConfig.addFilter("today", option => {
     return option === "year" ? new Date().getFullYear() : new Date();
   });
@@ -332,12 +336,12 @@ module.exports = function(eleventyConfig) {
 
     // Series stats
     let episodeSeries = episodes
-    .map(episode => {
-      return {
-        'number': episode.data.number,
-        'series': episode.data.series
-      }
-    });
+      .map(episode => {
+        return {
+          'number': episode.data.number,
+          'series': episode.data.series
+        }
+      });
     let seriesOccurences = episodeSeries
       .map(episode => episode.series)
       .reduce((a, b) => a.concat(b), [])
@@ -345,8 +349,9 @@ module.exports = function(eleventyConfig) {
     let uniqueSeries = [...new Set(seriesOccurences)];
     let seriesStats = uniqueSeries
       .map(series => { return {
-        'name': series,
-        'summary': (metadata.series.find(s => s.name === series) || {}).summary,
+        'slug': series,
+        'name': (metadata.series.find(s => s.slug === series) || {}).name,
+        'summary': (metadata.series.find(s => s.slug === series) || {}).summary,
         'count': seriesOccurences.filter(s => s === series).length,
         'first': buildLinkModel(episodes.find(episode => episode.data.series === series)),
         'last': buildLinkModel(episodesReverse.find(episode => episode.data.series === series))

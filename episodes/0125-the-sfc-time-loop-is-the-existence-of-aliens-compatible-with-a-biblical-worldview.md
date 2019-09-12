@@ -11,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0125.mp3
 date: 2013-02-28
 length: '00:46:19'
 category: Theology
-series: Supernatural Creatures
+series: supernatural-creatures
 hosts:
   - Ben
   - Matt

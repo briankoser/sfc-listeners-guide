@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-p
 date: 2012-07-17
 length: '00:41:15'
 category: Conversation
-series: Batman Month
+series: batman-month
 hosts:
   - Ben
   - Matt

@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/01/episode-101-sci-fi-feud-the-co
 date: 2013-01-02
 length: '00:15:05'
 category: Announcement
-series: Strangers and Aliens
+series: strangers-and-aliens
 hosts:
   - Matt
   - Daniel

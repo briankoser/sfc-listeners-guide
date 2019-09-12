@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/07/episode-76-the-dark-knight-ris
 date: 2012-07-20
 length: '00:16:18'
 category: Review
-series: Batman Month
+series: batman-month
 hosts:
   - Ben
   - Matt

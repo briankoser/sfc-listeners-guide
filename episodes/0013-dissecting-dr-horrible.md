@@ -11,7 +11,6 @@ podcast_url: http://thescifichristian.com/2011/04/episode-113-dissecting-dr-horr
 date: 2011-04-20
 length: '01:30:56'
 category: Review
-series: 
 hosts:
   - Ben
   - Matt

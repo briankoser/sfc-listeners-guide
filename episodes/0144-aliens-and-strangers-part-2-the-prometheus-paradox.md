@@ -11,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0144.mp3
 date: 2013-04-18
 length: '00:49:25'
 category: Review
-series: Strangers and Aliens
+series: strangers-and-aliens
 hosts:
   - Ben
   - Matt

@@ -12,7 +12,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0118.mp3
 date: 2013-02-15
 length: '00:58:24'
 category: Philosophy
-series: Virtual Ethics
+series: virtual-ethics
 hosts:
   - Ben
   - Matt

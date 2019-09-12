@@ -10,7 +10,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0138.mp3
 date: 2013-03-29
 length: '00:55:50'
 category: Main Topic
-series: Parallel Universes
+series: parallel-universes
 hosts:
   - Ben
   - Matt

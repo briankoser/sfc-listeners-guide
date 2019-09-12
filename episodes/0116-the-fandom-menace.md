@@ -13,7 +13,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0116.mp3
 date: 2013-02-08
 length: '01:12:14'
 category: Philosophy
-series: Fandom
+series: fandom
 hosts:
   - Ben
   - Matt

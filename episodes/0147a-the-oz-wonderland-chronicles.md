@@ -11,7 +11,7 @@ podcast_file_url:
 date: 2013-04-28
 length: '01:17:03'
 category: Spinoff
-series: Issues of the Day
+series: issues-of-the-day
 hosts:
   - Daniel
 guests:

@@ -11,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0149.mp3
 date: 2013-04-30
 length: '01:08:28'
 category: Conversation
-series: Recommendations
+series: recommendations
 hosts:
   - Ben
   - Matt

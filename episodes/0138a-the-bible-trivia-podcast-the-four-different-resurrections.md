@@ -11,7 +11,7 @@ podcast_file_url:
 date: 2013-03-31
 length: '00:12:49'
 category: Spinoff
-series: The Bible Trivia Podcast
+series: bible-trivia-podcast
 hosts:
   - Ben
   - Matt

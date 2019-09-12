@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/06/episode-66-knowing-god-as-fath
 date: 2012-06-17
 length: '00:45:25'
 category: Theology
-series: Sermons
+series: sermons
 hosts:
   - Matt
 guests:

@@ -12,7 +12,6 @@ podcast_url: http://thescifichristian.com/2011/07/episode-24-the-sci-fi-feud/
 date: 2011-07-07
 length: '02:03:20'
 category: Review
-series: The Sci-Fi Diner
 hosts:
   - Ben
   - Matt

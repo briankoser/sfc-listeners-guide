@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2012/08/episode-78-the-dark-knight-rev
 date: 2012-08-09
 length: '00:54:03'
 category: Review
-series: Batman Month
+series: batman-month
 hosts:
   - Ben
   - Matt

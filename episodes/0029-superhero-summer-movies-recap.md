@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2011/09/episode-29-superhero-summer-mo
 date: 2011-09-05
 length: '02:01:19'
 category: Review
-series: State of the Superhero Movie
+series: state-of-the-superhero-movie
 hosts:
   - Ben
   - Matt

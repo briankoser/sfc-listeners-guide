@@ -11,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/01/SFChristian101WorldPremiere.mp
 date: 2011-01-11
 length: '01:06:32'
 category: Conversation
-series: Recommendations
+series: recommendations
 hosts:
   - Ben
   - Matt

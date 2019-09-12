@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2011/03/episode-108-sci-fi-movies-we-h
 date: 2011-03-01
 length: '01:36:37'
 category: Countdowns
-series: Recommendations
+series: recommendations
 hosts:
   - Ben
   - Matt

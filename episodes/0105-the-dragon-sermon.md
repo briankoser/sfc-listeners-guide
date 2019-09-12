@@ -11,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0105.mp3
 date: 2013-01-11
 length: '00:24:40'
 category: Theology
-series: Sermons
+series: sermons
 hosts:
   - Matt
   - Daniel
