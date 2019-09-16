@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-1-the-four-different-r
 podcast_file_url: 
 date: 2013-03-31
 length: '00:12:49'
-category: Spinoff
+category: spinoff
 series: bible-trivia-podcast
 hosts:
   - Ben

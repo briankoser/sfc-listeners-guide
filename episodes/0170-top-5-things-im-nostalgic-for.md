@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/07/episode-170-top-5-things-im-no
 podcast_file_url: http://thescifichristian.com/sfc/sfc0170.mp3
 date: 2013-07-16
 length: '01:23:43'
-category: Countdowns
+category: countdowns
 hosts:
   - Ben
   - Matt

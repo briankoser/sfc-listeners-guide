@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/05/episode-157-superhero-spotligh
 podcast_file_url: http://thescifichristian.com/sfc/sfc0157.mp3
 date: 2013-05-21
 length: '01:00:47'
-category: Review
+category: review
 hosts:
   - Matt
   - Koby

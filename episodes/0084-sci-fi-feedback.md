@@ -10,7 +10,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-84-sci-fi-feedback/
 date: 2012-10-08
 length: '00:59:40'
-category: Feedback
+category: feedback
 hosts:
   - Matt
   - Koby

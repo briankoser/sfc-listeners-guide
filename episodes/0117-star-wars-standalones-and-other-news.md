@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/02/episode-117-star-wars-standalo
 podcast_file_url: http://thescifichristian.com/sfc/sfc0117.mp3
 date: 2013-02-12
 length: '01:10:35'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

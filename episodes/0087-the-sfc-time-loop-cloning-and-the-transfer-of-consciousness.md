@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-87-the-sfc-time-loop-cloning-and-the-transfer-of-consciousness/
 date: 2012-10-31
 length: '01:56:21'
-category: Main Topic
+category: main-topic
 series: clones
 hosts:
   - Ben

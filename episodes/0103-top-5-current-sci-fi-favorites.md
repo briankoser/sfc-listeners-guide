@@ -9,7 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-103-top-5-current-sci-fi-favorites/
 date: 2013-01-05
 length: '00:35:10'
-category: Countdowns
+category: countdowns
 hosts:
   - Matt
   - Daniel

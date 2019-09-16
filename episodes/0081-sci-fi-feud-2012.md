@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/09/episode-81-sci-fi-feud-2012/
 date: 2012-09-06
 length: '00:22:15'
-category: Announcements
+category: announcement
 hosts:
   - Ben
   - Matt

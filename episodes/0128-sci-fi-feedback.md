@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-128-sci-fi-feedback/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0128.mp3
 date: 2013-03-10
 length: '01:28:42'
-category: Feedback
+category: feedback
 hosts:
   - Matt
   - Daniel

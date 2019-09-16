@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/02/episode-115-can-superman-save-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0115.mp3
 date: 2013-02-06
 length: '01:00:15'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

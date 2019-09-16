@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/05/the-multiverse-notes-from-the-other-side/
 date: 2011-05-25
 length: '01:32:08'
-category: Main Topic
+category: main-topic
 hosts:
   - Ben
   - Matt

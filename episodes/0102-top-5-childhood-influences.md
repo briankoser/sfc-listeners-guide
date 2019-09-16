@@ -9,7 +9,7 @@ season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/
 date: 2013-01-03
 length: '01:06:16'
-category: Countdowns
+category: countdowns
 hosts:
   - Matt
   - Daniel

@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-132-interview-with-eth
 podcast_file_url: http://thescifichristian.com/sfc/sfc0132.mp3
 date: 2013-03-18
 length: '01:03:19'
-category: Interview
+category: interview
 hosts:
   - Matt
   - Daniel

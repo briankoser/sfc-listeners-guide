@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/
 date: 2012-04-01
 length: '01:20:08'
-category: Main Topic
+category: main-topic
 hosts:
   - Matt
   - Daniel

@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/08/episode-178-the-sfc-timeloop-b
 podcast_file_url: http://thescifichristian.com/sfc/sfc0178.mp3
 date: 2013-08-13
 length: '00:39:41'
-category: Time Loop
+category: main-topic
 series: supernatural-creatures
 hosts:
   - Ben

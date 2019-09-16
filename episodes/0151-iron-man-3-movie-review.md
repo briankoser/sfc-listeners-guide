@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/05/episode-151-iron-man-3-movie-r
 podcast_file_url: http://thescifichristian.com/sfc/sfc0151.mp3
 date: 2013-05-07
 length: '00:35:47'
-category: Review
+category: review
 hosts:
   - Ben
   - Matt

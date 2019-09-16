@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-129-ron-moore-returns-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0129.mp3
 date: 2013-03-12
 length: '01:01:21'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

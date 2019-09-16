@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/07/episode-172-what-we-would-chan
 podcast_file_url: http://thescifichristian.com/sfc/sfc0172.mp3
 date: 2013-07-18
 length: '01:27:18'
-category: Main Topic
+category: main-topic
 hosts:
   - Ben
   - Matt

@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/08/episode-176-spelunking-with-so
 podcast_file_url: http://thescifichristian.com/sfc/sfc0176.mp3
 date: 2013-08-06
 length: '01:04:54'
-category: Philosophy
+category: philosophy
 hosts:
   - Ben
   - Matt

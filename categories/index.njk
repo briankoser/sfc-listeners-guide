@@ -1,0 +1,12 @@
+---
+layout: baseNavBar
+pageTitle: Categories
+---
+<h1 class="is-size-2">Categories</h1>
+
+<div class="columns">
+    <div class="column is-half">
+        {% set categorylist = collections.episodes[0].data.stats.categories %}
+        {% include "components/categoryList.njk" %}
+    </div>
+</div>

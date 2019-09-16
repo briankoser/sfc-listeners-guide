@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/04/episode-114-clones-revisit/
 date: 2011-04-26
 length: '01:38:42'
-category: Feedback
+category: feedback
 series: clones
 hosts:
   - Ben

@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/05/episode-160-the-quicksilver-co
 podcast_file_url: http://thescifichristian.com/sfc/sfc0160.mp3
 date: 2013-05-28
 length: '00:14:44'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

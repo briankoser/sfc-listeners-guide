@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/02/episode-120-the-sci-fi-christi
 podcast_file_url: http://thescifichristian.com/sfc/sfc0120.mp3
 date: 2013-02-22
 length: '00:22:13'
-category: Announcement
+category: announcement
 hosts:
   - Matt
 guests:

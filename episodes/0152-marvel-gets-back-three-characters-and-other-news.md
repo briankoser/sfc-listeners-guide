@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/05/episode-152-marvel-gets-back-t
 podcast_file_url: http://thescifichristian.com/sfc/sfc0152.mp3
 date: 2013-05-09
 length: '01:05:32'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

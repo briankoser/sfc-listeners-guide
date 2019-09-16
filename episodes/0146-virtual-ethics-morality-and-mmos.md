@@ -16,7 +16,7 @@ podcast_url: http://thescifichristian.com/2013/04/episode-146-virtual-ethics-mor
 podcast_file_url: http://thescifichristian.com/sfc/sfc0146.mp3
 date: 2013-04-25
 length: '00:51:28'
-category: Philosophy
+category: philosophy
 series: virtual-ethics
 hosts:
   - Ben

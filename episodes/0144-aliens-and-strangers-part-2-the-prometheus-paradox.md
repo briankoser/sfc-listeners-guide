@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/04/episode-144-aliens-and-strange
 podcast_file_url: http://thescifichristian.com/sfc/sfc0144.mp3
 date: 2013-04-18
 length: '00:49:25'
-category: Review
+category: review
 series: strangers-and-aliens
 hosts:
   - Ben

@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-58-the-history-of-christianity-part-2/
 date: 2012-05-18
 length: '00:25:15'
-category: Theology
+category: theology
 series: history-of-christianity
 hosts:
   - Ben

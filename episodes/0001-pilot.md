@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2011/01/episode-101-world-premiere/
 podcast_file_url: http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3
 date: 2011-01-11
 length: '01:06:32'
-category: Conversation
+category: conversation
 series: recommendations
 hosts:
   - Ben

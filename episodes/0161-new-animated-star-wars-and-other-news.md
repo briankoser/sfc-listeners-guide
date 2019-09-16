@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/05/episode-161-new-animated-star-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0161.mp3
 date: 2013-05-31
 length: '00:45:38'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/03/episode-46-the-sfc-time-loop-interview-with-c-k-kubasik/
 date: 2012-03-08
 length: '01:04:42'
-category: Interview
+category: interview
 hosts:
   - Ben
   - Matt

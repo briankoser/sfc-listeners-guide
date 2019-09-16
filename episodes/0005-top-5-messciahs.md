@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/02/episode-105-top-5-messciahs/
 date: 2011-02-07
 length: '01:22:14'
-category: Countdowns
+category: countdowns
 hosts:
   - Ben
   - Matt

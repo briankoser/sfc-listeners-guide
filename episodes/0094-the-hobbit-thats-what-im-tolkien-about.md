@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-what-im-tolkien-about/
 date: 2012-11-25
 length: '01:28:19'
-category: Review
+category: review
 series: tolkien
 hosts:
   - Ben

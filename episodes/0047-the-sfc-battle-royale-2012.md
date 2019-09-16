@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/03/episode-47-the-sfc-battle-royale-2012/
 date: 2012-03-21
 length: '00:24:21'
-category: Announcement
+category: announcement
 hosts:
   - Matt
   - Daniel

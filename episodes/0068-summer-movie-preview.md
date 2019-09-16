@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-68-summer-movie-preview/
 date: 2012-06-27
 length: '00:11:48'
-category: Main Topic
+category: main-topic
 series: movie-preview
 hosts:
   - Matt

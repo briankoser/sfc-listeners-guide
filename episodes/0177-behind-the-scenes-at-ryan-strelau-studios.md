@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/08/episode-177-behind-the-scenes-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0177.mp3
 date: 2013-08-09
 length: '01:10:59'
-category: Clip Show
+category: clip-show
 hosts:
   - Ben
   - Matt

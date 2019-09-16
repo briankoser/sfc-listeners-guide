@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/02/episode-45-knowing-gods-will/
 date: 2012-02-08
 length: '00:51:51'
-category: Theology
+category: theology
 series: sermons
 hosts:
   - Matt

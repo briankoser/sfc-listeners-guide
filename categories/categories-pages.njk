@@ -1,0 +1,22 @@
+---
+layout: baseNavBar
+pagination:
+  data: collections.episodes
+  size: 1
+  alias: episode
+permalink: /categories/{{ episode.data.category }}/
+pageTitle: Categories
+---
+
+{% set category = episode.data.category %}
+
+<h1 class="is-size-2">{{category | categoryName}}</h1>
+<p class="category-description">{{category | categoryDescription}}</p>
+<div class="episode-list">
+    <div class="columns">
+        <div class="column is-half">
+            {% set episodelist = collections.episodes | categoryFilter(category) | reverse %}
+            {% include "components/episodeList.njk" %}
+        </div>
+    </div>
+</div>

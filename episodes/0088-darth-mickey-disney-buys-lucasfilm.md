@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-88-darth-mickey-disney-buys-lucasfilm/
 date: 2012-11-01
 length: '01:14:30'
-category: News
+category: news
 hosts:
   - Matt
   - Daniel

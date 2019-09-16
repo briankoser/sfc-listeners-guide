@@ -9,7 +9,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/
 date: 2011-01-16
 length: '00:56:55'
-category: Theology
+category: theology
 series: supernatural-creatures
 hosts:
   - Ben

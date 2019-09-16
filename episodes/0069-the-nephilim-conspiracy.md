@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-69-the-nephilim-conspiracy/
 date: 2012-07-01
 length: '00:48:17'
-category: Theology
+category: theology
 hosts:
   - Matt
   - Daniel

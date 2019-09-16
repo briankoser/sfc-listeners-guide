@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-85-the-podcast-awards-2012/
 date: 2012-10-08
 length: '00:03:12'
-category: Announcement
+category: announcement
 hosts:
   - Matt
   - Daniel 

@@ -11,7 +11,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/06/episode-1-22-the-comics-continuity-conundrum/
 date: 2011-06-26
 length: '02:20:25'
-category: Main Topic
+category: main-topic
 hosts:
   - Ben
   - Matt

@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-prophecies/
 date: 2012-07-17
 length: '00:41:15'
-category: Conversation
+category: conversation
 series: batman-month
 hosts:
   - Ben

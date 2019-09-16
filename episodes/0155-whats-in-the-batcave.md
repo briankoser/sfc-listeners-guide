@@ -13,7 +13,7 @@ podcast_url: http://thescifichristian.com/2013/05/episode-155-whats-in-the-batca
 podcast_file_url: http://thescifichristian.com/sfc/sfc0155.mp3
 date: 2013-05-17
 length: '00:41:14'
-category: Main Topic
+category: main-topic
 series: bad-but-great
 hosts:
   - Ben

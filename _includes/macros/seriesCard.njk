@@ -1,9 +1,10 @@
 {# {% set series = {
     "count": 0,
+    "description": "",
     "first": {"url": "", "number": 0, "title": ""},
     "last": {"url": "", "number": 0, "title": ""},
     "name": "",
-    "summary": ""
+    "slug": ""
 } %}  #}
 <div class="card series-card">
     <header class="card-header">
@@ -13,7 +14,7 @@
     </header>
     <div class="columns card-content content">
         <div class="column is-two-thirds">
-            {{ series.summary | safe }}
+            {{ series.description | safe }}
         </div>
         <div class="column is-one-third">
             <div class="level series-stats">

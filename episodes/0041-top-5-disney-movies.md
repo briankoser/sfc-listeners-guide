@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-41-top-5-disney-movies/
 date: 2012-01-16
 length: '01:19:10'
-category: Countdowns
+category: countdowns
 series: disney-pixar
 hosts:
   - Matt

@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-54-dc-vs-marvel-movies/
 date: 2012-05-03
 length: '00:34:18'
-category: Main Topic
+category: main-topic
 hosts:
   - Matt
   - Daniel

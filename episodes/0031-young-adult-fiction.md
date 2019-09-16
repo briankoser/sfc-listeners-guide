@@ -11,7 +11,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-31-young-adult-fiction/
 date: 2011-09-18
 length: '02:14:25'
-category: Literature
+category: literature
 series: recommendations
 hosts:
   - Ben

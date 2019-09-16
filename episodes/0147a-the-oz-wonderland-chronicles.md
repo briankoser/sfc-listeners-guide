@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/04/episode-1-the-ozwonderland-chr
 podcast_file_url: 
 date: 2013-04-28
 length: '01:17:03'
-category: Spinoff
+category: spinoff
 series: issues-of-the-day
 hosts:
   - Daniel

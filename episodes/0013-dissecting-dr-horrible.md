@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/04/episode-113-dissecting-dr-horrible/
 date: 2011-04-20
 length: '01:30:56'
-category: Review
+category: review
 hosts:
   - Ben
   - Matt

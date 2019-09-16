@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/08/episode-179-top-50-sci-fi-tv-s
 podcast_file_url: http://thescifichristian.com/sfc/sfc0179.mp3
 date: 2013-08-15
 length: '00:43:33'
-category: Countdowns
+category: countdowns
 series: tv-show-countdown
 hosts:
   - Ben

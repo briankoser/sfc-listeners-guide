@@ -13,7 +13,7 @@ podcast_url: http://thescifichristian.com/2013/04/episode-139-what-is-theos-list
 podcast_file_url: http://thescifichristian.com/sfc/sfc0139.mp3
 date: 2013-04-01
 length: '01:24:42'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

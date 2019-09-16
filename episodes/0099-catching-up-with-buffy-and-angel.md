@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-99-catching-up-with-buffy-and-angel/
 date: 2012-12-23
 length: '00:18:20'
-category: Review
+category: review
 hosts:
   - Ben
   - Matt

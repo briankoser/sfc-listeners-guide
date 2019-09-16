@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-53-joss-whedon-talk/
 date: 2012-05-01
 length: '00:20:04'
-category: Main Topic
+category: main-topic
 hosts:
   - Ben
   - Matt

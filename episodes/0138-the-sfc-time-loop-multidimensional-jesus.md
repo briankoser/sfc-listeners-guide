@@ -9,7 +9,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-138-the-sfc-time-loop-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0138.mp3
 date: 2013-03-29
 length: '00:55:50'
-category: Main Topic
+category: main-topic
 series: parallel-universes
 hosts:
   - Ben

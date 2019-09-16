@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-40-2011-highlight-reel/
 date: 2012-01-15
 length: '03:03:50'
-category: Clip Show
+category: clip-show
 hosts:
   - Matt
 guests: 

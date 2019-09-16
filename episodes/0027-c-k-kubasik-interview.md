@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/08/episode-27-c-k-kubasik-interview/
 date: 2011-08-10
 length: '01:36:18'
-category: Interview
+category: interview
 hosts:
   - Ben
   - Matt

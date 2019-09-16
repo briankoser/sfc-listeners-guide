@@ -14,7 +14,7 @@ podcast_url: http://thescifichristian.com/2013/01/episode-107-christopher-nolans
 podcast_file_url: http://thescifichristian.com/sfc/sfc0107.mp3
 date: 2013-01-17
 length: '01:03:58'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

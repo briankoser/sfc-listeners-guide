@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-98-tolkien-about-the-hobbit-movie/
 date: 2012-12-22
 length: '00:53:51'
-category: Review
+category: review
 series: tolkien
 hosts:
   - Ben

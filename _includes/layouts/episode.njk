@@ -36,7 +36,7 @@ layout: baseNavBar
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Category</p>
-                    <p class="title category-{{category | slug}}">{{category}}</p>
+                    <p class="title category-{{category}}"><a href="/categories/{{category}}/" class="link-subtle">{{category | categoryName}}</a></p>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@ layout: baseNavBar
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Series</p>
-                    <p class="title">{{series | seriesName}}</p>
+                    <p class="title"><a href="/series/{{series}}/" class="link-subtle">{{series | seriesName}}</a></p>
                 </div>
             </div>
             {% endif %}

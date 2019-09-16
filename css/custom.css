@@ -448,6 +448,10 @@ a.tag.timestamp.is-rounded:hover {
 /******************************************************************************
   EPISODE LIST CLASSES
 ******************************************************************************/
+.episode-list {
+    margin-top: 2em;
+}
+
 .episode-list .card {
     margin-bottom: 2em;
 }
@@ -855,8 +859,12 @@ div[data-rating='dont-know']::after {
 
 
 /******************************************************************************
-  CATEGORY CLASSES
+  CATEGORY PAGE CLASSES
 ******************************************************************************/
+.category-description {
+    margin-top: 1em;
+}
+
 .category-list {
     margin-top: 2em;
 }
@@ -868,8 +876,12 @@ div[data-rating='dont-know']::after {
 
 
 /******************************************************************************
-  SERIES CLASSES
+  SERIES PAGE CLASSES
 ******************************************************************************/
+.series-description {
+    margin-top: 1em;
+}
+
 .series-list {
     margin-top: 2em;
 }

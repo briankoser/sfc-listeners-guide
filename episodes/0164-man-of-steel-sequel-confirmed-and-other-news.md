@@ -15,7 +15,7 @@ podcast_url: http://thescifichristian.com/2013/06/episode-164-man-of-steel-seque
 podcast_file_url: http://thescifichristian.com/sfc/sfc0164.mp3
 date: 2013-06-17
 length: '00:43:14'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

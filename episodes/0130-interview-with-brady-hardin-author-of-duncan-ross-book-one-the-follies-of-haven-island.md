@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-130-interview-with-bra
 podcast_file_url: http://thescifichristian.com/sfc/sfc0130.mp3
 date: 2013-03-16
 length: '01:09:40'
-category: Interview
+category: interview
 hosts:
   - Ben
   - Matt

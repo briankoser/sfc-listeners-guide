@@ -13,7 +13,7 @@ podcast_url: http://thescifichristian.com/2013/01/episode-112-j-j-abrams-conquer
 podcast_file_url: http://thescifichristian.com/sfc/sfc0112.mp3
 date: 2013-01-31
 length: '00:54:17'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

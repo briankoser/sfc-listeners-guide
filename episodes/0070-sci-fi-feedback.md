@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-70-sci-fi-feedback/
 date: 2012-07-06
 length: '00:37:19'
-category: Feedback
+category: feedback
 hosts:
   - Matt
   - Daniel

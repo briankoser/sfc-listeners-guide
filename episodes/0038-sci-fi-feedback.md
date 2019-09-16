@@ -9,7 +9,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-38-sci-fi-feedback/
 date: 2011-12-18
 length: '00:19:17'
-category: Feedback
+category: feedback
 hosts:
   - Ben
   - Matt

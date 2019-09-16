@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/03/episode-110-duel-of-the-fates/
 date: 2011-03-30
 length: '01:40:42'
-category: Review
+category: review
 hosts:
   - Ben
   - Matt

@@ -9,7 +9,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-104-tolkien-vs-lewis-the-ultimate-smackdown/
 date: 2011-01-30
 length: '01:20:10'
-category: Philosophy
+category: philosophy
 hosts:
   - Ben
   - Matt

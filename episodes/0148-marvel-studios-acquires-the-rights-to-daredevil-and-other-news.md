@@ -14,7 +14,7 @@ podcast_url: http://thescifichristian.com/2013/04/episode-148-marvel-studios-acq
 podcast_file_url: http://thescifichristian.com/sfc/sfc0148.mp3
 date: 2013-04-29
 length: '00:57:33'
-category:  News
+category: news
 hosts:
   - Ben
   - Matt

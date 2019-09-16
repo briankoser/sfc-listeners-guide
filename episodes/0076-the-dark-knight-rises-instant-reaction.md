@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-76-the-dark-knight-rises-instant-reaction/
 date: 2012-07-20
 length: '00:16:18'
-category: Review
+category: review
 series: batman-month
 hosts:
   - Ben

@@ -13,7 +13,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-126-christopher-nolan-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0126.mp3
 date: 2013-03-05
 length: '01:17:17'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

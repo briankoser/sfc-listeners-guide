@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-77-the-sfc-time-loop-the-dark-knight-on-trial/
 date: 2012-07-29
 length: '00:43:54'
-category: Main Topic
+category: main-topic
 series: batman-month
 hosts:
   - Ben

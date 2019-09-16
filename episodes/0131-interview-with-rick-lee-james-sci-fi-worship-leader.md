@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-131-interview-with-ric
 podcast_file_url: http://thescifichristian.com/sfc/sfc0131.mp3
 date: 2013-03-17
 length: '00:56:46'
-category: Interview
+category: interview
 hosts:
   - Matt
 guests:

@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/07/episode-168-marriage-advice-fo
 podcast_file_url: http://thescifichristian.com/sfc/sfc0168.mp3
 date: 2013-07-09
 length: '01:10:45'
-category: Feedback
+category: feedback
 series: advice
 hosts:
   - Ben

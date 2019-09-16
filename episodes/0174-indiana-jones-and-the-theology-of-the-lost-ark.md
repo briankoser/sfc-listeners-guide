@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/07/episode-174-indiana-jones-and-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0174.mp3
 date: 2013-07-26
 length: '00:52:18'
-category: Theology
+category: theology
 series: indiana-jones-theology
 hosts:
   - Ben

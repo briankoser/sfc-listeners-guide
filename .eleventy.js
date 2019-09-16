@@ -18,6 +18,22 @@ module.exports = function(eleventyConfig) {
 
 
 
+  eleventyConfig.addFilter('categoryFilter', function(episodes, category) {
+    if (!category) {
+      return episodes;
+    }
+
+    return episodes.filter(e => e.data.category == category);
+  });
+  
+  eleventyConfig.addFilter("categoryDescription", slug => {
+    return (metadata.categories.find(s => s.slug === slug) || {}).description || '';
+  });
+
+  eleventyConfig.addFilter("categoryName", slug => {
+    return (metadata.categories.find(s => s.slug === slug) || {}).name || slug;
+  });
+  
   eleventyConfig.addFilter("color", shortName => {
     return (metadata.hosts.find(host => host.shortName === shortName).color || {}).name;
   });
@@ -54,6 +70,10 @@ module.exports = function(eleventyConfig) {
     }
 
     return episodes.filter(e => e.data.series == series);
+  });
+
+  eleventyConfig.addFilter("seriesDescription", slug => {
+    return (metadata.series.find(s => s.slug === slug) || {}).description || '';
   });
 
   eleventyConfig.addFilter("seriesName", slug => {
@@ -324,8 +344,9 @@ module.exports = function(eleventyConfig) {
     let uniqueCategories = [...new Set(categoryOccurences)];
     let categoryStats = uniqueCategories
       .map(category => { return {
-        'name': category,
-        'summary': (metadata.categories.find(c => c.name === category) || {}).summary,
+        'slug': category,
+        'name': (metadata.categories.find(c => c.slug === category) || {}).name,
+        'description': (metadata.categories.find(c => c.slug === category) || {}).description,
         'count': categoryOccurences.filter(c => c === category).length,
         'first': buildLinkModel(episodes.find(episode => episode.data.category === category)),
         'last': buildLinkModel(episodesReverse.find(episode => episode.data.category === category))
@@ -359,7 +380,7 @@ module.exports = function(eleventyConfig) {
       .map(series => { return {
         'slug': series,
         'name': (metadata.series.find(s => s.slug === series) || {}).name,
-        'summary': (metadata.series.find(s => s.slug === series) || {}).summary,
+        'description': (metadata.series.find(s => s.slug === series) || {}).description,
         'count': seriesOccurences.filter(s => s === series).length,
         'first': buildLinkModel(episodes.find(episode => episode.data.series === series)),
         'last': buildLinkModel(episodesReverse.find(episode => episode.data.series === series))

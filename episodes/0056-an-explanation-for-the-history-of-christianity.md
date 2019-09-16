@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-56-an-explanation-for-the-history-of-christianity/
 date: 2012-05-13
 length: '00:13:30'
-category: Theology
+category: theology
 series: history-of-christianity
 hosts:
   - Ben

@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-134-christian-bale-as-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0134.mp3
 date: 2013-03-20
 length: '00:56:11'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

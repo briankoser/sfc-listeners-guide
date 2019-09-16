@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-62-the-history-of-christianity-part-6/
 date: 2012-05-22
 length: '00:29:19'
-category: Theology
+category: theology
 series: history-of-christianity
 hosts:
   - Ben

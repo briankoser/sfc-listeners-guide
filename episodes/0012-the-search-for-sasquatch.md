@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/04/episode-112-the-search-for-sasquatch/
 date: 2011-04-11
 length: '01:06:45'
-category: Main Topic
+category: main-topic
 series: supernatural-creatures
 hosts:
   - Ben

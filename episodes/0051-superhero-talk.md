@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/04/episode-51-superhero-talk/
 date: 2012-04-15
 length: '00:27:13'
-category: Main Topic
+category: main-topic
 hosts:
   - Matt
   - Daniel

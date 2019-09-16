@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/01/episode-105-the-dragon-sermon/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0105.mp3
 date: 2013-01-11
 length: '00:24:40'
-category: Theology
+category: theology
 series: sermons
 hosts:
   - Matt

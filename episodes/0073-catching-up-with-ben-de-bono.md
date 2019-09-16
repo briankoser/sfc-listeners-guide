@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-73-catching-up-with-ben-de-bono/
 date: 2012-07-16
 length: '00:55:34'
-category: Conversation
+category: conversation
 hosts:
   - Ben
   - Matt

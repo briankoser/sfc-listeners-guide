@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-43-star-wars/
 date: 2012-01-29
 length: '01:16:36'
-category: Review
+category: review
 series: george-lucas
 hosts:
   - Ben

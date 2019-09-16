@@ -9,7 +9,7 @@ season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-72-the-amazing-spider-man-movie-review/
 date: 2012-07-13
 length: '00:34:22'
-category: Review
+category: review
 hosts:
   - Matt
   - Daniel

@@ -15,7 +15,7 @@ podcast_url: http://thescifichristian.com/2013/07/episode-171-robert-downey-jr-b
 podcast_file_url: http://thescifichristian.com/sfc/sfc0171.mp3
 date: 2013-07-17
 length: '00:41:16'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

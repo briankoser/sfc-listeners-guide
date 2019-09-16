@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/03/episode-135-top-5-sci-fi-trilo
 podcast_file_url: http://thescifichristian.com/sfc/sfc0135.mp3
 date: 2013-03-21
 length: '00:59:27'
-category: Countdowns
+category: countdowns
 hosts:
   - Ben
   - Matt

@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/05/episode-116-ghosts-and-god/
 date: 2011-05-12
 length: '01:16:54'
-category: Main Topic
+category: main-topic
 series: supernatural-creatures 
 hosts:
   - Ben

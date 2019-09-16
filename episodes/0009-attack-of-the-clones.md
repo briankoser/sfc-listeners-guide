@@ -10,7 +10,7 @@ season: 1
 podcast_url: http://thescifichristian.com/2011/03/episode-109-attack-of-the-clones/
 date: 2011-03-25
 length: '01:39:25'
-category: Main Topic
+category: main-topic
 series: clones
 hosts:
   - Ben

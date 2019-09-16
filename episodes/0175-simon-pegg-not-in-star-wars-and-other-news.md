@@ -14,7 +14,7 @@ podcast_url: http://thescifichristian.com/2013/08/episode-175-simon-pegg-not-in-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0175.mp3
 date: 2013-08-01
 length: '00:58:01'
-category: News
+category: news
 hosts:
   - Ben
   - Matt
