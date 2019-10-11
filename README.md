@@ -1,4 +1,7 @@
 # sfc-listeners-guide
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b5295de5-7a12-4b05-9bfa-895c4d29b4ed/deploy-status)](https://app.netlify.com/sites/sfcblue/deploys)
+
 The Unofficial Listener's Guide for The Sci-Fi Christian podcast
 
 ## Development
