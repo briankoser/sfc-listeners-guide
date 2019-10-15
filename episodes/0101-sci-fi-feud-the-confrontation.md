@@ -7,6 +7,7 @@ title: Sci-Fi Feud – The Confrontation
 number: 101
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-101-sci-fi-feud-the-confrontation/
+podcast_file_url: http://thescifichristian.com/archive/Episode101.mp3
 date: 2013-01-02
 length: '00:15:05'
 category: announcement

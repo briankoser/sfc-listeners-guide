@@ -8,6 +8,7 @@ title: Top 5 MesSCIahs
 number: 5
 season: 1
 podcast_url: http://thescifichristian.com/2011/02/episode-105-top-5-messciahs/
+podcast_file_url: http://thescifichristian.com/02/episode105mesSCIahs.mp3
 date: 2011-02-07
 length: '01:22:14'
 category: countdowns

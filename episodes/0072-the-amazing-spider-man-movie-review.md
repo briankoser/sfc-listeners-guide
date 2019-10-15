@@ -7,6 +7,7 @@ title: The Amazing Spider-Man Movie Review
 number: 72
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-72-the-amazing-spider-man-movie-review/
+podcast_file_url: http://thescifichristian.com/archive/Episode_72__The_Amazing_Spider-Man_M.mp3
 date: 2012-07-13
 length: '00:34:22'
 category: review

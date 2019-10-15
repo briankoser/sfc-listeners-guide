@@ -9,6 +9,7 @@ title: It’s Time For Sci-Fi News
 number: 67
 season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-67-its-time-for-sci-fi-news/
+podcast_file_url: http://thescifichristian.com/archive/Episode_67__It_s_Time_For_Sci-Fi_New.mp3
 date: 2012-06-25
 length: '00:48:44'
 category: news

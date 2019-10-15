@@ -7,6 +7,7 @@ title: The History of Christianity (Part 3)
 number: 59
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-59-the-history-of-christianity-part-3/
+podcast_file_url: http://thescifichristian.com/archive/Episode_59__The_History_of_Christian.mp3
 date: 2012-05-19
 length: '00:19:22'
 category: theology

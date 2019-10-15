@@ -8,6 +8,7 @@ title: Ghosts and God
 number: 16
 season: 1
 podcast_url: http://thescifichristian.com/2011/05/episode-116-ghosts-and-god/
+podcast_file_url: http://thescifichristian.com/05/episode116ghosts.mp3
 date: 2011-05-12
 length: '01:16:54'
 category: main-topic

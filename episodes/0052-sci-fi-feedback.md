@@ -7,6 +7,7 @@ title: Sci-Fi Feedback
 number: 52
 season: 2
 podcast_url: http://thescifichristian.com/2012/04/episode-52-sci-fi-feedback/
+podcast_file_url: http://thescifichristian.com/archive/Episode_52__Sci-Fi_Feedback.mp3
 date: 2012-04-22
 length: '00:35:55'
 category: feedback

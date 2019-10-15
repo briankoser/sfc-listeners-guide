@@ -7,6 +7,7 @@ title: The History of Christianity (Part 8)
 number: 64
 season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-64-the-history-of-christianity-part-8/
+podcast_file_url: http://thescifichristian.com/archive/Episode_64__The_History_of_Christian.mp3
 date: 2012-06-07
 length: '00:20:53'
 category: theology

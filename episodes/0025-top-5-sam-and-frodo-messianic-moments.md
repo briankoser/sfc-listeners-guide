@@ -9,6 +9,7 @@ title: Top 5 Sam & Frodo Messianic Moments
 number: 25
 season: 1
 podcast_url: http://thescifichristian.com/2011/07/episode-25-top-5-sam-frodo-messianic-moments/
+podcast_file_url: http://thescifichristian.com/archive/Episode_25__Top_5_Sam_&_Frodo_Messia.mp3
 date: 2011-07-17
 length: '01:33:20'
 category: countdowns

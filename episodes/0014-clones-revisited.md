@@ -8,6 +8,7 @@ title: Clones Revisited
 number: 14
 season: 1
 podcast_url: http://thescifichristian.com/2011/04/episode-114-clones-revisit/
+podcast_file_url: http://thescifichristian.com/04/episode114clonesrevisit.mp3
 date: 2011-04-26
 length: '01:38:42'
 category: feedback

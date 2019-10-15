@@ -8,6 +8,7 @@ title: The Multiverse – Notes From The Other Side
 number: 18
 season: 1
 podcast_url: http://thescifichristian.com/2011/05/the-multiverse-notes-from-the-other-side/
+podcast_file_url: http://thescifichristian.com/episode118multiverse.mp3
 date: 2011-05-25
 length: '01:32:08'
 category: main-topic

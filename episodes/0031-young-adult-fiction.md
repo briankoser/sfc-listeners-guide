@@ -9,6 +9,7 @@ title: Young Adult Fiction
 number: 31
 season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-31-young-adult-fiction/
+podcast_file_url: http://thescifichristian.com/archive/Episode_31__Young_Adult_Fiction.mp3
 date: 2011-09-18
 length: '02:14:25'
 category: literature

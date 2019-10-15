@@ -8,6 +8,7 @@ title: Horror and Faith (AKA Zombie Jesus)
 number: 7
 season: 1
 podcast_url: http://thescifichristian.com/2011/02/episode-107-horror-and-faith-aka-zombie-jesus/
+podcast_file_url: http://thescifichristian.com/02/Episode107ZombieJesus.mp3
 date: 2011-02-22
 length: '01:08:13'
 category: theology

@@ -7,6 +7,7 @@ title: Knowing God’s Will
 number: 45
 season: 2
 podcast_url: http://thescifichristian.com/2012/02/episode-45-knowing-gods-will/
+podcast_file_url: http://thescifichristian.com/archive/Episode_45__Knowing_God_s_Will.mp3
 date: 2012-02-08
 length: '00:51:51'
 category: theology

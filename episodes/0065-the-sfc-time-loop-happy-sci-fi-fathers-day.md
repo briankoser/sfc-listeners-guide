@@ -7,6 +7,7 @@ title: The SFC Time Loop – Happy Sci-Fi Father’s Day!
 number: 65
 season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-65-the-sfc-time-loop-–-happy-sci-fi-fathers-day/
+podcast_file_url: http://thescifichristian.com/archive/Episode_65__The_SFC_Time_Loop_–_Happ.mp3
 date: 2012-06-17
 length: '00:51:35'
 category: countdowns

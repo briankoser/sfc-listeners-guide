@@ -7,6 +7,7 @@ title: Catholic Questions and Answers
 number: 90
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-90-catholicqanda/
+podcast_file_url: http://thescifichristian.com/archive/Episode_90__CatholicQandA.mp3
 date: 2012-11-05
 length: '01:10:33'
 category: theology

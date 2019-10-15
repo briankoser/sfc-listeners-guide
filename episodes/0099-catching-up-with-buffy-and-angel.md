@@ -7,6 +7,7 @@ title: Catching Up with Buffy and Angel
 number: 99
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-99-catching-up-with-buffy-and-angel/
+podcast_file_url: http://thescifichristian.com/archive/Episode99.mp3
 date: 2012-12-23
 length: '00:18:20'
 category: review

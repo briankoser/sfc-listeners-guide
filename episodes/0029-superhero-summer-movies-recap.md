@@ -9,6 +9,7 @@ title: Superhero Summer Movies Recap
 number: 29
 season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-29-superhero-summer-movies-recap/
+podcast_file_url: http://thescifichristian.com/archive/Episode_29__Superhero_Summer_Movies.mp3
 date: 2011-09-05
 length: '02:01:19'
 category: review

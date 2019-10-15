@@ -7,6 +7,7 @@ title: Catching Up with Ben De Bono
 number: 73
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-73-catching-up-with-ben-de-bono/
+podcast_file_url: http://thescifichristian.com/archive/Episode_73__Catching_Up_with_Ben_De.mp3
 date: 2012-07-16
 length: '00:55:34'
 category: conversation

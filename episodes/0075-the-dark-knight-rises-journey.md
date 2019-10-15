@@ -8,6 +8,7 @@ title: The Dark Knight Rises Journey
 number: 75
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-75-the-dark-knight-rises-journey/
+podcast_file_url: http://thescifichristian.com/archive/Episode_75__The_Dark_Knight_Rises_Jo.mp3
 date: 2012-07-19
 length: '02:34:32'
 category: clip-show

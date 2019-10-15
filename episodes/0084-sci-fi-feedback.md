@@ -8,6 +8,7 @@ title: Sci-Fi Feedback
 number: 84
 season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-84-sci-fi-feedback/
+podcast_file_url: http://thescifichristian.com/archive/Episode_84__Sci-Fi_Feedback.mp3
 date: 2012-10-08
 length: '00:59:40'
 category: feedback

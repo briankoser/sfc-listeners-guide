@@ -7,6 +7,7 @@ title: The End of the Year Listener Appreciation Jubilee
 number: 39
 season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-38-the-end-of-the-year-listener-appreciation-jubilee/
+podcast_file_url: http://thescifichristian.com/archive/Episode_39__The_End_of_the_Year_List.mp3
 date: 2011-12-25
 length: '01:01:53'
 category: award-show

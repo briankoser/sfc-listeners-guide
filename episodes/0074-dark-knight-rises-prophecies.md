@@ -7,6 +7,7 @@ title: Dark Knight Rises Prophecies
 number: 74
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-prophecies/
+podcast_file_url: http://thescifichristian.com/archive/Episode_74__Dark_Knight_Rises_Prophe.mp3
 date: 2012-07-17
 length: '00:41:15'
 category: conversation

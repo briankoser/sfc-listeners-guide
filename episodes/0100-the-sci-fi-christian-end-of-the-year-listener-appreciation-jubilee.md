@@ -7,6 +7,7 @@ title: The Sci-Fi Christian End of the Year Listener Appreciation Jubilee
 number: 100
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-100-the-sci-fi-christian-end-of-the-year-listener-appreciation-jubilee/
+podcast_file_url: http://thescifichristian.com/archive/Episode100.mp3
 date: 2012-12-25
 length: '01:54:35'
 category: award-show

@@ -7,6 +7,7 @@ title: Sci-Fi Feedback
 number: 70
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-70-sci-fi-feedback/
+podcast_file_url: http://thescifichristian.com/archive/Episode_70__Sci-Fi_Feedback.mp3
 date: 2012-07-06
 length: '00:37:19'
 category: feedback

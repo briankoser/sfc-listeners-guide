@@ -7,6 +7,7 @@ title: 2011 Highlight Reel
 number: 40
 season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-40-2011-highlight-reel/
+podcast_file_url: http://thescifichristian.com/archive/Episode_40__2011_Highlight_Reel.mp3
 date: 2012-01-15
 length: '03:03:50'
 category: clip-show

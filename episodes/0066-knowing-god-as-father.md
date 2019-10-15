@@ -7,6 +7,7 @@ title: Knowing God as Father
 number: 66
 season: 2
 podcast_url: http://thescifichristian.com/2012/06/episode-66-knowing-god-as-father/
+podcast_file_url: http://thescifichristian.com/archive/Episode_66__Knowing_God_as_Father.mp3
 date: 2012-06-17
 length: '00:45:25'
 category: theology

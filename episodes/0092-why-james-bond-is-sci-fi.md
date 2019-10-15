@@ -7,6 +7,7 @@ title: Why James Bond is Sci-Fi
 number: 92
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-92-why-james-bond-is-sci-fi/
+podcast_file_url: http://thescifichristian.com/archive/Episode_92__Why_James_Bond_is_Sci-Fi.mp3
 date: 2012-11-15
 length: '00:45:48'
 category: review

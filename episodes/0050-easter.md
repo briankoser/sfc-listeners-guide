@@ -7,6 +7,7 @@ title: Easter
 number: 50
 season: 2
 podcast_url: http://thescifichristian.com/2012/04/episode-50-easter/
+podcast_file_url: http://thescifichristian.com/archive/Episode50Easter.mp3
 date: 2012-04-08
 length: '00:49:45'
 category: theology

@@ -8,6 +8,7 @@ title: The State of the Super Hero Movie
 number: 6
 season: 1
 podcast_url: http://thescifichristian.com/2011/02/episode-106-the-state-of-the-super-hero-movie/
+podcast_file_url: http://thescifichristian.com/02/episode106stateofsuperheroes.mp3
 date: 2011-02-15
 length: '01:49:09'
 category: main-topic

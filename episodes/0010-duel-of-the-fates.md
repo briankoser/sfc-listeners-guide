@@ -8,6 +8,7 @@ title: Duel of the Fates
 number: 10
 season: 1
 podcast_url: http://thescifichristian.com/2011/03/episode-110-duel-of-the-fates/
+podcast_file_url: http://thescifichristian.com/03/episode110dueloffates.mp3
 date: 2011-03-30
 length: '01:40:42'
 category: review

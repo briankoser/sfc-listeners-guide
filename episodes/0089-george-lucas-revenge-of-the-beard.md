@@ -7,6 +7,7 @@ title: George Lucas – Revenge of the Beard
 number: 89
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-89-george-lucas-revenge-of-the-beard/
+podcast_file_url: http://thescifichristian.com/archive/Episode_89__George_Lucas_–_Revenge_o.mp3
 date: 2012-11-02
 length: '00:46:25'
 category: news

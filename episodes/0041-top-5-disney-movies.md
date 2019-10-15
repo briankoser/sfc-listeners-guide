@@ -7,6 +7,7 @@ title: Top 5 Disney Movies
 number: 41
 season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-41-top-5-disney-movies/
+podcast_file_url: http://thescifichristian.com/archive/Episode_41__Top_5_Disney_Movies.mp3
 date: 2012-01-16
 length: '01:19:10'
 category: countdowns

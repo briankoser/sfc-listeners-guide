@@ -7,6 +7,7 @@ title: Sci-Fi Feedback
 number: 44
 season: 2
 podcast_url: http://thescifichristian.com/2012/02/episode-44-sci-fi-feedback/
+podcast_file_url: http://thescifichristian.com/archive/Episode_44__Sci-Fi_Feedback.mp3
 date: 2012-02-05
 length: '00:37:08'
 category: feedback

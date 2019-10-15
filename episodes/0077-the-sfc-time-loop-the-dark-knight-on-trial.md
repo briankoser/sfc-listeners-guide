@@ -7,6 +7,7 @@ title: The SFC Time Loop – The Dark Knight On Trial
 number: 77
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-77-the-sfc-time-loop-the-dark-knight-on-trial/
+podcast_file_url: http://thescifichristian.com/archive/Episode_77__The_SFC_Time_Loop_–_The.mp3
 date: 2012-07-29
 length: '00:43:54'
 category: main-topic

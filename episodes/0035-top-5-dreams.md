@@ -9,6 +9,7 @@ title: Top 5 Dreams
 number: 35
 season: 1
 podcast_url: http://thescifichristian.com/2011/11/episode-35/
+podcast_file_url: http://thescifichristian.com/archive/Episode_35__Top_5_Dreams.mp3
 date: 2011-11-12
 length: '01:25:09'
 category: main-topic

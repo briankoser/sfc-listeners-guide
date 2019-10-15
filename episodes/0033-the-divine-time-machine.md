@@ -10,6 +10,7 @@ title: The Divine Time Machine
 number: 33      
 season: 1
 podcast_url: http://thescifichristian.com/2011/10/episode-33-the-divine-time-machine/
+podcast_file_url: http://thescifichristian.com/archive/Episode_33__The_Divine_Time_Machine.mp3
 date: 2011-10-09
 length: '01:03:30'
 category: main-topic

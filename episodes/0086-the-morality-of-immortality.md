@@ -7,6 +7,7 @@ title: The Morality of Immortality
 number: 86
 season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-86-the-morality-of-immortality/
+podcast_file_url: http://thescifichristian.com/archive/Episode_86__The_Morality_of_Immortal.mp3
 date: 2012-10-13
 length: '01:02:22'
 category: philosophy

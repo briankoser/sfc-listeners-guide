@@ -9,6 +9,7 @@ title: Lord of the Rings
 number: 23
 season: 1
 podcast_url: http://thescifichristian.com/2011/07/episode-23-lord-of-the-rings/
+podcast_file_url: http://thescifichristian.com/06/episode23LordoftheRings.mp3
 date: 2011-07-02
 length: '01:58:46'
 category: literature

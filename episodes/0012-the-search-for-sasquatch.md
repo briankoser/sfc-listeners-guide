@@ -8,6 +8,7 @@ title: The Search For Sasquatch
 number: 12
 season: 1
 podcast_url: http://thescifichristian.com/2011/04/episode-112-the-search-for-sasquatch/
+podcast_file_url: http://thescifichristian.com/04/episode112searchforsasquatch.mp3
 date: 2011-04-11
 length: '01:06:45'
 category: main-topic

@@ -7,6 +7,7 @@ title: Top 5 Current Sci-Fi Favorites
 number: 103
 season: 3
 podcast_url: http://thescifichristian.com/2013/01/episode-103-top-5-current-sci-fi-favorites/
+podcast_file_url: http://thescifichristian.com/archive/Episode103.mp3
 date: 2013-01-05
 length: '00:35:10'
 category: countdowns

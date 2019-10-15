@@ -7,6 +7,7 @@ title: The History of Christianity (Part 2)
 number: 58
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-58-the-history-of-christianity-part-2/
+podcast_file_url: http://thescifichristian.com/archive/Episode_58__The_History_of_Christian.mp3
 date: 2012-05-18
 length: '00:25:15'
 category: theology

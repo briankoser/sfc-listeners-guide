@@ -9,6 +9,7 @@ title: The Sci-Fi Feud
 number: 24
 season: 1
 podcast_url: http://thescifichristian.com/2011/07/episode-24-the-sci-fi-feud/
+podcast_file_url: http://thescifichristian.com/06/episode24SciFiFeud.mp3
 date: 2011-07-07
 length: '02:03:20'
 category: review

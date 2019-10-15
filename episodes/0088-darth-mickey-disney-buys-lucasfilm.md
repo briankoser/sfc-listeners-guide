@@ -7,6 +7,7 @@ title: Darth Mickey – Disney Buys Lucasfilm
 number: 88
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-88-darth-mickey-disney-buys-lucasfilm/
+podcast_file_url: http://thescifichristian.com/archive/Episode_88__Darth_Mickey_–_Disney_Bu.mp3
 date: 2012-11-01
 length: '01:14:30'
 category: news

@@ -7,6 +7,7 @@ title: Sci-Fi Feedback
 number: 38
 season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-38-sci-fi-feedback/
+podcast_file_url: http://thescifichristian.com/archive/Episode_38__Sci-Fi_Feedback.mp3
 date: 2011-12-18
 length: '00:19:17'
 category: feedback

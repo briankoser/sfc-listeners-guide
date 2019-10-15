@@ -7,10 +7,10 @@ tags:
   - take-that-science
 
 title: LOST Part 1
-number: 32
-     
+number: 32 
 season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-32-lost-part-1/
+podcast_file_url: http://thescifichristian.com/archive/Episode_32__LOST_Part_1.mp3
 date: 2011-09-27
 length: '01:54:43'
 category: review

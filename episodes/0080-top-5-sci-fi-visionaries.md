@@ -7,6 +7,7 @@ title: Top 5 Sci-Fi Visionaries
 number: 80
 season: 2
 podcast_url: http://thescifichristian.com/2012/09/episode-80-top-5-sci-fi-visionaries/
+podcast_file_url: http://thescifichristian.com/archive/Episode_80__Top_5_Sci-Fi_Visionaries.mp3
 date: 2012-09-01
 length: '00:41:21'
 category: countdowns

@@ -9,6 +9,7 @@ title: Christians and Harry Potter
 number: 28
 season: 1
 podcast_url: http://thescifichristian.com/2011/08/episode-28-christians-and-harry-potter/
+podcast_file_url: http://thescifichristian.com/archive/Episode_28__Christians_and_Harry_Pot.mp3
 date: 2011-08-22
 length: '01:32:35'
 category: main-topic

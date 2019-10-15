@@ -9,6 +9,7 @@ title: It’s Time For Sci-Fi News
 number: 48
 season: 2
 podcast_url: http://thescifichristian.com/2012/03/episode-48-its-time-for-sci-fi-news/
+podcast_file_url: http://thescifichristian.com/archive/Episode48SciFiNews.mp3
 date: 2012-03-26
 length: '00:40:18'
 category: news

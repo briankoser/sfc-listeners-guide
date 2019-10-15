@@ -7,6 +7,7 @@ title: The History of Christianity (Part 7)
 number: 63
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-63-the-history-of-christianity-part-7/
+podcast_file_url: http://thescifichristian.com/archive/Episode_63__The_History_of_Christian.mp3
 date: 2012-05-23
 length: '00:19:05'
 category: theology

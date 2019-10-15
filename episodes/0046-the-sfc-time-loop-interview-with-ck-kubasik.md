@@ -7,6 +7,7 @@ title: The SFC Time Loop – Interview with C.K. Kubasik
 number: 46
 season: 2
 podcast_url: http://thescifichristian.com/2012/03/episode-46-the-sfc-time-loop-interview-with-c-k-kubasik/
+podcast_file_url: http://thescifichristian.com/archive/Episode_46__The_SFC_Time_Loop_–_Inte.mp3
 date: 2012-03-08
 length: '01:04:42'
 category: interview

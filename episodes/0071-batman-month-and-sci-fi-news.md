@@ -10,6 +10,7 @@ title: Batman Month and Sci-Fi News
 number: 71
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-71-batman-month-and-sci-fi-news/
+podcast_file_url: http://thescifichristian.com/archive/Episode_71__Batman_Month_and_Sci-Fi.mp3
 date: 2012-07-12
 length: '00:53:08'
 category: news

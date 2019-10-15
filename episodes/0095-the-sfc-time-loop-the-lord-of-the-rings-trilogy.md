@@ -7,6 +7,7 @@ title: The SFC Time Loop – The Lord of the Rings Trilogy
 number: 95
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-95-the-sfc-time-loop-the-lord-of-the-rings-trilogy/
+podcast_file_url: http://thescifichristian.com/sfc/sfc0095.mp3
 date: 2012-12-02
 length: '01:21:10'
 category: literature

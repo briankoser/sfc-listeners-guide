@@ -8,6 +8,7 @@ title: Top 5 Sidekicks
 number: 20
 season: 1
 podcast_url: http://thescifichristian.com/2011/06/episode-120-top-5-sidekicks/
+podcast_file_url: http://thescifichristian.com/episode120top5sidekicks.mp3
 date: 2011-06-12
 length: '01:53:11'
 category: countdowns

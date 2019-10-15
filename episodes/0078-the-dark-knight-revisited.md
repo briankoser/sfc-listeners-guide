@@ -7,6 +7,7 @@ title: The Dark Knight Revisited
 number: 78
 season: 2
 podcast_url: http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/
+podcast_file_url: http://thescifichristian.com/archive/Episode_78__The_Dark_Knight_Revisite.mp3
 date: 2012-08-09
 length: '00:54:03'
 category: review

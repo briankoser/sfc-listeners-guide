@@ -8,6 +8,7 @@ title: Perception of Inception
 number: 36
 season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-36-perception-of-inception/
+podcast_file_url: http://thescifichristian.com/archive/Episode_36__Perception_of_Incepti.mp3
 date: 2011-12-04
 length: '01:32:44'
 category: review

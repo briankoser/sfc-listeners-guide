@@ -7,6 +7,7 @@ title: The Time Traveler Strife
 number: 49
 season: 2
 podcast_url: http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/
+podcast_file_url: http://thescifichristian.com/archive/Episode49TheTimeTravelerStrife.mp3
 date: 2012-04-01
 length: '01:20:08'
 category: main-topic

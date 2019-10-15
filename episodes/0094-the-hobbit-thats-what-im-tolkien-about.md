@@ -7,6 +7,7 @@ title: The Hobbit – That’s What I’m Tolkien About
 number: 94
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-what-im-tolkien-about/
+podcast_file_url: http://thescifichristian.com/sfc/sfc0094.mp3
 date: 2012-11-25
 length: '01:28:19'
 category: review

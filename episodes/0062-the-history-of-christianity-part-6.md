@@ -7,6 +7,7 @@ title: The History of Christianity (Part 6)
 number: 62
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-62-the-history-of-christianity-part-6/
+podcast_file_url: http://thescifichristian.com/archive/Episode_62__The_History_of_Christian.mp3
 date: 2012-05-22
 length: '00:29:19'
 category: theology

@@ -7,6 +7,7 @@ title: The History of Christianity (Part 1)
 number: 57
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-57-the-history-of-christianity-part-1/
+podcast_file_url: http://thescifichristian.com/archive/Episode_57__The_History_of_Christian.mp3
 date: 2012-05-17
 length: '00:20:29'
 category: theology

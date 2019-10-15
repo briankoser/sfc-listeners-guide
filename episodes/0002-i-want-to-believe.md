@@ -7,6 +7,7 @@ title: I Want to Believe
 number: 2
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/
+podcast_file_url: http://thescifichristian.com/01/SFChristian102IWantToBelieve.mp3
 date: 2011-01-16
 length: '00:56:55'
 category: theology

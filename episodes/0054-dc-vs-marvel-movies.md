@@ -7,6 +7,7 @@ title: DC vs. Marvel Movies
 number: 54
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-54-dc-vs-marvel-movies/
+podcast_file_url: http://thescifichristian.com/archive/Episode_54__DC_vs__Marvel_Movies.mp3
 date: 2012-05-03
 length: '00:34:18'
 category: main-topic

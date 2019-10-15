@@ -8,6 +8,7 @@ title: Top 5 Sci-Fi Worlds
 number: 15
 season: 1
 podcast_url: http://thescifichristian.com/2011/05/episode-115-top-5-sci-fi-worlds/
+podcast_file_url: http://thescifichristian.com/05/episode115top5worlds.mp3
 date: 2011-05-03
 length: '01:36:38'
 category: countdowns

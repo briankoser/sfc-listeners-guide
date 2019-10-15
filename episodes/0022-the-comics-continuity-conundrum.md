@@ -9,6 +9,7 @@ title: The Comics Continuity Conundrum
 number: 22
 season: 1
 podcast_url: http://thescifichristian.com/2011/06/episode-1-22-the-comics-continuity-conundrum/
+podcast_file_url: http://thescifichristian.com/06/episode122comicscontinuity.mp3
 date: 2011-06-26
 length: '02:20:25'
 category: main-topic

@@ -7,6 +7,7 @@ title: Star Wars
 number: 43
 season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-43-star-wars/
+podcast_file_url: http://thescifichristian.com/archive/Episode_43__Star_Wars.mp3
 date: 2012-01-29
 length: '01:16:36'
 category: review

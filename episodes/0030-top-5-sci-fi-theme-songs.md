@@ -9,6 +9,7 @@ title: Top 5 Sci-Fi Theme Songs
 number: 30
 season: 1
 podcast_url: http://thescifichristian.com/2011/09/episode-30-top-5-sci-fi-theme-songs/
+podcast_file_url: http://thescifichristian.com/archive/Episode_30__Top_5_Sci-Fi_Theme_Songs.mp3
 date: 2011-09-11
 length: '01:51:21'
 category: countdowns

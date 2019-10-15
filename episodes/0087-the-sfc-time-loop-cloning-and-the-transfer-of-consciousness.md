@@ -7,6 +7,7 @@ title: The SFC Time Loop – Cloning and the Transfer of Consciousness
 number: 87
 season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-87-the-sfc-time-loop-cloning-and-the-transfer-of-consciousness/
+podcast_file_url: http://thescifichristian.com/archive/Episode_87__The_SFC_Time_Loop_–_Clon.mp3
 date: 2012-10-31
 length: '01:56:21'
 category: main-topic

@@ -8,6 +8,7 @@ title: C.K. Kubasik Interview
 number: 27
 season: 1
 podcast_url: http://thescifichristian.com/2011/08/episode-27-c-k-kubasik-interview/
+podcast_file_url: http://thescifichristian.com/archive/Episode_27__C_K__Kubasik_Interview.mp3
 date: 2011-08-10
 length: '01:36:18'
 category: interview

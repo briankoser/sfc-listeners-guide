@@ -7,6 +7,7 @@ title: The History of Christianity (Part 4)
 number: 60
 season: 2
 podcast_url: http://thescifichristian.com/2012/05/episode-60-the-history-of-christianity-part-4/
+podcast_file_url: http://thescifichristian.com/archive/Episode_60__The_History_of_Christian.mp3
 date: 2012-05-20
 length: '00:19:57'
 category: theology

@@ -7,6 +7,7 @@ title: Top 5 Pixar Movies
 number: 42
 season: 2
 podcast_url: http://thescifichristian.com/2012/01/episode-42-top-5-pixar-movies/
+podcast_file_url: http://thescifichristian.com/archive/Episode_42__Top_5_Pixar_Movies.mp3
 date: 2012-01-22
 length: '00:48:22'
 category: countdowns

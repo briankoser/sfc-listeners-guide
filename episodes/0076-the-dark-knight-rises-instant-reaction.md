@@ -7,6 +7,7 @@ title: The Dark Knight Rises – Instant Reaction
 number: 76
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-76-the-dark-knight-rises-instant-reaction/
+podcast_file_url: http://thescifichristian.com/archive/Episode_76__The_Dark_Knight_Rises_–.mp3
 date: 2012-07-20
 length: '00:16:18'
 category: review

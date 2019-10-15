@@ -8,6 +8,7 @@ title: Dissecting Dr. Horrible
 number: 13
 season: 1
 podcast_url: http://thescifichristian.com/2011/04/episode-113-dissecting-dr-horrible/
+podcast_file_url: http://thescifichristian.com/04/episode113drhorrible.mp3
 date: 2011-04-20
 length: '01:30:56'
 category: review

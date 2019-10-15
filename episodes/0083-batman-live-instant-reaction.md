@@ -7,6 +7,7 @@ title: Batman Live – Instant Reaction
 number: 83
 season: 2
 podcast_url: http://thescifichristian.com/2012/10/episode-83-batman-live-instant-reaction/
+podcast_file_url: http://thescifichristian.com/archive/Episode_83__Batman_Live_–_Instant_Re.mp3
 date: 2012-10-01
 length: '00:41:47'
 category: review

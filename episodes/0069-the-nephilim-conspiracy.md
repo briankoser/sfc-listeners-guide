@@ -7,6 +7,7 @@ title: The Nephilim Conspiracy
 number: 69
 season: 2
 podcast_url: http://thescifichristian.com/2012/07/episode-69-the-nephilim-conspiracy/
+podcast_file_url: http://thescifichristian.com/archive/Episode_69__The_Nephilim_Conspiracy.mp3
 date: 2012-07-01
 length: '00:48:17'
 category: theology

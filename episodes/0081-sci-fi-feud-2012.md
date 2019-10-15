@@ -7,6 +7,7 @@ title: Sci-Fi Feud 2012
 number: 81
 season: 2
 podcast_url: http://thescifichristian.com/2012/09/episode-81-sci-fi-feud-2012/
+podcast_file_url: http://thescifichristian.com/archive/Episode_81__Sci-Fi_Feud_2012.mp3
 date: 2012-09-06
 length: '00:22:15'
 category: announcement

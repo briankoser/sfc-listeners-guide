@@ -7,6 +7,7 @@ title: John Carter, Savior of Mars
 number: 82
 season: 2
 podcast_url: http://thescifichristian.com/2012/09/episode-82-john-carter-savior-of-mars/
+podcast_file_url: http://thescifichristian.com/archive/Episode_82__John_Carter,_Savior_of_M.mp3
 date: 2012-09-16
 length: '00:41:21'
 category: review 

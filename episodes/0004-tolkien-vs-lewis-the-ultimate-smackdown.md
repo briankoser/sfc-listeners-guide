@@ -7,6 +7,7 @@ title: Tolkien Vs. Lewis – The Ultimate Smackdown
 number: 4
 season: 1
 podcast_url: http://thescifichristian.com/2011/01/episode-104-tolkien-vs-lewis-the-ultimate-smackdown/
+podcast_file_url: http://thescifichristian.com/01/Episode104TolkienVsLewis.mp3
 date: 2011-01-30
 length: '01:20:10'
 category: philosophy

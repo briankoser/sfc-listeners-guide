@@ -7,6 +7,7 @@ title: Superhero Talk
 number: 51
 season: 2
 podcast_url: http://thescifichristian.com/2012/04/episode-51-superhero-talk/
+podcast_file_url: http://thescifichristian.com/archive/Episode_51__Superhero_Talk.mp3
 date: 2012-04-15
 length: '00:27:13'
 category: main-topic

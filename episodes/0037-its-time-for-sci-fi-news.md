@@ -9,6 +9,7 @@ title: It's Time for Sci-Fi News
 number: 37
 season: 1
 podcast_url: http://thescifichristian.com/2011/12/episode-37-its-time-for-sci-fi-news/
+podcast_file_url: http://thescifichristian.com/archive/Episode_37__It_s_Time_for_Sci-Fi_New.mp3
 date: 2011-12-11
 length: '00:26:02'
 category: news

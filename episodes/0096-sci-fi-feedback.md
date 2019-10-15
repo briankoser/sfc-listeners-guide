@@ -7,6 +7,7 @@ title: Sci-Fi Feedback
 number: 96
 season: 2
 podcast_url: http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/
+podcast_file_url: http://thescifichristian.com/archive/Episode96.mp3
 date: 2012-12-16
 length: '01:35:56'
 category: feedback

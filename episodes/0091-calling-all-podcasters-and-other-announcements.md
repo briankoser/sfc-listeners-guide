@@ -7,6 +7,7 @@ title: Calling All Podcasters and Other Announcements
 number: 91
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-91-calling-all-podcasters-and-other-announcements/
+podcast_file_url: http://thescifichristian.com/archive/Episode_91__Calling_All_Podcasters_a.mp3
 date: 2012-11-11
 length: '00:23:26'
 category: announcement

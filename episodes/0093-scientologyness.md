@@ -7,6 +7,7 @@ title: Scientologyness
 number: 93
 season: 2
 podcast_url: http://thescifichristian.com/2012/11/episode-93-scientologyness/
+podcast_file_url: http://thescifichristian.com/archive/Episode_93__Scientologyness.mp3
 date: 2012-11-21
 length: '00:58:19'
 category: theology

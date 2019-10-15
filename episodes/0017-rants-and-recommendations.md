@@ -8,6 +8,7 @@ title: Rants and Recommendations
 number: 17
 season: 1
 podcast_url: http://thescifichristian.com/2011/05/episode-117-rants-and-recommendations/
+podcast_file_url: http://thescifichristian.com/05/episode117recommendations.mp3
 date: 2011-05-20
 length: '01:46:58'
 category: main-topic
