@@ -20,6 +20,8 @@ category: News
 hosts:
   - Ben
   - Matt
+guests:
+  - Koby
 
 notable_moments:
 take_that:
