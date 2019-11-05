@@ -10,8 +10,8 @@ podcast_url: http://thescifichristian.com/2013/10/episode-195-breaking-open-brea
 podcast_file_url: http://thescifichristian.com/sfc/sfc0195.mp3
 date: 2013-10-16
 length: '01:12:16'
-category: Review
-series: Breaking Bad
+category: review
+series: breaking-bad
 hosts:
   - Ben
   - Matt

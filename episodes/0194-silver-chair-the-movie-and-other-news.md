@@ -14,7 +14,7 @@ podcast_url: http://thescifichristian.com/2013/10/episode-194-silver-chair-the-m
 podcast_file_url: http://thescifichristian.com/sfc/sfc0194.mp3
 date: 2013-10-14
 length: '01:05:11'
-category: News
+category: news
 hosts:
   - Ben
   - Matt
