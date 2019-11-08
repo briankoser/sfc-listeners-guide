@@ -16,7 +16,7 @@ podcast_url: http://thescifichristian.com/2013/09/episode-190-firefly-flies-agai
 podcast_file_url: http://thescifichristian.com/sfc/sfc0190.mp3
 date: 2013-09-28
 length: '01:15:30'
-category: News
+category: news
 hosts:
   - Ben
   - Matt

@@ -6,6 +6,7 @@ tags:
   - ben-is-right
   - bleeping
   - dark-knight-news
+  - sci-fi-christian-story-time
   - stan-lee-quote-of-the-week
   - take-that-science
 
@@ -97,4 +98,4 @@ Matt refuses to say the title of the movie <i class="work-title">Kickass 2</i>.
 
 Still excited about <i class="work-title">The Hobbit: Desolation of Smaug</i>
 
-{% timeLink podcast_file_url, '39:05' %}ci-Fi Christian Story Time: Ben got a library fine and a parking ticket from St. John's
+{% timeLink podcast_file_url, '39:05' %} Sci-Fi Christian Story Time: Ben got a library fine and a parking ticket from St. John's

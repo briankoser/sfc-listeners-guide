@@ -10,8 +10,8 @@ podcast_url: http://thescifichristian.com/2013/10/episode-191-excavating-the-x-f
 podcast_file_url: http://thescifichristian.com/sfc/sfc0191.mp3
 date: 2013-10-02
 length: '00:50:59'
-category: Review
-series: Excavating the X-Files
+category: review
+series: excavating-the-x-files
 hosts:
   - Ben
   - Matt
