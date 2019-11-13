@@ -165,17 +165,20 @@ a:hover {
 }
 
 a.link-obvious,
-a.link-subtle {
+a.link-subtle,
+.top-five a {
     color: var(--color-white);
 }
 
 a.link-obvious:hover,
-a.link-subtle:hover {
+a.link-subtle:hover,
+.top-five a:hover {
     color: var(--color-primary);
 }
 
 a.link-obvious,
-a.link-subtle:hover {
+a.link-subtle:hover,
+.top-five a {
     text-decoration: underline;
 }
 
@@ -576,8 +579,17 @@ a.tag.timestamp.is-rounded:hover {
     color: var(--color-black);
 }
 
+.archivist h3 {
+    color: var(--color-black);
+}
+
 .ben {
     background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.listeners {
+    background-color: var(--color-medium-grey);
     color: var(--color-white);
 }
 
@@ -635,6 +647,13 @@ a.tag.timestamp.is-rounded:hover {
     background-color: var(--color-pink-transparent);
 }
 
+.top-five .archivist a {
+    color: var(--color-black);   
+}
+
+.top-five .archivist a:hover {
+    color: var(--color-white);   
+}
 
 
 /******************************************************************************
