@@ -11,6 +11,7 @@ podcast_file_url: http://thescifichristian.com/archive/Episode100.mp3
 date: 2012-12-25
 length: '01:54:35'
 category: award-show
+series: jubilee
 hosts:
   - Ben
   - Matt
