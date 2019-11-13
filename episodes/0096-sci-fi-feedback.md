@@ -65,7 +65,7 @@ Robin from the UK is going back and listening to every episode from the beginnin
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=43:42">43:42</a>
   <q class="matt">I can literally feel your pain because I have it still in my heart from Season 1. Here in Season 2 it's been a little bit better, I've got a little bit more respect because I kept the ship afloat. You, however, have been kind of brutally bullied by him.</q>
-  <q class="koby">Just unwarranted. And I've dealth with bullies in the past; I'm just going to punch him in the face.</q>
+  <q class="koby">Just unwarranted. And I've dealt with bullies in the past; I'm just going to punch him in the face.</q>
 </div>
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=45:00">45:00</a> Koby suggests doing a live episode.
