@@ -28,7 +28,6 @@ recommendation_reason: Fun to hear Ben disgusted
 <div class="quote">
   {% timeLink podcast_file_url, '11:25' %}
   <q class="ben">Matt and Wayne, you two are the biggest <i class="work-title">LOST</i> fans I know. It's sickening. It's absolutely sickening how much you both love <i class="work-title">LOST</i>.</q>
-  <q class="matt"></q>
 </div>
 
 Ben compiled 42 <i class="work-title">LOST</i> questions
