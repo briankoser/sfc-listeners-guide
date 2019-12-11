@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2013/11/episode-203-marvel-tv-on-netfl
 podcast_file_url: http://thescifichristian.com/sfc/sfc0203.mp3
 date: 2013-11-08
 length: '00:54:13'
-category: News
+category: news
 hosts:
   - Ben
   - Matt
