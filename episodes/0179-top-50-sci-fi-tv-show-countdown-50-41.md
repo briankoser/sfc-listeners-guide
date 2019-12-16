@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - tv-show-countdown-2013
 
 title: "Top 50 Sci-Fi TV Show Countdown: 50-41"
 number: 179
@@ -12,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0179.mp3
 date: 2013-08-15
 length: '00:43:33'
 category: countdowns
-series: tv-show-countdown
+series: tv-show-countdown-2013
 hosts:
   - Ben
   - Matt

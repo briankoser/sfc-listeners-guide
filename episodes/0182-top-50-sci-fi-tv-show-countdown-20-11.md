@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - tv-show-countdown-2013
   - sci-fi-christian-story-time
 
 title: "Top 50 Sci-Fi TV Show Countdown: 20-11"
@@ -13,7 +12,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0182.mp3
 date: 2013-08-27
 length: '00:32:05'
 category: countdowns
-series: tv-show-countdown
+series: tv-show-countdown-2013
 hosts:
   - Ben
   - Matt

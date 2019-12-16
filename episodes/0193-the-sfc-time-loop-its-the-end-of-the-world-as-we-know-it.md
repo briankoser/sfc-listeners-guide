@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2013/10/episode-193-the-sfc-time-loop-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0193.mp3
 date: 2013-10-11
 length: '01:16:10'
-category: time-loop
+category: theology
 hosts:
   - Ben
   - Matt
