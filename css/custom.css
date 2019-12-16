@@ -166,7 +166,7 @@ a:hover {
 
 a.link-obvious,
 a.link-subtle,
-.prophecy .veracity a
+.prophecy .veracity a,
 .top-five a {
     color: var(--color-white);
 }
