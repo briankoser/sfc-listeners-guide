@@ -23,26 +23,21 @@ recommendation_reason: Very fun takedown of a movie both loved as children
 ---
 Ben did not buy Matt <i class="work-title">The Rocketeer</i> or <i class="work-title">Talladega Nights</i> off his wedding gift registry. 
 
-{% timeLink podcast_file_url, '19:18' %} Matt insists one of the actors must have been wearing a mask arc I...think he is? Tiny Ron 
+{% timeLink podcast_file_url, '19:23' %} Matt insists one of the actors must have been wearing a mask <q class="archivist inline">It looks like at least a prosthetic nose. <a href="https://www.imdb.com/name/nm0864096/">He is a pretty craggy guy.</a></q> 
 
-{% timeLink podcast_file_url, '31:33' %} the reason the nazis wants the rocket 
+{% timeLink podcast_file_url, '31:33' %} The reason the Nazis wants the rocket 
 
-{% timeLink podcast_file_url, '33:45' %} the best part of the movie
+{% timeLink podcast_file_url, '33:45' %} The best part of the movie
 
-36:20 hiding in the bushes
 <div class="quote">
-  {% timeLink podcast_file_url, '36:20' %}
-  <q class="matt"></q>
-  <q class="ben"></q>
+  {% timeLink podcast_file_url, '38:53' %}
+  <q class="matt">So, the spiritual takeaway you can get from <i class="work-title">Rocketeer</i> is that, in their minds, the closest thing you can get to heaven is—</q>
+  <q class="ben">Sex.</q>
+  <q class="matt">A loving relationship.</q>
+  <q class="ben">Or a loving relationship.</q>
+  <q class="matt">I think we're going different directions there.</q>
 </div>
 
-39:02 different directions
-<div class="quote">
-  {% timeLink podcast_file_url, '39:02' %}
-  <q class="matt"></q>
-  <q class="ben"></q>
-</div>
-
-<a class="timestamp tag is-medium is-rounded is-primary" href="#t=00:45:20">45:20</a> Sci-Fi Christian Story Time: Ben's Disney trip, day 4 the turning point
+{% timeLink podcast_file_url, '45:16' %} Sci-Fi Christian Story Time: Ben's Disney Trip, Day 4: The Turning Point
 
 <i class="work-title">The Lion King</i> is Matt and Ben's favorite Disney movie. 
