@@ -23,7 +23,7 @@ notable_moments:
 odd_opening: Ben eats pizza during the intro
 future_episodes:
   - Alan Moore 
-  - Catholicism vs the orthodox church
+  - Catholicism vs the Orthodox Church
 
 last_listen: 2019-07-23
 recommendation: no
