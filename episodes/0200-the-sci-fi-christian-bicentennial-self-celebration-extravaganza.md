@@ -187,7 +187,7 @@ Matt thinks Squirtle is a turtle with a squirrel's tail.
 <q class="archivist">My favorites through 200 are:</q>
 
 <div class="top-five">
-  <h2 class="has-text-centered">Top 5 Episodes</h2>
+  <h2 class="has-text-centered">Top 10 Episodes (sorted chronologically)</h2>
   <div class="columns">
     <div class="column archivist">
       <h3>Archivist</h3>
