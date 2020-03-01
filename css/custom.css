@@ -796,7 +796,12 @@ q.koby::before {
     background-color: var(--color-dark-grey);
     border-radius: 7px 7px 0 0;
     color: var(--color-white);
+    padding: 0.5em;
     text-align: center;
+}
+
+.review .ratings {
+    display: flex;
 }
 
 .review .rating {
@@ -806,12 +811,10 @@ q.koby::before {
 
 .review div:first-of-type {
     border-radius: 0 0 0 7px;
-    float: left;
 }
 
 .review div:last-of-type {
     border-radius: 0 0 7px 0;
-    float: right;
 }
 
 .review q {

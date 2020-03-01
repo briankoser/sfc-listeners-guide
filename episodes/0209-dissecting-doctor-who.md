@@ -23,24 +23,7 @@ recommendation_reason: Fun listen if you've watched Doctor Who series 1-7, other
 ---
 Matt caught up on the show by the 50th Anniversary <q class="archivist inline">Crazy. But he did give the Matt Anderson Guarantee.</q>
 
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
+{% rating 'Doctor Who', 4, 3 %}
 
 Ben's main criticism is that it's not a deep show; there's nothing that sticks with you.
 
