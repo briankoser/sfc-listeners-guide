@@ -26,8 +26,7 @@ archivist_note: The movie is alright, but I've always had three problems with it
 
 Instead of a spoiler alert, Ben issues a "spoiler smackdown" because it's based on a 70-year-old book.
 
-Ben predicted 3.5 stars (terribly disappointing)
-Matt predicted 3 stars
+Ben predicted 3.5 stars (terribly disappointing). Matt predicted 3 stars.
 
 {% rating 'The Hobbit: An Unexpected Journey', 5, 5 %}
 
