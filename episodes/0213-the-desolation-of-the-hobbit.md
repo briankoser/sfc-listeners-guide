@@ -46,7 +46,6 @@ Ben admits he was wrong about Christopher Tolkien and praises him for trying to 
   <q class="matt">Well, that was your—you just amened your own status.</q>
 </div>
 
-42:00 we're a pop culture podcast
 <div class="quote">
   {% timeLink podcast_file_url, '42:00' %}
   <span class="quote-context is-size-6"></span>
