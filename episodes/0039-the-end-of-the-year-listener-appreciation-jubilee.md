@@ -11,6 +11,7 @@ podcast_file_url: http://thescifichristian.com/archive/Episode_39__The_End_of_th
 date: 2011-12-25
 length: '01:01:53'
 category: award-show
+series: jubilee
 hosts:
   - Ben
   - Matt
@@ -80,21 +81,21 @@ Matt plans to start time looping episodes, although he doesn't yet know what he 
 - Matt Reading Books
 
 ## Worst Episode
-**№ 34 LOST Part 2**
-- № 35 Top 5 Dreams
-- № 12 The Search for Sasquatch
+<strong>{% episodeLink 34 %}</strong>
+- {% episodeLink 35 %}
+- {% episodeLink 12 %}
 
 ## Life Report Episode
-**History of Christianity Week 5**
+<strong>{% episodeLink 61 %}</strong>
 
 ## Top 5
-**Missionary Super powers**
-- Messciahs 
-- Sci-Fi worlds
-- Sidekicks 
-- Sam and Frodo messianic moments
-- Sci-Fi theme songs
-- Dreams 
+**Missionary Super Powers** ({% episodeLink 11 %})
+- Messciahs ({% episodeLink 5 %})
+- Sci-Fi Worlds ({% episodeLink 15 %})
+- Sidekicks ({% episodeLink 20 %})
+- Sam and Frodo Messianic Moments ({% episodeLink 25 %})
+- Sci-Fi Theme Songs ({% episodeLink 30 %})
+- Dreams ({% episodeLink 35 %})
 
 ## Guest host
 **Koby**
@@ -104,9 +105,9 @@ Matt plans to start time looping episodes, although he doesn't yet know what he 
 - Scott and Myles 
 
 ## Episode
-**№ 23 Lord of the Rings**
-- № 2 I Want to Believe
-- № 3 The Dark Knight on Trial
-- № 9 Attack of the Clones
-- № 13 Dissecting Dr. Horrible
-- № 33 The Divine Time Machine
+<strong>{% episodeLink 23 %}</strong>
+- {% episodeLink 2 %}
+- {% episodeLink 3 %}
+- {% episodeLink 9 %}
+- {% episodeLink 13 %}
+- {% episodeLink 33 %}
