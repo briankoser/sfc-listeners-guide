@@ -20,6 +20,7 @@ hosts:
   - Matt
 
 notable_moments:
+odd_opening: Ben is laughing in the middle of the music because Matt forgot to start recording. 
 prophecy: 
   - {"host": "Ben", "prediction": "<i class='work-title'>The Silver Chair</i> will be released in 2016", "veracity": false, "comments": "It's been in development hell for years. Netflix recently bought the rights to all seven books, so that's probably when we'll see this adaptation."}
   - {"host": "Matt", "prediction": "<i class='work-title'>The Silver Chair</i> will be released in 2016", "veracity": false, "comments": ""}
@@ -35,8 +36,6 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
 ---
 # Opening
-Matt forgot to start recording so the episode starts in the middle of the music with Ben laughing. 
-
 Ben has a Windows phone.
 
 Matt will buy an SFC t-shirt for the first listener to make a Season 3 highlights reel.
