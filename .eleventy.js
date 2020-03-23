@@ -468,7 +468,7 @@ module.exports = function(eleventyConfig) {
     episodes[0].data.stats.episodes.visits = visitCount;
 
     // Spinoffs
-    let spinoffCount = episodes.filter(e => e.data.category === 'Spinoff').length;
+    let spinoffCount = episodes.filter(e => e.data.category === 'spinoff').length;
     episodes[0].data.stats.episodes.spinoffs = spinoffCount;
 
     return episodes;
