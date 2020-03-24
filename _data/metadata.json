@@ -62,6 +62,7 @@
       {"slug": "movie-preview", "name": "Movie Preview", "description": "A live reading of the Wikipedia article of upcoming sci-fi movies"},
       {"slug": "parallel-universes", "name": "Parallel Universes", "description": "Discussions about parallel and alternate universes."},
       {"slug": "recommendations", "name": "Recommendations", "description": "Follow Ben and Matt's likes and dislikes through the years."},
+      {"slug": "reinis", "name": "Reinis", "description": "The authors and friends of the SFC discuss their books and hang out"},
       {"slug": "self-celebration", "name": "Annual Self-Celebration Extravaganzas", "description": "The hosts review their year"},
       {"slug": "sermons", "name": "Sermons", "description": "Sermons from Protestant Ben and Mike Poteet."},
       {"slug": "state-of-the-superhero-movie", "name": "State of the Superhero Movie", "description": "Superhero movie eras, trends, and predictions. The story of two men who loved superhero movies; one remained in love while the other's love turned to hate."},
