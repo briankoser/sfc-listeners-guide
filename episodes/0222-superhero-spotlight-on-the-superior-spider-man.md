@@ -16,7 +16,7 @@ hosts:
   - Ben
   - Matt
 guests:
-  - David Clements
+  - Dave Clements
   - David Hunt
 
 notable_moments:

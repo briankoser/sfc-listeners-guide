@@ -2,8 +2,8 @@
 layout: episode
 tags:
   - episode
-  - take-that-science
   - a-slew-of-casting-news
+  - take-that-science
 
 title: Marvel Gets Back Three Characters and Other News
 number: 152

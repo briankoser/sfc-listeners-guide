@@ -2,11 +2,11 @@
 layout: episode
 tags:
   - episode
+  - a-slew-of-casting-news
   - stan-lee-quote-of-the-week
   - take-that-science
-  - a-slew-of-casting-news
-  - what-the-frodo
   - video-game-news
+  - what-the-frodo
 
 title: ABC Picks Up Marvel’s S.H.I.E.L.D. and Other News
 number: 154
