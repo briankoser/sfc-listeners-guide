@@ -36,12 +36,7 @@ recommendation: no
 recommendation_reason: This many hosts doesn't really work.
 archivist_note: Strangers and Aliens cohost <a href="https://m.imdb.com/name/nm2671766/">Jayce O'Neil</a>'s <a href="https://oracleofbacon.org/movielinks.php">bacon number is 2</a>.
 ---
-<a href="http://strangersandaliens.com/2013/04/ep-61-aliens-and-strangers-part-i-alien-agenda/">Part 1 of the crossover</a> is only on the Strangers and Aliens feed
-
-<div class="quote">
-  <span class="quote-context is-size-6">Best quote from part 1:</span>
-  <q class="matt">Let me just make sure I understood you there: so you think the appeal is that males want to see movies where males are giving birth?</q>
-</div>
+Part 1 is {% episodeLink 226 %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '3:45' %}
