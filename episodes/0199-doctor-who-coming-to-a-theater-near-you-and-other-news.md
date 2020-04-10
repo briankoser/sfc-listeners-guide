@@ -42,7 +42,7 @@ Matt wants to know how many "against it"s Ben gives for every "for it".
 
 # News
 
-Matt gives a Green Screen-style spoiler alert (he says "spoiler alert" after giving the spoiler) .
+Matt gives a Green Screen-style spoiler alert (he says "spoiler alert" after giving the spoiler).
 
 What the Frodo: Ben Kingsley is doing another project with Marvel after <i class="work-title">Iron Man 3</i>.
 
