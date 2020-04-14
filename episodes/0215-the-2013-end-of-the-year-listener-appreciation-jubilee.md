@@ -37,7 +37,7 @@ recommendation_reason: Koby returns to celebrate 2013.
 Daniel sent a voicemail for the occasion. His connection was bad so Ben stopped playing it. 
 
 ## Video of the Year 
-**Dark Knight Returns review**
+**[Dark Knight Returns review](https://www.youtube.com/watch?v=DfvQCNgPiSY)**
 - Game of Thrones Take the Black Stout review
 - Man of Steel review
 - Star Trek into Darkness review

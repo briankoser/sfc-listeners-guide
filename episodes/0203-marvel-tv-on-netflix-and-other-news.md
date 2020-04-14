@@ -24,7 +24,7 @@ last_listen: 2019-07-05
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Ben and Matt watched <i class="work-title">The Dark Knight Returns</i> with Daniel, Koby, and BJ. Matt isn't comfortable posting even the censored version, but Ben offers to email it to any listener that asks. 
+Ben and Matt watched <i class="work-title">The Dark Knight Returns</i> with Daniel, Koby, and BJ. Matt isn't comfortable posting even the [censored version of their review](https://www.youtube.com/watch?v=DfvQCNgPiSY), but Ben offers to email it to any listener that asks. 
 
 What the Frodo: <i class="work-title">Olympos Has Fallen</i> is getting a sequel
 
