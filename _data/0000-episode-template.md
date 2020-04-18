@@ -27,7 +27,8 @@ hosts:
   - Matt
 guests:
   - 
-time_loop_backward: [{"number": }]
+time_loop_backward: 
+  - number: 
 visit: 
 sponsors:
   - 
@@ -37,7 +38,10 @@ odd_opening:
 firsts:
   - 
 prophecy: 
-  - {"host": "", "prediction": "", "veracity": true, "comments": ""}
+  - host:
+    prediction: 
+    veracity: true
+    comments: 
 future_episodes:
   - 
 take_that:
@@ -50,7 +54,7 @@ last_listen:
 recommendation: essential yes no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
 spoilers: 
-- <i class="work-title"></i>
+  - <i class="work-title"></i>
 archivist_note: 
 ---
 # Opening
