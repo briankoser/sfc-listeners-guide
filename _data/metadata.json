@@ -33,6 +33,7 @@
       {"slug": "interview", "name": "Interview", "description": "Interviews, separate from guest host appearances"},
       {"slug": "literature", "name": "Literature", "description": "Discussions of classic books"},
       {"slug": "main-topic", "name": "Main Topic", "description": "The catch-all category. Usually a mixture of theology and pop culture."},
+      {"slug": "milestone", "name": "Milestone", "description": "A special episode every 50 shows."},
       {"slug": "news", "name": "News", "description": "It's time for Sci-Fi News!"},
       {"slug": "philosophy", "name": "Philosophy", "description": "I think, therefore I podcast"},
       {"slug": "review", "name": "Review", "description": "Reviews of books, movies, TV shows"},
@@ -71,6 +72,7 @@
       {"slug": "story", "name": "Story Theory", "description": "The philosophy of stories"},
       {"slug": "superhero-spotlight", "name": "Superhero Spotlight", "description": "Matt and a guest pick a superhero and discuss their history."},
       {"slug": "supernatural-creatures", "name": "Supernatural Creatures", "description": "A favorite choice of topic early in the show."},
+      {"slug": "things-to-experience", "name": "Things to Experience", "description": "23 things to experience in the next 100 episodes"},
       {"slug": "tolkien", "name": "Tolkien", "description": "Discussion about the books and films set in Middle Earth."},
       {"slug": "tv-show-countdown-2013", "name": "Top 50 TV Show Countdown (2013)", "description": "The 2013 hiatus countdown"},
       {"slug": "virtual-ethics", "name": "Virtual Ethics", "description": "Ethics in a virtual reality."}
