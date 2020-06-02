@@ -63,14 +63,14 @@ Unbreakable will be a trilogy <q class="archivist inline">happened in 2016</q>
 
 # Main Topic
 
-### Phases of Superhero Movies
+## Phases of Superhero Movies
 
 1. Early (1978-1997, <i class="work-title">Superman</i>-<i class="work-title">Batman and Robin</i>)
 2. Rennaisance (2000-2005, includes X-Men 1-2, Spider-Man 1-2, <i class="work-title">Batman Begins</i>)
 3. Fatigue (2005-2008, includes <i class="work-title">Ghost Rider</i>, <i class="work-title">Electra</i>, <i class="work-title">Punisher</i>, <i class="work-title">Fantastic Four</i>, <i class="work-title">Superman Returns</i>, <i class="work-title">X-Men 3</i>, <i class="work-title">Wolverine</i>, <i class="work-title">Spider-Man 3</i>)
 4. Rejuvenation (2008-, <i class="work-title">The Dark Knight</i>, <i class="work-title">Iron Man</i>)
 
-### Factors to determine the future of the superhero genre
+## Factors to determine the future of the superhero genre
 
 1. Will <i class="work-title">The Avengers</i> succeed?
 2. What happens to Batman post-Nolan?
