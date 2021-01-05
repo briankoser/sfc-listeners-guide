@@ -30,8 +30,11 @@ firsts:
   - Matt and Ben start blogging on the website
 take_that:
   - Matt
-prophecy: 
-  - {"host": "Matt", "prediction": "Reboots are going to get old really fast.", "veracity": true, "comments": "There will be entire episodes of Ben complaining about reboots."}
+prophecy:
+  - host: Matt
+    prediction: Reboots are going to get old really fast.
+    veracity: true
+    comments: There will be entire episodes of Ben complaining about reboots.
 
 last_listen: 2018-01-24
 recommendation: essential-timeloop

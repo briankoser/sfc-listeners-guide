@@ -37,7 +37,7 @@ notable_moments:
 odd_opening: 
 firsts:
   - 
-prophecy: 
+prophecy:
   - host:
     prediction: 
     veracity: true
@@ -49,12 +49,12 @@ take_that:
 celebrity_invites: 
   - 
 celebrity_promo: 
+spoilers: 
+  - <i class="work-title"></i>
 
 last_listen: 
 recommendation: essential yes no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
-spoilers: 
-  - <i class="work-title"></i>
 archivist_note: 
 ---
 # Opening

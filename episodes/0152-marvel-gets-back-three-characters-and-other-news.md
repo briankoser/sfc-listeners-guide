@@ -18,9 +18,13 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "Iron Man will die in <i class='work-title'>Avengers 2</i>", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "Iron Man will not die in <i class='work-title'>Avengers 2</i> but it will be his send-off", "veracity": false, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "Iron Man will die in <i class='work-title'>Avengers 2</i>"
+    veracity: false
+  - host: Ben
+    prediction: "Iron Man will not die in <i class='work-title'>Avengers 2</i> but it will be his send-off"
+    veracity: false
 future_episodes:
   - Marriage Advice for Matt 
   - Top 100 Sci-Fi TV Shows
@@ -32,6 +36,8 @@ take_that:
   - Bronies
 celebrity_invites: 
   - Joss Whedon
+spoilers: 
+  - "<i class='work-title'>Avengers 2: Age of Ultron</i>"
 
 last_listen: 2018-12-08
 recommendation: no

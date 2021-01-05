@@ -24,10 +24,18 @@ firsts:
   - News episode with unique title
   - Matt bleeps Ben
   - Last News of the Day sound clip
-prophecy: 
-  - {"host": "Matt", "prediction": "Michael Caine will be in <i class='work-title'>Interstellar</i>", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Patriots will beat the 49ers in the Super Bowl.", "veracity": false, "comments": "Half right: Ravens beat the 49ers."}
-  - {"host": "Matt", "prediction": "<i class='work-title'>Guardians of the Galaxy</i> will have a <i class='work-title'>Star Wars</i> easter egg.", "veracity": true, "comments": "According to Kevin Feige, each MCU Phase 2 movie pays tribute to <i class='work-title'>Star Wars</i> by having a character lose an arm (like Anakin and Luke lost hands)."}
+prophecy:
+  - host: Matt
+    prediction: "Michael Caine will be in <i class='work-title'>Interstellar</i>"
+    veracity: true
+  - host: Ben
+    prediction: Patriots will beat the 49ers in the Super Bowl.
+    veracity: false
+    comments: Half right: Ravens beat the 49ers.
+  - host: Matt
+    prediction: "<i class='work-title'>Guardians of the Galaxy</i> will have a <i class='work-title'>Star Wars</i> easter egg."
+    veracity: true
+    comments: "According to Kevin Feige, each MCU Phase 2 movie pays tribute to <i class='work-title'>Star Wars</i> by having a character lose an arm (like Anakin and Luke lost hands)."
 future_episodes:
   - Top 5 Sci-Fi Geniuses Gone Bad
   - Bible Trivia podcast

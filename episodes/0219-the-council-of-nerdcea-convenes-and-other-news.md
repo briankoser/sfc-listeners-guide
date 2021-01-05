@@ -20,9 +20,14 @@ guests:
   - Jayce O'Neil 
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "Patriots win Super Bowl over 49ers by 1", "veracity": false, "comments": ""}
-  - {"host": "Matt", "prediction": "Seahawks win Super Bowl over Broncos by 3", "veracity": true, "comments": "Teams and result correct, although the score was 43-8"}
+prophecy:
+  - host: Ben
+    prediction: Patriots win Super Bowl over 49ers by 1
+    veracity: false
+  - host: Matt
+    prediction: Seahawks win Super Bowl over Broncos by 3
+    veracity: true
+    comments: Teams and result correct, although the score was 43-8
 
 last_listen: 2019-08-12
 recommendation: no

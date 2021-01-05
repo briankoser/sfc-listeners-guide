@@ -18,8 +18,11 @@ guests:
   - Wayne Henderson
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "The Packers will not go 3-0 in their next three games against the Eagles, Giants, and Vikings while Aaron Rodgers is out (as predicted by Wayne Henderson).", "veracity": true, "comments": "Per <a href='https://www.footballdb.com/teams/nfl/green-bay-packers/results/2013'>The Football Database</a>, the Packers went 0-2-1."}
+prophecy:
+  - host: Ben
+    prediction: The Packers will not go 3-0 in their next three games against the Eagles, Giants, and Vikings while Aaron Rodgers is out (as predicted by Wayne Henderson).
+    veracity: true
+    comments: "Per <a href='https://www.footballdb.com/teams/nfl/green-bay-packers/results/2013'>The Football Database</a>, the Packers went 0-2-1."
 
 last_listen: 2019-07-09
 recommendation: yes

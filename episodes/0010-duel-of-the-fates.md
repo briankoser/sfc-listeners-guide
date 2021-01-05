@@ -22,9 +22,11 @@ firsts:
   - Contest (The Secondhand Spectacular)
   - Wayne Henderson appearance
   - N. T. Wright mentioned
-  
-prophecy: 
-  - {"host": "Ben", "prediction": "Batman will die at the end of <i class='work-title'>The Dark Knight Rises</i>", "veracity": false, "comments": ""}
+
+prophecy:
+  - host: Ben
+    prediction: "Batman will die at the end of <i class='work-title'>The Dark Knight Rises</i>"
+    veracity: false
 future_episodes: 
   - End Times
   - <i class="work-title">The Lord of the Rings</i> expanded edition marathon

@@ -25,14 +25,34 @@ firsts:
   - Mention of Heroes (Ben has not yet seen it) 
   - Feedback from Colin from the UK
   - Audio feedback (from Scott Hertzog)
-prophecy: 
-  - {"host": "Ben", "prediction": "Unlikely that Daredevil will have a big screen comeback", "veracity": true, "comments": "Although he will have a Netflix series that both hosts will enjoy."}
-  - {"host": "Matt", "prediction": "DC and WB will continue to make Batman movies in the Nolan-verse", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "Nolan will continue as executive producer and make more movies in the Nolan-verse", "veracity": false, "comments": "Half correct: Nolan was the executive producer for <i class='work-title'>Batman v Superman</i> and <i class='work-title'>Justice League</i>"}
-  - {"host": "Ben", "prediction": "If <i class='work-title'>Thor</i>, <i class='work-title'>Captain America</i>, and <i class='work-title'>Green Lantern</i> get negative or lukewarm responses it will bring on another period of superhero fatigue.", "veracity": true, "comments": "<i class='work-title'>Thor</i> and <i class='work-title'>Captain America</i> got generally positive responses, but I will count this as true because it was true for Ben personally."}
-  - {"host": "Ben", "prediction": "The superhero genre has solid 4 or 5 years, then another major franchise will need to emerge.", "veracity": false, "comments": "As of 2018, Marvel is still the premier superhero franchise and has shown no signs of slowing down."}
-  - {"host": "Matt", "prediction": "Superheroes will not bring us through postmodernism; <i class='work-title'>Watchmen</i> is a good reflection of the culture.", "veracity": true, "comments": "Looks like this will be correct"}
-  - {"host": "Ben", "prediction": "Postmodernism will break down, due in part to superhero films", "veracity": false, "comments": "Has not happened yet, and Ben now wants no more superhero movies, so maybe was too optimistic."}
+prophecy:
+  - host: Ben
+    prediction: Unlikely that Daredevil will have a big screen comeback
+    veracity: true
+    comments: Although he will have a Netflix series that both hosts will enjoy.
+  - host: Matt
+    prediction: DC and WB will continue to make Batman movies in the Nolan-verse
+    veracity: false
+  - host: Ben
+    prediction: Nolan will continue as executive producer and make more movies in the Nolan-verse
+    veracity: false
+    comments: "Half correct: Nolan was the executive producer for <i class='work-title'>Batman v Superman</i> and <i class='work-title'>Justice League</i>"
+  - host: Ben
+    prediction: "If <i class='work-title'>Thor</i>, <i class='work-title'>Captain America</i>, and <i class='work-title'>Green Lantern</i> get negative or lukewarm responses it will bring on another period of superhero fatigue."
+    veracity: true
+    comments: "<i class='work-title'>Thor</i> and <i class='work-title'>Captain America</i> got generally positive responses, but I will count this as true because it was true for Ben personally."
+  - host: Ben
+    prediction: The superhero genre has solid 4 or 5 years, then another major franchise will need to emerge.
+    veracity: false
+    comments: As of 2018, Marvel is still the premier superhero franchise and has shown no signs of slowing down.
+  - host: Matt
+    prediction: "Superheroes will not bring us through postmodernism; <i class='work-title'>Watchmen</i> is a good reflection of the culture."
+    veracity: true
+    comments: Looks like this will be correct
+  - host: Ben
+    prediction: Postmodernism will break down, due in part to superhero films
+    veracity: false
+    comments: Has not happened yet, and Ben now wants no more superhero movies, so maybe was too optimistic.
 future_episodes: 
   - Talan Gwynn
   - Human cloning

@@ -20,10 +20,16 @@ notable_moments:
 firsts:
   - Appearance of Ryan Strelau
   - Appearance of Ben Avery
-prophecy: 
-  - {"host": "Ben", "prediction": "Joseph Gordon-Levitt will not be Batman in the Justice League movie", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "Joseph Gordon-Levitt will not be Batman in the Justice League movie", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "The next Batman movie will not be in the Nolan-verse, although it will have the same feel", "veracity": true, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: Joseph Gordon-Levitt will not be Batman in the Justice League movie
+    veracity: true
+  - host: Matt
+    prediction: Joseph Gordon-Levitt will not be Batman in the Justice League movie
+    veracity: true
+  - host: Matt
+    prediction: The next Batman movie will not be in the Nolan-verse, although it will have the same feel
+    veracity: true
 future_episodes: 
   - What's In The Batcave? 
   - Batman Live 

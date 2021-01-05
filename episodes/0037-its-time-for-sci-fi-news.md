@@ -21,10 +21,16 @@ notable_moments:
 firsts: 
   - Recorded in Ryan Strelau Studios
   - Didn't share news with each other ahead of time
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>The Amazing Spider-Man</i> is marketed as the untold story, will not be anything different (more like, 'the told story')", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Bane will break Batman's back in <i class='work-title'>The Dark Knight Rises</i>", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "In <i class='work-title'>The Dark Knight Rises</i>, Bane will break Batman's back soon after the events of <i class='work-title'>The Dark Knight</i>, then the movie will skip forward 8 years to when he is healed.", "veracity": false, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction:  "<i class='work-title'>The Amazing Spider-Man</i> is marketed as the untold story, will not be anything different (more like, 'the told story')"
+    veracity: true
+  - host: Ben
+    prediction: Bane will break Batman's back in <i class='work-title'>The Dark Knight Rises</i>
+    veracity: true
+  - host: Matt
+    prediction: "In <i class='work-title'>The Dark Knight Rises</i>, Bane will break Batman's back soon after the events of <i class='work-title'>The Dark Knight</i>, then the movie will skip forward 8 years to when he is healed."
+    veracity: false
 future_episodes: 
   - Listener Appreciation 
   - Listener Feedback

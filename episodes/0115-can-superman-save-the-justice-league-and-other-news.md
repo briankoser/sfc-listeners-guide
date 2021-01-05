@@ -20,11 +20,20 @@ hosts:
 notable_moments:
 firsts:
   - Video Remix 
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>Justice League</i> will not come out in 2015.", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "<i class='work-title'>Justice League</i> will not come out in 2015.", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "<i class='work-title'>Tomorrowland</i> is about Walt Disney", "veracity": false, "comments": "It was partly inspired by 'Walt Disney’s utopian vision'."}
-  - {"host": "Matt", "prediction": "<i class='work-title'>Tomorrowland</i> is not about Walt Disney", "veracity": true, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "<i class='work-title'>Justice League</i> will not come out in 2015."
+    veracity: true
+  - host: Ben
+    prediction: "<i class='work-title'>Justice League</i> will not come out in 2015."
+    veracity: true
+  - host: Ben
+    prediction: "<i class='work-title'>Tomorrowland</i> is about Walt Disney"
+    veracity: false
+    comments: "It was partly inspired by 'Walt Disney’s utopian vision'."
+  - host: Matt
+    prediction: "<i class='work-title'>Tomorrowland</i> is not about Walt Disney"
+    veracity: true
 future_episodes:
   - Video Games
 

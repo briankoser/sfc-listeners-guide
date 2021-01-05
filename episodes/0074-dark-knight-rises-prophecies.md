@@ -17,25 +17,67 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "Bane won't be quite as good as The Joker but there will be substantial internet debate about it.", "veracity": false, "comments": "I think The Joker is the clear favorite."}
-  - {"host": "Matt", "prediction": "Joseph Gordon-Levitt is Robin", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "The name 'Robin' will not be in the movie, it will only be hinted that Joseph Gordon-Levitt was a Robin-type character.", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "Catwoman will survive the movie", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Batman will die", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "Bane will die", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Commissioner Gordon will survive the movie", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Alfred will survive the movie", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Commissioner Gordon learns that Bruce Wayne is Batman", "veracity": true, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: Bane won't be quite as good as The Joker but there will be substantial internet debate about it.
+    veracity: false
+    comments: I think The Joker is the clear favorite.
+  - host: Matt
+    prediction: Joseph Gordon-Levitt is Robin
+    veracity: true
+  - host: Ben
+    prediction: The name 'Robin' will not be in the movie, it will only be hinted that Joseph Gordon-Levitt was a Robin-type character.
+    veracity: false
+  - host: Ben
+    prediction: Catwoman will survive the movie
+    veracity: true
+  - host: Ben
+    prediction: Batman will die
+    veracity: false
+  - host: Ben
+    prediction: Bane will die
+    veracity: true
+  - host: Ben
+    prediction: Commissioner Gordon will survive the movie
+    veracity: true
+  - host: Ben
+    prediction: Alfred will survive the movie
+    veracity: true
+  - host: Ben
+    prediction: Commissioner Gordon learns that Bruce Wayne is Batman
+    veracity: true
   - {"host": "Ben", "prediction": "Catwoman learns the Bruce Wayne is Batman", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "If Marion Cotillard is Talia, she learns that Bruce Wayne is Batman", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Liam Neeson is not still alive and will only appear in flashbacks.", "veracity": true, "comments": "I'll count as true, even though he also appeared as a hallucination."}
-  - {"host": "Matt", "prediction": "Liam Neeson is not still alive and will only appear in flashbacks.", "veracity": true, "comments": "I'll count as true, even though he also appeared as a hallucination."}
-  - {"host": "Ben", "prediction": "The Justice League movie will not happen", "veracity": false, "comments": "Did take 5 more years for it to be made and released in 2017"}
-  - {"host": "Matt", "prediction": "Justice League movie will spawn individual character movies", "veracity": undefined, "comments": "I believe DC is still planning Aquaman, Flash, and Cyborg spinoff movies, so this could happen."}
-  - {"host": "Matt", "prediction": "In the climactic scene, Batman goes against Bane to save someone and they both die.", "veracity": false, "comments": ""}
-  - {"host": "Matt", "prediction": "If Joseph Gordon-Levitt is Robin, he will not be Dick Grayson or any of the existing Robins.", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "At the end Batman will die or go to prison.", "veracity": false, "comments": ""}
+  - host: Ben
+    prediction: 
+    veracity: true
+  - host: Ben
+    prediction: If Marion Cotillard is Talia, she learns that Bruce Wayne is Batman
+    veracity: true
+  - host: Ben
+    prediction: Liam Neeson is not still alive and will only appear in flashbacks.
+    veracity: true
+    comments: I'll count as true, even though he also appeared as a hallucination.
+  - host: Matt
+    prediction: Liam Neeson is not still alive and will only appear in flashbacks.
+    veracity: true
+    comments: I'll count as true, even though he also appeared as a hallucination.
+  - host: Ben
+    prediction: The Justice League movie will not happen
+    veracity: false
+    comments: Did take 5 more years for it to be made and released in 2017
+  - host: Matt
+    prediction: The Justice League movie will spawn individual character movies
+    veracity: true
+    comments: Aquaman ended up being the only one.
+  - host: Matt
+    prediction: In the climactic scene, Batman goes against Bane to save someone and they both die.
+    veracity: false
+  - host: Matt
+    prediction: If Joseph Gordon-Levitt is Robin, he will not be Dick Grayson or any of the existing Robins.
+    veracity: true
+  - host: Ben
+    prediction: At the end Batman will die or go to prison.
+    veracity: false
 
 last_listen: 2018-06-09
 recommendation: yes

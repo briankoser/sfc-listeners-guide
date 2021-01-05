@@ -17,8 +17,11 @@ hosts:
   - Koby
 
 notable_moments:
-prophecy: 
-  - {"host": "Koby", "prediction": "Emma Swann from <i class='work-title'>Once Upon a Time</i> will turn out to be a fairy tale character", "veracity": false, "comments": "She did not have a fairy tale counterpart."}
+prophecy:
+  - host: Koby
+    prediction: "Emma Swann from <i class='work-title'>Once Upon a Time</i> will turn out to be a fairy tale character"
+    veracity: false
+    comments: She did not have a fairy tale counterpart.
 future_episodes: 
   - Dark Knight Rises predictions
   - Dark Knight on Trial time loop 

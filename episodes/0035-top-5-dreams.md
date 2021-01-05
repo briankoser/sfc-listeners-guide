@@ -22,8 +22,11 @@ notable_moments:
 firsts: 
   - Voicemail from Mike Poteet
   - Episode of Dream Month
-prophecy: 
-  - {"host": "Matt", "prediction": "The Sheriff on <i class='work-title'>Once Upon a Time</i> is the Big Bad Wolf.", "veracity": false, "comments": "He was The Huntsman from Snow White."}
+prophecy:
+  - host: Matt
+    prediction: "The Sheriff on <i class='work-title'>Once Upon a Time</i> is the Big Bad Wolf."
+    veracity: false
+    comments: He was The Huntsman from Snow White.
 future_episodes: 
   - Inception
   - Biblical dreams

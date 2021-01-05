@@ -22,9 +22,14 @@ firsts:
   - "<a href='http://scifidinerpodcast.com/'>SciFi Diner</a> mentioned"
   - "Readalong: The Stand"
   - Dark Knight News
-prophecy: 
-  - {"host": "Ben", "prediction": "I gotta believe if Nolan's putting Robin in the series, he has a really good way of doing it.", "veracity": true, "comments": "Don't remember if Ben liked the Robin reveal, but I think it worked."}
-  - {"host": "Matt", "prediction": "Robin will be the villain in <i class='work-title'>The Dark Knight Rises</i>", "veracity": false, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: I gotta believe if Nolan's putting Robin in the series, he has a really good way of doing it.
+    veracity: true
+    comments: Don't remember if Ben liked the Robin reveal, but I think it worked.
+  - host: Matt
+    prediction: Robin will be the villain in <i class='work-title'>The Dark Knight Rises</i>
+    veracity: false
 
 future_episodes: 
   - Watchmen

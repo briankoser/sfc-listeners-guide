@@ -25,8 +25,11 @@ firsts:
   - "\"It's a Trap!\" sound effect"
   - Host says Groundhog's Day (Matt)
   - Top 5 list
-prophecy: 
-  - {"host": "Ben", "prediction": "<i class='work-title'>V</i> just started its second season and will get cancelled soon", "veracity": true, "comments": "ABC cancelled it 4 months later"}
+prophecy:
+  - host: Ben
+    prediction: "<i class='work-title'>V</i> just started its second season and will get cancelled soon"
+    veracity: true
+    comments: ABC cancelled it 4 months later
 future_episodes: 
   - <i class="work-title">Twilight</i>
   - Clones

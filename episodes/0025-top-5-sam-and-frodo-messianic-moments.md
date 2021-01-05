@@ -23,8 +23,11 @@ odd_opening: Matt imitates Ben
 firsts: 
   - Matt re-listening to SFC episodes mentioned
 
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>Once Upon a Time</i> will be his favorite new show in 2011, not including <i class='work-title'>Game of Thrones</i> which was already out", "veracity": true, "comments": "Correct AFAIK, although if he ever watches <i class='work-title'>Person of Interest</i> I think he would prefer it."}
+prophecy:
+  - host: Matt
+    prediction: "<i class='work-title'>Once Upon a Time</i> will be his favorite new show in 2011, not including <i class='work-title'>Game of Thrones</i> which was already out"
+    veracity: true
+    comments: "Correct, although not sure if he ended up liking <i class='work-title'>Person of Interest</i> more."
 
 future_episodes: 
   - Harry Potter

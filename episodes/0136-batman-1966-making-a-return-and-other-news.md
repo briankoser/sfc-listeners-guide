@@ -21,11 +21,19 @@ hosts:
 notable_moments:
 firsts:
   -  Ben is Right
-prophecy: 
-  - {"host": "Matt", "prediction": "Godzilla will win the Battle Royale", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "Mal Reynolds will win the Battle Royale", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "Batman 1966 will be released on DVD in 2013", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "Batman 1966 will be released on DVD in 2014", "veracity": true, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: Godzilla will win the Battle Royale
+    veracity: false
+  - host: Ben
+    prediction: Mal Reynolds will win the Battle Royale
+    veracity: true
+  - host: Matt
+    prediction: Batman 1966 will be released on DVD in 2013
+    veracity: false
+  - host: Ben
+    prediction: Batman 1966 will be released on DVD in 2014
+    veracity: true
 future_episodes:
   - Tolkien-Lewis fictional collaboration
   - Parallel universes

@@ -16,9 +16,15 @@ hosts:
   - Ben
   - Matt
 
-prophecy: 
-  - {"host": "Ben", "prediction": "Rebuilt Wayne Manor will be in <i class='work-title'>The Dark Knight Rises</i>", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "I'm calling it here first: you're going to see the Penguin! You're going to see the Riddler! You're going to see the Scarecrow!", "veracity": false, "comments": "Well, 1/3 correct"}
+prophecy:
+  - host: Ben
+    prediction: "Rebuilt Wayne Manor will be in <i class='work-title'>The Dark Knight Rises</i>"
+    veracity: true
+  - host: Matt
+    prediction: "I'm calling it here first: you're going to see the Penguin! You're going to see the Riddler! You're going to see the Scarecrow!"
+    veracity: false
+    comments: Well, 1/3 correct
+
 future_episodes: 
   - <i class="work-title">Battlestar Galactica</i> rewatch
   - Top 5 Favorite Scenes (№ 20 or 25), Ben and Matt will reenact 

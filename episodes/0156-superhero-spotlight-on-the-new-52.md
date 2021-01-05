@@ -17,8 +17,11 @@ hosts:
   - Koby
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "Damian Wayne will stay dead at least 5 years", "veracity": false, "comments": "He was resurrected less than 2 years later"}
+prophecy:
+  - host: Matt
+    prediction: Damian Wayne will stay dead at least 5 years
+    veracity: false
+    comments: He was resurrected less than 2 years later
 
 last_listen: 2018-12-19
 recommendation: no

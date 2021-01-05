@@ -24,10 +24,18 @@ notable_moments:
   - Ben's idea for comic continuity
 firsts: 
   - Skype guest host
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>Green Lantern</i> sequel will not be made", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "<i class='work-title'>Fringe</i> will last at most 5 seasons", "veracity": true, "comments": "Fringe aired 5 seasons"}
-  - {"host": "Matt", "prediction": "TV shows will never go to short seasons", "veracity": false, "comments": "This actually started happening in 2011 (<a href='https://www.theringer.com/tv/2017/8/4/16094348/inefficiency-week-mourning-the-lost-long-tv-season'  class='link-obvious'>source</a>)"}
+prophecy:
+  - host: Matt
+    prediction: "<i class='work-title'>Green Lantern</i> sequel will not be made"
+    veracity: true
+  - host: Ben
+    prediction: "<i class='work-title'>Fringe</i> will last at most 5 seasons"
+    veracity: true
+    comments: Fringe aired 5 seasons
+  - host: Matt
+    prediction: TV shows will never go to short seasons
+    veracity: false
+    comments: "This actually started happening in 2011 (<a href='https://www.theringer.com/tv/2017/8/4/16094348/inefficiency-week-mourning-the-lost-long-tv-season' class='link-obvious'>source</a>)"
 
 future_episodes: 
   - <i class="work-title">Snakes on a Plane</i> review

@@ -19,7 +19,6 @@ hosts:
 notable_moments:
 firsts:
   -  Deep Space Transmission segment with Colin in the UK 
-prophecy: 
 future_episodes:
   - Doctor Who
   - Superhero Spotlight on Captain Planet

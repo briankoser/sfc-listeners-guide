@@ -17,9 +17,13 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "Mitt Romney will get the 2012 Republican Presidential Nomination", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "Newt Gingrich will get the 2012 Republican Presidential Nomination", "veracity": false, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: Mitt Romney will get the 2012 Republican Presidential Nomination
+    veracity: true
+  - host: Matt
+    prediction: Newt Gingrich will get the 2012 Republican Presidential Nomination
+    veracity: false
 future_episodes: 
   - Season 1 Highlight Reel 
   - Alan Moore

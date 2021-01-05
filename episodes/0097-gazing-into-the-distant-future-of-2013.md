@@ -16,9 +16,13 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "Benedict Cumberbatch is Khan in <i class='work-title'>Star Trek Into Darkness</i>", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Benedict Cumberbatch is not Khan in <i class='work-title'>Star Trek Into Darkness</i>", "veracity": false, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "Benedict Cumberbatch is Khan in <i class='work-title'>Star Trek Into Darkness</i>"
+    veracity: true
+  - host: Ben
+    prediction: "Benedict Cumberbatch is not Khan in <i class='work-title'>Star Trek Into Darkness</i>"
+    veracity: false
 future_episodes: 
   - Aquaman
   - The Flash

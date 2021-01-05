@@ -20,10 +20,17 @@ hosts:
   - Koby
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>The Dark Knight Rises</i> will be the best movie of the year.", "veracity": false, "comments": "Counted as false because Matt did not consider it to be the best of the year."}
-  - {"host": "Koby", "prediction": "No superhero film will win Oscar for Best Picture.", "veracity": undefined, "comments": "I really want to count <i class='work-title'>Birdman</i> as a superhero film, but I'll be fair and say this has not yet happened."}
-  - {"host": "Matt", "prediction": "Wolverine will be in an Avengers movie in his lifetime, but not in <i class='work-title'>Avengers 2</i>", "veracity": undefined, "comments": "Was not in <i class='work-title'>Avengers: Age of Ultron</i>, and if Disney's acquisition of Fox goes through, it's only a matter of time."}
+prophecy:
+  - host: Matt
+    prediction: "<i class='work-title'>The Dark Knight Rises</i> will be the best movie of the year."
+    veracity: false
+    comments: False because Matt did not consider it to be the best of the year.
+  - host: Koby
+    prediction: No superhero film will win Oscar for Best Picture.
+    comments: "I really want to count <i class='work-title'>Birdman</i> as a superhero film, but I'll be fair and say this has not yet happened."
+  - host: Matt
+    prediction: "Wolverine will be in an Avengers movie in his lifetime, but not in <i class='work-title'>Avengers 2</i>"
+    comments: "Was not in <i class='work-title'>Avengers: Age of Ultron</i>, and if Disney's acquisition of Fox goes through, it's only a matter of time."
 
 last_listen: 2018-06-08
 recommendation: no

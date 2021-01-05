@@ -18,17 +18,17 @@ hosts:
   - Matt
 
 notable_moments: 
-prophecy: 
+prophecy:
   - host: Matt
     prediction: Owen Wilson will be the orange crayon in <i class="work-title">The Hero of Color City</i>
     veracity: false
     comments: He played Ricky the Dragon
   - host: Ben
-    prediction: Owen Wilso will be the green crayon in <i class="work-title">The Hero of Color City</i>
+    prediction: Owen Wilson will be the green crayon in <i class="work-title">The Hero of Color City</i>
     veracity: false
     comments: He played Ricky the Dragon
   - host: Matt
-    prediction: Green crayon won't talk
+    prediction: Green Crayon won't talk
     veracity: undefined
     comments: I care enough to write this down but not enough to check
 future_episodes:

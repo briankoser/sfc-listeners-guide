@@ -17,8 +17,10 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "<i class='work-title'>The Hobbit</i> movie will call them orcs instead of goblins for consistency with <i class='work-title'>The Lord of the Rings</i> movies.", "veracity": false, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: "<i class='work-title'>The Hobbit</i> movie will call them orcs instead of goblins for consistency with <i class='work-title'>The Lord of the Rings</i> movies."
+    veracity: false
 future_episodes: 
   - Alan Moore
 

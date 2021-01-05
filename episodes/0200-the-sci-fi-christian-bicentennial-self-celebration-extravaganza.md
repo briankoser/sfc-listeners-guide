@@ -17,9 +17,12 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "They will still be podcasting in 2060", "veracity": undefined, "comments": ""}
-  - {"host": "Matt", "prediction": "We'll have self-driving cars by 2060", "veracity": undefined, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: Podcasts will still exist in 2060
+  - host: Matt
+    prediction: We'll have self-driving cars by 2060
+    comments: I would guess we'll have fully-autonomous cars available to consumers by 2040, so 2060 seems likely.
 celebrity_promo: 
   - Damon Lindelof
   - Carlton Cuse

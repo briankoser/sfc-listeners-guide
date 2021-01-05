@@ -16,10 +16,18 @@ hosts:
   - Daniel
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "Sequel to <i class='work-title'>The Amazing Spider-Man</i> will be called 'The Spectacular Spider-Man'", "veracity": false, "comments": "It was called <i class='work-title'>The Amazing Spider-Man 2</i>."}
-  - {"host": "Daniel", "prediction": "He will like this summer's films in the following order: <i class='work-title'>The Dark Knight Rises</i>, <i class='work-title'>The Avengers</i>, <i class='work-title'>John Carter</i>, <i class='work-title'>The Amazing Spider-Man</i>.", "veracity": true, "comments": "As far as I can tell, this is correct."}
-  - {"host": "Matt", "prediction": "Dr. Rajit Ratha will be in the <i class='work-title'>The Amazing Spider-Man</i> sequel.", "veracity": false, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "Sequel to <i class='work-title'>The Amazing Spider-Man</i> will be called 'The Spectacular Spider-Man'"
+    veracity: false
+    comments: "It was called <i class='work-title'>The Amazing Spider-Man 2</i>."
+  - host: Daniel
+    prediction: "He will like this summer's films in the following order: <i class='work-title'>The Dark Knight Rises</i>, <i class='work-title'>The Avengers</i>, <i class='work-title'>John Carter</i>, <i class='work-title'>The Amazing Spider-Man</i>."
+    veracity: true
+    comments: As far as I can tell, this is correct.
+  - host: Matt
+    prediction: "Dr. Rajit Ratha will be in the <i class='work-title'>The Amazing Spider-Man</i> sequel."
+    veracity: false
 
 last_listen: 2018-06-08
 recommendation: no

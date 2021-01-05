@@ -20,8 +20,10 @@ time_loop_forward: {"number": 201}
 
 firsts: 
   - Ryan Strelau mentioned
-prophecy: 
-  - {"host": "Ben", "prediction": "<i class='work-title'>The Dark Knight Rises</i> will not feature a Lazarus Pit", "veracity": true, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: "<i class='work-title'>The Dark Knight Rises</i> will not feature a Lazarus Pit"
+    veracity: true
 future_episodes: 
   - Alan Moore
   - Recommendations

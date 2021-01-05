@@ -22,9 +22,16 @@ hosts:
 
 notable_moments:
 odd_opening: Ben is laughing in the middle of the music because Matt forgot to start recording. 
-prophecy: 
+prophecy:
   - {"host": "Ben", "prediction": "<i class='work-title'>The Silver Chair</i> will be released in 2016", "veracity": false, "comments": "It's been in development hell for years. Netflix recently bought the rights to all seven books, so that's probably when we'll see this adaptation."}
   - {"host": "Matt", "prediction": "<i class='work-title'>The Silver Chair</i> will be released in 2016", "veracity": false, "comments": ""}
+  - host: Ben
+    prediction: "<i class='work-title'>The Silver Chair</i> will be released in 2016"
+    veracity: false
+    comments: It's been in development hell for years. Netflix recently bought the rights to all seven books, so that's probably when we'll see this adaptation.
+  - host: Matt
+    prediction: "<i class='work-title'>The Silver Chair</i> will be released in 2016"
+    veracity: false
 future_episodes:
   - Chronicles of Narnia film comparison
   - Granchise thoughts

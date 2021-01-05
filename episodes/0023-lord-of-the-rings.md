@@ -22,8 +22,10 @@ notable_moments:
 firsts: 
   - Matt corrects Ben on "Lindelhof"
   - Feedback from Blondeen (homeschooling mom of ten kids) 
-prophecy: 
-  - {"host": "Matt", "prediction": "There will be a sequel to <i class='work-title'>X-Men: First Class</i>", "veracity": true, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "There will be a sequel to <i class='work-title'>X-Men: First Class</i>"
+    veracity: true
 future_episodes: 
   - More <i class="work-title">The Lord of the Rings</i>
   - <i class="work-title">Blade Runner</i> live blog

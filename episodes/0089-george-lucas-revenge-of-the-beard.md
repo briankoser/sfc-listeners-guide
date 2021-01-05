@@ -17,17 +17,25 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "Carrie Fisher and Harrison Ford will not appear in Episodes VII-IX", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "A Skywalker child will appear in the new trilogy.", "veracity": true, "comments": "Kylo Ren is Leia's son"}
-  - {"host": "Matt", "prediction": "A Skywalker child will appear in the new trilogy.", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Disney will not release the Star Wars Holiday Special", "veracity": true, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: Carrie Fisher and Harrison Ford will not appear in Episodes VII-IX
+    veracity: false
+  - host: Ben
+    prediction: A Skywalker child will appear in the new trilogy.
+    veracity: true
+  - host: Matt
+    prediction: A Skywalker child will appear in the new trilogy.
+    veracity: true
+  - host: Ben
+    prediction: Disney will not release the Star Wars Holiday Special
+    veracity: true
 
 last_listen: 2018-07-02
 recommendation: yes
 recommendation_reason: A fun potpourri of Star Wars, Pope Michael, and Disney-bashing.
 spoilers: 
-- "<i class='work-title'>Star Wars: The Force Awakens</i>"
+- "<i class='work-title'>Star Wars</i> sequel trilogy"
 ---
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-89-george-lucas-revenge-of-the-beard/#t=1:51">1:51</a>

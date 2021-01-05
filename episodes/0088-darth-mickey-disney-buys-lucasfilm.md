@@ -16,24 +16,49 @@ hosts:
   - Daniel
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "The next Star Wars trilogy will be all new stories, not based on Extended Universe novels.", "veracity": true, "comments": ""}
-  - {"host": "Daniel", "prediction": "The next Star Wars trilogy will still involved the Skywalkers.", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "Han and Leia's child will appear in the new trilogy.", "veracity": true, "comments": ""}
-  - {"host": "Daniel", "prediction": "Luke's child will appear in the new trilogy.", "veracity": false, "comments": "Technically could still happen in Episode IX, but it looks unlikely."}
-  - {"host": "Daniel", "prediction": "Boba Fett movie will be release in 5-7 years.", "veracity": undefined, "comments": "I think it's in the works, but if it doesn't happen by the end of 2019, this will be false."}
-  - {"host": "Daniel", "prediction": "Lucasfilm will be branded separately within Disney, like Marvel.", "veracity": true, "comments": ""}
-  - {"host": "Daniel", "prediction": "Brad Bird will direct Star Wars Episode VII", "veracity": false, "comments": ""}
-  - {"host": "Daniel", "prediction": "Andrew Stanton will direct the <i class='work-title'>Finding Nemo</i> sequel.", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "Steven Spielberg will direct Star Wars.", "veracity": false, "comments": ""}
-  - {"host": "Daniel", "prediction": "Hollywood Studios will get a Star Wars Land.", "veracity": undefined, "comments": "It is planned for 2019."}
-  - {"host": "Matt", "prediction": "Disney will release the Star Wars Holiday Special in 2013.", "veracity": false, "comments": "Doubt this ever happens."}
+prophecy:
+  - host: Matt
+    prediction: The next Star Wars trilogy will be all new stories, not based on Extended Universe novels.
+    veracity: true
+  - host: Daniel
+    prediction: The next Star Wars trilogy will still involved the Skywalkers.
+    veracity: true
+  - host: Matt
+    prediction: Han and Leia's child will appear in the new trilogy.
+    veracity: true
+  - host: Daniel
+    prediction: Luke's child will appear in the new trilogy.
+    veracity: false
+  - host: Daniel
+    prediction: Boba Fett movie will be release in 5-7 years.
+    veracity: false
+    comments: TV show is happening in 2021, 9 years later.
+  - host: Daniel
+    prediction: Lucasfilm will be branded separately within Disney, like Marvel.
+    veracity: true
+  - host: Daniel
+    prediction: Brad Bird will direct Star Wars Episode VI
+    veracity: false
+  - host: Daniel
+    prediction: Andrew Stanton will direct the <i class='work-title'>Finding Nemo</i> sequel.
+    veracity: true
+  - host: Matt
+    prediction: Steven Spielberg will direct Star Wars.
+    veracity: false
+  - host: Daniel
+    prediction: Hollywood Studios will get a Star Wars Land.
+    veracity: true
+    comments: Opened in 2019
+  - host: Matt
+    prediction: Disney will release the Star Wars Holiday Special in 2013.
+    veracity: false
+    comments: No.
 
 last_listen: 2018-06-26
 recommendation: yes
 recommendation_reason: Interesting to hear the Disney fan, optimistic side of the Lucasfilm purchase.
 spoilers: 
-- "<i class='work-title'>Star Wars: The Force Awakens</i>"
+- "<i class='work-title'>Star Wars</i> sequel trilogy"
 ---
 Matt and Daniel are very excited about the acquisition. 
 

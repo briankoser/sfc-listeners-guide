@@ -17,8 +17,11 @@ hosts:
   - Ben
   - Matt
 
-prophecy: 
-  - {"host": "Ben", "prediction": "There's no way George Lucas is going to let someone else direct a <i class='work-title'>Star Wars</i> movie.", "veracity": false, "comments": "Lucas sold <i class='work-title'>Star Wars</i> to Disney a little over a year later."}
+prophecy:
+  - host: Ben
+    prediction: "There's no way George Lucas is going to let someone else direct a <i class='work-title'>Star Wars</i> movie."
+    veracity: false
+    comments: "Lucas sold <i class='work-title'>Star Wars</i> to Disney a little over a year later."
 future_episodes: 
   - Interview with Christopher Kubasik
   - <i class="work-title">Harry Potter</i> and Christianity

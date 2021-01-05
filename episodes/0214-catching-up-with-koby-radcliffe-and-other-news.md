@@ -22,9 +22,14 @@ sponsors:
   - Andrew
 
 notable_moments:
-prophecy: 
-  - {"host": "Koby", "prediction": "Ant-Man will appear in <i class='work-title'>Avengers 2</i>", "veracity": false, "comments": ""}
-  - {"host": "Matt", "prediction": "Ant-Man will not appear in <i class='work-title'>Avengers 2</i>", "veracity": true, "comments": "He did appear in <i class='work-title'>Captain America: Civil War</i>"}
+prophecy:
+  - host: Koby
+    prediction: "Ant-Man will appear in <i class='work-title'>Avengers 2</i>"
+    veracity: false
+  - host: Matt
+    prediction: "Ant-Man will not appear in <i class='work-title'>Avengers 2</i>"
+    veracity: true
+    comments: "He did appear in <i class='work-title'>Captain America: Civil War</i>"
 
 last_listen: 2019-08-01
 recommendation: no

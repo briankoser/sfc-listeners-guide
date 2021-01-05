@@ -19,8 +19,11 @@ hosts:
   - Koby
 
 notable_moments:
-prophecy: 
-  - {"host": "Koby", "prediction": "<i class='work-title'>Once Upon a Time</i> will not last five or six seasons.", "veracity": false, "comments": "It lasted seven seasons."}
+prophecy:
+  - host: Koby
+    prediction: "<i class='work-title'>Once Upon a Time</i> will not last five or six seasons."
+    veracity: false
+    comments: It lasted seven seasons.
 future_episodes: 
   - Birther conspiracy 
   - <i class="work-title">Once Upon a Time</i>

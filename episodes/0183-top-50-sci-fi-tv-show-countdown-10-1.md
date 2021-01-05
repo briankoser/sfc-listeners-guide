@@ -18,8 +18,10 @@ hosts:
 
 notable_moments:
 odd_opening: Both are a little loopy
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>Firefly</i> will return in his lifetime, same characters, not a reboot", "veracity": false, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "<i class='work-title'>Firefly</i> will return in his lifetime, same characters, not a reboot"
+    comments: Seems very unlikely
 future_episodes:
   - Buffy/Angel Retrospective 
   - LOST trivia challenge

@@ -23,9 +23,14 @@ guests:
   - Jayce O'Neil
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "There will not be a sequel to <i class='work-title'>Prometheus</i>", "veracity": false, "comments": ""}
-  - {"host": "Matt", "prediction": "There will be a sequel to <i class='work-title'>Prometheus</i>", "veracity": true, "comments": "<i class='work-title'>Alien: Covenant</i> in 2017"}
+prophecy:
+  - host: Ben
+    prediction: "There will not be a sequel to <i class='work-title'>Prometheus</i>"
+    veracity: false
+  - host: Matt
+    prediction: "There will be a sequel to <i class='work-title'>Prometheus</i>"
+    veracity: true
+    comments: "<i class='work-title'>Alien: Covenant</i> in 2017"
 future_episodes:
   - Aliens created humanity
 take_that:

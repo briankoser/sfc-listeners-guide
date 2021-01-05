@@ -24,11 +24,21 @@ firsts:
   - Stan Lee Quote of the Week
   - Post-credits Easter Egg scene
 
-prophecy: 
-  - {"host": "Matt", "prediction": "I will watch <i class='work-title'>The Shawshank Redemption</i> by the Comics Continuity episode", "veracity": false, "comments": "Comics Continuity was № 22. Matt promises again to watch the movie in № 36."}
-  - {"host": "Ben", "prediction": "Matt will not watch <i class='work-title'>The Shawshank Redemption</i> by the Comics Continuity episode", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "Joss Whedon will stick with Marvel and not direct a Batman movie", "veracity": true, "comments": "Barely true. Joss Whedon wrote the screenplay for <i class='work-title'>Justice League</i> in 2017, but did not direct."}
-  - {"host": "Matt", "prediction": "Joss Whedon will stick with Marvel and not direct a Batman movie", "veracity": true, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "I will watch <i class='work-title'>The Shawshank Redemption</i> by the Comics Continuity episode"
+    veracity: false
+    comments: Comics Continuity was № 22. Matt promises again to watch the movie in № 36.
+  - host: Ben
+    prediction: "Matt will not watch <i class='work-title'>The Shawshank Redemption</i> by the Comics Continuity episode"
+    veracity: true
+  - host: Ben
+    prediction: Joss Whedon will stick with Marvel and not direct a Batman movie
+    veracity: true
+    comments: "Barely true. Joss Whedon wrote the screenplay for <i class='work-title'>Justice League</i> in 2017, but did not direct."
+  - host: Matt
+    prediction: Joss Whedon will stick with Marvel and not direct a Batman movie
+    veracity: true
 
 future_episodes: 
   - Comic Continuity with Dave Johnson

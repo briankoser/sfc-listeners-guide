@@ -16,7 +16,7 @@ hosts:
   - Matt
 
 notable_moments: 
-prophecy: 
+prophecy:
   - host: Ben
     prediction: In <i class="work-title">Batman v Superman</i>, Batman will see Superman as a threat because of the rampant destruction he caused.
     veracity: true

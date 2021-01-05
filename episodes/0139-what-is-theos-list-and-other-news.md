@@ -21,9 +21,15 @@ hosts:
 notable_moments:
 firsts:
   -  Mario Underground theme for time travel sound clip
-prophecy: 
-  - {"host": "Ben", "prediction": "Matthew McConaughey will be the correct choice for <i class='work-title'>Interstellar</i>", "veracity": true, "comments": "It launched the McConaissance"}
-  - {"host": "Matt", "prediction": "Matthew McConaughey will not be the correct choice for <i class='work-title'>Interstellar</i>", "veracity": false, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: "Matthew McConaughey will be the correct choice for <i class='work-title'>Interstellar</i>"
+    veracity: true
+    comments: It launched the McConaissance
+  - host: Matt
+    prediction: "Matthew McConaughey will not be the correct choice for <i class='work-title'>Interstellar</i>"
+    veracity: false
+    comments: Objectively false
 future_episodes:
   - Top 5 Dumb Things We Liked As Kids
   - Behind the Scenes 

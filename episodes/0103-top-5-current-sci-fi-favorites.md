@@ -18,11 +18,20 @@ hosts:
 
 notable_moments:
 odd_opening: Matt talks with a deep voice
-prophecy: 
-  - {"host": "Koby", "prediction": "<i class='work-title'>Revolution</i> will not be canceled in two years", "veracity": false, "comments": "It was cancelled one year, four months later"}
-  - {"host": "Koby", "prediction": "Ant Man will be in an Avengers movie before his own movie", "veracity": false, "comments": ""}
-  - {"host": "Daniel", "prediction": "Luke Skywalker will appear in Episode VII", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "Luke will die in Episode VII", "veracity": false, "comments": ""}
+prophecy:
+  - host: Koby
+    prediction: "<i class='work-title'>Revolution</i> will not be canceled in two years"
+    veracity: false
+    comments: It was cancelled one year, four months later
+  - host: Koby
+    prediction: Ant-Man will be in an Avengers movie before his own movie
+    veracity: false
+  - host: Daniel
+    prediction: Luke Skywalker will appear in Episode VII
+    veracity: true
+  - host: Matt
+    prediction: Luke will die in Episode VII
+    veracity: false
 future_episodes:
   - The Twilight Zone
   - DC's New 52

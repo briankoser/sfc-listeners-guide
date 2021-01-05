@@ -23,10 +23,15 @@ guests:
 notable_moments:
 firsts: 
   - Ben's ponytail mentioned
-prophecy: 
-  - {"host": "Ben", "prediction": "<i class='work-title'>Fringe</i> will not add a third alternate universe", "veracity": true, "comments": "The villain tried to create a third alternate universe, but was unsuccessful"}
-  - {"host": "Ben", "prediction": "<i class='work-title'>Thor 2</i> will be terrible", "veracity": true, "comments": "At 66% on Rotten Tomatoes, it's currently the lowest-ranked Marvel movie)"}
-
+prophecy:
+  - host: Ben
+    prediction: "<i class='work-title'>Fringe</i> will not add a third alternate universe"
+    veracity: true
+    comments: The villain tried to create a third alternate universe, but was unsuccessful
+  - host: Ben
+    prediction: "<i class='work-title'>Thor 2</i> will be terrible"
+    veracity: true
+    comments: At 66% on Rotten Tomatoes, it's currently the lowest-ranked Marvel movie)
 future_episodes:
   - Video Games
 

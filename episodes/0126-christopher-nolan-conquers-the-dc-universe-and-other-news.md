@@ -19,10 +19,17 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "Iron Man will be a main character in <i class='work-title'>Guardians of the Galaxy</i>", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "Iron Man will not be a main character in <i class='work-title'>Guardians of the Galaxy</i>", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "Instead of a Justice League movie, DC will do a Batman-Superman movie next.", "veracity": true, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "Iron Man will be a main character in <i class='work-title'>Guardians of the Galaxy</i>"
+    veracity: false
+  - host: Ben
+    prediction: "Iron Man will not be a main character in <i class='work-title'>Guardians of the Galaxy</i>"
+    veracity: true
+  - host: Matt
+    prediction: Instead of a Justice League movie, DC will do a Batman-Superman movie next.
+    veracity: true
+    comments: I think this is my favorite in the history of the show. Listen to the clip for this one.
 future_episodes:
   - Revelation with Rick Lee James
 take_that:

@@ -19,9 +19,14 @@ guests:
   - BJ McElreath
 
 notable_moments: 
-prophecy: 
-  - {"host": "Koby", "prediction": "Black Widow will never get her own movie", "veracity": false, "comments": "Releasing in 2020"}
-  - {"host": "Matt", "prediction": "Black Widow will get her own movie", "veracity": true, "comments": "Releasing in 2020"}
+prophecy:
+  - host: Koby
+    prediction: Black Widow will never get her own movie
+    veracity: false
+    comments: Released in 2020
+  - host: Matt
+    prediction: Black Widow will get her own movie
+    veracity: true
 
 last_listen: 2019-10-01
 recommendation: no

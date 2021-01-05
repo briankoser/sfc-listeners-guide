@@ -18,9 +18,13 @@ hosts:
   - Matt
 
 notable_moments:
-prophecy: 
-  - {"host": "Ben", "prediction": "The current iteration of the Justice League movie will not happen.", "veracity": true, "comments": ""}
-  - {"host": "Matt", "prediction": "The current iteration of the Justice League movie will not happen.", "veracity": true, "comments": ""}
+prophecy:
+  - host: Ben
+    prediction: The current iteration of the Justice League movie will not happen.
+    veracity: true
+  - host: Matt
+    prediction: The current iteration of the Justice League movie will not happen.
+    veracity: true
 future_episodes:
   - Interview with the author of a book about the John Carter movie
   - End Times sequel

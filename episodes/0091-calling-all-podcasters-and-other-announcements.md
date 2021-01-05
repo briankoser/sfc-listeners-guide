@@ -17,8 +17,10 @@ hosts:
   - Koby
 
 notable_moments:
-prophecy: 
-  - {"host": "Koby", "prediction": "Strangers and Aliens will do something with James Bond in the next few days.", "veracity": false, "comments": ""}
+prophecy:
+  - host: Koby
+    prediction: Strangers and Aliens will do something with James Bond in the next few days.
+    veracity: false
 future_episodes: 
   - <i class="work-title">The Booth at the End</i> season 2
 celebrity_invites: 

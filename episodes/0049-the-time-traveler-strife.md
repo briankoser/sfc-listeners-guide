@@ -21,10 +21,13 @@ guests:
 notable_moments:
 firsts:
   - Post-outro episode title discussion
-prophecy: 
-  - {"host": "Matt", "prediction": "Time travel will be invented.", "veracity": undefined, "comments": ""}
-  - {"host": "Daniel", "prediction": "Time travel will not be invented.", "veracity": undefined, "comments": ""}
-  - {"host": "Koby", "prediction": "Time travel will not be invented.", "veracity": undefined, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: Time travel will be invented.
+  - host: Daniel
+    prediction: Time travel will not be invented.
+  - host: Koby
+    prediction: Time travel will not be invented.
 future_episodes: 
   - Skip Crust
   - Conspiracy episodes

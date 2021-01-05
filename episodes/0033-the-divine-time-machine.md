@@ -20,9 +20,14 @@ hosts:
 time_loop_forward: {"number": 369}
 
 notable_moments:
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>Doctor Strange</i> will be announced within the next year", "veracity": false, "comments": "Doctor Strange was announced in January 2013, 15 months after Matt's prediction."}
-  - {"host": "Ben", "prediction": "<i class='work-title'>Doctor Strange</i> will not be announced within the next year", "veracity": true, "comments": ""}
+prophecy:
+  - host: Matt
+    prediction: "<i class='work-title'>Doctor Strange</i> will be announced within the next year"
+    veracity: false
+    comments: Doctor Strange was announced in January 2013, 15 months after Matt's prediction.
+  - host: Ben
+    prediction: "<i class='work-title'>Doctor Strange</i> will not be announced within the next year"
+    veracity: true
 future_episodes: 
   - <i class="work-title">Super Mario Bros.</i> movie review
   - Time travel 

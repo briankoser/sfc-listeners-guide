@@ -24,10 +24,18 @@ firsts:
   - Mention of Half-Price Books
   - For It or Against It
   - Ben and Matt switch seats
-prophecy: 
-  - {"host": "Matt", "prediction": "<i class='work-title'>Super Clyde</i> with Rupert Grint will get a full first season", "veracity": false, "comments": ""}
-  - {"host": "Ben", "prediction": "<i class='work-title'>Super Clyde</i> with Rupert Grint will not get 6 episodes", "veracity": true, "comments": ""}
-  - {"host": "Ben", "prediction": "There will not be a Ewan MacGregor Obi-Wan prequel because Disney wants to distance itself from the prequels", "veracity": true, "comments": "Could still happen"} 
+prophecy:
+  - host: Matt
+    prediction: "<i class='work-title'>Super Clyde</i> with Rupert Grint will get a full first season"
+    veracity: false
+  - host: Ben
+    prediction: "<i class='work-title'>Super Clyde</i> with Rupert Grint will not get 6 episodes"
+    veracity: true
+    comments: It got no additional episodes
+  - host: Ben
+    prediction: There will not be a Ewan MacGregor Obi-Wan prequel because Disney wants to distance itself from the prequels.
+    veracity: false
+    comments: Coming 2021 (and will even feature Hayden Christensen)
 future_episodes:
   - Marriage Advice for Matt
   - Genesis 1
