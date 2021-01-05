@@ -23,7 +23,7 @@ prophecy:
   - host: Koby
     prediction: Black Widow will never get her own movie
     veracity: false
-    comments: Released in 2020
+    comments: Releasing in 2021
   - host: Matt
     prediction: Black Widow will get her own movie
     veracity: true

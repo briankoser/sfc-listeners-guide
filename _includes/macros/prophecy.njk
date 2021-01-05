@@ -8,7 +8,7 @@
     <div class="prediction">
         {{prophecy.prediction | safe}}
     </div>
-    <div class="veracity {{prophecy.veracity}}" title="{{prophecy.veracity | string | title}}">
+    <div class="veracity {{prophecy.veracity}}" title="{{prophecy.veracity or '' | string | title}}">
         {{prophecy.comments | safe}}
     </div>
 </div>

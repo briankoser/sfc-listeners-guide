@@ -31,7 +31,7 @@ prophecy:
   - host: Ben
     prediction: Patriots will beat the 49ers in the Super Bowl.
     veracity: false
-    comments: Half right: Ravens beat the 49ers.
+    comments: "Half right: Ravens beat the 49ers."
   - host: Matt
     prediction: "<i class='work-title'>Guardians of the Galaxy</i> will have a <i class='work-title'>Star Wars</i> easter egg."
     veracity: true
