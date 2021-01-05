@@ -15,7 +15,9 @@ series: clones
 hosts:
   - Ben
   - Matt
-time_loop_backward: [{"number": 9}, {"number": 14}]
+time_loop_backward: 
+  - number: 9
+  - number: 14
 
 notable_moments:
 

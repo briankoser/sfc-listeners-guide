@@ -15,7 +15,9 @@ series: state-of-the-superhero-movie
 hosts:
   - Ben
   - Matt
-time_loop_backward: [{"number": 6}, {"number": 29}]
+time_loop_backward: 
+  - number: 6
+  - number: 29
 
 notable_moments: 
 firsts:

@@ -17,7 +17,8 @@ hosts:
   - Matt
 guests:
   - 
-time_loop_backward: [{"number": 7}]
+time_loop_backward: 
+  - number: 7
 
 notable_moments:
 

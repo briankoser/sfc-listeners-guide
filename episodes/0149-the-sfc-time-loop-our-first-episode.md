@@ -15,7 +15,8 @@ series: recommendations
 hosts:
   - Ben
   - Matt
-time_loop_backward: [{"number": 1}]
+time_loop_backward: 
+  - number: 1
 
 notable_moments:
 

@@ -14,7 +14,8 @@ category: countdowns
 hosts:
   - Ben
   - Matt
-time_loop_backward: [{"number": 21}]
+time_loop_backward: 
+  - number: 21
 
 notable_moments:
 

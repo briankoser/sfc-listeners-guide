@@ -17,7 +17,8 @@ hosts:
   - Matt
 guests:
   - Koby
-time_loop_backward: [{"number": 12}]
+time_loop_backward: 
+  - number: 12
 
 notable_moments:
 

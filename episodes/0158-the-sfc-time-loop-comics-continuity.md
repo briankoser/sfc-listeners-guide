@@ -16,7 +16,8 @@ hosts:
   - Matt
 guests:
   - Dave Johnson
-time_loop_backward: [{"number": 22}]
+time_loop_backward: 
+  - number: 22
 
 notable_moments:
 

@@ -17,7 +17,8 @@ hosts:
 guests:
   - Skip Crust
   - Talan Gwynn
-time_loop_backward: [{"number": 18}]
+time_loop_backward: 
+  - number: 18
 
 notable_moments:
 
