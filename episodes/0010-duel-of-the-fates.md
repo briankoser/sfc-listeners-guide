@@ -15,7 +15,8 @@ category: review
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 379}
+time_loop_forward: 
+  - number: 379
 
 firsts: 
   - <i class="work-title">The Dark Knight Rises</i> countdown

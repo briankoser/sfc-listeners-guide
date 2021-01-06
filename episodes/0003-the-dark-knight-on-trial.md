@@ -16,7 +16,8 @@ category: philosophy
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 77}
+time_loop_forward: 
+  - number: 77
 
 notable_moments:
 firsts:

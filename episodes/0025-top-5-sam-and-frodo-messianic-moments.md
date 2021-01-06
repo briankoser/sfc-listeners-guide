@@ -16,7 +16,8 @@ category: countdowns
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 497}
+time_loop_forward: 
+  - number: 497
 
 notable_moments:
 odd_opening: Matt imitates Ben

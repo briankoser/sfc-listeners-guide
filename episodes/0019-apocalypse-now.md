@@ -16,7 +16,8 @@ category: theology
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 193}
+time_loop_forward: 
+  - number: 193
 
 notable_moments:
 firsts: 

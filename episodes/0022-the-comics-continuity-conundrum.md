@@ -18,7 +18,8 @@ hosts:
   - Matt
 guests:
   - Dave Johnson
-time_loop_forward: {"number": 158}
+time_loop_forward: 
+  - number: 158
 
 notable_moments:
   - Ben's idea for comic continuity

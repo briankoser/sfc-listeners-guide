@@ -16,7 +16,8 @@ category: literature
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 95}
+time_loop_forward: 
+  - number: 95
 
 notable_moments:
 firsts: 

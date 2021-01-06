@@ -18,7 +18,8 @@ hosts:
   - Matt
 guests:
   - Koby
-time_loop_forward: {"number": 178}
+time_loop_forward: 
+  - number: 178
 
 firsts: 
   - Guest host (Koby Radcliffe) <q class='ben inline'>Why did we let this guy be the first guest host?</q>

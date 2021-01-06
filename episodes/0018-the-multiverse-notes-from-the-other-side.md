@@ -18,7 +18,8 @@ hosts:
 guests:
   - Skip Crust
   - Talan Gwynn
-time_loop_forward: {"number": 138}
+time_loop_forward: 
+  - number: 138
 
 firsts: 
   - Not recorded in Rebel Underground Studios (Colorado)

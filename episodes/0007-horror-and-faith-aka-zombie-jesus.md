@@ -16,7 +16,8 @@ series: supernatural-creatures
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 227}
+time_loop_forward: 
+  - number: 227
 
 firsts: 
   - Voicemail feedback (Rick in Wisconsin)

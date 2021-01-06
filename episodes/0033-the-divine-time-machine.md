@@ -17,7 +17,8 @@ category: main-topic
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 369}
+time_loop_forward: 
+  - number: 369
 
 notable_moments:
 prophecy:

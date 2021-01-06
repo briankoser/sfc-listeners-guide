@@ -18,7 +18,8 @@ series: lost
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 288}
+time_loop_forward: 
+  - number: 288
 
 notable_moments:
 firsts: 

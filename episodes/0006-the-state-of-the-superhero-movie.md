@@ -16,7 +16,8 @@ series: state-of-the-superhero-movie
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 258}
+time_loop_forward: 
+  - number: 258
 
 firsts: 
   - Discussion of postmodernism

@@ -16,7 +16,8 @@ series: clones
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 87}
+time_loop_forward: 
+  - number: 87
 
 firsts: 
   - Hiatus (Ben went to Israel) 

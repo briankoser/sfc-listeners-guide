@@ -14,7 +14,8 @@ category: literature
 hosts:
   - Ben
   - Matt
-time_loop_backward: {"number": 23}
+time_loop_backward: 
+  - number: 23
 
 notable_moments:
 

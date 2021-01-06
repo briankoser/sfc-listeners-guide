@@ -17,7 +17,8 @@ hosts:
   - Matt
 guests:
   - C. K. Kubasik
-time_loop_forward: {"number": 46}
+time_loop_forward: 
+  - number: 46
 
 notable_moments:
 firsts: 

@@ -16,7 +16,8 @@ series: supernatural-creatures
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 201}
+time_loop_forward: 
+  - number: 201
 
 firsts: 
   - Ryan Strelau mentioned

@@ -16,7 +16,8 @@ category: countdowns
 hosts:
   - Ben
   - Matt
-time_loop_forward: {"number": 65}
+time_loop_forward: 
+  - number: 65
 
 future_episodes: 
   - <i class="work-title">Battlestar Galactica</i> (podcast and video) 
