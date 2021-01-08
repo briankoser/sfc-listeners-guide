@@ -159,7 +159,7 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
 </div>
 
 <div class="quote">
-  <q class="ben">There needs to be a sequel series to {% work "LOST" %} called {% work "Matt Anderson Lives Outside"" %}.</q>
+  <q class="ben">There needs to be a sequel series to {% work "LOST" %} called {% work "Matt Anderson Lives Outside" %}.</q>
 </div>
 
 <div class="quote">

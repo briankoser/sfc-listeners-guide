@@ -80,7 +80,7 @@ T-shirt slogan ideas
 - Damon Lindelhof: he's not as good as we thought
 - We are back
 
-Koby calls Matt to talk about {% workTitle "Survivor" %}. Matt puts him on the air to talk about the podcast. 
+Koby calls Matt to talk about {% work "Survivor" %}. Matt puts him on the air to talk about the podcast. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:03:46' %}
