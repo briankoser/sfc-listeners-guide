@@ -48,7 +48,7 @@ The Strangers and Aliens feud is still happening?
   <q data-name="Ben Avery">But if it look like a duck, and quacks like a duck, it just might be Sean Connery trying to sneak underwater wearing a duck hat.</q>
 </div>
 
-Matt is reading Brady's book, Alan and Aaron's book ({% workTitle "Flight of the Angels" %}), a random non-listener's book, and Dave's book. And Ken sent an email asking Matt to review his book.
+Matt is reading Brady's book, Alan and Aaron's book ({% work "Flight of the Angels" %}), a random non-listener's book, and Dave's book. And Ken sent an email asking Matt to review his book.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=37:04">37:04</a>
@@ -83,12 +83,12 @@ Koby thinks Black Panther's superpower is that he turns into a panther.
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=59:03">3:45</a>
   <q class="koby">You make a Black Panther movie, people are going to be like, 'What's that?'</q>
 </div>
-<q class="archivist inline">{% workTitle "Black Panther" %} was the fifth-biggest opening of all time, and brought in $1.3 billion worldwide to become the most lucrative comic book movie ever.</q>
+<q class="archivist inline">{% work "Black Panther" %} was the fifth-biggest opening of all time, and brought in $1.3 billion worldwide to become the most lucrative comic book movie ever.</q>
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=1:08:11">1:08:11</a>
-  <span class="quote-context is-size-6">The Reinis pitch {% workTitle "Flight of the Angels" %} to Matt.</span>
-  <q data-name="Allan Reini">If you like {% workTitle "Flight of the Angels" %}, our names are Allan and Aaron Reini, and it would be an honor to have it reviewed by The Sci-Fi Christian. If you don't like it, our names are Jerry Jenkins and Tim LaHaye, and we wrote {% workTitle "Left Behind" %}.</q>
+  <span class="quote-context is-size-6">The Reinis pitch {% work "Flight of the Angels" %} to Matt.</span>
+  <q data-name="Allan Reini">If you like {% work "Flight of the Angels" %}, our names are Allan and Aaron Reini, and it would be an honor to have it reviewed by The Sci-Fi Christian. If you don't like it, our names are Jerry Jenkins and Tim LaHaye, and we wrote {% work "Left Behind" %}.</q>
 </div>
 
 Matt's favorite Bible version is the ESV.

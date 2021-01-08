@@ -35,15 +35,15 @@ Ben went to C2E2 with Rick Lee James and Daniel Ford.
 
 
 # Main Topic
-Ben's proposed top news: Ridley Scott is developing {% workTitle "Pharaoh" %}, an Egypt Ancient Aliens show for HBO. 
+Ben's proposed top news: Ridley Scott is developing {% work "Pharaoh" %}, an Egypt Ancient Aliens show for HBO. 
 
 Bob Hoskins died of pneumonia. Ben didn't know you could die from pneumonia. 
 
-{% timeLink podcast_file_url, '11:39' %} Eulogy for Bob Hoskins, who played Mario Mario in {% workTitle "Super Mario Bros" %}
+{% timeLink podcast_file_url, '11:39' %} Eulogy for Bob Hoskins, who played Mario Mario in {% work "Super Mario Bros" %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '11:29' %}
-  <span class="quote-context is-size-6">Eulogy for Bob Hoskins, who played Mario Mario in {% workTitle "Super Mario Bros" %}</span>
+  <span class="quote-context is-size-6">Eulogy for Bob Hoskins, who played Mario Mario in {% work "Super Mario Bros" %}</span>
   <q class="ben">So, I'm sorry everyone. Mario is dead.</q>
   <q class="matt">Alright, next piece of news.</q>
   <q class="ben">That sucks.</q>
@@ -54,13 +54,13 @@ Bob Hoskins died of pneumonia. Ben didn't know you could die from pneumonia.
   <q class="matt">*sad trombone sound*</q>
 </div>
 
-Matt Damon is rumored to be playing Aquaman in {% workTitle "Justice League" %}. 
+Matt Damon is rumored to be playing Aquaman in {% work "Justice League" %}. 
 
 {% timeLink podcast_file_url, '17:33' %} Ben invents a Fake News Segment for satirical news
 
-Fake News: two Christian movies are getting sequels: {% workTitle "Heaven Is Real 2: So Is Hell" %} and {% workTitle "God's Not Dead 2: Neither Is Satan" %}
+Fake News: two Christian movies are getting sequels: {% work "Heaven Is Real 2: So Is Hell" %} and {% work "God's Not Dead 2: Neither Is Satan" %}
 
-What the Frodo: David Spade is developing {% workTitle "Joe Dirt 2" %}
+What the Frodo: David Spade is developing {% work "Joe Dirt 2" %}
 
 What the Frodo: Sony wants to create a live action Barbie movie franchise
 
@@ -68,7 +68,7 @@ Yahoo! is creating a streaming service.
 
 Matt is Right: Hugh Jackman says the next Wolverine movie will probably be his last 
 
-Take That, Science: Doctor claims watching {% workTitle "The Walking Dead" %} is hurting society
+Take That, Science: Doctor claims watching {% work "The Walking Dead" %} is hurting society
 
 <div class="quote">
   {% timeLink podcast_file_url, '30:36' %}

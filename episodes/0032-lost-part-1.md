@@ -56,14 +56,14 @@ archivist_note: 5 of Matt's favorite episodes are on my <a href="http://tto.kose
 
 <div class="quote">
   <span class="quote-context is-size-6">Ben continues reading through Matt's currently reading list on Goodreads.</span>
-  <q class="ben">{% workTitle "Don't Waste Your Life" %} by John Piper</q>
+  <q class="ben">{% work "Don't Waste Your Life" %} by John Piper</q>
   <q class="matt">Haven't read in at least five years.</q>
   <q class="ben">OK then, how are you possibly currently reading this?</q>
   <q class="matt">It's got a bookmark in it.</q>
 </div>
 
 
-Ben calls {% workTitle "The Radical Disciple" %} by John Stott "the book that killed The Life Report".
+Ben calls {% work "The Radical Disciple" %} by John Stott "the book that killed The Life Report".
 
 Final score: Matt is actually currently reading 2 of the 27 books on his list.
 
@@ -110,12 +110,12 @@ The first Locke episode hooked him.
   <q class="matt">Just like the Bible, I'm always picking up new things along the way.</q>
 </div>
 
-The {% workTitle "LOST" %} mystery that drives Matt crazy is Christian Shephard appearing off the island.
+The {% work "LOST" %} mystery that drives Matt crazy is Christian Shephard appearing off the island.
 
 <div class="quote">
-  <span class="quote-context is-size-6">They argue about if {% workTitle "LOST" %} is the best TV show ever.</span>
+  <span class="quote-context is-size-6">They argue about if {% work "LOST" %} is the best TV show ever.</span>
   <q class="matt">I honestly can't think of a show that I think is better.</q>
-  <q class="ben">OK, but you spent your life watching {% workTitle "Quantum Leap" %}.</q>
+  <q class="ben">OK, but you spent your life watching {% work "Quantum Leap" %}.</q>
 </div>
 
 <div class="quote">
@@ -128,7 +128,7 @@ The {% workTitle "LOST" %} mystery that drives Matt crazy is Christian Shephard 
 Matt thinks "whatever happened, happened" is the best rule for time travel stories.
        
 <div class="top-five">
-  <h2 class="has-text-centered">Top 16 {% workTitle "LOST" %} episodes (not in any particular order, except for 1-3)</h2>
+  <h2 class="has-text-centered">Top 16 {% work "LOST" %} episodes (not in any particular order, except for 1-3)</h2>
   <div class="columns">
     <div class="column matt">
       <h3>Matt</h3>

@@ -43,19 +43,19 @@ Brady enjoyed cruising on his honeymoon. Matt is considering cruising for his ho
 # Main Topic
 Matt asks Brady how many times he's been married (once). Ben wants to open every interview with that question.
 
-Matt and Brady talk about {% workTitle "LOST" %} until Ben cuts them off.
+Matt and Brady talk about {% work "LOST" %} until Ben cuts them off.
 
-Brady acted in <a href="https://www.imdb.com/title/tt0905576/">{% workTitle "Completing Kaden" %}</a> (credited as "Brady Lovesou"). He describes it as a Christian rip-off of {% workTitle "Boy Meets World" %}. 
+Brady acted in <a href="https://www.imdb.com/title/tt0905576/">{% work "Completing Kaden" %}</a> (credited as "Brady Lovesou"). He describes it as a Christian rip-off of {% work "Boy Meets World" %}. 
 
-<q class="archivist">Brady's <a href="https://oracleofbacon.org/">Bacon number</a> is 3: he also appeared in {% workTitle "Logan" %} with Aleh Neliubin, who was in {% workTitle "Safelight" %} with Juno Temple, who was in {% workTitle "Black Mass" %} with Kevin Bacon.</q>
+<q class="archivist">Brady's <a href="https://oracleofbacon.org/">Bacon number</a> is 3: he also appeared in {% work "Logan" %} with Aleh Neliubin, who was in {% work "Safelight" %} with Juno Temple, who was in {% work "Black Mass" %} with Kevin Bacon.</q>
 
-His book, {% workTitle "Duncan Ross Book One: The Follies of Haven Island" %}, is a {% workTitle "Pilgrim's Progress" %}-esque allegory.
+His book, {% work "Duncan Ross Book One: The Follies of Haven Island" %}, is a {% work "Pilgrim's Progress" %}-esque allegory.
 
 Ben asks if Brady wrote the allegory to be specifically Reformed Baptist. Brady says he tried to focus on beliefs broadly accepted between Christian denominations. 
 
 Ben clarifies the Catholic view on grace versus works for salvation: grace initiates salvation, then we must work to retain it.
 
-Brady was heavily influenced by Campbell's {% workTitle "Hero of a Thousand Faces" %}.
+Brady was heavily influenced by Campbell's {% work "Hero of a Thousand Faces" %}.
 
 <div class="quote">
   {% timeLink podcast_file_url, '57:11' %}
@@ -82,7 +82,7 @@ Brady was heavily influenced by Campbell's {% workTitle "Hero of a Thousand Face
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:07:11' %}
-  <q class="ben">Because if there ever was a book written for me, it's {% workTitle "Middle Earth and Pipe Smoking" %}.</q>
+  <q class="ben">Because if there ever was a book written for me, it's {% work "Middle Earth and Pipe Smoking" %}.</q>
 </div>
 
 <div class="quote">

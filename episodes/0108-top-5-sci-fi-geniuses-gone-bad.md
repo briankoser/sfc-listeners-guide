@@ -34,7 +34,7 @@ Ben remembers that they used to gift autographed copies of their show notes from
 
 Mike Poteet came up with a contest: describe in 75 words or fewer the novel Tolkien and Lewis could have co-wrote.
 
-The prize is an autographed copy of a {% workTitle "The Lord of the Rings" %}-themed devotional. 
+The prize is an autographed copy of a {% work "The Lord of the Rings" %}-themed devotional. 
 
 Matt's latest fundraising scheme: for $15 he will record an audio description of a Geek Grab Bag of the donor's choice. 
 
@@ -81,9 +81,9 @@ Matt's latest fundraising scheme: for $15 he will record an audio description of
   </div>
 </div>
 
-Matt's love for {% workTitle "Reign of Fire" %} comes up again.
+Matt's love for {% work "Reign of Fire" %} comes up again.
 
-Ben thinks {% workTitle "Temple of Doom" %} is worse than {% workTitle "Kingdom of the Crystal Skull" %} (for now).
+Ben thinks {% work "Temple of Doom" %} is worse than {% work "Kingdom of the Crystal Skull" %} (for now).
 
 <div class="quote">
   {% timeLink podcast_file_url, '29:42' %}
@@ -104,7 +104,7 @@ Ben thinks {% workTitle "Temple of Doom" %} is worse than {% workTitle "Kingdom 
 
 <div class="quote">
   {% timeLink podcast_file_url, '33:43' %}
-  <q class="matt">But like this new one {% workTitle "AE" %} with Will Smith and, and Son…Smith—</q>
+  <q class="matt">But like this new one {% work "AE" %} with Will Smith and, and Son…Smith—</q>
   <q class="ben">'Son Smith'?! That's awesome!</q>
   <q class="matt">I'll see that.</q>
   <q class="ben">He will forever be known on The Sci-Fi Christian as 'Son Smith'.</q>
@@ -132,7 +132,7 @@ Ben thinks {% workTitle "Temple of Doom" %} is worse than {% workTitle "Kingdom 
 
 <q class="archivist inline">After the second and third Hobbit movies, I'm guessing Peter Jackson is on both hosts "Gone bad" lists.</q>
 
-Matt and Ben's first idea for a podcast was a Books of {% workTitle "LOST" %} podcast. 
+Matt and Ben's first idea for a podcast was a Books of {% work "LOST" %} podcast. 
 
 <div class="top-five">
   <h2 class="has-text-centered">Sci-Fi Comebacks</h2>

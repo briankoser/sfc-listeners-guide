@@ -53,10 +53,10 @@ More making fun of Stan Lee
   <q class="matt">We're Christians; we can talk about the Bible! I think it's allowed!</q>
 </div>
 
-There's a Candy Land movie coming that is designed as "{% workTitle "The Lord of the Rings" %} with candy"
+There's a Candy Land movie coming that is designed as "{% work "The Lord of the Rings" %} with candy"
 
 <div class="quote">
-  <span class="quote-context is-size-6">On plans to attend {% workTitle "The Dark Knight Rises" %}</span>
+  <span class="quote-context is-size-6">On plans to attend {% work "The Dark Knight Rises" %}</span>
   <q class="ben">Are you going to come to the second viewing with us the next day?</q>
   <q data-name="Skip Crust">I will be wearing my Batman nipple suit.</q>
 </div>
@@ -69,7 +69,7 @@ There's a Candy Land movie coming that is designed as "{% workTitle "The Lord of
 
 
 # Main Topic
-Ben asks the listeners to keep track of the books Matt says he will read eventually. First one is {% workTitle "The Hunger Games" %}. <q class="archivist inline">Matt listened to the audio book the month after this episode was recorded.</q>
+Ben asks the listeners to keep track of the books Matt says he will read eventually. First one is {% work "The Hunger Games" %}. <q class="archivist inline">Matt listened to the audio book the month after this episode was recorded.</q>
 
 Is there an alternate universe where Jesus didn't die for us? Where Eve fell but Adam didn't? Where God never created humans? 
 

@@ -49,7 +49,7 @@ Tim Pencratz and Ben Kirkwald have joined Ben for the Game of Thrones season 3 v
 
 <div class="quote">
   {% timeLink podcast_file_url, '7:39' %}
-  <span class="quote-context is-size-6">Matt mentions that the {% workTitle "Game of Thrones" %} reviews open with smoking and drinking</span>
+  <span class="quote-context is-size-6">Matt mentions that the {% work "Game of Thrones" %} reviews open with smoking and drinking</span>
   <q class="matt">It's for a certain audience.</q>
   <q class="ben">Yeah. Yeah.</q>
   <q class="matt">Like I don't think I would watch your videos.</q>
@@ -78,7 +78,7 @@ Game of Thrones showrunners announced they will not wait for George RR Martin. B
 
 Ben would rather the show pass the books than delay the show and risk ending up with an incomplete show. 
 
-Ben thinks they won't pass the books until after {% workTitle "Winds of Winter" %}.
+Ben thinks they won't pass the books until after {% work "Winds of Winter" %}.
 
 Stan Lee Quote of the Week: Stan rants about birthdays
 
@@ -94,7 +94,7 @@ Take That, Science: Texas has a Star Trek scratch off lottery ticket. To promote
 
 Fasting in Catholicism is one meal, two snacks per day.
 
-Christopher Nolan is considering Matthew McConaughey for the lead in {% workTitle "Interstellar" %}. Matt is against it. Ben says "In Nolan We Trust" and says he'll play Ben is Right after the movie comes out.
+Christopher Nolan is considering Matthew McConaughey for the lead in {% work "Interstellar" %}. Matt is against it. Ben says "In Nolan We Trust" and says he'll play Ben is Right after the movie comes out.
 
 
 

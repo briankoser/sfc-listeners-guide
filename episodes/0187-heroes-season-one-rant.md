@@ -78,7 +78,7 @@ Liked:
 1. Claude
 
 <div class="top-five">
-  <h2 class="has-text-centered">Top 5 {% workTitle "Heroes" %} episodes</h2>
+  <h2 class="has-text-centered">Top 5 {% work "Heroes" %} episodes</h2>
   <div class="columns">
     <div class="column ben">
       <h3>Ben</h3>
@@ -108,4 +108,4 @@ Liked:
 
 Ben doesn't like that the show pushes ultra-individualism over responsibility, eg Peter walking out on his nursing job.
 
-{% timeLink podcast_file_url, '1:09:00' %} Ben decided not to pursue a doctorate because it would have been too hard on his family. {% workTitle "Heroes" %} helped him make the decision.
+{% timeLink podcast_file_url, '1:09:00' %} Ben decided not to pursue a doctorate because it would have been too hard on his family. {% work "Heroes" %} helped him make the decision.

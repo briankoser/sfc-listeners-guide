@@ -42,7 +42,7 @@ What the Frodo: a naked haunted house is opening
 
 Ben says he will start enunciating the H in Lindelhof
 
-Ben is Right: Joss Whedon said {% workTitle "The Avengers" %} was a great time but not a great movie
+Ben is Right: Joss Whedon said {% work "The Avengers" %} was a great time but not a great movie
 
 <div class="quote">
   {% timeLink podcast_file_url, '28:15' %}
@@ -57,7 +57,7 @@ Matt is Right: Joss Whedon would be better off making original material
 
 Stan Lee Quote of the Week: Marvel is making the Inhumans a big deal
 
-Koby started The Green Screen podcast about DC movies and TV shows like {% workTitle "Arrow" %}.
+Koby started The Green Screen podcast about DC movies and TV shows like {% work "Arrow" %}.
 
 Take That, Science: a man's stomach brewed beer when he ate bread
 
@@ -71,7 +71,7 @@ Take That, Science: a man's stomach brewed beer when he ate bread
 
 {% timeLink podcast_file_url, '48:10' %} #FreeJossWhedon
 
-{% timeLink podcast_file_url, '51:36' %} A studio is making a Dante's {% workTitle "Inferno" %} movie...based on the video game <q class="archivist inline">By far the angriest I've heard Ben</q> 
+{% timeLink podcast_file_url, '51:36' %} A studio is making a Dante's {% work "Inferno" %} movie...based on the video game <q class="archivist inline">By far the angriest I've heard Ben</q> 
 
 
 

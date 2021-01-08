@@ -49,7 +49,7 @@ JK Rowling says the Harry Potter prequel movies will be fantastic.
 
 <div class="quote">
   {% timeLink podcast_file_url, '20:05' %}
-  <span class="quote-context is-size-6">The creators of {% workTitle "Star Trek Into Darkness" %} said they almost left Khan out of the movie.</span>
+  <span class="quote-context is-size-6">The creators of {% work "Star Trek Into Darkness" %} said they almost left Khan out of the movie.</span>
   <q class="ben">That right there tells you why Khan didn't really work in this movie.</q>
   <q class="matt">Because it could have been anybody.</q>
   <q class="ben">It could have been anybody. It's akin to—for example, by way of contrast, if Christopher—</q>
@@ -68,7 +68,7 @@ JK Rowling says the Harry Potter prequel movies will be fantastic.
 
 {% timeLink podcast_file_url, '22:29' %} A look at the Clifford mythology
 
-Ben is Right: {% workTitle "Pirates of the Caribbean 5" %} is delayed because {% workTitle "The Lone Ranger" %} bombed
+Ben is Right: {% work "Pirates of the Caribbean 5" %} is delayed because {% work "The Lone Ranger" %} bombed
 
 What the Frodo: someone secretly filmed a horror movie at Disney Land. 
 

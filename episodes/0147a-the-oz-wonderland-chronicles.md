@@ -36,6 +36,6 @@ Podcast about comic books
 
 
 # Main Topic
-Ben Avery's favorite series that he's written is {% workTitle "TimeFlyz" %}. He also did {% workTitle "Armor Quest" %}, which he describes as Ephesians 6 through the lens of {% workTitle "The Lord of the Rings" %}.
+Ben Avery's favorite series that he's written is {% work "TimeFlyz" %}. He also did {% work "Armor Quest" %}, which he describes as Ephesians 6 through the lens of {% work "The Lord of the Rings" %}.
 
-He is now working on {% workTitle "The Oz-Wonderland Chronicles" %}.
+He is now working on {% work "The Oz-Wonderland Chronicles" %}.

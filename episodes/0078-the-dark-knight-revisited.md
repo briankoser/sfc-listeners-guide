@@ -42,7 +42,7 @@ Ben Avery leaves feedback. He hosts a podcast called [Strangers and Aliens](http
 
 Matt accuses Strangers and Aliens of ripping them off: they talk about science fiction and Christianity, they have a "Ben", and they end their podcast by saying "signing off".
 
-Ben cheated on Matt by appearing on the [Voices in My Head](https://rickleejames.podbean.com/) podcast with Rick Lee James. Matt starts playing the outro music since Ben already recorded a {% workTitle "The Dark Knight Rises" %} episode.
+Ben cheated on Matt by appearing on the [Voices in My Head](https://rickleejames.podbean.com/) podcast with Rick Lee James. Matt starts playing the outro music since Ben already recorded a {% work "The Dark Knight Rises" %} episode.
 
 Matt demands Dr. Jase of Strangers and Aliens be called "Matt" for one episode.
 
@@ -57,7 +57,7 @@ Bane is the opposite of Batman, even to the extent of having a mask that's the r
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=30:31">30:31</a>
-  <span class="quote-context is-size-6">Ben Affleck has just been asked to direct {% workTitle "Justice League" %}</span>
+  <span class="quote-context is-size-6">Ben Affleck has just been asked to direct {% work "Justice League" %}</span>
   <q class="ben">Maybe he'll play Batman and Matt Damon will be Robin.</q>
 </div>
 

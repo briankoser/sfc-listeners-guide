@@ -34,7 +34,7 @@ recommendation_reason: Great discussion about the moral implications of an immor
   <q class="matt">Stop! Stop!</q>
 </div>
 
-Ben watched half of the first episode of {% workTitle "Star Trek: The Next Generation" %} and hated it. <q class="archivist inline">If you're interested in checking the show out, don't start with season 1. Check out {% workTitle "Measure of a Man" %} or {% workTitle "Darmok" %}.</q>
+Ben watched half of the first episode of {% work "Star Trek: The Next Generation" %} and hated it. <q class="archivist inline">If you're interested in checking the show out, don't start with season 1. Check out {% work "Measure of a Man" %} or {% work "Darmok" %}.</q>
 
 The Sci-Fi Feud...continues?
 

@@ -45,7 +45,7 @@ recommendation_reason: The completion of the first hiatus countdown.
 
 <div class="quote">
   {% timeLink podcast_file_url, '26:47' %}
-  <span class="quote-context is-size-6">Matt says {% workTitle "Stargate SG-1" %} belongs in the top 10</span>
+  <span class="quote-context is-size-6">Matt says {% work "Stargate SG-1" %} belongs in the top 10</span>
   <q class="matt">I'm basically just saying, it was popular enough, it must have been good to a certain extent, right?</q>
   <q class="ben">Yeah, well, I mean, popular doesn't equal good.</q>
   <q class="matt">Shows don't typically run for ten years, though, unless there's some goodness in them.</q>

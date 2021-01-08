@@ -59,6 +59,6 @@ Matt's least favorite of the trilogy
 
 Matt says it's not best movie of year
 
-Batman lost fear in {% workTitle "Batman Begins" %}, brought back fear in {% workTitle "The Dark Knight Rises" %}.
+Batman lost fear in {% work "Batman Begins" %}, brought back fear in {% work "The Dark Knight Rises" %}.
 
 We find out "Roger"'s last name is "Flamingo".

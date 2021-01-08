@@ -32,7 +32,7 @@ recommendation_reason: Much more in-depth than the first parallel universe episo
 # Opening
 Matt has an email from Ben from July 2010 that he's just now replying to. 
 
-Ben is about to release a video review of a {% workTitle "Game of Thrones" %} beer.
+Ben is about to release a video review of a {% work "Game of Thrones" %} beer.
 
 Ben is promoting moderation and enjoyment for alcohol and smoking. 
 
@@ -83,7 +83,7 @@ A parallel universe where there never was a fall?
 
 How do you reconcile God's immutability (unchangeability) with the incarnation? 
 
-Ben says Augustine's {% workTitle "De Trinitate" %} and Aquinas's {% workTitle "Summa Theologica" %} argue that nothing in God changed with the incarnation. Nothing was added to the divine part of God.
+Ben says Augustine's {% work "De Trinitate" %} and Aquinas's {% work "Summa Theologica" %} argue that nothing in God changed with the incarnation. Nothing was added to the divine part of God.
 
 <div class="quote">
   {% timeLink podcast_file_url, '49:01' %}

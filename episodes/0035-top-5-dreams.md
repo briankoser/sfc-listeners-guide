@@ -85,7 +85,7 @@ Matt's deja vu theory: we're all a little bit psychic and we dream about the fut
         <li>Ben hung out with Neil Gaiman, who declared them lifelong friends. Then he was a good demon that was trapped in an angelic cocoon by an angel bounty hunter.
         <li>Ben went to New York with Matt and got accused of murder.
         <li>Ben was the king of an alternate universe but got trapped in our universe. He got a construction job but was fired because he didn't know anything about construction.
-        <li>Ben directed a children's play of {% workTitle "Game of Thrones" %}.
+        <li>Ben directed a children's play of {% work "Game of Thrones" %}.
       </ol>
     </div>
     <div class="column matt">
@@ -137,6 +137,6 @@ Matt "Toolbelt" Anderson was his nickname during their missions trip.
 # Feedback
 Mike Poteet had a dream where he travelled to random suburban houses in the TARDIS with Mitt Romney, eating their food and using their bathrooms.
 
-Matt watches for the {% workTitle "LOST" %} numbers in real life.
+Matt watches for the {% work "LOST" %} numbers in real life.
 
 Skip Crust refers to himself as "#2 fan of the podcast" <q class="archivist inline"><a href="/episodes/0004-tolkien-vs-lewis-the-ultimate-smackdown/" class="link-obvious">Dave Johnson is #1</a></q>

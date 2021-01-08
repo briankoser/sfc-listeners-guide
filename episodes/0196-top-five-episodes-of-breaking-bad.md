@@ -124,8 +124,8 @@ Walt's chemistry lectures describe himself.
   </div>
 </div>
 
-Is {% workTitle "Breaking Bad" %} the greatest TV show of all time? Matt said yes. Ben said no with a lot of hesitation. It is a little better than {% workTitle "Mad Men" %}, but not quite as good as {% workTitle "The Wire" %}.
+Is {% work "Breaking Bad" %} the greatest TV show of all time? Matt said yes. Ben said no with a lot of hesitation. It is a little better than {% work "Mad Men" %}, but not quite as good as {% work "The Wire" %}.
 
-{% timeLink podcast_file_url, '1:16:55' %} Sci-Fi Christian Story Time: Ben almost missed the {% workTitle "Breaking Bad" %} finale
+{% timeLink podcast_file_url, '1:16:55' %} Sci-Fi Christian Story Time: Ben almost missed the {% work "Breaking Bad" %} finale
 
 Ben will tell the story about the worst vacation of his life in installments.

@@ -28,13 +28,13 @@ last_listen: 2018-12-27
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Ben's one geek request for {% workTitle "Star Wars VII" %}: cast Simon Pegg. <q class="archivist inline">Wishes do come true</q>
+Ben's one geek request for {% work "Star Wars VII" %}: cast Simon Pegg. <q class="archivist inline">Wishes do come true</q>
 
 Take That, Science: a man found an issue of Action Comics #1 in his attic drywall
 
-What the Frodo: The original screenwriters for {% workTitle "Super Mario Bros" %} are releasing a sequel in a webcomic
+What the Frodo: The original screenwriters for {% work "Super Mario Bros" %} are releasing a sequel in a webcomic
 
-Matt says {% workTitle "Guardians of the Galaxy" %} is sounding even worse: John C. Reilly was cast. 
+Matt says {% work "Guardians of the Galaxy" %} is sounding even worse: John C. Reilly was cast. 
 
 Christopher Lee is releasing his second heavy metal album, titled "Charlemagne: the Omens of Death".
 
@@ -44,13 +44,13 @@ Ben wants to pause Stan Lee Quote of the Week and start a Christopher Lee Fact o
 
 New segment for bad news: Aw Shire <q class="archivist inline">I believe this was a one and done</q>
 
-Aw Shire: AMC wants {% workTitle "The Walking Dead" %} to run indefinitely
+Aw Shire: AMC wants {% work "The Walking Dead" %} to run indefinitely
 
 Ben wants to hire Damon Lindelof to script doctor the podcast. 
 
 {% timeLink podcast_file_url, '23:57' %} Ben tickles Matt while trying to give him a neck rub
 
-Matt Smith is returning for {% workTitle "Doctor Who" %} Series 8
+Matt Smith is returning for {% work "Doctor Who" %} Series 8
 
 <div class="quote">
   {% timeLink podcast_file_url, '26:20' %}
@@ -77,7 +77,7 @@ They try to do a Marvel news segment sound clip.
   <q class="matt">Yeah! Schools! Who needs 'em!</q>
 </div>
 
-Ben says he hasn't read {% workTitle "50 Shades of Grey" %} or any other fan fic. <q class="archivist inline">Other than {% workTitle "Ready Player One" %}.</q>
+Ben says he hasn't read {% work "50 Shades of Grey" %} or any other fan fic. <q class="archivist inline">Other than {% work "Ready Player One" %}.</q>
 
 
 

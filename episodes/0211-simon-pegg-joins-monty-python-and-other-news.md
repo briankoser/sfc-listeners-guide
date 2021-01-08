@@ -41,8 +41,8 @@ Take That, Science: Amazon announced plans for delivery by drone
   <q class="ben">Well yeah, but that's the point, is that there isn't.</q>
   <q class="matt">Well, we don't know that, we haven't seen the movie.</q>
   <q class="ben">Sure we know that, because that's what the modus operandi is.</q>
-  <q class="matt">We don't know for a fact cuz we haven't seen {% workTitle "The Amazing Spider-Man 2" %}.</q>
-  <q class="ben">Well, I'm not going to know it for a fact then, cuz I'm not going to see {% workTitle "The Amazing Spider-Man 2" %}.</q>
+  <q class="matt">We don't know for a fact cuz we haven't seen {% work "The Amazing Spider-Man 2" %}.</q>
+  <q class="ben">Well, I'm not going to know it for a fact then, cuz I'm not going to see {% work "The Amazing Spider-Man 2" %}.</q>
 </div>
 
 Paul Walker died 

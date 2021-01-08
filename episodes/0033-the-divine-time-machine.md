@@ -49,10 +49,10 @@ Second Stan Lee Quote of the Week by William Shatner
 
 
 # News
-Evangeline Lilly is worried that fans will hate her in {% workTitle "The Hobbit" %} because her character is not in the book. 
+Evangeline Lilly is worried that fans will hate her in {% work "The Hobbit" %} because her character is not in the book. 
 
 <div class="quote">
-  <q class="ben">Evangeline Lilly: The Jar Jar Binks of {% workTitle "The Hobbit" %}.</q>
+  <q class="ben">Evangeline Lilly: The Jar Jar Binks of {% work "The Hobbit" %}.</q>
   <q class="archivist inline">Nope, that'll be Alfred</q>
 </div>
 

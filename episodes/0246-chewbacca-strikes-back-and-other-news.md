@@ -25,6 +25,6 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 
 What the Frodo: Marvel has movies planned through 2028
 
-What the Frodo: The voice of Leonardo was cast four months before {% workTitle "Teenage Mutant Ninja Turtles" %} will be released
+What the Frodo: The voice of Leonardo was cast four months before {% work "Teenage Mutant Ninja Turtles" %} will be released
 
-What the Frodo: {% workTitle "Jem and the Holograms" %} filming starts in three weeks
+What the Frodo: {% work "Jem and the Holograms" %} filming starts in three weeks

@@ -33,7 +33,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 archivist_note: Koby, Koby, Koby. 
 ---
-Matt has a prayer request: pray that Joss Whedon's directors cut of {% workTitle "The Avengers" %} will be released at the end of the summer. 
+Matt has a prayer request: pray that Joss Whedon's directors cut of {% work "The Avengers" %} will be released at the end of the summer. 
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/06/episode-67-its-time-for-sci-fi-news/#t=20:51">20:51</a>

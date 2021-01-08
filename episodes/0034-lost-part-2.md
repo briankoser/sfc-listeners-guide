@@ -85,7 +85,7 @@ Is torture ever OK?
 </div> 
       
 <div class="top-five">
-  <h2 class="has-text-centered">Top 6 {% workTitle "LOST" %} Seasons</h2>
+  <h2 class="has-text-centered">Top 6 {% work "LOST" %} Seasons</h2>
   <div class="columns">
     <div class="column matt">
       <h3>Matt</h3>
@@ -115,4 +115,4 @@ Is torture ever OK?
 
 
 # Feedback
-Dave Johnson reads some of Mark Twain's review of {% workTitle "The Deerslayer" %}. <q class="archivist">Twain's review is hilarious and well-worth reading, but it's not applicable to {% workTitle "LOST" %}.</q>
+Dave Johnson reads some of Mark Twain's review of {% work "The Deerslayer" %}. <q class="archivist">Twain's review is hilarious and well-worth reading, but it's not applicable to {% work "LOST" %}.</q>

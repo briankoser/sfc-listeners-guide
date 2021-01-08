@@ -75,7 +75,7 @@ The Sci-Fi Feud Continues, and one of Ben's favorite sound clips is introduced:
   <q data-name="Scott Herzog">If Ben De Bono jumped off a cliff, would Matt Anderson follow? I would say yes.</q>
 </div>
 
-Ben doesn't like fan fiction <q class="archivist inline">Although he will like {% workTitle "Ready Player One" %} the next year</q>
+Ben doesn't like fan fiction <q class="archivist inline">Although he will like {% work "Ready Player One" %} the next year</q>
 
 Ben and Matt are going to write their Noah fan fiction on the website
 - Noah vs Jonah (Jonah comes riding into town on a whale) 
@@ -121,4 +121,4 @@ If they get enough support, they will quit their jobs and go full time, releasin
 
 
 # Closing
-{% workTitle "Firefly" %} theme singalong <q class="archivist inline">Best singalong in SFC history</q>
+{% work "Firefly" %} theme singalong <q class="archivist inline">Best singalong in SFC history</q>

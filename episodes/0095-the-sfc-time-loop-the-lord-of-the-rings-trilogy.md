@@ -27,7 +27,7 @@ recommendation_reason: Great discussion of themes from <i class="work-title">The
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-what-im-tolkien-about/#t=3:50">3:50</a> Ben finds out that rings bounce (but not The One Ring!) 
 
-{% workTitle "The Lord of the Rings" %} is a tragedy.
+{% work "The Lord of the Rings" %} is a tragedy.
 
 No one can resist the Ring: we are all powerless before evil. 
 

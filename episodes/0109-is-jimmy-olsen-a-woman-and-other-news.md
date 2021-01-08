@@ -42,8 +42,8 @@ Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but h
 <div class="quote">
   {% timeLink podcast_file_url, '14:26' %}
   <q class="matt">Well, you know Jim Carrey is going to be in a superhero movie.</q>
-  <q class="ben">{% workTitle "The Mask" %}?</q>
-  <q class="matt">No, he's in {% workTitle "Kick-[bleep] 2" %}.</q>
+  <q class="ben">{% work "The Mask" %}?</q>
+  <q class="matt">No, he's in {% work "Kick-[bleep] 2" %}.</q>
   <q class="ben">Oooh. Wait, shouldn't you get bleeped for that, since you bleeped me for talking about Alexander Dumas last time?</q>
   <q class="matt">This is the first swear word you've probably ever heard me say.</q>
   <q class="ben">Yeah! Well, I think you said, 'what the [bleep]' earlier.</q>
@@ -95,7 +95,7 @@ Marvel is considering making a Heroes for Hire movie. Ben makes a stand: no more
 
 Ben calls Ron Howard the most average director in the world.
 
-Zeus, Ra, and Buddha team up for {% workTitle "Godyssey" %}, a comic-book movie. The comic book also featured Jesus.
+Zeus, Ra, and Buddha team up for {% work "Godyssey" %}, a comic-book movie. The comic book also featured Jesus.
 
 Matt observes that NBC has started doing short TV seasons like Ben called for two years ago. 
 
@@ -106,7 +106,7 @@ Take That, Science: scientists hid an object in space and time, creating a tempo
   <q class="ben">Take that, listeners!</q>
 </div>
 
-Take That, Science: a {% workTitle "Back to the Future" %} fan made a DeLorean hovercraft.
+Take That, Science: a {% work "Back to the Future" %} fan made a DeLorean hovercraft.
 
 Take That, Science: scientists think they found signs of life on Mars.
 

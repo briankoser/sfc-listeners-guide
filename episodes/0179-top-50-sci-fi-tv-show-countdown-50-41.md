@@ -41,7 +41,7 @@ Notable runners up:
 
 <div class="quote">
   {% timeLink podcast_file_url, '11:35' %}
-  <q class="matt">{% workTitle "Revolution" %}. Only had one season, and I stopped watching it.</q>
+  <q class="matt">{% work "Revolution" %}. Only had one season, and I stopped watching it.</q>
   <q class="ben">Yeah, bad show.</q>
   <q class="matt">If I stopped watching it, people...</q>
 </div>
@@ -59,7 +59,7 @@ Notable runners up:
 <li value="41">Stargate Universe
 </ol>
 
-Ben compares {% workTitle "Daybreak" %} to 'Groundhog's Day' starring Geena Davis.
+Ben compares {% work "Daybreak" %} to 'Groundhog's Day' starring Geena Davis.
 
 {% timeLink podcast_file_url, '37:38' %} In 5th grade, Matt pretended to be part of the X-Men. Ben says the mutant name he chose is the worst superhero name he's ever heard.
 

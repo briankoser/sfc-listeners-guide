@@ -56,7 +56,7 @@ Ben transferred to a Catholic college before even considering converting.
   <q class="matt">You didn't put those on Goodreads. You were keeping them under wraps.</q>
   <q class="ben">Apostolic fathers is there. I have several books that I've read in the last several months that aren't on Goodreads.</q>
   <q class="matt">Oh my gosh, you were being sneaky!</q>
-  <q class="ben">Well I thought that a book called {% workTitle "How to Go From a Good Evangelical to a Practicing Catholic in 95 Steps" %} might not--</q>
+  <q class="ben">Well I thought that a book called {% work "How to Go From a Good Evangelical to a Practicing Catholic in 95 Steps" %} might not--</q>
   <q class="matt">Might raise some red flags?</q>
   <q class="ben">--might raise some eyebrows.</q>
 </div>

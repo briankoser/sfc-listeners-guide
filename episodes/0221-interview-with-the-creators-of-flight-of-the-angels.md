@@ -52,7 +52,7 @@ Tom Bombadil represents the ideal pacifist. Tolkien used him to represent the id
   <q class="ben">So, influences on the series: Star Wars, Star Trek, Blade Runner...Ben De Bono.</q>
 </div>
 
-Ben is Right: Future {% workTitle "Flight of the Angels" %} books will include non-evangelical Christians
+Ben is Right: Future {% work "Flight of the Angels" %} books will include non-evangelical Christians
 
 October 2014 is the Reini's release date goal for the sequel. <q class="archivist inline">They released it only five years later, not bad</q>
 

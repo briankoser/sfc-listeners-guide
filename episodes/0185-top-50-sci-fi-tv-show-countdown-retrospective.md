@@ -34,14 +34,14 @@ Contest: send in an SFC catchphrase to print on a t-shirt
 
 # Main Topic
 
-During the countdown yhey accidentally skipped 36, {% workTitle "The Hitchhiker's Guide to the Galaxy" %}.
+During the countdown yhey accidentally skipped 36, {% work "The Hitchhiker's Guide to the Galaxy" %}.
 
 Matt wants to get to episode 1000 in 2016.
 
 Matt says he'll never time loop an episode twice, unless the guest dies.
 
-Ben started {% workTitle "Babylon 5" %} and {% workTitle "Heroes" %}. 
+Ben started {% work "Babylon 5" %} and {% work "Heroes" %}. 
 
-Ben rants about the first half of {% workTitle "Heroes" %} season 1.
+Ben rants about the first half of {% work "Heroes" %} season 1.
 
 Future countdown votes will be weighted.

@@ -32,20 +32,20 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 <div class="quote">
   {% timeLink podcast_file_url, '6:06' %}
-  <span class="quote-context is-size-6">The writers' strike hurt {% workTitle "Heroes" %}</span>
-  <q class="ben">That's kinda what killed {% workTitle "LOST" %} too, wasn't it.</q>
-  <q class="matt">No, nothing killed {% workTitle "LOST" %}.</q>
+  <span class="quote-context is-size-6">The writers' strike hurt {% work "Heroes" %}</span>
+  <q class="ben">That's kinda what killed {% work "LOST" %} too, wasn't it.</q>
+  <q class="matt">No, nothing killed {% work "LOST" %}.</q>
   <q class="ben">Oh, that's right.</q>
-  <q class="matt">{% workTitle "LOST" %} died of its own merit. Happily.</q>
+  <q class="matt">{% work "LOST" %} died of its own merit. Happily.</q>
 </div>
 
-{% workTitle "Man of Steel" %} is going to be Matt and Ben's first double date. 
+{% work "Man of Steel" %} is going to be Matt and Ben's first double date. 
 
-Ben is nervous again about {% workTitle "The Hobbit" %}.
+Ben is nervous again about {% work "The Hobbit" %}.
 
 Stan Lee Quote of the Week/What the Frodo: Stan Lee is launching a cologne that smells like him
 
-What the Frodo: WB is developing {% workTitle "Afterlife with Archie" %}, a zombie movie starring the Archie comics characters.
+What the Frodo: WB is developing {% work "Afterlife with Archie" %}, a zombie movie starring the Archie comics characters.
 
 Ben and Matt try a third time to come up with a video game news segment intro clip.
 
@@ -70,6 +70,6 @@ Ben is Right: Sony decided it's a bad idea to require Playstations to be always 
 
 Everyone now knows that the NSA has all of Verizon's phone records. 
 
-Take That, Science: theatre hires "gunmen" to promote {% workTitle "Iron Man 3" %}.
+Take That, Science: theatre hires "gunmen" to promote {% work "Iron Man 3" %}.
 
 Iain M. Banks died.

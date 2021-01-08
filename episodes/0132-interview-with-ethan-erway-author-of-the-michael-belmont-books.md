@@ -31,9 +31,9 @@ Ethan is OK with his children reading Harry Potter since the witches are mytholo
 
 He was previously an Air Force nuclear missile technician, is now a safety technician.
 
-His {% workTitle "Bleeding Star Chronicles" %} are YA sci-fi novellas that he imagined as "{% workTitle "Firefly" %} meets {% workTitle "LOST" %}".
+His {% work "Bleeding Star Chronicles" %} are YA sci-fi novellas that he imagined as "{% work "Firefly" %} meets {% work "LOST" %}".
 
-His {% workTitle "Michael Belmont" %} novels are YA fantasy he describes as "{% workTitle "Indiana Jones" %} meets {% workTitle "Harry Potter" %}". 
+His {% work "Michael Belmont" %} novels are YA fantasy he describes as "{% work "Indiana Jones" %} meets {% work "Harry Potter" %}". 
 
 It's a planned seven book series. Two are out now, one is coming at the end of the year. <q class="archivist inline">Only three books were ever released.</q>
 

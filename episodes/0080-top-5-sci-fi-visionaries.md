@@ -38,7 +38,7 @@ Visionaries vs Creators
 
 Joss Whedon did great things, but not things never before seen.
 
-The Wachowski Brothers blew minds with {% workTitle "The Matrix" %}, but their other work has been low quality.
+The Wachowski Brothers blew minds with {% work "The Matrix" %}, but their other work has been low quality.
 
 Great creators will always have top quality. Great visionaries may not. 
 
@@ -71,7 +71,7 @@ More examples:
   <q class="ben">You got it!</q>
 </div>
 
-Ben is worried about {% workTitle "The Hobbit" %} becoming a trilogy <q class="ben inline">It could be a big mess.</q> 
+Ben is worried about {% work "The Hobbit" %} becoming a trilogy <q class="ben inline">It could be a big mess.</q> 
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/09/episode-80-top-5-sci-fi-visionaries/#t=12:52">12:52</a>

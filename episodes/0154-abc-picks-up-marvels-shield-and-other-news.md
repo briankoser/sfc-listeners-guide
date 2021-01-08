@@ -45,7 +45,7 @@ Robin in the UK won the pipe smoking contest.
 4. Elves
 5. Briar
 
-Robin picked 5 episodes of {% workTitle "Deep Space 9" %} for Ben to watch: "Emissary", "Way of the Warrior", "The Visitor", "The Ascent", and "In the Pale Moonlight". 
+Robin picked 5 episodes of {% work "Deep Space 9" %} for Ben to watch: "Emissary", "Way of the Warrior", "The Visitor", "The Ascent", and "In the Pale Moonlight". 
 
 Ben starts another contest, same rules, same prize.
 
@@ -62,17 +62,17 @@ Ben starts another contest, same rules, same prize.
 # News 
 Koby debuted on Strangers and Aliens episode 67.
 
-{% workTitle "Marvel's Agents of S.H.I.E.L.D." %} isn't out yet but Koby said it's already his favorite show. 
+{% work "Marvel's Agents of S.H.I.E.L.D." %} isn't out yet but Koby said it's already his favorite show. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '11:35' %}
   <span class="quote-context is-size-6">Ben says Koby has recently been eloquent and logical.</span>
-  <q class="ben">He's making all these very compelling, intellectually-honest, coherent thoughts, and I don't know what to do with this. And then he puts up the {% workTitle "S.H.I.E.L.D." %} trailer and says, 'It's my favorite show!', even though it doesn't debut for four months. And I wrote, 'There's the Koby we all know and love'. It's good to have you back, little buddy!</q>
+  <q class="ben">He's making all these very compelling, intellectually-honest, coherent thoughts, and I don't know what to do with this. And then he puts up the {% work "S.H.I.E.L.D." %} trailer and says, 'It's my favorite show!', even though it doesn't debut for four months. And I wrote, 'There's the Koby we all know and love'. It's good to have you back, little buddy!</q>
 </div>
 
 {% timeLink podcast_file_url, '12:27' %} Ben introduces a new segment: What the Frodo. Matt loses it.
 
-What the Frodo: {% workTitle "24" %} is returning
+What the Frodo: {% work "24" %} is returning
 
 New segment: Video Game News
 
@@ -91,7 +91,7 @@ Stan Lee Quote of the Week: Stan wants an Academy Award for best cameos
 
 <div class="quote">
   {% timeLink podcast_file_url, '40:18' %}
-  <q class="ben">How many {% workTitle "Iron Man 3" %}s is it going to take for you to stop being in favor of more Marvel movies?</q>
+  <q class="ben">How many {% work "Iron Man 3" %}s is it going to take for you to stop being in favor of more Marvel movies?</q>
   <q class="matt">I don't know. I'm not sure how many.</q>
   <q class="ben">OK, well I just want to keep that as an open question.</q>
   <q class="matt">How about this then? We'll keep that open: we'll see what movie finally turns me.</q>
@@ -112,11 +112,11 @@ Take That, Science: boob armor is dangerous
 
 Ben is going to Disney in September and knows he will hate it. <q class="archivist inline">Oh boy</q>
 
-They're filming {% workTitle "Avatar 2" %} and {% workTitle "Avatar 3" %} back-to-back starting in 2014.
+They're filming {% work "Avatar 2" %} and {% work "Avatar 3" %} back-to-back starting in 2014.
 
 Ben got his second Master's degree in two years. 
 
-Ben thinks Ben Kingsley will make a comeback from {% workTitle "Iron Man 3" %} in {% workTitle "Ender's Game" %}.
+Ben thinks Ben Kingsley will make a comeback from {% work "Iron Man 3" %} in {% work "Ender's Game" %}.
 
 
 
@@ -130,4 +130,4 @@ Ben hates ellipses.
 # Closing
 Daniel leaves a voicemail. 
 
-Ben and Matt want to watch {% workTitle "Marvel's Agents of S.H.I.E.L.D." %} with Daniel and do weekly video reviews.
+Ben and Matt want to watch {% work "Marvel's Agents of S.H.I.E.L.D." %} with Daniel and do weekly video reviews.

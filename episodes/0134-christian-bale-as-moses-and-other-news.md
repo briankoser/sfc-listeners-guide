@@ -54,7 +54,7 @@ Skip Crust started listening again.
 
 <div class="quote">
   {% timeLink podcast_file_url, '15:59' %}
-  <span class="quote-context is-size-6">On {% workTitle "Jurassic Park" %}</span>
+  <span class="quote-context is-size-6">On {% work "Jurassic Park" %}</span>
   <q class="matt">They should have let the kids get eaten. Teach children a lesson.</q>
 </div>
 
@@ -99,9 +99,9 @@ Take That, Science: babies conceived in space might not develop normally.
   <q class="matt">OK.</q>
   <q class="ben">So two people go have sex in space—</q>
   <q class="matt">Let's just leave it. We don't want to ruin any of the surprises.</q>
-  <q class="ben">So it'll be called {% workTitle "Sex in Space" %}, coming to a book store near you.</q>
+  <q class="ben">So it'll be called {% work "Sex in Space" %}, coming to a book store near you.</q>
   <q class="matt">Probably not going to be the title, cuz we're gonna have to brand it Sci-Fi Christian. So I don't know if—</q>
-  <q class="ben">{% workTitle "The Sci-Fi Christian's Guide to Sex in Space" %}.</q>
+  <q class="ben">{% work "The Sci-Fi Christian's Guide to Sex in Space" %}.</q>
 </div>
 
 Take That, Science: people are trying to ban Google glass 

@@ -33,12 +33,12 @@ What would be the ethics of choosing to live in a virtual world?
 
 <div class="quote">
   {% timeLink podcast_file_url, '9:18' %}
-  <span class="quote-context is-size-6">Ben just read {% workTitle "Ready Player One" %}</span>
+  <span class="quote-context is-size-6">Ben just read {% work "Ready Player One" %}</span>
   <q class="matt">So do you recommend this book?</q>
   <q class="ben">Absolutely. Very entertaining.</q>
   <q class="matt">It's a Ben De Bono recommendation.</q>
-  <q class="ben">Not terribly deep, but very entertaining. So, there you go. I do occasionally recommend something that's a bit lighter. It's about the depth level of {% workTitle "Avengers" %}, but nobody's going around proclaiming it the greatest thing ever, so it doesn't make me mad.</q>
-  <q class="archivist">Thus begins the most inexplicable anomaly in SFC history: Ben's love for {% workTitle "Ready Player One" %}.</q>
+  <q class="ben">Not terribly deep, but very entertaining. So, there you go. I do occasionally recommend something that's a bit lighter. It's about the depth level of {% work "Avengers" %}, but nobody's going around proclaiming it the greatest thing ever, so it doesn't make me mad.</q>
+  <q class="archivist">Thus begins the most inexplicable anomaly in SFC history: Ben's love for {% work "Ready Player One" %}.</q>
 </div>
 
 Would the Great Commission compel us to jack in to a virtual world if a large number of people "lived" there?

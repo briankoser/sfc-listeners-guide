@@ -43,19 +43,19 @@ Ben is going to re-listen to the State of the Superhero episode
 
 # Main Topic
 
-Ben doesn't want episode titles for any new {% workTitle "Star Wars" %} movies
+Ben doesn't want episode titles for any new {% work "Star Wars" %} movies
 
-Ben is fine without more {% workTitle "Jurassic Park" %} <q class="archivist inline">I think the first time he said he's fine without more of something, a pillar for him in the future.</q>
+Ben is fine without more {% work "Jurassic Park" %} <q class="archivist inline">I think the first time he said he's fine without more of something, a pillar for him in the future.</q>
 
 <div class="quote">
   <q class="matt">We should do a sci-fi sports show.</q>
   <q class="archivist">Matt and Ben are Minnesota Vikings fans.</q>
 </div>
 
-Matt confesses that he didn't meet his goal in watching {% workTitle "The Shawshank Redemption" %} by the comics continuity episode.
+Matt confesses that he didn't meet his goal in watching {% work "The Shawshank Redemption" %} by the comics continuity episode.
 
 <div class="quote">
-  <q class="ben">Have you read ever {% workTitle "Paradise Lost" %}?</q>
+  <q class="ben">Have you read ever {% work "Paradise Lost" %}?</q>
   <q class="matt">Ah yes, by Milton...Bradley!</q>
 </div>
 
@@ -63,7 +63,7 @@ Ben says James Bond isn't sci-fi.
 
 Live-action Captain Planet movie will be made
 
-Great discussion of {% workTitle "Captain Planet" %}, including the evil Deforestation Ring
+Great discussion of {% work "Captain Planet" %}, including the evil Deforestation Ring
 
 
 

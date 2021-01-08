@@ -67,6 +67,6 @@ What the Frodo: found-footage Christian movie about teens at a church lock-in wh
   <q class="matt">Oh good. And just three years too late this time, so that's not bad for Christians!</q>
 </div>
 
-Matt finished {% workTitle "Flight of the Angels" %}. He's already finished two books this year to start his Reading Revolution. 
+Matt finished {% work "Flight of the Angels" %}. He's already finished two books this year to start his Reading Revolution. 
 
 Take That, Science: scientists create glow in the dark pigs

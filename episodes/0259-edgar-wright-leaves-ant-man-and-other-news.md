@@ -25,9 +25,9 @@ last_listen: 2019-10-18
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Edgar Wright is off {% workTitle "Ant-Man" %}, after working on it since 2006.
+Edgar Wright is off {% work "Ant-Man" %}, after working on it since 2006.
 
-Drew Goddard is off {% workTitle "Daredevil" %}.
+Drew Goddard is off {% work "Daredevil" %}.
 
 Take That, Science: Ancient Egyptians used water to make the sand stiffer where they pulled the giant stone sledges
 

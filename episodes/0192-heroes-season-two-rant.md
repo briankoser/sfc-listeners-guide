@@ -57,7 +57,7 @@ A scene in the finale made Ben laugh.
   <span class="quote-context is-size-6">The cousin steals Micah's $600 comic book</span>
   <q class="ben">He takes it where? To a comic book store? To a pawn shop? No, he meets someone on the streets, yo! So that he can sell these to a gang! That's his contact! It's like a drug deal! And this is why these people—it's like, 'Well, he's black, so of course he's just going to sell it on the street.' No he's not, you racist SOB's! This is not how you write characters! This doesn't make any sense!</q>
   <q class="matt">Let's try not to say 'SOB' on the show. But that was a good initial. Good work.</q>
-  <q class="ben">I think I should be allowed to say it when it applies to the writers of {% workTitle "Heroes" %}.</q>
+  <q class="ben">I think I should be allowed to say it when it applies to the writers of {% work "Heroes" %}.</q>
 </div>
 
 <div class="quote">

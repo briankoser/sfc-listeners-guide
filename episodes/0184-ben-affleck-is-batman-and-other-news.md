@@ -42,9 +42,9 @@ Listener Adam is a new contributor and made a bunch of sound clips, for example,
 
 Ben recorded a vulgar video with his friend James in Seattle. He offers to send it to listeners for a donation.
 
-Matt restarted {% workTitle "Flight of the Angels" %} on his honeymoon.
+Matt restarted {% work "Flight of the Angels" %} on his honeymoon.
 
-Ben starts a contest: guess when Matt will finish {% workTitle "Flight of the Angels" %}
+Ben starts a contest: guess when Matt will finish {% work "Flight of the Angels" %}
 
 {% timeLink podcast_file_url, '17:06' %} First "Ben was wrong" clip
 
@@ -71,7 +71,7 @@ What the Frodo: Vin Diesel mortgaged his house to finance the third Riddick movi
 <div class="quote">
   {% timeLink podcast_file_url, '59:28' %}
   <q class="ben">Take that, everyone!</q>
-  <q class="matt">Take that, {% workTitle "Avatar!" %}</q>
+  <q class="matt">Take that, {% work "Avatar!" %}</q>
 </div>
 
 Matt Damon is in Interstellar <q class="archivist inline">Did Matt forget? IIRC he's surprised when Damon shows up in the movie.</q>

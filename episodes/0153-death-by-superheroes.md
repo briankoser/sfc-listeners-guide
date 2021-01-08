@@ -64,7 +64,7 @@ Is capital punishment moral? Should Batman kill Joker?
 
 Some Christians are in favor; Catholics are against unless it's the only way to protect innocents. Ben thinks Gotham, and maybe Batman, are morally required to execute Joker since they can't keep him in prison.
 
-Ben thinks even in combat you have a moral obligation to minimize death. Tony Stark in {% workTitle "Iron Man 3" %} kills henchmen and it's played for laughs. 
+Ben thinks even in combat you have a moral obligation to minimize death. Tony Stark in {% work "Iron Man 3" %} kills henchmen and it's played for laughs. 
 
 Matt thinks Superman is in a lose-lose situation: when he's omnipotent, he's boring; when he's not, he's lame because he's losing to weaker characters.
 

@@ -47,7 +47,7 @@ recommendation_reason: No need to listen to old news.
 ---
 
 # News
-It's rumored that Christopher Nolan is in charge of the complete DC movie universe, Zac Snyder is directing {% workTitle "Justice League" %}, and Christopher Bale is returning as Batman for {% workTitle "Justice League" %}. 
+It's rumored that Christopher Nolan is in charge of the complete DC movie universe, Zac Snyder is directing {% work "Justice League" %}, and Christopher Bale is returning as Batman for {% work "Justice League" %}. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '10:41' %}
@@ -59,7 +59,7 @@ It's rumored that Christopher Nolan is in charge of the complete DC movie univer
   <q class="ben">Yeah.</q>
   <q class="matt">Or 'Batman-Superman'. Who gets top billing?</q>
   <q class="ben">Batman.</q>
-  <q class="matt">Yeah, 'Batman-Superman'. So, that's my prediction: you're not going to see {% workTitle "Justice League" %}, they need to work us into this world.</q>
+  <q class="matt">Yeah, 'Batman-Superman'. So, that's my prediction: you're not going to see {% work "Justice League" %}, they need to work us into this world.</q>
 </div>
 
 Ben wants DC to fire Henry Cavill and cast Benedict Cumberbatch and Martin Freeman as Batman and Superman.

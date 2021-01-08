@@ -24,7 +24,7 @@ last_listen: 2019-09-13
 recommendation: no
 recommendation_reason: Skip unless you're a huge X-Files fan 
 ---
-Matt is more into {% workTitle "The X-Files" %} than ever.
+Matt is more into {% work "The X-Files" %} than ever.
 
 <div class="quote">
   {% timeLink podcast_file_url, '23:52' %}

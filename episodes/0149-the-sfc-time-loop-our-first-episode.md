@@ -48,7 +48,7 @@ The LOST Report addicted Ben to podcasting.
 
 The show won't be strictly sci-fi, it will include all of genre fiction and related topics.
 
-Ben wants to do a {% workTitle "Twilight" %} episode (<q class="ben inline">It's cool that {% workTitle "Twilight" %} is bringing people into geek culture.</q>)
+Ben wants to do a {% work "Twilight" %} episode (<q class="ben inline">It's cool that {% work "Twilight" %} is bringing people into geek culture.</q>)
 
 They will have guest hosts over Skype to discuss topics they're not knowledgeable in.
 
@@ -66,9 +66,9 @@ R2-D2 is the transition sound for everything.
 ## News
 Ian McKellen, Andy Serkis, Elijah Wood, and Orlando Bloom have officially signed on to do the Hobbit movies. 
 
-<q class="archivist">Saddest moment of the episode: how excited both hosts are about {% workTitle "The Hobbit" %} movie.</q>
+<q class="archivist">Saddest moment of the episode: how excited both hosts are about {% work "The Hobbit" %} movie.</q>
 
-Matt vowed to read {% workTitle "The Hobbit" %} before the movie comes out.
+Matt vowed to read {% work "The Hobbit" %} before the movie comes out.
 
 <div class="review clearfix is-size-4">
   <header>The Cape</header>
@@ -80,7 +80,7 @@ Ben likes superhero movies and TV shows.
 
 <div class="quote">
   {% timeLink podcast_file_url, '16:37' %}
-  <span class="quote-context is-size-6">Ben was interested in {% workTitle "The Cape" %} until it got bad reviews</span>
+  <span class="quote-context is-size-6">Ben was interested in {% work "The Cape" %} until it got bad reviews</span>
   <q class="ben">It has Summer Glau in it. And I love Summer Glau--</q>
   <q class="matt">Yep, she's good.</q>
   <q class="ben">--if you know what I mean. For her acting abilities only, of course.</q>
@@ -134,9 +134,9 @@ Ben likes superhero movies and TV shows.
   </div>
 </div>
 
-Ben did only sci-fi, no fantasy <q class="archivist inline">{% workTitle "The Wheel of Time" %} isn't fantasy?</q>
+Ben did only sci-fi, no fantasy <q class="archivist inline">{% work "The Wheel of Time" %} isn't fantasy?</q>
 
-Matt has never heard of {% workTitle "The Wheel of Time" %}.
+Matt has never heard of {% work "The Wheel of Time" %}.
 
 Ben thinks Fringe is a 4-5 season show. 
 
@@ -188,7 +188,7 @@ Ben calls it "The Crappening".
 
 <div class="quote">
   {% timeLink podcast_file_url, '32:40' %}
-  <span class="quote-context is-size-6">On {% workTitle "Star Trek: The Motion Picture" %}</span>
+  <span class="quote-context is-size-6">On {% work "Star Trek: The Motion Picture" %}</span>
   <q class="ben">I hated hated hated that movie.</q>
 </div>
 
@@ -234,7 +234,7 @@ Ben calls it "The Crappening".
   <div class="rating matt">&nbsp;</div>
 </div>
 
-{% workTitle "Firefly" %} is Ben's favorite show of all time
+{% work "Firefly" %} is Ben's favorite show of all time
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 All-Time Sci-Fi Things</h2>
@@ -290,6 +290,6 @@ Ben calls it "The Crappening".
   <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
-Matt says he loves {% workTitle "Attack of the Clones" %} (although he later retracts the statement) 
+Matt says he loves {% work "Attack of the Clones" %} (although he later retracts the statement) 
 
-Ben makes the point that while {% workTitle "LOST" %} usually ended episodes on a mystery moment, {% workTitle "Buffy" %} always ended on a character moment.
+Ben makes the point that while {% work "LOST" %} usually ended episodes on a mystery moment, {% work "Buffy" %} always ended on a character moment.

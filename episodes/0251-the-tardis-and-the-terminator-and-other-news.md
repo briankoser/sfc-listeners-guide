@@ -34,7 +34,7 @@ Take That, Science: Japan has built an asteroid cannon
 # Feedback 
 <div class="quote">
   {% timeLink podcast_file_url, '34:08' %}
-  <span class="quote-context is-size-6">Ben started watching {% workTitle "Dexter" %} from his 25 Things list</span>
+  <span class="quote-context is-size-6">Ben started watching {% work "Dexter" %} from his 25 Things list</span>
   <q class="matt">This is a good thing to do, these lists, because then it gives us something to work towards. I could see us doing this maybe—</q>
   <q class="ben">Meaningful goals.</q>
   <q class="matt">Meaningful goals. We could do this more often.</q>

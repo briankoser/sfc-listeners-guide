@@ -28,13 +28,13 @@ Ben accidentally deleted his list of things to experience from Episode 250. He o
 
 
 # News
-What the Frodo: Sigourney Weaver will play a completely different character in {% workTitle "Avatar 2" %} and {% workTitle "Avatar 3" %}.
+What the Frodo: Sigourney Weaver will play a completely different character in {% work "Avatar 2" %} and {% work "Avatar 3" %}.
 
 What the Frodo: Forrest Gump is getting an IMAX re-release
 
 
 
 # Feedback 
-Amber wrote an email defending {% workTitle "Batman and Robin" %} and Disney World. 
+Amber wrote an email defending {% work "Batman and Robin" %} and Disney World. 
 
 {% timeLink podcast_file_url, '35:08' %} Things get weird when we go after the credits

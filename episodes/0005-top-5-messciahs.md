@@ -54,7 +54,7 @@ archivist_note:
 
 # News
 <div class="quote">
-<q class="ben">I'm getting excited about {% workTitle "Thor" %}...The one that looked really sweet to me though was {% workTitle "Super 8" %}.</q>
+<q class="ben">I'm getting excited about {% work "Thor" %}...The one that looked really sweet to me though was {% work "Super 8" %}.</q>
 </div>
 
 <div class="quote">
@@ -63,11 +63,11 @@ archivist_note:
 </div>
 
 <div class="quote">
-  <span class="quote-context is-size-6">On {% workTitle "Pirates of the Caribbean 4" %}</span>
+  <span class="quote-context is-size-6">On {% work "Pirates of the Caribbean 4" %}</span>
   <q class="ben">Against my better judgment, I am getting excited about this movie...this is looking really, really good.</q>
 </div>
 
-Ben is still really excited about {% workTitle "The Hobbit" %} movie <q class="archivist">☹️</q>
+Ben is still really excited about {% work "The Hobbit" %} movie <q class="archivist">☹️</q>
 
 First Dark Knight Rises news <q class="ben inline">We are going to cover everything that is newsworthy, or even not newsworthy.</q>
 

@@ -110,7 +110,7 @@ Matt lists a bunch of things in the Batcave.
 
 <div class="quote">
   {% timeLink podcast_file_url, '23:04' %}
-  <q class="ben">Screw science, I want to see a violent, flesh-eating brontosaurus in the next {% workTitle "Jurassic Park" %} movie.</q>
+  <q class="ben">Screw science, I want to see a violent, flesh-eating brontosaurus in the next {% work "Jurassic Park" %} movie.</q>
 </div>
 
 <div class="quote">

@@ -33,7 +33,7 @@ A lot of uninteresting movies are coming out.
 <div class="quote">
   {% timeLink podcast_file_url, '18:20' %}
   <span class="quote-context is-size-6">Predicting rankings for upcoming movies</span>
-  <q class="matt">This one's gotta be a five. {% workTitle "Interstellar" %} is a five.</q>
+  <q class="matt">This one's gotta be a five. {% work "Interstellar" %} is a five.</q>
   <q class="koby">I hope you're both disappointed. I don't hope that, that's mean. I hope that you're pleasantly surprised.</q>
   <q class="ben">How can we be pleasantly surprised if we're expecting it to be a five?</q>
   <q class="koby">You could get a six out of five.</q>
@@ -42,9 +42,9 @@ A lot of uninteresting movies are coming out.
 <div class="quote">
   {% timeLink podcast_file_url, '21:50' %}
   <q class="koby">I honestly never liked the Muppets, so—</q>
-  <q class="ben">So wait, can we keep a list here? Things Koby doesn't like: {% workTitle "Lord of the Rings" %}, {% workTitle "Breaking Bad" %}, The Muppets—</q>
-  <q class="matt">{% workTitle "LOST" %}</q>
-  <q class="ben">{% workTitle "Doctor Who" %}, {% workTitle "LOST" %}, and Christopher Nolan.</q>
+  <q class="ben">So wait, can we keep a list here? Things Koby doesn't like: {% work "Lord of the Rings" %}, {% work "Breaking Bad" %}, The Muppets—</q>
+  <q class="matt">{% work "LOST" %}</q>
+  <q class="ben">{% work "Doctor Who" %}, {% work "LOST" %}, and Christopher Nolan.</q>
 </div>
 
 <div class="quote">

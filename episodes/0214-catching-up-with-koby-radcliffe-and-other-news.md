@@ -49,7 +49,7 @@ Matt wants to raise money for a cause in 2014. Ben wants to pay their own bills 
   <q class="ben">Fifty thousand. Fifty thousand. So the rest of you can manage a measley hundred, I think.</q>
 </div>
 
-What the Frodo: James Cameron said you should watch {% workTitle "Avatar" %}
- like it was {% workTitle "The Godfather" %} 
+What the Frodo: James Cameron said you should watch {% work "Avatar" %}
+ like it was {% work "The Godfather" %} 
 
 Take That, Science: the NSA has agents playing World of Warcraft to surveil terrorists

@@ -31,13 +31,13 @@ Encouraging Signs: JJ Abrams is using practical effects for Star Wars Episode VI
 
 What the Frodo: insiders claim that Robert Pattinson is the frontrunner to be Indiana Jones in the reboot
 
-Ben has never heard of {% workTitle "Reading Rainbow" %}. Matt plays the {% workTitle "Reading Rainbow" %} theme song, and then the {% workTitle "Lambchop" %} theme song. 
+Ben has never heard of {% work "Reading Rainbow" %}. Matt plays the {% work "Reading Rainbow" %} theme song, and then the {% work "Lambchop" %} theme song. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '23:03' %}
-  <q class="matt">Lionsgate, the movie organization that brought us {% workTitle "The Hunger Games" %}, didn't want to stop at film.</q>
+  <q class="matt">Lionsgate, the movie organization that brought us {% work "The Hunger Games" %}, didn't want to stop at film.</q>
   <q class="ben">Wait.</q>
-  <q class="matt">They are doing a touring exhibit starting next summer of {% workTitle "The Hunger Games" %}. Which begs the question: are they killing children nationwide?</q>
+  <q class="matt">They are doing a touring exhibit starting next summer of {% work "The Hunger Games" %}. Which begs the question: are they killing children nationwide?</q>
   <q class="ben">Probably. Probably. That would certainly be more entertaining to watch than the actual movies.</q>
 </div>
 

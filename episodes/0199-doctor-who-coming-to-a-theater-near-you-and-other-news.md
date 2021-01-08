@@ -34,7 +34,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 # Opening
 They are competing against Strangers and Aliens in a 2-QB fantasy football league.
 
-Matt gives the Matt Anderson Guarantee that he will get caught up with {% workTitle "Doctor Who" %} by the 50th anniversary. Ben bets him $10 he will fail his 90-day challenge.
+Matt gives the Matt Anderson Guarantee that he will get caught up with {% work "Doctor Who" %} by the 50th anniversary. Ben bets him $10 he will fail his 90-day challenge.
 
 Matt wants to know how many "against it"s Ben gives for every "for it".
 
@@ -44,9 +44,9 @@ Matt wants to know how many "against it"s Ben gives for every "for it".
 
 Matt gives a Green Screen-style spoiler alert (he says "spoiler alert" after giving the spoiler).
 
-What the Frodo: Ben Kingsley is doing another project with Marvel after {% workTitle "Iron Man 3" %}.
+What the Frodo: Ben Kingsley is doing another project with Marvel after {% work "Iron Man 3" %}.
 
-What the Frodo: Marilyn Manson has been cast in {% workTitle "Once Upon a Time" %}.
+What the Frodo: Marilyn Manson has been cast in {% work "Once Upon a Time" %}.
 
 Stan Lee Quote of the Week: Stan thinks he should cameo in the next Superman movie
 

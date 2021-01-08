@@ -55,7 +55,7 @@ Ben is Right: William Shatner was joking/not joking when he dissed JJ Abrams
 
 <div class="quote">
   {% timeLink podcast_file_url, '15:06' %}
-  <span class="quote-context is-size-6">Matt says it's cool that Will Smith is getting his son acting jobs, even in bad movies like {% workTitle "After Earth" %}.</span>
+  <span class="quote-context is-size-6">Matt says it's cool that Will Smith is getting his son acting jobs, even in bad movies like {% work "After Earth" %}.</span>
   <q class="matt">Will Smith: way to be a father.</q>
   <q class="ben">Yeah. Good job.</q>
   <q class="matt">It's useful—you know, for people like myself that grew up without a father.</q>
@@ -67,11 +67,11 @@ Ben is Right: William Shatner was joking/not joking when he dissed JJ Abrams
   <q class="matt">Maybe I wouldn't be on this crappy podcast.</q>
 </div>
 
-Ben is for {% workTitle "The Wolverine" %}. Matt is against it and says it's a rental. 
+Ben is for {% work "The Wolverine" %}. Matt is against it and says it's a rental. 
 
 Christopher Lee is Ben's favorite actor.
 
-Matt refuses to say the title of the movie {% workTitle "Kickass 2" %}.
+Matt refuses to say the title of the movie {% work "Kickass 2" %}.
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 3 Anticipated Summer Movies</h2>
@@ -96,6 +96,6 @@ Matt refuses to say the title of the movie {% workTitle "Kickass 2" %}.
   </div>
 </div>
 
-Still excited about {% workTitle "The Hobbit: Desolation of Smaug" %}
+Still excited about {% work "The Hobbit: Desolation of Smaug" %}
 
 {% timeLink podcast_file_url, '39:05' %} Sci-Fi Christian Story Time: Ben got a library fine and a parking ticket from St. John's

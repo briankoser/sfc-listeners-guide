@@ -35,9 +35,9 @@ recommendation_reason: Good discussion of how horror relates to Christianity.
 archivist_note: "Ben's three subgenres of horror reminded me of Stephen King's three categories of horror: gross-out (eg gore), horror (eg zombies, jump scares), and terror (eg knowing something is behind you but you turn around and no one is there)."
 ---
 # News
-Rumors say that issues are coming up during {% workTitle "Man of Steel" %} filming. (<q class="ben inline">It sounds like the problems are with the last third of the script.</q>)
+Rumors say that issues are coming up during {% work "Man of Steel" %} filming. (<q class="ben inline">It sounds like the problems are with the last third of the script.</q>)
 
-Tom Hardy is signed for multiple {% workTitle "Inception" %} sequels
+Tom Hardy is signed for multiple {% work "Inception" %} sequels
 
 # Main Topic
 Subgenres of Horror: Natural, Monster, Supernatural
@@ -45,12 +45,12 @@ Subgenres of Horror: Natural, Monster, Supernatural
 Is it OK for Christians to watch horror movies when the Bible says "fear not"? 
 
 <div class="quote">
-  <q class="matt">Let's say I go and see {% workTitle "Scary Movie" %}, and I go home, I'm thinking about it, I'm worried that something's going to attack me at my house. Who am I going to turn to?</q>
+  <q class="matt">Let's say I go and see {% work "Scary Movie" %}, and I go home, I'm thinking about it, I'm worried that something's going to attack me at my house. Who am I going to turn to?</q>
   <q class="ben">Ghostbusters!</q>
   <q class="matt">No, not Ghostbusters, God.</q>
 </div>
 
 <div class="quote">
-  <q class="ben">Have you seen {% workTitle "The Exorcism of Emily Rose?" %}</q>
+  <q class="ben">Have you seen {% work "The Exorcism of Emily Rose?" %}</q>
   <q class="matt">Absolutely not! Have you not been listening to anything on this episode?</q>
 </div>

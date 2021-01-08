@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   const http = require("http");
   const parseXml = require('xml2js').parseString;
 
+  const archivistNoteShortCode = require('./_includes/shortcodes/archivistNote-shortcode.js');
   const ratingShortCode = require('./_includes/shortcodes/rating-shortcode.js');
   const ratingsListShortCode = require('./_includes/shortcodes/ratingsList-shortcode.js');
   const workTitleShortCode = require('./_includes/shortcodes/workTitle-shortcode.js');
@@ -92,9 +93,10 @@ module.exports = function(eleventyConfig) {
 
 
 
+  eleventyConfig.addShortcode("archivist", archivistNoteShortCode);
   eleventyConfig.addShortcode("rating", ratingShortCode);
   eleventyConfig.addShortcode("ratingsList", ratingsListShortCode);
-  eleventyConfig.addShortcode("workTitle", workTitleShortCode);
+  eleventyConfig.addShortcode("work", workTitleShortCode);
   
   // can't go in it's own file because it will lose access to the global data variable metadata
   eleventyConfig.addShortcode("timeLink", function (url, time) {

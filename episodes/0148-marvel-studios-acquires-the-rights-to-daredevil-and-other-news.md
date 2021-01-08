@@ -45,9 +45,9 @@ Ben's favorite Koby moment was selling him on Theo's List.
   <q class="ben">I'm pro-blind people, I just don't get how they use the internet!</q>
 </div>
 
-Daniel calls in with {% workTitle "Iron Man 3" %} news and trolls Ben. 
+Daniel calls in with {% work "Iron Man 3" %} news and trolls Ben. 
 
-Ben predicts {% workTitle "Iron Man 3" %} will be a 4 star movie. Matt predicts 5 stars.
+Ben predicts {% work "Iron Man 3" %} will be a 4 star movie. Matt predicts 5 stars.
 
 Dave Johnson suggests uploading podcast episodes to YouTube. <q class="archivist inline">No no no</q>
 
@@ -89,7 +89,7 @@ Stan Lee Quote of the Week: Stan is tough and gritty
 
 <div class="quote">
   {% timeLink podcast_file_url, '35:18' %}
-  <span class="quote-context is-size-6">Bryan Singer is adding two more X-Men to {% workTitle "X-Men: Days of Future Past" %}</span>
+  <span class="quote-context is-size-6">Bryan Singer is adding two more X-Men to {% work "X-Men: Days of Future Past" %}</span>
   <q class="matt">Bishop.</q>
   <q class="ben">Enough. Enough, Bryan Singer!</q>
   <q class="matt">For it or against it?</q>
@@ -102,7 +102,7 @@ Stan Lee Quote of the Week: Stan is tough and gritty
 
 <div class="quote">
   {% timeLink podcast_file_url, '35:50' %}
-  <span class="quote-context is-size-6">Lee Pace may play The Collector in {% workTitle "Guardians of the Galaxy" %}</span>
+  <span class="quote-context is-size-6">Lee Pace may play The Collector in {% work "Guardians of the Galaxy" %}</span>
   <q class="matt">I'm for it, and I'm also for Bishop, but I'm against Warpath.</q>
   <q class="ben">Little racist there.</q>
   <q class="matt">No, I just never really liked that character.</q>
@@ -112,7 +112,7 @@ Stan Lee Quote of the Week: Stan is tough and gritty
 
 
 # Feedback
-Taylor argues that oversaturation can only be defined in hindsight: as long as sequels are high quality, it's not oversaturation. For example, {% workTitle "Star Wars" %} and {% workTitle "The Lord of the Rings" %} got sequels.
+Taylor argues that oversaturation can only be defined in hindsight: as long as sequels are high quality, it's not oversaturation. For example, {% work "Star Wars" %} and {% work "The Lord of the Rings" %} got sequels.
 
 Ben's says oversaturation means low quality and poor intent, not quantity.
 

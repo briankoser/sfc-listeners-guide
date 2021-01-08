@@ -38,7 +38,7 @@ recommendation_reason: The first hiatus countdown continues.
 
 <q class="archivist">They accidentally skipped #36 but will discuss it in {% episodeLink 185 %}.</q>
 
-<q class="archivist">There are two versions of the {% workTitle "Star Trek: Enterprise" %} theme song. The second one isn't so bad; in fact, I put it on the only mixtape I ever made.</q>
+<q class="archivist">There are two versions of the {% work "Star Trek: Enterprise" %} theme song. The second one isn't so bad; in fact, I put it on the only mixtape I ever made.</q>
 
 
 

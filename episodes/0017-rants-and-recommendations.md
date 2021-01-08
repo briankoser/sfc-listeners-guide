@@ -32,7 +32,7 @@ The History of Christianity series was Ben's idea
 
 # News
 <div class="quote">
-  <q class="ben">The name of Stan Lee's memoirs should be {% workTitle "Bizarre and Strange Tweets" %}.</q>
+  <q class="ben">The name of Stan Lee's memoirs should be {% work "Bizarre and Strange Tweets" %}.</q>
 </div>
 
 <div class="quote">

@@ -32,7 +32,7 @@ Originality has not always been important for stories: mythology, oral tradition
 
 Entertainment is not the main purpose of story. 
 
-Could C. S. Lewis have written the Narnia books if he spent his weekends watching {% workTitle "Thor 2" %} instead of reading {% workTitle "The Iliad" %}? 
+Could C. S. Lewis have written the Narnia books if he spent his weekends watching {% work "Thor 2" %} instead of reading {% work "The Iliad" %}? 
 
 {% timeLink podcast_file_url, '34:31' %} Ben says it's a moral issue if 90% of your stories are just for fun
 

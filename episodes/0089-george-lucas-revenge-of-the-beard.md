@@ -119,12 +119,12 @@ spoilers:
 
 George Lucas had a treatment for Episodes 7-9 <q class="archivist inline">We'll find out what it was in № 662.</q>
 
-Ben says {% workTitle "The Avengers" %} is the worst thing Joss Whedon has done.
+Ben says {% work "The Avengers" %} is the worst thing Joss Whedon has done.
 
-Ben doesn't like Disney buying {% workTitle "Star Wars" %} because:
+Ben doesn't like Disney buying {% work "Star Wars" %} because:
 - It's Lucas's story
 - People always want more, and it's a problem with the culture 
 
 Matt asks the listeners to vote in the Podcast Awards. Or send money through the website.
 
-Ben would prefer a reboot than a continuation of the existing {% workTitle "Star Wars" %} story. 
+Ben would prefer a reboot than a continuation of the existing {% work "Star Wars" %} story. 

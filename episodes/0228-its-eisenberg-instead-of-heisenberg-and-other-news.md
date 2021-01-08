@@ -42,6 +42,6 @@ Ben wants a new policy: only watch movies after they're out for a year.
 
 {% timeLink podcast_file_url, '50:59' %} Matt read the first Divergent book and didn't like it, but wants to know the ending. Ben tells Matt that the Internet has a website called "Wikipedia" and he can find the ending in 15 minutes.
 
-Ben wants the studio to cast Shaq in {% workTitle "The Shack" %}.
+Ben wants the studio to cast Shaq in {% work "The Shack" %}.
 
 Matt had a dream that Des wouldn't let him buy a Choose Your Own Adventure book because she knew he wouldn't read it.

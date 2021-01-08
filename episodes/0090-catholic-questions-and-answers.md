@@ -90,7 +90,7 @@ The Exodus was a form of baptism (1 Cor. 10:2), and adults and children went thr
   <q class="ben">It's the marijuana of Catholicism.</q>
 </div>
 
-Ben shifted from believing in ordinances to sacraments. He came to believe in the importance of liturgy, which led him to {% workTitle "Evangelical Is Not Enough" %} by Thomas Howard. That eventually led to the church fathers (which were obvious Catholics), which led to the Catholic Catechism.
+Ben shifted from believing in ordinances to sacraments. He came to believe in the importance of liturgy, which led him to {% work "Evangelical Is Not Enough" %} by Thomas Howard. That eventually led to the church fathers (which were obvious Catholics), which led to the Catholic Catechism.
 
 Until the 1960s, Protestants were against birth control. Catholics still don't believe you should separate sex and procreation.
 

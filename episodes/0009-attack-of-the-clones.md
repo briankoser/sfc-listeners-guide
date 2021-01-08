@@ -35,19 +35,19 @@ recommendation_reason: "\"The Dark Knight on Trial\" was the first iconic episod
 archivist_note: "Ben says that conception is the only point that makes sense for us to say scientifically that life begins, and so this is when a soul enters a body. I think you could also make the case for when the heart starts beating. This gets around the question that identical twins pose: if the soul enters the body at conception, what happens when the twins split after a few days? Does another soul get created? Does the first soul split in two?"
 ---
 # Opening
-Ben is planning to see {% workTitle "The Phantom Menace 3D" %} in the theatre
+Ben is planning to see {% work "The Phantom Menace 3D" %} in the theatre
 
-Matt finally watched {% workTitle "Batman and Robin" %}
+Matt finally watched {% work "Batman and Robin" %}
 
 Matt gets a voicemail from Ted Dekker 
 
-They announce a contest with the prizes being a {% workTitle "The Curious Case of Benjamin Button" %} DVD and Future Foundation comic issue 1 <q class="ben inline">The worst prize package in the history of contests</q>
+They announce a contest with the prizes being a {% work "The Curious Case of Benjamin Button" %} DVD and Future Foundation comic issue 1 <q class="ben inline">The worst prize package in the history of contests</q>
 
 
 
 # News
 <div class="quote">
-  <span class="quote-context is-size-6">Variety said that Joseph Gordon-Levitt would be playing Alberto Falcone in {% workTitle "The Dark Knight Rises" %}.</span>
+  <span class="quote-context is-size-6">Variety said that Joseph Gordon-Levitt would be playing Alberto Falcone in {% work "The Dark Knight Rises" %}.</span>
   <q class="ben">I'm greatly relieved because this means he's not playing Robin...two days later Entertainment Weekly comes out and says..it's definitely not Falcone.</q>
   <q class="matt">I'm keeping my fingers crossed for Robin.</q>
   <q class="ben">Oh my gosh.</q>

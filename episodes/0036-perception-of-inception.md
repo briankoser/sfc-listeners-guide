@@ -50,7 +50,7 @@ Matt has recorded [Christmas albums](https://soundcloud.com/lswidbin).
 
 
 # News
-Ben finished {% workTitle "The Wire" %} and says it's the greatest show ever made.
+Ben finished {% work "The Wire" %} and says it's the greatest show ever made.
 
 <div class="quote">
   <span class="quote-context is-size-6">Matt dreamed a girl that he had a crush on in first grade was mean to him on the playground, breaking his crush in real life.</span>
@@ -60,7 +60,7 @@ Ben finished {% workTitle "The Wire" %} and says it's the greatest show ever mad
 
 
 # Main Topic
-Matt commits to watching {% workTitle "The Shawshank Redemption" %} by next episode. 
+Matt commits to watching {% work "The Shawshank Redemption" %} by next episode. 
 
 Is the whole movie a dream? 
 

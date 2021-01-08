@@ -107,9 +107,9 @@ When the prophets had a vision, were they time travelling?
 Koby asks, would God "break that rule of time" by letting someone time travel? 
 <q class="archivist inline">God "breaking the rules" of physics is what we call a "miracle". It has happened a few times.</q>
 
-Daniel says {% workTitle "Bill and Ted's Excellent Adventure" %} is the best and most important time travel movie of all time.
+Daniel says {% work "Bill and Ted's Excellent Adventure" %} is the best and most important time travel movie of all time.
 
-Koby thinks {% workTitle "Doctor Who" %} is completely ridiculous and really dumb.
+Koby thinks {% work "Doctor Who" %} is completely ridiculous and really dumb.
 
 [Philippians 3:13](https://www.biblegateway.com/passage/?search=Philippians+3%3A13&version=ESV): God doesn't want us to meddle with the past through time travel
 

@@ -76,7 +76,7 @@ There are four areas Batman must be justified:
 </div>
 
 <div class="quote">
-<span class="quote-context is-size-6">On {% workTitle "Back to the Future" %}</span>
+<span class="quote-context is-size-6">On {% work "Back to the Future" %}</span>
 <q class="ben">I bet there's some really great spiritual themes in there.</q>
 <q class="matt">Absolutely. There has to be: it's from 1985.</q>
 </div>

@@ -98,7 +98,7 @@ Ben is dreading his upcoming Disney World vacation.
 
 Ben made a Chip 'n Dale joke that Matt edited out. 
 
-Matt put {% workTitle "The Rocketeer" %} on his marriage registry. Ben thinks it would totally hold up and is going to buy it for Matt.
+Matt put {% work "The Rocketeer" %} on his marriage registry. Ben thinks it would totally hold up and is going to buy it for Matt.
 
 Matt had a toaster oven but wanted a new one so he put it on his registry. Someone already bought him a new one. Ben asked to buy his old one and Matt gave it to him.
 
@@ -142,7 +142,7 @@ Ben started biking this year. Today he did his first mile in under three minutes
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:00:52' %}
-  <span class="quote-context is-size-6">Ben describes the premise of the video game {% workTitle "DOOM" %}.</span>
+  <span class="quote-context is-size-6">Ben describes the premise of the video game {% work "DOOM" %}.</span>
   <q class="ben">You're on a moon base, and they open up a portal and demons come through.</q>
   <q class="matt">Why don't they just not open the portal?</q>
   <q class="ben">They didn't know that it was gonna do that. If you're a scientist, you're experimenting with a portal, you don't think it's gonna go to hell, but sometimes it does.</q>
@@ -152,7 +152,7 @@ Ben is Right: video games let you choose your own adventure, so the book series 
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:07:48' %}
-  <q class="matt">I just started watching this past weekend {% workTitle "Downton Abbey" %}.</q>
+  <q class="matt">I just started watching this past weekend {% work "Downton Abbey" %}.</q>
   <q class="ben">Yeah, there you go.</q>
   <q class="matt">Upon your recommendation.</q>
   <q class="ben">There you go. It's a good show.</q>
@@ -166,7 +166,7 @@ Ben is Right: video games let you choose your own adventure, so the book series 
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:09:45' %}
-  <span class="quote-context is-size-6">Ben first watched {% workTitle "Aliens" %} with his dad</span>
+  <span class="quote-context is-size-6">Ben first watched {% work "Aliens" %} with his dad</span>
   <q class="matt">That must have been awesome. I grew up without my father.</q>
   <q class="ben">*laughs* Painful memories.</q>
   <q class="matt">How was it having a dad that you could do cool things with?</q>
@@ -174,7 +174,7 @@ Ben is Right: video games let you choose your own adventure, so the book series 
   <q class="matt">Oh...</q>
 </div>
 
-Matt is reading {% workTitle "Morning Glories" %} monthly. 
+Matt is reading {% work "Morning Glories" %} monthly. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:22:47' %}

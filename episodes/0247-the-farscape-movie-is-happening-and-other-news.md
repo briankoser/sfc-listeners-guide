@@ -33,7 +33,7 @@ Matt says if he ever starts drinking beer, his first will be on the Ben De Bono 
 
 
 # News
-What the Frodo: {% workTitle "Mrs. Doubtfire 2" %} was announced
+What the Frodo: {% work "Mrs. Doubtfire 2" %} was announced
 
 <div class="quote">
   {% timeLink podcast_file_url, '17:00' %}

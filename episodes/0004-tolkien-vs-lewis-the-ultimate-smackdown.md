@@ -37,9 +37,9 @@ Planning to go to San Diego Comic Con
 
 
 # News
-{% workTitle "The Dark Tower" %} movie casting news <q class="archivist inline">😢</i>
+{% work "The Dark Tower" %} movie casting news <q class="archivist inline">😢</i>
 
-{% workTitle "Ender's Game" %} movie <q class="archivist inline">😢</i>
+{% work "Ender's Game" %} movie <q class="archivist inline">😢</i>
 
 
 
@@ -51,4 +51,4 @@ Matt argues that allegory is more effective.
 
 
 # Feedback
-Listener Dave Johnson from Mobile gets an autographed picture of Aaron Douglas (Chief Tyrol from {% workTitle "Battlestar Galactica" %}) for the Rebel Underground and is named the named #1 fan of the podcast.
+Listener Dave Johnson from Mobile gets an autographed picture of Aaron Douglas (Chief Tyrol from {% work "Battlestar Galactica" %}) for the Rebel Underground and is named the named #1 fan of the podcast.

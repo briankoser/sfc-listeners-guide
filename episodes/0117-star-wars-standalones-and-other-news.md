@@ -46,7 +46,7 @@ Pope Benedict is resigning, the first time a pope has resigned in 600 years.
   <q class="matt">Yeah, why don't they have a vice pope? That just makes so much sense.</q>
 </div>
 
-Matt says the pope is chosen by all Catholics in a process similar to {% workTitle "American Idol" %} voting. 
+Matt says the pope is chosen by all Catholics in a process similar to {% work "American Idol" %} voting. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '4:30' %}
@@ -91,11 +91,11 @@ Ben theorizes that HBO will overtake G. R. R. Martin and switch to prequel mater
 
 After listening to another of Stan's Rants, Ben wants Stan Lee for vice pope.
 
-Jim Carrey and Adam Sandler are being considered as voice actors for {% workTitle "Guardians of the Galaxy" %}.
+Jim Carrey and Adam Sandler are being considered as voice actors for {% work "Guardians of the Galaxy" %}.
 
 <div class="quote">
   {% timeLink podcast_file_url, '36:00' %}
-  <span class="quote-context is-size-6">Both are skeptical about {% workTitle "Guardians of the Galaxy" %} and Chris Pratt</span>
+  <span class="quote-context is-size-6">Both are skeptical about {% work "Guardians of the Galaxy" %} and Chris Pratt</span>
   <q class="ben">So this is going to be a comedic movie?</q>
   <q class="matt">Yeah, is it a comedy? That's stupid.</q>
 </div>
@@ -108,7 +108,7 @@ Jim Carrey and Adam Sandler are being considered as voice actors for {% workTitl
   <q class="matt">But maybe I'm just totally wrong about him.</q>
 </div>
  
-Ben makes fun of {% workTitle "Supernatural" %}'s 78th season 
+Ben makes fun of {% work "Supernatural" %}'s 78th season 
 <q class="archivist inline">It's 14th season premiered last week.</q>
 
 Take That, Science: a filmmaker is using an AI to help write the script to a short film

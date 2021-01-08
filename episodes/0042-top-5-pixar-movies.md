@@ -50,7 +50,7 @@ Daniel claims that he says "and I'm Daniel Butcher!" after the host intros when 
   </div>
 </div>
 
-Pixar had to make the water in {% workTitle "Finding Nemo" %} look more animated because it initially looked too real.
+Pixar had to make the water in {% work "Finding Nemo" %} look more animated because it initially looked too real.
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/01/episode-42-top-5-pixar-movies/#t=8:15">8:15</a> Matt realizes that movies aren't "streaming free on Netflix" because he is paying for Netflix every month. 
 

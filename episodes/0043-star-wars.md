@@ -49,6 +49,6 @@ Matt is a preschool worker, connector (greeter), records and posts sermons onlin
 
 God has given us desires that tell us what our role and mission are in advancing the Kingdom. 
 
-Ben said {% workTitle "Empire Strikes Back" %} was always the most popular of the movies. <q class="archivist">According to an article on <a href="https://www.starwars.com/news/critical-opinion-the-empire-strikes-back-original-reviews"  class="link-obvious">StarWars.com</a>, '...it can be hard to believe that The Empire Strikes Back wasn’t always lauded as the movie masterpiece it clearly is. On the contrary, it...was welcomed with an array of mixed, lukewarm, and indifferent reviews...'</q>
+Ben said {% work "Empire Strikes Back" %} was always the most popular of the movies. <q class="archivist">According to an article on <a href="https://www.starwars.com/news/critical-opinion-the-empire-strikes-back-original-reviews"  class="link-obvious">StarWars.com</a>, '...it can be hard to believe that The Empire Strikes Back wasn’t always lauded as the movie masterpiece it clearly is. On the contrary, it...was welcomed with an array of mixed, lukewarm, and indifferent reviews...'</q>
 
-The Throne Room scenes in {% workTitle "Return of the Jedi" %} are Ben's favorite parts of Star wars 
+The Throne Room scenes in {% work "Return of the Jedi" %} are Ben's favorite parts of Star wars 

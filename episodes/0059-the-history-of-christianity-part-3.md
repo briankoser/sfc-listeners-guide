@@ -24,7 +24,7 @@ recommendation_reason: Not too bad.
 ---
 Medieval Church (Constantine - Great Schism)
 
-Matt references {% workTitle "The Story of Christianity" %} by Justo Gonzalez
+Matt references {% work "The Story of Christianity" %} by Justo Gonzalez
 
 Matt doesn't like denominations. Ben doesn't know if he agrees. 
 

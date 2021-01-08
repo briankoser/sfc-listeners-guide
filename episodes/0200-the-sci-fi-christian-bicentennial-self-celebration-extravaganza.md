@@ -210,7 +210,7 @@ Matt thinks Squirtle is a turtle with a squirrel's tail.
   </div>
 </div>
 
-Ben's current favorite movie is {% workTitle "Ordinary People" %}.
+Ben's current favorite movie is {% work "Ordinary People" %}.
 
 <div class="quote">
   {% timeLink podcast_file_url, '2:12:50' %}

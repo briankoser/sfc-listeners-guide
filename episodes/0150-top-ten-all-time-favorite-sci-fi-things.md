@@ -73,18 +73,18 @@ Matt is wearing an Epic Life t-shirt
   </div>
 </div>
 
-Ben doesn't recommend reading {% workTitle "The Wheel of Time" %}.
+Ben doesn't recommend reading {% work "The Wheel of Time" %}.
 
-Ben is planning to watch classic {% workTitle "Doctor Who" %}. <q class="archivist inline">I bet he didn't make it 5 minutes, they do not hold up.</q>
+Ben is planning to watch classic {% work "Doctor Who" %}. <q class="archivist inline">I bet he didn't make it 5 minutes, they do not hold up.</q>
 
-Matt is thinking about reading {% workTitle "Paradise Lost" %}. 
+Matt is thinking about reading {% work "Paradise Lost" %}. 
 
 C. S. Lewis's rule: for every new book you read, you should read an old book. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '32:10' %}
-  <span class="quote-context is-size-6">Matt says there are no shows currently on as great as {% workTitle "LOST" %}</span>
-  <q class="matt">When I watched {% workTitle "LOST" %}, I actually felt—this is gonna sound strong, I know we're Christians, so I'm gonna use this word, and it's gonna sound crazy—</q>
+  <span class="quote-context is-size-6">Matt says there are no shows currently on as great as {% work "LOST" %}</span>
+  <q class="matt">When I watched {% work "LOST" %}, I actually felt—this is gonna sound strong, I know we're Christians, so I'm gonna use this word, and it's gonna sound crazy—</q>
   <q class="ben">Aroused?</q>
   <q class="matt">I felt blessed to be able to view this great show!</q>
 </div>
@@ -140,7 +140,7 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
 
 <div class="quote">
   {% timeLink podcast_file_url, '35:00' %}
-  <span class="quote-context is-size-6">Matt almost put {% workTitle "Star Trek" %} on his list</span>
+  <span class="quote-context is-size-6">Matt almost put {% work "Star Trek" %} on his list</span>
   <q class="ben">It sucks though.</q>
   <q class="matt">No, I don't think we feel exactly the same on that.</q>
 </div>
@@ -161,7 +161,7 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
   </div>
 </div>
 
-C. S. Lewis said {% workTitle "The Lord of the Rings" %} is the greatest work of literature since {% workTitle "The Odyssey" %}.
+C. S. Lewis said {% work "The Lord of the Rings" %} is the greatest work of literature since {% work "The Odyssey" %}.
 
 {% timeLink podcast_file_url, '1:00:11' %} Sci-Fi Christian Story Time: Ben's Parking Ticket, Part 3
 

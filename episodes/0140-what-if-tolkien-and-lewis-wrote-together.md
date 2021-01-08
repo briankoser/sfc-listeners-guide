@@ -68,7 +68,7 @@ Matt doesn't like steak.
 
 They're going to watch a brony documentary. 
 
-Ben admits that his daughter watches {% workTitle "My Little Pony" %}. 
+Ben admits that his daughter watches {% work "My Little Pony" %}. 
 
 
 

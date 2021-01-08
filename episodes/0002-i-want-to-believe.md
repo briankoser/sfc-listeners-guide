@@ -49,11 +49,11 @@ Ben says "yes sir" a lot and "yeppers" once.
 
 
 # News
-<i class="work-title">Pirates of the Caribbean 5</i> was announced. <q class="archivist inline">Not released until 2017</q>
+{% work "Pirates of the Caribbean 5" %} was announced. <q class="archivist inline">Not released until 2017</q>
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/#t=13:11">13:11</a>
-  <span class="quote-context is-size-6">Regarding <i class="work-title">Pirates of the Caribbean 3: At World's End</i></span>
+  <span class="quote-context is-size-6">Regarding {% work "Pirates of the Caribbean 3: At World's End" %}</span>
   <q class="ben">I hated it. I hated it. I hated it.</q>
 </div>
 

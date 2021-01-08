@@ -50,7 +50,7 @@ Koby is the winner of the first SFC contest, The Secondhand Spectacular
 
 
 # News
-{% workTitle "Bill and Ted 3" %} is coming <q class="archivist inline">Still promised as of 3/31/2018</q>
+{% work "Bill and Ted 3" %} is coming <q class="archivist inline">Still promised as of 3/31/2018</q>
 
 George R. R. Martin and Damon Lindelof feud
 
@@ -70,7 +70,7 @@ Ben thinks Stan Lee Marvel cameos are cool and something he looks forward to
 Quotes: 
 <div class="quote">
   <q class="ben">Take that, movie!</q>
-  <q class="matt">Take that, Simon Pegg and Nick Frost who wrote the movie {% workTitle "Paul" %}!</q>
+  <q class="matt">Take that, Simon Pegg and Nick Frost who wrote the movie {% work "Paul" %}!</q>
 </div>
 
 
