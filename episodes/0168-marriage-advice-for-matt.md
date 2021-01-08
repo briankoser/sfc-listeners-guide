@@ -59,14 +59,14 @@ recommendation_reason: Fun interaction with Des, plus some good advice.
 
 <div class="quote">
   {% timeLink podcast_file_url, '8:14' %}
-  <q class="ben">Have you watched <i class="work-title">LOST</i>?</q>
+  <q class="ben">Have you watched {% workTitle "LOST" %}?</q>
   <q data-name="Des">No.</q>
   <q class="ben">That's awesome.</q>
   <q data-name="Des">That's on the agenda after we get married.</q>
   <q class="matt">Yeah, we're going to do it, all the way through.</q>
   <q class="ben">What if you don't like it?</q>
   <q data-name="Des">But I told him I wanted to, and he said we had to wait.</q>
-  <q class="ben">That's too intimate for Matt. We can't watch <i class="work-title">LOST</i> together until we're married.</q>
+  <q class="ben">That's too intimate for Matt. We can't watch {% workTitle "LOST" %} together until we're married.</q>
   <q data-name="Des">It's on that list.</q>
 </div>
 
@@ -75,12 +75,12 @@ recommendation_reason: Fun interaction with Des, plus some good advice.
   <span class="quote-context is-size-6"></span>
   <q class="ben">What is going to happen, and I'm not saying this is likely to happen, but we get halfway through Season 1 and Des is like, 'I don't like it. This is not a good show.'</q>
   <q class="matt">I would just stop. I would respect your opinion.</q>
-  <q class="ben">Stop <i class="work-title">LOST</i> or stop your marriage?</q>
+  <q class="ben">Stop {% workTitle "LOST" %} or stop your marriage?</q>
 </div>
 
 <div class="quote">
   {% timeLink podcast_file_url, '9:59' %}
-  <q class="matt">Right now, I'm past it. I'm over <i class="work-title">LOST</i>. I think everyone knows I'm over <i class="work-title">LOST</i>.</q>
+  <q class="matt">Right now, I'm past it. I'm over {% workTitle "LOST" %}. I think everyone knows I'm over {% workTitle "LOST" %}.</q>
   <q class="ben">I don't think that's accurate.</q>
 </div>
 
@@ -120,7 +120,7 @@ Dawn: show your love, be best friends
   <q class="matt">The man's role is to serve and sacrifice, whereas the woman's role is to submit.</q>
   <q class="ben">That's right.</q>
   <q class="matt">So I will serve and sacrifice for you.</q>
-  <q class="ben">And you will submit to all six seasons of <i class="work-title">LOST</i>.</q>
+  <q class="ben">And you will submit to all six seasons of {% workTitle "LOST" %}.</q>
 </div>
 
 Ben: love is a choice

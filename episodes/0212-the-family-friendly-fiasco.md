@@ -36,7 +36,7 @@ Ben wants more quality, and entertainment geared towards either children or adul
 
 The Bible isn't family-friendly. 
 
-<i class="work-title">The Sound of Music</i> was rated G even with Nazis and people getting shot.
+{% workTitle "The Sound of Music" %} was rated G even with Nazis and people getting shot.
 
 Ben's secret to not watching TV and movies with his wife: agree to watch, then complain until she doesn't want to watch with you.
 

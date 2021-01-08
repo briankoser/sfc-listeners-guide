@@ -33,7 +33,7 @@ Is it OK for Christians to watch horror movies when the Bible says "fear not"?
 
 <div class="quote">
   {% timeLink podcast_file_url, '29:59' %}
-  <q class="matt">Let's say I go and see <i class="work-title">Scary Movie</i>, and I go home, I'm thinking about it, I'm worried that something's going to attack me at my house. Who am I going to turn to?</q>
+  <q class="matt">Let's say I go and see {% workTitle "Scary Movie" %}, and I go home, I'm thinking about it, I'm worried that something's going to attack me at my house. Who am I going to turn to?</q>
   <q class="ben">Ghostbusters!</q>
   <q class="matt">No, not Ghostbusters, God.</q>
 </div>
@@ -42,6 +42,6 @@ Is it OK for Christians to watch horror movies when the Bible says "fear not"?
 
 <div class="quote">
   {% timeLink podcast_file_url, '45:45' %}
-  <q class="ben">Have you seen <i class="work-title">The Exorcism of Emily Rose?</i></q>
+  <q class="ben">Have you seen {% workTitle "The Exorcism of Emily Rose?" %}</q>
   <q class="matt">Absolutely not! Have you not been listening to anything on this episode?</q>
 </div>

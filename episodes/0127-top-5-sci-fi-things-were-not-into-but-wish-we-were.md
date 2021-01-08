@@ -88,15 +88,15 @@ recommendation_reason: The lists are interesting, the discussion is not very in-
   </div>
 </div>
 
-<q class="archivist">Off the top of my head, I think the only one either host ended up disliking was <i class="work-title">Farscape</i>.</q>
+<q class="archivist">Off the top of my head, I think the only one either host ended up disliking was {% workTitle "Farscape" %}.</q>
 
-Ben says you have to embrace the cheesiness to enjoy <i class="work-title">Doctor Who</i>. He loves it. <q class="archivist">Not saying if you like one you have to like the other, but I think if you like <i class="work-title">Doctor Who</i> you could understand why people like <i class="work-title">Star Trek</i>. Both are cheesy, both are mainly successful because of the characters.</q>
+Ben says you have to embrace the cheesiness to enjoy {% workTitle "Doctor Who" %}. He loves it. <q class="archivist">Not saying if you like one you have to like the other, but I think if you like {% workTitle "Doctor Who" %} you could understand why people like {% workTitle "Star Trek" %}. Both are cheesy, both are mainly successful because of the characters.</q>
 
-Ben says <i class="work-title">The Wire</i> is the greatest show of all time.
+Ben says {% workTitle "The Wire" %} is the greatest show of all time.
 
 <div class="quote">
   {% timeLink podcast_file_url, '17:49' %}
-  <q class="ben">The number one sci-fi thing I am not into but wish I was: <i class="work-title">2001: A Space Odyssey</i>.</q>
+  <q class="ben">The number one sci-fi thing I am not into but wish I was: {% workTitle "2001: A Space Odyssey" %}.</q>
   <q class="matt">Yeah. I mean, I want to watch it. But you're not going to be into it, you just want to check it out.</q>
   <q class="ben">Yeah. I want to check it out. I have seen the part with the monkeys.</q>
   <q class="matt">I want to watch this with you then, cuz I've never seen it either.</q>
@@ -109,7 +109,7 @@ Ben says <i class="work-title">The Wire</i> is the greatest show of all time.
   <q class="ben">But it's a classic, I feel embarassed I haven't seen it all the way through, so definitely need to rectify that. And that's one where it's a low commitment, even though I'm not excited to sit through forty minutes of monkeys. Which literally, I'm not joking, it's like the first forty minutes of the movie are monkeys running around. And that's it, there's no dialog. You know, I'm excited to check it out sometime. Might fast forward the first part.</q>
 </div>
 
-Ben quit halfway through the last <i class="work-title">Sword of Truth</i> book. <q class="archivist inline">Very similar for me: I think our library didn't have the last 3 books. By the time they did I had come to my senses.</q>
+Ben quit halfway through the last {% workTitle "Sword of Truth" %} book. <q class="archivist inline">Very similar for me: I think our library didn't have the last 3 books. By the time they did I had come to my senses.</q>
 
 <div class="quote">
   {% timeLink podcast_file_url, '22:19' %}

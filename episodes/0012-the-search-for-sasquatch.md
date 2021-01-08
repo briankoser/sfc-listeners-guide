@@ -33,7 +33,7 @@ recommendation_reason: A pretty funny episode with some amusing Bigfoot theories
 archivist_note: Koby will become a full-time host in Season 2.
 ---
 # News
-<i class="work-title">Dr. Horrible 2</i> is probably Joss Whedon's next project after <i class="work-title">The Avengers</i>
+{% workTitle "Dr. Horrible 2" %} is probably Joss Whedon's next project after {% workTitle "The Avengers" %}
 
 
 

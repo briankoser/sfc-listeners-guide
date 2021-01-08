@@ -57,7 +57,7 @@ Back to the classic schedule. Ben says he is back full time.
 # News
 <div class="quote">
   {% timeLink podcast_file_url, '5:22' %}
-  <span class="quote-context is-size-6">Talking about the just announced <i class="work-title">Interstellar</i></span>
+  <span class="quote-context is-size-6">Talking about the just announced {% workTitle "Interstellar" %}</span>
   <q class="matt">It's as if this movie was made for me.</q>
   <q class="ben">Yeah! Yeah!</q>
   <q class="matt">My favorite director, my favorite two themes in sci-fi...this is gonna be great.</q>
@@ -72,7 +72,7 @@ Back to the classic schedule. Ben says he is back full time.
   <q class="ben">Take that, America!</q>
 </div>
 
-Zack Snyder is rumored to be involved with a film described as "<i class="work-title">Star Wars</i> meets <i class="work-title">Seven Samurai</i>".
+Zack Snyder is rumored to be involved with a film described as "{% workTitle "Star Wars" %} meets {% workTitle "Seven Samurai" %}".
 
 {% timeLink podcast_file_url, '20:09' %} Ben eviscerates the Green Bay Packers
 
@@ -92,7 +92,7 @@ Take that, Science: A petition on petitions.gov asking the US government to buil
 
 <div class="quote">
   {% timeLink podcast_file_url, '33:03' %}
-  <span class="quote-context is-size-6">Matt is mad that the book and movies are called <i class="work-title">The Three Musketeers</i> when there are four of them.</span>
+  <span class="quote-context is-size-6">Matt is mad that the book and movies are called {% workTitle "The Three Musketeers" %} when there are four of them.</span>
   <q class="ben">Well, the last guy's name was [bleep].</q>
   <q class="matt">No, Dumas. Dumas.</q>
 </div>
@@ -101,11 +101,11 @@ Take that, Science: a killer asteroid is not coming to destroy earth.
 
 Take that, Science: a former congressman proposes funding space flights with advertising on rockets.
 
-Matt wonders if <i class="work-title">Guardians of the Galaxy</i> will crossover with <i class="work-title">Star Wars</i>.
+Matt wonders if {% workTitle "Guardians of the Galaxy" %} will crossover with {% workTitle "Star Wars" %}.
 
-Ben is ashamed for liking <i class="work-title">Downton Abbey</i>. 
+Ben is ashamed for liking {% workTitle "Downton Abbey" %}. 
 
-Matt wants to watch some <i class="work-title">Downton Abbey</i>, then record video reviews with Ben. They would have to wear masks or blur out their faces on the videos. 
+Matt wants to watch some {% workTitle "Downton Abbey" %}, then record video reviews with Ben. They would have to wear masks or blur out their faces on the videos. 
 
 Matt listens to Stuff You Missed in History Class. <q class="archivist inline">Good podcast, although not as good since Sarah and Deblina left.</q>
 

@@ -46,7 +46,7 @@ Brandon Gibbs designed a new logo (the first logo had a sketch of Admiral Akbar;
 
 Naming competition for the alien
 
-Matt said the newspaper seller and boy reading comics in <i class="work-title">Watchmen</i> are named Bernard. Ben wants all the listeners to write in and say Matt is wrong. <q class="archivist inline">Actually Matt is right</q> 
+Matt said the newspaper seller and boy reading comics in {% workTitle "Watchmen" %} are named Bernard. Ben wants all the listeners to write in and say Matt is wrong. <q class="archivist inline">Actually Matt is right</q> 
 
 SFC is doing another readalong 
 
@@ -65,10 +65,10 @@ Idea board
 - Noah in space
 - Supernova flood
 
-Ben finished reading <i class="work-title">A Dance with Dragons</i>
+Ben finished reading {% workTitle "A Dance with Dragons" %}
 
 <div class="quote">
-  <span class="quote-context is-size-6">On <i class="work-title">A Dance with Dragons</i></span>
+  <span class="quote-context is-size-6">On {% workTitle "A Dance with Dragons" %}</span>
   <q class="ben">There's way too many cliffhangers at the end of this book for me to wait five and a half years [for the next book in the series].</q>
   <q class="archivist">At this point it's been almost 7 years with no new book, although Season 7 of the show came out in July 2017, exactly 6 years later.</q>
 </div>
@@ -148,4 +148,4 @@ Matt "literally almost died" (was sipping water during Ben's last statement, sta
   <q class="ben">I don't think choking on your water and drooling all over my floor is messianic of you in the slightest.</q>
 </div>
 
-Matt reads <i class="work-title">Morning Glories</i> for the first time
+Matt reads {% workTitle "Morning Glories" %} for the first time

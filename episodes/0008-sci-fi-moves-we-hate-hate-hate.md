@@ -89,7 +89,7 @@ Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", 
 
 <q class="archivist">Ben tells Matt that he should watch Kingdom of the Crystal Skull "because it is Indiana Jones", leading to one of the best review episodes in SFC history.</q>
 
-<q class="archivist">Ben is ashamed of Matt for previously owning <i class="work-title">Armageddon</i>. Eventually Ben will buy it because it's in the Criterion collection.</q>
+<q class="archivist">Ben is ashamed of Matt for previously owning {% workTitle "Armageddon" %}. Eventually Ben will buy it because it's in the Criterion collection.</q>
 
 ### Ben's Hate and Have No Desire to Watch Again:
 - Planet of the Apes (2001) 
@@ -160,7 +160,7 @@ Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", 
 </div>
 
 <div class="quote">
-  <q class="matt">I don't know if you've even seen this, it's called <i class="work-title">Reign of Fire</i>.</q>
+  <q class="matt">I don't know if you've even seen this, it's called {% workTitle "Reign of Fire" %}.</q>
   <q class="ben">No, I really want to though because I love dragons...I think I would actually enjoy this movie if I saw it.</q>
 </div>
 

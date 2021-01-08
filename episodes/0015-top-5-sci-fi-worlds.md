@@ -109,7 +109,7 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
 </div>
 
 <div class="quote">
-  <q class="ben">I know what would be worse: having to sit through <i class="work-title">Equilibrium</i> again. Take that, Brady!</q>
+  <q class="ben">I know what would be worse: having to sit through {% workTitle "Equilibrium" %} again. Take that, Brady!</q>
 </div>
 
 <div class="quote">
@@ -117,10 +117,10 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
 </div>
 
 <div class="quote">
-  <q class="matt">Much like Martin Luther's Reformation, that's what I see happening in the world of <i class="work-title">1984</i>.</q>
+  <q class="matt">Much like Martin Luther's Reformation, that's what I see happening in the world of {% workTitle "1984" %}.</q>
   <q class="ben">Martin Luther wasn't under an authoritatian dictatorial regime.</q>
   <q class="matt">Hello? The pope.</q>
-  <q class="ben">...was not a dictator in the sense of <i class="work-title">1984</i>!</q>
+  <q class="ben">...was not a dictator in the sense of {% workTitle "1984" %}!</q>
   <q class="matt">You think so?</q>
 </div>
 
@@ -158,11 +158,11 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
 </div>
 
 <div class="quote">
-  <q class="ben">There needs to be a sequel series to <i class="work-title">LOST</i> called <i class="work-title">Matt Anderson Lives Outside"</i>.</q>
+  <q class="ben">There needs to be a sequel series to {% workTitle "LOST" %} called {% workTitle "Matt Anderson Lives Outside"" %}.</q>
 </div>
 
 <div class="quote">
-  <q class="matt">I'm really learning something about you here today Ben...if there's anything potentially bad on the mission field, you're just going to be like, 'Eh, I'm not going'...I'm willing to go take a chance for them, for God, for love. But you on the other hand, 'Mmm, I think I'm going to just stay safely here and watch <i class="work-title">Lord of the Rings</i> again on Blu-Ray!'</q>
+  <q class="matt">I'm really learning something about you here today Ben...if there's anything potentially bad on the mission field, you're just going to be like, 'Eh, I'm not going'...I'm willing to go take a chance for them, for God, for love. But you on the other hand, 'Mmm, I think I'm going to just stay safely here and watch {% workTitle "Lord of the Rings" %} again on Blu-Ray!'</q>
 </div>
 
 <div class="quote">
@@ -174,9 +174,9 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
   <q class="ben">...No.</q>
 </div>
 
-<a href="https://www.goodreads.com/review/show/156612712">Ben's <i class="work-title">Love Wins</i> review</a>
+<a href="https://www.goodreads.com/review/show/156612712">Ben's {% workTitle "Love Wins" %} review</a>
 
 
 
 # Feedback
-Ben makes fun of Celine Dion singing at the end of <i class="work-title">Avatar</i>.
+Ben makes fun of Celine Dion singing at the end of {% workTitle "Avatar" %}.

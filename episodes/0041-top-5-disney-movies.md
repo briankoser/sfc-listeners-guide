@@ -65,7 +65,7 @@ Daniel blogs at [Between Disney](http://www.betweendisney.com/)
   </div>
 </div>
 
-If <i class="work-title">Snow White</i> had failed, Disney would likely have gone out of business. 
+If {% workTitle "Snow White" %} had failed, Disney would likely have gone out of business. 
 
 "Feed the Birds" was Walt Disney's favorite song.
 
@@ -75,4 +75,4 @@ If <i class="work-title">Snow White</i> had failed, Disney would likely have gon
   <q class="matt">I don't think I've heard of the wife auction. Is that something they let the visitors participate in?</q>
 </div>
 
-<i class="work-title">Treasure Island</i> was the first Disney live-action film.
+{% workTitle "Treasure Island" %} was the first Disney live-action film.

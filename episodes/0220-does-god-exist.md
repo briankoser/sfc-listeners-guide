@@ -45,7 +45,7 @@ A priori reasoning: what I already know (deductive)
 A postori reasoning: additional information (inductive) 
 
 ## Thomas Aquinas 
-From the <i class="work-title">Summa Theologica</i> 
+From the {% workTitle "Summa Theologica" %} 
 
 The Summa is structured as: reason God can't exist, refutation, summary of refutation. It may be easiest to read the summary of refutation first. 
 
@@ -87,14 +87,14 @@ Argument against: why is God exempt from point 2?
 - Argument against: we just don't understand the science yet. Before we understood gravity, we attributed that to God.
 
 ## C. S. Lewis 
-Proof by moral law from <i class="work-title">Mere Christianity</i>
+Proof by moral law from {% workTitle "Mere Christianity" %}
 
 We have a sense of right and wrong that is universal. The conscience came from God. 
 
 Argument against: The moral law could have evolved as helpful to society survival
 
 ## Paul Tilich
-Wrote <i class="work-title">The Courage To Be</i>
+Wrote {% workTitle "The Courage To Be" %}
 
 God doesn't exist: God is existence. 
 

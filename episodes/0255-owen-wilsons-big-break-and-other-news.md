@@ -38,11 +38,11 @@ last_listen: 2019-10-15
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-What the Frodo: Owen Wilson has been cast as a talking crayon in a crayon movie, <i class="work-title">The Hero of Color City</i>. It has not been announced what color.
+What the Frodo: Owen Wilson has been cast as a talking crayon in a crayon movie, {% workTitle "The Hero of Color City" %}. It has not been announced what color.
 
 <div class="quote">
   {% timeLink podcast_file_url, '4:10' %}
-  <span class="quote-context is-size-6">Matt reads the IMDb description for <i class="work-title">The Hero of Color City</i></span>
+  <span class="quote-context is-size-6">Matt reads the IMDb description for {% workTitle "The Hero of Color City" %}</span>
   <q class="matt">'A colorful and diverse band of crayons strive to protect their magical multi-hued homeland from and evil tyrant—'</q>
   <q class="ben">Wait wait wait, you need to start over because I didn't get past that first line.</q>
   <q class="matt">'A colorful and diverse band of crayons.'</q>

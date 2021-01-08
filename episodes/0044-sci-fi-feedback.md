@@ -43,7 +43,7 @@ Koby thinks Tim Allen starred in a <i class="work-title"></i> remake movie.
 
 Koby did not listen to № 42 Top 5 Pixar Movies, even though he loves Pixar.
 
-Koby doesn't like <i class="work-title">Toy Story 2</i>.
+Koby doesn't like {% workTitle "Toy Story 2" %}.
 
 Rick Lee James emailed the show. He's an indy singer/songwriter and the host of the Voices in My Head podcast. He invited Ben and Matt to appear on his podcast for an interview. 
 
@@ -53,7 +53,7 @@ Mike Poteet suggested the name "time loop" for rerun episodes.
 
 Koby doesn't like the name "time loop".
 
-Koby said <i class="work-title">Firefly</i> can't be a good show because it got low ratings and was cancelled.
+Koby said {% workTitle "Firefly" %} can't be a good show because it got low ratings and was cancelled.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/02/episode-44-sci-fi-feedback/#t=33:58">33:58</a>

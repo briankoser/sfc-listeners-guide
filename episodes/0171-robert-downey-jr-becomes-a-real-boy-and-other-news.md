@@ -38,7 +38,7 @@ It's become a tradition for Ben to pretend to step on Matt's grandpa's thermomet
 
 Encouraging Signs: Massachusetts allowed a utility box to be painted like a TARDIS. 
 
-Encouraging Signs: Disney will give Jerry Bruckheimer smaller budgets after <i class="work-title">The Lone Ranger</i> bombed. 
+Encouraging Signs: Disney will give Jerry Bruckheimer smaller budgets after {% workTitle "The Lone Ranger" %} bombed. 
 
 Stan Lee Quote of the Week: Spider-Man is the only hyphenated superhero, and he was hyphenated to differentiate him from Superman.
 
@@ -46,7 +46,7 @@ Stan Lee Quote of the Week: Spider-Man is the only hyphenated superhero, and he 
 
 # Feedback 
 
-Ben is Right: a listener agreed that <i class="work-title">LOST</i> writers were good at character stories but not mystery
+Ben is Right: a listener agreed that {% workTitle "LOST" %} writers were good at character stories but not mystery
 
 No one edited a Season 2 highlight reel. Matt invites the listeners to make a Season 3 highlight reel.
 

@@ -44,11 +44,11 @@ Ben cites a study that says spoilers help you enjoy a story. <q class="archivist
 # Main Topic
 Jeff argues that Harry uses mechanical magic, not contacting demons
 
-Skip argues that <i class="work-title">Harry Potter</i> is no different than fairy tales, <i class="work-title">The Lord of the Rings</i>, or the Narnia books. It has positive messages of loyalty, good triumphing over evil, etc.
+Skip argues that {% workTitle "Harry Potter" %} is no different than fairy tales, {% workTitle "The Lord of the Rings" %}, or the Narnia books. It has positive messages of loyalty, good triumphing over evil, etc.
 
-Doug argues that witchcraft should not be presented to children in a positive light. He uses the analogy of a book series where "Harriet Potter" lives in the Playboy Mansion, learning sinful behavior in class but also learning the positive lessons of loyalty, etc. He says <i class="work-title">Harry Potter</i> is different than <i class="work-title">The Lord of the Rings</i> because the magic is integral to the plot instead of in the background. Narnian magic is an allegory for spiritual truth (like Aslan's redemption of Edmund). He doesn't argue that no one should ever read <i class="work-title">Harry Potter</i>, but he does think that the context makes it inappropriate for children. 
+Doug argues that witchcraft should not be presented to children in a positive light. He uses the analogy of a book series where "Harriet Potter" lives in the Playboy Mansion, learning sinful behavior in class but also learning the positive lessons of loyalty, etc. He says {% workTitle "Harry Potter" %} is different than {% workTitle "The Lord of the Rings" %} because the magic is integral to the plot instead of in the background. Narnian magic is an allegory for spiritual truth (like Aslan's redemption of Edmund). He doesn't argue that no one should ever read {% workTitle "Harry Potter" %}, but he does think that the context makes it inappropriate for children. 
 
-How much of a difference does it make that <i class="work-title">Harry Potter</i> has real witchcraft? 
+How much of a difference does it make that {% workTitle "Harry Potter" %} has real witchcraft? 
 
 Is "at least they're reading instead of watching TV" a valid stance? 
 
@@ -66,9 +66,9 @@ Matt presents some questions to ask when you experience stories:
 4. What do I agree and disagree with in the presented worldview?
 5. What questions could I ask a non-Christian about this story to get them thinking about spiritual matters?
 
-Matt would hold off on letting his future children read <i class="work-title">Harry Potter</i> until they're old enough and grounded enough in Christianity.
+Matt would hold off on letting his future children read {% workTitle "Harry Potter" %} until they're old enough and grounded enough in Christianity.
 
-Ben would let his children read the books with the caveats that he would want to help them interpret the story, realize that witchcraft is not something they should get into, and read other books than just <i class="work-title">Harry Potter</i>.
+Ben would let his children read the books with the caveats that he would want to help them interpret the story, realize that witchcraft is not something they should get into, and read other books than just {% workTitle "Harry Potter" %}.
 
 
 

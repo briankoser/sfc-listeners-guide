@@ -34,13 +34,13 @@ Daniel Butcher and Dave Johnson were the two Life Report listeners.
 # Main Topic
 Taylor clarified his free will room scenario.
 
-<i class="work-title">The Silver Chair</i> is Ben's favorite <i class="work-title">Chronicles of Narnia</i> book. 
+{% workTitle "The Silver Chair" %} is Ben's favorite {% workTitle "Chronicles of Narnia" %} book. 
 
-A listener brought up Puddleglum's speech in <i class="work-title">The Silver Chair</i> as an argument for continuing to be a Christian if you woke up and realized you had just dreamed Christianity <q class="archivist inline">emphasis mine</q>:
+A listener brought up Puddleglum's speech in {% workTitle "The Silver Chair" %} as an argument for continuing to be a Christian if you woke up and realized you had just dreamed Christianity <q class="archivist inline">emphasis mine</q>:
 
 <blockquote>
 <p>All you've been saying is quite right, I shouldn't wonder. I'm a chap who always liked to know the worst and then put the best face I can on it. So I won't deny any of what you said. But there's one thing more to be said, even so. Suppose we have only dreamed, or made up, all those things--trees and grass and sun and moon and stars and Aslan himself. Supose we have. Then all I can say is that, in that case, the made-up things seem a good deal more important than the real ones. Suppose this black pit of a kingdom of yours is the only world. Well, it strikes me as a pretty poor one. And that's a funny thing, when you come to think of it. We're just babies making up a game, if you're right. But four babies playing a game can make a play-world which licks your real world hollow. That's why I'm going to stand by the play-world. I'm on Aslan's side even if there isn't any Aslan to lead it. <em>I'm going to live as like a Narnian as I can even if there isn't any Narnia.</em></p>
-<cite>Puddleglum, <i class="work-title">The Silver Chair</i></cite>
+<cite>Puddleglum, {% workTitle "The Silver Chair" %}</cite>
 </blockquote>
 
 Ben says Puddleglum is rejecting false perception for reality, and Lewis was not claiming that perception was more important than reality. 

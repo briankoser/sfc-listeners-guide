@@ -26,7 +26,7 @@ recommendation: no
 recommendation_reason: In spite of the length, fairly shallow discussion. This many hosts doesn't work. 
 ---
 # Opening
-Daniel and Ben Avery started a <i class="work-title">Marvel's Agents of SHIELD</i> podcast: Welcome to Level 7.
+Daniel and Ben Avery started a {% workTitle "Marvel's Agents of SHIELD" %} podcast: Welcome to Level 7.
 
 
 

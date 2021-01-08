@@ -41,16 +41,16 @@ archivist_note: Should have combined this with the previous episode on Scientolo
   <q class="matt">I would never let Koby do that.</q>
 </div>
 
-Ben is angry about <i class="work-title">The Hobbit</i> going to 3 movies and <i class="work-title">Star Wars</i> getting endless movies.
+Ben is angry about {% workTitle "The Hobbit" %} going to 3 movies and {% workTitle "Star Wars" %} getting endless movies.
 
 The Sci-Fi Feud with Strangers and Aliens is apparently still going.
 
 
 
 # Main Topic
-Bilbo is implied to be the author of <i class="work-title">The Hobbit</i>. 
+Bilbo is implied to be the author of {% workTitle "The Hobbit" %}. 
 
-Tolkien heavily retconned <i class="work-title">The Hobbit</i>: Gandalf's motivation for helping the quest, the nature of the Ring, the relationship between dwarves and elves, and especially how Bilbo gets the Ring from Gollum. 
+Tolkien heavily retconned {% workTitle "The Hobbit" %}: Gandalf's motivation for helping the quest, the nature of the Ring, the relationship between dwarves and elves, and especially how Bilbo gets the Ring from Gollum. 
 
 The biggest theme of the book is Bilbo's growth from a joke to a hero. <q class="archivist inline">One of my three issues with the movie is that it didn't keep this theme.</q>
 
@@ -59,11 +59,11 @@ The biggest theme of the book is Bilbo's growth from a joke to a hero. <q class=
   <q class="ben">Die, Christopher Tolkien, die!</q>
 </div>
 
-<i class="work-title">The Hobbit</i> is more personal than <i class="work-title">The Lord of the Rings</i>. It's not an epic about Good vs Evil. Ben doubts the movie will still just be about characters and adventure like the book. <q class="archivist inline">The 2nd of my 3 big problems with the movie.</q>
+{% workTitle "The Hobbit" %} is more personal than {% workTitle "The Lord of the Rings" %}. It's not an epic about Good vs Evil. Ben doubts the movie will still just be about characters and adventure like the book. <q class="archivist inline">The 2nd of my 3 big problems with the movie.</q>
 
-Tolkien's main project was <i class="work-title">The Silmarillion</i>. 
+Tolkien's main project was {% workTitle "The Silmarillion" %}. 
 
-Without the commercial success of <i class="work-title">The Hobbit</i>, he never would have done <i class="work-title">The Lord of the Rings</i>.
+Without the commercial success of {% workTitle "The Hobbit" %}, he never would have done {% workTitle "The Lord of the Rings" %}.
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-what-im-tolkien-about/#t=1:11:19">1:11:19</a> Matt gives the Hobbit 2 stars 
 

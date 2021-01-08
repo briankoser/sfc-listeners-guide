@@ -26,7 +26,7 @@ recommendation_reason: If you want a barebones overview of Christianity, check o
 ---
 Imperial Church (Constantine through Augustine)
 
-Ben really likes Augustine's <i class="work-title">Confessions</i>
+Ben really likes Augustine's {% workTitle "Confessions" %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/05/episode-58-the-history-of-christianity-part-2/#t=24:44">24:44</a>

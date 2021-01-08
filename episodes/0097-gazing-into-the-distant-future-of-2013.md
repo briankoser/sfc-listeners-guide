@@ -59,7 +59,7 @@ Why do so many Christians not drink?
 
 
 # Main Topic
-Ben is going to restart the <i class="work-title">Game of Thrones</i> video reviews.
+Ben is going to restart the {% workTitle "Game of Thrones" %} video reviews.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-97-gazing-into-the-distant-future-of-2013/#t=00:24:39">24:39</a>
@@ -67,7 +67,7 @@ Ben is going to restart the <i class="work-title">Game of Thrones</i> video revi
   <q class="ben">I can't record two a week, so think of how much Koby you're going to have to have in there. Bad idea.</q>
 </div>
 
-Matt wants to do "some sort of <i class="work-title">X-Files</i> retrospective". <q class="archivist inline">Don't do it!</q>
+Matt wants to do "some sort of {% workTitle "X-Files" %} retrospective". <q class="archivist inline">Don't do it!</q>
 
 
-Matt thinks <i class="work-title">Breaking Bad</i> might be his favorite show ever.
+Matt thinks {% workTitle "Breaking Bad" %} might be his favorite show ever.

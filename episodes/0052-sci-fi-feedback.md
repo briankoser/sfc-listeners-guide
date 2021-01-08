@@ -29,6 +29,6 @@ archivist_note: A listener refers to Daniel and Koby as guest hosts. Matt doesn'
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-52-sci-fi-feedback/#t=5:59">5:59</a>
-  <span class="quote-context is-size-6">Matt wants to start another feud, this time with a <i class="work-title">Once Upon a Time</i> podcast run by Catholics</span>
+  <span class="quote-context is-size-6">Matt wants to start another feud, this time with a {% workTitle "Once Upon a Time" %} podcast run by Catholics</span>
   <q class="matt">Take that, Catholics!</q>
 </div>

@@ -56,7 +56,7 @@ Cut budgets in half
 
 Don't write for the sequel
 <ul>
-  <li><i class="work-title">Guardians of the Galaxy</i> might be the best movie of Phase 2 because it will be self-contained.</li>
+  <li>{% workTitle "Guardians of the Galaxy" %} might be the best movie of Phase 2 because it will be self-contained.</li>
 </ul>
 
 Cut runtime

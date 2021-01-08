@@ -29,9 +29,9 @@ Ben co-hosts over the phone. He was in Minnetonka helping a friend brew beer and
 
 
 # News
-Take That, Science: Nike is making self-lacing sneakers for the anniversary of <i class="work-title">Back to the Future 2</i>.
+Take That, Science: Nike is making self-lacing sneakers for the anniversary of {% workTitle "Back to the Future 2" %}.
 
-Matt says it's crazy that <i class="work-title">Supernatural</i> got renewed. <q class="archivist inline">And then it got renewed for 5 more seasons before ending in 2019!</q> 
+Matt says it's crazy that {% workTitle "Supernatural" %} got renewed. <q class="archivist inline">And then it got renewed for 5 more seasons before ending in 2019!</q> 
 
 
 

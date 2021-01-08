@@ -22,7 +22,7 @@ last_listen: 2019-09-24
 recommendation: essential
 recommendation_reason: Ben questions the worth of watching TV shows only to theorize about the mysteries. 
 ---
-<i class="work-title">True Detective</i> fans that were trying to solve the mystery were missing the point.
+{% workTitle "True Detective" %} fans that were trying to solve the mystery were missing the point.
 
 Does theorizing about the plot miss the point of story?
 
@@ -33,7 +33,7 @@ Ben says the book of Revelation is the oldest and most popular theorized-about b
   <q class="matt">God: the original Damon Lindelof.</q>
 </div>
 
-Ben is Wrong: Kiefer Sutherland was not in <i class="work-title">Twin Peaks</i> <q class="archivist inline">Close, he was in <i class="work-title">Fire Walk With Me</i></q>
+Ben is Wrong: Kiefer Sutherland was not in {% workTitle "Twin Peaks" %} <q class="archivist inline">Close, he was in {% workTitle "Fire Walk With Me" %}</q>
 
 Why do we enjoy theorizing about stories? Ben thinks it's because we feel the need for the whole story and so we feel compelled to fill in the blanks.
 

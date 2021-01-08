@@ -45,21 +45,21 @@ This episode sponsored by David, who set a new record for largest donation.
 
 
 # News
-Ben is resigned to the fact of new <i class="work-title">Star Wars</i> movies, and is in favor of JJ Abrams directing.
+Ben is resigned to the fact of new {% workTitle "Star Wars" %} movies, and is in favor of JJ Abrams directing.
 
-Ben thinks they should replace the robot in the Bad Robot opening to <i class="work-title">Star Wars Episode VII</i> with R2-D2.
+Ben thinks they should replace the robot in the Bad Robot opening to {% workTitle "Star Wars Episode VII" %} with R2-D2.
 
 {% timeLink podcast_file_url, '17:10' %} Ben had a dream that Matt pranked him.
 
 Matt asks and Ben elucidates: "De Bono", capital "D", space before "Bono".
 
-Ben loves <i class="work-title">Doctor Who</i> now.
+Ben loves {% workTitle "Doctor Who" %} now.
 
-Ben is going to restart the <i class="work-title">Game of Thrones</i> videos without Matt. 
+Ben is going to restart the {% workTitle "Game of Thrones" %} videos without Matt. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '31:17' %}
-  <span class="quote-context is-size-6">Matt thinks <i class="work-title">X-Men: Days of Future Past</i> is trying to bring all the X-Men film characters together to emulate <i class="work-title">The Avengers</i></span>
+  <span class="quote-context is-size-6">Matt thinks {% workTitle "X-Men: Days of Future Past" %} is trying to bring all the X-Men film characters together to emulate {% workTitle "The Avengers" %}</span>
   <q class="ben">I think it's a true theory. I endorse it.</q>
   <q class="matt">Thank you.</q>
   <q class="matt">We'll call it, 'The Ben de Bono Theory'.</q>

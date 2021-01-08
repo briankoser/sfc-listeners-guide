@@ -44,7 +44,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
-Joss Whedon liked <i class="work-title">Iron Man 3</i> and said it will be hard to top with <i class="work-title">Avengers 2</i>.
+Joss Whedon liked {% workTitle "Iron Man 3" %} and said it will be hard to top with {% workTitle "Avengers 2" %}.
 
 Ben is disappointed that Joss Whedon has betrayed his philosophy of "story should always have a purpose".
 
@@ -54,7 +54,7 @@ Ben is disappointed that Joss Whedon has betrayed his philosophy of "story shoul
   <q class="matt">Wow. I hope he's listening to this. Joss, we want you on the show. We're not going to make you answer for your crimes, but we just want to talk it out.</q>
 </div>
 
-Ben bought Matt <i class="work-title">The 5-Minute Iliad and Other Instant Classics: Great Books For The Short Attention Span</i> by Greg Nagan for his birthday.
+Ben bought Matt {% workTitle "The 5-Minute Iliad and Other Instant Classics: Great Books For The Short Attention Span" %} by Greg Nagan for his birthday.
 
 {% timeLink podcast_file_url, '7:54' %} Ben and Koby at the theatre
 
@@ -63,13 +63,13 @@ Ben bought Matt <i class="work-title">The 5-Minute Iliad and Other Instant Class
 # News 
 Ben calls Quicksilver, "Pumpernickel"
 
-Robert Downey Jr. will star in a <i class="work-title">Pinocchio</i> movie
+Robert Downey Jr. will star in a {% workTitle "Pinocchio" %} movie
 
 Take That, Science: the Nepalese government released a memo from 1959 with regulations for yeti hunting
 
-Daniel calls in with the hosts' favorite <i class="work-title">Guardians of the Galaxy</i> news: David Tennant is rumored to voice Rocket Raccoon.
+Daniel calls in with the hosts' favorite {% workTitle "Guardians of the Galaxy" %} news: David Tennant is rumored to voice Rocket Raccoon.
 
-Netflix will not bring back <i class="work-title">Firefly</i> because the original audience was small and has not grown since.
+Netflix will not bring back {% workTitle "Firefly" %} because the original audience was small and has not grown since.
 
 
 

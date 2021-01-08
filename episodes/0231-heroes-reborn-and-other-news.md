@@ -36,6 +36,6 @@ It's one of the worst Minnesota winters in recorded history. Ben spent 3 hours a
 
 Ben says it's the worst news they've ever reported.
 
-What the Frodo: <i class="work-title">Space Jam 2</i> is in development
+What the Frodo: {% workTitle "Space Jam 2" %} is in development
 
 Take That, Science: the military has plans to create an Iron Man suit by 2018

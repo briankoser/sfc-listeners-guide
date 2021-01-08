@@ -78,9 +78,9 @@ Daniel discusses the possible movies, TV shows, theme park attractions, video ga
 
 Will Disney release the original theatrical Trilogy or the Holiday Special on Blu-Ray? 
 
-In May 2020, 20th Century Fox will lose all but <i class="work-title">A New Hope</i> to Disney. <i class="work-title">A New Hope</i> is theirs indefinitely. <q class="archivist inline">Not sure how this is affected by Disney's planned acquisition of 20th Century Fox.</q>
+In May 2020, 20th Century Fox will lose all but {% workTitle "A New Hope" %} to Disney. {% workTitle "A New Hope" %} is theirs indefinitely. <q class="archivist inline">Not sure how this is affected by Disney's planned acquisition of 20th Century Fox.</q>
 
-Both say it's more likely that Disney buys 20th Century Fox than that Fox sells <i class="work-title">A New Hope</i> to Disney. <q class="archivist inline">Well done 👍</q>
+Both say it's more likely that Disney buys 20th Century Fox than that Fox sells {% workTitle "A New Hope" %} to Disney. <q class="archivist inline">Well done 👍</q>
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-88-darth-mickey-disney-buys-lucasfilm#t=1:12:53">1:12:53</a>

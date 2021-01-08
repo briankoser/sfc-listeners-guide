@@ -84,9 +84,9 @@ Take That, Science: Science has proven that pretending to be a superhero can mak
 
 <div class="quote">
   {% timeLink podcast_file_url, '47:23' %}
-  <q class="matt">John Chu might be the new director of <i class="work-title">Matched</i>.</q>
+  <q class="matt">John Chu might be the new director of {% workTitle "Matched" %}.</q>
   <q class="ben">I have no idea who John Chu is.</q>
-  <q class="matt">Do you want to know what <i class="work-title">Matched</i> is about?</q>
+  <q class="matt">Do you want to know what {% workTitle "Matched" %} is about?</q>
   <q class="ben">No, cuz I don't really like the young adult—</q>
   <q class="matt">You don't like that genre? We did a whole episode about it.</q>
   <q class="ben">We should do another one on it, because I kind of want to complain about it.</q>

@@ -123,7 +123,7 @@ Ben predicts that Bane will no longer be an unintelligent character in DC comics
 
 
 # Closing
-Ben and Matt "sing" along to the <i class="work-title">Batman: The Animated Series</i> theme. 
+Ben and Matt "sing" along to the {% workTitle "Batman: The Animated Series" %} theme. 
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-prophecies/#t=37:33">37:33</a>
@@ -139,7 +139,7 @@ Ben and Matt "sing" along to the <i class="work-title">Batman: The Animated Seri
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-74-dark-knight-rises-prophecies/#t=39:44">39:44</a>
   <span class="quote-context is-size-6">Talking about Batman's future in the DC movies</span>
-  <q class="matt">What if he is the villain in the Superman movie? Not the new one [<i class="work-title">Man of Steel</i>].</q>
+  <q class="matt">What if he is the villain in the Superman movie? Not the new one [{% workTitle "Man of Steel" %}].</q>
   <q class="ben">But then Superman would have to win and that would suck.</q>
   <q class="matt">What if he kills Superman?</q>
   <q class="ben">I'd love that.</q>

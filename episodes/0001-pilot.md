@@ -58,7 +58,7 @@ The LOST Report addicted Ben to podcasting.
 
 The show won't be strictly sci-fi, it will include all of genre fiction and related topics.
 
-Ben wants to do a <i class="work-title">Twilight</i> episode (<q class="ben inline">It's cool that <i class="work-title">Twilight</i> is bringing people into geek culture.</q>)
+Ben wants to do a {% workTitle "Twilight" %} episode (<q class="ben inline">It's cool that {% workTitle "Twilight" %} is bringing people into geek culture.</q>)
 
 They will have guest hosts over Skype to discuss topics they're not knowledgeable in.
 
@@ -76,9 +76,9 @@ R2-D2 is the transition sound for everything.
 # News
 Ian McKellen, Andy Serkis, Elijah Wood, and Orlando Bloom have officially signed on to do the Hobbit movies. 
 
-<q class="archivist">Saddest moment of the episode: how excited both hosts are about <i class="work-title">The Hobbit</i> movie.</q>
+<q class="archivist">Saddest moment of the episode: how excited both hosts are about {% workTitle "The Hobbit" %} movie.</q>
 
-Matt vowed to read <i class="work-title">The Hobbit</i> before the movie comes out.
+Matt vowed to read {% workTitle "The Hobbit" %} before the movie comes out.
 
 <div class="review clearfix is-size-4">
   <header>The Cape</header>
@@ -90,7 +90,7 @@ Ben likes superhero movies and TV shows.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:14:40">14:40</a>
-  <span class="quote-context is-size-6">Ben was interested in <i class="work-title">The Cape</i> until it got bad reviews</span>
+  <span class="quote-context is-size-6">Ben was interested in {% workTitle "The Cape" %} until it got bad reviews</span>
   <q class="ben">It has Summer Glau in it. And I love Summer Glau--</q>
   <q class="matt">Yep, she's good.</q>
   <q class="ben">--if you know what I mean. For her acting abilities only, of course.</q>
@@ -146,7 +146,7 @@ Ben likes superhero movies and TV shows.
 
 Ben did only sci-fi, no fantasy
 
-Matt has never heard of <i class="work-title">The Wheel of Time</i> .
+Matt has never heard of {% workTitle "The Wheel of Time" %}.
 
 Ben thinks Fringe is a 4-5 season show. 
 
@@ -198,7 +198,7 @@ Ben calls it "The Crappening".
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:30:44">30:44</a>
-  <span class="quote-context is-size-6">On <i class="work-title">Star Trek: The Motion Picture</i></span>
+  <span class="quote-context is-size-6">On {% workTitle "Star Trek: The Motion Picture" %}</span>
   <q class="ben">I hated hated hated that movie.</q>
 </div>
 
@@ -244,7 +244,7 @@ Ben calls it "The Crappening".
   <div class="rating matt">&nbsp;</div>
 </div>
 
-<i class="work-title">Firefly</i> is Ben's favorite show of all time
+{% workTitle "Firefly" %} is Ben's favorite show of all time.
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 All-Time Sci-Fi Things</h2>
@@ -300,6 +300,6 @@ Ben calls it "The Crappening".
   <div class="rating matt" data-rating="interested" title="Interested"></div>
 </div>
 
-Matt says he loves <i class="work-title">Attack of the Clones</i> (although he later retracts the statement) 
+Matt says he loves {% workTitle "Attack of the Clones" %} (although he later retracts the statement) 
 
-Ben makes the point that while <i class="work-title">LOST</i> usually ended episodes on a mystery moment, <i class="work-title">Buffy</i> always ended on a character moment.
+Ben makes the point that while {% workTitle "LOST" %} usually ended episodes on a mystery moment, {% workTitle "Buffy" %} always ended on a character moment.

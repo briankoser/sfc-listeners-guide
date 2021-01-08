@@ -55,11 +55,11 @@ For Season 4, Matt wants to to record 3 episodes a week: news, main topic, and r
 
 
 # News
-<i class="work-title">The Silver Chair</i> is coming <q class="archivist inline">False</q>
+{% workTitle "The Silver Chair" %} is coming <q class="archivist inline">False</q>
 
 George Lucas is on the phone with JJ Abrams almost every day. 
 
-What the Frodo: Oliver Stone criticized the <i class="work-title">Breaking Bad</i> finale for being to violent. 
+What the Frodo: Oliver Stone criticized the {% workTitle "Breaking Bad" %} finale for being to violent. 
 
 What the Frodo: Dinosaur erotica is selling well
 

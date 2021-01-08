@@ -105,6 +105,6 @@ And more!
         Progress Stopped
     </div>
     <div class="message-body">
-        Cannot complete the next episode until I: <strong>watch <i class="work-title">Looper</i></strong>
+        Cannot complete the next episode until I: <strong>watch {% workTitle "Looper" %}</strong>
     </div>
 </div> -->

@@ -30,7 +30,7 @@ Ben calls Koby "the Jar Jar Binks of The Sci-Fi Christian".
 
 Matt says he probably won't have Koby on any more episodes with Ben. 
 
-Ben decides to put Koby on Theo's List. He thinks a couple <i class="work-title">Batman and Robin</i> DVDs would be a fair trade. 
+Ben decides to put Koby on Theo's List. He thinks a couple {% workTitle "Batman and Robin" %} DVDs would be a fair trade. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '6:11' %}
@@ -65,7 +65,7 @@ Take That, Science: the speed of light in a vacuum can vary.
 
 Stan Lee Quote of the Week: Stan rants about commercials
 
-Ben is Right: there was no character development in <i class="work-title">The Avengers</i>
+Ben is Right: there was no character development in {% workTitle "The Avengers" %}
 
 
 

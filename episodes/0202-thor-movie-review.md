@@ -23,4 +23,4 @@ last_listen: 2019-07-03
 recommendation: no
 recommendation_reason: Watch the YouTube video instead
 ---
-<i class="work-title">Thor 2</i> is about to open in theatres, so this is a semi-time loop: a clip about <i class="work-title">Thor 1</i> from the podcast in May 2011 and the <a href="https://www.youtube.com/watch?v=NBZwAGg3R2M">YouTube video review</a>.
+{% workTitle "Thor 2" %} is about to open in theatres, so this is a semi-time loop: a clip about {% workTitle "Thor 1" %} from the podcast in May 2011 and the <a href="https://www.youtube.com/watch?v=NBZwAGg3R2M">YouTube video review</a>.

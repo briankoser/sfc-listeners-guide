@@ -25,18 +25,18 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 # Opening
 
-Michael sent Ben his "Things to Watch" list and asked Ben to watch and review the first four episodes of <i class="work-title">Warehouse 13</i>.
+Michael sent Ben his "Things to Watch" list and asked Ben to watch and review the first four episodes of {% workTitle "Warehouse 13" %}.
 
 
 
 # News
 
-<i class="work-title">The Batman</i> starring Ben Affleck is coming in 2019.
+{% workTitle "The Batman" %} starring Ben Affleck is coming in 2019.
 
 
 
 # Feedback 
 
-John Wilkerson admits to stuffing the ballot box for <i class="work-title">Unbreakable</i> in the last poll. 
+John Wilkerson admits to stuffing the ballot box for {% workTitle "Unbreakable" %} in the last poll. 
 
 {% timeLink podcast_file_url, '33:20' %} Matt bans John Wilkerson (and almost bans Ben)

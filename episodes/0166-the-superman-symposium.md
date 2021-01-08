@@ -54,7 +54,7 @@ Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic b
 </table>
 
 <div class="top-five">
-  <h2 class="has-text-centered">8 Cons about <i class="work-title">Man of Steel</i></h2>
+  <h2 class="has-text-centered">8 Cons about {% workTitle "Man of Steel" %}</h2>
   <div class="columns">
     <div class="column">
       <h3>Rick</h3>
@@ -85,7 +85,7 @@ Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic b
 Ben owns a Windows phone. 
 
 <div class="top-five">
-  <h2 class="has-text-centered">8 Pros about <i class="work-title">Man of Steel</i></h2>
+  <h2 class="has-text-centered">8 Pros about {% workTitle "Man of Steel" %}</h2>
   <div class="columns">
     <div class="column">
       <h3>Rick</h3>

@@ -43,7 +43,7 @@ recommendation_reason: Any notable feedback is included in the guide.
 # Feedback
 The Sci-Fi Feud 2012 has fizzled.
 
-Francisco Rodriguez sent in a segment called "Reject or Resurrect". He decided that <a href="https://letterboxd.com/film/the-hobbit/"><i class="work-title">The Hobbit (1977)</i></a> was a "reject". The plan is for it to be a monthly segment on feedback episodes. <q class="archivist inline">I'm guessing this is the only one.</q>
+Francisco Rodriguez sent in a segment called "Reject or Resurrect". He decided that <a href="https://letterboxd.com/film/the-hobbit/">{% workTitle "The Hobbit (1977)" %}</a> was a "reject". The plan is for it to be a monthly segment on feedback episodes. <q class="archivist inline">I'm guessing this is the only one.</q>
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-84-sci-fi-feedback/#t=38:09">38:09</a>
@@ -54,9 +54,9 @@ Francisco Rodriguez sent in a segment called "Reject or Resurrect". He decided t
 
 Currently 161 Facebook likes
 
-Matt has not watched <i class="work-title">The Booth at the End</i> Season 2, but is planning to eventually. 
+Matt has not watched {% workTitle "The Booth at the End" %} Season 2, but is planning to eventually. 
 
-Greg in Iowa writes in with some good parallels between <i class="work-title">The Dark Knight Rises</i> and Christianity.
+Greg in Iowa writes in with some good parallels between {% workTitle "The Dark Knight Rises" %} and Christianity.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-84-sci-fi-feedback/#t=53:05">53:05</a>

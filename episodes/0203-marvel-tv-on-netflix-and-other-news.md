@@ -24,10 +24,10 @@ last_listen: 2019-07-05
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Ben and Matt watched <i class="work-title">The Dark Knight Returns</i> with Daniel, Koby, and BJ. Matt isn't comfortable posting even the [censored version of their review](https://www.youtube.com/watch?v=DfvQCNgPiSY), but Ben offers to email it to any listener that asks. 
+Ben and Matt watched {% workTitle "The Dark Knight Returns" %} with Daniel, Koby, and BJ. Matt isn't comfortable posting even the [censored version of their review](https://www.youtube.com/watch?v=DfvQCNgPiSY), but Ben offers to email it to any listener that asks. 
 
-What the Frodo: <i class="work-title">Olympos Has Fallen</i> is getting a sequel
+What the Frodo: {% workTitle "Olympos Has Fallen" %} is getting a sequel
 
-What the Frodo: The Rock was cast in a movie called <i class="work-title">Seal Team 666</i>
+What the Frodo: The Rock was cast in a movie called {% workTitle "Seal Team 666" %}
 
 {% timeLink podcast_file_url, '43:15' %} Sci-Fi Christian Story Time: Don't be Robert Stannick

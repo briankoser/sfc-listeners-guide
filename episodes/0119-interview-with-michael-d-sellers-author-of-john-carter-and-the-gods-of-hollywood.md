@@ -27,7 +27,7 @@ recommendation_reason: If you're interested in John Carter, check out this behin
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:35' %}
-  <q class="matt">There does seem to be—there was some force working against <i class="work-title">John Carter</i> being made into a movie—</q>
+  <q class="matt">There does seem to be—there was some force working against {% workTitle "John Carter" %} being made into a movie—</q>
   <q class="koby">God.</q>
 </div>
 
@@ -35,12 +35,12 @@ recommendation_reason: If you're interested in John Carter, check out this behin
 
 # Interview
 
-Michael Sellers is an independent filmmaker and Burroughs fan that started following <i class="work-title">John Carter</i> production news. He wrote a blog, then a book.
+Michael Sellers is an independent filmmaker and Burroughs fan that started following {% workTitle "John Carter" %} production news. He wrote a blog, then a book.
 
-<i class="work-title">John Carter</i> cost more to make than <i class="work-title">The Avengers</i> but was marketed 20 times less. 
+{% workTitle "John Carter" %} cost more to make than {% workTitle "The Avengers" %} but was marketed 20 times less. 
 
 One of the critics' main complaints was that the multiple framing narratives were confusing.
 
-The acquisition of Marvel made <i class="work-title">John Carter</i> less important to Disney as a property to draw boys. 
+The acquisition of Marvel made {% workTitle "John Carter" %} less important to Disney as a property to draw boys. 
 
-The acquisition of <i class="work-title">Star Wars</i> made the chance of any future <i class="work-title">John Carter</i> movies from Disney very unlikely. 
+The acquisition of {% workTitle "Star Wars" %} made the chance of any future {% workTitle "John Carter" %} movies from Disney very unlikely. 

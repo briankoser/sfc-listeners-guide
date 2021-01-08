@@ -80,6 +80,6 @@ spoilers:
   </div>
 </div>
 
-Matt promises to finish <i class="work-title">Buffy</i> and <i class="work-title">Angel</i> in 2013.
+Matt promises to finish {% workTitle "Buffy" %} and {% workTitle "Angel" %} in 2013.
 
 Matt guarantees that he will read a Star Wars expanded universe novel in 2013.

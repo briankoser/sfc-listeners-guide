@@ -44,4 +44,4 @@ Encouraging Signs: Ben Affleck looks good in the Batsuit.
 
 H. R. Geiger died
 
-Matt takes a stand: he will not see <i class="work-title">Transformers 4</i>
+Matt takes a stand: he will not see {% workTitle "Transformers 4" %}

@@ -23,7 +23,7 @@ last_listen: 2019-09-25
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-What the Frodo: AMC is editing a version of <i class="work-title">The Walking Dead</i> so it can be syndicated on network TV. 
+What the Frodo: AMC is editing a version of {% workTitle "The Walking Dead" %} so it can be syndicated on network TV. 
 
 What the Frodo: Dock Street Beer Brewery is making a Walking Dead beer with goat brains.
 

@@ -30,7 +30,7 @@ recommendation_reason: Fine look at a good movie.
 archivist_note: I was going to listen without having seen the movie, but I reconsidered when both hosts rated it highly and described it as "understated sci-fi". So I switched over to a baseball podcast about the MLB trade deadline. They mentioned that the Phillies had just acquired the obscure player Aaron Loup, which led to a brief discussion about the film <i class="work-title">Looper</i>. It was a sign. I watched it. 4.5 out of 5 stars.
 ---
 
-{% timeLink podcast_file_url, '4:34' %} Ben gives his thoughts on <i class="work-title">John Carter</i>
+{% timeLink podcast_file_url, '4:34' %} Ben gives his thoughts on {% workTitle "John Carter" %}
 
 {% timeLink podcast_file_url, '7:49' %} Ben explains the color coding on his iPad soundboard
 
@@ -58,7 +58,7 @@ Matt is afraid listeners will think this episode is a time loop and skip it.
 {% timeLink podcast_file_url, '16:50' %} The Ben De Bono countdown music
 
 <div class="top-five">
-  <h2 class="has-text-centered">Top 5 Coolest Parts of <i class="work-title">Looper</i></h2>
+  <h2 class="has-text-centered">Top 5 Coolest Parts of {% workTitle "Looper" %}</h2>
   <div class="columns">
     <div class="column ben">
       <h3>Ben</h3>

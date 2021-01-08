@@ -76,11 +76,11 @@ Ben found out that technically, any male Catholic can be chosen to be pope.
 
 
 # News 
-Dan Simmons is Ben's favorite science fiction author, and <i class="work-title">The Terror</i> is his favorite Simmons book.
+Dan Simmons is Ben's favorite science fiction author, and {% workTitle "The Terror" %} is his favorite Simmons book.
 
-Matt stopped reading a book (<i class="work-title">The Christian Atheist</i>) and sold it at Half-Price Books. Ben is proud.
+Matt stopped reading a book ({% workTitle "The Christian Atheist" %}) and sold it at Half-Price Books. Ben is proud.
 
-Ben does "For It or Against It" for which <i class="work-title">Star Wars</i> characters should get a spinoff. Matt likes it and has Ben do "For It or Against It" for news items at the end of the show. 
+Ben does "For It or Against It" for which {% workTitle "Star Wars" %} characters should get a spinoff. Matt likes it and has Ben do "For It or Against It" for news items at the end of the show. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '42:11' %}
@@ -132,4 +132,4 @@ Ben reads Colin in the UK s email in an English accent. Halfway through he inexp
 
 Koby made a Facebook page for his cat Kitty Radcliffe.
 
-Blondeen #3 writes in that Matt should play "Triple Pope" at his wedding. He also admits to being a brony. Matt is willing to watch an episode of <i class="work-title">My Little Pony</i> for a review, but Ben refuses.
+Blondeen #3 writes in that Matt should play "Triple Pope" at his wedding. He also admits to being a brony. Matt is willing to watch an episode of {% workTitle "My Little Pony" %} for a review, but Ben refuses.

@@ -24,7 +24,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 archivist_note: Daniel is still just a guest host, as far as I can tell. 
 ---
-Daniel is upset that <i class="work-title">John Carter</i> is doing poorly at the box office.
+Daniel is upset that {% workTitle "John Carter" %} is doing poorly at the box office.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/03/episode-47-the-sfc-battle-royale-2012//#t=20:44">20:440</a>

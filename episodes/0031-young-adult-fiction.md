@@ -50,7 +50,7 @@ archivist_note: The DuckTales cartoon does not hold up very well as an adult, bu
 They discuss their favorite cartoons 
 
 <div class="quote">
-  <span class="quote-context is-size-6">On <i class="work-title">Captain Planet</i>'s brainwashing</span>
+  <span class="quote-context is-size-6">On {% workTitle "Captain Planet" %}'s brainwashing</span>
   <q class="ben">This obviously didn't...</q>
   <q class="matt">It did not work on me.</q>
   <q class="ben">You are the most un-green person on Planet Earth.</q>

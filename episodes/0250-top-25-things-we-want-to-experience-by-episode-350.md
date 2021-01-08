@@ -169,8 +169,8 @@ Matt's is unordered, Ben's is ordered
   {% timeLink podcast_file_url, '16:40' %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">I'm gonna predict...3.5, cuz I don't know what to expect. I have no idea what it's about, other than rabbits.</q>
-  <q class="ben">It's <i class="work-title">The Aeneid</i>, told with rabbits.</q>
+  <q class="ben">It's {% workTitle "The Aeneid" %}, told with rabbits.</q>
   <q class="matt">...all I know is rabbits.</q>
 </div>
 
-Ben suggests listening to <i class="work-title">Watership Down</i> and the <i class="work-title">Ocean at the End of the Lane</i> instead of reading them.
+Ben suggests listening to {% workTitle "Watership Down" %} and the {% workTitle "Ocean at the End of the Lane" %} instead of reading them.

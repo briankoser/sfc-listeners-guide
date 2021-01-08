@@ -22,6 +22,6 @@ last_listen: 2019-09-20
 recommendation: yes
 recommendation_reason: Definite listen if you've seen LOST and read The Stand. 
 ---
-Matt runs down the influences of <i class="work-title">The Stand</i> on <i class="work-title">LOST</i>.
+Matt runs down the influences of {% workTitle "The Stand" %} on {% workTitle "LOST" %}.
 
 {% timeLink podcast_file_url, '23:52' %}  Sci-Fi Christian Story Time: Disturbing biking imagery

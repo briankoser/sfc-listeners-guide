@@ -27,7 +27,7 @@ Matt caught up on the show by the 50th Anniversary <q class="archivist inline">C
 
 Ben's main criticism is that it's not a deep show; there's nothing that sticks with you.
 
-Ben said they'll know they arrived when the SFC has more episodes than <i class="work-title">Doctor Who</i>. <q class="archivist inline">As I write this, there are 854 Doctor Who episodes and 780 SFC episodes, so this should happen in 2020.</q>
+Ben said they'll know they arrived when the SFC has more episodes than {% workTitle "Doctor Who" %}. <q class="archivist inline">As I write this, there are 854 Doctor Who episodes and 780 SFC episodes, so this should happen in 2020.</q>
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 9 Episodes</h2>

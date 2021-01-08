@@ -63,7 +63,7 @@ Matt puts his mic on the altar at the Catholic Church.
   <span class="quote-context is-size-6"></span>
   <q class="ben">Episode 159. 2001: A Space Odyssey Review. *chants 'Monkeys!' in the background'</q>
   <q class="matt">Welcome! To The Sci-Fi Christian. Bringing you theology at warp speed. I'm Matt Anderson.</q>
-  <q class="ben">I'm Ben De Bono. We are back. Talking to you a little monkey-on-monkey action. And by that of course I mean, we just watched <i class="work-title">2001: A Space Odyssey</i>—</q>
+  <q class="ben">I'm Ben De Bono. We are back. Talking to you a little monkey-on-monkey action. And by that of course I mean, we just watched {% workTitle "2001: A Space Odyssey" %}—</q>
   <q class="matt">We're doing this over. I refuse that that be the beginning of this episode.</q>
 </div>
 

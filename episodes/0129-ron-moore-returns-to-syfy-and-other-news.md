@@ -30,17 +30,17 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 Ben suggests making the show's statute of limitations on spoilers 10 years.
 
-Ben's idea for the opening of <i class="work-title">Star Wars: Episode VII</i>: the opening scrawl says there's a Gungan reunion party on Naboo. Then a Death Star nukes Naboo. Then there's a second scrawl and the movie goes from there.
+Ben's idea for the opening of {% workTitle "Star Wars: Episode VII" %}: the opening scrawl says there's a Gungan reunion party on Naboo. Then a Death Star nukes Naboo. Then there's a second scrawl and the movie goes from there.
 
-Take That, Science: a "study" showed that red shirts died in greater numbers in <i class="work-title">Star Trek: TOS</i> but not in greater number proportionally. Ben says that's the worst news ever reported on the show.
+Take That, Science: a "study" showed that red shirts died in greater numbers in {% workTitle "Star Trek: TOS" %} but not in greater number proportionally. Ben says that's the worst news ever reported on the show.
 
 
 
 # Feedback
 The hosts decide they can't read every piece of feedback any more.
 
-Palindrome (one of the Blondeens) suggested the hosts live blog <i class="work-title">2001: A Space Odyssey</i> like they did for <i class="work-title">The Lord of the Rings</i>.
+Palindrome (one of the Blondeens) suggested the hosts live blog {% workTitle "2001: A Space Odyssey" %} like they did for {% workTitle "The Lord of the Rings" %}.
 
 Matt really wants to LARP once. Ben would do it.
 
-Ben thinks <i class="work-title">Jonathan Strange & Mr. Norrell</i> is an awful book. <q class="archivist inline">😲 I'm re-reading it for a Hugo's There podcast; I think it's in my top 5 favorite books.</q>
+Ben thinks {% workTitle "Jonathan Strange & Mr. Norrell" %} is an awful book. <q class="archivist inline">😲 I'm re-reading it for a Hugo's There podcast; I think it's in my top 5 favorite books.</q>

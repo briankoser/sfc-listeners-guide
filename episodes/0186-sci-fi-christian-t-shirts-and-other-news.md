@@ -29,9 +29,9 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 The store is open. Everything is priced at cost. 
 
-What the Frodo: Three of the former Doctors are staging a protest of the BBC over not appearing in the <i class="work-title">Doctor Who</i> 50th anniversary special
+What the Frodo: Three of the former Doctors are staging a protest of the BBC over not appearing in the {% workTitle "Doctor Who" %} 50th anniversary special
 
-Matt has to watch an episode of <i class="work-title">Gilmore Girls</i> with Des for every episode of <i class="work-title">Doctor Who</i> they watch, so he will probably not get caught up by the 50th anniversary. 
+Matt has to watch an episode of {% workTitle "Gilmore Girls" %} with Des for every episode of {% workTitle "Doctor Who" %} they watch, so he will probably not get caught up by the 50th anniversary. 
 
 What the Frodo: Red Wedding Halloween costumes are being sold with spoiler warnings
 

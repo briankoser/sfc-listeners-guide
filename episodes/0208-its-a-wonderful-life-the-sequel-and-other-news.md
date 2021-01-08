@@ -29,7 +29,7 @@ last_listen: 2019-07-23
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Star Partners and Hummingbird Productions are planning a sequel to <i class="work-title">It's a Wonderful Life</i>. <q class="archivist inline">It turned out that Paramount held the copyright and shut this project down. Thank God.</q>
+Star Partners and Hummingbird Productions are planning a sequel to {% workTitle "It's a Wonderful Life" %}. <q class="archivist inline">It turned out that Paramount held the copyright and shut this project down. Thank God.</q>
 
 The Coca Cola polar bears are getting a movie.
 
@@ -39,7 +39,7 @@ Take That, Science: Harvard and MIT scientists created a lightsaber
 
 What the Frodo: drunk and high ghost hunters couldn't find a ghost
 
-Encouraging Signs: after he's done with <i class="work-title">Game of Thrones</i>, Jack Gleason is quitting acting to work on humanitarian projects.
+Encouraging Signs: after he's done with {% workTitle "Game of Thrones" %}, Jack Gleason is quitting acting to work on humanitarian projects.
 
 
 

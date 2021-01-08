@@ -27,7 +27,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
-Ben edited and wrote the forward to Rick Lee James's Psalms book, <i class="work-title">Out of the Depths</i>
+Ben edited and wrote the forward to Rick Lee James's Psalms book, {% workTitle "Out of the Depths" %}
 . 
 
 Episode 200 will include a listener-voted best episode of all time. 

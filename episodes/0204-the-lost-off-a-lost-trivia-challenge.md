@@ -30,12 +30,12 @@ recommendation_reason: Fun to hear Ben disgusted
 ---
 <div class="quote">
   {% timeLink podcast_file_url, '11:25' %}
-  <q class="ben">Matt and Wayne, you two are the biggest <i class="work-title">LOST</i> fans I know. It's sickening. It's absolutely sickening how much you both love <i class="work-title">LOST</i>.</q>
+  <q class="ben">Matt and Wayne, you two are the biggest {% workTitle "LOST" %} fans I know. It's sickening. It's absolutely sickening how much you both love {% workTitle "LOST" %}.</q>
 </div>
 
-Ben compiled 42 <i class="work-title">LOST</i> questions
+Ben compiled 42 {% workTitle "LOST" %} questions
 
-Matt remembers thanking God for how good <i class="work-title">LOST</i> was. 
+Matt remembers thanking God for how good {% workTitle "LOST" %} was. 
 
 Final score: Wayne 11, Matt 18
 

@@ -34,9 +34,9 @@ Ben brings President Obama back on the show.
 
 
 # Main Topic
-Daniel leaves a voicemail apologizing to Ben for going to see <i class="work-title">G. I. Joe: Retaliation</i>.
+Daniel leaves a voicemail apologizing to Ben for going to see {% workTitle "G. I. Joe: Retaliation" %}.
 
-Ben listened to the <i class="work-title">G. I. Joe: Retaliation</i> episode. He just couldn't believe the episode happened.
+Ben listened to the {% workTitle "G. I. Joe: Retaliation" %} episode. He just couldn't believe the episode happened.
 
 Ben accidentally calls Koby, "Koby"  
 
@@ -68,11 +68,11 @@ Roger Ebert died
 
 <div class="quote">
   {% timeLink podcast_file_url, '34:20' %}
-  <q class="matt">Peter Berg, who is a director for <i class="work-title">Friday Night Lights</i>, these two other bad movies: <i class="work-title">Hancock</i>, <i class="work-title">Battleship</i>. He's on board to direct the pilot for <i class="work-title">The Leftovers</i>. Ben?</q>
+  <q class="matt">Peter Berg, who is a director for {% workTitle "Friday Night Lights" %}, these two other bad movies: {% workTitle "Hancock" %}, {% workTitle "Battleship" %}. He's on board to direct the pilot for {% workTitle "The Leftovers" %}. Ben?</q>
   <q class="ben">Yeah, that's gonna suck.</q>
 </div>
 
-Ben gives his <i class="work-title">The Lord of the Rings</i> pipe questions again. So far no one has entered the contest. 
+Ben gives his {% workTitle "The Lord of the Rings" %} pipe questions again. So far no one has entered the contest. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '44:10' %}

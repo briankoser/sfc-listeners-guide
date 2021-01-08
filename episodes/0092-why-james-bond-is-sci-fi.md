@@ -24,14 +24,14 @@ recommendation_reason: Loose discussion of "Is James Bond sci-fi" that trails of
 ---
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-92-why-james-bond-is-sci-fi/#t=3:09">3:09</a>
-  <span class="quote-context is-size-6">The villain in <i class="work-title">Moonraker</i> takes a group of genetically perfect people to a space station and plans to kill everyone on Earth and start over.</span>
+  <span class="quote-context is-size-6">The villain in {% workTitle "Moonraker" %} takes a group of genetically perfect people to a space station and plans to kill everyone on Earth and start over.</span>
   <q class="daniel">So Koby is not there in the space station?</q>
   <q class="matt">No, Koby wouldn't be there in the space station.</q>
 </div>
 
-Daniel's favorite James Bond movie is <i class="work-title">The Spy Who Loved Me</i>.
-Koby's favorite is <i class="work-title">Goldeneye</i>. 
-Matt's favorite is <i class="work-title">Casino Royale</i>.
+Daniel's favorite James Bond movie is {% workTitle "The Spy Who Loved Me" %}.
+Koby's favorite is {% workTitle "Goldeneye" %}. 
+Matt's favorite is {% workTitle "Casino Royale" %}.
 
 Daniel compares James Bond to Batman.
 

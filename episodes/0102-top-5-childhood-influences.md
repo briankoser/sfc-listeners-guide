@@ -98,7 +98,7 @@ Season 3, still using the Dr. Horrible main topic transition.
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/#t=00:38:51">38:51</a> Matt tells the story of Hercules yelling, "Disappointed"! 
 <q class="archivist"><a href="https://www.youtube.com/watch?v=_O1hM-k3aUY">YouTube link</a></q>
 
-The only reason Koby started watching Netflix is because they got <i class="work-title">Power Rangers</i>.
+The only reason Koby started watching Netflix is because they got {% workTitle "Power Rangers" %}.
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/#t=00:52:11">52:11</a>
@@ -121,7 +121,7 @@ The only reason Koby started watching Netflix is because they got <i class="work
 
 Matt wants to release 100 episodes in Season 3.
 
-Daniel admits that there's a Disney movie that's terrible: <i class="work-title">The Black Cauldron</i>.
+Daniel admits that there's a Disney movie that's terrible: {% workTitle "The Black Cauldron" %}.
 
 
 

@@ -59,15 +59,15 @@ Ben is Right: Matt misidentified an actor
 
 Stan Lee Quote of the Week: Stan rants about lines at Comic Con
 
-Matt also put <i class="work-title">Twelve Monkeys</i> on his wedding registry
+Matt also put {% workTitle "Twelve Monkeys" %} on his wedding registry
 
-They're planning to live-blog <i class="work-title">Sharknado</i>
+They're planning to live-blog {% workTitle "Sharknado" %}
 
 
 
 # Feedback 
 A lot of listeners sent in negative feedback about Episode 172 What We Would Change about the Comics Industry. Steve unsubscribed because of the negativity over superhero movies.
 
-Ben is Right: in season 1 of <i class="work-title">Super Book</i>, the kids got sucked into the book instead of the computer
+Ben is Right: in season 1 of {% workTitle "Super Book" %}, the kids got sucked into the book instead of the computer
 
-Matt bleeped a <i class="work-title">Man of Steel</i> spoiler
+Matt bleeped a {% workTitle "Man of Steel" %} spoiler

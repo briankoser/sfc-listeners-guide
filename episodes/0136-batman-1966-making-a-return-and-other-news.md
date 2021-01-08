@@ -57,9 +57,9 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 
 Ben says there's no moral conflict in pirating content that's not available for purchase as long as you pay for it when it becomes available. <q class="archivist">It's certainly a grey area. Similar questions to ponder: is it OK to break the letter of the law if you uphold the spirit? For example, is it OK to rip your purchased DVDs so you can watch from a computer with no disc drive? Is it OK to pirate "orphan works" (e.g. a book where the author has died and no one knows who owns the copyright)? I don't think you can claim a right to do any of these things, but that doesn't necessarily make them immoral.</q>
 
-Nicolas Cage is starring in a <i class="work-title">Left Behind</i> reboot film.
+Nicolas Cage is starring in a {% workTitle "Left Behind" %} reboot film.
 
-Matt hates <i class="work-title">Left Behind</i> and hopes Nicolas Cage kills the belief in the rapture.
+Matt hates {% workTitle "Left Behind" %} and hopes Nicolas Cage kills the belief in the rapture.
 
 {% timeLink podcast_file_url, '21:24' %} New segment: Ben is Right
 
@@ -78,11 +78,11 @@ Take That, Science: scientists have made a phaser like device with sound waves.
   <q class="ben">Take that, Calvin!</q>
 </div>
 
-Ben starts a contest: the first person to email him the answers to five trivia questions related to <i class="work-title">The Lord of the Rings</i> and pipe smoking can pick a book, movie, or TV show for Ben to watch and review.
+Ben starts a contest: the first person to email him the answers to five trivia questions related to {% workTitle "The Lord of the Rings" %} and pipe smoking can pick a book, movie, or TV show for Ben to watch and review.
 
 <ol>
-  <li>Of the four main hobbits, who is the only one who doesn't smoke in <i class="work-title">The Lord of the Rings</i>? 
-  <li>Which two villains smoke in <i class="work-title">The Lord of the Rings</i>? 
+  <li>Of the four main hobbits, who is the only one who doesn't smoke in {% workTitle "The Lord of the Rings" %}? 
+  <li>Which two villains smoke in {% workTitle "The Lord of the Rings" %}? 
   <li>Of the nine members of the fellowship, which one loses his pipe on the journey?
   <li>Which race crafts pipes but does not smoke itself? 
   <li>What was Tolkiens preferred material for pipes? 

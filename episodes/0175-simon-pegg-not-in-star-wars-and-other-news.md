@@ -37,9 +37,9 @@ No one has made a "Matt is Right" clip.
 
 The hosts tease their upcoming gear store. 
 
-Encouraging Signs: <i class="work-title">Under the Dome</i> only got renewed for 13 episodes
+Encouraging Signs: {% workTitle "Under the Dome" %} only got renewed for 13 episodes
 
-What the Frodo: Colin Ferguson said the end of lighthearted programming at Syfy is here with <i class="work-title">Warehouse 13</i> and <i class="work-title">Eureka</i> ending (even though movies like <i class="work-title">Sharknado 2</i> are still coming)
+What the Frodo: Colin Ferguson said the end of lighthearted programming at Syfy is here with {% workTitle "Warehouse 13" %} and {% workTitle "Eureka" %} ending (even though movies like {% workTitle "Sharknado 2" %} are still coming)
 
 Take That, Science: guy on craigslist is selling a time machine
 

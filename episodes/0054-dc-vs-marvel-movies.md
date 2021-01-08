@@ -24,4 +24,4 @@ last_listen: 2018-05-11
 recommendation: no
 recommendation_reason: Mostly topics already covered in other superhero episodes.
 ---
-Ben says he would go to Disney World if they changed the Tom Sawyer ride to a <i class="work-title">LOST</i> ride.
+Ben says he would go to Disney World if they changed the Tom Sawyer ride to a {% workTitle "LOST" %} ride.

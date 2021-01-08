@@ -35,7 +35,7 @@ recommendation_reason: Some fun moments (check out Matt "playing the marimba"), 
 Matt and Ben discuss where they were on 9/11.
 
 # News
-The <i class="work-title">Back to the Future</i> trilogy is Matt's favorite movie series
+The {% workTitle "Back to the Future" %} trilogy is Matt's favorite movie series
 
 # Main Topic
 
@@ -116,11 +116,11 @@ The <i class="work-title">Back to the Future</i> trilogy is Matt's favorite movi
   </div>
 </div>
 
-"Life & Death" from <i class="work-title">LOST</i> makes Matt cry
+"Life & Death" from {% workTitle "LOST" %} makes Matt cry
 
-They hug while "Moving On" from <i class="work-title">LOST</i> plays
+They hug while "Moving On" from {% workTitle "LOST" %} plays
 
-Ben agrees that the final episode of <i class="work-title">LOST</i> was perfect. 
+Ben agrees that the final episode of {% workTitle "LOST" %} was perfect. 
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/09/episode-30-top-5-sci-fi-theme-songs/#t=1:28:30">1:28:30</a> Matt "plays" the Jurassic Park theme "on the marimba"
 

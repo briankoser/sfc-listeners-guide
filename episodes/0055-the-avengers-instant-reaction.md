@@ -22,7 +22,7 @@ last_listen: 2018-05-14
 recommendation: no
 recommendation_reason: Brief look at <i class="work-title">The Avengers</i>
 ---
-<i class="work-title">The Avengers</i> is Koby's favorite movie of all time. 
+{% workTitle "The Avengers" %} is Koby's favorite movie of all time. 
 
 Matt's favorite number is 5.
 

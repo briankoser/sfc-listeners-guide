@@ -35,10 +35,10 @@ Both Ben and Matt wrote papers on Genesis 1 in grad school. This book was recomm
 
 Matt used the following books for his paper:
 
-- <i class="work-title">The Lost World of Genesis One</i> / John Walton
-- <i class="work-title">Inspiration and Incarnation</i> / Peter Enns (he was fired because it was so controversial)
-- <i class="work-title">The Genesis Debate</i> / Ronald Youngblood
-- <i class="work-title">Three Views on Creation and Evolution</i> / Zondervan
+- {% workTitle "The Lost World of Genesis One" %} / John Walton
+- {% workTitle "Inspiration and Incarnation" %} / Peter Enns (he was fired because it was so controversial)
+- {% workTitle "The Genesis Debate" %} / Ronald Youngblood
+- {% workTitle "Three Views on Creation and Evolution" %} / Zondervan
 
 
 
@@ -126,7 +126,7 @@ When someone says evolution happened by chance, they are making a physical and a
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:19:06' %}
-  <span class="quote-context is-size-6">Ben realized the scene on Ramandu's island in <i class="work-title">The Voyage of the Dawn Treader</i> is symbolic of Eucharist.</span>
+  <span class="quote-context is-size-6">Ben realized the scene on Ramandu's island in {% workTitle "The Voyage of the Dawn Treader" %} is symbolic of Eucharist.</span>
   <q class="ben">This entire section from them getting to the table, through the water, is Catholic Eucharist through and through. Let me explain.</q>
   <q class="matt">OK. I'm looking at you in stunned silence. As if you couldn't make people more mad.</q>
   <q class="ben">'Now you're taking CS Lewis from us!'</q>

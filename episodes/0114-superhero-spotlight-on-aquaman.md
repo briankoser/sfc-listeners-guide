@@ -29,12 +29,12 @@ recommendation_reason: An interesting look at an mildly interesting superhero, b
 # Opening
 Ben Avery from Strangers and Aliens guest hosts. 
 
-<i class="work-title">Arrow</i> is Matt's favorite new show of the year.
+{% workTitle "Arrow" %} is Matt's favorite new show of the year.
 
 
 
 # Main Topic
-<i class="work-title">Super Friends</i> introduced all three hosts to Aquaman.
+{% workTitle "Super Friends" %} introduced all three hosts to Aquaman.
 
 Aquaman wore orange and green. Most heroes at the time wore primary colors, while villains generally wore secondary colors.
 
@@ -43,6 +43,6 @@ Aquaman wore orange and green. Most heroes at the time wore primary colors, whil
   <q class="matt">Through my deep research into the internet, I found a website called 'Wikipedia', and here's what it says:</q>
 </div>
 
-Daniel says <i class="work-title">Batman: The Brave and the Bold</i> Aquaman is best animated version. Matt and Ben disagree. <q class="archivist inline">Daniel is correct.</q>
+Daniel says {% workTitle "Batman: The Brave and the Bold" %} Aquaman is best animated version. Matt and Ben disagree. <q class="archivist inline">Daniel is correct.</q>
 
 Ben Avery gasped out loud at the end of <a href=" http://dc.wikia.com/wiki/Aquaman_Vol_7_16">Aquaman Vol. 17 Issue 16</a>.

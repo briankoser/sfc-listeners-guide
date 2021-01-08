@@ -28,10 +28,10 @@ Strangers and Aliens didn't send the comics, so Matt declares the sale of Koby v
 
 
 # Main Topic
-{% timeLink podcast_file_url, '4:45' %} Ben leaves a voicemail challenging Koby to list his top 5 themes from <i class="work-title">Power Rangers</i>.
+{% timeLink podcast_file_url, '4:45' %} Ben leaves a voicemail challenging Koby to list his top 5 themes from {% workTitle "Power Rangers" %}.
 
 <div class="top-five">
-  <h2 class="has-text-centered">Top 5 themes from <i class="work-title">Power Rangers</i></h2>
+  <h2 class="has-text-centered">Top 5 themes from {% workTitle "Power Rangers" %}</h2>
   <div class="columns">
     <div class="column koby">
       <h3>Koby</h3>
@@ -55,7 +55,7 @@ There is a fake religion based off the show called "Rangerism".
 
 
 # Feedback
-Matt asked the listeners to send three-word reactions to <i class="work-title">Power Rangers</i>.
+Matt asked the listeners to send three-word reactions to {% workTitle "Power Rangers" %}.
 - Travis: Nostalgia powers, activate!
 - Max: It's Morphin' time!
 - Daniel: Ben joins in

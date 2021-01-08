@@ -33,14 +33,14 @@ For the first time they lost 5 minutes of recording with no video backup. They d
 
 
 
-# news
-Matt is shocked by <i class="work-title">Guardians of the Galaxy</i> casting. 
+# News
+Matt is shocked by {% workTitle "Guardians of the Galaxy" %} casting. 
 
-{% timeLink podcast_file_url, '4:48' %} <i class="work-title">Guardians of the Galaxy</i> will either be amazing or terrible
+{% timeLink podcast_file_url, '4:48' %} {% workTitle "Guardians of the Galaxy" %} will either be amazing or terrible
 
-What the Frodo: Whoopi Goldberg was cast in <i class="work-title">Teenage Mutant Ninja Turtles</i>.
+What the Frodo: Whoopi Goldberg was cast in {% workTitle "Teenage Mutant Ninja Turtles" %}.
 
-Matt Smith is actually leaving <i class="work-title">Doctor Who</i>. 
+Matt Smith is actually leaving {% workTitle "Doctor Who" %}. 
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 choices for the 12th Doctor</h2>
@@ -80,7 +80,7 @@ Matt Smith is actually leaving <i class="work-title">Doctor Who</i>.
   </div>
 </div>
 
-What the Frodo: people set up a <i class="work-title">Battlestar Galactica</i> LARP on a retired Swedish battleship.
+What the Frodo: people set up a {% workTitle "Battlestar Galactica" %} LARP on a retired Swedish battleship.
 
 What the Frodo: there's a Trolls movie coming that will explain the origin of the trolls' colorful hair
 
@@ -94,13 +94,13 @@ More video game news: Ben tries again to create a sound clip.
 
 Take That, Science: scientists have discovered mammoth blood, making cloning more possible
 
-Take That, Science: Buzz Aldrin blasted <i class="work-title">After Earth</i> for being scientific inaccurate
+Take That, Science: Buzz Aldrin blasted {% workTitle "After Earth" %} for being scientific inaccurate
 
 Take That, Science: NASA is trying to implement an emotion control mechanism to prevent astronauts from going crazy on the trip to Mars
 
 A Grumpy Cat movie is in the works.
 
-Matt put <i class="work-title">Talladega Nights</i> on his wedding registry.
+Matt put {% workTitle "Talladega Nights" %} on his wedding registry.
 
 <div class="quote">
   {% timeLink podcast_file_url, '38:18' %}

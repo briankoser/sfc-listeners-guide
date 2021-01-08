@@ -22,11 +22,11 @@ recommendation: yes
 recommendation_reason: Interesting discussion of The Stand and King's oeuvre in general
 archivist_note: made a plan for the project, read it 
 ---
-After three years, <i class="work-title">The Stand</i> readalong is complete.
+After three years, {% workTitle "The Stand" %} readalong is complete.
 
 Ben read the book in three days in high school.
 
-Stephen King wrote <i class="work-title">The Stand</i> as an American fantasy epic, like <i class="work-title">The Lord of the Rings</i>.
+Stephen King wrote {% workTitle "The Stand" %} as an American fantasy epic, like {% workTitle "The Lord of the Rings" %}.
 
 Stephen King got his worst writer's block during the writing. He didn't quit only because he was already two-thirds through the book.
 

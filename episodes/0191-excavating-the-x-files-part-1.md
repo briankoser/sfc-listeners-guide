@@ -28,8 +28,8 @@ archivist_note: I'm interested to see when the turning point of this series happ
   <q class="ben">It's a dead show, and we're gonna dig it up.</q>
 </div>
 
-<i class="work-title">The X-Files</i> was the first show Matt obsessed over.
+{% workTitle "The X-Files" %} was the first show Matt obsessed over.
 
-Vince Gilligan met Bryan Cranston on <i class="work-title">The X-Files</i>. 
+Vince Gilligan met Bryan Cranston on {% workTitle "The X-Files" %}. 
 
 Real-Life X-File: Nazi UFOs
