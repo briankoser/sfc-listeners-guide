@@ -45,11 +45,10 @@ Matt wants to raise money for a cause in 2014. Ben wants to pay their own bills 
 
 <div class="quote">
   {% timeLink podcast_file_url, '6:50' %}
-  <q class="matt">Speaking of donations, this episode is brought to you by Andrew, who just donated a little bit ago this evening, he gave us *bleep*. Oh, I'm not supposed to say that much. Oops a daisy. He gave us some money—</q>
+  <q class="matt">Speaking of donations, this episode is brought to you by Andrew, who just donated a little bit ago this evening, he gave us [bleep]. Oh, I'm not supposed to say that much. Oops a daisy. He gave us some money—</q>
   <q class="ben">Fifty thousand. Fifty thousand. So the rest of you can manage a measley hundred, I think.</q>
 </div>
 
-What the Frodo: James Cameron said you should watch {% work "Avatar" %}
- like it was {% work "The Godfather" %} 
+What the Frodo: James Cameron said you should watch {% work "Avatar" %} like it was {% work "The Godfather" %} 
 
 Take That, Science: the NSA has agents playing World of Warcraft to surveil terrorists

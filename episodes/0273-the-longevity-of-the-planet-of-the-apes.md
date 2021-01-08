@@ -60,7 +60,7 @@ Alternate episode title: Ape-braham Lincoln
 <div class="quote">
   {% timeLink podcast_file_url, '45:08' %}
   <span class="quote-context is-size-6"></span>
-  <q class="matt">I mean, if I had to sit down and watch {% work "Dawn of the Planet of the Apes" %}, I wouldn't be in misery, whereas I feel like if I had to sit down and watch the second one, {% workTitle "Beneath" %}, I'd be in misery.</q>
+  <q class="matt">I mean, if I had to sit down and watch {% work "Dawn of the Planet of the Apes" %}, I wouldn't be in misery, whereas I feel like if I had to sit down and watch the second one, {% work "Beneath" %}, I'd be in misery.</q>
   <q class="ben">So, let's just be clear: your qualifications for reaching number 3 on this list--</q>
   <q class="matt">In misery!</q>
   <q class="ben">--you wouldn't be in misery if you had to watch it.</q>
