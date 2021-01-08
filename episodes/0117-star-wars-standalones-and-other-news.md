@@ -109,12 +109,12 @@ Jim Carrey and Adam Sandler are being considered as voice actors for {% work "Gu
 </div>
  
 Ben makes fun of {% work "Supernatural" %}'s 78th season 
-<q class="archivist inline">It's 14th season premiered last week.</q>
+{% arc %}It's 14th season premiered last week.{% endarc %}
 
 Take That, Science: a filmmaker is using an AI to help write the script to a short film
 
 Matt asks <a href="cleverbot.com">Clever Bot</a>, what do you think about The Sci-Fi Christian? Answer: I have never been to the Netherlands.
-<q class="archivist inline">I asked Clever Bot the same question 5 years later. It's answer this time was, Very cold!</q>
+{% arc %}I asked Clever Bot the same question 5 years later. It's answer this time was, Very cold!{% endarc %}
 
 Take That, Science: a new prime has been discovered, the largest yet.
 

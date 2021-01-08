@@ -96,7 +96,7 @@ Season 3, still using the Dr. Horrible main topic transition.
 </div>
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/#t=00:38:51">38:51</a> Matt tells the story of Hercules yelling, "Disappointed"! 
-<q class="archivist"><a href="https://www.youtube.com/watch?v=_O1hM-k3aUY">YouTube link</a></q>
+{% arc %}<a href="https://www.youtube.com/watch?v=_O1hM-k3aUY">YouTube link</a>{% endarc %}
 
 The only reason Koby started watching Netflix is because they got {% work "Power Rangers" %}.
 
@@ -116,8 +116,8 @@ The only reason Koby started watching Netflix is because they got {% work "Power
   <q class="daniel">Number one for Matthew.</q>
   <q class="matt">Yes, number one.</q>
   <q class="koby">It better not be pathetic.</q>
-  <q class="archivist">Pathetic like wanting a Power Rangers tattoo at 24?</q>
 </div>
+{% arc %}Pathetic like wanting a Power Rangers tattoo at 24?{% endarc %}
 
 Matt wants to release 100 episodes in Season 3.
 
@@ -134,4 +134,4 @@ Daniel admits that there's a Disney movie that's terrible: {% work "The Black Ca
   <q class="matt">Still recording, folks.</q>
   <q class="daniel">I'm aware.</q>
 </div>
-<q class="archivist inline">Guessing this is a reference to Matt getting engaged (№ 111)</q>
+{% arc %}Guessing this is a reference to Matt getting engaged (№ 111){% endarc %}

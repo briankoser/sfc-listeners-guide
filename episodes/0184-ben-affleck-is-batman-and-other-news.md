@@ -54,7 +54,7 @@ Ben starts a contest: guess when Matt will finish {% work "Flight of the Angels"
 
 Peter Capaldi will be the next Doctor.
 
-Matt loves the state fair. Ben hates the state fair. <q class="archivist inline">The least surprising reveal in show history</q>
+Matt loves the state fair. Ben hates the state fair. {% arc %}The least surprising reveal in show history{% endarc %}
 
 Frederick Pohl died. 
 
@@ -74,9 +74,9 @@ What the Frodo: Vin Diesel mortgaged his house to finance the third Riddick movi
   <q class="matt">Take that, {% work "Avatar!" %}</q>
 </div>
 
-Matt Damon is in Interstellar <q class="archivist inline">Did Matt forget? IIRC he's surprised when Damon shows up in the movie.</q>
+Matt Damon is in Interstellar {% arc %}Did Matt forget? IIRC he's surprised when Damon shows up in the movie.{% endarc %}
 
-Stan Lee Quote of the Week: Stan sings his own version of Yankee Doodle about Geeks <q class="archivist inline">Painful.</q>
+Stan Lee Quote of the Week: Stan sings his own version of Yankee Doodle about Geeks {% arc %}Painful.{% endarc %}
 
 Take That, Science: scientists say they found key to actual warp drive
 

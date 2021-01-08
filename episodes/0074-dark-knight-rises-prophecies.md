@@ -86,7 +86,7 @@ spoilers:
 - <i class="work-title">The Dark Knight Rises</i>
 ---
 # Opening
-Matt started saying the title at the beginning of the episode for blind people. Ben doesn't believe blind people use the internet. <q class="archivist inline">They use <a href="https://en.m.wikipedia.org/wiki/Screen_reader">screen readers</a>.</q>
+Matt started saying the title at the beginning of the episode for blind people. Ben doesn't believe blind people use the internet. {% arc %}They use <a href="https://en.m.wikipedia.org/wiki/Screen_reader">screen readers</a>.{% endarc %}
 
 If you had to lose one of the five senses, which would you choose? Matt and Ben both choose smell. 
 
@@ -118,7 +118,7 @@ How did Helen Keller do it?
 # Main Topic
 Matt wants Batman to die because this might be the only chance to do that in film.
 
-Ben predicts that Bane will no longer be an unintelligent character in DC comics. <q class="archivist">According to my <a href="https://en.m.wikipedia.org/wiki/Bane_(DC_Comics)">brief Wikipedia research</a>, Bane was always intelligent in the comics. Because of the false premise this is neither a true nor false prophecy.</q>
+Ben predicts that Bane will no longer be an unintelligent character in DC comics. {% arc %}According to my <a href="https://en.m.wikipedia.org/wiki/Bane_(DC_Comics)">brief Wikipedia research</a>, Bane was always intelligent in the comics. Because of the false premise this is neither a true nor false prophecy.{% endarc %}
 
 
 

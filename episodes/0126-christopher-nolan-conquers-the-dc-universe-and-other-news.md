@@ -75,7 +75,7 @@ Stan Lee Quote of the Week: Stan thinks that kids that wear helmets while roller
   <q class="ben">I heard it sucked. I mean, the Bible's great, but the adaptation...</q>
 </div>
 
-Take That, Science: The world's first space tourist is planning to fund a trip to Mars in 2018 <q class="archivist inline">He decided 8 months later that <a href="https://www.newscientist.com/article/dn24633-ambitious-mars-joy-ride-cannot-succeed-without-nasa/">he couldn't do it without NASA's Space Launch System</a>, which will not be ready for use until 2020 (and probably not available for Tito's use anyway).</q>
+Take That, Science: The world's first space tourist is planning to fund a trip to Mars in 2018 {% arc %}He decided 8 months later that <a href="https://www.newscientist.com/article/dn24633-ambitious-mars-joy-ride-cannot-succeed-without-nasa/">he couldn't do it without NASA's Space Launch System</a>, which will not be ready for use until 2020 (and probably not available for Tito's use anyway).{% endarc %}
 
 Take That, Science: scientists cured HIV in a newborn baby
 

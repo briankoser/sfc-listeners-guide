@@ -32,13 +32,13 @@ If it's possible, it is possible we're already in a simulation.
 
 Who owns the new symphonies that AI Mozart writes?
 
-Simulations could hypothetically end politics: if you disagree on policy, you could simulate both and choose the policy with better results. <q class="archivist inline">"Better results" is a value judgment, so I think you'd still have a place for politics.</q>
+Simulations could hypothetically end politics: if you disagree on policy, you could simulate both and choose the policy with better results. {% arc %}"Better results" is a value judgment, so I think you'd still have a place for politics.{% endarc %}
 
 {% timeLink podcast_file_url, '31:24' %} Predicting what episode they'll be on by June 24, 2019
 
 Ben says 750, Matt says 1113
 
-<q class="archivist">They got to 729 in the main feed, plus 31 Patreon episodes. You could even fudge the numbers to get 750 exactly: 729 Main feed, 11 Extra, 9 Sports suite, plus 1 Bible Trivia episode. The uncensored episodes wouldn't have happened without Patreon, so those are left off.</q>
+{% arc %}They got to 729 in the main feed, plus 31 Patreon episodes. You could even fudge the numbers to get 750 exactly: 729 Main feed, 11 Extra, 9 Sports suite, plus 1 Bible Trivia episode. The uncensored episodes wouldn't have happened without Patreon, so those are left off.{% endarc %}
 
 Would AI have souls?
 

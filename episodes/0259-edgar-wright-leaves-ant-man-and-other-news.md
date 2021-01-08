@@ -33,4 +33,4 @@ Take That, Science: Ancient Egyptians used water to make the sand stiffer where 
 
 {% timeLink podcast_file_url, '14:18' %} They discuss the title <i class='work-title'>Batman v Superman: Dawn of Justice</i>
 
-Matt wants to revisit old news episodes and see how things turned out. <q class="archivist inline">I got you</q>
+Matt wants to revisit old news episodes and see how things turned out. {% arc %}I got you{% endarc %}

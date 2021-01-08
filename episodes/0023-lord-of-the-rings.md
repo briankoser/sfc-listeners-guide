@@ -36,7 +36,7 @@ recommendation: yes-timeloop
 recommendation_reason: Great discussion of themes from <i class="work-title">The Lord of the Rings</i>.
 ---
 # News
-Matt corrects Ben on "Lindelhof" <q class="archivist inline">I don't think Ben's doing it deliberately yet</q>
+Matt corrects Ben on "Lindelhof" {% arc %}I don't think Ben's doing it deliberately yet{% endarc %}
 
 <div class="quote">
   <span class="quote-context is-size-6"></span>

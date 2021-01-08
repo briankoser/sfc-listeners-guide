@@ -67,7 +67,7 @@ archivist_note:
   <q class="ben">Against my better judgment, I am getting excited about this movie...this is looking really, really good.</q>
 </div>
 
-Ben is still really excited about {% work "The Hobbit" %} movie <q class="archivist">☹️</q>
+Ben is still really excited about {% work "The Hobbit" %} movie {% arc %}☹️{% endarc %}
 
 First Dark Knight Rises news <q class="ben inline">We are going to cover everything that is newsworthy, or even not newsworthy.</q>
 

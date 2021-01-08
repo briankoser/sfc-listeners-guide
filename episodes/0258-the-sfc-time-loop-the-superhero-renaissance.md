@@ -78,4 +78,4 @@ Hopefully superhero movies will help bring us through postmodernism.
 
 The genre is unique because it's currently the only one that's mythological.
 
-Will directors and studios see the success of {% work "The Dark Knight" %} as caused by it's dark and gritty feel or because it had things deep and objective to say? <q class="archivist inline">Sorry guys, they took dark and gritty</q>
+Will directors and studios see the success of {% work "The Dark Knight" %} as caused by it's dark and gritty feel or because it had things deep and objective to say? {% arc %}Sorry guys, they took dark and gritty{% endarc %}

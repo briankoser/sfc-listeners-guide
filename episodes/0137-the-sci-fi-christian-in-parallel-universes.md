@@ -55,11 +55,11 @@ The hosts and the listeners try to define terms again.
 
 Aaron Reini thinks of reboots as alternate universes.
 
-Matt says parallel universes are very unlikely to have, for example, another Ben and Matt, because of the butterfly effect. <q class="archivist inline">If there are infinite parallel worlds, wouldn't even "very unlikely" worlds have to exist?</q> 
+Matt says parallel universes are very unlikely to have, for example, another Ben and Matt, because of the butterfly effect. {% arc %}If there are infinite parallel worlds, wouldn't even "very unlikely" worlds have to exist?{% endarc %} 
 
 Ben says it's surprising Hitler didn't win. He gives a Sci-Fi Christian tip: if you invade Russia, do it in the summer. 
 
-Do parallel universes require time travel? <q class="archivist inline">No?</q>
+Do parallel universes require time travel? {% arc %}No?{% endarc %}
 
 Is there an alternate universe where Jesus didn't die?
 

@@ -43,6 +43,6 @@ Aquaman wore orange and green. Most heroes at the time wore primary colors, whil
   <q class="matt">Through my deep research into the internet, I found a website called 'Wikipedia', and here's what it says:</q>
 </div>
 
-Daniel says {% work "Batman: The Brave and the Bold" %} Aquaman is best animated version. Matt and Ben disagree. <q class="archivist inline">Daniel is correct.</q>
+Daniel says {% work "Batman: The Brave and the Bold" %} Aquaman is best animated version. Matt and Ben disagree. {% arc %}Daniel is correct.{% endarc %}
 
 Ben Avery gasped out loud at the end of <a href=" http://dc.wikia.com/wiki/Aquaman_Vol_7_16">Aquaman Vol. 17 Issue 16</a>.

@@ -148,7 +148,7 @@ What traits are manly?
   </div>
 </div>
 
-Ben says movie Aragorn is a wimp because he doesn't want to be king. <q class="archivist inline">I guess they tried to give him a hero's journey and this was his 'refusal of the call'.</q>
+Ben says movie Aragorn is a wimp because he doesn't want to be king. {% arc %}I guess they tried to give him a hero's journey and this was his 'refusal of the call'.{% endarc %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '24:15' %}
@@ -166,7 +166,7 @@ One male archetype is the king, either noble or tyrant.
 
 Authentic and godly masculinity is neither suppressed nor uncontrolled
 
-Brad uses the term "buttkickability" to mean "able to kick butt". Ben thinks it should be "buttkickableness". <q class="archivist inline">I propose "buttkickery"</q>
+Brad uses the term "buttkickability" to mean "able to kick butt". Ben thinks it should be "buttkickableness". {% arc %}I propose "buttkickery"{% endarc %}
 
 Matt is the only one in the room without a beard. 
 

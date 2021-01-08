@@ -28,7 +28,7 @@ Batman 1966 is coming to DVD.
 
 What the Frodo: Kristin Stewart has been cast in a 1984 film adapted as a young adult romance
 
-Ben likes Magic: The Gathering <q class="archivist inline">👍</q>
+Ben likes Magic: The Gathering.
 
 Take That, Science: the majority of the most valuable movie stars of 2013 are in sci-fi movies
 

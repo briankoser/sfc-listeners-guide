@@ -101,7 +101,7 @@ recommendation_reason: Not a super interesting discussion.
   </div>
 </div>
 
-Ben and Matt are both reading {% work "Out of the Silent Planet" %} for the Strangers and Aliens book club. Both dislike the book. <q class="archivist inline">👍</q>
+Ben and Matt are both reading {% work "Out of the Silent Planet" %} for the Strangers and Aliens book club. Both dislike the book.
 
 <div class="quote">
   {% timeLink podcast_file_url, '48:48' %}
@@ -113,7 +113,7 @@ Ben and Matt are both reading {% work "Out of the Silent Planet" %} for the Stra
 
 
 # Feedback
-Ben and Matt call foul on Chad picking {% work "The Hitchhiker's Guide to the Galaxy" %} because it's not a trilogy <q class="archivist">Douglas Adams, with his droll sense of humor, continued to refer to the series as a trilogy even after he wrote the fourth and fifth books. The subtitles used in subsequent printings include "The Trilogy of Four", "A Trilogy in Five Parts", and "A Sixth Part in the Increasingly Inaccurate Hitchhiker's Trilogy".</q>
+Ben and Matt call foul on Chad picking {% work "The Hitchhiker's Guide to the Galaxy" %} because it's not a trilogy {% arc %}Douglas Adams, with his droll sense of humor, continued to refer to the series as a trilogy even after he wrote the fourth and fifth books. The subtitles used in subsequent printings include "The Trilogy of Four", "A Trilogy in Five Parts", and "A Sixth Part in the Increasingly Inaccurate Hitchhiker's Trilogy".{% endarc %}
 
 Aaron Reini names {% work "The Hobbit" %} movie trilogy "the most unnecessary trilogy". Ben says he could not disagree more after how good the first movie was.
 

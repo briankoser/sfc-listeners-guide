@@ -75,7 +75,7 @@ Matt is wearing an Epic Life t-shirt
 
 Ben doesn't recommend reading {% work "The Wheel of Time" %}.
 
-Ben is planning to watch classic {% work "Doctor Who" %}. <q class="archivist inline">I bet he didn't make it 5 minutes, they do not hold up.</q>
+Ben is planning to watch classic {% work "Doctor Who" %}. {% arc %}I bet he didn't make it 5 minutes, they do not hold up.{% endarc %}
 
 Matt is thinking about reading {% work "Paradise Lost" %}. 
 

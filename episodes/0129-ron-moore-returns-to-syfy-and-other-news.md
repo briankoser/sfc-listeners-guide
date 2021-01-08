@@ -43,4 +43,5 @@ Palindrome (one of the Blondeens) suggested the hosts live blog {% work "2001: A
 
 Matt really wants to LARP once. Ben would do it.
 
-Ben thinks {% work "Jonathan Strange & Mr. Norrell" %} is an awful book. <q class="archivist inline">😲 I'm re-reading it for a Hugo's There podcast; I think it's in my top 5 favorite books.</q>
+Ben thinks {% work "Jonathan Strange & Mr. Norrell" %} is an awful book. 
+{% arc %}One of my favorites. Ben changed his mind after a 2020 re-read.{% endarc %}

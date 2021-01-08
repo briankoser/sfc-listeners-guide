@@ -34,7 +34,7 @@ recommendation_reason: Great discussion about the moral implications of an immor
   <q class="matt">Stop! Stop!</q>
 </div>
 
-Ben watched half of the first episode of {% work "Star Trek: The Next Generation" %} and hated it. <q class="archivist inline">If you're interested in checking the show out, don't start with season 1. Check out {% work "Measure of a Man" %} or {% work "Darmok" %}.</q>
+Ben watched half of the first episode of {% work "Star Trek: The Next Generation" %} and hated it. {% arc %}If you're interested in checking the show out, don't start with season 1. Check out {% work "Measure of a Man" %} or {% work "Darmok" %}.{% endarc %}
 
 The Sci-Fi Feud...continues?
 
@@ -131,18 +131,18 @@ Aquinas theorized that each angel is a different species.
 
 If death ceases to exist, does Jesus' death still have meaning?
 
-How could the gospel be communicated as salvation from death in a culture where death has no meaning? <q class="archivist inline">You do have to solve this problem for cultures (like Ben mentioned) that embrace death.</q>
+How could the gospel be communicated as salvation from death in a culture where death has no meaning? {% arc %}You do have to solve this problem for cultures (like Ben mentioned) that embrace death.{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-86-the-morality-of-immortality#t=51:48">51:48</a>
   <span class="quote-context is-size-6">According to Ben, 500 years ago the average age was "34 or something" and if Matt had been alive then he'd be carted off to the nursing home now that he's 30.</span>
   <q class="ben">People, don't fact check me too closely.</q>
   
-  <q class="archivist"><a href="/img/dont-tell-me.gif">Let's fact check this closely.</a> I can't find reliable infant mortality rates for this period, but it seems that a male English aristocrat (closest demographic I could find for Matt) who reached the age of 21 would, on average, <a href="https://en.m.wikipedia.org/wiki/Life_expectancy">live to 71</a>.</q>
+  {% arc %}<a href="/img/dont-tell-me.gif">Let's fact check this closely.</a> I can't find reliable infant mortality rates for this period, but it seems that a male English aristocrat (closest demographic I could find for Matt) who reached the age of 21 would, on average, <a href="https://en.m.wikipedia.org/wiki/Life_expectancy">live to 71</a>.{% endarc %}
 </div>
 
 
-How much of our feeling that death is wrong is due to our culture's deification of youth? <q class="archivist inline">We probably take it too far, but death is an enemy (1 Cor. 15:26), so I think some feeling of wrongness is appropriate.</q>
+How much of our feeling that death is wrong is due to our culture's deification of youth? {% arc %}We probably take it too far, but death is an enemy (1 Cor. 15:26), so I think some feeling of wrongness is appropriate.{% endarc %}
 
 
 

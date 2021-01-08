@@ -51,4 +51,4 @@ Politics
 
 {% timeLink podcast_file_url, '56:35' %} Sci-Fi Christian Story Time: Matt is no longer the biggest {% work "LOST" %} fan
 
-<q class="archivist">There is a retired podcast, Flip the Table, that reviewed cheesy, weird, and obscure board games. Think 372 Pages for board games; in fact, they've mentioned MST3K as an inspiration. It's probably my second favorite podcast. Anyway, they reviewed <a href="https://tableflipsyou.blogspot.com/2016/10/episode-98-lost.html">LOST: The Game on episode 98</a>.</q>
+{% arc %}There is a retired podcast, Flip the Table, that reviewed cheesy, weird, and obscure board games. Think 372 Pages for board games; in fact, they've mentioned MST3K as an inspiration. It's probably my second favorite podcast. Anyway, they reviewed <a href="https://tableflipsyou.blogspot.com/2016/10/episode-98-lost.html">LOST: The Game on episode 98</a>.{% endarc %}

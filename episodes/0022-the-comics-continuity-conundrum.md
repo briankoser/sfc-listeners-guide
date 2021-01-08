@@ -75,7 +75,7 @@ The Sci-Fi Feud Continues, and one of Ben's favorite sound clips is introduced:
   <q data-name="Scott Herzog">If Ben De Bono jumped off a cliff, would Matt Anderson follow? I would say yes.</q>
 </div>
 
-Ben doesn't like fan fiction <q class="archivist inline">Although he will like {% work "Ready Player One" %} the next year</q>
+Ben doesn't like fan fiction {% arc %}Although he will like {% work "Ready Player One" %} the next year{% endarc %}
 
 Ben and Matt are going to write their Noah fan fiction on the website
 - Noah vs Jonah (Jonah comes riding into town on a whale) 
@@ -104,7 +104,7 @@ The continuity conundrum is that Marvel and DC continuity is convoluted and conf
 - Matt: Reduce number of Marvel titles, limit characters to one title
 - Ben: Scrap the continuities, set a time limit of e.g. 10 years with the intent of having the story end and starting over again at the end
 
-<q class="archivist"><a href="https://en.m.wikipedia.org/wiki/Green_Lantern:_Rebirth"  class="link-obvious">Green Lantern: Rebirth</a> was released in 2004, not 1994.</q>
+{% arc %}<a href="https://en.m.wikipedia.org/wiki/Green_Lantern:_Rebirth"  class="link-obvious">Green Lantern: Rebirth</a> was released in 2004, not 1994.{% endarc %}
 
 ## Superhero comic recommendations
 - Dave: All-Star Superman, Green Lantern: Rebirth, Green Lantern: Sinestro Corps War, Identity Crisis
@@ -121,4 +121,4 @@ If they get enough support, they will quit their jobs and go full time, releasin
 
 
 # Closing
-{% work "Firefly" %} theme singalong <q class="archivist inline">Best singalong in SFC history</q>
+{% work "Firefly" %} theme singalong {% arc %}Best singalong in SFC history{% endarc %}

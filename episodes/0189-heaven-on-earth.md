@@ -47,9 +47,9 @@ Matt is Right: new heaven and new earth is in Revelation chapter 21
 
 Somehow the things we do today affect the new earth.
 
-Ben says the rapture was invented 150 years ago. <q class="archivist inline">There were some vague beliefs before Darby in 1830, but the general point of it being a recent belief holds.</q>
+Ben says the rapture was invented 150 years ago. {% arc %}There were some vague beliefs before Darby in 1830, but the general point of it being a recent belief holds.{% endarc %}
 
-Ben's beef with NT Wright: if Christ's mission was unification, why is it OK to be separate from the Catholic church? Protestantism is founded on the belief that it's OK to separate from the church. <q class="archivist inline">I think that's a mischaracterization; Luther didn't leave, he was excommunicated.</q>
+Ben's beef with NT Wright: if Christ's mission was unification, why is it OK to be separate from the Catholic church? Protestantism is founded on the belief that it's OK to separate from the church. {% arc %}I think that's a mischaracterization; Luther didn't leave, he was excommunicated.{% endarc %}
 
 Three options:
 1. NT Wright is wrong
@@ -63,11 +63,11 @@ Three options:
   <q class="matt">Well, I haven't personally divided any churches, so I feel good about myself.</q>
 </div>
 
-<q class="archivist">Unification is the ideal, but doctrinal correctness is a higher goal; otherwise, you would never excommunicate anyone.</q>
+{% arc %}Unification is the ideal, but doctrinal correctness is a higher goal; otherwise, you would never excommunicate anyone.{% endarc %}
 
 If you are protestant, are you perpetuating disunity? 
 
-{% timeLink podcast_file_url, '1:06:40' %} Catholicism and Orthodoxy maintain apostolic succession and don't believe it's OK to exist in division. <q class="archivist inline">Divisions are a problem in Protestantism, but it's not uniquely Protestant; the Great Schism is the obvious example. With much smaller doctrinal differences, why is this division OK?</q>
+{% timeLink podcast_file_url, '1:06:40' %} Catholicism and Orthodoxy maintain apostolic succession and don't believe it's OK to exist in division. {% arc %}Divisions are a problem in Protestantism, but it's not uniquely Protestant; the Great Schism is the obvious example. With much smaller doctrinal differences, why is this division OK?{% endarc %}
 
 <a href="https://www.goodreads.com/review/show/193117005?book_show_action=false&from_review_page=1">Evangelical is Not Enough</a>
 

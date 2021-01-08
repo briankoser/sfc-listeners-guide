@@ -54,7 +54,7 @@ Ben will finish his ThM (Masters of Theology) in the spring.
 Ben's favorite beer is Guinness.
 
 Why do so many Christians not drink?
-<q class="archivist inline">It's pretty easy to read verses like Proverbs 23:31 (do not look at red wine) and Ephesians 5:18 (do not get drunk with wine) and believe it's wrong. That's how I was always taught, although I personally now think drinking is OK.</q>
+{% arc %}It's pretty easy to read verses like Proverbs 23:31 (do not look at red wine) and Ephesians 5:18 (do not get drunk with wine) and believe it's wrong. That's how I was always taught, although I personally now think drinking is OK.{% endarc %}
 
 
 
@@ -67,7 +67,7 @@ Ben is going to restart the {% work "Game of Thrones" %} video reviews.
   <q class="ben">I can't record two a week, so think of how much Koby you're going to have to have in there. Bad idea.</q>
 </div>
 
-Matt wants to do "some sort of {% work "X-Files" %} retrospective". <q class="archivist inline">Don't do it!</q>
+Matt wants to do "some sort of {% work "X-Files" %} retrospective". {% arc %}Don't do it!{% endarc %}
 
 
 Matt thinks {% work "Breaking Bad" %} might be his favorite show ever.

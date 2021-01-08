@@ -40,7 +40,7 @@ recommendation_reason: Daniel makes Ben proud and gives a scathing review to a D
   </tbody>
 </table>
 
-Disney could only use material from the books, not things MGM copyrighted: the ruby slippers, the Wicked Witch's chin mole, the shade of green of the Wicked Witch's skin, and the swirl pattern that starts the yellow brick road. <q class="archivist inline">Copyrights have jumped the shark</q>
+Disney could only use material from the books, not things MGM copyrighted: the ruby slippers, the Wicked Witch's chin mole, the shade of green of the Wicked Witch's skin, and the swirl pattern that starts the yellow brick road. {% arc %}Copyrights have jumped the shark{% endarc %}
 
 Matt agrees with Daniel's criticisms, but says he had a 4-star experience.
 

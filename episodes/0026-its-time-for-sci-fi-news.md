@@ -35,7 +35,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
-Ben says as long as superhero films are popular they will do State of the Superhero episodes <q class="archivist inline">He underestimated either how long his patience would last with superhero movies, or how long they would be popular.</q>
+Ben says as long as superhero films are popular they will do State of the Superhero episodes {% arc %}He underestimated either how long his patience would last with superhero movies, or how long they would be popular.{% endarc %}
 
 Ben is going to re-listen to the State of the Superhero episode
 
@@ -45,11 +45,10 @@ Ben is going to re-listen to the State of the Superhero episode
 
 Ben doesn't want episode titles for any new {% work "Star Wars" %} movies
 
-Ben is fine without more {% work "Jurassic Park" %} <q class="archivist inline">I think the first time he said he's fine without more of something, a pillar for him in the future.</q>
+Ben is fine without more {% work "Jurassic Park" %} {% arc %}I think the first time he said he's fine without more of something, a pillar for him in the future.{% endarc %}
 
 <div class="quote">
   <q class="matt">We should do a sci-fi sports show.</q>
-  <q class="archivist">Matt and Ben are Minnesota Vikings fans.</q>
 </div>
 
 Matt confesses that he didn't meet his goal in watching {% work "The Shawshank Redemption" %} by the comics continuity episode.

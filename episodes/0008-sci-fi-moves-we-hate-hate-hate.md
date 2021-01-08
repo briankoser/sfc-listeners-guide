@@ -48,7 +48,7 @@ Ben's favorite part of the podcast is saying his name in the intro
 
 Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", Ben says "Dark Seed"
 
-<q class="archivist"><a href="http://www.imdb.com/name/nm0004303" class="link-obvious">Gavin Hood</a> ended up directing Ender's Game, so maybe Wolfgang Petersen wouldn't have been the worst choice.</q>
+{% arc %}<a href="http://www.imdb.com/name/nm0004303" class="link-obvious">Gavin Hood</a> ended up directing Ender's Game, so maybe Wolfgang Petersen wouldn't have been the worst choice.{% endarc %}
 
 <div class="quote">
   <q class="matt">OK listeners: prepare yourselves. We're going to be doing an episode of Alan Moore within the next three episodes.</q>
@@ -87,9 +87,9 @@ Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", 
 - Van Helsing 
 - Troy
 
-<q class="archivist">Ben tells Matt that he should watch Kingdom of the Crystal Skull "because it is Indiana Jones", leading to one of the best review episodes in SFC history.</q>
+{% arc %}Ben tells Matt that he should watch Kingdom of the Crystal Skull "because it is Indiana Jones", leading to one of the best review episodes in SFC history.{% endarc %}
 
-<q class="archivist">Ben is ashamed of Matt for previously owning {% work "Armageddon" %}. Eventually Ben will buy it because it's in the Criterion collection.</q>
+{% arc %}Ben is ashamed of Matt for previously owning {% work "Armageddon" %}. Eventually Ben will buy it because it's in the Criterion collection.{% endarc %}
 
 ### Ben's Hate and Have No Desire to Watch Again:
 - Planet of the Apes (2001) 

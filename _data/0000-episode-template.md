@@ -66,23 +66,23 @@ archivist_note:
 
 # Closing
 
+
+
+{% arc %}note{% endarc %}
 {% episodeLink 100 %}
+{% rating 'Work', 1.5, 5 %}
+{% timeLink podcast_file_url, '1:23' %}
+{% work "title" %}
+
 
 Ben is Right: 
-
 Encouraging Signs: 
-  
 {% timeLink podcast_file_url, '1:23' %}  Sci-Fi Christian Story Time
-
 Stan Lee Quote of the Week: 
-
 Take That, Science: 
-
 What the Frodo: 
 
-<q class="archivist inline"></q>
 
-{% workTitle "title" %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:23' %}
@@ -125,7 +125,6 @@ What the Frodo:
   </div>
 </div>
 
-{% rating 'Work', 1.5, 5 %}
 
 <table class="table is-striped rating">
   <thead>

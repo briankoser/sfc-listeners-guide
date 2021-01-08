@@ -130,7 +130,7 @@ Ben thinks {% work "Temple of Doom" %} is worse than {% work "Kingdom of the Cry
   </div>
 </div>
 
-<q class="archivist inline">After the second and third Hobbit movies, I'm guessing Peter Jackson is on both hosts "Gone bad" lists.</q>
+{% arc %}After the second and third Hobbit movies, I'm guessing Peter Jackson is on both hosts "Gone bad" lists.{% endarc %}
 
 Matt and Ben's first idea for a podcast was a Books of {% work "LOST" %} podcast. 
 
@@ -161,7 +161,7 @@ Matt wonders how many episodes they'd be at if they had split the episodes all a
 
 Ben says the schedule is to release two episodes a week, with special appearances by Daniel and "Kory". So, no more Listener Feedback shows.
 
-Ben jokes that he'll just stop forwarding feedback to Matt. <q class="archivist inline">For now it's a joke.</q> 
+Ben jokes that he'll just stop forwarding feedback to Matt. {% arc %}For now it's a joke.{% endarc %} 
 
 {% timeLink podcast_file_url, '1:06:54' %} Recording of the Sci-Fi Christian Story Time sound clip
 

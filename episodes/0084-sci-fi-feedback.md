@@ -43,7 +43,7 @@ recommendation_reason: Any notable feedback is included in the guide.
 # Feedback
 The Sci-Fi Feud 2012 has fizzled.
 
-Francisco Rodriguez sent in a segment called "Reject or Resurrect". He decided that <a href="https://letterboxd.com/film/the-hobbit/">{% work "The Hobbit (1977)" %}</a> was a "reject". The plan is for it to be a monthly segment on feedback episodes. <q class="archivist inline">I'm guessing this is the only one.</q>
+Francisco Rodriguez sent in a segment called "Reject or Resurrect". He decided that <a href="https://letterboxd.com/film/the-hobbit/">{% work "The Hobbit (1977)" %}</a> was a "reject". The plan is for it to be a monthly segment on feedback episodes. {% arc %}I'm guessing this is the only one.{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-84-sci-fi-feedback/#t=38:09">38:09</a>

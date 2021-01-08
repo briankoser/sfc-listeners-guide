@@ -38,14 +38,14 @@ Brad starts a game for the hosts: everyone writes down a word from the Bible and
 - Erick chose "covenant" for Brad. 
 
 Was the American Revolution justified in light of Romans 13 "authority is ordained by God"? 
-<q class="archivist">The American Revolution was not a true revolution because the Americans were not trying to overthrow the British government, only to separate from it. They did believe Romans 13; their interpretation was that God ordained good government and not bad. Madison wrote, "The present plan of federal Government reverses the first principle of all Government. It punishes not the evil-doers, but those that do well."</q>
+{% arc %}The American Revolution was not a true revolution because the Americans were not trying to overthrow the British government, only to separate from it. They did believe Romans 13; their interpretation was that God ordained good government and not bad. Madison wrote, "The present plan of federal Government reverses the first principle of all Government. It punishes not the evil-doers, but those that do well."{% endarc %}
 
 Was the Rebellion justified in rebelling against the Empire in {% work "Star Wars" %}?
 
 Erick says if there's a point where we would use violence personally, there would be a point where we would use violence as a group. 
 
 Brad asks, but doesn't Jesus forbid violence? 
-<q class="archivist">I think "turn the other cheek" is more about forgiving insults than an injunction against self-defense or violence.</q>
+{% arc %}I think "turn the other cheek" is more about forgiving insults than an injunction against self-defense or violence.{% endarc %}
 
 Erick points to the Old Testament where God asked the Israelites to kill entire people groups.
 

@@ -60,6 +60,6 @@ Take That, Science: Internet nabs man who attacked cosplayer
 
 Encouraging Signs: The Peggy Carter show will be 8 episodes only
 
-Minnesota is getting the Super Bowl in 2018 <q class="archivist inline">🦅</q>
+Minnesota is getting the Super Bowl in 2018 {% arc %}🦅{% endarc %}
 
 Matt has finished 19 books so far this year.

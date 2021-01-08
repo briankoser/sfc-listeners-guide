@@ -71,7 +71,7 @@ Take That, Science: a man's stomach brewed beer when he ate bread
 
 {% timeLink podcast_file_url, '48:10' %} #FreeJossWhedon
 
-{% timeLink podcast_file_url, '51:36' %} A studio is making a Dante's {% work "Inferno" %} movie...based on the video game <q class="archivist inline">By far the angriest I've heard Ben</q> 
+{% timeLink podcast_file_url, '51:36' %} A studio is making a Dante's {% work "Inferno" %} movie...based on the video game {% arc %}By far the angriest I've heard Ben{% endarc %} 
 
 
 
@@ -80,7 +80,7 @@ T-shirt slogan ideas
 - Damon Lindelhof: he's not as good as we thought
 - We are back
 
-Koby calls Matt to talk about <q class="archivist inline">Survivor</q>. Matt puts him on the air to talk about the podcast. 
+Koby calls Matt to talk about {% workTitle "Survivor" %}. Matt puts him on the air to talk about the podcast. 
 
 <div class="quote">
   {% timeLink podcast_file_url, '1:03:46' %}

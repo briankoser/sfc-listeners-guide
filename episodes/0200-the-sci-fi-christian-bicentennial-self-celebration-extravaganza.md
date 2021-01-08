@@ -66,7 +66,7 @@ Matt thinks it would take him seven years to read a Neal Stephenson novel. Ben t
 
 Ben was nice and didn't put any Daniel and Koby episodes on the list. 
 
-<q class="archivist">This list contains 1 "essential" and 3 "listens". For me, the worst episodes are the ones that are forgettable; the worst so far might be {% episodeLink 128 %}, an hour and a half feedback episode containing almost nothing of note.</q>
+{% arc %}This list contains 1 "essential" and 3 "listens". For me, the worst episodes are the ones that are forgettable; the worst so far might be {% episodeLink 128 %}, an hour and a half feedback episode containing almost nothing of note.{% endarc %}
 
 {% timeLink podcast_file_url, '43:58' %} Matt gives his salvation testimony, and it's the best evangelism message Ben has ever heard, and the best story he's ever heard
 
@@ -187,7 +187,7 @@ Matt thinks Squirtle is a turtle with a squirrel's tail.
   </div>
 </div>
 
-<q class="archivist">My favorites through 200 are:</q>
+{% arc %}My favorites through 200 are:{% endarc %}
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 10 Episodes (sorted chronologically)</h2>

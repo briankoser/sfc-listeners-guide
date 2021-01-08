@@ -26,11 +26,11 @@ archivist_note:
 # Opening
 Matt and Ben both just earned their Masters degrees.
 
-The last of the pre-recorded episodes with Ben. <q class="archivist inline">Other than sermons and time loops</q>
+The last of the pre-recorded episodes with Ben. {% arc %}Other than sermons and time loops{% endarc %}
 
 Originally planned to be Life Report episodes.
 
-This episode is a highlight reel of the series. <q class="archivist inline">Keep in mind that these are the 'highlights'. 😐</q>
+This episode is a highlight reel of the series. {% arc %}Keep in mind that these are the 'highlights'. 😐{% endarc %}
 
 
 

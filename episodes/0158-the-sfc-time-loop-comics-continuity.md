@@ -33,7 +33,7 @@ The continuity conundrum is that Marvel and DC continuity is convoluted and conf
 - Matt: Reduce number of Marvel titles, limit characters to one title
 - Ben: Scrap the continuities, set a time limit of e.g. 10 years with the intent of having the story end and starting over again at the end
 
-<q class="archivist"><a href="https://en.m.wikipedia.org/wiki/Green_Lantern:_Rebirth"  class="link-obvious">Green Lantern: Rebirth</a> was released in 2004, not 1994.</q>
+{% arc %}<a href="https://en.m.wikipedia.org/wiki/Green_Lantern:_Rebirth"  class="link-obvious">Green Lantern: Rebirth</a> was released in 2004, not 1994.{% endarc %}
 
 ## Superhero comic recommendations
 - Dave: All-Star Superman, Green Lantern: Rebirth, Green Lantern: Sinestro Corps War, Identity Crisis

@@ -45,8 +45,9 @@ spoilers:
 <div class="quote">
   <q class="matt">(joking) We should just start releasing our old episodes over again as new episodes.</q>
   <q class="ben">With new titles.</q>
-  <q class="archivist">They said it as a joke, but Matt will start time looping old episodes in Season 2.</q>
 </div>
+
+{% arc %}They said it as a joke, but Matt will start time looping old episodes in Season 2.{% endarc %}
 
 <div class="quote">
   <span class="quote-context is-size-6">A new Star Trek video game is announced</span>
@@ -64,9 +65,9 @@ spoilers:
 
 Matt insists he's planted a handful of trees
 
-Adam West will cameo in The Dark Knight Rises <q class="archivist inline">Did not happen</q>
+Adam West will cameo in The Dark Knight Rises {% arc %}Did not happen{% endarc %}
 
-Ben mentions his children watching Disney movies <q class="archivist inline">He apparently does not yet hate Disney</q>
+Ben mentions his children watching Disney movies {% arc %}He apparently does not yet hate Disney{% endarc %}
 
 
 

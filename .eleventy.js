@@ -93,7 +93,7 @@ module.exports = function(eleventyConfig) {
 
 
 
-  eleventyConfig.addShortcode("archivist", archivistNoteShortCode);
+  eleventyConfig.addShortcode("arc", archivistNoteShortCode);
   eleventyConfig.addShortcode("rating", ratingShortCode);
   eleventyConfig.addShortcode("ratingsList", ratingsListShortCode);
   eleventyConfig.addShortcode("work", workTitleShortCode);

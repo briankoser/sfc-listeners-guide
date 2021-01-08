@@ -85,6 +85,6 @@ Feedback on <a href="/episodes/0010-duel-of-the-fates">№ 10 Duel of the Fates<
 
 If you lock someone in a room without telling them, and they never find out, but decide to stay in the room, did they still have a free choice? Did they have free will when they chose to stay in the room, even though they couldn't have left?
 
-Ben posits another scenario: what if the door is unlocked, but the person doesn't realize there even is a door? <q class="archivist inline">I'm not sure that this scenario applies to Christianity.</q>
+Ben posits another scenario: what if the door is unlocked, but the person doesn't realize there even is a door? {% arc %}I'm not sure that this scenario applies to Christianity.{% endarc %}
 
 Last episode in Rebel Underground Studios (Ben's house). After this episode they're moving the equipment to Matt's place.

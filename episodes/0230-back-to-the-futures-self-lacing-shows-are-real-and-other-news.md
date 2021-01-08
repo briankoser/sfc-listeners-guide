@@ -31,9 +31,9 @@ Ben co-hosts over the phone. He was in Minnetonka helping a friend brew beer and
 # News
 Take That, Science: Nike is making self-lacing sneakers for the anniversary of {% work "Back to the Future 2" %}.
 
-Matt says it's crazy that {% work "Supernatural" %} got renewed. <q class="archivist inline">And then it got renewed for 5 more seasons before ending in 2019!</q> 
+Matt says it's crazy that {% work "Supernatural" %} got renewed. {% arc %}And then it got renewed for 5 more seasons before ending in 2019!{% endarc %} 
 
 
 
 # Feedback
-Casey thanked Ben and Matt for their high audio quality because she can't stand low audio quality. <q class="archivist inline">Of course, they read this feedback on the episode Ben has to co-host over the phone, which results in poor audio quality. 😁</q>
+Casey thanked Ben and Matt for their high audio quality because she can't stand low audio quality. {% arc %}Of course, they read this feedback on the episode Ben has to co-host over the phone, which results in poor audio quality. 😁{% endarc %}

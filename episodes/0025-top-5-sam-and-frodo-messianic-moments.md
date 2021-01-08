@@ -46,7 +46,7 @@ Brandon Gibbs designed a new logo (the first logo had a sketch of Admiral Akbar;
 
 Naming competition for the alien
 
-Matt said the newspaper seller and boy reading comics in {% work "Watchmen" %} are named Bernard. Ben wants all the listeners to write in and say Matt is wrong. <q class="archivist inline">Actually Matt is right</q> 
+Matt said the newspaper seller and boy reading comics in {% work "Watchmen" %} are named Bernard. Ben wants all the listeners to write in and say Matt is wrong. {% arc %}Actually Matt is right{% endarc %} 
 
 SFC is doing another readalong 
 
@@ -70,8 +70,8 @@ Ben finished reading {% work "A Dance with Dragons" %}
 <div class="quote">
   <span class="quote-context is-size-6">On {% work "A Dance with Dragons" %}</span>
   <q class="ben">There's way too many cliffhangers at the end of this book for me to wait five and a half years [for the next book in the series].</q>
-  <q class="archivist">At this point it's been almost 7 years with no new book, although Season 7 of the show came out in July 2017, exactly 6 years later.</q>
 </div>
+{% arc %}At this point it's been almost 7 years with no new book, although Season 7 of the show came out in July 2017, exactly 6 years later.{% endarc %}
 
 
 

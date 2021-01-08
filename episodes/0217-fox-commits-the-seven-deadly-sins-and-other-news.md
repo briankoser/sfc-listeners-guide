@@ -40,8 +40,8 @@ Ben's furnace broke.
   <q class="matt">I don't remember that.</q>
 </div>
 
-<q class="archivist inline">I remember</q>
+{% arc %}I remember{% endarc %}
 
 Take That, Science: SETI chief astronomer predicts we will meet aliens within 25 years 
 
-Ben thinks the next Wes Anderson film is titled "Pest Hotel". <q class="archivist inline">That would be a very different movie</q>
+Ben thinks the next Wes Anderson film is titled "Pest Hotel". {% arc %}That would be a very different movie{% endarc %}

@@ -57,7 +57,7 @@ Koby doesn't like N. T. Wright
   <q class="daniel">That's the sort of in-depth analysis that you're not going to find on a lot of other podcasts out there in the Christian sector.</q>
 </div>
 
-Could you interfere with God's plan by time travelling? <q class="archivist inline">Can you interfere with God's plan without time travelling?</q>
+Could you interfere with God's plan by time travelling? {% arc %}Can you interfere with God's plan without time travelling?{% endarc %}
 
 Is taking communion a form of time travel? 
 
@@ -69,7 +69,7 @@ God existed before time.
 
 Will we track time in eternity?
 
-God made time stand still for Joshua. <q class="archivist inline">He also made time go backward for Hezekiah.</q>
+God made time stand still for Joshua. {% arc %}He also made time go backward for Hezekiah.{% endarc %}
 
 How does God see time? 
 
@@ -91,7 +91,7 @@ Koby confuses himself reading what he wrote on the website.
 Matt's theory on time travel is "whatever happened, happened": all time happens at once, you've already time traveled, already changed anything. Koby does not understand this theory.
 
 Not a Scrooge scenario where it's observation only. 
-<q class="archivist">Maybe the best way to explain this view would be to say: all of time happens/happened/is happening at once. We think the present is special because we're here, the past is set, and the future has not happened yet, but in this theory there's no difference between the three.</q>
+{% arc %}Maybe the best way to explain this view would be to say: all of time happens/happened/is happening at once. We think the present is special because we're here, the past is set, and the future has not happened yet, but in this theory there's no difference between the three.{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=46:36">46:36</a>
@@ -105,7 +105,7 @@ Not a Scrooge scenario where it's observation only.
 When the prophets had a vision, were they time travelling? 
 
 Koby asks, would God "break that rule of time" by letting someone time travel? 
-<q class="archivist inline">God "breaking the rules" of physics is what we call a "miracle". It has happened a few times.</q>
+{% arc %}God "breaking the rules" of physics is what we call a "miracle". It has happened a few times.{% endarc %}
 
 Daniel says {% work "Bill and Ted's Excellent Adventure" %} is the best and most important time travel movie of all time.
 
@@ -135,7 +135,7 @@ Paul says the end times are now, and that God has made the future come into the 
 
 60 seconds of silence 
 
-The last 6 minutes of the show are the hosts trying to come up with episode title. <q class="archivist inline">Should have gone with "Quantum Leap of Faith" or "God's Excellent Adventure".</q>
+The last 6 minutes of the show are the hosts trying to come up with episode title. {% arc %}Should have gone with "Quantum Leap of Faith" or "God's Excellent Adventure".{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=1:18:39">1:18:39</a>

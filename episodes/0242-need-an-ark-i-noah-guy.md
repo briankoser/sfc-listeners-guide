@@ -29,7 +29,7 @@ Ben thinks many flood narratives exist because similar myths formed in different
 
 Matt thinks there are many flood narratives because they're all remembering a historical event. 
 
-Ben says it would be nearly impossible for oral tradition to preserve the original flood story. <q class="archivist inline">I think it's fair to say it would require a miracle.</q> 
+Ben says it would be nearly impossible for oral tradition to preserve the original flood story. {% arc %}I think it's fair to say it would require a miracle.{% endarc %} 
 
 Ben thinks Noah's sacrifice is the Levitical system being reflected back into the story from the later story tellers.
 

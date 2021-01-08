@@ -69,7 +69,7 @@ There's a Candy Land movie coming that is designed as "{% work "The Lord of the 
 
 
 # Main Topic
-Ben asks the listeners to keep track of the books Matt says he will read eventually. First one is {% work "The Hunger Games" %}. <q class="archivist inline">Matt listened to the audio book the month after this episode was recorded.</q>
+Ben asks the listeners to keep track of the books Matt says he will read eventually. First one is {% work "The Hunger Games" %}. {% arc %}Matt listened to the audio book the month after this episode was recorded.{% endarc %}
 
 Is there an alternate universe where Jesus didn't die for us? Where Eve fell but Adam didn't? Where God never created humans? 
 

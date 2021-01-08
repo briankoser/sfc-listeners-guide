@@ -35,7 +35,7 @@ His {% work "Bleeding Star Chronicles" %} are YA sci-fi novellas that he imagine
 
 His {% work "Michael Belmont" %} novels are YA fantasy he describes as "{% work "Indiana Jones" %} meets {% work "Harry Potter" %}". 
 
-It's a planned seven book series. Two are out now, one is coming at the end of the year. <q class="archivist inline">Only three books were ever released.</q>
+It's a planned seven book series. Two are out now, one is coming at the end of the year. {% arc %}Only three books were ever released.{% endarc %}
 
 {% timeLink podcast_file_url, '53:35' %} Ethan gives advice for Koby: beat Ben with a steeltoed boot. Keep it below the face and above the belt. Ben will be too embarrassed to report him to the police. Matt is now afraid of Ethan. 
 

@@ -42,7 +42,7 @@ archivist_note: The DuckTales cartoon does not hold up very well as an adult, bu
 - Dune stillsuits being designed
 - Planet with two suns discovered (nicknamed Tattooine) 
 
-<q class="archivist">This segment will soon be titled "Take That, Science!"</q>
+{% arc %}This segment will soon be titled "Take That, Science!"{% endarc %}
 
 
 

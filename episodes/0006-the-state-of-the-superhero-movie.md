@@ -74,13 +74,16 @@ archivist_note: Both are very optimistic about the superhero film genre, Ben eve
 Matt played Pandemic for the first time
 
 # News
-{% work "Good Omens" %} miniseries coming <q class="archivist inline">now due to be released in 2019</q>
+{% work "Good Omens" %} miniseries coming 
+{% arc %}Now due to be released in 2019{% endarc %}
 
 Rumor: Marion Cotillard is Talia al Ghul
 
-Ryan Reynolds will do a Deadpool standalone movie <q class="archivist inline">finally made in 2016</q>
+Ryan Reynolds will do a Deadpool standalone movie 
+{% arc %}Finally made in 2016{% endarc %}
 
-Unbreakable will be a trilogy <q class="archivist inline">happened in 2016</q>
+Unbreakable will be a trilogy 
+{% arc %}Happened in 2016{% endarc %}
 
 # Main Topic
 
@@ -129,7 +132,7 @@ Hopefully superhero movies will help bring us through postmodernism.
 
 The genre is unique because it's currently the only one that's mythological.
 
-Will directors and studios see the success of {% work "The Dark Knight" %} as caused by it's dark and gritty feel or because it had things deep and objective to say? <q class="archivist inline">Sorry guys, they took dark and gritty</q>
+Will directors and studios see the success of {% work "The Dark Knight" %} as caused by it's dark and gritty feel or because it had things deep and objective to say? {% arc %}Sorry guys, they took dark and gritty{% endarc %}
 
 # Feedback
 

@@ -23,7 +23,7 @@ recommendation_reason: Very fun takedown of a movie both loved as children
 ---
 Ben did not buy Matt {% work "The Rocketeer" %} or {% work "Talladega Nights" %} off his wedding gift registry. 
 
-{% timeLink podcast_file_url, '19:23' %} Matt insists one of the actors must have been wearing a mask <q class="archivist inline">It looks like at least a prosthetic nose. <a href="https://www.imdb.com/name/nm0864096/">He is a pretty craggy guy.</a></q> 
+{% timeLink podcast_file_url, '19:23' %} Matt insists one of the actors must have been wearing a mask {% arc %}It looks like at least a prosthetic nose. <a href="https://www.imdb.com/name/nm0864096/">He is a pretty craggy guy.</a>{% endarc %} 
 
 {% timeLink podcast_file_url, '31:33' %} The reason the Nazis wants the rocket 
 

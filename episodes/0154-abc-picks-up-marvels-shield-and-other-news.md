@@ -55,7 +55,7 @@ Ben starts another contest, same rules, same prize.
 4. What activity does Matt claim he is too old for now that he has reached his 30s?
 5. What was the date of The Life Report's first contest? (bonus points if you name the prize) 
 
-<q class="archivist">The hosts eventually cancel this contest due to lack of participation. The questions are pretty difficult: 1 is easy, 2 I could find, 3 I'd have a harder time finding, 4 I don't remember at all and don't think I could find, 5 is currently not possible to find without The Life Report episodes.</q>
+{% arc %}The hosts eventually cancel this contest due to lack of participation. The questions are pretty difficult: 1 is easy, 2 I could find, 3 I'd have a harder time finding, 4 I don't remember at all and don't think I could find, 5 is currently not possible to find without The Life Report episodes.{% endarc %}
 
 
 
@@ -98,7 +98,7 @@ Stan Lee Quote of the Week: Stan wants an Academy Award for best cameos
 </div>
 
 Take That, Science: 78,000 people have applied for positions on a private Mars colony project. The project will be funded by turning the selection and training process into a reality TV show.
-<q class="archivist inline"><a href="https://en.m.wikipedia.org/wiki/Mars_One">The company went bankrupt in 2019.</a></q>
+{% arc %}<a href="https://en.m.wikipedia.org/wiki/Mars_One">The company went bankrupt in 2019.</a>{% endarc %}
 
 Take That, Science: boob armor is dangerous
 
@@ -110,7 +110,7 @@ Take That, Science: boob armor is dangerous
   <q class="ben">I just find it.</q>
 </div>
 
-Ben is going to Disney in September and knows he will hate it. <q class="archivist inline">Oh boy</q>
+Ben is going to Disney in September and knows he will hate it. {% arc %}Oh boy{% endarc %}
 
 They're filming {% work "Avatar 2" %} and {% work "Avatar 3" %} back-to-back starting in 2014.
 

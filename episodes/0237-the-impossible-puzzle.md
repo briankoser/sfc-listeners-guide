@@ -33,7 +33,7 @@ Ben says the book of Revelation is the oldest and most popular theorized-about b
   <q class="matt">God: the original Damon Lindelof.</q>
 </div>
 
-Ben is Wrong: Kiefer Sutherland was not in {% work "Twin Peaks" %} <q class="archivist inline">Close, he was in {% work "Fire Walk With Me" %}</q>
+Ben is Wrong: Kiefer Sutherland was not in {% work "Twin Peaks" %} {% arc %}Close, he was in {% work "Fire Walk With Me" %}{% endarc %}
 
 Why do we enjoy theorizing about stories? Ben thinks it's because we feel the need for the whole story and so we feel compelled to fill in the blanks.
 

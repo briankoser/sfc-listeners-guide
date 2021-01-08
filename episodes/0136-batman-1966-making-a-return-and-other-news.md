@@ -55,7 +55,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
   <q class="matt">Cuz I—here's a little behind the scenes on my faith: I can't bring myself to sin, but I don't mind if you do.</q>
 </div>
 
-Ben says there's no moral conflict in pirating content that's not available for purchase as long as you pay for it when it becomes available. <q class="archivist">It's certainly a grey area. Similar questions to ponder: is it OK to break the letter of the law if you uphold the spirit? For example, is it OK to rip your purchased DVDs so you can watch from a computer with no disc drive? Is it OK to pirate "orphan works" (e.g. a book where the author has died and no one knows who owns the copyright)? I don't think you can claim a right to do any of these things, but that doesn't necessarily make them immoral.</q>
+Ben says there's no moral conflict in pirating content that's not available for purchase as long as you pay for it when it becomes available. {% arc %}It's certainly a grey area. Similar questions to ponder: is it OK to break the letter of the law if you uphold the spirit? For example, is it OK to rip your purchased DVDs so you can watch from a computer with no disc drive? Is it OK to pirate "orphan works" (e.g. a book where the author has died and no one knows who owns the copyright)? I don't think you can claim a right to do any of these things, but that doesn't necessarily make them immoral.{% endarc %}
 
 Nicolas Cage is starring in a {% work "Left Behind" %} reboot film.
 

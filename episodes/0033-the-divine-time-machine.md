@@ -53,8 +53,8 @@ Evangeline Lilly is worried that fans will hate her in {% work "The Hobbit" %} b
 
 <div class="quote">
   <q class="ben">Evangeline Lilly: The Jar Jar Binks of {% work "The Hobbit" %}.</q>
-  <q class="archivist inline">Nope, that'll be Alfred</q>
 </div>
+{% arc %}That position ended up being filled by Alfrid Lickspittle.{% endarc %}
 
 
 

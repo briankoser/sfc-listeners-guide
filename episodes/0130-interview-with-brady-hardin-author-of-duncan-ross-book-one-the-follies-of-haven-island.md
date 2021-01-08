@@ -47,7 +47,7 @@ Matt and Brady talk about {% work "LOST" %} until Ben cuts them off.
 
 Brady acted in <a href="https://www.imdb.com/title/tt0905576/">{% work "Completing Kaden" %}</a> (credited as "Brady Lovesou"). He describes it as a Christian rip-off of {% work "Boy Meets World" %}. 
 
-<q class="archivist">Brady's <a href="https://oracleofbacon.org/">Bacon number</a> is 3: he also appeared in {% work "Logan" %} with Aleh Neliubin, who was in {% work "Safelight" %} with Juno Temple, who was in {% work "Black Mass" %} with Kevin Bacon.</q>
+{% arc %}Brady's <a href="https://oracleofbacon.org/">Bacon number</a> is 3: he also appeared in {% work "Logan" %} with Aleh Neliubin, who was in {% work "Safelight" %} with Juno Temple, who was in {% work "Black Mass" %} with Kevin Bacon.{% endarc %}
 
 His book, {% work "Duncan Ross Book One: The Follies of Haven Island" %}, is a {% work "Pilgrim's Progress" %}-esque allegory.
 

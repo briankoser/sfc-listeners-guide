@@ -53,7 +53,7 @@ Ben is tired of mediocre superhero movies.
 
 Ben is upset about the bare butts in {% work "Brave" %}.
 
-Matt suggests leaving The Incredible Hulk as a supporting character in the movies <q class="archivist inline">They did</q>
+Matt suggests leaving The Incredible Hulk as a supporting character in the movies {% arc %}They did{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-73-catching-up-with-ben-de-bono/#t=21:52">21:52</a>

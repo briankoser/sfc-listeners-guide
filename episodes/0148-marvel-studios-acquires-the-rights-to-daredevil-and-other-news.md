@@ -31,7 +31,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 Ben put Koby on Theo's List for 5¢ and he was willing to go lower. Strangers and Aliens bought him.
 
-Matt's favorite Koby moment was his first episode where he had a title but no content. Ben says it was their first bad episode. <q class="archivist inline">Yeah, probably.</q>
+Matt's favorite Koby moment was his first episode where he had a title but no content. Ben says it was their first bad episode. {% arc %}Yeah, probably.{% endarc %}
 
 Ben's favorite Koby moment was selling him on Theo's List. 
 
@@ -49,7 +49,7 @@ Daniel calls in with {% work "Iron Man 3" %} news and trolls Ben.
 
 Ben predicts {% work "Iron Man 3" %} will be a 4 star movie. Matt predicts 5 stars.
 
-Dave Johnson suggests uploading podcast episodes to YouTube. <q class="archivist inline">No no no</q>
+Dave Johnson suggests uploading podcast episodes to YouTube. {% arc %}No no no{% endarc %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '23:41' %}

@@ -29,7 +29,7 @@ last_listen: 2019-07-23
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Star Partners and Hummingbird Productions are planning a sequel to {% work "It's a Wonderful Life" %}. <q class="archivist inline">It turned out that Paramount held the copyright and shut this project down. Thank God.</q>
+Star Partners and Hummingbird Productions are planning a sequel to {% work "It's a Wonderful Life" %}. {% arc %}It turned out that Paramount held the copyright and shut this project down. Thank God.{% endarc %}
 
 The Coca Cola polar bears are getting a movie.
 

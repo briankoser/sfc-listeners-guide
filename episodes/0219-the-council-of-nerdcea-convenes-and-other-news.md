@@ -49,7 +49,7 @@ Matt will pay Ben $100 to name his child "Mathena", after him.
 # News
 Disney created the Lucasfilm story group to determine the Star Wars Canon. 
 
-Matt won the fantasy football league with Strangers and Aliens. They Skype with league commissioner Dr. Jayce O'Neil to talk about the season. <q class="archivist inline">Go Manglers!</q> 
+Matt won the fantasy football league with Strangers and Aliens. They Skype with league commissioner Dr. Jayce O'Neil to talk about the season. {% arc %}Go Manglers!{% endarc %} 
 
 Ben Avery drafted players who had sci-fi-sounding names, like Rob Gronkowski.
 

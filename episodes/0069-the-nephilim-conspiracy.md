@@ -39,7 +39,6 @@ Theories on who the Nephilim are:
 - Children of men possessed by fallen angels
 - Aliens
 
-14:38 Sci fi catholic
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/07/episode-69-the-nephilim-conspiracy/#t=14:10">14:10</a>
   <span class="quote-context is-size-6">Koby reads a passage from Jubilees 5 about the Nephilim</span>
@@ -71,7 +70,7 @@ Theories on who the Nephilim are:
   <q class="koby">This is ridiculous.</q>
 </div>
 
-<q class="archivist inline">10 episodes after Matt randomly jokes about changing the title to "The Sci-Fi Catholic", Ben converts to Catholicism makes the same joke.</q>
+{% arc %}10 episodes after Matt randomly jokes about changing the title to "The Sci-Fi Catholic", Ben converts to Catholicism and makes the same joke.{% endarc %}
 
 
 Main theories are offspring of Seth and offspring of fallen angels
@@ -84,7 +83,7 @@ A possessed man fathering a child would not pass on "demon genes".
 
 "Sons of God" in Job are angels
 
-<q class="archivist inline">If you believe only Noah and his family survived the Flood, I think you'd have to believe that Goliath was not related to the Nephilim.</q> 
+{% arc %}If you believe only Noah and his family survived the Flood, I think you'd have to believe that Goliath was not related to the Nephilim.{% endarc %} 
 
 ## Conclusion
 - Daniel says they were tall people.

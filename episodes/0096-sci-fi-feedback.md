@@ -35,7 +35,7 @@ recommendation_reason: Don't listen to six months-worth of feedback. Any notable
   <q class="matt">Will you say, 'Sci-Fi Feedback'?</q>
   <q class="koby">Sure. Sci-Fied Feedback. Oh crap.</q>
 </div>
-<q class="archivist inline">First Koby <a href="/episodes/0084-sci-fi-feedback/">wouldn't</a>, now he couldn't.</q>
+{% arc %}First Koby <a href="/episodes/0084-sci-fi-feedback/">wouldn't</a>, now he couldn't.{% endarc %}
 
 
 
@@ -58,7 +58,7 @@ Matt is reading Brady's book, Alan and Aaron's book ({% work "Flight of the Ange
   <q class="matt">Because you hate humor.</q>
 </div>
 
-Robin from the UK is going back and listening to every episode from the beginning, even though there are a lot of them. <q class="archivist inline">Ha ha ha</q>
+Robin from the UK is going back and listening to every episode from the beginning, even though there are a lot of them. {% arc %}Ha ha ha{% endarc %}
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=43:13">43:13</a> Matt is happy that Koby is on the podcast now, because it means that Ben now has someone else to bully.
 
@@ -69,7 +69,7 @@ Robin from the UK is going back and listening to every episode from the beginnin
 </div>
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=45:00">45:00</a> Koby suggests doing a live episode.
-<q class="archivist inline">They will in № 500.</q>
+{% arc %}They will in № 500.{% endarc %}
 
 <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=46:15">46:15</a> Robin in the UK says the show is so good because Matt eventually became "emancipated" from Ben. Also, Koby "sounds like a cartoon character, but in a good way." Also, Daniel failed to "hold his attention as much as the glory days."
 
@@ -83,7 +83,7 @@ Koby thinks Black Panther's superpower is that he turns into a panther.
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=59:03">3:45</a>
   <q class="koby">You make a Black Panther movie, people are going to be like, 'What's that?'</q>
 </div>
-<q class="archivist inline">{% work "Black Panther" %} was the fifth-biggest opening of all time, and brought in $1.3 billion worldwide to become the most lucrative comic book movie ever.</q>
+{% arc %}{% work "Black Panther" %} was the fifth-biggest opening of all time, and brought in $1.3 billion worldwide to become the most lucrative comic book movie ever.{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-96-sci-fi-feedback/#t=1:08:11">1:08:11</a>

@@ -100,7 +100,7 @@ God doesn't exist: God is existence.
 
 God is not the highest being because he is not a creature. 
 
-Matt thinks this is just a semantical argument. <q class="archivist inline">It's an interesting idea, but I'm guessing Tilich wasn't using this as an argument for God's existence.</q> 
+Matt thinks this is just a semantical argument. {% arc %}It's an interesting idea, but I'm guessing Tilich wasn't using this as an argument for God's existence.{% endarc %} 
 
 He's been accused of pantheism with his view.
 
@@ -114,4 +114,4 @@ It ultimately comes down to faith. From the outside, there are many claims that 
 
 Does life have meaning if God doesn't exist?
 
-Ben thinks we could never prove God exists. Matt thinks we could. <q class="archivist inline">If we could prove it, faith would no longer be required.</q>
+Ben thinks we could never prove God exists. Matt thinks we could. {% arc %}If we could prove it, faith would no longer be required.{% endarc %}

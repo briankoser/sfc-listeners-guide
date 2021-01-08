@@ -64,7 +64,7 @@ Back to the classic schedule. Ben says he is back full time.
   <q class="ben">Now they just need to—who's your favorite actor?</q>
   <q class="matt">Matt Damon. If Matt Damon was in it...</q>
 </div>
-<q class="archivist">😀</q>
+{% arc %}😀{% endarc %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '9:44' %}
@@ -107,12 +107,12 @@ Ben is ashamed for liking {% work "Downton Abbey" %}.
 
 Matt wants to watch some {% work "Downton Abbey" %}, then record video reviews with Ben. They would have to wear masks or blur out their faces on the videos. 
 
-Matt listens to Stuff You Missed in History Class. <q class="archivist inline">Good podcast, although not as good since Sarah and Deblina left.</q>
+Matt listens to Stuff You Missed in History Class. {% arc %}Good podcast, although not as good since Sarah and Deblina left.{% endarc %}
 
 Matt wants to start a Bible trivia podcast. 
 
 {% timeLink podcast_file_url, '47:20' %} Ben explains the history of the Rebel Underground
 
-{% timeLink podcast_file_url, '48:09' %} Matt suggested an inappropriate name for Ben's men's ministry. <q class="archivist inline">The hardest I've ever heard Matt laugh.</q>
+{% timeLink podcast_file_url, '48:09' %} Matt suggested an inappropriate name for Ben's men's ministry. {% arc %}The hardest I've ever heard Matt laugh.{% endarc %}
 
 {% timeLink podcast_file_url, '1:01:50' %} Matt and Ben come up with the Last News of the Day sound clip

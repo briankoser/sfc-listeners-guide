@@ -88,9 +88,9 @@ recommendation_reason: The lists are interesting, the discussion is not very in-
   </div>
 </div>
 
-<q class="archivist">Off the top of my head, I think the only one either host ended up disliking was {% work "Farscape" %}.</q>
+{% arc %}Off the top of my head, I think the only one either host ended up disliking was {% work "Farscape" %}.{% endarc %}
 
-Ben says you have to embrace the cheesiness to enjoy {% work "Doctor Who" %}. He loves it. <q class="archivist">Not saying if you like one you have to like the other, but I think if you like {% work "Doctor Who" %} you could understand why people like {% work "Star Trek" %}. Both are cheesy, both are mainly successful because of the characters.</q>
+Ben says you have to embrace the cheesiness to enjoy {% work "Doctor Who" %}. He loves it. {% arc %}Not saying if you like one you have to like the other, but I think if you like {% work "Doctor Who" %} you could understand why people like {% work "Star Trek" %}. Both are cheesy, both are mainly successful because of the characters.{% endarc %}
 
 Ben says {% work "The Wire" %} is the greatest show of all time.
 
@@ -109,7 +109,7 @@ Ben says {% work "The Wire" %} is the greatest show of all time.
   <q class="ben">But it's a classic, I feel embarassed I haven't seen it all the way through, so definitely need to rectify that. And that's one where it's a low commitment, even though I'm not excited to sit through forty minutes of monkeys. Which literally, I'm not joking, it's like the first forty minutes of the movie are monkeys running around. And that's it, there's no dialog. You know, I'm excited to check it out sometime. Might fast forward the first part.</q>
 </div>
 
-Ben quit halfway through the last {% work "Sword of Truth" %} book. <q class="archivist inline">Very similar for me: I think our library didn't have the last 3 books. By the time they did I had come to my senses.</q>
+Ben quit halfway through the last {% work "Sword of Truth" %} book. {% arc %}Very similar for me: I think our library didn't have the last 3 books. By the time they did I had come to my senses.{% endarc %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '22:19' %}
@@ -172,4 +172,4 @@ Ben is defending his thesis at the end of April.
   <q class="ben">I mean, eventually someone's going to get it. There's no way that guy could be real. We made a Facebook page for a cat; who does that?</q>
 </div>
 
-<q class="archivist">The funniest idea in show history? When I first heard this years ago, it totally fooled me. I was only listening to the episodes that sounded interesting, so I had only heard Koby a few times, and hadn't seen any videos he was in.</q>
+{% arc %}The funniest idea in show history? When I first heard this years ago, it totally fooled me. I was only listening to the episodes that sounded interesting, so I had only heard Koby a few times, and hadn't seen any videos he was in.{% endarc %}

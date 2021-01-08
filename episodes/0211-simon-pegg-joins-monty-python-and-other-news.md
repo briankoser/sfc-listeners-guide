@@ -28,7 +28,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 Doug from Atlanta is in Minneapolis for business. 
 
-Ben and Matt are still upset about the 1998 NFC championship where Atlanta beat Minnesota. <q class="archivist inline">My second earliest football memory. The Vikings were my second-favorite team that year, with ex-Eagles Randall Cunningham and Cris Carter, plus the most exciting rookie ever, Randy Moss.</q>
+Ben and Matt are still upset about the 1998 NFC championship where Atlanta beat Minnesota. {% arc %}My second earliest football memory. The Vikings were my second-favorite team that year, with ex-Eagles Randall Cunningham and Cris Carter, plus the most exciting rookie of all time, Randy Moss.{% endarc %}
 
 They chat with Doug for 36 minutes and have him vote for the end of year awards live. 
 
@@ -49,7 +49,7 @@ Paul Walker died
 
 Ben is done with cinematic universes.
 
-Disney has the rights to make future Indiana Jones movies. <q class="archivist inline">Hard to believe they still haven't made one. It was first supposed to come out in 2016; last announcement said 2021.</q>
+Disney has the rights to make future Indiana Jones movies. {% arc %}Hard to believe they still haven't made one. It was first supposed to come out in 2016; last announcement said 2021.{% endarc %}
 
 What the Frodo: A valve engineer created controllers, one for your mouth, one for your butt (for the disabled) 
 

@@ -55,7 +55,7 @@ For Season 4, Matt wants to to record 3 episodes a week: news, main topic, and r
 
 
 # News
-{% work "The Silver Chair" %} is coming <q class="archivist inline">False</q>
+{% work "The Silver Chair" %} is coming {% arc %}False{% endarc %}
 
 George Lucas is on the phone with JJ Abrams almost every day. 
 

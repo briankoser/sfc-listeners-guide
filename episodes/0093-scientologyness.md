@@ -48,4 +48,4 @@ Was L. Ron Hubbard sincere?
 
 Daniel was part of a human shield against Westboro Baptist church at a funeral.
 
-Koby says there's a lot of scientologists and it's growing fast. <q class="archivist inline"><a href="https://medium.com/how-many-scientologists-are-there-really/counting-scientology-7-best-estimates-7746dc6d59aa">My brief research</a> says there are few Scientologists and it's shrinking.</q> 
+Koby says there's a lot of scientologists and it's growing fast. {% arc %}<a href="https://medium.com/how-many-scientologists-are-there-really/counting-scientology-7-best-estimates-7746dc6d59aa">My brief research</a> says there are few Scientologists and it's shrinking.{% endarc %} 

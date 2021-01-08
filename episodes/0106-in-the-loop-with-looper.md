@@ -44,14 +44,14 @@ Ben wants to start podcasting once a week again because he has a free night ever
 
 {% timeLink podcast_file_url, '12:40' %} Ben wants to play the "Matt Anderson Crackup" clip.
 
-Matt and Ben will send a link to the video for a $5 donation. <q class="archivist inline"><a href="https://www.youtube.com/watch?v=vOGiSyH3qbQ">Here ya go.</a></q>
+Matt and Ben will send a link to the video for a $5 donation. {% arc %}<a href="https://www.youtube.com/watch?v=vOGiSyH3qbQ">Here ya go.</a>{% endarc %}
 
 
 
 # Main Topic
 Matt is afraid listeners will think this episode is a time loop and skip it.
 
-{% timeLink podcast_file_url, '16:50' %} The hosts voted three to one to not give time loops new episode numbers, but Matt continues to do it anyway. <q class="archivist inline">Thanks, Matt!</q>
+{% timeLink podcast_file_url, '16:50' %} The hosts voted three to one to not give time loops new episode numbers, but Matt continues to do it anyway. {% arc %}Thanks, Matt!{% endarc %}
 
 {% rating 'Looper', 5, 4 %}
 
@@ -81,4 +81,4 @@ Matt is afraid listeners will think this episode is a time loop and skip it.
 
 {% timeLink podcast_file_url, '55:24' %} Sci-Fi Christian Story Time: Spoilers Save the Day
 
-<q class="archivist">Maybe there's an explanation I missed, but the existence of loopers seems like a major plot hole. It looks like the mob has control over the location when they send people back in time, so why not send people back into the furnace directly? Or into the ocean? Or 100 feet up in the air?</q>
+{% arc %}Maybe there's an explanation I missed, but the existence of loopers seems like a major plot hole. It looks like the mob has control over the location when they send people back in time, so why not send people back into the furnace directly? Or into the ocean? Or 100 feet up in the air?{% endarc %}

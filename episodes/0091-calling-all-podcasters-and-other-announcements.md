@@ -68,4 +68,4 @@ Matt asks podcasters to send in promos for their shows for Episode 100.
 
 # Closing
 Matt says the Season 1 Highlight Reel took a long time to put together and he won't be doing it this year. But he invites the listeners to make a Season 2 highlight reel and send it in.
-<q class="archivist inline">Hmm...</q>
+{% arc %}Hmm...{% endarc %}

@@ -86,7 +86,7 @@ Part 1 is {% episodeLink 226 %}
   </tbody>
 </table>
 
-In the original script, Jesus was an emissary of the aliens. Steve says it's blasphemous to write fiction like that. <q class="archivist inline">I actually like it (when not done tackily) and don't see the harm. I would think engagement, even from a position of unbelief, is preferable to ignorance and ignoring of Christianity.</q>
+In the original script, Jesus was an emissary of the aliens. Steve says it's blasphemous to write fiction like that. {% arc %}I actually like it (when not done tackily) and don't see the harm. I would think engagement, even from a position of unbelief, is preferable to ignorance and ignoring of Christianity.{% endarc %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '39:06' %}

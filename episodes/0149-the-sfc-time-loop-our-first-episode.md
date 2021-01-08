@@ -66,7 +66,7 @@ R2-D2 is the transition sound for everything.
 ## News
 Ian McKellen, Andy Serkis, Elijah Wood, and Orlando Bloom have officially signed on to do the Hobbit movies. 
 
-<q class="archivist">Saddest moment of the episode: how excited both hosts are about {% work "The Hobbit" %} movie.</q>
+{% arc %}Saddest moment of the episode: how excited both hosts are about {% work "The Hobbit" %} movie.{% endarc %}
 
 Matt vowed to read {% work "The Hobbit" %} before the movie comes out.
 
@@ -134,7 +134,7 @@ Ben likes superhero movies and TV shows.
   </div>
 </div>
 
-Ben did only sci-fi, no fantasy <q class="archivist inline">{% work "The Wheel of Time" %} isn't fantasy?</q>
+Ben did only sci-fi, no fantasy {% arc %}{% work "The Wheel of Time" %} isn't fantasy?{% endarc %}
 
 Matt has never heard of {% work "The Wheel of Time" %}.
 

@@ -278,7 +278,7 @@ Matt asks Des questions about himself and sci-fi. If she misses, Ben can steal.
   </tbody>
 </table>
 
-<q class="archivist inline">I took the quiz and missed only Power Rangers and favorite color.</q>
+{% arc %}I took the quiz and missed only Power Rangers and favorite color.{% endarc %}
  
 Jonathan: you can't take what you say back
 

@@ -25,7 +25,7 @@ recommendation: yes
 recommendation_reason: The first "Bad but Great" episode. It's a silly premise and a silly discussion with some of the funniest moments of Season 1.
 ---
 # Opening
-<q class="archivist">Aren't you usually "on" the mission field?</q>
+{% arc %}Aren't you usually "on" the mission field?{% endarc %}
 
 
 

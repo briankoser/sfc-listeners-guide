@@ -47,9 +47,9 @@ Alan Moore episode is not quite ready; going to read some more of his work but i
 
 
 # News
-<q class="ben inline">Peter Jackson might be doing something a little bit naughty</q>: adding female characters to {% work "The Hobbit" %}. Ben says it's understandable, but <q class="ben inline">it could be a disaster</q>. Ben just hopes he doesn't make any other changes. <q class="archivist inline">☹️</q>
+<q class="ben inline">Peter Jackson might be doing something a little bit naughty</q>: adding female characters to {% work "The Hobbit" %}. Ben says it's understandable, but <q class="ben inline">it could be a disaster</q>. Ben just hopes he doesn't make any other changes. {% arc %}☹️{% endarc %}
   
-Justice League announced for 2013 <q class="archivist inline">Released in 2017</q>
+Justice League announced for 2013 {% arc %}Released in 2017{% endarc %}
 
 477 days, 3 hours, 54 minutes, 38 seconds to {% work "The Dark Knight Rises" %}
 

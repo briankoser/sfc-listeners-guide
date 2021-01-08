@@ -36,7 +36,7 @@ recommendation: no
 recommendation_reason: Not as bad as its reputation, but mostly a rehash of previous topics like if "greatest show ever" is objective or subjective.
 ---
 # Opening
-Stan Lee Quote of the Week: Ben mentioned Joel Osteen during his last sermon <q class="archivist inline">Yes, not Stan Lee or a quote</q> 
+Stan Lee Quote of the Week: Ben mentioned Joel Osteen during his last sermon {% arc %}Yes, not Stan Lee or a quote{% endarc %} 
 
 
 
@@ -52,8 +52,8 @@ Ben says "Lindelhof" but Matt doesn't call him on it.
 <div class="quote">
   <span class="quote-context is-size-6">Mark Hamill said Arkham City is the last time he'll voice the Joker.</span>
   <q class="matt">At least it's not Kevin Conroy. If we lost him as the voice of Batman...that would be the worst.</q>
-  <q class="archivist inline">The next game in the series, Arkham Origins, had different voice actors for Batman and Joker. The final entry, Arkham Knight, featured both Conroy and Hamill.</q>
 </div>
+{% arc %}The next game in the series, Arkham Origins, had different voice actors for Batman and Joker. The final entry, Arkham Knight, featured both Conroy and Hamill.{% endarc %}
 
 
 
@@ -115,4 +115,4 @@ Is torture ever OK?
 
 
 # Feedback
-Dave Johnson reads some of Mark Twain's review of {% work "The Deerslayer" %}. <q class="archivist">Twain's review is hilarious and well-worth reading, but it's not applicable to {% work "LOST" %}.</q>
+Dave Johnson reads some of Mark Twain's review of {% work "The Deerslayer" %}. {% arc %}Twain's review is hilarious and well-worth reading, but it's not applicable to {% work "LOST" %}.{% endarc %}

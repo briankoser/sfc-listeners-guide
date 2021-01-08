@@ -28,7 +28,7 @@ last_listen: 2018-12-27
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Ben's one geek request for {% work "Star Wars VII" %}: cast Simon Pegg. <q class="archivist inline">Wishes do come true</q>
+Ben's one geek request for {% work "Star Wars VII" %}: cast Simon Pegg. {% arc %}Wishes do come true{% endarc %}
 
 Take That, Science: a man found an issue of Action Comics #1 in his attic drywall
 
@@ -42,7 +42,7 @@ Ben wants to pause Stan Lee Quote of the Week and start a Christopher Lee Fact o
 
 {% timeLink podcast_file_url, '19:20' %} Ben tries to make a sound clip for Christopher Lee Fact of the Week
 
-New segment for bad news: Aw Shire <q class="archivist inline">I believe this was a one and done</q>
+New segment for bad news: Aw Shire {% arc %}I believe this was a one and done{% endarc %}
 
 Aw Shire: AMC wants {% work "The Walking Dead" %} to run indefinitely
 
@@ -77,7 +77,7 @@ They try to do a Marvel news segment sound clip.
   <q class="matt">Yeah! Schools! Who needs 'em!</q>
 </div>
 
-Ben says he hasn't read {% work "50 Shades of Grey" %} or any other fan fic. <q class="archivist inline">Other than {% work "Ready Player One" %}.</q>
+Ben says he hasn't read {% work "50 Shades of Grey" %} or any other fan fic. {% arc %}Other than {% work "Ready Player One" %}.{% endarc %}
 
 
 

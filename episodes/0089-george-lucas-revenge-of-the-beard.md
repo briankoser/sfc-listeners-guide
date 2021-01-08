@@ -117,7 +117,7 @@ spoilers:
   <q class="matt">That would be stupid.</q>
 </div>
 
-George Lucas had a treatment for Episodes 7-9 <q class="archivist inline">We'll find out what it was in № 662.</q>
+George Lucas had a treatment for Episodes 7-9 {% arc %}We'll find out what it was in № 662.{% endarc %}
 
 Ben says {% work "The Avengers" %} is the worst thing Joss Whedon has done.
 

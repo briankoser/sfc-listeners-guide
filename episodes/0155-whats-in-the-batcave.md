@@ -26,7 +26,7 @@ last_listen: 2018-12-21
 recommendation: essential
 recommendation_reason: In the running for funniest episode ever. In the finest SFC tradition, it's basically riffing on Wikipedia, and it is glorious.
 ---
-Matt realizes before he starts that this isn't going to be a good episode. <q class="archivist inline">But it is going to be a great episode.</q>
+Matt realizes before he starts that this isn't going to be a good episode. {% arc %}But it is going to be a great episode.{% endarc %}
 
 
 
@@ -89,7 +89,7 @@ Matt lists a bunch of things in the Batcave.
   </div>
 </div>
 
-<q class="archivist inline">Matt doesn't say what makes it onto the list. I think halfway through listing the items he decided to start putting them on a countdown.</q>
+{% arc %}Matt doesn't say what makes it onto the list. I think halfway through listing the items he decided to start putting them on a countdown.{% endarc %}
 
 <div class="quote">
   {% timeLink podcast_file_url, '19:36' %}

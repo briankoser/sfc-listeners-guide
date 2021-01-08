@@ -60,4 +60,4 @@ Ben is sad that the rewatch is making him like the show less.
 
 Real-Life X-File: Dave Johnson had strange spiritual dreams
 
-Dave Johnson plugs his YouTube channel, Fragrance Bros. <q class="archivist inline">Still going! Now 40k subscribers</q>
+Dave Johnson plugs his YouTube channel, Fragrance Bros. {% arc %}Still going! Now 40k subscribers{% endarc %}

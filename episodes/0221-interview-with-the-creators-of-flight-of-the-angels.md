@@ -54,7 +54,7 @@ Tom Bombadil represents the ideal pacifist. Tolkien used him to represent the id
 
 Ben is Right: Future {% work "Flight of the Angels" %} books will include non-evangelical Christians
 
-October 2014 is the Reini's release date goal for the sequel. <q class="archivist inline">They released it only five years later, not bad</q>
+October 2014 is the Reini's release date goal for the sequel. {% arc %}They released it only five years later, not bad{% endarc %}
 
 
 

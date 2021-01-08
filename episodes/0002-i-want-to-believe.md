@@ -49,7 +49,7 @@ Ben says "yes sir" a lot and "yeppers" once.
 
 
 # News
-{% work "Pirates of the Caribbean 5" %} was announced. <q class="archivist inline">Not released until 2017</q>
+{% work "Pirates of the Caribbean 5" %} was announced. {% arc %}Not released until 2017{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/#t=13:11">13:11</a>

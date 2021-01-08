@@ -44,4 +44,4 @@ Matt asks the listeners to go to the website and donate so he can buy a new elec
 
 Koby is reading ESPN articles during the recording.
 
-{% work "Green Arrow" %} CW show announced <q class="archivist inline">As requested by Matt in <a href="/episodes/0029-superhero-summer-movies-recap/" class="link-obvious">№ 29 Superhero Summer Movies Recap</a></q>
+{% work "Green Arrow" %} CW show announced {% arc %}As requested by Matt in <a href="/episodes/0029-superhero-summer-movies-recap/" class="link-obvious">№ 29 Superhero Summer Movies Recap</a>{% endarc %}

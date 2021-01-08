@@ -42,7 +42,8 @@ spoilers:
 - <i class="work-title">The Dark Knight Rises</i>
 ---
 # Opening
-Matt said he will read Beowulf. <q class="archivist inline">It is now a 2018 planned episode.</q>
+Matt said he will read Beowulf. 
+{% arc %}Promised again in 2018. Still in the works, I believe.{% endarc %}
 
 
 

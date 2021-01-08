@@ -52,14 +52,14 @@ Bilbo is implied to be the author of {% work "The Hobbit" %}.
 
 Tolkien heavily retconned {% work "The Hobbit" %}: Gandalf's motivation for helping the quest, the nature of the Ring, the relationship between dwarves and elves, and especially how Bilbo gets the Ring from Gollum. 
 
-The biggest theme of the book is Bilbo's growth from a joke to a hero. <q class="archivist inline">One of my three issues with the movie is that it didn't keep this theme.</q>
+The biggest theme of the book is Bilbo's growth from a joke to a hero. {% arc %}One of my three issues with the movie is that it didn't keep this theme.{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-what-im-tolkien-about/#t=49:39">49:39</a>
   <q class="ben">Die, Christopher Tolkien, die!</q>
 </div>
 
-{% work "The Hobbit" %} is more personal than {% work "The Lord of the Rings" %}. It's not an epic about Good vs Evil. Ben doubts the movie will still just be about characters and adventure like the book. <q class="archivist inline">The 2nd of my 3 big problems with the movie.</q>
+{% work "The Hobbit" %} is more personal than {% work "The Lord of the Rings" %}. It's not an epic about Good vs Evil. Ben doubts the movie will still just be about characters and adventure like the book. {% arc %}The 2nd of my 3 big problems with the movie.{% endarc %}
 
 Tolkien's main project was {% work "The Silmarillion" %}. 
 
@@ -89,7 +89,7 @@ Without the commercial success of {% work "The Hobbit" %}, he never would have d
   <q class="ben">You'll just have random scenes of Smaug sleeping--</q>
   <q class="matt">Smoking from his nose.</q>
 </div>
-<q class="archivist inline"><a href="https://www.youtube.com/watch?v=jF-Ds8uxohg">Nailed it.</a></q>
+{% arc %}<a href="https://www.youtube.com/watch?v=jF-Ds8uxohg">Nailed it.</a>{% endarc %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/11/episode-94-the-hobbit-thats-what-im-tolkien-about/#t=1:19:49">1:19:49</a>
