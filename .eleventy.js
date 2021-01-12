@@ -107,7 +107,7 @@ module.exports = function(eleventyConfig) {
 
   
 
-  // todo: move to files, simplify
+  // Couldn't move to files like shortcodes; try again when I'm smarter
   /*
       collections
   */

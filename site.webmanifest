@@ -1,9 +1,9 @@
 {
-    "name": "SFC Guide",
-    "short_name": "SFC Guide",
+    "name": "sfc.blue",
+    "short_name": "sfc.blue",
     "icons": [
         {
-            "src": "/android-chrome-144x144.png",
+            "src": "/img/favicons/android-chrome-144x144.png",
             "sizes": "144x144",
             "type": "image/png"
         }

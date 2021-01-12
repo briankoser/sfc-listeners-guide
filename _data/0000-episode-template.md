@@ -71,21 +71,23 @@ archivist_note:
 {% arc %}note{% endarc %}
 {% episodeLink 100 %}
 {% rating 'Work', 1.5, 5 %}
-{% timeLink podcast_file_url, '1:23' %}
+{% timeLink {url:podcast_file_url, t:'1:23'} %}
 {% work "title" %}
 
 
 Ben is Right: 
 Encouraging Signs: 
-{% timeLink podcast_file_url, '1:23' %}  Sci-Fi Christian Story Time
+{% timeLink {url:podcast_file_url, t:'1:23'} %}  Sci-Fi Christian Story Time: 
 Stan Lee Quote of the Week: 
 Take That, Science: 
 What the Frodo: 
 
 
 
+[bleep]
+
 <div class="quote">
-  {% timeLink podcast_file_url, '1:23' %}
+  {% timeLink {url:podcast_file_url, t:'1:23'} %}
   <span class="quote-context is-size-6"></span>
   <q class="ben"></q>
   <q class="matt"></q>

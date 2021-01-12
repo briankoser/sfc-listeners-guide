@@ -5,7 +5,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build-search-index": "node buildLunrSearchIndex.js",
+    "build-search-index": "node _data/buildLunrSearchIndex.js",
     "build": "npx eleventy",
     "dev": "npx eleventy --serve",
     "prod": "npm run build && npm run build-search-index"
