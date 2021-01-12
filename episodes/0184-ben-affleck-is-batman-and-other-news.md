@@ -46,7 +46,7 @@ Matt restarted {% work "Flight of the Angels" %} on his honeymoon.
 
 Ben starts a contest: guess when Matt will finish {% work "Flight of the Angels" %}
 
-{% timeLink podcast_file_url, '17:06' %} First "Ben was wrong" clip
+{% timeLink {url:podcast_file_url, t:'17:06'} %} First "Ben was wrong" clip
 
 
 
@@ -69,7 +69,7 @@ What the Frodo: Mark Wahlberg wants to be the next Iron Man
 What the Frodo: Vin Diesel mortgaged his house to finance the third Riddick movie
 
 <div class="quote">
-  {% timeLink podcast_file_url, '59:28' %}
+  {% timeLink {url:podcast_file_url, t:'59:28'} %}
   <q class="ben">Take that, everyone!</q>
   <q class="matt">Take that, {% work "Avatar!" %}</q>
 </div>

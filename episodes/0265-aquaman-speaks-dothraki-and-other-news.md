@@ -39,4 +39,4 @@ Michael sent Ben his "Things to Watch" list and asked Ben to watch and review th
 
 John Wilkerson admits to stuffing the ballot box for {% work "Unbreakable" %} in the last poll. 
 
-{% timeLink podcast_file_url, '33:20' %} Matt bans John Wilkerson (and almost bans Ben)
+{% timeLink {url:podcast_file_url, t:'33:20'} %} Matt bans John Wilkerson (and almost bans Ben)

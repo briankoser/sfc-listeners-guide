@@ -32,16 +32,16 @@ Subgenres of Horror: Natural, Monster, Supernatural
 Is it OK for Christians to watch horror movies when the Bible says "fear not"? 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '29:59' %}
+  {% timeLink {url:podcast_file_url, t:'29:59'} %}
   <q class="matt">Let's say I go and see {% work "Scary Movie" %}, and I go home, I'm thinking about it, I'm worried that something's going to attack me at my house. Who am I going to turn to?</q>
   <q class="ben">Ghostbusters!</q>
   <q class="matt">No, not Ghostbusters, God.</q>
 </div>
 
-{% timeLink podcast_file_url, '30:48' %} Is Jesus a zombie?
+{% timeLink {url:podcast_file_url, t:'30:48'} %} Is Jesus a zombie?
 
 <div class="quote">
-  {% timeLink podcast_file_url, '45:45' %}
+  {% timeLink {url:podcast_file_url, t:'45:45'} %}
   <q class="ben">Have you seen {% work "The Exorcism of Emily Rose?" %}</q>
   <q class="matt">Absolutely not! Have you not been listening to anything on this episode?</q>
 </div>

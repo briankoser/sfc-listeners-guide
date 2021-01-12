@@ -34,14 +34,14 @@ Entertainment is not the main purpose of story.
 
 Could C. S. Lewis have written the Narnia books if he spent his weekends watching {% work "Thor 2" %} instead of reading {% work "The Iliad" %}? 
 
-{% timeLink podcast_file_url, '34:31' %} Ben says it's a moral issue if 90% of your stories are just for fun
+{% timeLink {url:podcast_file_url, t:'34:31'} %} Ben says it's a moral issue if 90% of your stories are just for fun
 
-{% timeLink podcast_file_url, '39:50' %} Be dissatisfied with your entertainment
+{% timeLink {url:podcast_file_url, t:'39:50'} %} Be dissatisfied with your entertainment
 
-{% timeLink podcast_file_url, '49:12' %} Sci-Fi Christian Story Time: Ben's Disney Trip, day 3
+{% timeLink {url:podcast_file_url, t:'49:12'} %} Sci-Fi Christian Story Time: Ben's Disney Trip, day 3
 
 <div class="quote">
-  {% timeLink podcast_file_url, '58:45' %}
+  {% timeLink {url:podcast_file_url, t:'58:45'} %}
   <q class="matt">Who was Ellie's favorite princess?</q>
   <q class="ben">I don't know, probably Cinderella or Sleeping Beauty.</q>
   <q class="matt">Who was Owen's favorite princess?</q>
@@ -51,7 +51,7 @@ Could C. S. Lewis have written the Narnia books if he spent his weekends watchin
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:00:00' %}
+  {% timeLink {url:podcast_file_url, t:'1:00:00'} %}
   <q class="matt">So Small World is the breaking point.</q>
   <q class="ben">And I'm like, 'I hate this ride, I hate this ride, I don't want to be here.'</q>
   <q class="matt">What were you actually saying out loud?</q>

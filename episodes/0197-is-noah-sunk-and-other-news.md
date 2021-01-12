@@ -37,7 +37,7 @@ Episode 200 will include a listener-voted best episode of all time.
 # News
 
 <div class="quote">
-  {% timeLink podcast_file_url, '19:36' %}
+  {% timeLink {url:podcast_file_url, t:'19:36'} %}
   <q class="ben">So Damon Lindelhof—</q>
   <q class="matt">I'm not going to correct you.</q>
 </div>
@@ -49,7 +49,7 @@ Breaking news: Hugo Chavez has been dead since March.
 Encouraging Signs: Bill Watterson said he stopped Calvin and Hobbes because "repetition is the death of magic".
 
 <div class="quote">
-  {% timeLink podcast_file_url, '33:50' %}
+  {% timeLink {url:podcast_file_url, t:'33:50'} %}
   <q class="matt">So I just want you to know, if I ever hear you say, 'Damon Lindelhof' again, I'm going to play this:</q>
   <q class="ben">(sound clip) So here it would seem that the Nazis are right.</q>
 </div>
@@ -66,7 +66,7 @@ Ben has come around on time loops.
 
 Daniel once called Matt the podfather. Matt says that makes Ben the podmother. 
 
-{% timeLink podcast_file_url, '1:02:55' %} They record a promo for The Green Screen podcast
+{% timeLink {url:podcast_file_url, t:'1:02:55'} %} They record a promo for The Green Screen podcast
 
 They record a reusable outro.
 

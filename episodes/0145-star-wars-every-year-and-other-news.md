@@ -33,7 +33,7 @@ Matt says he probably won't have Koby on any more episodes with Ben.
 Ben decides to put Koby on Theo's List. He thinks a couple {% work "Batman and Robin" %} DVDs would be a fair trade. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '6:11' %}
+  {% timeLink {url:podcast_file_url, t:'6:11'} %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">Good to see you. Fistbump.</q>
   <q class="ben">Yeah, fistbump.</q>

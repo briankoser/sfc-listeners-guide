@@ -58,7 +58,7 @@ A review of {% work "Dawn of the Planet of the Apes" %}
 Alternate episode title: Ape-braham Lincoln
 
 <div class="quote">
-  {% timeLink podcast_file_url, '45:08' %}
+  {% timeLink {url:podcast_file_url, t:'45:08'} %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">I mean, if I had to sit down and watch {% work "Dawn of the Planet of the Apes" %}, I wouldn't be in misery, whereas I feel like if I had to sit down and watch the second one, {% work "Beneath" %}, I'd be in misery.</q>
   <q class="ben">So, let's just be clear: your qualifications for reaching number 3 on this list--</q>
@@ -75,4 +75,4 @@ Take That, Science: Oliver Stone almost directed a Planet of the Apes reboot mov
 
 Take That, Science: three gorillas at the Como Zoo in St. Paul, MN escaped their cage the day before Planet of the Apes was released in theatres
 
-{% timeLink podcast_file_url, '56:08' %} Sci-Fi Christian Story Time: Another De Bono Vacation
+{% timeLink {url:podcast_file_url, t:'56:08'} %} Sci-Fi Christian Story Time: Another De Bono Vacation

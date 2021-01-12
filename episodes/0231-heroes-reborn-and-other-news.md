@@ -32,7 +32,7 @@ It's one of the worst Minnesota winters in recorded history. Ben spent 3 hours a
 
 
 # News
-{% timeLink podcast_file_url, '5:01' %} Heroes is returning. 
+{% timeLink {url:podcast_file_url, t:'5:01'} %} Heroes is returning. 
 
 Ben says it's the worst news they've ever reported.
 

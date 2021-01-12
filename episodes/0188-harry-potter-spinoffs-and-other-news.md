@@ -48,7 +48,7 @@ Eric's shirt ideas:
 JK Rowling says the Harry Potter prequel movies will be fantastic.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '20:05' %}
+  {% timeLink {url:podcast_file_url, t:'20:05'} %}
   <span class="quote-context is-size-6">The creators of {% work "Star Trek Into Darkness" %} said they almost left Khan out of the movie.</span>
   <q class="ben">That right there tells you why Khan didn't really work in this movie.</q>
   <q class="matt">Because it could have been anybody.</q>
@@ -66,7 +66,7 @@ JK Rowling says the Harry Potter prequel movies will be fantastic.
   <q class="matt">I don't know, but it's geting crazy here.</q>
 </div>
 
-{% timeLink podcast_file_url, '22:29' %} A look at the Clifford mythology
+{% timeLink {url:podcast_file_url, t:'22:29'} %} A look at the Clifford mythology
 
 Ben is Right: {% work "Pirates of the Caribbean 5" %} is delayed because {% work "The Lone Ranger" %} bombed
 

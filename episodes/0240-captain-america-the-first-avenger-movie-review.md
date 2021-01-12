@@ -28,7 +28,7 @@ Audio of their video review
 
 # Review
 <div class="quote">
-  {% timeLink podcast_file_url, '10:32' %}
+  {% timeLink {url:podcast_file_url, t:'10:32'} %}
   <span class="quote-context is-size-6">Ben says the romance between the leads was underdeveloped. Matt disagrees.</span>
   <q class="ben">And when was that ever shown or spoken about on-screen?</q>
   <q class="matt">It was implied by a look she gave after he covered the grenade and was courageous. It was implied by—</q>

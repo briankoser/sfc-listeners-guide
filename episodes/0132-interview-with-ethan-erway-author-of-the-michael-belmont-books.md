@@ -37,8 +37,8 @@ His {% work "Michael Belmont" %} novels are YA fantasy he describes as "{% work 
 
 It's a planned seven book series. Two are out now, one is coming at the end of the year. {% arc %}Only three books were ever released.{% endarc %}
 
-{% timeLink podcast_file_url, '53:35' %} Ethan gives advice for Koby: beat Ben with a steeltoed boot. Keep it below the face and above the belt. Ben will be too embarrassed to report him to the police. Matt is now afraid of Ethan. 
+{% timeLink {url:podcast_file_url, t:'53:35'} %} Ethan gives advice for Koby: beat Ben with a steeltoed boot. Keep it below the face and above the belt. Ben will be too embarrassed to report him to the police. Matt is now afraid of Ethan. 
 
 Ethan wants to know if Ben and Koby really dislike each other. Matt says Ben and Koby are upper-level acquaintances.
 
-{% timeLink podcast_file_url, '58:08' %} Ethan mentions that Ben said Koby didn't exist in the last aired episode. Matt has no comment.
+{% timeLink {url:podcast_file_url, t:'58:08'} %} Ethan mentions that Ben said Koby didn't exist in the last aired episode. Matt has no comment.

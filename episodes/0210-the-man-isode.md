@@ -30,7 +30,7 @@ recommendation_reason: Excellent topic with great guests.
 ---
 
 <div class="quote">
-  {% timeLink podcast_file_url, '6:30' %}
+  {% timeLink {url:podcast_file_url, t:'6:30'} %}
   <span class="quote-context is-size-6">Matt asks Ben to tell about how he started studying masculinity</span>
   <q class="ben">We have to go back to the time of Protestant Ben here. So, Protestant Ben, I was 'sociate pastor at Epic Life Church.</q>
   <q class="matt">For some reason, I thought you were going to say a 'sociopath'.</q>
@@ -43,7 +43,7 @@ Post-enlightenment western culture is the first culture in history without forma
 Calling out, breaking down, exposing weak points, rebuilding with certain values 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '11:00' %}
+  {% timeLink {url:podcast_file_url, t:'11:00'} %}
   <q data-name="Eric">Would you say you are essentially a 'man consultant'? Like a consultant on manliness?</q>
   <q class="ben">A mansultant? I could be a mansultant.</q>
   <q data-name="Brad">I could use some mansulting.</q>
@@ -53,7 +53,7 @@ Calling out, breaking down, exposing weak points, rebuilding with certain values
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '13:01' %}
+  {% timeLink {url:podcast_file_url, t:'13:01'} %}
   <q data-name="Brad">There's a huge fat squirrel right outside your window, and I really want to get it.</q>
   <q class="matt">Well, this is the man-isode.</q>
   <q class="ben">Oh, I love—</q>
@@ -78,7 +78,7 @@ Calling out, breaking down, exposing weak points, rebuilding with certain values
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '16:40' %}
+  {% timeLink {url:podcast_file_url, t:'16:40'} %}
   <q class="matt">Hey, and speaking of men, at this table today are two of my groomsmen, and then Brad.</q>
 </div>
 
@@ -151,7 +151,7 @@ What traits are manly?
 Ben says movie Aragorn is a wimp because he doesn't want to be king. {% arc %}I guess they tried to give him a hero's journey and this was his 'refusal of the call'.{% endarc %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '24:15' %}
+  {% timeLink {url:podcast_file_url, t:'24:15'} %}
   <span class="quote-context is-size-6">Book Aragorn doesn't waffle about being king</span>
   <q class="ben">He knows who he's supposed to be, and he goes and be's it.</q>
   <q class="matt">Good.</q>

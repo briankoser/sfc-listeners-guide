@@ -37,7 +37,7 @@ How did ancient humans build the megaliths?
 
 11:10 oh no, I thought this was going to be interesting
 <div class="quote">
-  {% timeLink podcast_file_url, '11:10' %}
+  {% timeLink {url:podcast_file_url, t:'11:10'} %}
   <q class="ben">This episode's going along swimmingly. Let's just get through this, everyone.</q>
   <q class="matt">Let's just get through this.</q>
   <q class="ben">It's one of those weeks!</q>
@@ -46,7 +46,7 @@ How did ancient humans build the megaliths?
 
 Stonehenge
 
-{% timeLink podcast_file_url, '12:50' %} Matt claims that Stonehenge is 2 feet in diameter
+{% timeLink {url:podcast_file_url, t:'12:50'} %} Matt claims that Stonehenge is 2 feet in diameter
 
 Easter Island
 
@@ -56,4 +56,4 @@ They first had the idea for this episode during Episode 2. Matt starts playing r
 
 Are ancient aliens compatible with Christianity? 
 
-{% timeLink podcast_file_url, '28:50' %}  Sci-Fi Christian Story Time: Matt bought the sound equipment from Ben
+{% timeLink {url:podcast_file_url, t:'28:50'} %}  Sci-Fi Christian Story Time: Matt bought the sound equipment from Ben

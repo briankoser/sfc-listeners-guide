@@ -45,10 +45,10 @@ Ben tries to make a video game news segment music happen again
 
 Ben is Right: Matt misidentified an actor
 
-{% timeLink podcast_file_url, '39:46' %} Take That, Science: politician admits to having an affair and love child with an alien
+{% timeLink {url:podcast_file_url, t:'39:46'} %} Take That, Science: politician admits to having an affair and love child with an alien
 
 <div class="quote">
-  {% timeLink podcast_file_url, '41:28' %}
+  {% timeLink {url:podcast_file_url, t:'41:28'} %}
   <span class="quote-context is-size-6">The politician gets abducted four times a year and has an alien baby named Zarka</span>
   <q class="matt">It doesn't go on to say though, if he cares for his child Zarka?</q>
   <q class="ben">He's kind of a deadbeat dad who only goes up four times a year.</q>

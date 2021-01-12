@@ -34,7 +34,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Currently recording on Thursdays
 
 <div class="quote">
-  {% timeLink podcast_file_url, '15:19' %}
+  {% timeLink {url:podcast_file_url, t:'15:19'} %}
   <q class="ben">How about 'thinking'? Make that an event.</q>
 </div>
 
@@ -45,7 +45,7 @@ Ben says he will start enunciating the H in Lindelhof
 Ben is Right: Joss Whedon said {% work "The Avengers" %} was a great time but not a great movie
 
 <div class="quote">
-  {% timeLink podcast_file_url, '28:15' %}
+  {% timeLink {url:podcast_file_url, t:'28:15'} %}
   <q class="ben">Take that, Avengers Defenders.</q>
 </div>
 
@@ -62,16 +62,16 @@ Koby started The Green Screen podcast about DC movies and TV shows like {% work 
 Take That, Science: a man's stomach brewed beer when he ate bread
 
 <div class="quote">
-  {% timeLink podcast_file_url, '43:36' %}
+  {% timeLink {url:podcast_file_url, t:'43:36'} %}
   <q class="matt">Beer is liquid bread?!</q>
   <q class="ben">Pretty much.</q>
   <q class="matt">I never knew that.</q>
   <q class="ben">Yeah! If you love bread, you'd love beer.</q>
 </div>
 
-{% timeLink podcast_file_url, '48:10' %} #FreeJossWhedon
+{% timeLink {url:podcast_file_url, t:'48:10'} %} #FreeJossWhedon
 
-{% timeLink podcast_file_url, '51:36' %} A studio is making a Dante's {% work "Inferno" %} movie...based on the video game {% arc %}By far the angriest I've heard Ben{% endarc %} 
+{% timeLink {url:podcast_file_url, t:'51:36'} %} A studio is making a Dante's {% work "Inferno" %} movie...based on the video game {% arc %}By far the angriest I've heard Ben{% endarc %} 
 
 
 
@@ -83,7 +83,7 @@ T-shirt slogan ideas
 Koby calls Matt to talk about {% work "Survivor" %}. Matt puts him on the air to talk about the podcast. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:03:46' %}
+  {% timeLink {url:podcast_file_url, t:'1:03:46'} %}
   <span class="quote-context is-size-6">Koby can edit himself on his new podcast</span>
   <q class="koby">I don't want to edit, unless I say something really racist or sexist. Eh, not sexist, but racist, yeah.</q>
 </div>

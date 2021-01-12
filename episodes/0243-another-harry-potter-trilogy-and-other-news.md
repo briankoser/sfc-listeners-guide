@@ -24,7 +24,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 <div class="quote">
-  {% timeLink podcast_file_url, '10:52' %}
+  {% timeLink {url:podcast_file_url, t:'10:52'} %}
   <span class="quote-context is-size-6">In the Ultimate universe, Spider-Woman is a clone of Peter Parker</span>
   <q class="ben">How horrifying would it be to meet a girl clone of yourself.</q>
 </div>
@@ -32,7 +32,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 What the Frodo: Brett Ratner is doing an origin-story film for Winnie the Pooh
 
 <div class="quote">
-  {% timeLink podcast_file_url, '18:58' %}
+  {% timeLink {url:podcast_file_url, t:'18:58'} %}
   <span class="quote-context is-size-6">Ben hasn't seen Frozen and the only rendition of Let It Go he has heard is his daughter's</span>
   <q class="matt">So you've heard the best version.</q>
   <q class="ben">I've heard the best version.</q>
@@ -43,12 +43,12 @@ What the Frodo: Brett Ratner is doing an origin-story film for Winnie the Pooh
 Take That, Science: researchers are claiming they have proof that the Kraken was real
 
 <div class="quote">
-  {% timeLink podcast_file_url, '21:48' %}
+  {% timeLink {url:podcast_file_url, t:'21:48'} %}
   <q class="matt">At the Geological Society of America's annual meeting, he presented new evidence to back up his claim in the form of a fossil that dates to about 218 million years ago, but we're Christians, so we know that can't be true.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '27:34' %}
+  {% timeLink {url:podcast_file_url, t:'27:34'} %}
   <span class="quote-context is-size-6">Koby claims that Khan from Star Trek is the most crafty villain. Ben disagrees.</span>
   <q class="matt">I think he's talking about some of the actual arts and crafts that Khan does during the film.</q>
   <q class="ben">Oh! Okay, I'm onboard with him now. Yeah, Khan: heck of a knitter. Heck of a knitter.</q>

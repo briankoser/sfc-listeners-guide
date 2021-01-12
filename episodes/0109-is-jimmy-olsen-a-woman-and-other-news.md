@@ -37,10 +37,10 @@ archivist_note: "Episode bleep count: 3"
 # Opening
 Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but he is looking forward to their continued contributions. 
 
-{% timeLink podcast_file_url, '11:58' %} "Janujesus"
+{% timeLink {url:podcast_file_url, t:'11:58'} %} "Janujesus"
 
 <div class="quote">
-  {% timeLink podcast_file_url, '14:26' %}
+  {% timeLink {url:podcast_file_url, t:'14:26'} %}
   <q class="matt">Well, you know Jim Carrey is going to be in a superhero movie.</q>
   <q class="ben">{% work "The Mask" %}?</q>
   <q class="matt">No, he's in {% work "Kick-[bleep] 2" %}.</q>
@@ -53,7 +53,7 @@ Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but h
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '15:04' %}
+  {% timeLink {url:podcast_file_url, t:'15:04'} %}
   <q class="matt">Brandon, did you hear the episode where I had to bleep Ben out?</q>
   <q data-name="Brandon Gibbs">Which one?</q>
   <q class="matt">Yeah, exactly.</q>
@@ -83,7 +83,7 @@ Ben thanks Daniel and Koby for hosting the podcast. He enjoys ribbing them but h
 Epic Life Church is now defunct, due to finances. Matt thinks it would be funny to restart The Life Report. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '22:33' %}
+  {% timeLink {url:podcast_file_url, t:'22:33'} %}
   <q class="matt">Yeah, so everybody, let's just bow our heads for a second.</q>
   <q class="ben">A moment of silence for The Life Report.</q>
   <q class="matt">I just want to have a moment of silence and pray for The Life Report.</q>
@@ -102,7 +102,7 @@ Matt observes that NBC has started doing short TV seasons like Ben called for tw
 Take That, Science: scientists hid an object in space and time, creating a temporal hole in light. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '39:11' %}
+  {% timeLink {url:podcast_file_url, t:'39:11'} %}
   <q class="ben">Take that, listeners!</q>
 </div>
 

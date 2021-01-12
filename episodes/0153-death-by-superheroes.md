@@ -84,4 +84,4 @@ Comic book characters represent mythological characters. When the villain dies, 
 
 Ben is defending his thesis tomorrow: "Is Christ Divided? A Study in Dissenting Ecclesiology from the Donatist Controversy to the Reformation". They will post the audio or video of his defense.
 
-{% timeLink podcast_file_url, '51:50' %} Sci-Fi Christian Story Time: Ben is Right: Annie agreed the parking sign was confusing
+{% timeLink {url:podcast_file_url, t:'51:50'} %} Sci-Fi Christian Story Time: Ben is Right: Annie agreed the parking sign was confusing

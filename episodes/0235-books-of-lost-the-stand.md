@@ -24,4 +24,4 @@ recommendation_reason: Definite listen if you've seen LOST and read The Stand.
 ---
 Matt runs down the influences of {% work "The Stand" %} on {% work "LOST" %}.
 
-{% timeLink podcast_file_url, '23:52' %}  Sci-Fi Christian Story Time: Disturbing biking imagery
+{% timeLink {url:podcast_file_url, t:'23:52'} %}  Sci-Fi Christian Story Time: Disturbing biking imagery

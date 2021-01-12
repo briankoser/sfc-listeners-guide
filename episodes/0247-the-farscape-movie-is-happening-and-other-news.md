@@ -36,7 +36,7 @@ Matt says if he ever starts drinking beer, his first will be on the Ben De Bono 
 What the Frodo: {% work "Mrs. Doubtfire 2" %} was announced
 
 <div class="quote">
-  {% timeLink podcast_file_url, '17:00' %}
+  {% timeLink {url:podcast_file_url, t:'17:00'} %}
   <span class="quote-context is-size-6">Will the plot of Mrs. Doubtfire 2 be the same as the first?</span>
   <q class="matt">It's been twenty years, is he even gonna have to dress up?</q>
 </div>

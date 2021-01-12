@@ -68,7 +68,7 @@ Ben was nice and didn't put any Daniel and Koby episodes on the list.
 
 {% arc %}This list contains 1 "essential" and 3 "listens". For me, the worst episodes are the ones that are forgettable; the worst so far might be {% episodeLink 128 %}, an hour and a half feedback episode containing almost nothing of note.{% endarc %}
 
-{% timeLink podcast_file_url, '43:58' %} Matt gives his salvation testimony, and it's the best evangelism message Ben has ever heard, and the best story he's ever heard
+{% timeLink {url:podcast_file_url, t:'43:58'} %} Matt gives his salvation testimony, and it's the best evangelism message Ben has ever heard, and the best story he's ever heard
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Episodes</h2>
@@ -107,7 +107,7 @@ Ben was nice and didn't put any Daniel and Koby episodes on the list.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '58:27' %}
+  {% timeLink {url:podcast_file_url, t:'58:27'} %}
   <span class="quote-context is-size-6">Matt calls Koby</span>
   <q class="matt">The reason we're calling is because, episode 200 has arrived. How do you feel?</q>
   <q class="koby">How do I feel?</q>
@@ -116,7 +116,7 @@ Ben was nice and didn't put any Daniel and Koby episodes on the list.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:04:25' %}
+  {% timeLink {url:podcast_file_url, t:'1:04:25'} %}
   <span class="quote-context is-size-6">Matt put their first episode on his favorite episodes list</span>
   <q class="matt">Even on that episode, you can really see that we were jelling right away.</q>
   <q class="ben">Oh yeah.</q>
@@ -126,7 +126,7 @@ Ben was nice and didn't put any Daniel and Koby episodes on the list.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:10:00' %}
+  {% timeLink {url:podcast_file_url, t:'1:10:00'} %}
   <q class="matt">Number 8 for me is gonna be: Episode 87, The Sci-Fi Christian Time Loop—</q>
   <q class="ben">What?</q>
   <q class="matt">—Cloning and the Transfer of Consciousness. Now I told you earlier—</q>
@@ -140,7 +140,7 @@ Ben was nice and didn't put any Daniel and Koby episodes on the list.
 Special guest: President Obama 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:29:40' %}
+  {% timeLink {url:podcast_file_url, t:'1:29:40'} %}
   <span class="quote-context is-size-6">In Star Trek, the Spock from the evil parallel universe had a goatee.</span>
   <q class="matt">You know goatees typically show that it's the evil alternate version. I know you have one.</q>
   <q class="ben">What the Frodo?</q>
@@ -156,7 +156,7 @@ Special guest: President Obama
 Matt thinks Squirtle is a turtle with a squirrel's tail.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:36:56' %}
+  {% timeLink {url:podcast_file_url, t:'1:36:56'} %}
   <span class="quote-context is-size-6">Ben reads another listener question.</span>
   <q class="ben">'From a biblical standpoint, do you think you'll ever analyze tough or divisive issues like sex, homosexuality/gay marriage, abortion, suicide, war, et cetera?</q>
   <q class="matt">I think it's time that we do those things.</q>
@@ -166,7 +166,7 @@ Matt thinks Squirtle is a turtle with a squirrel's tail.
   <q class="matt">…Yes.</q>
 </div>
 
-{% timeLink podcast_file_url, '1:46:05' %} Jeremy Thatcher, Dragon Hatcher 
+{% timeLink {url:podcast_file_url, t:'1:46:05'} %} Jeremy Thatcher, Dragon Hatcher 
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Episodes</h2>
@@ -213,22 +213,22 @@ Matt thinks Squirtle is a turtle with a squirrel's tail.
 Ben's current favorite movie is {% work "Ordinary People" %}.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:12:50' %}
+  {% timeLink {url:podcast_file_url, t:'2:12:50'} %}
   <q class="ben">'Who would win a battle to the death, the pope or Emperor Palpatine?' The pope.</q>
   <q class="matt">No, the emperor. Palpatine. He has powers, the pope doesn't have any powers.</q>
   <q class="ben">Oh, I'm sorry, the Holy Spirit? Excuse you.</q>
 </div>
 
-{% timeLink podcast_file_url, '2:13:10' %} Death by pope hat
+{% timeLink {url:podcast_file_url, t:'2:13:10'} %} Death by pope hat
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:48:59' %}
+  {% timeLink {url:podcast_file_url, t:'2:48:59'} %}
   <q class="matt">I probably would drink if I was around Stan Lee.</q>
 </div>
 
 Shocking Revelation: Theo has been exiled from his planet and is moving to Earth. They ask for donations to help send him home.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:52:54' %}
+  {% timeLink {url:podcast_file_url, t:'2:52:54'} %}
   <q class="matt">So if you're out there listening to a podcast, and it doesn't necessarily have to be ours, but if you really like it and you appreciate what those podcast hosts are doing, I'd say send them an email and just thank them. I'm not asking for one for The Sci-Fi Christian; for us, I'm asking for money.</q>
 </div>

@@ -33,11 +33,11 @@ recommendation_reason: Great philosophical questions in a new context
 
 The mob has used MMOs to launder money and call hits on people. 
 
-{% timeLink podcast_file_url, '14:43' %}
+{% timeLink {url:podcast_file_url, t:'14:43'} %}
 Pat Robertson clip: D&D destroyed people's lives
 
 <div class="quote">
-  {% timeLink podcast_file_url, '16:26' %}
+  {% timeLink {url:podcast_file_url, t:'16:26'} %}
   <span class="quote-context is-size-6">Ben and Matt were warned about D&D in their church youth groups</span>
   <q class="matt">I was told to stay away from Dungeons & Dragons.</q>
   <q class="ben">So yeah, you know what I'm talking about.</q>
@@ -60,7 +60,7 @@ Are you disobeying an authority if you break a game's rules? If you cheat at che
 
 Ben thinks cheating at checkers is not a sin. 
 
-{% timeLink podcast_file_url, '45:39' %} Sci-Fi Christian Story Time: Ben appeals his parking ticket
+{% timeLink {url:podcast_file_url, t:'45:39'} %} Sci-Fi Christian Story Time: Ben appeals his parking ticket
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 4 Reasons Ben Shouldn't Get a Parking Ticket</h2>

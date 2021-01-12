@@ -27,4 +27,4 @@ archivist_note: "Tip for young aspiring podcasters: don't put one voice on the l
 
 Rick invited Matt onto "Voices in My Head" to be the interviewer.
 
-{% timeLink podcast_file_url, '4:00' %} Interview starts
+{% timeLink {url:podcast_file_url, t:'4:00'} %} Interview starts

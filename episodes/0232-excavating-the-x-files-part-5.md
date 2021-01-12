@@ -25,7 +25,7 @@ recommendation_reason: I'm sure this is catnip to X-Files fans.
 archivist_note: I'm half-listening to this one during a quick grocery trip. Can we settle down with all the different types of toothpaste? Unnecessary. 
 ---
 <div class="quote">
-  {% timeLink podcast_file_url, '6:20' %}
+  {% timeLink {url:podcast_file_url, t:'6:20'} %}
   <q class="matt">Now when I hear 'stiletto'—</q>
   <q class="ben">Like high heels?</q>
   <q class="matt">It's usually used to talk about high heels. But a little research will tell you it's also—</q>
@@ -41,6 +41,6 @@ Chris Carter says "The Musings of the Cigarette Smoking Man" is no longer canon.
 
 Ben still likes the show but is seeing a lot of problems.
 
-{% timeLink podcast_file_url, '51:15' %} Real-Life X-File: Animal Conspiracy Theories from Israel
+{% timeLink {url:podcast_file_url, t:'51:15'} %} Real-Life X-File: Animal Conspiracy Theories from Israel
 
-{% timeLink podcast_file_url, '56:57' %}  Sci-Fi Christian Story Time: The De Bonos Play Basketball
+{% timeLink {url:podcast_file_url, t:'56:57'} %}  Sci-Fi Christian Story Time: The De Bonos Play Basketball

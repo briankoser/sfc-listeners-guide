@@ -46,7 +46,7 @@ Encouraging Signs: after he's done with {% work "Game of Thrones" %}, Jack Gleas
 # Closing
 
 <div class="quote">
-  {% timeLink podcast_file_url, '38:18' %}
+  {% timeLink {url:podcast_file_url, t:'38:18'} %}
   <q class="matt">Well, that is all from here. I'm Matt Anderson.</q>
   <q class="ben">I am the one and only, the magnificent Ben De Bono.</q>
   <q class="matt">And we are the Sci-Fi Christians.</q>

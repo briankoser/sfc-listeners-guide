@@ -44,7 +44,7 @@ archivist_note: Strangers and Aliens cohost <a href="https://m.imdb.com/name/nm2
 Part 1 is {% episodeLink 226 %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '3:45' %}
+  {% timeLink {url:podcast_file_url, t:'3:45'} %}
   <q data-name="Jayce">Koby has a cool name. I agree with him.</q>
   <q class="koby">Amen brother!</q>
   <q class="ben">Yeah, he has a few of them.</q>
@@ -89,7 +89,7 @@ Part 1 is {% episodeLink 226 %}
 In the original script, Jesus was an emissary of the aliens. Steve says it's blasphemous to write fiction like that. {% arc %}I actually like it (when not done tackily) and don't see the harm. I would think engagement, even from a position of unbelief, is preferable to ignorance and ignoring of Christianity.{% endarc %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '39:06' %}
+  {% timeLink {url:podcast_file_url, t:'39:06'} %}
   <q class="ben">Take that, Koby!</q>
 </div>
 

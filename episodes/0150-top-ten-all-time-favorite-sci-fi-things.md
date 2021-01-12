@@ -82,7 +82,7 @@ Matt is thinking about reading {% work "Paradise Lost" %}.
 C. S. Lewis's rule: for every new book you read, you should read an old book. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '32:10' %}
+  {% timeLink {url:podcast_file_url, t:'32:10'} %}
   <span class="quote-context is-size-6">Matt says there are no shows currently on as great as {% work "LOST" %}</span>
   <q class="matt">When I watched {% work "LOST" %}, I actually felt—this is gonna sound strong, I know we're Christians, so I'm gonna use this word, and it's gonna sound crazy—</q>
   <q class="ben">Aroused?</q>
@@ -139,7 +139,7 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '35:00' %}
+  {% timeLink {url:podcast_file_url, t:'35:00'} %}
   <span class="quote-context is-size-6">Matt almost put {% work "Star Trek" %} on his list</span>
   <q class="ben">It sucks though.</q>
   <q class="matt">No, I don't think we feel exactly the same on that.</q>
@@ -163,6 +163,6 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
 
 C. S. Lewis said {% work "The Lord of the Rings" %} is the greatest work of literature since {% work "The Odyssey" %}.
 
-{% timeLink podcast_file_url, '1:00:11' %} Sci-Fi Christian Story Time: Ben's Parking Ticket, Part 3
+{% timeLink {url:podcast_file_url, t:'1:00:11'} %} Sci-Fi Christian Story Time: Ben's Parking Ticket, Part 3
 
 Ben is Right: Ben got his parking ticket revoked.

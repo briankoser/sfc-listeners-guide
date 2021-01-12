@@ -41,7 +41,7 @@ Matt's latest fundraising scheme: for $15 he will record an audio description of
 
 
 # Main Topic
-{% timeLink podcast_file_url, '13:37' %} Countdown starts
+{% timeLink {url:podcast_file_url, t:'13:37'} %} Countdown starts
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Sci-Fi Geniuses Gone Bad</h2>
@@ -86,7 +86,7 @@ Matt's love for {% work "Reign of Fire" %} comes up again.
 Ben thinks {% work "Temple of Doom" %} is worse than {% work "Kingdom of the Crystal Skull" %} (for now).
 
 <div class="quote">
-  {% timeLink podcast_file_url, '29:42' %}
+  {% timeLink {url:podcast_file_url, t:'29:42'} %}
   <q class="ben">We at The Sci-Fi Christian are against racism.</q>
   <q class="matt">Yes, and—</q>
   <q class="ben">Officially.</q>
@@ -103,7 +103,7 @@ Ben thinks {% work "Temple of Doom" %} is worse than {% work "Kingdom of the Cry
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '33:43' %}
+  {% timeLink {url:podcast_file_url, t:'33:43'} %}
   <q class="matt">But like this new one {% work "AE" %} with Will Smith and, and Son…Smith—</q>
   <q class="ben">'Son Smith'?! That's awesome!</q>
   <q class="matt">I'll see that.</q>
@@ -163,6 +163,6 @@ Ben says the schedule is to release two episodes a week, with special appearance
 
 Ben jokes that he'll just stop forwarding feedback to Matt. {% arc %}For now it's a joke.{% endarc %} 
 
-{% timeLink podcast_file_url, '1:06:54' %} Recording of the Sci-Fi Christian Story Time sound clip
+{% timeLink {url:podcast_file_url, t:'1:06:54'} %} Recording of the Sci-Fi Christian Story Time sound clip
 
-{% timeLink podcast_file_url, '1:07:03' %} Sci-Fi Christian Story Time: Sci-Fi Catholics Unite
+{% timeLink {url:podcast_file_url, t:'1:07:03'} %} Sci-Fi Christian Story Time: Sci-Fi Catholics Unite

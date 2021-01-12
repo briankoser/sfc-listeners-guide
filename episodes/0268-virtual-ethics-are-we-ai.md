@@ -34,7 +34,7 @@ Who owns the new symphonies that AI Mozart writes?
 
 Simulations could hypothetically end politics: if you disagree on policy, you could simulate both and choose the policy with better results. {% arc %}"Better results" is a value judgment, so I think you'd still have a place for politics.{% endarc %}
 
-{% timeLink podcast_file_url, '31:24' %} Predicting what episode they'll be on by June 24, 2019
+{% timeLink {url:podcast_file_url, t:'31:24'} %} Predicting what episode they'll be on by June 24, 2019
 
 Ben says 750, Matt says 1113
 

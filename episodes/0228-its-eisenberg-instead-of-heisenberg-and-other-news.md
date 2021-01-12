@@ -40,7 +40,7 @@ Matt is keeping track of all the unanswered LOST mysteries during his rewatch wi
 
 Ben wants a new policy: only watch movies after they're out for a year. 
 
-{% timeLink podcast_file_url, '50:59' %} Matt read the first Divergent book and didn't like it, but wants to know the ending. Ben tells Matt that the Internet has a website called "Wikipedia" and he can find the ending in 15 minutes.
+{% timeLink {url:podcast_file_url, t:'50:59'} %} Matt read the first Divergent book and didn't like it, but wants to know the ending. Ben tells Matt that the Internet has a website called "Wikipedia" and he can find the ending in 15 minutes.
 
 Ben wants the studio to cast Shaq in {% work "The Shack" %}.
 

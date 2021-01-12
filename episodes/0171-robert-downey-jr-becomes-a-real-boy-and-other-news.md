@@ -32,7 +32,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 What the Frodo: Robert Downey Jr. is playing Pinocchio and Gepetto in Ben Stiller's upcoming Pinocchio movie. 
 
-{% timeLink podcast_file_url, '14:38' %} Matt says officially, no demons and no ghosts will be allowed on the air, unless it's a ghost of Matt's grandpa.
+{% timeLink {url:podcast_file_url, t:'14:38'} %} Matt says officially, no demons and no ghosts will be allowed on the air, unless it's a ghost of Matt's grandpa.
 
 It's become a tradition for Ben to pretend to step on Matt's grandpa's thermometer. 
 

@@ -29,7 +29,7 @@ recommendation_reason: This episode feels like the culmination of the first coup
 ---
 
 # Main Topic
-{% timeLink podcast_file_url, '16:13' %} Main topic starts
+{% timeLink {url:podcast_file_url, t:'16:13'} %} Main topic starts
 
 ## Types of Stories
 - Mythology - answering the big questions
@@ -45,7 +45,7 @@ Does fandom distract us from what we're supposed to get from stories?
 Is fandom a problem? Ben says yes, Matt says maybe.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:01:32' %}
+  {% timeLink {url:podcast_file_url, t:'1:01:32'} %}
   <span class="quote-context is-size-6">Ben shares an analogy for his and Matt's attitudes toward fandom.</span>
   <q class="ben">You're the guy who hears about child labor sweatshops in third-world countries, says, 'That sucks,' and then heads off to a mall to go buy Nikes.</q>
   <q class="matt">Thanks. Thanks, Ben.</q>
@@ -55,4 +55,4 @@ Is fandom a problem? Ben says yes, Matt says maybe.
   <q class="matt">I'm still gonna beep it out.</q>
 </div>
 
-{% timeLink podcast_file_url, '1:07:08' %} Sci-Fi Christian Story Time: Even Batman Hates Batman Live
+{% timeLink {url:podcast_file_url, t:'1:07:08'} %} Sci-Fi Christian Story Time: Even Batman Hates Batman Live

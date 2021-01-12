@@ -73,7 +73,7 @@ Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic b
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '59:57' %}
+  {% timeLink {url:podcast_file_url, t:'59:57'} %}
   <span class="quote-context is-size-6">Comics objectify women</span>
   <q data-name="Rick Lee James">You know, basically the equivalent of a female superhero would wear, like, lingerie to fight crime in, you know--</q>
   <q class="ben">Well yeah, isn't that true?</q>
@@ -109,7 +109,7 @@ Patriotism to the extreme is wrong, as shown by Zod.
 Rick says God doesn't recognize country borders. {% arc %}I don't think you can say that definitively. He definitely deals with countries separately in the Old Testament, which I think requires borders; the counter-argument is that he didn't explicitly condemn polygamy or slavery either. I suppose you could argue that Paul invalidated borders when he said "There is neither Jew nor Greek" (Gal. 3:28), but I would say that was not what he meant at all.{% endarc %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:44:52' %}
+  {% timeLink {url:podcast_file_url, t:'1:44:52'} %}
   <q data-name="Rick Lee James">And I was a little worried...this is gonna sound maybe racist, but that we had Perry Black instead of Perry White.</q>
   <q class="matt">Ooh, you're right, that was racist. That was completely racist! Wow.</q>
 </div>

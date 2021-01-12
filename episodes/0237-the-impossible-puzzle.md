@@ -29,7 +29,7 @@ Does theorizing about the plot miss the point of story?
 Ben says the book of Revelation is the oldest and most popular theorized-about book.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '13:56' %}
+  {% timeLink {url:podcast_file_url, t:'13:56'} %}
   <q class="matt">God: the original Damon Lindelof.</q>
 </div>
 

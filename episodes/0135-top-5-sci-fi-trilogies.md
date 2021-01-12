@@ -104,7 +104,7 @@ recommendation_reason: Not a super interesting discussion.
 Ben and Matt are both reading {% work "Out of the Silent Planet" %} for the Strangers and Aliens book club. Both dislike the book.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '48:48' %}
+  {% timeLink {url:podcast_file_url, t:'48:48'} %}
   <q class="matt">I kind of have a personal goal that in my lifetime I want to read everything C. S. Lewis ever put out.</q>
   <q class="ben">You know that he wrote a lot of literary criticism as well that might not appeal to you.</q>
   <q class="matt">I mean, I don't always meet all my goals.</q>
@@ -117,4 +117,4 @@ Ben and Matt call foul on Chad picking {% work "The Hitchhiker's Guide to the Ga
 
 Aaron Reini names {% work "The Hobbit" %} movie trilogy "the most unnecessary trilogy". Ben says he could not disagree more after how good the first movie was.
 
-{% timeLink podcast_file_url, '55:51' %} Sci-Fi Christian Story Time: Ben Gives in to Fandom
+{% timeLink {url:podcast_file_url, t:'55:51'} %} Sci-Fi Christian Story Time: Ben Gives in to Fandom

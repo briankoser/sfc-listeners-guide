@@ -26,7 +26,7 @@ recommendation_reason: The cracks are starting to show.
 Starting with the next episode in the series, they will cover a season at a time. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:09' %}
+  {% timeLink {url:podcast_file_url, t:'2:09'} %}
   <q class="ben">We have discovered in our excavation thus far that the X-Files mythology episodes are clearly not meant to be watched back to back to back.</q>
   <q class="matt">OK. I could probably see that, yeah.</q>
   <q class="ben">That's what you said. I'm like repeating your words in the email you wrote me.</q>
@@ -39,12 +39,12 @@ Starting with the next episode in the series, they will cover a season at a time
   <q class="matt">Or if I say, 'Seems reasonable,' or something like that, it means I'm just trying to think of some sort of phrase to keep the conversation going while I'm not paying attention.</q>
 </div>
 
-{% timeLink podcast_file_url, '7:30' %}  Sci-Fi Christian Story Time: The wasp nest the size of a football
+{% timeLink {url:podcast_file_url, t:'7:30'} %}  Sci-Fi Christian Story Time: The wasp nest the size of a football
 
 Ben remembered Seasons 4 and 5 being the high point, but has been disappointed by the Season 4 rewatch. It's poorly written and the mythology doesn't hold together.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '23:13' %}
+  {% timeLink {url:podcast_file_url, t:'23:13'} %}
   <q class="matt">I wonder if X-Files is better left in your memories.</q>
 </div>
 

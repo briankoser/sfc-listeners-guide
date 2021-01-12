@@ -66,7 +66,7 @@ recommendation_reason: The first "Bad but Great" episode. It's a silly premise a
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '22:02' %}
+  {% timeLink {url:podcast_file_url, t:'22:02'} %}
   <q class="ben">The Holy Spirit's got you beat.</q>
   <q class="matt">Dang it, not again!</q>
 </div>
@@ -112,10 +112,10 @@ recommendation_reason: The first "Bad but Great" episode. It's a silly premise a
   </div>
 </div>
 
-{% timeLink podcast_file_url, '35:58' %} Matt imagines time travelling back to meet Jesus
+{% timeLink {url:podcast_file_url, t:'35:58'} %} Matt imagines time travelling back to meet Jesus
 
 <div class="quote">
-  {% timeLink podcast_file_url, '36:28' %}
+  {% timeLink {url:podcast_file_url, t:'36:28'} %}
   <q class="ben">Your theoretical conversation with Jesus involves him asking you why you're wearing jeans...</q>
 </div>
 

@@ -43,7 +43,7 @@ Ben accidentally calls Koby, "Koby"
 Stan Lee Quote of the Week: Stan Lee rants against neckties
 
 <div class="quote">
-  {% timeLink podcast_file_url, '24:17' %}
+  {% timeLink {url:podcast_file_url, t:'24:17'} %}
   <span class="quote-context is-size-6">Ben says he doesn't like neckties because he has a large neck</span>
   <q class="matt">You have a large neck?</q>
   <q class="ben">Yeah. So it's uncomfortable.</q>
@@ -64,10 +64,10 @@ Take That, Science: <i>Voyager 1</i> exited the solar system
 
 Roger Ebert died
 
-{% timeLink podcast_file_url, '31:12' %} Ben reads some of Roger Ebert's sci-fi movie reviews
+{% timeLink {url:podcast_file_url, t:'31:12'} %} Ben reads some of Roger Ebert's sci-fi movie reviews
 
 <div class="quote">
-  {% timeLink podcast_file_url, '34:20' %}
+  {% timeLink {url:podcast_file_url, t:'34:20'} %}
   <q class="matt">Peter Berg, who is a director for {% work "Friday Night Lights" %}, these two other bad movies: {% work "Hancock" %}, {% work "Battleship" %}. He's on board to direct the pilot for {% work "The Leftovers" %}. Ben?</q>
   <q class="ben">Yeah, that's gonna suck.</q>
 </div>
@@ -75,7 +75,7 @@ Roger Ebert died
 Ben gives his {% work "The Lord of the Rings" %} pipe questions again. So far no one has entered the contest. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '44:10' %}
+  {% timeLink {url:podcast_file_url, t:'44:10'} %}
   <span class="quote-context is-size-6">Ben reviews the questions for his contest</span>
   <q class="ben">And question 5: what was Tolkien's preferred pipe material? And you need to be specific there. Like you said, when you guessed, you said wood. I'm not saying whether wood is right or not, but wood, even if it was right, would not have counted cuz it's not specific.</q>
   <q class="matt">Like I would have had to have said like, pine wood.</q>

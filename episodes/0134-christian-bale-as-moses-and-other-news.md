@@ -53,19 +53,19 @@ Ben says the listeners can send in as many shows as they like. Matt reins him in
 Skip Crust started listening again.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '15:59' %}
+  {% timeLink {url:podcast_file_url, t:'15:59'} %}
   <span class="quote-context is-size-6">On {% work "Jurassic Park" %}</span>
   <q class="matt">They should have let the kids get eaten. Teach children a lesson.</q>
 </div>
 
-{% timeLink podcast_file_url, '20:35' %} The original "Ben is Right" sound clips
+{% timeLink {url:podcast_file_url, t:'20:35'} %} The original "Ben is Right" sound clips
 
 Iran is planning to "sue Hollywood" because they looked bad in Argo.
 
 Stan Lee Quote of the Week: Stan thinks "comicbook" should be one word because they are not funny books. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:17' %}
+  {% timeLink {url:podcast_file_url, t:'30:17'} %}
   <q class="ben">So Damon Lindelhof, whatever you have to say about—</q>
   <q class="matt">No, 'Lindelof'.</q>
   <q class="ben">What? What did I say?</q>
@@ -80,7 +80,7 @@ Stan Lee Quote of the Week: Stan thinks "comicbook" should be one word because t
 Take That, Science: babies conceived in space might not develop normally.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:48' %}
+  {% timeLink {url:podcast_file_url, t:'30:48'} %}
   <q class="ben">If you're gonna go to space, Matt, there's something you might not want to do.</q>
   <q class="matt">What?</q>
   <q class="ben">Have sex.</q>
@@ -92,7 +92,7 @@ Take That, Science: babies conceived in space might not develop normally.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '31:27' %}
+  {% timeLink {url:podcast_file_url, t:'31:27'} %}
   <span class="quote-context is-size-6">Matt wants to write fiction based on the last Take That, Science</span>
   <q class="matt">This is an idea for a book.</q>
   <q class="ben">It is.</q>
@@ -107,7 +107,7 @@ Take That, Science: babies conceived in space might not develop normally.
 Take That, Science: people are trying to ban Google glass 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '33:02' %}
+  {% timeLink {url:podcast_file_url, t:'33:02'} %}
   <q class="ben">Take that, Matt Anderson!</q>
   <q class="matt">Take that, lasik surgery!</q>
 </div>
@@ -115,7 +115,7 @@ Take That, Science: people are trying to ban Google glass
 Matt forgot to save the Slew of Casting News sound clip
 
 <div class="quote">
-  {% timeLink podcast_file_url, '40:39' %}
+  {% timeLink {url:podcast_file_url, t:'40:39'} %}
   <q class="matt">Some of our listeners didn't listen closely when I asked to keep their listener feedback shorter so we could pick good soundbites. And so you're going to be punished and I'm not going to read your feedback. I'm sorry, listeners. You had your chance.</q>
   <q class="ben">I love it! I love being hard on our listeners.</q>
 </div>
@@ -123,4 +123,4 @@ Matt forgot to save the Slew of Casting News sound clip
 
 
 # Feedback 
-{% timeLink podcast_file_url, '41:15' %} Hank sends 3 emails excoriating Ben. {% arc %}The hardest I've heard Matt and Ben laugh during feedback to this point.{% endarc %}
+{% timeLink {url:podcast_file_url, t:'41:15'} %} Hank sends 3 emails excoriating Ben. {% arc %}The hardest I've heard Matt and Ben laugh during feedback to this point.{% endarc %}

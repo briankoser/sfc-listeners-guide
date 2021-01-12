@@ -35,7 +35,7 @@ Ben's furnace broke.
 # News
 
 <div class="quote">
-  {% timeLink podcast_file_url, '15:47' %}
+  {% timeLink {url:podcast_file_url, t:'15:47'} %}
   <q class="ben">Remember we covered dinosaur erotica a couple months ago?</q>
   <q class="matt">I don't remember that.</q>
 </div>

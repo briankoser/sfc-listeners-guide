@@ -35,7 +35,7 @@ They chat with Doug for 36 minutes and have him vote for the end of year awards 
 Take That, Science: Amazon announced plans for delivery by drone
 
 <div class="quote">
-  {% timeLink podcast_file_url, '43:40' %}
+  {% timeLink {url:podcast_file_url, t:'43:40'} %}
   <span class="quote-context is-size-6">Ben is done with mindless action movies</span>
   <q class="matt">I don't mind the CGI, I don't mind the action, as long as there's a good story to back it all up.</q>
   <q class="ben">Well yeah, but that's the point, is that there isn't.</q>
@@ -54,7 +54,7 @@ Disney has the rights to make future Indiana Jones movies. {% arc %}Hard to beli
 What the Frodo: A valve engineer created controllers, one for your mouth, one for your butt (for the disabled) 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '58:34' %}
+  {% timeLink {url:podcast_file_url, t:'58:34'} %}
   <span class="quote-context is-size-6">They discuss the new video game controller</span>
   <q class="matt">This is a conversation that needs to end.</q>
   <q class="ben">What, why? It's about people with disabilities, Matt! Are you against helping people with disabilities?</q>

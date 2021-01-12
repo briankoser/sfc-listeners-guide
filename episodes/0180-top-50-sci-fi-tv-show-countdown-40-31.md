@@ -43,4 +43,4 @@ recommendation_reason: The first hiatus countdown continues.
 
 
 # Closing
-{% timeLink podcast_file_url, '26:56' %} Matt tries to record an intro and outro for a sound clip they don't yet have.
+{% timeLink {url:podcast_file_url, t:'26:56'} %} Matt tries to record an intro and outro for a sound clip they don't yet have.

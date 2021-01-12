@@ -39,7 +39,7 @@ Izzy's white clothing
 Religious ecstasy
 
 <div class="quote">
-  {% timeLink podcast_file_url, '29:58' %}
+  {% timeLink {url:podcast_file_url, t:'29:58'} %}
   <q class="matt">What makes you keep calling him 'the last man'?</q>
   <q class="ben">Well, that's what the movie was originally titled.</q>
   <q class="matt">Oh, well that'll do it.</q>
@@ -52,7 +52,7 @@ The last man
 The seed from the Tree of Life
 Tom vs Noah
 
-{% timeLink podcast_file_url, '51:11' %}  Sci-Fi Christian Story Time: Ben saved Casey's life
+{% timeLink {url:podcast_file_url, t:'51:11'} %}  Sci-Fi Christian Story Time: Ben saved Casey's life
 
 <table class="table is-striped rating">
   <thead>

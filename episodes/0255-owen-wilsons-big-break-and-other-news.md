@@ -41,7 +41,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 What the Frodo: Owen Wilson has been cast as a talking crayon in a crayon movie, {% work "The Hero of Color City" %}. It has not been announced what color.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '4:10' %}
+  {% timeLink {url:podcast_file_url, t:'4:10'} %}
   <span class="quote-context is-size-6">Matt reads the IMDb description for {% work "The Hero of Color City" %}</span>
   <q class="matt">'A colorful and diverse band of crayons strive to protect their magical multi-hued homeland from and evil tyrant—'</q>
   <q class="ben">Wait wait wait, you need to start over because I didn't get past that first line.</q>
@@ -52,7 +52,7 @@ What the Frodo: Owen Wilson has been cast as a talking crayon in a crayon movie,
 They watch the trailer and give commentary. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '5:44' %}
+  {% timeLink {url:podcast_file_url, t:'5:44'} %}
   <q class="matt">Brush your teeth, even if you are a crayon.</q>
 </div>
 

@@ -36,7 +36,7 @@ For the first time they lost 5 minutes of recording with no video backup. They d
 # News
 Matt is shocked by {% work "Guardians of the Galaxy" %} casting. 
 
-{% timeLink podcast_file_url, '4:48' %} {% work "Guardians of the Galaxy" %} will either be amazing or terrible
+{% timeLink {url:podcast_file_url, t:'4:48'} %} {% work "Guardians of the Galaxy" %} will either be amazing or terrible
 
 What the Frodo: Whoopi Goldberg was cast in {% work "Teenage Mutant Ninja Turtles" %}.
 
@@ -87,7 +87,7 @@ What the Frodo: there's a Trolls movie coming that will explain the origin of th
 More video game news: Ben tries again to create a sound clip. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '28:57' %}
+  {% timeLink {url:podcast_file_url, t:'28:57'} %}
   <q class="ben">But I thought Damon Lindelof maybe wasn't quite as good as we thought he was.</q>
   <q class="matt">That was only said one time, in private.</q>
 </div>
@@ -103,8 +103,8 @@ A Grumpy Cat movie is in the works.
 Matt put {% work "Talladega Nights" %} on his wedding registry.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '38:18' %}
+  {% timeLink {url:podcast_file_url, t:'38:18'} %}
   <q class="ben">Legendary sci-fi author Jack Vance is dead. But he was like 90, so, it happens.</q>
 </div>
 
-{% timeLink podcast_file_url, '41:28' %} Ben explains what he means by "depth" in art
+{% timeLink {url:podcast_file_url, t:'41:28'} %} Ben explains what he means by "depth" in art

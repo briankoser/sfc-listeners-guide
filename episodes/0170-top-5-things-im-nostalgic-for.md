@@ -141,7 +141,7 @@ Ben started biking this year. Today he did his first mile in under three minutes
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:00:52' %}
+  {% timeLink {url:podcast_file_url, t:'1:00:52'} %}
   <span class="quote-context is-size-6">Ben describes the premise of the video game {% work "DOOM" %}.</span>
   <q class="ben">You're on a moon base, and they open up a portal and demons come through.</q>
   <q class="matt">Why don't they just not open the portal?</q>
@@ -151,7 +151,7 @@ Ben started biking this year. Today he did his first mile in under three minutes
 Ben is Right: video games let you choose your own adventure, so the book series is unnecessary
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:07:48' %}
+  {% timeLink {url:podcast_file_url, t:'1:07:48'} %}
   <q class="matt">I just started watching this past weekend {% work "Downton Abbey" %}.</q>
   <q class="ben">Yeah, there you go.</q>
   <q class="matt">Upon your recommendation.</q>
@@ -165,7 +165,7 @@ Ben is Right: video games let you choose your own adventure, so the book series 
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:09:45' %}
+  {% timeLink {url:podcast_file_url, t:'1:09:45'} %}
   <span class="quote-context is-size-6">Ben first watched {% work "Aliens" %} with his dad</span>
   <q class="matt">That must have been awesome. I grew up without my father.</q>
   <q class="ben">*laughs* Painful memories.</q>
@@ -177,7 +177,7 @@ Ben is Right: video games let you choose your own adventure, so the book series 
 Matt is reading {% work "Morning Glories" %} monthly. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:22:47' %}
+  {% timeLink {url:podcast_file_url, t:'1:22:47'} %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">That's all from here. I'm Matt Anderson.</q>
   <q class="ben">Don't do drugs if you're pregnant. I'm Ben de Bono.</q>

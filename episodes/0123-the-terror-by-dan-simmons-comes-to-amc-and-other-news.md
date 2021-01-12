@@ -52,7 +52,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Ben reveals that Matt lives with Ryan Strelau in Scotland Green Apartments in Mountains View, MN
 
 <div class="quote">
-  {% timeLink podcast_file_url, '6:14' %}
+  {% timeLink {url:podcast_file_url, t:'6:14'} %}
   <span class="quote-context is-size-6">Matt wants to be nominated for the Battle Royale, since he's a sci-fi creator.</span>
   <q class="ben">[And a] permanent member of the A Squad.</q>
   <q class="matt">Unless I quit this year.</q>
@@ -83,7 +83,7 @@ Matt stopped reading a book ({% work "The Christian Atheist" %}) and sold it at 
 Ben does "For It or Against It" for which {% work "Star Wars" %} characters should get a spinoff. Matt likes it and has Ben do "For It or Against It" for news items at the end of the show. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '42:11' %}
+  {% timeLink {url:podcast_file_url, t:'42:11'} %}
   <span class="quote-context is-size-6">Admiral Akbar was not listed as a possible spinoff character.</span>
   <q class="ben">Now, why in the [bleep]—</q>
   <q class="matt">No!</q>
@@ -128,7 +128,7 @@ Ben reads Colin in the UK s email in an English accent. Halfway through he inexp
 
 # Listener Feedback
 
-{% timeLink podcast_file_url, '56:40' %} Listeners rave about "You Say You Want a Revolution?" Ben is put out and calls Brad Jorde, "Gordie".
+{% timeLink {url:podcast_file_url, t:'56:40'} %} Listeners rave about "You Say You Want a Revolution?" Ben is put out and calls Brad Jorde, "Gordie".
 
 Koby made a Facebook page for his cat Kitty Radcliffe.
 

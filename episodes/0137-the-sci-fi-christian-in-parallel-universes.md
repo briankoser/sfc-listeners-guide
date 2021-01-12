@@ -37,7 +37,7 @@ Ben is about to release a video review of a {% work "Game of Thrones" %} beer.
 Ben is promoting moderation and enjoyment for alcohol and smoking. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '7:09' %}
+  {% timeLink {url:podcast_file_url, t:'7:09'} %}
   <q class="matt">Take that, listeners!</q>
 </div>
 
@@ -86,7 +86,7 @@ How do you reconcile God's immutability (unchangeability) with the incarnation?
 Ben says Augustine's {% work "De Trinitate" %} and Aquinas's {% work "Summa Theologica" %} argue that nothing in God changed with the incarnation. Nothing was added to the divine part of God.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '49:01' %}
+  {% timeLink {url:podcast_file_url, t:'49:01'} %}
   <span class="quote-context is-size-6">Ben says early Christianity was touchy about the Arian heresy (God the Father created Jesus)</span>
   <q class="ben">And that's where the whole formula, "100% God, 100% man", comes from. It's an attempt to get around that exact point.</q>
   <q class="matt">And it really mathematically doesn't make any sense.</q>
@@ -99,7 +99,7 @@ Western theology starts with one God and works to three persons. Eastern theolog
 Legend goes that Saint Nicholas punched Arius in the face at the Council of Nicea. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '52:09' %}
+  {% timeLink {url:podcast_file_url, t:'52:09'} %}
   <q class="ben">Take that, Arius.</q>
 </div>
 
@@ -118,8 +118,8 @@ What if Jesus came today?
 # Feedback
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:05:14' %}
+  {% timeLink {url:podcast_file_url, t:'1:05:14'} %}
   <q class="ben">Take that, John.</q>
 </div>
 
-{% timeLink podcast_file_url, '1:08:53' %} Sci-Fi Christian Story Time: Ben Gets Busted
+{% timeLink {url:podcast_file_url, t:'1:08:53'} %} Sci-Fi Christian Story Time: Ben Gets Busted

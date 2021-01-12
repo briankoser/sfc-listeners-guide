@@ -29,14 +29,14 @@ recommendation_reason: Fun dive into an odd topic. And you can't beat the Mangle
 # Opening
 Matt's wrestling name was Matt the Mangler. 
 
-{% timeLink podcast_file_url, '2:09' %} Matt and Ben sing Matt's Manglers fight song, which is to the tune of the Indiana Jones theme
+{% timeLink {url:podcast_file_url, t:'2:09'} %} Matt and Ben sing Matt's Manglers fight song, which is to the tune of the Indiana Jones theme
 
-{% timeLink podcast_file_url, '6:00' %} Ben discusses indulgences
+{% timeLink {url:podcast_file_url, t:'6:00'} %} Ben discusses indulgences
 
 
 # Main Topic
 <div class="quote">
-  {% timeLink podcast_file_url, '14:19' %}
+  {% timeLink {url:podcast_file_url, t:'14:19'} %}
   <span class="quote-context is-size-6"></span>
   <q class="ben">And would you know, Matt, that there are some differences between us.</q>
   <q class="matt">You and I?</q>
@@ -48,7 +48,7 @@ Matt's wrestling name was Matt the Mangler.
 Some scholars think Josiah found the Ark along with the law.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '25:56' %}
+  {% timeLink {url:podcast_file_url, t:'25:56'} %}
   <q class="ben">So here it would seem that the Nazis are right so far. Please do not take that clip.</q>
   <q class="matt">The Nazis are right!</q>
   <q class="ben">My gosh. No one isolate that clip! You're not allowed to do that.</q>
@@ -64,4 +64,4 @@ The Lemba people in South Africa claim that the ark self-destructed after they s
 
 If we found the ark today, would it still have power? Would you be the first one to touch it? 
 
-{% timeLink podcast_file_url, '44:26' %} Matt calls the Ethiopian patriarch a liar
+{% timeLink {url:podcast_file_url, t:'44:26'} %} Matt calls the Ethiopian patriarch a liar

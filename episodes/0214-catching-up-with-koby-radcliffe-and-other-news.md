@@ -44,7 +44,7 @@ Koby checks email and fantasy football while Matt tries to get him to do the ope
 Matt wants to raise money for a cause in 2014. Ben wants to pay their own bills first. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '6:50' %}
+  {% timeLink {url:podcast_file_url, t:'6:50'} %}
   <q class="matt">Speaking of donations, this episode is brought to you by Andrew, who just donated a little bit ago this evening, he gave us [bleep]. Oh, I'm not supposed to say that much. Oops a daisy. He gave us some money—</q>
   <q class="ben">Fifty thousand. Fifty thousand. So the rest of you can manage a measley hundred, I think.</q>
 </div>

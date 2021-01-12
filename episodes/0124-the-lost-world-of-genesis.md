@@ -122,10 +122,10 @@ Ben believes in evolution because the Bible is silent on the issue.
 
 When someone says evolution happened by chance, they are making a physical and a metaphysical statement: evolution is a scientific theory, by chance is a metaphysical theory. 
 
-{% timeLink podcast_file_url, '1:16:30' %} Sci-Fi Christian Story Time: CS Lewis: Sci-Fi Catholic? 
+{% timeLink {url:podcast_file_url, t:'1:16:30'} %} Sci-Fi Christian Story Time: CS Lewis: Sci-Fi Catholic? 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:19:06' %}
+  {% timeLink {url:podcast_file_url, t:'1:19:06'} %}
   <span class="quote-context is-size-6">Ben realized the scene on Ramandu's island in {% work "The Voyage of the Dawn Treader" %} is symbolic of Eucharist.</span>
   <q class="ben">This entire section from them getting to the table, through the water, is Catholic Eucharist through and through. Let me explain.</q>
   <q class="matt">OK. I'm looking at you in stunned silence. As if you couldn't make people more mad.</q>

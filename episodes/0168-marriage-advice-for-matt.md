@@ -30,12 +30,12 @@ last_listen: 2019-01-30
 recommendation: yes
 recommendation_reason: Fun interaction with Des, plus some good advice.
 ---
-{% timeLink podcast_file_url, '0:28' %} Matt says his name wrong in the opening.
+{% timeLink {url:podcast_file_url, t:'0:28'} %} Matt says his name wrong in the opening.
 
 5 weeks to the wedding. Ben is a groomsman.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '3:03' %}
+  {% timeLink {url:podcast_file_url, t:'3:03'} %}
   <q class="matt">When you found out I was really into sci-fi, what did you think?</q>
   <q data-name="Des">I think you're not that into it.</q>
   <q class="matt">Oh!</q>
@@ -47,18 +47,18 @@ recommendation_reason: Fun interaction with Des, plus some good advice.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '4:18' %}
+  {% timeLink {url:podcast_file_url, t:'4:18'} %}
   <q class="matt">You found out that I was doing a podcast about science fiction and theology prior to us dating, like we were just friends.</q>
   <q class="ben">Oh, you were a fan first? That's awesome! You're marrying a fan!</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '5:54' %}
+  {% timeLink {url:podcast_file_url, t:'5:54'} %}
   <q class="ben">I'm kinda inappropriate sometimes.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '8:14' %}
+  {% timeLink {url:podcast_file_url, t:'8:14'} %}
   <q class="ben">Have you watched {% work "LOST" %}?</q>
   <q data-name="Des">No.</q>
   <q class="ben">That's awesome.</q>
@@ -71,7 +71,7 @@ recommendation_reason: Fun interaction with Des, plus some good advice.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '9:01' %}
+  {% timeLink {url:podcast_file_url, t:'9:01'} %}
   <span class="quote-context is-size-6"></span>
   <q class="ben">What is going to happen, and I'm not saying this is likely to happen, but we get halfway through Season 1 and Des is like, 'I don't like it. This is not a good show.'</q>
   <q class="matt">I would just stop. I would respect your opinion.</q>
@@ -79,7 +79,7 @@ recommendation_reason: Fun interaction with Des, plus some good advice.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '9:59' %}
+  {% timeLink {url:podcast_file_url, t:'9:59'} %}
   <q class="matt">Right now, I'm past it. I'm over {% work "LOST" %}. I think everyone knows I'm over {% work "LOST" %}.</q>
   <q class="ben">I don't think that's accurate.</q>
 </div>
@@ -115,7 +115,7 @@ Dawn: show your love, be best friends
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '17:40' %}
+  {% timeLink {url:podcast_file_url, t:'17:40'} %}
   <span class="quote-context is-size-6">Matt discusses the last marriage counseling session</span>
   <q class="matt">The man's role is to serve and sacrifice, whereas the woman's role is to submit.</q>
   <q class="ben">That's right.</q>
@@ -134,7 +134,7 @@ John Wilkerson: never ask your wife to go where you won't lead, divorce is not a
 Andrew: don't throw away your Spider-Man suit
 
 <div class="quote">
-  {% timeLink podcast_file_url, '31:40' %}
+  {% timeLink {url:podcast_file_url, t:'31:40'} %}
   <span class="quote-context is-size-6">Andrew says husbands should be heroes for their wives</span>
   <q class="matt">How do you feel about that? Do you want me to be a hero for you?</q>
   <q data-name="Des">Sure.</q>

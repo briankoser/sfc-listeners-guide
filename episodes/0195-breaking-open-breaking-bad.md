@@ -37,6 +37,6 @@ Color symbolism
 Why do we root for Walt?
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:06:06' %}
+  {% timeLink {url:podcast_file_url, t:'1:06:06'} %}
   <q class="ben">I have to pull a Koby and go pee before the next episode.</q>
 </div>

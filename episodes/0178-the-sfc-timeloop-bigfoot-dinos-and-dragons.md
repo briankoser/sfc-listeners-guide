@@ -28,14 +28,14 @@ recommendation_reason: A pretty funny episode with some amusing Bigfoot theories
 ---
 # Opening
 <div class="quote">
-  {% timeLink podcast_file_url, '0:00' %}
+  {% timeLink {url:podcast_file_url, t:'0:00'} %}
   <q class="matt">Episode 178: Bigfoot, Dinos, and Dragons.</q>
   <q class="ben">Yeah. It was quite an episode. Time loop, everyone.</q>
   <q class="matt">Shh! Shh! Don't tell them it's a time loop!</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:02' %}
+  {% timeLink {url:podcast_file_url, t:'2:02'} %}
   <q class="ben">What if The Rock is shaved Bigfoot?</q>
 </div>
 
@@ -43,12 +43,12 @@ recommendation_reason: A pretty funny episode with some amusing Bigfoot theories
 Matt's theories are: dinosaurs/dragons still exist, and Bigfoot is an interdimensional being
 
 <div class="quote">
-  {% timeLink podcast_file_url, '11:26' %}
+  {% timeLink {url:podcast_file_url, t:'11:26'} %}
   <q class="matt">For the sake of the show, don't debate me.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '13:51' %}
+  {% timeLink {url:podcast_file_url, t:'13:51'} %}
   <q class="koby">My gosh.</q>
   <q class="ben">You're not arguing that dinosaurs still exist.</q>
   <q class="matt">No no.</q>
@@ -58,28 +58,28 @@ Matt's theories are: dinosaurs/dragons still exist, and Bigfoot is an interdimen
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '26:04' %}
+  {% timeLink {url:podcast_file_url, t:'26:04'} %}
   <q class="koby">So, previous theories about how or what Bigfoot is, is that, it, uh...apes. OK?</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '27:17' %}
+  {% timeLink {url:podcast_file_url, t:'27:17'} %}
   <q class="ben">I feel like I just watched this episode, which was going along nicely, jump off a cliff. You just asked, wouldn't it be sweet if Bigfoot could talk to us.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '29:38' %}
+  {% timeLink {url:podcast_file_url, t:'29:38'} %}
   <q class="ben">This is why China has banned time-travel movies.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:32' %}
+  {% timeLink {url:podcast_file_url, t:'30:32'} %}
   <q class="ben">Koby's never allowed to guest host again.</q>
   <q class="matt">He actually left the room!</q>
   <q class="ben">I know. He went to the bathroom.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '34:36' %}
+  {% timeLink {url:podcast_file_url, t:'34:36'} %}
   <q class="matt">Koby, thanks for coming. Probably won't have you back again, but still.</q>
 </div>

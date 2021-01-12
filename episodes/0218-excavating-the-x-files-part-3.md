@@ -27,7 +27,7 @@ Scully's gravestone reads: Dana Katherine Scully, Loving Daughter & Friend, “T
 {% arc %}It should be 1 John 5:6: "This is he who came by water and blood—Jesus Christ; not by the water only but by the water and the blood. And the Spirit is the one who testifies, because the Spirit is the truth.". Verse 7 is the location of the famous <a href="https://en.m.wikipedia.org/wiki/Johannine_Comma">Johannine comma</a>.{% endarc %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '18:20' %}
+  {% timeLink {url:podcast_file_url, t:'18:20'} %}
   <q class="ben">Would you eat cow that had been injected with alien DNA?</q>
   <q class="matt">I don't think so. It looks like it just leads to bad things.</q>
 </div>

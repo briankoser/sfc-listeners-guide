@@ -1,47 +1,23 @@
 module.exports = function(eleventyConfig) {
+  /*
+      libraries
+  */
   const { DateTime } = require("luxon");
+
+
+
+  /*
+      metadata
+  */
   const fs = require("fs");
-  const http = require("http");
-  const parseXml = require('xml2js').parseString;
-
-  const archivistNoteShortCode = require('./_includes/shortcodes/archivistNote-shortcode.js');
-  const ratingShortCode = require('./_includes/shortcodes/rating-shortcode.js');
-  const ratingsListShortCode = require('./_includes/shortcodes/ratingsList-shortcode.js');
-  const workTitleShortCode = require('./_includes/shortcodes/workTitle-shortcode.js');
-
   const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
 
 
 
-  eleventyConfig.addLayoutAlias("baseHero", "layouts/baseHero.njk");
-  eleventyConfig.addLayoutAlias("baseNavBar", "layouts/baseNavBar.njk");
-  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
-  eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
-  eleventyConfig.addLayoutAlias("season", "layouts/season.njk");
-
-
-
-  eleventyConfig.addFilter('categoryFilter', function(episodes, category) {
-    if (!category) {
-      return episodes;
-    }
-
-    return episodes.filter(e => e.data.category == category);
-  });
-  
-  eleventyConfig.addFilter("categoryDescription", slug => {
-    return (metadata.categories.find(s => s.slug === slug) || {}).description || '';
-  });
-
-  eleventyConfig.addFilter("categoryName", slug => {
-    return (metadata.categories.find(s => s.slug === slug) || {}).name || slug;
-  });
-  
-  eleventyConfig.addFilter("color", shortName => {
-    return (metadata.hosts.find(host => host.shortName === shortName).color || {}).name;
-  });
-
-  eleventyConfig.addFilter("displayLength", length => {
+  /*
+      functions
+  */
+  let displayLength = length => {
     let pieces = length.split(':');
     let hours = parseInt(pieces[0]);
     let minutes = pieces[1];
@@ -57,65 +33,71 @@ module.exports = function(eleventyConfig) {
     let seconds = pieces[2];
 
     return `${hoursMinutes}:${seconds}`;
-  });
-
-  eleventyConfig.addFilter("fullName", shortName => {
-    return metadata.hosts.find(host => host.shortName === shortName).fullName;
-  });
-
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toISODate();
-  });
-
-  eleventyConfig.addFilter('seriesFilter', function(episodes, series) {
-    if (!series) {
-      return episodes;
-    }
-
-    return episodes.filter(e => e.data.series == series);
-  });
-
-  eleventyConfig.addFilter("seriesDescription", slug => {
-    return (metadata.series.find(s => s.slug === slug) || {}).description || '';
-  });
-
-  eleventyConfig.addFilter("seriesName", slug => {
-    return (metadata.series.find(s => s.slug === slug) || {}).name || slug;
-  });
-
-  eleventyConfig.addFilter("today", option => {
-    return option === "year" ? new Date().getFullYear() : new Date();
-  });
-
-  eleventyConfig.addFilter("weakness", shortName => {
-    return metadata.hosts.find(host => host.shortName === shortName).weakness;
-  });
+  };
 
 
 
-  eleventyConfig.addPairedShortcode("arc", archivistNoteShortCode);
-  
-  eleventyConfig.addShortcode("rating", ratingShortCode);
-  eleventyConfig.addShortcode("ratingsList", ratingsListShortCode);
-  eleventyConfig.addShortcode("work", workTitleShortCode);
-  
-  // can't go in it's own file because it will lose access to the global data variable metadata
-  eleventyConfig.addShortcode("timeLink", function (url, time) {
-    let linkUrl = `${process.env.NODE_ENV === 'prod' ? metadata.analytics_url : ''}${url}`;
-
-    let timePieces = time.split(':');
-    
-    while(timePieces.length < 3) {
-        timePieces.unshift('00'); 
-    }
-
-    let paddedTime = timePieces.map(x => x.padStart(2, '0')).join(':');
-    
-    return `<a class="timestamp tag is-medium is-rounded is-primary" href="${linkUrl}#t=${paddedTime}">${time}</a>`;
-  });
+  /*
+      filters
+  */
+  eleventyConfig.addFilter('categoryFilter', (episodes, category) => category ? episodes.filter(e => e.data.category == category) : episodes);
+  eleventyConfig.addFilter("categoryDescription", slug => (metadata.categories.find(s => s.slug === slug) || {}).description || '');
+  eleventyConfig.addFilter("categoryName", slug => (metadata.categories.find(s => s.slug === slug) || {}).name || slug);
+  eleventyConfig.addFilter("color", shortName => (metadata.hosts.find(host => host.shortName === shortName).color || {}).name);
+  eleventyConfig.addFilter("displayLength", displayLength);
+  eleventyConfig.addFilter("fullName", shortName => metadata.hosts.find(host => host.shortName === shortName).fullName);
+  eleventyConfig.addFilter("readableDate", dateObj => DateTime.fromJSDate(dateObj).toISODate());
+  eleventyConfig.addFilter('seriesFilter', (episodes, series) => series ? episodes.filter(e => e.data.series == series) : episodes);
+  eleventyConfig.addFilter("seriesDescription", slug => (metadata.series.find(s => s.slug === slug) || {}).description || '');
+  eleventyConfig.addFilter("seriesName", slug => (metadata.series.find(s => s.slug === slug) || {}).name || slug);
+  eleventyConfig.addFilter("today", option => option === "year" ? new Date().getFullYear() : new Date());
+  eleventyConfig.addFilter("weakness", shortName => metadata.hosts.find(host => host.shortName === shortName).weakness);
 
 
 
+  /*
+      layouts
+  */
+  eleventyConfig.addLayoutAlias("baseHero", "layouts/baseHero.njk");
+  eleventyConfig.addLayoutAlias("baseNavBar", "layouts/baseNavBar.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
+  eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
+  eleventyConfig.addLayoutAlias("season", "layouts/season.njk");
+
+
+
+  /*
+      passthrough copy
+  */
+  eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("js");
+
+
+
+  /*
+      settings
+  */
+  eleventyConfig.setDataDeepMerge(true);
+
+
+
+  /*
+      shortcodes
+  */
+  const autoLoad = require('auto-load');
+  const shortcodes = autoLoad('_includes/shortcodes');
+  let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata));
+  let addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (data) => shortcodes[name](data, metadata));
+
+  addPairedShortcode('arc');
+  addShortcode('rating');
+  addShortcode('ratingsList');
+  addShortcode('timeLink');
+  addShortcode('work');
+
+
+  // todo: rewrite as shortcode
   eleventyConfig.addNunjucksTag("episodeLink", function(nunjucksEngine) {
     return new function() {
       this.tags = ["episodeLink"];
@@ -147,8 +129,10 @@ module.exports = function(eleventyConfig) {
     }();
   });
 
-
-
+  // todo: move to files, simplify
+  /*
+      collections
+  */
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
     let episodesReverse = Object.assign([], episodes);
@@ -560,9 +544,7 @@ module.exports = function(eleventyConfig) {
       }});
   })
 
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("js");
+  
 
   return {
     templateFormats: [

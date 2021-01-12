@@ -38,14 +38,14 @@ Ben is taller than both hosts imagined.
 
 Allan is Aaron's father. 
 
-{% timeLink podcast_file_url, '10:41' %} Thankfully the book was good so Ben could give an honest review
+{% timeLink {url:podcast_file_url, t:'10:41'} %} Thankfully the book was good so Ben could give an honest review
 
 Tom Bombadil represents the ideal pacifist. Tolkien used him to represent the ideal to strive for, but an impossibility to achieve in the real world. 
 
-{% timeLink podcast_file_url, '33:00' %} Allan Reini calls Ben "Oh Great Catholic Ben"
+{% timeLink {url:podcast_file_url, t:'33:00'} %} Allan Reini calls Ben "Oh Great Catholic Ben"
 
 <div class="quote">
-  {% timeLink podcast_file_url, '34:30' %}
+  {% timeLink {url:podcast_file_url, t:'34:30'} %}
   <q class="matt">I hope this doesn't come off as a joke. I'm actually interested: did Ben's review where he brought up that it was mostly an evangelical Christian base in the book, did his review when he brought that up, did that influence your decision to add these other elements in?</q>
   <q data-name="Allan Reini">Under oath, I will say...yes.</q>
   <q class="matt">Wow.</q>
@@ -62,6 +62,6 @@ October 2014 is the Reini's release date goal for the sequel. {% arc %}They rele
 It's the three-year anniversary of the podcast.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:07:51' %}
+  {% timeLink {url:podcast_file_url, t:'1:07:51'} %}
   <q class="matt">We talk over each other. It's part of our charm.</q>
 </div>

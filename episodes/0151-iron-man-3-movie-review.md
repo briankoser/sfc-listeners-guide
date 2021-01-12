@@ -39,7 +39,7 @@ Ben tried to sleep in the theatre.
 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '25:53' %}
+  {% timeLink {url:podcast_file_url, t:'25:53'} %}
   <q class="matt">We're recommending: don't see it. And maybe then Marvel will get their act together and release some good stories.</q>
   <q class="ben">Boycott Marvel!</q>
   <q class="matt">I wouldn't go that far.</q>

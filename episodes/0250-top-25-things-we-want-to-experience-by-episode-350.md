@@ -166,7 +166,7 @@ Matt's is unordered, Ben's is ordered
 {% ratingsList runnersUp %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '16:40' %}
+  {% timeLink {url:podcast_file_url, t:'16:40'} %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">I'm gonna predict...3.5, cuz I don't know what to expect. I have no idea what it's about, other than rabbits.</q>
   <q class="ben">It's {% work "The Aeneid" %}, told with rabbits.</q>

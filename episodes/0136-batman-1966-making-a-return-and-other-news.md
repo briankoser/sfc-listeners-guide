@@ -46,7 +46,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 # News
 <div class="quote">
-  {% timeLink podcast_file_url, '7:21' %}
+  {% timeLink {url:podcast_file_url, t:'7:21'} %}
   <span class="quote-context is-size-6">Matt wants to own Batman 1966 on DVD but it's not available. Ben suggests he buy pirated copies.</span>
   <q class="matt">How about this, Ben: my birthday's in May.</q>
   <q class="ben">Yeah.</q>
@@ -61,7 +61,7 @@ Nicolas Cage is starring in a {% work "Left Behind" %} reboot film.
 
 Matt hates {% work "Left Behind" %} and hopes Nicolas Cage kills the belief in the rapture.
 
-{% timeLink podcast_file_url, '21:24' %} New segment: Ben is Right
+{% timeLink {url:podcast_file_url, t:'21:24'} %} New segment: Ben is Right
 
 The audio is so good Matt starts laughing and crying.
 
@@ -74,7 +74,7 @@ Stan Lee Quote of the Week: Stan hates people who pack products in too much plas
 Take That, Science: scientists have made a phaser like device with sound waves.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '34:53' %}
+  {% timeLink {url:podcast_file_url, t:'34:53'} %}
   <q class="ben">Take that, Calvin!</q>
 </div>
 

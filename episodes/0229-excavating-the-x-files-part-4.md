@@ -27,7 +27,7 @@ recommendation_reason: Skip unless you're a huge X-Files fan
 Matt is more into {% work "The X-Files" %} than ever.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '23:52' %}
+  {% timeLink {url:podcast_file_url, t:'23:52'} %}
   <q class="ben">So we get to see Klemper, the Nazi guy.</q>
   <q class="matt">Oh yeah, he was cool.</q>
   <q class="ben">Well...</q>
@@ -36,11 +36,11 @@ Matt is more into {% work "The X-Files" %} than ever.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '24:47' %}
+  {% timeLink {url:podcast_file_url, t:'24:47'} %}
   <q class="ben">Nazis have hobbies, too.</q>
 </div>
 
-{% timeLink podcast_file_url, '47:00' %} A discussion on whether it would be better to be shot in the stomach or the testicles
+{% timeLink {url:podcast_file_url, t:'47:00'} %} A discussion on whether it would be better to be shot in the stomach or the testicles
 
 Real-Life X-File: Ben the Lame Psychic, Part 2 (one time Ben heard the phone ring and guessed who was calling) 
 
@@ -52,4 +52,4 @@ Rating their confidence in the existence of:
 {% rating 'Psychic abilities', 5, 5 %}
 {% rating 'Demons', 5, 5 %}
 
-{% timeLink podcast_file_url, '1:27:35' %}  Sci-Fi Christian Story Time: Ben's house almost burned down
+{% timeLink {url:podcast_file_url, t:'1:27:35'} %}  Sci-Fi Christian Story Time: Ben's house almost burned down

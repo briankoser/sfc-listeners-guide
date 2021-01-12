@@ -48,7 +48,7 @@ Matt tries to listen to Daniel's voicemail while Ben shows him a picture of some
 Ben found out that Catholics are ineligible to become king or queen of England.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '29:31' %}
+  {% timeLink {url:podcast_file_url, t:'29:31'} %}
   <q class="matt">See ya at the bachelor party. We didn't even talk about the bachelor party on story time!</q>
   <q class="ben">That's why I was showing you the people of Wal-Mart picture.</q>
   <q class="matt">OK. That makes sense.</q>
@@ -57,7 +57,7 @@ Ben found out that Catholics are ineligible to become king or queen of England.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:33' %}
+  {% timeLink {url:podcast_file_url, t:'30:33'} %}
   <q class="matt">You don't have to go. You could just go eat food.</q>
   <q class="ben">I wanna, I wanna go.</q>
   <q class="matt">I don't want you to just complain about my bachelor party though. How about if you just go to the food and then you can go home.</q>

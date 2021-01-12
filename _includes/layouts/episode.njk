@@ -181,7 +181,7 @@ layout: baseNavBar
 
         {% if odd_opening %}
         <h2>Odd Opening</h2>
-        <p>{% timeLink podcast_file_url, '0:00' %} {{odd_opening}}</p>
+        <p>{% timeLink {url:podcast_file_url, t:'0:00'} %} {{odd_opening}}</p>
         {% endif %}
     </div>
     {% endif %}

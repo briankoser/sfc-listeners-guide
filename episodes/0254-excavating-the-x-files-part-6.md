@@ -28,7 +28,7 @@ recommendation_reason: This series still has a way to go
 archivist_note: Ben is still asking interested, but it's obvious he's paying less attention as he watches the episodes while working. 
 ---
 <div class="quote">
-  {% timeLink podcast_file_url, '4:33' %}
+  {% timeLink {url:podcast_file_url, t:'4:33'} %}
   <q class="ben">That guy had a killer moustache.</q>
   <q class="matt">Oh, yeah that guy was awesome. Yeah, I kind of like his no-nonsense attitude, kind of laissez-faire.</q>
   <q class="ben">Don't you kind of wish the moustache would come back into fashion?</q>
@@ -40,7 +40,7 @@ archivist_note: Ben is still asking interested, but it's obvious he's paying les
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '5:27' %}
+  {% timeLink {url:podcast_file_url, t:'5:27'} %}
   <q class="ben">I believe in you. I think that if you actually gave it a try for a month or so, you could get a solid ’stache.</q>
   <q class="matt">You know, if I had a job where I didn't have to look professional, I would let my facial hair grow out a little bit just to give it a shot.</q>
   <q class="ben">Yeah. You really should.</q>
@@ -54,7 +54,7 @@ Ben says the standalone episodes are the best and worst episodes; the mythology 
 Ben is sad that the rewatch is making him like the show less.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '29:30' %}
+  {% timeLink {url:podcast_file_url, t:'29:30'} %}
   <q class="matt">There's only one episode left—nope, two episodes left in Season 4 that are worth discussing. And then…yep, and then quite a bit more. One two three four five six seven…twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen—yeah we have…oh boy. Oh boy, Ben. We have a lot more. We have a lot more to do. We have over twenty more episodes to watch, if not thirty.</q>
 </div>
 

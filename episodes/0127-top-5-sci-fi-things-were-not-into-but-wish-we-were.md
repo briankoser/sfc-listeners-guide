@@ -33,7 +33,7 @@ recommendation_reason: The lists are interesting, the discussion is not very in-
 # Opening
 
 <div class="quote">
-  {% timeLink podcast_file_url, '0:25' %}
+  {% timeLink {url:podcast_file_url, t:'0:25'} %}
   <q class="ben">Matt, do you know what's going on here these days? What's going on here in Ryan Strelau Studios these days?</q>
   <q class="matt">There's something special in the air. There's something happening at The Sci-Fi Christian.</q>
   <q class="ben">It's the Golden Age of The Sci-Fi Christian.</q>
@@ -95,7 +95,7 @@ Ben says you have to embrace the cheesiness to enjoy {% work "Doctor Who" %}. He
 Ben says {% work "The Wire" %} is the greatest show of all time.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '17:49' %}
+  {% timeLink {url:podcast_file_url, t:'17:49'} %}
   <q class="ben">The number one sci-fi thing I am not into but wish I was: {% work "2001: A Space Odyssey" %}.</q>
   <q class="matt">Yeah. I mean, I want to watch it. But you're not going to be into it, you just want to check it out.</q>
   <q class="ben">Yeah. I want to check it out. I have seen the part with the monkeys.</q>
@@ -112,7 +112,7 @@ Ben says {% work "The Wire" %} is the greatest show of all time.
 Ben quit halfway through the last {% work "Sword of Truth" %} book. {% arc %}Very similar for me: I think our library didn't have the last 3 books. By the time they did I had come to my senses.{% endarc %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '22:19' %}
+  {% timeLink {url:podcast_file_url, t:'22:19'} %}
   <q class="ben">Take that, Joe!</q>
 </div>
 
@@ -156,7 +156,7 @@ Ben quit halfway through the last {% work "Sword of Truth" %} book. {% arc %}Ver
   </div>
 </div>
 
-{% timeLink podcast_file_url, '41:50' %} Sci-Fi Christian Story Time: Matt has a Zombie Nightmare
+{% timeLink {url:podcast_file_url, t:'41:50'} %} Sci-Fi Christian Story Time: Matt has a Zombie Nightmare
 
 Ben says it's the creepiest story time the show has ever had.
 
@@ -165,10 +165,10 @@ Ben says it's the creepiest story time the show has ever had.
 # Closing
 Ben is defending his thesis at the end of April. 
 
-{% timeLink podcast_file_url, '47:58' %} Ben and Matt don't realize the mic is still on. They try to figure out when they should reveal that Koby isn't real, he's just a persona Ben plays.
+{% timeLink {url:podcast_file_url, t:'47:58'} %} Ben and Matt don't realize the mic is still on. They try to figure out when they should reveal that Koby isn't real, he's just a persona Ben plays.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '49:37' %}
+  {% timeLink {url:podcast_file_url, t:'49:37'} %}
   <q class="ben">I mean, eventually someone's going to get it. There's no way that guy could be real. We made a Facebook page for a cat; who does that?</q>
 </div>
 

@@ -39,6 +39,6 @@ Ben's off-the-top-of-the-head recommended Dark Tower reading list:
 - Hearts in Atlantis
 
 <div class="quote">
-  {% timeLink podcast_file_url, '59:19' %}
+  {% timeLink {url:podcast_file_url, t:'59:19'} %}
   <q class="ben">Always check before you sleep with a woman if they're having visions of the Antichrist.</q>
 </div>

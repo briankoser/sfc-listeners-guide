@@ -1,5 +1,5 @@
 // [{'host': '', 'ratings': ['title': '', 'score': 0]}]
-module.exports = function ratingsListShortCode (hostRatings) {
+module.exports = function (hostRatings) {
     let ratingToStars = (rating) => {
         if (rating === 0) {
             return '0';

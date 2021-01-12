@@ -39,7 +39,7 @@ buffyverse:
 {% ratingsList buffyverse %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '3:40' %}
+  {% timeLink {url:podcast_file_url, t:'3:40'} %}
   <q class="ben">Pause. I liked something more than Matt. Mark your calendars, everyone: it finally happened!</q>
 </div>
 

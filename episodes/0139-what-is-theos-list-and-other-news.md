@@ -48,7 +48,7 @@ Theo's List is Brandon's idea for a craigslist-like page for the SFC. It's a Fac
 Tim Pencratz and Ben Kirkwald have joined Ben for the Game of Thrones season 3 video reviews.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '7:39' %}
+  {% timeLink {url:podcast_file_url, t:'7:39'} %}
   <span class="quote-context is-size-6">Matt mentions that the {% work "Game of Thrones" %} reviews open with smoking and drinking</span>
   <q class="matt">It's for a certain audience.</q>
   <q class="ben">Yeah. Yeah.</q>
@@ -60,7 +60,7 @@ Ben did his first confession, got confirmed, and took his first communion.
 Matt uses the Mario Underground theme for time travel music.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '15:06' %}
+  {% timeLink {url:podcast_file_url, t:'15:06'} %}
   <span class="quote-context is-size-6">Matt went to Ben's confirmation. He mistakenly put his microphone on the altar.</span>
   <q class="matt">It looked like a table to a non-Catholic!</q>
 </div>
@@ -70,7 +70,7 @@ Matt uses the Mario Underground theme for time travel music.
 # News
 David Tennant and Billie Piper will appear in the Doctor Who 50th anniversary episode.
 
-{% timeLink podcast_file_url, '24:14' %} Ben's April Fools joke: Koby is taking over the podcast
+{% timeLink {url:podcast_file_url, t:'24:14'} %} Ben's April Fools joke: Koby is taking over the podcast
 
 Daniel calls in from the litter box to report to King Koby.
 
@@ -99,7 +99,7 @@ Christopher Nolan is considering Matthew McConaughey for the lead in {% work "In
 
 
 # Feedback 
-{% timeLink podcast_file_url, '1:03:30' %} Matt apologizes to the fans who complained about the teasing they got from feedback. Ben doesn't apologize.
+{% timeLink {url:podcast_file_url, t:'1:03:30'} %} Matt apologizes to the fans who complained about the teasing they got from feedback. Ben doesn't apologize.
 
 Rick Lee James had Dr. John Walton on his podcast.
 

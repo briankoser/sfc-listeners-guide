@@ -39,10 +39,10 @@ Ben's proposed top news: Ridley Scott is developing {% work "Pharaoh" %}, an Egy
 
 Bob Hoskins died of pneumonia. Ben didn't know you could die from pneumonia. 
 
-{% timeLink podcast_file_url, '11:39' %} Eulogy for Bob Hoskins, who played Mario Mario in {% work "Super Mario Bros" %}
+{% timeLink {url:podcast_file_url, t:'11:39'} %} Eulogy for Bob Hoskins, who played Mario Mario in {% work "Super Mario Bros" %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '11:29' %}
+  {% timeLink {url:podcast_file_url, t:'11:29'} %}
   <span class="quote-context is-size-6">Eulogy for Bob Hoskins, who played Mario Mario in {% work "Super Mario Bros" %}</span>
   <q class="ben">So, I'm sorry everyone. Mario is dead.</q>
   <q class="matt">Alright, next piece of news.</q>
@@ -56,7 +56,7 @@ Bob Hoskins died of pneumonia. Ben didn't know you could die from pneumonia.
 
 Matt Damon is rumored to be playing Aquaman in {% work "Justice League" %}. 
 
-{% timeLink podcast_file_url, '17:33' %} Ben invents a Fake News Segment for satirical news
+{% timeLink {url:podcast_file_url, t:'17:33'} %} Ben invents a Fake News Segment for satirical news
 
 Fake News: two Christian movies are getting sequels: {% work "Heaven Is Real 2: So Is Hell" %} and {% work "God's Not Dead 2: Neither Is Satan" %}
 
@@ -71,7 +71,7 @@ Matt is Right: Hugh Jackman says the next Wolverine movie will probably be his l
 Take That, Science: Doctor claims watching {% work "The Walking Dead" %} is hurting society
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:36' %}
+  {% timeLink {url:podcast_file_url, t:'30:36'} %}
   <q class="ben">Take that, doctor.</q>
 </div>
 

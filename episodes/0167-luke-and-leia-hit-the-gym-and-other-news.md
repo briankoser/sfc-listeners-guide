@@ -43,7 +43,7 @@ Matt moved
 
 # Main Topic
 <div class="quote">
-  {% timeLink podcast_file_url, '17:30' %}
+  {% timeLink {url:podcast_file_url, t:'17:30'} %}
   <q class="ben">You love Jeff Goldblum?</q>
   <q class="matt">Oh, yeah! He's awesome! He's so cool. I miss that guy.</q>
   <q class="ben">Are you being serious?</q>
@@ -56,13 +56,13 @@ Matt moved
 What the Frodo: a Captain Planet movie is coming
 
 <div class="quote">
-  {% timeLink podcast_file_url, '22:40' %}
+  {% timeLink {url:podcast_file_url, t:'22:40'} %}
   <span class="quote-context is-size-6">Captain Planet live action movie</span>
   <q class="ben">Do you think they'll bring Jeff Goldblum back?</q>
   <q class="matt">Be still my heart!</q>
 </div>
 
-{% timeLink podcast_file_url, '26:46' %} Racist News of the Day
+{% timeLink {url:podcast_file_url, t:'26:46'} %} Racist News of the Day
 
 <div class="top-five">
   <h2 class="has-text-centered">3 Recent Deaths</h2>
@@ -78,7 +78,7 @@ What the Frodo: a Captain Planet movie is coming
   </div>
 </div>
 
-{% timeLink podcast_file_url, '30:43' %} Matt wants news to brighten him up after the obituaries, so Ben introduces a new segment: Encouraging Signs.
+{% timeLink {url:podcast_file_url, t:'30:43'} %} Matt wants news to brighten him up after the obituaries, so Ben introduces a new segment: Encouraging Signs.
 
 Encouraging Signs: networks are doing short TV seasons 
 

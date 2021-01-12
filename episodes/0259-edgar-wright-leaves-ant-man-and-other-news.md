@@ -31,6 +31,6 @@ Drew Goddard is off {% work "Daredevil" %}.
 
 Take That, Science: Ancient Egyptians used water to make the sand stiffer where they pulled the giant stone sledges
 
-{% timeLink podcast_file_url, '14:18' %} They discuss the title <i class='work-title'>Batman v Superman: Dawn of Justice</i>
+{% timeLink {url:podcast_file_url, t:'14:18'} %} They discuss the title <i class='work-title'>Batman v Superman: Dawn of Justice</i>
 
 Matt wants to revisit old news episodes and see how things turned out. {% arc %}I got you{% endarc %}

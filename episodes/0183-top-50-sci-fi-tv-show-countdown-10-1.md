@@ -44,7 +44,7 @@ recommendation_reason: The completion of the first hiatus countdown.
 </ol>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '26:47' %}
+  {% timeLink {url:podcast_file_url, t:'26:47'} %}
   <span class="quote-context is-size-6">Matt says {% work "Stargate SG-1" %} belongs in the top 10</span>
   <q class="matt">I'm basically just saying, it was popular enough, it must have been good to a certain extent, right?</q>
   <q class="ben">Yeah, well, I mean, popular doesn't equal good.</q>
@@ -53,4 +53,4 @@ recommendation_reason: The completion of the first hiatus countdown.
   <q class="matt">...OK, you win.</q>
 </div>
 
-{% timeLink podcast_file_url, '44:00' %} The most excited I've heard Ben 
+{% timeLink {url:podcast_file_url, t:'44:00'} %} The most excited I've heard Ben 

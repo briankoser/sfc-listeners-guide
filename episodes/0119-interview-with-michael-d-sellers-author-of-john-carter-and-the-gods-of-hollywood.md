@@ -26,7 +26,7 @@ recommendation_reason: If you're interested in John Carter, check out this behin
 # Opening
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:35' %}
+  {% timeLink {url:podcast_file_url, t:'1:35'} %}
   <q class="matt">There does seem to be—there was some force working against {% work "John Carter" %} being made into a movie—</q>
   <q class="koby">God.</q>
 </div>

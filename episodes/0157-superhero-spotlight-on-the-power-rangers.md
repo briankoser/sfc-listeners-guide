@@ -28,7 +28,7 @@ Strangers and Aliens didn't send the comics, so Matt declares the sale of Koby v
 
 
 # Main Topic
-{% timeLink podcast_file_url, '4:45' %} Ben leaves a voicemail challenging Koby to list his top 5 themes from {% work "Power Rangers" %}.
+{% timeLink {url:podcast_file_url, t:'4:45'} %} Ben leaves a voicemail challenging Koby to list his top 5 themes from {% work "Power Rangers" %}.
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 themes from {% work "Power Rangers" %}</h2>
@@ -71,4 +71,4 @@ Matt asked the listeners to send three-word reactions to {% work "Power Rangers"
 - Jason: Best show ever
 - Tom: Thunderbirds are go
 
-{% timeLink podcast_file_url, '59:00' %} Sci-Fi Christian Story Time: Koby says the Feud with Ben is over
+{% timeLink {url:podcast_file_url, t:'59:00'} %} Sci-Fi Christian Story Time: Koby says the Feud with Ben is over

@@ -24,7 +24,7 @@ recommendation_reason: Skip unless you're a huge X-Files fan. For someone that's
 archivist_note: I'm interested to see when the turning point of this series happens. Right now both hosts are positive and excited. 
 ---
 <div class="quote">
-  {% timeLink podcast_file_url, '0:54' %}
+  {% timeLink {url:podcast_file_url, t:'0:54'} %}
   <q class="ben">It's a dead show, and we're gonna dig it up.</q>
 </div>
 

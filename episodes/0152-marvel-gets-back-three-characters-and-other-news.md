@@ -49,14 +49,14 @@ Joss Whedon liked {% work "Iron Man 3" %} and said it will be hard to top with {
 Ben is disappointed that Joss Whedon has betrayed his philosophy of "story should always have a purpose".
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:21' %}
+  {% timeLink {url:podcast_file_url, t:'2:21'} %}
   <q class="ben">Joss Whedon has, for the sake of being a fanboy, completely betrayed his set of principles that made him famous in the first place.</q>
   <q class="matt">Wow. I hope he's listening to this. Joss, we want you on the show. We're not going to make you answer for your crimes, but we just want to talk it out.</q>
 </div>
 
 Ben bought Matt {% work "The 5-Minute Iliad and Other Instant Classics: Great Books For The Short Attention Span" %} by Greg Nagan for his birthday.
 
-{% timeLink podcast_file_url, '7:54' %} Ben and Koby at the theatre
+{% timeLink {url:podcast_file_url, t:'7:54'} %} Ben and Koby at the theatre
 
 
 
@@ -80,7 +80,7 @@ Noah donated to the show, so they read his 5-page email.
 Noah asks for a new rule: no talking over the "Ben is Right" clip
 
 <div class="quote">
-  {% timeLink podcast_file_url, '51:16' %}
+  {% timeLink {url:podcast_file_url, t:'51:16'} %}
   <span class="quote-context is-size-6">Noah compares weird bronies to sinful Catholics</span>
   <q class="ben">Here's the difference, Noah: you don't have a brony pope to help you sort it out. So take that, protestants! And bronies. Kill two birds with one stone there.</q>
   <q class="matt">Take that, bronies!</q>

@@ -26,7 +26,7 @@ recommendation_reason: Brief discussion of the movie
 
 <div class="quote">
   <span class="quote-context is-size-6">Current day</span>
-  {% timeLink podcast_file_url, '2:07' %}
+  {% timeLink {url:podcast_file_url, t:'2:07'} %}
   <q class="matt">I learned something in some of the special features: did you know Matthew Vaughn, who was the director of First Class, was originally set to be the director of X3?</q>
   <q class="ben">I didn't.</q>
 </div>
@@ -52,7 +52,7 @@ recommendation_reason: Brief discussion of the movie
 </table>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '11:30' %}
+  {% timeLink {url:podcast_file_url, t:'11:30'} %}
   <span class="quote-context is-size-6">3 years ago</span>
   <q class="ben">Matthew Vaughn did a terrific job directing this. It was well edited, extremely well directed. Did you know he was originally slated to direct X3?</q>
   <q class="matt">No, I didn't know that.</q>

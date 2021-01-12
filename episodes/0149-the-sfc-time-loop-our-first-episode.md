@@ -40,7 +40,7 @@ Ben reveals that they have a lifetime contract for the show.
 The LOST Report addicted Ben to podcasting.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '6:18' %}
+  {% timeLink {url:podcast_file_url, t:'6:18'} %}
   <q class="ben">Even before I got into ministry, I am a lifelong nerd and completely unapologetic about it.</q>
   <q class="matt">I thought you were going to say, 'lifelong lover of Christ'.</q>
   <q class="ben">...That too.</q>
@@ -55,7 +55,7 @@ They will have guest hosts over Skype to discuss topics they're not knowledgeabl
 They will report news, review movies and TV shows, and discuss philosophy and theology.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '11:44' %}
+  {% timeLink {url:podcast_file_url, t:'11:44'} %}
   <q class="matt">I was surprised by how many people were offended by me saying that Jesus might have been a zombie.</q>
 </div>
 
@@ -79,7 +79,7 @@ Matt vowed to read {% work "The Hobbit" %} before the movie comes out.
 Ben likes superhero movies and TV shows.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '16:37' %}
+  {% timeLink {url:podcast_file_url, t:'16:37'} %}
   <span class="quote-context is-size-6">Ben was interested in {% work "The Cape" %} until it got bad reviews</span>
   <q class="ben">It has Summer Glau in it. And I love Summer Glau--</q>
   <q class="matt">Yep, she's good.</q>
@@ -187,7 +187,7 @@ Ben calls it "The Crappening".
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '32:40' %}
+  {% timeLink {url:podcast_file_url, t:'32:40'} %}
   <span class="quote-context is-size-6">On {% work "Star Trek: The Motion Picture" %}</span>
   <q class="ben">I hated hated hated that movie.</q>
 </div>

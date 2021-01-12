@@ -26,7 +26,7 @@ recommendation_reason: Great discussion about family-friendly content in media.
 Doug Payton happened to be in town and invited himself on the show.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '5:54' %}
+  {% timeLink {url:podcast_file_url, t:'5:54'} %}
   <q class="matt">Speaking of you kind of inviting yourself onto the podcast, I do have an opening question: how dare you? And as a follow-up: who do you think you are?</q>
 </div>
 
@@ -42,4 +42,4 @@ Ben's secret to not watching TV and movies with his wife: agree to watch, then c
 
 The Bible isn't always positive and encouraging. Christianity is about more than happiness. 
 
-{% timeLink podcast_file_url, '1:07:40' %} Sci-Fi Christian Story Time: Ben's Trip to Disney, Day 5
+{% timeLink {url:podcast_file_url, t:'1:07:40'} %} Sci-Fi Christian Story Time: Ben's Trip to Disney, Day 5

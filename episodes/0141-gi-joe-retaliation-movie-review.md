@@ -46,13 +46,13 @@ recommendation_reason: Daniel fills in aptly for Ben.
 </table>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '16:50' %}
+  {% timeLink {url:podcast_file_url, t:'16:50'} %}
   <q class="matt">Did you know this movie was banned in Pakistan?</q>
   <q class="daniel">Can you blame Pakistan?</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '21:53' %}
+  {% timeLink {url:podcast_file_url, t:'21:53'} %}
   <q class="matt">Well, that's all from here. I'm Matt Anderson!</q>
   <q class="daniel">I'm right!</q>
   <q class="koby">And I'm better than you!</q>

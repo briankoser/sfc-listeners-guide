@@ -37,4 +37,4 @@ What the Frodo: Forrest Gump is getting an IMAX re-release
 # Feedback 
 Amber wrote an email defending {% work "Batman and Robin" %} and Disney World. 
 
-{% timeLink podcast_file_url, '35:08' %} Things get weird when we go after the credits
+{% timeLink {url:podcast_file_url, t:'35:08'} %} Things get weird when we go after the credits

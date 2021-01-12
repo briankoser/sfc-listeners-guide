@@ -37,7 +37,7 @@ Ben is planning to get a Doctorate in Historical Theology.
 Ben is learning to read French.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:55' %}
+  {% timeLink {url:podcast_file_url, t:'2:55'} %}
   <span class="quote-context is-size-6">Ben calls the Eiffel Tower "a huge erection".</span>
   <q class="matt">Why? Why are you like this?</q>
 </div>
@@ -47,7 +47,7 @@ Ben is learning to read French.
 What are demons? 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '6:26' %}
+  {% timeLink {url:podcast_file_url, t:'6:26'} %}
   <span class="quote-context is-size-6">Ben talks about his research on demons.</span>
   <q class="ben">The first place I went with this, because the Bible's—the information's pretty scattered and all over the place, so I was curious, as a Catholic, what does the Catechism have to say about demons.</q>
   <q class="matt">'Curious as a Catholic', it's like, 'as curious as a cat'.</q>
@@ -68,7 +68,7 @@ If Ben could ask the pope one question, he would ask, "Batman or Superman"?
 Ben had a nightmare that the pope was a Green Bay Packers fan and held a Packers rally at the Vatican. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '28:41' %}
+  {% timeLink {url:podcast_file_url, t:'28:41'} %}
   <span class="quote-context is-size-6">They start to talk about demonic possession</span>
   <q class="matt">So, Catholic view: for or against?</q>
 </div>
@@ -80,4 +80,4 @@ Are angels corporeal? Did Gabriel have a body when he appeared to Mary?
 
 
 # Closing
-{% timeLink podcast_file_url, '1:01:27' %} Sci-Fi Christian Story Time: Matt Anderson Gets Engaged
+{% timeLink {url:podcast_file_url, t:'1:01:27'} %} Sci-Fi Christian Story Time: Matt Anderson Gets Engaged

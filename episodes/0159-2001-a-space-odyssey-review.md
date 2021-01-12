@@ -31,7 +31,7 @@ archivist_note: Watched the movie for the first time for this episode. Reading a
 [2001: A Space Odyssey Live Blog](http://thescifichristian.com/2013/05/2001-a-space-odyssey-live-blog/)
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:50' %}
+  {% timeLink {url:podcast_file_url, t:'30:50'} %}
   <q class="ben">Take that, Kubrick!</q>
   <q class="matt">Take that, Kubrick!</q>
 </div>

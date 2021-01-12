@@ -32,7 +32,7 @@ What the Frodo: Google has plans to do neck-implanted devices for hands-free use
 
 Take That, Science: archeologists discovered a spear that predates <i>Homo Sapiens </i>
 
-{% timeLink podcast_file_url, '11:18' %} Ben plays Temple Run while giving his news
+{% timeLink {url:podcast_file_url, t:'11:18'} %} Ben plays Temple Run while giving his news
 
 Stan Lee Quote of the Week: Stan rants about Superman flying without visible means of propulsion
 

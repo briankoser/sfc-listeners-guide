@@ -27,7 +27,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Matt has a new podcast with Ben Avery and Daniel Butcher: Comic Book Time Machine
 
 <div class="quote">
-  {% timeLink podcast_file_url, '8:59' %}
+  {% timeLink {url:podcast_file_url, t:'8:59'} %}
   <span class="quote-context is-size-6">Matt compared his childhood fandom of wrestling to his later LOST obsession.</span>
   <q class="matt">Now it's more of like, I'll watch it, and I don't follow it from week to week, but Koby catches me up once a month. It's kind of our fun time together. It's our, you know...I was going to say 'private time' but I was like, that's not right. And 'personal time' wouldn't be right. It's like our 'special time together', does that sound right?</q>
   <q class="ben">No, none of these are sounding right. But keep going.</q>
@@ -42,10 +42,10 @@ Suprising Thoughts from Ben De Bono: Ben predicts {% work "Guardians of the Gala
 
 Suprising Thoughts from Ben De Bono: Damon Lindelof might be a genius
 
-{% timeLink podcast_file_url, '46:06' %}  Sci-Fi Christian Story Time: Matt wonders why superheroes don't have grey hair
+{% timeLink {url:podcast_file_url, t:'46:06'} %}  Sci-Fi Christian Story Time: Matt wonders why superheroes don't have grey hair
 
 <div class="quote">
-  {% timeLink podcast_file_url, '55:20' %}
+  {% timeLink {url:podcast_file_url, t:'55:20'} %}
   <span class="quote-context is-size-6">New listener Matthew has been heckling on Twitter, and the hosts have responded</span>
   <q class="matt">I'm hoping that we're all just kind of joking around, and it's not meant to be mean.</q>
   <q class="ben">No no no no.</q>

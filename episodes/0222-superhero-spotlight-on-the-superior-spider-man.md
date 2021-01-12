@@ -32,13 +32,13 @@ The Davids from the Geek This podcast are guests.
 
 # Main Topic
 <div class="quote">
-  {% timeLink podcast_file_url, '15:17' %}
+  {% timeLink {url:podcast_file_url, t:'15:17'} %}
   <span class="quote-context is-size-6">Ben chose to play video games and finish reading Purgatorio instead of reading of the Superior Spider-Man comics Matt lent him</span>
   <q class="matt">And you understand the concept of show prep, correct?</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '45:30' %}
+  {% timeLink {url:podcast_file_url, t:'45:30'} %}
   <span class="quote-context is-size-6">Ben asks what makes a good and bad Spider-Man story</span>
   <q class="matt">You guys have to start with what makes a bad story.</q>
   <q class="ben">If somebody drops the ball on Spider-Man, what sort of things are involved in that?</q>

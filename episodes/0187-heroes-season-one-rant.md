@@ -31,7 +31,7 @@ recommendation_reason: One of the funniest series of the show starts here.
 # Opening
 
 <div class="quote">
-  {% timeLink podcast_file_url, '3:22' %}
+  {% timeLink {url:podcast_file_url, t:'3:22'} %}
   <q class="ben">I bet Koby has a really hairy back.</q>
   <q class="matt">I don't want to talk about Koby's back.</q>
 </div>
@@ -108,4 +108,4 @@ Liked:
 
 Ben doesn't like that the show pushes ultra-individualism over responsibility, eg Peter walking out on his nursing job.
 
-{% timeLink podcast_file_url, '1:09:00' %} Ben decided not to pursue a doctorate because it would have been too hard on his family. {% work "Heroes" %} helped him make the decision.
+{% timeLink {url:podcast_file_url, t:'1:09:00'} %} Ben decided not to pursue a doctorate because it would have been too hard on his family. {% work "Heroes" %} helped him make the decision.

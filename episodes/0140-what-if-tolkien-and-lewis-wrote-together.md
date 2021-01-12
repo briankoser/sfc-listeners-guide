@@ -33,15 +33,15 @@ Matt says they should get Sci-Fi Christian t-shirts
 # Contest Winners
 
 ## 3 Matthew Lowdon 
-{% timeLink podcast_file_url, '5:53' %}
+{% timeLink {url:podcast_file_url, t:'5:53'} %}
 The Elves Sail to Narnia
 
 ## 2 Rick Lee James
-{% timeLink podcast_file_url, '7:27' %}
+{% timeLink {url:podcast_file_url, t:'7:27'} %}
 Child Aslan in Middle Earth
 
 <div class="quote">
-  {% timeLink podcast_file_url, '10:01' %}
+  {% timeLink {url:podcast_file_url, t:'10:01'} %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">Good job, Rick.</q>
   <q class="ben">Yeah, I like Rick.</q>
@@ -49,18 +49,18 @@ Child Aslan in Middle Earth
 </div>
 
 ## 1. Aaron Reini 
-{% timeLink podcast_file_url, '10:12' %} Fantasy Land with Hidden Language
+{% timeLink {url:podcast_file_url, t:'10:12'} %} Fantasy Land with Hidden Language
 
 # Host Entries
-{% timeLink podcast_file_url, '13:54' %}  Matt's entry: The Wood Between Worlds
+{% timeLink {url:podcast_file_url, t:'13:54'} %}  Matt's entry: The Wood Between Worlds
 
 Ben again makes fun of how Matt says "Middle Earth".
 
-{% timeLink podcast_file_url, '18:10' %} Ben's entry: a drama to show why they would never collaborate
+{% timeLink {url:podcast_file_url, t:'18:10'} %} Ben's entry: a drama to show why they would never collaborate
 
 Ben is Right: Tolkien and Lewis wouldn't have written fiction together
 
-{% timeLink podcast_file_url, '23:40' %} Sci-Fi Christian Story Time: Ben "Ben is right"ed his wife
+{% timeLink {url:podcast_file_url, t:'23:40'} %} Sci-Fi Christian Story Time: Ben "Ben is right"ed his wife
 
 Ben is Right: Outback Steakhouse was busy Easter week
 

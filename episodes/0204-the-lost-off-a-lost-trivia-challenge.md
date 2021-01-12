@@ -29,7 +29,7 @@ recommendation: yes
 recommendation_reason: Fun to hear Ben disgusted
 ---
 <div class="quote">
-  {% timeLink podcast_file_url, '11:25' %}
+  {% timeLink {url:podcast_file_url, t:'11:25'} %}
   <q class="ben">Matt and Wayne, you two are the biggest {% work "LOST" %} fans I know. It's sickening. It's absolutely sickening how much you both love {% work "LOST" %}.</q>
 </div>
 
@@ -42,7 +42,7 @@ Final score: Wayne 11, Matt 18
 Ben is disgusted at how easily Matt answered the questions after not watching the show in years. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:13:49' %}
+  {% timeLink {url:podcast_file_url, t:'1:13:49'} %}
   <q class="ben">I think the one that made me the most horrified (and I probably should have given you the point, but I didn't because it was just so disgusting) was when—this was a two-part question—what was Jacob doing when Locke is pushed out the window? And then the answer is "reading", which, OK, I thought maybe you would get that. But then my follow-up was, What is he reading? And I thought, there's no chance[...], and you didn't even let me get to the follow-up, you're just, 'He's reading Flannery O'Connor, and it's called, "Everything That's Something Must Converge".' It's like, what?! You've never even read Flannery O'Connor!</q>
   <q class="matt">That's true.</q>
   <q class="ben">This is ridiculous!</q>
@@ -51,7 +51,7 @@ Ben is disgusted at how easily Matt answered the questions after not watching th
   <q class="matt">I thought it was a boy! I didn't even know it wasn't a man! Oh, it's a girl?</q>
 </div>
 
-{% timeLink podcast_file_url, '1:16:23' %} Sci-Fi Christian Story Time: Ben's Disney Trip, Day 2
+{% timeLink {url:podcast_file_url, t:'1:16:23'} %} Sci-Fi Christian Story Time: Ben's Disney Trip, Day 2
 
 
 

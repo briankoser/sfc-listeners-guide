@@ -37,7 +37,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Pope Benedict is resigning, the first time a pope has resigned in 600 years.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '3:55' %}
+  {% timeLink {url:podcast_file_url, t:'3:55'} %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">There is just no pope until—</q>
   <q class="ben">Yeah, there's no pope.</q>
@@ -49,13 +49,13 @@ Pope Benedict is resigning, the first time a pope has resigned in 600 years.
 Matt says the pope is chosen by all Catholics in a process similar to {% work "American Idol" %} voting. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '4:30' %}
+  {% timeLink {url:podcast_file_url, t:'4:30'} %}
   <span class="quote-context is-size-6">The cardinals burn their ballots after voting for the pope. When there's no consensus, they put something in the fire to make black smoke.</span>
   <q class="ben">Then when they finally elect a pope, they put a different something in the fire, and white smoke, we have a pope. And the new guy 'popes' up.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '6:37' %}
+  {% timeLink {url:podcast_file_url, t:'6:37'} %}
   <span class="quote-context is-size-6">Matt picks a candidate for pope</span>
   <q class="matt">I'm pro-Africa and Latin America, but I'm just going to say here on the podcast, I'm going with the USA.</q>
   <q class="ben">You're pullin' for Dolan?</q>
@@ -63,7 +63,7 @@ Matt says the pope is chosen by all Catholics in a process similar to {% work "A
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '9:02' %}
+  {% timeLink {url:podcast_file_url, t:'9:02'} %}
   <span class="quote-context is-size-6">Ben talks about Pope Benedict retiring</span>
   <q class="ben">He's obviously not going to have a role in what's going on, and he's going to intentionally remove his voice and his influence from the Catholic world, but he's still a pope.</q>
   <q class="matt">Wait, what?</q>
@@ -77,7 +77,7 @@ Matt says the pope is chosen by all Catholics in a process similar to {% work "A
 Ben thinks it's likely that Pope Benedict was the one who remixed Triple Pope, the YouTube video that debuted on the last news episode. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '10:29' %}
+  {% timeLink {url:podcast_file_url, t:'10:29'} %}
   <span class="quote-context is-size-6">Matt applauds Pope Benedict</span>
   <q class="matt">Well, Mr. Sixteen, well done, good and faithful servant. You did a great job—</q>
   <q class="ben">I think that's the first time he's ever been addressed as, 'Mr. Sixteen'.</q>
@@ -94,14 +94,14 @@ After listening to another of Stan's Rants, Ben wants Stan Lee for vice pope.
 Jim Carrey and Adam Sandler are being considered as voice actors for {% work "Guardians of the Galaxy" %}.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '36:00' %}
+  {% timeLink {url:podcast_file_url, t:'36:00'} %}
   <span class="quote-context is-size-6">Both are skeptical about {% work "Guardians of the Galaxy" %} and Chris Pratt</span>
   <q class="ben">So this is going to be a comedic movie?</q>
   <q class="matt">Yeah, is it a comedy? That's stupid.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '36:27' %}
+  {% timeLink {url:podcast_file_url, t:'36:27'} %}
   <span class="quote-context is-size-6">Still on Chris Pratt</span>
   <q class="matt">He doesn't seem action hero-y.</q>
   <q class="ben">No.</q>

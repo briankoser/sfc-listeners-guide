@@ -44,7 +44,7 @@ recommendation_reason: Not sure that anyone remembers this movie.
 Matt had a good experience. Ben Avery liked the soundtrack.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '44:44' %}
+  {% timeLink {url:podcast_file_url, t:'44:44'} %}
   <q class="matt">Alright, well, that's all from here. I'm Matt Anderson!</q>
   <q data-name="Ben Avery">I'm Ben Avery.</q>
   <q class="matt">And we are The Sci-Fi Christians!</q>

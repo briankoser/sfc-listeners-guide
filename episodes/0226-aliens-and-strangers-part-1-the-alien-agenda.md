@@ -36,7 +36,7 @@ Part 2 was {% episodeLink 144 %}
 
 # Main Topic
 <div class="quote">
-  {% timeLink podcast_file_url, '4:12' %}
+  {% timeLink {url:podcast_file_url, t:'4:12'} %}
   <span class="quote-context is-size-6">Matt has been listening to Strangers and Aliens while travelling for work. Koby has never listened to an episode.</span>
   <q class="koby">That was just like The Sci-Fi Christian, what just happened.</q>
   <q class="ben">No, you listened before you came on.</q>

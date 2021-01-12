@@ -28,7 +28,7 @@ recommendation: no
 recommendation_reason: Mostly predictions of which superhero movies will be good.
 ---
 # Opening
-{% timeLink podcast_file_url, '4:17' %} Time travel sound effect
+{% timeLink {url:podcast_file_url, t:'4:17'} %} Time travel sound effect
 
 
 

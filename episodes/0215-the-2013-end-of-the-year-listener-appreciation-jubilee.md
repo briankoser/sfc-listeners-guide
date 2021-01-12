@@ -27,7 +27,7 @@ recommendation_reason: Koby returns to celebrate 2013.
 ---
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:38' %} 
+  {% timeLink {url:podcast_file_url, t:'1:38'} %} 
   <q class="matt">I'm just feeling so excited. Koby, you're making funny smiles. Do you think that I'm over-excited about this?</q>
   <q data-name="Koby">I think that you're using too big of words.</q>
   <q class="ben">Wow. Wow. What's your syllable limit there, Koby?</q>
@@ -99,7 +99,7 @@ Daniel sent a voicemail for the occasion. His connection was bad so Ben stopped 
 ## Story Time of the Year 
 **Ben's Disney trip**
 
-{% timeLink podcast_file_url, '35:28' %} Koby reacts to the "Koby does not exist" prank
+{% timeLink {url:podcast_file_url, t:'35:28'} %} Koby reacts to the "Koby does not exist" prank
 
 Ben lost $10 to Matt because he watched 7 series of Doctor Who in 90 days. The Matt Anderson Guarantee is solid.
 

@@ -30,4 +30,4 @@ What the Frodo: {% work "Olympos Has Fallen" %} is getting a sequel
 
 What the Frodo: The Rock was cast in a movie called {% work "Seal Team 666" %}
 
-{% timeLink podcast_file_url, '43:15' %} Sci-Fi Christian Story Time: Don't be Robert Stannick
+{% timeLink {url:podcast_file_url, t:'43:15'} %} Sci-Fi Christian Story Time: Don't be Robert Stannick

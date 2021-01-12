@@ -66,7 +66,7 @@ recommendation_reason: Bonkers. In a good way.
 Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '22:48' %}
+  {% timeLink {url:podcast_file_url, t:'22:48'} %}
   <span class="quote-context is-size-6">Matt tells his story "Draver the Donkey and the Sorcerer's Sword"</span>
   <q class="matt">What's going to actually happen (spoiler alert) is Balaam is going to betray him and kill him with his sword. But—</q>
   <q class="ben">Ooh, he puts the sword in the [bleep].</q>
@@ -77,7 +77,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '26:40' %}
+  {% timeLink {url:podcast_file_url, t:'26:40'} %}
   <span class="quote-context is-size-6">Matt tells his story 'Ehud the Left-Handed Assassin'</span>
   <q class="matt">But, when his plan falls apart, Ehud is forced to fight the evil king to the death! The gluttonous king is famous for his swordplay. However, Ehud ends up stabbing him in the stomach! In the disgusting conclusion to their battle, Ehud must push the sword in so deeply that King Eglon's fat actually covers the hilt of the sword.</q>
   <q class="ben">That's so cool.</q>
@@ -86,7 +86,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '38:03' %}
+  {% timeLink {url:podcast_file_url, t:'38:03'} %}
   <span class="quote-context is-size-6">Matt reads listener feedback</span>
   <q class="matt">Koby wrote—</q>
   <q class="ben">Who?</q>
@@ -94,10 +94,10 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
   <q class="ben">Wait, we don't have one of those.</q>
 </div>
 
-{% timeLink podcast_file_url, '43:44' %} Sci-Fi Christian Story Time: Is that you, Matt and Ben? 
+{% timeLink {url:podcast_file_url, t:'43:44'} %} Sci-Fi Christian Story Time: Is that you, Matt and Ben? 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '44:22' %}
+  {% timeLink {url:podcast_file_url, t:'44:22'} %}
   <span class="quote-context is-size-6">Ben introduces a sound clip from 'It's Always Sunny in Philadelphia', explaining the premise of the show.</span>
   <q class="ben">It's just kind of, fairly inappropriate, adults only. But don't worry—</q>
   <q class="matt">Much like The Sci-Fi Christian has become.</q>
@@ -108,10 +108,10 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 
 
 # Closing 
-{% timeLink podcast_file_url, '49:43' %} The Sci-Fi Christian Countdown sound clip recording
+{% timeLink {url:podcast_file_url, t:'49:43'} %} The Sci-Fi Christian Countdown sound clip recording
 
 <div class="quote">
-  {% timeLink podcast_file_url, '50:19' %}
+  {% timeLink {url:podcast_file_url, t:'50:19'} %}
   <span class="quote-context is-size-6">Continuing to record new Countdown sound clips</span>
   <q class="ben">Welcome to The Sci-Fi Christian Countdown! With Ben de Bono!</q>
   <q class="matt">And Matt Anderson! And maybe other people! This is dumb. We can't do it this way! We just have to have it ambiguous in case—</q>
@@ -123,7 +123,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '53:45' %}
+  {% timeLink {url:podcast_file_url, t:'53:45'} %}
   <span class="quote-context is-size-6">Continuing to record new Countdown sound clips</span>
   <q class="matt">This is actually awesome for the people that are listening to this.</q>
   <q class="ben">Yeah.</q>

@@ -36,7 +36,7 @@ Matt's favorite Koby moment was his first episode where he had a title but no co
 Ben's favorite Koby moment was selling him on Theo's List. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '11:27' %}
+  {% timeLink {url:podcast_file_url, t:'11:27'} %}
   <span class="quote-context is-size-6">Marvel regained the film and TV rights to Daredevil</span>
   <q class="ben">I'm actually pretty psyched about this cuz Daredevil is probably my favorite Marvel superhero.</q>
   <q class="matt">That's shocking.</q>
@@ -52,27 +52,27 @@ Ben predicts {% work "Iron Man 3" %} will be a 4 star movie. Matt predicts 5 sta
 Dave Johnson suggests uploading podcast episodes to YouTube. {% arc %}No no no{% endarc %}
 
 <div class="quote">
-  {% timeLink podcast_file_url, '23:41' %}
+  {% timeLink {url:podcast_file_url, t:'23:41'} %}
   <q class="ben">Take that, JJ!</q>
 </div>
 
 Take That, Science: a new discovery on Europa could lead to finding alien life. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '24:11' %}
+  {% timeLink {url:podcast_file_url, t:'24:11'} %}
   <q class="ben">Do you ever feel like we got gypped in the moon category?</q>
   <q class="matt">Yeah, cuz we just have one and we call it 'moon'?</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '24:33' %}
+  {% timeLink {url:podcast_file_url, t:'24:33'} %}
   <q class="ben">We should find a way to launch a second moon.</q>
   <q class="matt">OK. Hmm, interesting. Wouldn't that mess up our gravity?</q>
   <q class="ben">Probably, but it would be worth it.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '26:24' %}
+  {% timeLink {url:podcast_file_url, t:'26:24'} %}
   <q class="ben">If we were going to launch part of planet Earth into space to be Moon 2--</q>
   <q class="matt">Canada. What would you say?</q>
   <q class="ben">I'm good with Canada.</q>
@@ -88,7 +88,7 @@ Stan Lee Quote of the Week: Stan teams up with hishe to make fun of Star wars
 Stan Lee Quote of the Week: Stan is tough and gritty
 
 <div class="quote">
-  {% timeLink podcast_file_url, '35:18' %}
+  {% timeLink {url:podcast_file_url, t:'35:18'} %}
   <span class="quote-context is-size-6">Bryan Singer is adding two more X-Men to {% work "X-Men: Days of Future Past" %}</span>
   <q class="matt">Bishop.</q>
   <q class="ben">Enough. Enough, Bryan Singer!</q>
@@ -101,7 +101,7 @@ Stan Lee Quote of the Week: Stan is tough and gritty
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '35:50' %}
+  {% timeLink {url:podcast_file_url, t:'35:50'} %}
   <span class="quote-context is-size-6">Lee Pace may play The Collector in {% work "Guardians of the Galaxy" %}</span>
   <q class="matt">I'm for it, and I'm also for Bishop, but I'm against Warpath.</q>
   <q class="ben">Little racist there.</q>
@@ -117,7 +117,7 @@ Taylor argues that oversaturation can only be defined in hindsight: as long as s
 Ben's says oversaturation means low quality and poor intent, not quantity.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '47:25' %}
+  {% timeLink {url:podcast_file_url, t:'47:25'} %}
   <q class="ben">I don't hate anybody.</q>
   <q class="matt">Koby?</q>
   <q class="ben">I don't hate him! I think he's a fool...</q>

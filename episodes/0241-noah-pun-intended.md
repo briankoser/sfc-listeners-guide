@@ -23,7 +23,7 @@ recommendation_reason: Good discussion of themes and interpretations from Aronof
 archivist_note: Another interesting interpretation I've read is that <a href="http://drbrianmattson.com/journal/2014/3/31/sympathy-for-the-devil">it's based on the Kabbalah Noah story</a> rather than the Bible's.
 ---
 <div class="quote">
-  {% timeLink podcast_file_url, '0:53' %}
+  {% timeLink {url:podcast_file_url, t:'0:53'} %}
   <q class="matt">So Ben and I saw Noah just two short days ago.</q>
   <q class="ben">We survived somehow. God didn't zap us with lightning on our way out of the theatre.</q>
 </div>

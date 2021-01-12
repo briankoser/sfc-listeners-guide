@@ -54,12 +54,12 @@ Would doctrine be identical across the multiverse?
 Was the Fall inevitable? 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:53' %}
+  {% timeLink {url:podcast_file_url, t:'30:53'} %}
   <q class="ben">Maybe there's a universe of raccoons, where raccoons are sentient beings, and Jesus comes as a racoon.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '50:55' %}
+  {% timeLink {url:podcast_file_url, t:'50:55'} %}
   <span class="quote-context is-size-6">Skip doesn't want alternate universes to exist because it would make theology messy.</span>
   <q class="ben">Well, if it exists, we probably won't find out about it so long as you are the pastor at Epic Life Church. So don't sweat it.</q>
 </div>

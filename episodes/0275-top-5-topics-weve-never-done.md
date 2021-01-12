@@ -95,4 +95,4 @@ Ben comes up with the series Non-fantasy Fantasy
   </div>
 </div>
 
-{% timeLink podcast_file_url, '45:17' %}  Sci-Fi Christian Story Time: Things to experience by 350 update
+{% timeLink {url:podcast_file_url, t:'45:17'} %}  Sci-Fi Christian Story Time: Things to experience by 350 update

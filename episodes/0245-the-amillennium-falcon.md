@@ -24,7 +24,7 @@ recommendation_reason: Cogent overview
 ---
 # Opening
 <div class="quote">
-  {% timeLink podcast_file_url, '0:54' %}
+  {% timeLink {url:podcast_file_url, t:'0:54'} %}
   <span class="quote-context is-size-6">They accidentally recorded with the laptop mic for the first half, but the second half is high quality.</span>
   <q class="matt">Give me a little of your voice.</q>
   <q class="ben">Ah-ah-ah-ah-ah-ah-ah.</q>
@@ -37,7 +37,7 @@ recommendation_reason: Cogent overview
 Why would God imprison Satan and then let him loose again? 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '9:00' %}
+  {% timeLink {url:podcast_file_url, t:'9:00'} %}
   <span class="quote-context is-size-6">Matt wants to know why God would loose Satan after a thousand years of imprisonment.</span>
   <q class="ben">God is a curious guy sometimes.</q>
 </div>

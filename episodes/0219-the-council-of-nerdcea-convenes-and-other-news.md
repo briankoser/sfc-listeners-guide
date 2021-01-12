@@ -37,7 +37,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Ben announces they're having a third child. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:25' %}
+  {% timeLink {url:podcast_file_url, t:'2:25'} %}
   <q class="matt">Is there any chance that you would name the baby after me?</q>
   <q class="ben">No.</q>
 </div>
@@ -62,7 +62,7 @@ What the Frodo: George R. R. Martin's next book will contain a controversial cha
 What the Frodo: found-footage Christian movie about teens at a church lock-in who accidentally release demons in the church
 
 <div class="quote">
-  {% timeLink podcast_file_url, '28:15' %}
+  {% timeLink {url:podcast_file_url, t:'28:15'} %}
   <q class="ben">There's a Christian movie that's getting in on the found-footage game</q>
   <q class="matt">Oh good. And just three years too late this time, so that's not bad for Christians!</q>
 </div>

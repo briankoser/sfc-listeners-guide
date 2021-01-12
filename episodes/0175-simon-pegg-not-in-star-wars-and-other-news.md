@@ -52,7 +52,7 @@ Ben is Right: Chlo has dropped some TV shows with bad writing
 Jordan from Australia made SFC desktop wallpaper 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '52:47' %}
+  {% timeLink {url:podcast_file_url, t:'52:47'} %}
   <span class="quote-context is-size-6">Matt reads listener feedback</span>
   <q class="matt">I want you to react to this when I'm done, Ben, so start thinking.</q>
   <q class="ben">I never stopped.</q>

@@ -29,7 +29,7 @@ recommendation_reason: They've got tons of kids at this point.
 Ben is having a third baby in September. Matt is having his first baby in October, a girl. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '2:41' %}
+  {% timeLink {url:podcast_file_url, t:'2:41'} %}
   <span class="quote-context is-size-6"></span>
   <q class="matt">How do you like this for top news of the day? Listen to this title: 'Des is Pregnant—'</q>
   <q class="ben">Holy [bleep]!</q>

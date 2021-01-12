@@ -31,7 +31,7 @@ recommendation_reason: Plans for 2014
 A lot of uninteresting movies are coming out.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '18:20' %}
+  {% timeLink {url:podcast_file_url, t:'18:20'} %}
   <span class="quote-context is-size-6">Predicting rankings for upcoming movies</span>
   <q class="matt">This one's gotta be a five. {% work "Interstellar" %} is a five.</q>
   <q class="koby">I hope you're both disappointed. I don't hope that, that's mean. I hope that you're pleasantly surprised.</q>
@@ -40,7 +40,7 @@ A lot of uninteresting movies are coming out.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '21:50' %}
+  {% timeLink {url:podcast_file_url, t:'21:50'} %}
   <q class="koby">I honestly never liked the Muppets, so—</q>
   <q class="ben">So wait, can we keep a list here? Things Koby doesn't like: {% work "Lord of the Rings" %}, {% work "Breaking Bad" %}, The Muppets—</q>
   <q class="matt">{% work "LOST" %}</q>
@@ -48,7 +48,7 @@ A lot of uninteresting movies are coming out.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '28:40' %}
+  {% timeLink {url:podcast_file_url, t:'28:40'} %}
   <q class="matt">That's a good idea that we fixed in 2013: putting the listener feedback at the end of the news.</q>
   <q class="ben">Yeah.</q>
   <q class="matt">Cuz having listener feedback as its own episode, not a winning idea.</q>

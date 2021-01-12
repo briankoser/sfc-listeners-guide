@@ -31,7 +31,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 <div class="quote">
-  {% timeLink podcast_file_url, '6:06' %}
+  {% timeLink {url:podcast_file_url, t:'6:06'} %}
   <span class="quote-context is-size-6">The writers' strike hurt {% work "Heroes" %}</span>
   <q class="ben">That's kinda what killed {% work "LOST" %} too, wasn't it.</q>
   <q class="matt">No, nothing killed {% work "LOST" %}.</q>

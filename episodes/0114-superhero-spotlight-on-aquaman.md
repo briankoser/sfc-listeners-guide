@@ -39,7 +39,7 @@ Ben Avery from Strangers and Aliens guest hosts.
 Aquaman wore orange and green. Most heroes at the time wore primary colors, while villains generally wore secondary colors.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '57:14' %}
+  {% timeLink {url:podcast_file_url, t:'57:14'} %}
   <q class="matt">Through my deep research into the internet, I found a website called 'Wikipedia', and here's what it says:</q>
 </div>
 

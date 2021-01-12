@@ -32,7 +32,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 This episode sponsored by David, who set a new record for largest donation. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:45' %}
+  {% timeLink {url:podcast_file_url, t:'1:45'} %}
   <span class="quote-context is-size-6">Ben walks the listeners through donating on the website.</span>
   <q class="ben">Way easier than giving to church.</q>
   <q class="matt">Way easier.</q>
@@ -49,7 +49,7 @@ Ben is resigned to the fact of new {% work "Star Wars" %} movies, and is in favo
 
 Ben thinks they should replace the robot in the Bad Robot opening to {% work "Star Wars Episode VII" %} with R2-D2.
 
-{% timeLink podcast_file_url, '17:10' %} Ben had a dream that Matt pranked him.
+{% timeLink {url:podcast_file_url, t:'17:10'} %} Ben had a dream that Matt pranked him.
 
 Matt asks and Ben elucidates: "De Bono", capital "D", space before "Bono".
 
@@ -58,7 +58,7 @@ Ben loves {% work "Doctor Who" %} now.
 Ben is going to restart the {% work "Game of Thrones" %} videos without Matt. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '31:17' %}
+  {% timeLink {url:podcast_file_url, t:'31:17'} %}
   <span class="quote-context is-size-6">Matt thinks {% work "X-Men: Days of Future Past" %} is trying to bring all the X-Men film characters together to emulate {% work "The Avengers" %}</span>
   <q class="ben">I think it's a true theory. I endorse it.</q>
   <q class="matt">Thank you.</q>
@@ -66,7 +66,7 @@ Ben is going to restart the {% work "Game of Thrones" %} videos without Matt.
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '33:58' %}
+  {% timeLink {url:podcast_file_url, t:'33:58'} %}
   <span class="quote-context is-size-6">Matt's friend Brad emailed some feedback</span>
   <q class="matt">'The bleeping in your recent episode is hilarious.' So, thanks for swearing, Ben.</q>
   <q class="ben">You bet your [bleep]!</q>

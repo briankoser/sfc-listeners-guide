@@ -32,7 +32,7 @@ archivist_note: If you enjoyed this episode, I'd also recommend listening to Joh
 What would be the ethics of choosing to live in a virtual world?
 
 <div class="quote">
-  {% timeLink podcast_file_url, '9:18' %}
+  {% timeLink {url:podcast_file_url, t:'9:18'} %}
   <span class="quote-context is-size-6">Ben just read {% work "Ready Player One" %}</span>
   <q class="matt">So do you recommend this book?</q>
   <q class="ben">Absolutely. Very entertaining.</q>
@@ -60,9 +60,9 @@ Could we have a church if a group of Christians decided to live in the virtual w
   </div>
 </div>
 
-{% timeLink podcast_file_url, '54:55' %} Sci-Fi Christian Story Time: Cleverbot meets Ben De Bono
+{% timeLink {url:podcast_file_url, t:'54:55'} %} Sci-Fi Christian Story Time: Cleverbot meets Ben De Bono
 
-{% timeLink podcast_file_url, '55:52' %} Sci-Fi Christian Story Time: Is my wife a prophet?
+{% timeLink {url:podcast_file_url, t:'55:52'} %} Sci-Fi Christian Story Time: Is my wife a prophet?
 
 
 

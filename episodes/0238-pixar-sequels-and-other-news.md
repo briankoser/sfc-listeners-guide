@@ -30,7 +30,7 @@ What the Frodo: Dock Street Beer Brewery is making a Walking Dead beer with goat
 Based on George R. R. Martin's comments over the last year, he is going through the five stages of grief over the Game of Thrones show likely overtaking the books.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '28:14' %}
+  {% timeLink {url:podcast_file_url, t:'28:14'} %}
   <span class="quote-context is-size-6">The creator of the Jem and the Holograms cartoon will not be involved in the movie, and she's upset that there are no women writing or directing</span>
   <q class="ben">If you're gonna make a crappy movie out of the show, at least let the women make a crappy movie out of the show.</q>
   <q class="matt">I'm not sure if that's exactly what we're trying to say here.</q>

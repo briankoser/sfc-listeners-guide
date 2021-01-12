@@ -69,7 +69,7 @@ recommendation_reason: Fine episode about a lackluster franchise
 When Matt reminds Ben that Nightcrawler is Catholic, he moves him from 5 to 1.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '25:02' %}
+  {% timeLink {url:podcast_file_url, t:'25:02'} %}
   <span class="quote-context is-size-6">Kitty Pryde discussion</span>
   <q class="ben">I picked her because she's one of the more attractive X-Men.</q>
   <q class="matt">Right, but also a cartoon. And also a child.</q>

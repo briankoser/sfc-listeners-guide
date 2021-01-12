@@ -31,7 +31,7 @@ recommendation_reason: Any notable feedback is included in the guide.
 Matt sets a one-hour timer for the episode. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '27:45' %}
+  {% timeLink {url:podcast_file_url, t:'27:45'} %}
   <span class="quote-context is-size-6">Koby wishes he was a planeteer.</span>
   <q class="koby">I wish I was heart.</q>
 </div>

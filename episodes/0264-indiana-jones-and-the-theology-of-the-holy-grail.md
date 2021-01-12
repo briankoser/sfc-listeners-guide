@@ -33,7 +33,7 @@ The Grail as:
 - Psychological archetypes
 
 <div class="quote">
-  {% timeLink podcast_file_url, '34:04' %}
+  {% timeLink {url:podcast_file_url, t:'34:04'} %}
   <span class="quote-context is-size-6">T.S. Eliot's {% work "The Waste Land" %}</span>
   <q class="ben">If you have not read {% work "The Waste Land" %}, that is one of my favorite literary works of all time, and I highly recommend it. We could do an episode on {% work "The Waste Land" %} some time.</q>
   <q class="matt">Should I read it?</q>

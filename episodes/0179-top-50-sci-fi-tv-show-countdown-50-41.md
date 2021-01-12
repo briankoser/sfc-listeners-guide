@@ -40,7 +40,7 @@ Notable runners up:
 - The Tick 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '11:35' %}
+  {% timeLink {url:podcast_file_url, t:'11:35'} %}
   <q class="matt">{% work "Revolution" %}. Only had one season, and I stopped watching it.</q>
   <q class="ben">Yeah, bad show.</q>
   <q class="matt">If I stopped watching it, people...</q>
@@ -61,9 +61,9 @@ Notable runners up:
 
 Ben compares {% work "Daybreak" %} to 'Groundhog's Day' starring Geena Davis.
 
-{% timeLink podcast_file_url, '37:38' %} In 5th grade, Matt pretended to be part of the X-Men. Ben says the mutant name he chose is the worst superhero name he's ever heard.
+{% timeLink {url:podcast_file_url, t:'37:38'} %} In 5th grade, Matt pretended to be part of the X-Men. Ben says the mutant name he chose is the worst superhero name he's ever heard.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '42:17' %}
+  {% timeLink {url:podcast_file_url, t:'42:17'} %}
   <q class="matt">You're my most inappropriate friend. That's a fact.</q>
 </div>

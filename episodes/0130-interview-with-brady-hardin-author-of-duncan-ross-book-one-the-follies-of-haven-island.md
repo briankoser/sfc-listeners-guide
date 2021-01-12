@@ -34,7 +34,7 @@ archivist_note: It only took Matt 11 months after this episode to finish the las
 Brady enjoyed cruising on his honeymoon. Matt is considering cruising for his honeymoon. Ben recommends never going on a cruise.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '4:55' %}
+  {% timeLink {url:podcast_file_url, t:'4:55'} %}
   <q class="ben">Take that, Daniel Butcher!</q>
 </div>
 
@@ -58,7 +58,7 @@ Ben clarifies the Catholic view on grace versus works for salvation: grace initi
 Brady was heavily influenced by Campbell's {% work "Hero of a Thousand Faces" %}.
 
 <div class="quote">
-  {% timeLink podcast_file_url, '57:11' %}
+  {% timeLink {url:podcast_file_url, t:'57:11'} %}
   <q class="ben">Older women have a thing for the Amish. That's your fact of the day on The Sci-Fi Christian.</q>
   <q data-name="Brady">I wonder if they have podcasts like this, where it's like, The Amish Christian.</q>
   <q class="ben">The Amish? I don't think so. I mean, the Amish don't even have electricity.</q>
@@ -78,15 +78,15 @@ Brady was heavily influenced by Campbell's {% work "Hero of a Thousand Faces" %}
   <q class="matt">What would we do? Like, introduce them to lights?</q>
 </div>
 
-{% timeLink podcast_file_url, '1:04:55' %} Sci-Fi Christian Story Time: Dashed Hopes
+{% timeLink {url:podcast_file_url, t:'1:04:55'} %} Sci-Fi Christian Story Time: Dashed Hopes
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:07:11' %}
+  {% timeLink {url:podcast_file_url, t:'1:07:11'} %}
   <q class="ben">Because if there ever was a book written for me, it's {% work "Middle Earth and Pipe Smoking" %}.</q>
 </div>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '1:09:03' %}
+  {% timeLink {url:podcast_file_url, t:'1:09:03'} %}
   <q class="matt">Donate to The Sci-Fi Christian.</q>
   <q class="ben">It's just as good as tithing!</q>
 </div>

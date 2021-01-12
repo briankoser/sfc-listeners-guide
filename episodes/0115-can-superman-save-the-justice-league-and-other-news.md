@@ -45,7 +45,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Matt asked Ben for an outline for the next episode during the Super Bowl. Ben had too many beers to send it. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '3:24' %}
+  {% timeLink {url:podcast_file_url, t:'3:24'} %}
   <span class="quote-context is-size-6">Ben watched a football game with some friends.</span>
   <q class="ben">Alcohol makes you kind of tired, so I was just relaxed. We all thought—you know, the other three guys there were drinking as well, so everything was really funny, and it was a good time.</q>
   <q class="matt">Right now all of our listeners that were with us back in Season 1 are like, just praying that you'll become Protestant again.</q>
@@ -59,15 +59,15 @@ Matt asked Ben for an outline for the next episode during the Super Bowl. Ben ha
 
 Ben is a Narnian Publicationist.
 
-{% timeLink podcast_file_url, '16:00' %} Daniel butchers "Damon Lindelhof"'s name.
+{% timeLink {url:podcast_file_url, t:'16:00'} %} Daniel butchers "Damon Lindelhof"'s name.
 
 Ben promotes Daniel to the A Squad and demotes Koby to the Z Squad. 
 
-{% timeLink podcast_file_url, '23:26' %}
+{% timeLink {url:podcast_file_url, t:'23:26'} %}
 IgnotusWyrd remixed The History of Christianity: <a href="https://youtu.be/O7P6B8yMD2o">Triple Popes</a>
 
 <div class="quote">
-  {% timeLink podcast_file_url, '30:22' %}
+  {% timeLink {url:podcast_file_url, t:'30:22'} %}
   <span class="quote-context is-size-6">Marvel cast a female actress in the next Captain America movie. No one knows what character she is yet.</span>
   <q class="matt">There's talks though that this actress might be related to—so like, he'll have dated the grandma and then dated the granddaughter. That's hot.</q>
 </div>
@@ -83,7 +83,7 @@ Take That, Science: The closest asteroid yet will be passing Earth.
 Take That, Science: Science has proven that pretending to be a superhero can make you a better person. 
 
 <div class="quote">
-  {% timeLink podcast_file_url, '47:23' %}
+  {% timeLink {url:podcast_file_url, t:'47:23'} %}
   <q class="matt">John Chu might be the new director of {% work "Matched" %}.</q>
   <q class="ben">I have no idea who John Chu is.</q>
   <q class="matt">Do you want to know what {% work "Matched" %} is about?</q>

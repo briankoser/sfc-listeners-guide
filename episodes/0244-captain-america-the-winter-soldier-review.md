@@ -55,4 +55,4 @@ recommendation_reason: The Green Screen guys join Matt to review
   </tbody>
 </table>
 
-{% timeLink podcast_file_url, '6:28' %} Matt bleeps BJ saying "badass"
+{% timeLink {url:podcast_file_url, t:'6:28'} %} Matt bleeps BJ saying "badass"

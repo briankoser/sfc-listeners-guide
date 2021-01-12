@@ -35,6 +35,6 @@ Matt has to watch an episode of {% work "Gilmore Girls" %} with Des for every ep
 
 What the Frodo: Red Wedding Halloween costumes are being sold with spoiler warnings
 
-{% timeLink podcast_file_url, '24:10' %} Matt has a box in his room labeled Francis Coppola. He says he's holding Coppola's stuff.
+{% timeLink {url:podcast_file_url, t:'24:10'} %} Matt has a box in his room labeled Francis Coppola. He says he's holding Coppola's stuff.
 
 Take That, Science: jetpack moves closer to market
