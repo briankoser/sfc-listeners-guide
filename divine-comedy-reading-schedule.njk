@@ -1,0 +1,316 @@
+---js
+{
+  layout: "page",
+  pageTitle: "Divine Comedy Reading Schedule",
+  fromEaster: function (daysAway) {
+    // Based on https://gist.github.com/johndyer/0dffbdd98c2046f41180c051f378f343
+    let date = new Date();
+    let year = date.getFullYear();
+    var f = Math.floor,
+      // Golden Number - 1
+      G = year % 19,
+      C = f(year / 100),
+      // related to Epact
+      H = (C - f(C / 4) - f((8 * C + 13)/25) + 19 * G + 15) % 30,
+      // number of days from 21 March to the Paschal full moon
+      I = H - f(H/28) * (1 - f(29/(H + 1)) * f((21-G)/11)),
+      // weekday for the Paschal full moon
+      J = (year + f(year / 4) + I + 2 - C + f(C / 4)) % 7,
+      // number of days from 21 March to the Sunday on or before the Paschal full moon
+      L = I - J,
+      month = 3 + f((L + 40)/44),
+      day = L + 28 - 31 * f(month / 4);
+    let easter = new Date(year, month - 1, day);
+    return new Date(easter.setDate(easter.getDate() + daysAway));
+  }
+}
+---
+
+<p>Ben's Lenten and Easter season schedule for reading Dante's {% work "The Divine Comedy" %} (<a href="http://thescifichristian.com/2015/05/the-divine-comedy-introduction-and-reading-schedule/">original here</a>). This page updates automatically to the current year.
+
+<h2>Reading Schedule</h2>
+<h3>Lent</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <td>Due Date
+      <td>Reading
+      <td>Location
+      <td>Subject
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ash Wednesday, {{ fromEaster(-46) | monthDayDate }}</td>
+      <td>Inferno I-III</td>
+      <td>Introduction</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno IV</td>
+      <td>Circle 1</td>
+      <td>Limbo</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno V</td>
+      <td>Circle 2</td>
+      <td>The Lustful</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno VI</td>
+      <td>Circle 3</td>
+      <td>The Gluttons</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno VII</td>
+      <td>Circle 4 &amp; 5</td>
+      <td>The Hoarders and Wasters</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno VIII-IX</td>
+      <td>Circle 5</td>
+      <td>The Wrathful and Sullen</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(-37) | monthDayDate }}</td>
+      <td>Inferno X-XI</td>
+      <td>Circle 6</td>
+      <td>The Heretics</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XII</td>
+      <td>Circle 7, Round 1</td>
+      <td>The Violent Against Others</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XIII</td>
+      <td>Circle 7, Round 2</td>
+      <td>The Violent Against Self</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XIV-XVII</td>
+      <td>Circle 7, Round 3</td>
+      <td>The Violent Against God</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XVIII</td>
+      <td>Circle 8, Bolgia 1 &amp; 2</td>
+      <td>The Seducers and Panderers/The Flatterers</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XIX</td>
+      <td>Circle 8, Bolgia 3</td>
+      <td>The Simoniacs</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XX</td>
+      <td>Circle 8, Bolgia 4</td>
+      <td>The Fortune Tellers and Diviners</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(-30) | monthDayDate }}</td>
+      <td>Inferno XXI-XXII</td>
+      <td>Circle 8, Bolgia 5</td>
+      <td>The Grafters</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXIII</td>
+      <td>Circle 8, Bolgia 6</td>
+      <td>The Hypocrites</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXIV-XV</td>
+      <td>Circle 8, Bolgia 7</td>
+      <td>The Thieves</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXVI-XXVII</td>
+      <td>Circle 8, Bolgia 8</td>
+      <td>The Evil Counselors</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXVIII</td>
+      <td>Circle 8, Bolgia 9</td>
+      <td>The Sowers of Discord</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXIX-XXX</td>
+      <td>Circle 8, Bolgia 10</td>
+      <td>The Falsifiers</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXXI-XXXII</td>
+      <td>Circle 9, Round 1</td>
+      <td>The Treacherous to Kin</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXXII-XXXIII</td>
+      <td>Circle 9, Round 2</td>
+      <td>The Treacherous to Country</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Inferno XXXIII</td>
+      <td>Circle 9, Round 3</td>
+      <td>The Treacherous to Guests and Hosts</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(-23) | monthDayDate }}</td>
+      <td>Inferno XXXIV</td>
+      <td>Circle 9, Round 4</td>
+      <td>The Treacherous to Lords and Benefactors</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Purgatorio I-V</td>
+      <td>Ante-Purgatory</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(-16) | monthDayDate }}</td>
+      <td>Purgatorio VI-IX</td>
+      <td>Valley of Rulers</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Purgatorio X-XII</td>
+      <td>Terrace 1</td>
+      <td>Pride</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Purgatorio XIII-XV</td>
+      <td>Terrace 2</td>
+      <td>Envy</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Purgatorio XV-XVII</td>
+      <td>Terrace 3</td>
+      <td>Wratch</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(-9) | monthDayDate }}</td>
+      <td>Purgatorio XVII-XVIII</td>
+      <td>Terrace 4</td>
+      <td>Sloth</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Purgatorio XIX-XXII</td>
+      <td>Terrace 5</td>
+      <td>Avarice</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Purgatorio XXII-XXIV</td>
+      <td>Terrace 6</td>
+      <td>Gluttony</td>
+    </tr>
+    <tr>
+      <td>Good Friday, {{ fromEaster(-2) | monthDayDate }}</td>
+      <td>Purgatorio XXV-XXVII</td>
+      <td>Terrace 7</td>
+      <td>Lust</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Easter, {{ fromEaster(0) | monthDayDate }}</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <td>Due Date
+      <td>Reading
+      <td>Location
+      <td>Subject
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ fromEaster(7) | monthDayDate }}</td>
+      <td>Purgatorio XXVIII-XXXIII</td>
+      <td>Terrestrial Paradise</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Paradiso I-V</td>
+      <td>Moon</td>
+      <td>The Inconstant</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(14) | monthDayDate }}</td>
+      <td>Paradiso V-VII</td>
+      <td>Mercury</td>
+      <td>The Ambitious</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Paradiso VIII-IX</td>
+      <td>Venus</td>
+      <td>The Lovers</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(21) | monthDayDate }}</td>
+      <td>Paradiso X-XIV</td>
+      <td>Sun</td>
+      <td>The Wise</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Paradiso XIV-XVIII</td>
+      <td>Mars</td>
+      <td>The Warriors of Faith</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(28) | monthDayDate }}</td>
+      <td>Paradiso XVIII-XX</td>
+      <td>Jupiter</td>
+      <td>The Just Rulers</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Paradiso XXI-XXII</td>
+      <td>Saturn</td>
+      <td>The Contemplatives</td>
+    </tr>
+    <tr>
+      <td>{{ fromEaster(35) | monthDayDate }}</td>
+      <td>Paradiso XXII-XXVII</td>
+      <td>Fixed Stars</td>
+      <td>Faith, Hope, and Love</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Paradiso XVIII-XXX</td>
+      <td>Angelic Orders</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Pentecost, {{ fromEaster(50) | monthDayDate }}</td>
+      <td>Paradiso XXX-XXXIII</td>
+      <td>Empyrean</td>
+      <td>The Beatific Vision</td>
+    </tr>
+  </tbody>
+</table>

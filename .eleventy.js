@@ -46,6 +46,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("color", shortName => (metadata.hosts.find(host => host.shortName === shortName).color || {}).name);
   eleventyConfig.addFilter("displayLength", displayLength);
   eleventyConfig.addFilter("fullName", shortName => metadata.hosts.find(host => host.shortName === shortName).fullName);
+  eleventyConfig.addFilter("monthDayDate", dateObj => DateTime.fromJSDate(dateObj).toFormat("MMMM d"));
   eleventyConfig.addFilter("readableDate", dateObj => DateTime.fromJSDate(dateObj).toISODate());
   eleventyConfig.addFilter('seriesFilter', (episodes, series) => series ? episodes.filter(e => e.data.series == series) : episodes);
   eleventyConfig.addFilter("seriesDescription", slug => (metadata.series.find(s => s.slug === slug) || {}).description || '');
