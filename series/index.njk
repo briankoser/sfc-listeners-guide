@@ -1,0 +1,10 @@
+---
+layout: page
+pageTitle: Series
+---
+<div class="columns">
+    <div class="column is-half">
+        {% set serieslist = collections.episodes[0].data.stats.series %}
+        {% include "components/seriesList.njk" %}
+    </div>
+</div>

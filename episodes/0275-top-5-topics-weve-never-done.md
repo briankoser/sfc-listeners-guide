@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2014/07/episode-275-top-5-topics-weve-
 podcast_file_url: http://thescifichristian.com/sfc/sfc0275.mp3
 date: 2014-07-24
 length: '00:50:51'
-category: countdown
+category: countdowns
 hosts:
   - Ben
   - Matt

@@ -7,17 +7,9 @@ module.exports = function(eleventyConfig) {
 
 
   /*
-      metadata
-  */
-  const fs = require("fs");
-  const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
-
-
-
-  /*
       functions
   */
-  let displayLength = length => {
+  let displayLength = function (length) {
     let pieces = length.split(':');
     let hours = parseInt(pieces[0]);
     let minutes = pieces[1];
@@ -34,6 +26,35 @@ module.exports = function(eleventyConfig) {
 
     return `${hoursMinutes}:${seconds}`;
   };
+
+  let episodesGroupBy = function (episodeArray, property) {
+    return episodeArray.reduce(function (acc, episode) {
+      let key = episode.data[property]
+      if (!acc[key]) {
+        acc[key] = []
+      }
+      acc[key].push(episode)
+      return acc
+    }, {})
+  }
+
+
+
+  /*
+      metadata
+  */
+  const fs = require("fs");
+  const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
+
+
+
+  /*
+      events
+  */
+  const { buildLunrSearchIndex } = require('./_data/search.js');
+  eleventyConfig.on('afterBuild', () => {
+    buildLunrSearchIndex();
+  });
 
 
 
@@ -70,7 +91,7 @@ module.exports = function(eleventyConfig) {
   /*
       nunjucks tags (can't be shortcodes because they access collections)
   */
- const episodeLinkNunjucksTag = require('./_includes/nunjucksTags/episodeLink.js');
+  const episodeLinkNunjucksTag = require('./_includes/nunjucksTags/episodeLink.js');
   eleventyConfig.addNunjucksTag("episodeLink", episodeLinkNunjucksTag);
 
 
@@ -108,10 +129,14 @@ module.exports = function(eleventyConfig) {
 
   
 
-  // Couldn't move to files like shortcodes; try again when I'm smarter
   /*
       collections
   */
+  eleventyConfig.addCollection("categories", function(collection) {
+    let episodes = collection.getFilteredByTag("episode");
+    return episodesGroupBy(episodes, 'category');
+  });
+
   eleventyConfig.addCollection("episodes", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
     let episodesReverse = Object.assign([], episodes);
@@ -511,6 +536,11 @@ module.exports = function(eleventyConfig) {
     return seasonStats;
   });
 
+  eleventyConfig.addCollection("series", function(collection) {
+    let episodes = collection.getFilteredByTag("episode");
+    return episodesGroupBy(episodes, 'series');
+  });
+
   eleventyConfig.addCollection("visits", function(collection) {
     let episodes = collection.getFilteredByTag("episode");
 
@@ -523,7 +553,7 @@ module.exports = function(eleventyConfig) {
       }});
   })
 
-  
+
 
   return {
     templateFormats: [

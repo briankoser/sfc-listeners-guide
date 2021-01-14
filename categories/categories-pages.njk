@@ -1,14 +1,12 @@
 ---
 layout: baseNavBar
 pagination:
-  data: collections.episodes
+  data: collections.categories
   size: 1
-  alias: episode
-permalink: /categories/{{ episode.data.category }}/
+  alias: category
+permalink: /categories/{{ category }}/
 pageTitle: Categories
 ---
-
-{% set category = episode.data.category %}
 
 <h1 class="is-size-2">{{category | categoryName}}</h1>
 <p class="category-description">{{category | categoryDescription}}</p>

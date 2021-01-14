@@ -5,10 +5,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build-search-index": "node _data/buildLunrSearchIndex.js",
-    "build": "npx eleventy",
-    "dev": "npx eleventy --serve",
-    "prod": "npm run build && npm run build-search-index"
+    "dev": "npx @11ty/eleventy --serve",
+    "prod": "npx @11ty/eleventy"
   },
   "author": {
     "name": "Brian Koser",
@@ -19,7 +17,7 @@
     "url": "git://github.com/briankoser/sfc-listeners-guide"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^0.11.1",
     "auto-load": "^3.0.4",
     "jsdom": "^15.1.1",
     "node-fetch": "^2.6.0",

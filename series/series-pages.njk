@@ -1,16 +1,13 @@
 ---
 layout: baseNavBar
 pagination:
-  data: collections.episodes
+  data: collections.series
   size: 1
-  alias: episode
-permalink: /series/{{ episode.data.series }}/
+  alias: series
+permalink: /series/{{ series }}/
 pageTitle: Series
 ---
 
-{% set series = episode.data.series %}
-
-{% if series %}
 <h1 class="is-size-2">{{series | seriesName}}</h1>
 <p class="series-description">{{series | seriesDescription}}</p>
 <div class="episode-list">
@@ -21,14 +18,3 @@ pageTitle: Series
         </div>
     </div>
 </div>
-
-{% else %}
-
-<h1 class="is-size-2">Series</h1>
-<div class="columns">
-    <div class="column is-half">
-        {% set serieslist = collections.episodes[0].data.stats.series %}
-        {% include "components/seriesList.njk" %}
-    </div>
-</div>
-{% endif %}
