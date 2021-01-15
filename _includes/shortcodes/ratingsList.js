@@ -1,4 +1,3 @@
-// [{'host': '', 'ratings': ['title': '', 'score': 0]}]
 module.exports = function (hostRatings) {
     let ratingToStars = (rating) => {
         if (rating === 0) {

@@ -16,6 +16,16 @@ series: star-wars
 hosts:
   - Ben
   - Matt
+quotes:
+  - time: "4:34"
+    context: test
+    lines:
+      - m: When do you feel like you became a fan?
+      - b: I always was.
+      - m: It's kind of like, when people talk about how they've just always been a Christian, they can't remember not being a Christian.
+      - b: I don't remember when I asked George Lucas into my heart.
+      - guest: guest host
+        quote: an example
 
 notable_moments: 
 
@@ -23,12 +33,7 @@ last_listen: 2019-12-15
 recommendation: yes
 recommendation_reason: A close-to-essential overview of the original Star Wars trilogy
 ---
-<div class="quote">
-  {% timeLink {url:podcast_file_url, t:'4:34'} %}
-  <q class="matt">When do you feel like you became a fan?</q>
-  <q class="ben">I always was.</q>
-  <q class="matt">It's kind of like, when people talk about how they've just always been a Christian, they can't remember not being a Christian.</q>
-  <q class="ben">I don't remember when I asked George Lucas into my heart.</q>
-</div>
+
+{% quotes podcast_file_url, quotes[0] %}
 
 [An Interview with Gary Kurtz, IGN](https://www.ign.com/articles/2002/11/11/an-interview-with-gary-kurtz)

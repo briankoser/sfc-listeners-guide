@@ -1,5 +1,5 @@
 module.exports = function (data, metadata) {
-    let linkUrl = `${data.env === 'prod' ? metadata.analytics_url : ''}${data.url}`;
+    let linkUrl = `${process.env.NODE_ENV === 'prod' ? metadata.analytics_url : ''}${data.url}`;
 
     let timePieces = data.t.split(':');
 

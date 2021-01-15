@@ -52,6 +52,14 @@ celebrity_invites:
 celebrity_promo: 
 spoilers: 
   - <i class="work-title"></i>
+quotes:
+  - time: "0:00"
+    context: 
+    lines:
+      - m: 
+      - b: 
+      - guest: 
+        quote: 
 
 last_listen: 
 recommendation: essential yes no
@@ -70,6 +78,8 @@ archivist_note:
 
 {% arc %}note{% endarc %}
 {% episodeLink 100 %}
+{% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
+{% quotes podcast_file_url, quotes[0] %}
 {% rating 'Work', 1.5, 5 %}
 {% timeLink {url:podcast_file_url, t:'1:23'} %}
 {% work "title" %}
@@ -85,15 +95,6 @@ What the Frodo:
 
 
 [bleep]
-
-<div class="quote">
-  {% timeLink {url:podcast_file_url, t:'1:23'} %}
-  <span class="quote-context is-size-6"></span>
-  <q class="ben"></q>
-  <q class="matt"></q>
-</div>
-
-<q data-name="non host"></q>
 
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 </h2>
