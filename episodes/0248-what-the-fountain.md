@@ -31,12 +31,12 @@ archivist_note: For some reason Aronofsky movies just don't quite click for me; 
 Ben has watched the movie at least 10 times. 
 
 # Symbolism
-Eucharist
-The Ring
-Abandonment
-The name Thomas Credo
-Izzy's white clothing
-Religious ecstasy
+- Eucharist
+- The Ring
+- Abandonment
+- The name Thomas Credo
+- Izzy's white clothing
+- Religious ecstasy
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'29:58'} %}
@@ -48,9 +48,9 @@ Religious ecstasy
 
 
 # Parallels to Noah
-The last man
-The seed from the Tree of Life
-Tom vs Noah
+- The last man
+- The seed from the Tree of Life
+- Tom vs Noah
 
 {% timeLink {url:podcast_file_url, t:'51:11'} %}  Sci-Fi Christian Story Time: Ben saved Casey's life
 
