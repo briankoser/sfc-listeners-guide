@@ -18,14 +18,11 @@ hosts:
   - Matt
 quotes:
   - time: "4:34"
-    context: test
     lines:
       - m: When do you feel like you became a fan?
       - b: I always was.
       - m: It's kind of like, when people talk about how they've just always been a Christian, they can't remember not being a Christian.
       - b: I don't remember when I asked George Lucas into my heart.
-      - guest: guest host
-        quote: an example
 
 notable_moments: 
 
