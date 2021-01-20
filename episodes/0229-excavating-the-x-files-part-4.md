@@ -18,7 +18,33 @@ hosts:
 
 notable_moments:
 future_episodes:
-  - Edgar Cayce and Nostradamus 
+  - Edgar Cayce and Nostradamus
+
+ratings:
+  confidence:
+    title: Confidence in the Existence of Specific Supernatural Phenomena
+    ben:
+      - title: Ghosts
+        score: 4
+      - title: UFOs
+        score: 1
+      - title: Sasquatch
+        score: 3.5
+      - title: Psychic abilities
+        score: 5
+      - title: Demons
+        score: 5
+    matt: 
+      - title: Ghosts
+        score: 2.5
+      - title: UFOs
+        score: 1.5
+      - title: Sasquatch
+        score: 3.5
+      - title: Psychic abilities
+        score: 5
+      - title: Demons
+        score: 5
 
 last_listen: 2019-09-13
 recommendation: no
@@ -46,10 +72,6 @@ Real-Life X-File: Ben the Lame Psychic, Part 2 (one time Ben heard the phone rin
 
 Rating their confidence in the existence of:
 
-{% rating 'Ghosts', 4, 2.5 %}
-{% rating 'UFOs', 1, 1.5 %}
-{% rating 'Sasquatch', 3.5, 3.5 %}
-{% rating 'Psychic abilities', 5, 5 %}
-{% rating 'Demons', 5, 5 %}
+{% ratings ratings.confidence %}
 
 {% timeLink {url:podcast_file_url, t:'1:27:35'} %}  Sci-Fi Christian Story Time: Ben's house almost burned down

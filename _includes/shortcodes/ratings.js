@@ -30,21 +30,12 @@ module.exports = function (ratings) {
         }
 
         let ratingFloor = Math.floor(rating);
-
-        let stars = '';
-        for (let i = 0; i < ratingFloor; i++) {
-            stars += '🟊';
-        }
+        let stars = ''.padStart(ratingFloor * 2, '🟊'); // "* 2" because 🟊 is two bytes
         return `${stars}${rating === ratingFloor ? '' : '½'}`;
     };
 
-    const ratingRows = ratings => {
-        return ratings.map(rating => `
-<tr>
-    <td>${rating.title}</td>
-    <td title="${rating.score}">${ratingToStars(rating.score)}</td>
-</tr>`).join('');
-    };
+    const ratingRows = ratings => 
+        ratings.map(rating => `<tr><td>${rating.title}</td><td title="${rating.score}">${ratingToStars(rating.score)}</td></tr>`).join('');
 
     const ratingTitle = ratings => ratings.title ? `<h2 class="has-text-centered">${ratings.title}</h2>` : '';
 

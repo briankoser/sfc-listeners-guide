@@ -60,6 +60,15 @@ quotes:
       - b: 
       - guest: 
         quote: 
+ratings:
+  myRating:
+    title: 
+    ben:
+      - title: 
+        score: 
+    matt: 
+      - title: 
+        score: 
 
 last_listen: 
 recommendation: essential yes no
@@ -80,7 +89,7 @@ archivist_note:
 {% episodeLink 100 %}
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}
-{% rating 'Work', 1.5, 5 %}
+{% ratings ratings.myRating %}
 {% timeLink {url:podcast_file_url, t:'1:23'} %}
 {% work "title" %}
 
