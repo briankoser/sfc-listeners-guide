@@ -137,12 +137,7 @@ layout: baseNavBar
     <div class="box episode-secondary-metadata">
         {% if rating %}
         <h2>Rating</h2>
-        <div class="review clearfix is-size-4">
-            <div class="ratings">
-                <div class="rating ben" title="Ben's rating out of 5 stars">{% stars rating.ben %}</div>
-                <div class="rating matt" title="Matt's rating out of 5 stars">{% stars rating.matt %}</div>
-            </div>
-        </div>
+        {% rating rating %}
         {% endif %}
 
         {% if notable_moments %}

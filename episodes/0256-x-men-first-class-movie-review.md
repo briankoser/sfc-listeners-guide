@@ -16,6 +16,9 @@ hosts:
   - Matt
 
 notable_moments: 
+rating:
+  ben: 5
+  matt: 4.5
 
 last_listen: 2019-10-16
 recommendation: no
@@ -32,25 +35,6 @@ recommendation_reason: Brief discussion of the movie
 </div>
 
 # Review
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊½</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
-
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'11:30'} %}
   <span class="quote-context is-size-6">3 years ago</span>

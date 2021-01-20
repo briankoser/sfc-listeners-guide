@@ -17,27 +17,11 @@ hosts:
   - Matt
 
 notable_moments: 
+rating:
+  ben: 3.5
+  matt: 4.5
 
 last_listen: 2019-12-13
 recommendation: yes
 recommendation_reason: Quick review of a Marvel movie Ben liked
 ---
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊½</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊½</td>
-    </tr>
-  </tbody>
-</table>

@@ -16,6 +16,9 @@ hosts:
   - Matt
 
 notable_moments:
+rating:
+  ben: 5
+  matt: 4.5
 
 last_listen: 2019-09-27
 recommendation: yes
@@ -27,25 +30,6 @@ archivist_note: Another interesting interpretation I've read is that <a href="ht
   <q class="matt">So Ben and I saw Noah just two short days ago.</q>
   <q class="ben">We survived somehow. God didn't zap us with lightning on our way out of the theatre.</q>
 </div>
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊½</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
 
 Someone called Ben an atheist and a fake Christian for liking the movie.
 

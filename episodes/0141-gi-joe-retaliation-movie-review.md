@@ -17,33 +17,15 @@ hosts:
   - Koby
 
 notable_moments:
+rating:
+  matt: 2.5
+  daniel: 2
+  koby: "3.8"
 
 last_listen: 2018-11-09
 recommendation: no
 recommendation_reason: Daniel fills in aptly for Ben.
 ---
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Daniel</td>
-      <td>🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Koby</td>
-      <td>3.8</td>
-    </tr>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊½</td>
-    </tr>
-  </tbody>
-</table>
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'16:50'} %}

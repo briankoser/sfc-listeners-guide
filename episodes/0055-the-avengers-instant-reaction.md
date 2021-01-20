@@ -17,6 +17,10 @@ hosts:
   - Koby
 
 notable_moments:
+rating:
+  matt: 4
+  daniel: "4.89"
+  koby: "4.75"
 
 last_listen: 2018-05-14
 recommendation: no
@@ -27,28 +31,5 @@ recommendation_reason: Brief look at <i class="work-title">The Avengers</i>
 Matt's favorite number is 5.
 
 Koby decided it would be his favorite movie before he saw it.
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Koby</td>
-      <td>4.89</td>
-    </tr>
-    <tr>
-      <td>Daniel</td>
-      <td>4.75</td>
-    </tr>
-  </tbody>
-</table>
 
 Koby can't give it 5 stars because there's no such thing as a perfect movie.

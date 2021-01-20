@@ -17,31 +17,12 @@ hosts:
   - Koby
 
 notable_moments:
+rating:
+  matt: 4
+  daniel: "4.75"
+  koby: 2
 
 last_listen: 2018-06-15
 recommendation: no
 recommendation_reason: Less a review than a discussion of the book series and religious tie-ins. Definitely check it out if you're interested in John Carter.
 ---
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>Koby</td>
-        <td>🟊🟊</td>
-      </tr>
-      <tr>
-        <td>Matt</td>
-        <td>🟊🟊🟊🟊</td>
-      </tr>
-      <tr>
-        <td>Daniel</td>
-        <td>4.75</td>
-      </tr>
-  </tbody>
-</table>

@@ -16,29 +16,14 @@ hosts:
   - Daniel
 
 notable_moments:
+rating:
+  matt: 4
+  daniel: 1.5
 
 last_listen: 2018-10-19
 recommendation: no
-recommendation_reason: Daniel makes Ben proud and gives a scathing review to a Disney movie.
+recommendation_reason: Daniel makes Ben proud by giving a scathing review to a Disney movie.
 ---
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Daniel</td>
-      <td>🟊½</td>
-    </tr>
-  </tbody>
-</table>
 
 Disney could only use material from the books, not things MGM copyrighted: the ruby slippers, the Wicked Witch's chin mole, the shade of green of the Wicked Witch's skin, and the swirl pattern that starts the yellow brick road. {% arc %}Copyrights have jumped the shark{% endarc %}
 

@@ -42,11 +42,11 @@ recommendation_reason: The Green Screen guys join Matt to review
   <tbody>
     <tr>
       <td>Koby</td>
-      <td>🟊🟊🟊🟊.7</td>
+      <td>4.7</td>
     </tr>
     <tr>
       <td>BJ</td>
-      <td>🟊🟊🟊🟊.6</td>
+      <td>4.6</td>
     </tr>
     <tr>
       <td>Matt</td>

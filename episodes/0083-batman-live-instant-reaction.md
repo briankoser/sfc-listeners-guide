@@ -19,6 +19,10 @@ hosts:
 notable_moments:
 celebrity_invites: 
   - Anyone involved with Batman Live
+rating:
+  ben: 0.5
+  matt: 1
+  daniel: "-2"
 
 last_listen: 2018-06-18
 recommendation: yes
@@ -45,29 +49,6 @@ archivist_note: Batman Live only toured for two more months after this recording
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-83-batman-live-instant-reaction/#t=15:28">15:28</a>
   <q class="daniel">This is literally a show that's based on taking Sesame Street Live, putting Batman in it, and then putting dead corpses to make it adult-friendly.</q>
 </div>
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>Matt</td>
-        <td>🟊</td>
-      </tr>
-      <tr>
-        <td>Daniel</td>
-        <td>-2</td>
-      </tr>
-      <tr>
-        <td>Ben</td>
-        <td>½</td>
-      </tr>
-  </tbody>
-</table>
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-83-batman-live-instant-reaction/#t=17:23">17:23</a>

@@ -140,19 +140,3 @@ What the Frodo:
     </div>
   </div>
 </div>
-
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊½</td>
-    </tr>
-  </tbody>
-</table>

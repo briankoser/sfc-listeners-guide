@@ -124,6 +124,7 @@ module.exports = function(eleventyConfig) {
   addPairedShortcode('arc');
   addShortcode('quote');
   eleventyConfig.addShortcode('quotes', (url, quote) => shortcodes['quotes'](url, quote, metadata));
+  addShortcode('rating');
   addShortcode('ratings');
   addShortcode('stars');
   addShortcode('timeLink');

@@ -22,6 +22,9 @@ prophecy:
     prediction: "Hugh Jackman will be Wolverine two more times after <i class='work-title'>X-Men: Days of Future Past</i>"
     veracity: true
     comments: "Cameo in <i class='work-title'>X-Men: Apocalypse</i> and then <i class='work-title'>Logan</i> is his final appearance"
+rating:
+  ben: 5
+  matt: 3
 
 last_listen: 2019-10-08
 recommendation: yes
@@ -53,22 +56,3 @@ Ben has watched the movie at least 10 times.
 - Tom vs Noah
 
 {% timeLink {url:podcast_file_url, t:'51:11'} %}  Sci-Fi Christian Story Time: Ben saved Casey's life
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
