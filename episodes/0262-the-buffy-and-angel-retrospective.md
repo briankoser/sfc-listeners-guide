@@ -19,24 +19,22 @@ notable_moments:
 
 last_listen: 2019-12-01
 recommendation: no
-recommendation_reason: Listen if you're a fan of the show, otherwise skip.
+recommendation_reason: Listen if you're a fan of the shows, otherwise skip.
 
 buffyverse:
-  - host: Matt
-    ratings: 
-      - title: Buffy
-        score: 4
-      - title: Angel
-        score: 3
-  - host: Ben
-    ratings: 
-      - title: Buffy
-        score: 4.5
-      - title: Angel
-        score: 3.5
+  matt:
+    - title: Buffy
+      score: 4
+    - title: Angel
+      score: 3
+  ben:
+    - title: Buffy
+      score: 4.5
+    - title: Angel
+      score: 3.5
 ---
 
-{% ratingsList buffyverse %}
+{% ratings buffyverse %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'3:40'} %}

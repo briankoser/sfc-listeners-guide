@@ -3,7 +3,7 @@ module.exports = function(eleventyConfig) {
       libraries
   */
   const { DateTime } = require("luxon");
-
+  const Nunjucks = require("nunjucks");
 
 
   /*
@@ -67,6 +67,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("color", shortName => (metadata.hosts.find(host => host.shortName === shortName).color || {}).name);
   eleventyConfig.addFilter("displayLength", displayLength);
   eleventyConfig.addFilter("fullName", shortName => metadata.hosts.find(host => host.shortName === shortName).fullName);
+  eleventyConfig.addFilter("lower", s => (s === null || s === undefined || s === false) ? '' : s.toString().toLowerCase());
   eleventyConfig.addFilter("monthDayDate", dateObj => DateTime.fromJSDate(dateObj).toFormat("MMMM d"));
   eleventyConfig.addFilter("readableDate", dateObj => DateTime.fromJSDate(dateObj).toISODate());
   eleventyConfig.addFilter('seriesFilter', (episodes, series) => series ? episodes.filter(e => e.data.series == series) : episodes);
@@ -124,9 +125,23 @@ module.exports = function(eleventyConfig) {
   addShortcode('quote');
   eleventyConfig.addShortcode('quotes', (url, quote) => shortcodes['quotes'](url, quote, metadata));
   addShortcode('rating');
-  addShortcode('ratingsList');
+  addShortcode('ratings');
   addShortcode('timeLink');
   addShortcode('work');
+
+
+
+  /*
+      template languages
+  */
+  let nunjucksEnvironment = new Nunjucks.Environment(
+    new Nunjucks.FileSystemLoader("_includes"), 
+    { 
+      lstripBlocks: true,
+      trimBlocks: true
+    }
+  );
+  eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 
 
   
