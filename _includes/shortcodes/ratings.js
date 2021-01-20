@@ -1,3 +1,5 @@
+const starsShortcode = require('./stars.js');
+
 module.exports = function (ratings) {
     const hostList = (host, ratings) => {
         if (!ratings)
@@ -20,22 +22,8 @@ module.exports = function (ratings) {
 </div>`;
     };
 
-    const ratingToStars = (rating) => {
-        if (typeof(rating) === 'string') {
-            return rating;
-        }
-        
-        if (rating === 0) {
-            return '0';
-        }
-
-        let ratingFloor = Math.floor(rating);
-        let stars = ''.padStart(ratingFloor * 2, '🟊'); // "* 2" because 🟊 is two bytes
-        return `${stars}${rating === ratingFloor ? '' : '½'}`;
-    };
-
     const ratingRows = ratings => 
-        ratings.map(rating => `<tr><td>${rating.title}</td><td title="${rating.score}">${ratingToStars(rating.score)}</td></tr>`).join('');
+        ratings.map(rating => `<tr><td>${rating.title}</td><td title="${rating.score}">${starsShortcode(rating.score)}</td></tr>`).join('');
 
     const ratingTitle = ratings => ratings.title ? `<h2 class="has-text-centered">${ratings.title}</h2>` : '';
 

@@ -23,6 +23,9 @@ firsts:
   - Ben De Bono countdown music
 future_episodes:
   - Primer review
+rating:
+  ben: 5
+  matt: 4
 
 last_listen: 2018-08-04
 recommendation: no
@@ -52,8 +55,6 @@ Matt and Ben will send a link to the video for a $5 donation. {% arc %}<a href="
 Matt is afraid listeners will think this episode is a time loop and skip it.
 
 {% timeLink {url:podcast_file_url, t:'16:50'} %} The hosts voted three to one to not give time loops new episode numbers, but Matt continues to do it anyway. {% arc %}Thanks, Matt!{% endarc %}
-
-{% rating 'Looper', 5, 4 %}
 
 {% timeLink {url:podcast_file_url, t:'16:50'} %} The Ben De Bono countdown music
 

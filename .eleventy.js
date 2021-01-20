@@ -124,27 +124,12 @@ module.exports = function(eleventyConfig) {
   addPairedShortcode('arc');
   addShortcode('quote');
   eleventyConfig.addShortcode('quotes', (url, quote) => shortcodes['quotes'](url, quote, metadata));
-  addShortcode('rating');
   addShortcode('ratings');
+  addShortcode('stars');
   addShortcode('timeLink');
   addShortcode('work');
 
 
-
-  /*
-      template languages
-  */
-  let nunjucksEnvironment = new Nunjucks.Environment(
-    new Nunjucks.FileSystemLoader("_includes"), 
-    { 
-      lstripBlocks: true,
-      trimBlocks: true
-    }
-  );
-  eleventyConfig.setLibrary("njk", nunjucksEnvironment);
-
-
-  
 
   /*
       collections

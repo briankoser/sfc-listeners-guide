@@ -34,24 +34,28 @@ visit:
 sponsors:
   - 
 
-notable_moments:
-odd_opening: 
+celebrity_invites: 
+  - 
+celebrity_promo: 
 firsts:
   - 
+future_episodes:
+  - 
+notable_moments:
+odd_opening: 
 prophecy:
   - host:
     prediction: 
     veracity: true
     comments: 
-future_episodes:
-  - 
-take_that:
-  - 
-celebrity_invites: 
-  - 
-celebrity_promo: 
+rating:
+  ben: 
+  matt: 
 spoilers: 
   - <i class="work-title"></i>
+take_that:
+  - 
+
 quotes:
   - time: "0:00"
     context: 

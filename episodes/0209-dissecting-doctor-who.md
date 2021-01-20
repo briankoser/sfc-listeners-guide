@@ -16,14 +16,15 @@ hosts:
   - Matt
 
 notable_moments:
+rating:
+  ben: 4
+  matt: 3
 
 last_listen: 2019-07-24
 recommendation: no
 recommendation_reason: Fun listen if you've watched Doctor Who series 1-7, otherwise you can skip. 
 ---
 Matt caught up on the show by the 50th Anniversary {% arc %}Crazy. But he did give the Matt Anderson Guarantee.{% endarc %}
-
-{% rating 'Doctor Who', 4, 3 %}
 
 Ben's main criticism is that it's not a deep show; there's nothing that sticks with you.
 

@@ -20,12 +20,14 @@ guests:
   - Micah Stelter
 
 notable_moments:
+rating:
+  ben: 2
+  matt: 3
 
 last_listen: 2018-12-06
 recommendation: no
 recommendation_reason: Good review, but in general, reviews of mediocre movies aren't super interesting.
 ---
-{% rating 'Iron Man 3', 2, 3 %}
 
 Ben was offended by how the film handles Tony Stark's PTSD: it's introduced as a serious topic and then becomes a joke for the rest of the movie. 
 

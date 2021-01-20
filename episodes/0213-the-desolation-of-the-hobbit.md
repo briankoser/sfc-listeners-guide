@@ -17,13 +17,14 @@ hosts:
   - Matt
 
 notable_moments:
+rating:
+  ben: 2
+  matt: 3
 
 last_listen: 2019-08-01
 recommendation: yes
 recommendation_reason: The SFC turns on Peter Jackson
 ---
-
-{% rating 'The Hobbit: The Desolation of Smaug', 2, 3 %}
 
 Tolkien shouldn't be a self-indulgent action movie.
 

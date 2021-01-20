@@ -18,6 +18,9 @@ hosts:
 
 notable_moments:
 odd_opening: Ben chants "monkeys" over the opening theme.
+rating:
+  ben: 5
+  matt: 2.5
 take_that:
   - Kubrick
 
@@ -26,7 +29,6 @@ recommendation: yes
 recommendation_reason: The first step on the road to becoming Ben's favorite movie.
 archivist_note: Watched the movie for the first time for this episode. Reading along with the live blog was a good choice.
 ---
-{% rating '2001: A Space Odyssey', 5, 2.5 %}
 
 [2001: A Space Odyssey Live Blog](http://thescifichristian.com/2013/05/2001-a-space-odyssey-live-blog/)
 

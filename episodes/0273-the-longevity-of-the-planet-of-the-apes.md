@@ -19,14 +19,15 @@ hosts:
   - Matt
 
 notable_moments: 
+rating:
+  ben: 2.5
+  matt: 3
 
 last_listen: 2019-12-09
 recommendation: no
 recommendation_reason: Apparently this is not a great franchise
 ---
 A review of {% work "Dawn of the Planet of the Apes" %}
-
-{% rating 'Dawn of the Planet of the Apes', 2.5, 3 %}
 
 <div class="top-five">
   <h2 class="has-text-centered">Planet of the Apes franchise</h2>
