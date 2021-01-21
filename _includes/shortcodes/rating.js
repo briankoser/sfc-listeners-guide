@@ -12,6 +12,7 @@ module.exports = function (rating) {
         ${formatRating('Matt', rating.matt)}
         ${formatRating('Daniel', rating.daniel)}
         ${formatRating('Koby', rating.koby)}
+        ${rating.guests.map(r => formatRating(r.guest, r.score)).join('\n')}
     </tbody>
 </table>`;
 }

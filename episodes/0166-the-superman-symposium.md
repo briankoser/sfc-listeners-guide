@@ -19,6 +19,12 @@ guests:
   - Rick Lee James
 
 notable_moments:
+manOfSteelRating:
+  ben: 4
+  matt: 4
+  guests:
+    - guest: Rick Lee James
+      score: 4
 
 last_listen: 2019-01-07
 recommendation: no
@@ -30,28 +36,7 @@ The first version of Superman was a bald villain.
 
 Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic book character adaptation.
 
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Rick</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
+{% rating manOfSteelRating %}
 
 <div class="top-five">
   <h2 class="has-text-centered">8 Cons about {% work "Man of Steel" %}</h2>

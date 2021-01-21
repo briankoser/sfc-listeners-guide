@@ -20,6 +20,13 @@ guests:
   - Ben Avery
 
 notable_moments:
+intoDarknessRating:
+  ben: 5
+  matt: 5
+  koby: "4.7"
+  guests:
+    - guest: Rich Kumarcy
+      score: 5
 
 last_listen: 2018-12-31
 recommendation: no
@@ -40,29 +47,4 @@ Why should Star Trek matter to Christians?
 
 
 # Star Trek Into Darkness review
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Koby</td>
-      <td>4.7</td>
-    </tr>
-    <tr>
-      <td>Rich Kumarcy</td>
-      <td>🟊🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
+{% rating intoDarknessRating %}

@@ -17,29 +17,16 @@ guests:
   - Ben Avery
 
 notable_moments:
+rating:
+  matt: 4
+  guests:
+    - guest: Ben Avery
+      score: 2.5
 
 last_listen: 2018-11-28
 recommendation: no
 recommendation_reason: Not sure that anyone remembers this movie.
 ---
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ben Avery</td>
-      <td>🟊🟊½</td>
-    </tr>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
 
 Matt had a good experience. Ben Avery liked the soundtrack.
 

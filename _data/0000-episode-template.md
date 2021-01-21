@@ -51,6 +51,9 @@ prophecy:
 rating:
   ben: 
   matt: 
+  guests:
+    - guest: 
+      score: 
 spoilers: 
   - <i class="work-title"></i>
 take_that:

@@ -27,32 +27,16 @@ prophecy:
   - host: Matt
     prediction: Black Widow will get her own movie
     veracity: true
+rating:
+  matt: 4
+  koby: "4.7"
+  guests:
+    - guest: BJ
+      score: "4.6"
 
 last_listen: 2019-10-01
 recommendation: no
 recommendation_reason: The Green Screen guys join Matt to review 
 ---
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Koby</td>
-      <td>4.7</td>
-    </tr>
-    <tr>
-      <td>BJ</td>
-      <td>4.6</td>
-    </tr>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
 
 {% timeLink {url:podcast_file_url, t:'6:28'} %} Matt bleeps BJ saying "badass"

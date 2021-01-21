@@ -33,6 +33,17 @@ prophecy:
     comments: "<i class='work-title'>Alien: Covenant</i> in 2017"
 future_episodes:
   - Aliens created humanity
+rating:
+  ben: 4
+  matt: 4
+  koby: "🟊 or 🟊🟊"
+  guests:
+    - guest: Steve
+      score: 1
+    - guest: Jayce
+      score: 1
+    - guest: Ben Avery
+      score: 4
 take_that:
   - Koby
 
@@ -50,41 +61,6 @@ Part 1 is {% episodeLink 226 %}
   <q class="ben">Yeah, he has a few of them.</q>
   <q class="koby">What does that even mean?</q>
 </div>
-
-<table class="table is-striped rating">
-  <thead>
-    <tr>
-      <th>Host</th>
-      <th>☆☆☆☆☆</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Steve</td>
-      <td>🟊</td>
-    </tr>
-    <tr>
-      <td>Jayce</td>
-      <td>🟊</td>
-    </tr>
-    <tr>
-      <td>Ben Avery</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Ben</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Koby</td>
-      <td>🟊 or 🟊🟊</td>
-    </tr>
-    <tr>
-      <td>Matt</td>
-      <td>🟊🟊🟊🟊</td>
-    </tr>
-  </tbody>
-</table>
 
 In the original script, Jesus was an emissary of the aliens. Steve says it's blasphemous to write fiction like that. {% arc %}I actually like it (when not done tackily) and don't see the harm. I would think engagement, even from a position of unbelief, is preferable to ignorance and ignoring of Christianity.{% endarc %}
 
