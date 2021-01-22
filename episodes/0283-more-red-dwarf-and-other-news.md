@@ -20,6 +20,13 @@ hosts:
 notable_moments: 
 firsts:
   - Crossover Nexus promo song
+quotes:
+  - time: "9:00"
+    context: Ben explains to Matt what the title "Edge of Tomorrow" means 
+  - time: "13:51"
+    context: Jack Chick discussion
+  - time: "27:55"
+    context: Adam made a squirrels theme song
 
 last_listen: 2019-12-17
 recommendation: no
@@ -30,15 +37,15 @@ What the Frodo: DC has commissioned two competing Aquaman scripts
 
 What the Frodo: Warner Bros. is renaming {% work "Edge of Tomorrow" %} to {% work "Live Die Repeat: Edge of Tomorrow" %} months after release 
 
-{% timeLink {url:podcast_file_url, t:'9:00'} %} Ben explains to Matt what the title "Edge of Tomorrow" means 
+{% quotes podcast_file_url, quotes[0] %}
 
-{% timeLink {url:podcast_file_url, t:'13:51'} %} Jack Chick discussion
+{% quotes podcast_file_url, quotes[1] %}
 
 
 
 # Feedback
 
-{% timeLink {url:podcast_file_url, t:'27:55'} %} Adam made a squirrels theme song
+{% quotes podcast_file_url, quotes[2] %}
 
 
 

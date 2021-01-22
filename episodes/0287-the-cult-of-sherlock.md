@@ -17,7 +17,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+quotes:
+  - time: "1:03:19"
+    context: Ben doesn't think superheroes are a modern mythology because their stories are fandom instead of classical storytelling.
 
 last_listen: 2019-12-24
 recommendation: essential
@@ -84,7 +86,7 @@ Steven Moffatt hasn't followed the liturgy of Doctor Who.
 
 Fandom operates differently than classical storytelling 
 
-{% timeLink {url:podcast_file_url, t:'1:03:19'} %} Ben doesn't think superheroes are a modern mythology because their stories are fandom instead of classical storytelling.
+{% quotes podcast_file_url, quotes[0] %}
 
 The motto "it doesn't matter what you read, just read" is incorrect.
 

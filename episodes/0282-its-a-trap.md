@@ -23,6 +23,8 @@ quotes:
   - time: "36:40"
     lines:
       - m: I loved when Disney took over Marvel, and what could go wrong with Disney taking over Star Wars.
+  - time: "53:37"
+    context: Matt and Ben re-enact Han Solo getting frozen in carbonite
 
 last_listen: 2019-12-17
 recommendation: yes
@@ -34,4 +36,4 @@ The CGI became complex rather than the characters and plot.
 
 {% quotes podcast_file_url, quotes[0] %}
 
-{% timeLink {url:podcast_file_url, t:'53:37'} %} Matt and Ben re-enact Han Solo getting frozen in carbonite
+{% quotes podcast_file_url, quotes[1] %}

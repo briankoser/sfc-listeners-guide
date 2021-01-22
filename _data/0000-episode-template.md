@@ -97,7 +97,6 @@ archivist_note:
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}
 {% ratings ratings.myRating %}
-{% timeLink {url:podcast_file_url, t:'1:23'} %}
 {% work "title" %}
 
 

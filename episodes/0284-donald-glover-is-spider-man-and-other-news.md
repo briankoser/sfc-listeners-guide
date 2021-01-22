@@ -23,6 +23,8 @@ quotes:
     context: Michael from Australia emailed about seeing Star Wars in the theater
     lines:
       - b: So this is quite an email, because it's from an Australian perspective. ...I realized how dumb that statement was when it was about halfway out of my mouth.
+  - time: "18:21"
+    context: Ben tries to read an email from Mike in Australia with the voice of an old time prospector
 
 last_listen: 2019-12-18
 recommendation: no
@@ -42,6 +44,6 @@ Matt wants all new original music for transitions.
 
 {% quotes podcast_file_url, quotes[0] %}
 
-{% timeLink {url:podcast_file_url, t:'18:21'} %} Ben tries to read an email from Mike in Australia with the voice of an old time prospector
+{% quotes podcast_file_url, quotes[1] %}
 
 Mike thinks Star Wars dropped in quality when {% work "Return of the Jedi" %} started taking inspiration from the first two films rather than myth.
