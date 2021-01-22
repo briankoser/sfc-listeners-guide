@@ -5,8 +5,8 @@ tags:
   - crossover-nexus-promo
   - stan-lee-quote-of-the-week
 
-title: 272
-number: Six Seasons and a Movie and Other News
+title: Six Seasons and a Movie and Other News
+number: 272
 season: 4
 podcast_url: http://thescifichristian.com/2014/07/episode-272-six-seasons-and-a-movie-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0272.mp3
