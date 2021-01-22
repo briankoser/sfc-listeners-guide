@@ -18,7 +18,7 @@ title:
 number: 
 season: 5
 podcast_url: 
-podcast_file_url: http://thescifichristian.com/sfc/sfc0200.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0300.mp3
 date: 
 length: '00:12:34'
 category: 
@@ -30,9 +30,6 @@ guests:
   - 
 time_loop_backward: 
   - number: 
-visit: 
-sponsors:
-  - 
 
 celebrity_invites: 
   - 
@@ -48,17 +45,6 @@ prophecy:
     prediction: 
     veracity: true
     comments: 
-rating:
-  ben: 
-  matt: 
-  guests:
-    - guest: 
-      score: 
-spoilers: 
-  - <i class="work-title"></i>
-take_that:
-  - 
-
 quotes:
   - time: "0:00"
     context: 
@@ -67,6 +53,12 @@ quotes:
       - b: 
       - guest: 
         quote: 
+rating:
+  ben: 
+  matt: 
+  guests:
+    - guest: 
+      score: 
 ratings:
   myRating:
     title: 
@@ -76,6 +68,14 @@ ratings:
     matt: 
       - title: 
         score: 
+spoilers: 
+  - <i class="work-title"></i>
+sponsors:
+  - 
+take_that:
+  - 
+visit: 
+
 
 last_listen: 
 recommendation: essential yes no
