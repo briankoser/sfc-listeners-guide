@@ -1,0 +1,9 @@
+---
+permalink: /_redirects
+---
+
+{%- for episode in collections.episodes -%}
+    {%- if episode.data.category !== 'spinoff' -%}
+        /{{episode.data.number}}    {{episode.url}}
+    {%- endif %}
+{% endfor %}
