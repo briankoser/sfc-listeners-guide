@@ -20,6 +20,46 @@ time_loop_backward:
   - number: 34
 
 celebrity_promo: Damon Lindelof and Carlton Cuse
+countdowns:
+  episodes:
+    title: Top 16 LOST episodes (not in any particular order, except for 1-3)
+    matt: 
+      list:
+        - The Constant 
+        - Through the Looking Glass Parts 1 and 2 
+        - Walkabout 
+      extra:
+        - Exodus Parts 1 and 2
+        - Lockdown
+        - Live Together, Die Alone
+        - The Brig
+        - The Man Behind the Curtain
+        - The Shape of Things to Come
+        - Jughead
+        - LeFleur
+        - LA X
+        - What They Died For
+        - The End
+        - The Other 48 Days
+        - The Pilot
+  seasons:
+    title: Top 6 LOST Seasons
+    ben:
+      list:
+        - Season 6
+        - Season 2
+        - Season 5
+        - Season 3
+        - Season 1
+        - Season 4
+    matt: 
+      list:
+        - Season 6
+        - Season 4
+        - Season 5
+        - Season 2
+        - Season 3
+        - Season 1
 quotes:
   - time: "16:27"
     context: After the pilot, Matt thought the monster on the island was a dinosaur, which did not interest him.
@@ -99,35 +139,8 @@ The {% work "LOST" %} mystery that drives Matt crazy is Christian Shephard appea
 {% quotes podcast_file_url, quotes[4] %}
 
 Matt thinks "whatever happened, happened" is the best rule for time travel stories.
-       
-<div class="top-five">
-  <h2 class="has-text-centered">Top 16 {% work "LOST" %} episodes (not in any particular order, except for 1-3)</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The Constant
-        <li>Through the Looking Glass Parts 1 and 2
-        <li>Walkabout
-      </ol>
-      <ul class="runner-ups">
-        <li>Exodus Parts 1 and 2
-        <li>Lockdown
-        <li>Live Together, Die Alone
-        <li>The Brig
-        <li>The Man Behind the Curtain
-        <li>The Shape of Things to Come
-        <li>Jughead
-        <li>LeFleur
-        <li>LA X
-        <li>What They Died For
-        <li>The End
-        <li>The Other 48 Days
-        <li>The Pilot
-      </ul>
-    </div>
-  </div>
-</div>
+
+{% countdown countdowns.episodes %}
 
 # LOST Part 2
 Is art subjective? 
@@ -142,33 +155,7 @@ Is torture ever OK?
       
 {% quotes podcast_file_url, quotes[8] %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 6 {% work "LOST" %} Seasons</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Season 6
-        <li>Season 4
-        <li>Season 5
-        <li>Season 2
-        <li>Season 3
-        <li>Season 1
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Season 6
-        <li>Season 2
-        <li>Season 5
-        <li>Season 3
-        <li>Season 1
-        <li>Season 4
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.seasons %}
 
 # Closing
 

@@ -34,6 +34,25 @@ time_loop_backward:
 celebrity_invites: 
   - 
 celebrity_promo: 
+countdowns:
+  myCountdown:
+    title: 
+    ben:
+      list:
+        - 
+      extra:
+        - 
+    matt: 
+      list:
+        - 
+      extra:
+        - 
+    guests:
+      - name: 
+        list:
+          - 
+        extra:
+          - 
 firsts:
   - 
 future_episodes:
@@ -93,6 +112,7 @@ archivist_note:
 
 
 {% arc %}note{% endarc %}
+{% countdown countdowns.myCountdown %}
 {% episodeLink 100 %}
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}
@@ -110,35 +130,3 @@ What the Frodo:
 
 
 [bleep]
-
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 </h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>
-        <li>
-        <li>
-        <li>
-        <li>
-      </ol>
-      <ul class="runner-ups">
-        <li>
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>
-        <li>
-        <li>
-        <li>
-        <li>
-      </ol>
-      <ul class="runner-ups">
-        <li>
-      </ul>
-    </div>
-  </div>
-</div>

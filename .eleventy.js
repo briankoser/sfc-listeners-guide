@@ -122,6 +122,7 @@ module.exports = function(eleventyConfig) {
   let addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (data) => shortcodes[name](data, metadata));
 
   addPairedShortcode('arc');
+  addShortcode('countdown');
   addShortcode('quote');
   eleventyConfig.addShortcode('quotes', (url, quote) => shortcodes['quotes'](url, quote, metadata));
   addShortcode('rating');
