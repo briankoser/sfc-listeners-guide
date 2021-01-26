@@ -100,6 +100,8 @@ stan_lee:
   - 
 take_that:
   - 
+take_that_science:
+  - 
 visit: 
 
 
@@ -127,9 +129,9 @@ archivist_note:
 {% quotes podcast_file_url, quotes[0] %}
 {% ratings ratings.myRating %}
 {% stanLee stan_lee[0] %}
+{% takeThatScience take_that_science[0] %}
 {% work "title" %}
 
 {% timeLink {url:podcast_file_url, t:'1:23'} %}  Sci-Fi Christian Story Time: 
-Take That, Science: 
 What the Frodo: 
 [bleep]

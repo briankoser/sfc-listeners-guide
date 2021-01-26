@@ -18,10 +18,12 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
 rating:
   ben: 2.5
   matt: 3
+take_that_science:
+  - Oliver Stone almost directed a Planet of the Apes reboot movie starting Arnold Schwarzenegger
+  - Three gorillas at the Como Zoo in St. Paul, MN escaped their cage the day before Planet of the Apes was released in theatres
 
 last_listen: 2019-12-09
 recommendation: no
@@ -72,8 +74,8 @@ Alternate episode title: Ape-braham Lincoln
 
 Matt plays a clip from {% episodeLink 30 %} where Ben agrees to watch the entire franchise with him.
 
-Take That, Science: Oliver Stone almost directed a Planet of the Apes reboot movie starting Arnold Schwarzenegger 
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: three gorillas at the Como Zoo in St. Paul, MN escaped their cage the day before Planet of the Apes was released in theatres
+{% takeThatScience take_that_science[1] %}
 
 {% timeLink {url:podcast_file_url, t:'56:08'} %} Sci-Fi Christian Story Time: Another De Bono Vacation

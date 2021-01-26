@@ -130,6 +130,7 @@ module.exports = function(eleventyConfig) {
   addShortcode('ratings');
   addShortcode('stanLee');
   addShortcode('stars');
+  addShortcode('takeThatScience');
   addShortcode('timeLink');
   addShortcode('work');
   eleventyConfig.addShortcode('quotes', (url, quote) => shortcodes['quotes'](url, quote, metadata));
