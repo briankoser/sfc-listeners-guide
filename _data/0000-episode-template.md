@@ -96,6 +96,8 @@ spoilers:
   - <i class="work-title"></i>
 sponsors:
   - 
+stan_lee:
+  - 
 take_that:
   - 
 visit: 
@@ -124,10 +126,10 @@ archivist_note:
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}
 {% ratings ratings.myRating %}
+{% stanLee stan_lee[0] %}
 {% work "title" %}
 
 {% timeLink {url:podcast_file_url, t:'1:23'} %}  Sci-Fi Christian Story Time: 
-Stan Lee Quote of the Week: 
 Take That, Science: 
 What the Frodo: 
 [bleep]

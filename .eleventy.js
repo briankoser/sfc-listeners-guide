@@ -128,6 +128,7 @@ module.exports = function(eleventyConfig) {
   addShortcode('quote');
   addShortcode('rating');
   addShortcode('ratings');
+  addShortcode('stanLee');
   addShortcode('stars');
   addShortcode('timeLink');
   addShortcode('work');

@@ -17,7 +17,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+stan_lee:
+  - Stan hates movie credits
 
 last_listen: 2019-12-06
 recommendation: no
@@ -29,7 +30,7 @@ Chris Carter said he wants {% work "The After" %} to run for 99 episodes because
 
 Dan Simmons is releasing {% work "The Fifth Heart" %}, a Sherlock Holmes novel. Ben has a [preparation guide](http://thescifichristian.com/2014/07/the-fifth-heart-preparation-guide/).
 
-Stan Lee Quote of the Week: Stan hates movie credits
+{% stanLee stan_lee[0] %}
 
 Matt went to see the new Transformers movie with Ryan Strelau.
 
