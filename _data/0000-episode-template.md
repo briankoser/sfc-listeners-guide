@@ -56,6 +56,8 @@ countdowns:
           - 
         extra:
           - 
+encouraging_signs:
+  - 
 firsts:
   - 
 future_episodes:
@@ -116,6 +118,7 @@ archivist_note:
 
 {% arc %}note{% endarc %}
 {% benIsRight ben_is_right[0] %}
+{% encouragingSigns encouraging_signs[0] %}
 {% countdown countdowns.myCountdown %}
 {% episodeLink 100 %}
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
@@ -123,8 +126,6 @@ archivist_note:
 {% ratings ratings.myRating %}
 {% work "title" %}
 
-
-Encouraging Signs: 
 {% timeLink {url:podcast_file_url, t:'1:23'} %}  Sci-Fi Christian Story Time: 
 Stan Lee Quote of the Week: 
 Take That, Science: 

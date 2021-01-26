@@ -18,7 +18,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+encouraging_signs:
+  - JJ Abrams is using practical effects for Star Wars Episode VIII
 future_episodes:
   - Alan Moore
 
@@ -27,7 +28,7 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 
-Encouraging Signs: JJ Abrams is using practical effects for Star Wars Episode VIII
+{% encouragingSigns encouraging_signs[0] %}
 
 What the Frodo: insiders claim that Robert Pattinson is the frontrunner to be Indiana Jones in the reboot
 

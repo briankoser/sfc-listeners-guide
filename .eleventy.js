@@ -124,6 +124,7 @@ module.exports = function(eleventyConfig) {
   addPairedShortcode('arc');
   addShortcode('benIsRight');
   addShortcode('countdown');
+  addShortcode('encouragingSigns');
   addShortcode('quote');
   addShortcode('rating');
   addShortcode('ratings');
