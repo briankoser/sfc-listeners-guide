@@ -19,6 +19,8 @@ hosts:
   - Ben
   - Matt
 
+ben_is_right:
+  - Cinematic universes are a bad idea
 prophecy:
   - host: Ben
     prediction: Not a chance Spider-Man is in Avengers 3
@@ -60,7 +62,7 @@ What the Frodo: A Tetris movie is in production
 
 What the Frodo: Sony is planning a Robin Hood cinematic universe in the style of Fast & Furious 
 
-Ben is Right: Cinematic universes are a bad idea 
+{% benIsRight ben_is_right[0] %}
 
 {% work "Twin Peaks" %} is coming back.
 

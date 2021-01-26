@@ -9,6 +9,7 @@ tags:
   - encouraging-signs
   - matt-is-right
   - questions-for-matt
+  - remote
   - sci-fi-christian-story-time
   - stan-lee-quote-of-the-week
   - take-that-science
@@ -31,6 +32,8 @@ guests:
 time_loop_backward: 
   - number: 
 
+ben_is_right:
+  - 
 celebrity_invites: 
   - 
 celebrity_promo: 
@@ -112,6 +115,7 @@ archivist_note:
 
 
 {% arc %}note{% endarc %}
+{% benIsRight ben_is_right[0] %}
 {% countdown countdowns.myCountdown %}
 {% episodeLink 100 %}
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
@@ -120,13 +124,9 @@ archivist_note:
 {% work "title" %}
 
 
-Ben is Right: 
 Encouraging Signs: 
 {% timeLink {url:podcast_file_url, t:'1:23'} %}  Sci-Fi Christian Story Time: 
 Stan Lee Quote of the Week: 
 Take That, Science: 
 What the Frodo: 
-
-
-
 [bleep]

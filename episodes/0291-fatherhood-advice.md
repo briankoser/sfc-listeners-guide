@@ -19,7 +19,7 @@ hosts:
 
 quotes:
   - time: "16:00"
-    context: Ben's kids are banned from playing \"Mrs. Neederlander\"
+    context: Ben's kids are banned from playing "Mrs. Neederlander"
   - time: "30:46"
     context: Ben outlines why Matt should start drinking
   - time: "38:54"
