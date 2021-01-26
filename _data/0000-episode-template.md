@@ -62,7 +62,6 @@ firsts:
   - 
 future_episodes:
   - 
-notable_moments:
 odd_opening: 
 prophecy:
   - host:
@@ -98,6 +97,9 @@ sponsors:
   - 
 stan_lee:
   - 
+story_time:
+  - time: "0:00"
+    title: 
 take_that:
   - 
 take_that_science:
@@ -106,21 +108,11 @@ visit:
 what_the_frodo:
   - 
 
-
 last_listen: 
 recommendation: essential yes no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
 archivist_note: 
 ---
-# Opening
-
-
-# Main Topic
-
-
-# Closing
-
-
 
 {% arc %}note{% endarc %}
 {% benIsRight ben_is_right[0] %}
@@ -131,9 +123,8 @@ archivist_note:
 {% quotes podcast_file_url, quotes[0] %}
 {% ratings ratings.myRating %}
 {% stanLee stan_lee[0] %}
+{% storyTime podcast_file_url, story_time[0] %}
 {% takeThatScience take_that_science[0] %}
 {% work "title" %}
 {% wtf what_the_frodo[0] %}
-
-{% timeLink {url:podcast_file_url, t:'1:23'} %}  Sci-Fi Christian Story Time: 
 [bleep]

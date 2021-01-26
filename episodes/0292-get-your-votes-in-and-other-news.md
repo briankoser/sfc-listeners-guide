@@ -44,6 +44,9 @@ quotes:
     context: They float the idea that Fox could let a different Spider-Man appear in Avengers 3
   - time: "43:42"
     context: Ben tells Matt why the Angry Birds are angry.
+story_time:
+  - time: "1:02:50"
+    title: Matt dressed like the ring bearer
 what_the_frodo:
   - The Rock will replace The Hoff in the new Baywatch movie.
   - A Tetris movie is in production
@@ -84,6 +87,6 @@ The Angry Birds movie is going forward.
 
 {% quotes podcast_file_url, quotes[3] %}
 
-{% timeLink {url:podcast_file_url, t:'1:02:50'} %}  Sci-Fi Christian Story Time: Matt dressed like the ring bearer
+{% storyTime podcast_file_url, story_time[0] %}
 
 They decide to record an episode of the Green Screen Podcast and send it to Koby and BJ.
