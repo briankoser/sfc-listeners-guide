@@ -44,13 +44,17 @@ quotes:
     context: They float the idea that Fox could let a different Spider-Man appear in Avengers 3
   - time: "43:42"
     context: Ben tells Matt why the Angry Birds are angry.
+what_the_frodo:
+  - The Rock will replace The Hoff in the new Baywatch movie.
+  - A Tetris movie is in production
+  - Sony is planning a Robin Hood cinematic universe in the style of Fast & Furious 
 
 last_listen: 2020-01-15
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 
-What the Frodo: The Rock will replace The Hoff in the new Baywatch movie.
+{% wtf what_the_frodo[0] %}
 
 {% quotes podcast_file_url, quotes[0] %}
 
@@ -58,9 +62,9 @@ What the Frodo: The Rock will replace The Hoff in the new Baywatch movie.
 
 {% arc %}[He saw it.](https://boxd.it/v6SpP){% endarc %}
 
-What the Frodo: A Tetris movie is in production 
+{% wtf what_the_frodo[1] %}
 
-What the Frodo: Sony is planning a Robin Hood cinematic universe in the style of Fast & Furious 
+{% wtf what_the_frodo[2] %}
 
 {% benIsRight ben_is_right[0] %}
 

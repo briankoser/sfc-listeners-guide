@@ -103,6 +103,8 @@ take_that:
 take_that_science:
   - 
 visit: 
+what_the_frodo:
+  - 
 
 
 last_listen: 
@@ -131,7 +133,7 @@ archivist_note:
 {% stanLee stan_lee[0] %}
 {% takeThatScience take_that_science[0] %}
 {% work "title" %}
+{% wtf what_the_frodo[0] %}
 
 {% timeLink {url:podcast_file_url, t:'1:23'} %}  Sci-Fi Christian Story Time: 
-What the Frodo: 
 [bleep]
