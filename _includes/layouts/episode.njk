@@ -212,8 +212,7 @@ layout: baseNavBar
             <ul>
                 <li>
                     <a href="{{ previous.url }}">
-                        {% set icon_name = 'arrow-left' %}
-                        {% include "macros/icon.njk" %}
+                        {% icon "arrow-left" %}
                         &nbsp;
                         № {{ previous.number }} {{ previous.title }}
                     </a>
@@ -230,8 +229,7 @@ layout: baseNavBar
                     <a href="{{ next.url }}">
                         № {{ next.number }} {{ next.title }}
                         &nbsp;
-                        {% set icon_name = 'arrow-right' %}
-                        {% include "macros/icon.njk" %}
+                        {% icon "arrow-right" %}
                     </a>
                 </li>
             </ul>

@@ -6,8 +6,7 @@
     <a href="{{ first.url }}">
         <div class="columns">
             <div class="card-footer-item-icon column is-2">
-                {% set icon_name = 'rewind' %}
-                {% include "macros/icon.njk" %}
+                {% icon "rewind" %}
             </div>
             <div class="column is-10">
                 № {{first.number}} {{first.title}}
@@ -23,8 +22,7 @@
                 № {{last.number}} {{last.title}}
             </div>
             <div class="card-footer-item-icon column is-2">
-                {% set icon_name = 'fast-forward' %}
-                {% include "macros/icon.njk" %}
+                {% icon "fast-forward" %}
             </div>
         </div>
     </a>

@@ -40,14 +40,12 @@
     </div>
     <footer class="card-footer">
         <a href="{{ episode.url }}" class="card-footer-item">
-            {% set icon_name = 'book-open' %}
-            {% include "macros/icon.njk" %}
+            {% icon "book-open" %}
             &nbsp;
             Guide
         </a>
         <a href="{{ episode.data.podcast_url }}" class="card-footer-item">
-            {% set icon_name = 'radio' %}
-            {% include "macros/icon.njk" %}
+            {% icon "radio" %}
             &nbsp;
             Listen
         </a>
