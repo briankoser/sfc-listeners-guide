@@ -128,6 +128,7 @@ module.exports = function(eleventyConfig) {
   addShortcode('countdown');
   addShortcode('encouragingSigns');
   addShortcode('icon');
+  addShortcode('prophecy');
   addShortcode('quote');
   addShortcode('rating');
   addShortcode('ratings');

@@ -46,8 +46,9 @@ pageTitle: Prophecy
 {% if episode.data.prophecy %}
 <h2 class="is-size-3">№ {{episode.data.number}} {{episode.data.title}}</h2>
 
-{% set prophecySet = episode.data.prophecy %}
-{% include "macros/prophecy.njk" %}
+{% for p in episode.data.prophecy %}
+    {% prophecy p %}
+{% endfor %}
 
 {% endif %}
 

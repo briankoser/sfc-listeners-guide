@@ -155,8 +155,9 @@ layout: baseNavBar
         {% if prophecy %}
         <h2>Prophecy</h2>
         <div class="prophecies">
-            {% set prophecySet = prophecy %}
-            {% include "macros/prophecy.njk" %}
+            {% for p in prophecy %}
+                {% prophecy p %}
+            {% endfor %}
         </div>
         {% endif %}
 
