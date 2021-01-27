@@ -10,20 +10,11 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 <h1 class="title">Colors</h1>
 <div class="livedemo">
     <div class="swatches clearfix">
-        {% set swatch = {'background': 'var(--color-primary)', 'color': 'var(--color-black)', 'text': 'SFC Blue - Nav bar, Links, Archivist'} %}
-        {% include "macros/swatch.njk" %}
-
-        {% set swatch = {'background': 'var(--color-blue)', 'text': 'Ben Blue'} %}
-        {% include "macros/swatch.njk" %}
-
-        {% set swatch = {'background': 'var(--color-orange)', 'text': 'Matt Orange'} %}
-        {% include "macros/swatch.njk" %}
-
-        {% set swatch = {'background': 'var(--color-purple)', 'text': 'Daniel Purple'} %}
-        {% include "macros/swatch.njk" %}
-
-        {% set swatch = {'background': 'var(--color-pink)', 'color': 'var(--color-black)', 'text': 'Koby Pink'} %}
-        {% include "macros/swatch.njk" %}
+        {% swatch 'light', 'primary', 'SFC Blue - Nav bar, Links, Archivist' %}
+        {% swatch 'dark', 'blue', 'Ben Blue' %}
+        {% swatch 'dark', 'orange', 'Matt Orange' %}
+        {% swatch 'dark', 'purple', 'Daniel Purple' %}
+        {% swatch 'light', 'pink', 'Koby Pink' %}
     </div>
         
     <div class="swatches clearfix">
@@ -33,17 +24,10 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
     </div>
 
     <div class="swatches clearfix">
-        {% set swatch = {'background': 'var(--color-black)', 'text': 'Black - Site Background, Text, Prophecies'} %}
-        {% include "macros/swatch.njk" %}
-
-        {% set swatch = {'background': 'var(--color-white)', 'color': 'var(--color-black)', 'text': 'White - Text, Prophecies, Reviews'} %}
-        {% include "macros/swatch.njk" %}
-
-        {% set swatch = {'background': 'var(--color-dark-grey)', 'text': 'Dark Grey - Reviews'} %}
-        {% include "macros/swatch.njk" %}
-
-        {% set swatch = {'background': 'var(--color-medium-grey)', 'text': 'Medium Grey - Quotes, Prophecies'} %}
-        {% include "macros/swatch.njk" %}
+        {% swatch 'dark', 'black', 'Black - Site Background, Text, Prophecies' %}
+        {% swatch 'light', 'white', 'White - Text, Prophecies, Reviews' %}
+        {% swatch 'dark', 'dark-grey', 'Dark Grey - Reviews' %}
+        {% swatch 'dark', 'medium-grey', 'Medium Grey - Quotes, Prophecies' %}
     </div>
 </div>
 
