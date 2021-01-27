@@ -205,4 +205,37 @@ layout: baseNavBar
     {% endif %}
 </div>
 
-{% include "components/episodeNav.njk" %}
+<nav class="columns episode-nav">
+    <div class="column">
+        <div class="tabs is-fullwidth">
+            {% if previous %}
+            <ul>
+                <li>
+                    <a href="{{ previous.url }}">
+                        {% set icon_name = 'arrow-left' %}
+                        {% include "macros/icon.njk" %}
+                        &nbsp;
+                        № {{ previous.number }} {{ previous.title }}
+                    </a>
+                </li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+    <div class="column">
+        <div class="tabs is-fullwidth">
+            {% if next %}
+            <ul>
+                <li>
+                    <a href="{{ next.url }}">
+                        № {{ next.number }} {{ next.title }}
+                        &nbsp;
+                        {% set icon_name = 'arrow-right' %}
+                        {% include "macros/icon.njk" %}
+                    </a>
+                </li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</nav>

@@ -5,6 +5,36 @@ pageTitle: Categories
 <div class="columns">
     <div class="column is-half">
         {% set categorylist = collections.episodes[0].data.stats.categories %}
-        {% include "components/categoryList.njk" %}
+        <div class="category-list">
+            {% for category in categorylist %}
+            <div class="card category-card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        <a href="/categories/{{category.slug}}/">{{ category.name }}</a>
+                    </p>
+                </header>
+                <div class="columns card-content content">
+                    <div class="column is-two-thirds">
+                        {{ category.description | safe }}
+                    </div>
+                    <div class="column is-one-third">
+                        <div class="level category-stats">
+                            <div class="level-item has-text-centered">
+                                <div>
+                                    <p class="heading">Episodes</p>
+                                    <p class="title">{{category.count}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="card-footer">
+                    {% set first = category.first %}
+                    {% set last = category.last %}
+                    {% include "macros/rangeCardFooterItems.njk" %}
+                </footer>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>

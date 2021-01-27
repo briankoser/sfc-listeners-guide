@@ -79,14 +79,6 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 
 
 
-<h2 class="title is-2">Timestamps</h2>
-<div class="livedemo">
-    {% set timestamp = {'url': 'http://thescifichristian.com/2018/03/episode-639-a-brand-new-website-and-other-news', 'time': '1:23:45'} %}
-    {% include "macros/timestamp.njk" %}
-</div>
-
-
-
 <div class="livedemo">
     <h1 class="title is-1">Icons</h1>
     {% set icon_name = 'rewind' %}
@@ -260,145 +252,11 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 
 
 
-<h1 class="title is-1">Cards</h1>
-<h2 class="title is-2">Episodes</h2>
-
-<div class="columns episode-list">
-<div class="column is-half">
-
-{% set episode = {
-    "url": "/episodes/0013-dissecting-dr-horrible/", 
-    "data": { 
-        "date": "2011-04-19", 
-        "number": 13, 
-        "podcast_url": "http://thescifichristian.com/2011/04/episode-113-dissecting-dr-horrible/", 
-        "recommendation": "yes", 
-        "recommendation_reason": "Good listen if you've seen Dr. Horrible.",
-        "title": "Dissecting Dr. Horrible" 
-    }
-} %} 
-{% include "macros/episodeCard.njk" %}
-
-{% set episode = {
-    "url": "/episodes/0001-pilot/", 
-    "data": { 
-        "date": "2011-01-11", 
-        "number": 1, 
-        "podcast_url": "http://thescifichristian.com/2011/01/episode-101-world-premiere/", 
-        "recommendation": "yes-timeloop", 
-        "recommendation_reason": "Lays a good foundation for where Ben and Matt were with their interests when they started the show.", 
-        "time_loop_forward": {
-            "number": 149, 
-            "url": "/episodes/0149-episode-placeholder-link/"
-        }, 
-        "title": "Pilot" 
-    }
-} %}
-{% include "macros/episodeCard.njk" %}
-
-{% set episode = {
-    "url": "/episodes/0009-attack-of-the-clones/", 
-    "data": { 
-        "date": "2011-03-24", 
-        "number": 9, 
-        "podcast_url": "http://thescifichristian.com/2011/03/episode-109-attack-of-the-clones/", 
-        "recommendation": "essential", 
-        "recommendation_reason": "\"The Dark Knight on Trial\" was the first iconic episode; \"Attack of the Clones\" is the first great episode. Prepare to have your mind expanded and your beliefs challenged.", 
-        "title": "Attack of the Clones" 
-    }
-} %} 
-{% include "macros/episodeCard.njk" %}
-
-{% set episode = {
-    "url": "/episodes/0003-the-dark-knight-on-trial/", 
-    "data": { 
-        "date": "2011-01-24", 
-        "number": 3, 
-        "podcast_url": "http://thescifichristian.com/2011/01/episode-103-the-dark-knight-on-trial/", 
-        "recommendation": "essential-timeloop", 
-        "recommendation_reason": "The first iconic episode and a classic example of the intersection between pop culture and Christianity that the SFC does so well.", 
-        "time_loop_forward": {
-            "number": 77, 
-            "url": "/episodes/0077-episode-placeholder-link/"
-        }, 
-        "title": "The Dark Knight On Trial" 
-    }
-} %} 
-{% include "macros/episodeCard.njk" %}
-
-{% set episode = {
-    "url": "/episodes/0004-tolkien-vs-lewis-the-ultimate-smackdown/", 
-    "data": { 
-        "date": "2011-01-29", 
-        "number": 4, 
-        "podcast_url": "http://thescifichristian.com/2011/01/episode-104-tolkien-vs-lewis-the-ultimate-smackdown/", 
-        "recommendation": "no", 
-        "recommendation_reason": "Instead watch the highlights on the <a href='https://www.youtube.com/watch?v=qGIErCzLlfI'>YouTube video</a>. Ben at least later regrets doing this show in a debate format; both hosts were more focused on winning than on discussion. This doesn't make it a bad episode, but it could have been better.", 
-        "title": "Tolkien Vs. Lewis – The Ultimate Smackdown" 
-    }
-} %} 
-{% include "macros/episodeCard.njk" %}
-
-</div>
-</div>
-
-<div class="columns season-list">
-<div class="column is-half">
-
-<h2 class="title is-2">Seasons</h2>
-{% set season = {
-    "data": {
-        "count": 39,
-        "first": {"url": "/episodes/0001-pilot/", "number": 1, "title": "Pilot"},
-        "last": {"url": "/episodes/0039-the-end-of-the-year-listener-appreciation-jubilee/", "number": 39, "title": "The End of the Year Listener Appreciation Jubilee"},
-        "seasonNumber": 1,
-        "tagline": "Young Ben and Young Matt",
-        "timeloops": 0,
-        "title": "The Beginning",
-        "year": 2011
-    }
-} %}
-{% include "macros/seasonCard.njk" %}
-
-</div>
-</div>
-
-
-
 <h1 class="title is-1">Categories</h1>
 <div class="livedemo">
     {% for category in ['Countdown', 'Feedback', 'Literature', 'Main Topic', 'News', 'Philosophy', 'Review', 'Theology', 'Special', 'Clip Show'] %}
     <p class="title category-{{category | slug}}">{{category}}</p>
     {% endfor %}
-</div>
-
-
-
-<h1 class="title is-1">Reviews</h1>
-<div class="livedemo">
-    {% set review = {
-        "title": "Indiana Jones",
-        "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt", "rating": "No"}]
-    } %} 
-    {% include "macros/review.njk" %}
-
-    {% set review = {
-        "title": "Obscure Film",
-        "hosts": [{"name": "Ben", "rating": "Yes"}, {"name": "Matt"}]
-    } %} 
-    {% include "macros/review.njk" %}
-
-    {% set review = {
-        "title": "Jeremy Thatcher: Dragon Hatcher",
-        "hosts": [{"name": "Ben", "rating": "Uninterested"}, {"name": "Matt", "rating": "Interested"}]
-    } %} 
-    {% include "macros/review.njk" %}
-
-    {% set review = {
-        "title": "Everything Good In This World",
-        "hosts": [{"name": "Koby", "rating": "Don't Know"}]
-    } %} 
-    {% include "macros/review.njk" %}
 </div>
 
 </div>

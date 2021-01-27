@@ -30,7 +30,7 @@ rating:
 
 last_listen: 2020-01-16
 recommendation: no
-recommendation_reason: 
+recommendation_reason: You can guess what Ben thought of a Marvel movie
 ---
 
 {% quotes podcast_file_url, quotes[0] %}

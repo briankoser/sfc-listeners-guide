@@ -1,7 +1,29 @@
 ---
 layout: layouts/base.njk
 ---
-{% include "components/nav.njk" %}
+<header class="navbar is-primary">
+    <h1 class="navbar-brand">
+        <span class="navbar-item">
+            <img src="/img/two-logo-flat.png">
+        </span>
+        <a class="is-hidden-mobile navbar-item is-size-3" href="/">
+            {{ metadata.title }}
+        </a>
+        <a class="is-hidden-tablet navbar-item is-size-3" href="/">
+            {{ metadata.title_abbreviation }}
+        </a>
+        <div class="navbar-burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </h1>
+    <nav id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+            {% include "components/navLinks.njk" %}
+        </div>
+    </nav>
+</header>
 
 <main class="container">
     {{ layoutContent | safe }}
