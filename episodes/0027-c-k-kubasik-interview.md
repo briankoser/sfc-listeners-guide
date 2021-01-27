@@ -18,7 +18,7 @@ hosts:
 guests:
   - C. K. Kubasik
 time_loop_forward: 
-  - number: 46
+  number: 46
 
 notable_moments:
 firsts: 

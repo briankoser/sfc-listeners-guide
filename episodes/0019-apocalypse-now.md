@@ -17,7 +17,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward: 
-  - number: 193
+  number: 193
 
 notable_moments:
 firsts: 

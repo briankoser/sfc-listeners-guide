@@ -17,7 +17,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward: 
-  - number: 87
+  number: 87
 
 firsts: 
   - Hiatus (Ben went to Israel) 

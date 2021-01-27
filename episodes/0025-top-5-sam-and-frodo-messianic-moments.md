@@ -17,7 +17,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward: 
-  - number: 497
+  number: 497
 
 notable_moments:
 odd_opening: Matt imitates Ben

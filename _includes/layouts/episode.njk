@@ -53,13 +53,7 @@ layout: baseNavBar
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Time Looped as</p>
-                    <p class="title">
-                        {% if time_loop_forward.url %}
-                        <a href="{{time_loop_forward.url}}" class="link-subtle">№ {{time_loop_forward.number}}</a>
-                        {% else %}
-                        № {{time_loop_forward.number}}
-                        {% endif %}
-                    </p>
+                    <p class="title">{% episodeShortLink time_loop_forward.number %}</p>
                 </div>
             </div>
             {% endif %}
@@ -70,8 +64,8 @@ layout: baseNavBar
                     <p class="heading">Time Loop of</p>
                     <p class="title">
                         {% for episode in time_loop_backward %}
-                        <a href="{{episode.url}}" class="link-subtle">№ {{episode.number}}</a>
-                        {%- if not loop.last %}, {% endif %}
+                            {% episodeShortLink episode.number %}
+                            {%- if not loop.last %}, {% endif %}
                         {% endfor %}
                     </p>
                 </div>
@@ -93,7 +87,7 @@ layout: baseNavBar
                 <div>
                     <h2 class="title">Listen</h2>
                     <h3 class="subtitle is-5">
-                        to Time Loop (<a href="{{time_loop_forward.url}}" class="link-obvious">№ {{time_loop_forward.number}}</a>)
+                        to Time Loop ({% episodeShortLink time_loop_forward.number %})
                     </h3>
                 </div>
             {% elif recommendation == 'essential' %}
@@ -102,7 +96,7 @@ layout: baseNavBar
                 <div>
                     <h2 class="title">Essential</h2> 
                     <h3 class="subtitle is-5">
-                        Listen to Time Loop (<a href="{{time_loop_forward.url}}" class="link-obvious">№ {{time_loop_forward.number}}</a>)
+                        Listen to Time Loop ({% episodeShortLink time_loop_forward.number %})
                     </h3>
                 </div>
             {% elif recommendation == 'no' %}

@@ -1,6 +1,6 @@
 module.exports = function(nunjucksEngine) {
     return new function() {
-        this.tags = ["episodeLink"];
+        this.tags = ["episodeShortLink"];
 
         this.parse = function(parser, nodes, lexer) {
             var tok = parser.nextToken();
@@ -17,11 +17,10 @@ module.exports = function(nunjucksEngine) {
 
             if (episodes.length) {
                 let {url} = episodes[0];
-                let title = episodes[0].data.title;
-                link = new nunjucksEngine.runtime.SafeString(`<a href="${url}">№ ${number} ${title}</a>`);
+                link = new nunjucksEngine.runtime.SafeString(`<a href="${url}" class="link-subtle">№ ${number}</a>`);
             }
             else {
-                console.log(`Episode ${number} not found in \`episodeLink\` Nunjucks tag.`);
+                console.log(`Episode ${number} not found in \`episodeShortLink\` Nunjucks tag.`);
                 link = `№ ${number}`;
             }
 

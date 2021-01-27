@@ -17,7 +17,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward:
-  - number: 269
+  number: 269
 
 firsts: 
   - Stan Lee Quote of the Week (unofficial, not yet a named segment)

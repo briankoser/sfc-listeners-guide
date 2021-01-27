@@ -16,7 +16,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward: 
-  - number: 379
+  number: 379
 
 firsts: 
   - <i class="work-title">The Dark Knight Rises</i> countdown

@@ -92,8 +92,10 @@ module.exports = function(eleventyConfig) {
   /*
       nunjucks tags (can't be shortcodes because they access collections)
   */
-  const episodeLinkNunjucksTag = require('./_includes/nunjucksTags/episodeLink.js');
-  eleventyConfig.addNunjucksTag("episodeLink", episodeLinkNunjucksTag);
+  const episodeLink = require('./_includes/nunjucksTags/episodeLink.js');
+  eleventyConfig.addNunjucksTag("episodeLink", episodeLink);
+  const episodeShortLink = require('./_includes/nunjucksTags/episodeShortLink.js');
+  eleventyConfig.addNunjucksTag("episodeShortLink", episodeShortLink);
 
 
 
@@ -173,22 +175,6 @@ module.exports = function(eleventyConfig) {
 
       // next episode
       episodes[i].data.next = buildLinkModel(episodes[i + 1]);
-
-      // time loop forward url
-      let timeLoopForward = episodes[i].data.time_loop_forward;
-      if (timeLoopForward) {
-        let futureEpisode = episodes.filter(e => e.data.number === timeLoopForward.number && e.data.category !== 'Spinoff')[0];
-        timeLoopForward.url = (futureEpisode || {}).url;
-      }
-
-      // time loop backward url
-      let timeLoopBackward = episodes[i].data.time_loop_backward;
-      if (timeLoopBackward) {
-        for (let i = 0; i < timeLoopBackward.length; i++) {
-          let pastEpisode = episodes.filter(e => e.data.number === timeLoopBackward[i].number && e.data.category !== 'Spinoff')[0];
-          timeLoopBackward[i].url = (pastEpisode || {}).url;
-        } 
-      }
 
       // combine `hosts` and `guests` into `appearances`
       let hosts = episodes[i].data.hosts;

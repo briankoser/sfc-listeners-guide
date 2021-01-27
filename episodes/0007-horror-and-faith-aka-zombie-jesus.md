@@ -17,7 +17,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward: 
-  - number: 227
+  number: 227
 
 firsts: 
   - Voicemail feedback (Rick in Wisconsin)

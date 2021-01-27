@@ -120,6 +120,7 @@ archivist_note:
 {% encouragingSigns encouraging_signs[0] %}
 {% countdown countdowns.myCountdown %}
 {% episodeLink 100 %}
+{% episodeShortLink 100 %}
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}
 {% ratings ratings.myRating %}

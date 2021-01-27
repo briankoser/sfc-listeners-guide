@@ -18,7 +18,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward: 
-  - number: 369
+  number: 369
 
 notable_moments:
 prophecy:

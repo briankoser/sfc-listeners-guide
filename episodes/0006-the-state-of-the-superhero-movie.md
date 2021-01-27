@@ -17,7 +17,7 @@ hosts:
   - Ben
   - Matt
 time_loop_forward: 
-  - number: 258
+  number: 258
 
 firsts: 
   - Discussion of postmodernism
