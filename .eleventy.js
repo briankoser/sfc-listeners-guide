@@ -129,6 +129,7 @@ module.exports = function(eleventyConfig) {
   addShortcode('encouragingSigns');
   addShortcode('icon');
   addShortcode('prophecy');
+  addShortcode('questionsForMatt');
   addShortcode('quote');
   addShortcode('rating');
   addShortcode('ratings');

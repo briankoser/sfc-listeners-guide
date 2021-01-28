@@ -69,6 +69,8 @@ prophecy:
     prediction: 
     veracity: true
     comments: 
+questions_for_matt:
+  - 
 quotes:
   - time: "0:00"
     context: 
@@ -121,6 +123,7 @@ archivist_note:
 {% countdown countdowns.myCountdown %}
 {% episodeLink 100 %}
 {% episodeShortLink 100 %}
+{% questionsForMatt questions_for_matt %}
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}
 {% ratings ratings.myRating %}
