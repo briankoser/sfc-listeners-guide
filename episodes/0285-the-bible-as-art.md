@@ -12,7 +12,7 @@ podcast_url: http://thescifichristian.com/2014/08/episode-285-the-bible-as-art/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0285.mp3
 date: 2014-08-29
 length: '01:01:40'
-category: 
+category: literature
 hosts:
   - Ben
   - Matt

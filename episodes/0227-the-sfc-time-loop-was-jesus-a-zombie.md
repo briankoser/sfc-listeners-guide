@@ -15,8 +15,6 @@ series: supernatural-creatures
 hosts:
   - Ben
   - Matt
-guests:
-  - 
 time_loop_backward: 
   - number: 7
 

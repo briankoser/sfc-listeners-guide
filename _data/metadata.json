@@ -42,6 +42,8 @@
     ],
     "series": [
       {"slug": "advice", "name": "Advice", "description": "Life advice from Ben, Matt, and the listeners. Usually happens when Matt has a major life event."},
+      {"slug": "alternate-readings", "name": "Alternate Readings", "description": "Interpretations that the author didn't intend"},
+      {"slug": "authors-countdown-2014", "name": "Top 100 Sci-Fi Authors Countdown (2014)", "description": "The greatest of all hiatus countdowns."},
       {"slug": "bad-but-great", "name": "Bad but Great", "description": "The quality spectrum is a loop, and these episodes have gone so far towards the bad side they've looped around and are great."},
       {"slug": "batman-month", "name": "Batman Month", "description": "All the episodes in the month around The Dark Knight Rises premiere were on Batman."},
       {"slug": "bible-trivia-podcast", "name": "The Bible Trivia Podcast", "description": "Spinoff podcast: Matt and Ben discuss bite-sized Bible topics."},
@@ -68,6 +70,7 @@
       {"slug": "reinis", "name": "Reinis", "description": "The authors and friends of the SFC discuss their books and hang out"},
       {"slug": "self-celebration", "name": "Annual Self-Celebration Extravaganzas", "description": "The hosts review their year"},
       {"slug": "sermons", "name": "Sermons", "description": "Sermons from Protestant Ben and Mike Poteet."},
+      {"slug": "star-wars", "name": "Star Wars", "description": "Discussion of the Star Wars films"},
       {"slug": "state-of-the-superhero-movie", "name": "State of the Superhero Movie", "description": "Superhero movie eras, trends, and predictions. The story of two men who loved superhero movies; one remained in love while the other's love turned to hate."},
       {"slug": "strangers-and-aliens", "name": "Strangers and Aliens", "description": "Crossovers with the Strangers and Aliens podcast."},
       {"slug": "story", "name": "Story Theory", "description": "The philosophy of stories"},
@@ -75,7 +78,7 @@
       {"slug": "supernatural-creatures", "name": "Supernatural Creatures", "description": "A favorite choice of topic early in the show."},
       {"slug": "things-to-experience", "name": "Things to Experience", "description": "23 things to experience in the next 100 episodes"},
       {"slug": "tolkien", "name": "Tolkien", "description": "Discussion about the books and films set in Middle Earth."},
-      {"slug": "tv-show-countdown-2013", "name": "Top 50 TV Show Countdown (2013)", "description": "The 2013 hiatus countdown"},
+      {"slug": "tv-show-countdown-2013", "name": "Top 50 Sci-Fi TV Show Countdown (2013)", "description": "The 2013 hiatus countdown"},
       {"slug": "virtual-ethics", "name": "Virtual Ethics", "description": "Ethics in a virtual reality."}
     ],
     "tags": [
@@ -83,12 +86,15 @@
       {"slug": "ben-is-right", "name": "Ben Is Right"},
       {"slug": "ben-was-wrong", "name": "Ben Was Wrong"},
       {"slug": "bleeping", "name": "Bleeping 'Profanity'"},
+      {"slug": "crossover-nexus-promo", "name": "Crossover Nexus Promo"},
       {"slug": "dark-knight-news", "name": "Dark Knight News"},
       {"slug": "encouraging-signs", "name": "Encouraging Signs"},
+      {"slug": "fake-news-of-the-day", "name": "Fake News of the Day"},
       {"slug": "matt-is-right", "name": "Matt is Right"},
-      {"slug": "odd-openings", "name": "Odd Openings"},
+      {"slug": "odd-opening", "name": "Odd Openings"},
       {"slug": "sci-fi-christian-story-time", "name": "Sci-Fi Christian Story Time"},
       {"slug": "stan-lee-quote-of-the-week", "name": "Stan Lee Quote of the Week"},
+      {"slug": "surprising-thoughts", "name": "Surprising Thoughts"},
       {"slug": "take-that-science", "name": "Take That, Science!"},
       {"slug": "video-game-news", "name": "Video Game News"},
       {"slug": "what-the-frodo", "name": "What the Frodo?"}

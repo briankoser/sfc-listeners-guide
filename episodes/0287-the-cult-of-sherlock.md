@@ -12,7 +12,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0287.mp3
 date: 2014-09-18
 length: '01:10:11'
 category: literature
-series: alternate-reading
+series: alternate-readings
 hosts:
   - Ben
   - Matt

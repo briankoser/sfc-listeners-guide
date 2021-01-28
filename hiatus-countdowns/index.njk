@@ -1,6 +1,13 @@
 ---
 layout: baseNavBar
 pageTitle: Hiatus Countdowns
+countdowns:
+  - title: Top 50 TV Shows
+    slug: tv-shows-2013
+    season: 3
+    year: 2013
+    series: tv-show-countdown-2013
+    range: 179-185
 ---
 <h1 class="is-size-2">Hiatus Countdowns</h1>
 <table class="table is-striped">
@@ -8,14 +15,16 @@ pageTitle: Hiatus Countdowns
     <tr>
         <th>Countdown</th>
         <th>Year</th>
-        <th>Episodes</th>
+        <th>Episode List</th>
     </tr>
     </thead>
     <tbody>
+    {% for countdown in countdowns %}
     <tr>
-        <th><a href="/hiatus-countdowns/tv-shows-2013">Top 50 TV Shows</a></th>
-        <th><a href="/seasons/3">2013</a></th>
-        <th><a href="/series/tv-show-countdown-2013/">Episodes</a></th>
+        <td><a href="/hiatus-countdowns/{{countdown.slug}}">{{countdown.title}}</a></td>
+        <td><a href="/seasons/{{countdown.season}}">{{countdown.year}}</a></td>
+        <td><a href="/series/{{countdown.series}}/">{{countdown.range}}</a></td>
     </tr>
+    {% endfor %}
     </tbody>
 </table>

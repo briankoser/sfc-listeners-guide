@@ -2,7 +2,7 @@
 layout: page
 pageTitle: Hosts
 ---
-All stats are through episode № {{ collections.episodes.length }}
+All stats are through episode № {{ collections.episodes.length }}. The {{collections.episodes[0].data.stats.episodes.spinoffs}} spinoff episodes are included.
 
 <div class="hosts columns">
 <div class="column is-two-thirds">
