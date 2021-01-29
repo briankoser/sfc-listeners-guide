@@ -12,8 +12,7 @@ module.exports = function (quote) {
         }
     };
 
-    let guestQuote = (guest, quote) => 
-        quote == undefined ? '' : `<q data-name="${guest}">${quote}</q>`;
+    let guestQuote = (guest, quote) => quote == undefined ? '' : `<q data-name="${guest}">${quote}</q>`;
 
     return `
         ${hostQuote('Ben', quote.b, quote.benAction)}
@@ -21,5 +20,5 @@ module.exports = function (quote) {
         ${hostQuote('Daniel', quote.daniel, quote.danielAction)}
         ${hostQuote('Koby', quote.koby, quote.kobyAction)}
         ${guestQuote(quote.guest, quote.quote)}
-    `;
+    `.trim();
 }
