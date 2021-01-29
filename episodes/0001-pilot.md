@@ -18,7 +18,59 @@ hosts:
 time_loop_forward: 
   number: 149
 
-notable_moments:
+countdowns:
+  current:
+    title: Top 5 Current Sci-Fi Favorites
+    ben:
+      list:
+        - Wheel of Time
+        - Fringe
+        - Graphic novels (Fables, Sandman) 
+        - Ink
+        - Joss Whedon shows
+    matt: 
+      list:
+        - Scott Pilgrim
+        - The Avengers
+        - Star Trek
+        - Fringe
+        - Joss Whedon shows
+  allTime:
+    title: Top 5 All-Time Sci-Fi Things
+    ben:
+      list:
+        - Battlestar Galactica
+        - Dune
+        - Lord of Light
+        - Firefly
+        - Star Wars
+      extra:
+        - X-Files
+        - Fahrenheit 451
+        - LOST
+        - Aliens
+        - Inverted World
+        - Matrix
+        - Dark City
+    matt: 
+      list:
+        - Star Wars
+        - Circle Trilogy
+        - Spider-Man and Batman
+        - Back to the Future
+        - LOST
+      extra:
+        - The Chronicles of Narnia
+        - Planet of the Apes
+        - Sliders
+        - X-Files
+        - Battlestar Galactica
+        - Quantum Leap
+        - The Matrix
+        - Alias
+        - Groundhog Day
+        - Daybreak
+        - X-Men
 firsts: 
   - The Life Report mentioned
   - The LOST Report mentioned
@@ -26,17 +78,16 @@ firsts:
   - "\"It's a Trap!\" sound effect"
   - Host says Groundhog's Day (Matt)
   - Top 5 list
-prophecy:
-  - host: Ben
-    prediction: "<i class='work-title'>V</i> just started its second season and will get cancelled soon"
-    veracity: true
-    comments: ABC cancelled it 4 months later
 future_episodes: 
   - <i class="work-title">Twilight</i>
   - Clones
   - Time travel and God
   - Are parallel universes compatible with Christianity?
-celebrity_invites: 
+prophecy:
+  - host: Ben
+    prediction: "<i class='work-title'>V</i> just started its second season and will get cancelled soon"
+    veracity: true
+    comments: ABC cancelled it 4 months later
 
 last_listen: 2018-01-22
 recommendation: yes-timeloop
@@ -118,31 +169,7 @@ Ben likes superhero movies and TV shows.
 
 # Main Topic
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Current Sci-Fi Favorites</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Wheel of Time
-        <li>Fringe
-        <li>Graphic novels (Fables, Sandman) 
-        <li>Ink
-        <li>Joss Whedon shows
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Scott Pilgrim
-        <li>The Avengers
-        <li>Star Trek
-        <li>Fringe
-        <li>Joss Whedon shows
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.current %}
 
 Ben did only sci-fi, no fantasy
 
@@ -246,53 +273,7 @@ Ben calls it "The Crappening".
 
 {% work "Firefly" %} is Ben's favorite show of all time.
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 All-Time Sci-Fi Things</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Battlestar Galactica
-        <li>Dune
-        <li>Lord of Light
-        <li>Firefly
-        <li>Star Wars
-      </ol>
-      <ul>
-        <li>X-Files 
-        <li>Fahrenheit 451
-        <li>LOST
-        <li>Aliens
-        <li>Inverted World
-        <li>Matrix
-        <li>Dark City
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Star Wars
-        <li>Circle Trilogy
-        <li>Spider-Man and Batman
-        <li>Back to the Future
-        <li>LOST
-      </ol>
-      <ul>
-        <li>The Chronicles of Narnia
-        <li>Planet of the Apes
-        <li>Sliders
-        <li>X-Files
-        <li>Battlestar Galactica
-        <li>Quantum Leap
-        <li>The Matrix
-        <li>Alias
-        <li>Groundhog Day
-        <li>Daybreak
-        <li>X-Men
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.allTime %}
 
 <div class="review clearfix is-size-4">
   <header>Batman: Year 1</header>
