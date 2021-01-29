@@ -124,10 +124,12 @@ module.exports = function(eleventyConfig) {
   let addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (data) => shortcodes[name](data, metadata));
 
   addPairedShortcode('arc');
+  addShortcode('ben');
   addShortcode('benIsRight');
   addShortcode('countdown');
   addShortcode('encouragingSigns');
   addShortcode('icon');
+  addShortcode('matt');
   addShortcode('prophecy');
   addShortcode('questionsForMatt');
   addShortcode('quote');

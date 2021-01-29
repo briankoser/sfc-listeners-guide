@@ -191,6 +191,14 @@ q::before {
     content: attr(data-name) ': ' open-quote;
 }
 
+span[data-name][data-action] {
+    content: attr(data-name) ': ' attr(data-action);
+}
+
+span[data-name]::before {
+    content: attr(data-name) ': ';
+}
+
 q {
     background-color: var(--color-medium-grey);
     border-radius: 10px;

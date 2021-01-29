@@ -75,8 +75,10 @@ quotes:
   - time: "0:00"
     context: 
     lines:
-      - m: 
       - b: 
+      - m: 
+      - benAction: "**"
+      - mattAction: "**"
       - guest: 
         quote: 
 rating:
@@ -119,10 +121,12 @@ archivist_note:
 
 {% arc %}note{% endarc %}
 {% benIsRight ben_is_right[0] %}
+{% ben "" %}
 {% encouragingSigns encouraging_signs[0] %}
 {% countdown countdowns.myCountdown %}
 {% episodeLink 100 %}
 {% episodeShortLink 100 %}
+{% matt "" %}
 {% questionsForMatt questions_for_matt %}
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}

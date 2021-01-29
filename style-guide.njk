@@ -1,6 +1,78 @@
 ---
 layout: baseNavBar
 pageTitle: Style Guide
+
+ben_is_right:
+  - People are crabby now.
+countdowns:
+  myCountdown:
+    title: Top 5 Random Things
+    ben:
+      list:
+        - Horses
+        - Tea kettles
+        - Rocket ships
+        - Dreams
+        - Stone plinths
+      extra:
+        - Acrylic plinths
+        - Platinum plinths
+    matt: 
+      list:
+        - The number 5
+        - The color mauve
+        - The feeling of despair
+        - A cool wind on a clear day
+        - The smell of what sandpaper feels like
+      extra:
+        - Turtles
+encouraging_signs:
+  - Everything is great.
+questions_for_matt:
+  - Do you like pumpkins?
+  - Do you not like pumpkins?
+stan_lee:
+  - Get off my lawn
+story_time:
+  - time: "3:21"
+    title: Pigs in a blanket
+take_that_science:
+  - Mars is real
+what_the_frodo:
+  - Pineapple on pizza
+
+podcast_file_url: http://sfc.blue/test.mp3
+quotes:
+  - time: "1:00:01"
+    lines:
+      - m: This is a quote with a timestamp.
+      - b: Hi!
+  - time: "1:00:02"
+    context: This is a quote with a timestamp and long context
+    lines:
+      - m: A long, wrapping quote that will go to at least two lines so we may observe how that displays. It must be quite long for those extra-wide monitors that some prefer in this day and age.
+      - benAction: "*sighs*"
+  - time: "1:00:03"
+    context: This is a very long context to test how we handle wrapping contexts when they are very long contexts as this context is, for a long context that wraps must be styled as nicely as a context that does not wrap, unlike this context.
+    lines:
+      - m: A simple quote.
+  - time: "1:00:04"
+    lines:
+      - guest: Epictetus
+        quote: It is impossible for anyone to begin to learn that which he thinks he already knows.
+      - m: Very true.
+ratings:
+  myRating:
+    title: Test Rating
+    ben:
+      - title: Title 1
+        score: 1.5
+    matt: 
+      - title: Title 1
+        score: 3
+      - title: Title 2
+        score: 0
+
 ---
 <div class="content">
 Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cyborg theme</a>
@@ -114,28 +186,19 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 
 <h1 class="title is-1">Quotes</h1>
 <div class="livedemo">
-    <div class="quote">
-        <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
-        <q class="ben">This is a quote with a timestamp.</q>
-        <q class="matt">Hi!</q>
-    </div>
+    {% quotes podcast_file_url, quotes[0] %}
 </div>
 
 <div class="livedemo">
-    <div class="quote">
-        <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
-        <span class="quote-context is-size-6">This is a quote with a timestamp and long context</span>
-        <q class="daniel">A long, wrapping quote that will go to at least two lines so we may observe how that displays. It must be quite long for those extra-wide monitors that some prefer in this day and age.</q>
-        <q class="koby" data-action="*this is an action*">Hi!</q>
-    </div>
+    {% quotes podcast_file_url, quotes[1] %}
 </div>
 
 <div class="livedemo">
-    <div class="quote">
-        <a class="timestamp tag is-medium is-rounded is-primary" href="/#t=1:23:45">1:23:45</a>
-        <span class="quote-context is-size-6">This is a very long context to test how we handle wrapping contexts when they are very long contexts as this context is, for a long context that wraps must be styled as nicely as a context that does not wrap, unlike this context.</span>
-        <q class="ben">A simple quote</q>
-    </div>
+    {% quotes podcast_file_url, quotes[2] %}
+</div>
+
+<div class="livedemo">
+    {% quotes podcast_file_url, quotes[3] %}
 </div>
 
 <div class="livedemo">
@@ -144,8 +207,7 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
 </div>
 
 <div class="livedemo">
-    <q data-name="Epictetus">It is impossible for anyone to begin to learn that which he thinks he already knows.</q>
-    <q class="matt">Very true</q>
+    Some text followed by inline quotes {% arc %}Hi!{% endarc %} {% ben "Hello!" %} {% matt "Hey!" %}
 </div>
 
 <div class="livedemo">
@@ -162,46 +224,64 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
     </blockquote>
 </div>
 
-<div class="livedemo">
-    Some text followed by inline quotes {% arc %}Hi!{% endarc %} <q class="ben inline">Hello!</q> <q class="matt inline">Hey!</q>
-</div>
-
 
 
 <h1 class="title is-1">Top 5 Lists</h1>
 <div class="livedemo">
-    <div class="top-five">
-    <h2 class="has-text-centered">Top 5 Random Things</h2>
-    <div class="columns">
-        <div class="column ben">
-        <h3>Ben</h3>
-        <ol reversed>
-            <li>Horses
-            <li>Tea kettles
-            <li>Rocket ships
-            <li>Dreams
-            <li>Stone plinths
-        </ol>
-        <ul class="runner-ups">
-            <li>Acrylic plinths
-            <li>Platinum plinths
-        </ul>
-        </div>
-        <div class="column matt">
-        <h3>Matt</h3>
-        <ol reversed>
-            <li>The number 5
-            <li>The color mauve
-            <li>The feeling of despair
-            <li>A cool wind on a clear day
-            <li>The smell of what sandpaper feels like
-        </ol>
-        <ul class="runner-ups">
-            <li>Turtles
-        </ul>
-        </div>
-    </div>
-    </div>
+    {% countdown countdowns.myCountdown %}
+</div>
+
+
+
+<h1 class="title is-1">Ratings</h1>
+<div class="livedemo">
+{% ratings ratings.myRating %}
+</div>
+
+
+
+<h1 class="title is-1">Segments</h1>
+<div class="livedemo">
+    {% benIsRight ben_is_right[0] %}
+</div>
+
+<div class="livedemo">
+    {% encouragingSigns encouraging_signs[0] %}
+</div>
+
+<div class="livedemo">
+    {% questionsForMatt questions_for_matt %}
+</div>
+
+<div class="livedemo">
+    {% stanLee stan_lee[0] %}
+</div>
+
+<div class="livedemo">
+    {% storyTime podcast_file_url, story_time[0] %}
+</div>
+
+<div class="livedemo">
+    {% takeThatScience take_that_science[0] %}
+</div>
+
+<div class="livedemo">
+    {% wtf what_the_frodo[0] %}
+</div>
+
+
+
+<h1 class="title is-1">Inline</h1>
+<div class="livedemo">
+  Episode link: {% episodeLink 100 %}
+</div>
+
+<div class="livedemo">
+  Episode short link: {% episodeShortLink 100 %}
+</div>
+
+<div class="livedemo">
+  Work title: {% work "The Lord of the Rings" %}
 </div>
 
 
@@ -212,5 +292,7 @@ Based off <a href="https://jenil.github.io/bulmaswatch/cyborg/">Bulma Swatch, Cy
     <p class="title category-{{category | slug}}">{{category}}</p>
     {% endfor %}
 </div>
+
+
 
 </div>
