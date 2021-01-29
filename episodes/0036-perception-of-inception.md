@@ -15,8 +15,9 @@ category: review
 hosts:
   - Ben
   - Matt
+time_loop_forward: 
+  number: 299
 
-notable_moments:
 odd_opening: Ben and Matt switch roles
 future_episodes: 
   - Clip show
@@ -25,7 +26,7 @@ take_that:
   - Jenny
 
 last_listen: 2011-03-28
-recommendation: yes
+recommendation: yes-timeloop
 recommendation_reason: Good discussion of a great movie.
 spoilers:
 - <i class="work-title">Inception</i>

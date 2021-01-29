@@ -26,7 +26,7 @@ quotes:
       - m: I'll be good color commentary for you. So there might just be a lot of Ben reading lists and commenting, and me saying, 'Sounds like a nice guy.' 
 
 last_listen: 2020-01-17
-recommendation: yes
+recommendation: essential
 recommendation_reason: The start of an amazing countdown
 ---
 
