@@ -9,12 +9,6 @@ module.exports = function (ratings) {
 <div class="column ${host.toLowerCase()}">
     <h3>${host}</h3>
     <table class="table is-striped rating">
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>☆☆☆☆☆</th>
-            </tr>
-        </thead>
         <tbody>
             ${ratingRows(ratings)}
         </tbody>
