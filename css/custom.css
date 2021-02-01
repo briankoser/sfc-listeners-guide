@@ -250,6 +250,10 @@ cite i {
 /******************************************************************************
   STRUCTURE CLASSES
 ******************************************************************************/
+.navbar {
+    border: none;
+}
+
 .hero.is-primary,
 .navbar.is-primary {
     text-shadow: black 0px 0px 3px;
