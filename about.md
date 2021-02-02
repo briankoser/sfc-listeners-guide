@@ -15,6 +15,6 @@ So in January 2018 I started listening to Episode 1 and compiling this guide. In
 
 Signing off,
 
-The Archivist
+<span class="archivist-name">The Archivist</span>
     </div>
 </div>

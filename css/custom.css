@@ -262,9 +262,22 @@ cite i {
     border: none;
 }
 
-.hero.is-primary,
-.navbar.is-primary {
-    text-shadow: black 0px 0px 3px;
+.site-hero .title,
+.navbar-brand {
+    font-family: 
+        "Sonic W01 Extra Bold",
+        'IBM Plex Sans', 
+        sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    font-size: 5rem;
+}
+
+.site-hero .subtitle {
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: -1ch;
 }
 
 .hero-foot {
@@ -468,8 +481,12 @@ a.tag.timestamp.is-rounded:hover {
 }
 
 @media (max-width: 768px) {
-    .hero-body h1.title {
-        font-size: 2rem;
+    .site-hero .title {
+        font-size: 4rem;
+    }
+
+    .site-hero .subtitle {
+        font-size: 1.6rem;
     }
 }
 
@@ -604,6 +621,14 @@ a.tag.timestamp.is-rounded:hover {
 .archivist {
     background-color: var(--color-primary);
     color: var(--color-black);
+}
+
+.archivist-name,
+q.archivist::before {
+    font-family: 
+        "Sonic W01 Extra Bold",
+        'IBM Plex Sans', 
+        sans-serif;
 }
 
 .archivist h3 {

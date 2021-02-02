@@ -1,3 +1,9 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=e52269b3-5b7e-4030-ba8a-55ac7fe94d3e&fontids=1121149");
+@font-face {
+    font-family: "Sonic W01 Extra Bold";
+    src: url("/fonts/Sonic/Fonts/1121149/56425825-2435-4e80-b460-a6752cfa942b.woff2") format("woff2"), url("/fonts/Sonic/Fonts/1121149/4dd4201f-a9a1-4020-8f3a-814728b49487.woff") format("woff");
+}
+
 @font-face {
   font-family: 'IBM Plex Sans';
   font-style: normal;
