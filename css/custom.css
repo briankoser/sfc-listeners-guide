@@ -67,6 +67,7 @@ body {
     font-size: 20px;
     font-weight: 450;
     font-variant-numeric: oldstyle-nums;
+    line-height: 1.4;
 }
 
 main.container {
@@ -76,6 +77,13 @@ main.container {
 p {
     -webkit-hyphens: auto;
             hyphens: auto;
+    margin-top: 1.4em;
+}
+
+footer p,
+.card p,
+.level p {
+    margin-top: 0;
 }
 
 blockquote {
@@ -271,16 +279,22 @@ main > h1 {
     margin-top: 1em;
 }
 
-main > .content {
-    margin: 2em 0;
-}
-
 main .hero {
     margin-bottom: 1.5rem;
 }
 
 .hero .level {
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .level-item:not(:last-child) {
+        margin-bottom: 2.1em;
+    }
+}
+
+.footer {
+    padding: 3rem 1.5rem;
 }
 
 
