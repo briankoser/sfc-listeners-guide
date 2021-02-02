@@ -93,19 +93,6 @@ countdowns:
     title: Top 10 Non-Genre TV Shows
     ben:
       list:
-        - Gilmore Girls and The Tonight Show with Jimmy Fallon
-        - Survivor
-        - Parks and Recreation 
-        - How I Met Your Mother 
-        - Community
-        - Modern Family 
-        - The Office
-        - Sherlock
-        - Friends 
-      extra:
-        - Arrested Development
-    matt: 
-      list:
         - Trailer Park Boys
         - South Park 
         - Curb Your Enthusiasm 
@@ -122,6 +109,19 @@ countdowns:
         - The Shield
         - Arrested Development
         - Extras
+    matt: 
+      list:
+        - Gilmore Girls and The Tonight Show with Jimmy Fallon
+        - Survivor
+        - Parks and Recreation 
+        - How I Met Your Mother 
+        - Community
+        - Modern Family 
+        - The Office
+        - Sherlock
+        - Friends 
+      extra:
+        - Arrested Development
   genreTV:
     title: Top 10 Genre TV Shows
     ben:
