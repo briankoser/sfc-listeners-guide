@@ -13,12 +13,12 @@
     --color-primary: hsl(192, 78%, 58%); /* duplicated in main.scss for bulma */
     --color-primary-light: hsl(192, 78%, 80%);
     --color-black: black;
-    --color-blue: hsl(258, 84%, 48%);
+    --color-blue: hsl(258, 90%, 64%);
     --color-blue-transparent: hsla(258, 84%, 48%, 0.2);
     --color-dark-grey: hsl(0, 0%, 14%);
     --color-green: hsl(141, 71%, 48%);
     --color-medium-grey: hsl(0, 0%, 21%);
-    --color-orange: hsl(33, 99%, 54%);
+    --color-orange: hsl(33, 90%, 64%);
     --color-orange-transparent: hsla(33, 99%, 54%, 0.2);
     --color-pink: hsl(350, 100%, 74%);
     --color-pink-transparent: hsla(350, 100%, 74%, 0.2);
@@ -208,10 +208,7 @@ span[data-name]::before {
 }
 
 q {
-    background-color: var(--color-medium-grey);
-    border-radius: 10px;
     display: table;
-    padding: 0.2em;
 }
 
 q a {
@@ -461,15 +458,14 @@ main .hero {
     margin-top: 6em;
 }
 
-a.tag.timestamp.is-rounded {
+a.tag.timestamp {
     background-color: initial;
     border-top: 2px solid var(--color-white);
     border-left: 2px solid var(--color-white);
-    border-radius: 10px;
     margin-right: 0.5em;
 }
 
-a.tag.timestamp.is-rounded:hover {
+a.tag.timestamp:hover {
     background-color: var(--color-primary);
     text-shadow: var(--color-black) 0px 0px 2px;
     text-decoration: none;
@@ -619,8 +615,7 @@ a.tag.timestamp.is-rounded:hover {
   ARCHIVIST/HOST CLASSES
 ******************************************************************************/
 .archivist {
-    background-color: var(--color-primary);
-    color: var(--color-black);
+    color: var(--color-primary);
 }
 
 .archivist-name,
@@ -631,38 +626,25 @@ q.archivist::before {
         sans-serif;
 }
 
-.archivist h3 {
-    color: var(--color-black);
-}
-
 .ben {
-    background-color: var(--color-blue);
-    color: var(--color-white);
+    color: var(--color-blue);
 }
 
 .listeners {
-    background-color: var(--color-medium-grey);
-    color: var(--color-white);
+    color: var(--color-medium-grey);
 }
 
 .matt,
 .roger {
-    background-color: var(--color-orange);
-    color: var(--color-white);
+    color: var(--color-orange);
 }
 
 .daniel {
-    background-color: var(--color-purple);
-    color: var(--color-white);
+    color: var(--color-purple);
 }
 
 .koby {
-    background-color: var(--color-pink);
-    color: var(--color-black);
-}
-
-.koby h3 {
-    color: var(--color-black);
+    color: var(--color-pink);
 }
 
 
