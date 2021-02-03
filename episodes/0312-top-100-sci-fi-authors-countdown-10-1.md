@@ -90,6 +90,8 @@ Ben says literature is important to read, even if it's not enjoyable.
 Ben says it's a story flaw that Aslan is only dead for two pages in {% work "The Lion, The Witch, and the Wardrobe" %}.
 {% arc %}...like Jesus?{% endarc %}
 
+[Complete list](/hiatus-countdowns/2014-sci-fi-authors)
+
 {% countdown countdowns.hosts %}
 
 Final count: Matt has heard of 47, Ben has read 52
