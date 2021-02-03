@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2014/11/episode-298-top-100-sci-fi-aut
 podcast_file_url: http://thescifichristian.com/sfc/sfc0298.mp3
 date: 2014-11-05
 length: '00:22:17'
-category: countdown
+category: countdowns
 series: authors-countdown-2014
 hosts:
   - Ben
@@ -31,8 +31,10 @@ quotes:
 
 last_listen: 2020-01-20
 recommendation: essential
-recommendation_reason: The countdown begins
+recommendation_reason: The countdown begins and we learn about The Candy Shop War
 ---
+
+They track to find out if Ben has read more authors on the list than Matt has heard of.
 
 <ol start="100" reversed>
 <li>Lemony Snickett

@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2014/11/episode-304-top-100-sci-fi-aut
 podcast_file_url: http://thescifichristian.com/sfc/sfc0304.mp3
 date: 2014-11-19
 length: '00:20:25'
-category: countdown
+category: countdowns
 series: authors-countdown-2014
 hosts:
   - Ben
@@ -38,7 +38,7 @@ story_time:
 
 last_listen: 2020-03-04
 recommendation: essential
-recommendation_reason: The best hiatus countdown continues
+recommendation_reason: The countdown continues and Ben shares his Terry Goodkind testimony
 ---
 
 <ol start="80" reversed>

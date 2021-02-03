@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2014/11/episode-297-top-100-sci-fi-aut
 podcast_file_url: http://thescifichristian.com/sfc/sfc0297.mp3
 date: 2014-11-03
 length: '00:30:08'
-category: countdown
+category: countdowns
 series: authors-countdown-2014
 hosts:
   - Ben
