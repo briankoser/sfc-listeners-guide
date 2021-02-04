@@ -17,7 +17,23 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+countdowns:
+  seasons:
+    title: Top 5 Community Seasons
+    ben:
+      list:
+        - Season 4
+        - Season 5
+        - Season 1
+        - Season 2
+        - Season 3
+    matt: 
+      list:
+        - Season 4
+        - Season 5
+        - Season 1
+        - Season 2
+        - Season 3
 
 last_listen: 2019-12-18
 recommendation: yes
@@ -30,28 +46,4 @@ recommendation_reason: Fun run-through of a fun show
 3. Internal logic different than real-life logic 
 4. Influence of fantasy without being overtly fantasy 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Community Seasons</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Season 4
-        <li>Season 5
-        <li>Season 1
-        <li>Season 2
-        <li>Season 3
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Season 4
-        <li>Season 5
-        <li>Season 1
-        <li>Season 2
-        <li>Season 3
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.seasons %}

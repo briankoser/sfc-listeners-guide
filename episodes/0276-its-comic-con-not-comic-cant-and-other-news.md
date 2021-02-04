@@ -16,7 +16,19 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+countdowns:
+  trinity:
+    title: Top 3 Members of the Trinity
+    ben:
+      list:
+        - Holy Spirit
+        - Father
+        - Son
+    matt: 
+      list:
+        - Holy Spirit
+        - Son
+        - Father
 
 last_listen: 2019-12-15
 recommendation: no
@@ -32,27 +44,7 @@ Edgar Wright is making a movie based on {% work "Grasshopper Jungle" %}, a YA no
   <q class="ben">Man, if that doesn't get you pyched for getting to see a real butler. What else could they do to hype this up?</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 3 Members of the Trinity</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Holy Spirit
-        <li>Son
-        <li>Father
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Holy Spirit
-        <li>Father
-        <li>Son
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.trinity %}
 
 Matt calls the Holy Spirit, "the Green Lantern of the Trinity".
 

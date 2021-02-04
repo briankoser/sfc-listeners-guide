@@ -18,7 +18,58 @@ hosts:
 time_loop_backward: 
   - number: 11
 
-notable_moments: 
+countdowns:
+  missionaries:
+    title: Top 5 Superpowers for Missionaries
+    ben:
+      list:
+        - Invisibility (for when the natives get restless) 
+        - Night Vision
+        - Sonic Scream
+        - Accelerated Healing / Durability 
+        - Flight
+      extra:
+        - Duplication 
+        - Acid Generation
+        - Superhuman Breath
+    matt: 
+      list:
+        - Telekinesis 
+        - Accelerated Healing (in case of attacks from the natives) 
+        - Shape-Shifting (<a href="https://www.biblegateway.com/passage/?search=1+cor+9%3A20&version=ESV" class="link-obvious">1 Cor. 9:20</a>)
+        - Omni-linguism 
+        - Mind Control
+      extra:
+        - Superhuman Intelligence
+  superpowers:
+    title: Top 5 Superpowers
+    ben:
+      list:
+        - X-Ray Vision
+        - Laser Vision
+        - Invulnerability
+        - <s>Invisibility</s> Interdimensional Travel
+        - Flight
+      extra:
+        - Bone Manipulation
+        - Superhuman Senses
+        - Water Breathing
+        - Teleportation 
+        - Wall Crawling 
+    matt: 
+      list:
+        - Invisibility
+        - Flight 
+        - Teleportation / Portal Creation / Wormhole Creation 
+        - Interdimensional Travel
+        - Time Manipulation
+      extra:
+        - Telekinesis
+        - Invulnerability
+        - Superhuman Speed
+        - Power Mimicry
+        - Water Breathing 
+        - Intangibility
 
 last_listen: 2019-12-04
 recommendation: yes
@@ -31,39 +82,7 @@ recommendation_reason: The first "Bad but Great" episode. It's a silly premise a
 
 # Time Loop
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Superpowers for Missionaries</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Invisibility (for when the natives get restless) 
-        <li>Night Vision
-        <li>Sonic Scream
-        <li>Accelerated Healing / Durability 
-        <li>Flight
-      </ol>
-      <ul class="runner-ups">
-        <li>Duplication 
-        <li>Acid Generation
-        <li>Superhuman Breath
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Telekinesis 
-        <li>Accelerated Healing (in case of attacks from the natives) 
-        <li>Shape-Shifting (<a href="https://www.biblegateway.com/passage/?search=1+cor+9%3A20&version=ESV" class="link-obvious">1 Cor. 9:20</a>)
-        <li>Omni-linguism 
-        <li>Mind Control
-      </ol>
-      <ul class="runner-ups">
-        <li>Superhuman Intelligence
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.missionaries %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'22:02'} %}
@@ -71,46 +90,7 @@ recommendation_reason: The first "Bad but Great" episode. It's a silly premise a
   <q class="matt">Dang it, not again!</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Superpowers</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>X-Ray Vision
-        <li>Laser Vision
-        <li>Invulnerability
-        <li><s>Invisibility</s> Interdimensional Travel
-        <li>Flight
-      </ol>
-      <ul class="runner-ups">
-        <li>Bone Manipulation
-        <li>Superhuman Senses
-        <li>Water Breathing
-        <li>Teleportation 
-        <li>Wall Crawling 
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Invisibility
-        <li>Flight 
-        <li>Teleportation / Portal Creation / Wormhole Creation 
-        <li>Interdimensional Travel
-        <li>Time Manipulation
-      </ol>
-      <ul class="runner-ups">
-        <li>Telekinesis
-        <li>Invulnerability
-        <li>Superhuman Speed
-        <li>Power Mimicry
-        <li>Water Breathing 
-        <li>Intangibility
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.superpowers %}
 
 {% timeLink {url:podcast_file_url, t:'35:58'} %} Matt imagines time travelling back to meet Jesus
 

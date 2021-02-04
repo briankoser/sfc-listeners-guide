@@ -18,6 +18,24 @@ hosts:
   - Ben
   - Matt
 
+countdowns:
+  films:
+    title: Planet of the Apes franchise
+    ben:
+      list:
+        - Planet of the Apes (2001) 
+        - Dawn of the Planet of the Apes
+        - Rise of the Planet of the Apes
+    matt: 
+      list:
+        - Beneath the Planet of the Apes
+        - Battle for the Planet of the Apes
+        - Conquest of the Planet of the Apes
+        - Dawn of the Planet of the Apes 
+        - Escape from the Planet of the Apes 
+        - Planet of the Apes (2001) 
+        - Planet of the Apes (1968)
+        - Rise of the Planet of the Apes 
 rating:
   ben: 2.5
   matt: 3
@@ -31,32 +49,7 @@ recommendation_reason: Apparently this is not a great franchise
 ---
 A review of {% work "Dawn of the Planet of the Apes" %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Planet of the Apes franchise</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Planet of the Apes (2001) 
-        <li>Dawn of the Planet of the Apes
-        <li>Rise of the Planet of the Apes
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Beneath the Planet of the Apes
-        <li>Battle for the Planet of the Apes
-        <li>Conquest of the Planet of the Apes
-        <li>Dawn of the Planet of the Apes 
-        <li>Escape from the Planet of the Apes 
-        <li>Planet of the Apes (2001) 
-        <li>Planet of the Apes (1968)
-        <li>Rise of the Planet of the Apes 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.films %}
 
 Alternate episode title: Ape-braham Lincoln
 

@@ -15,7 +15,142 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+countdowns:
+  angelSeasons:
+    title: Top 5 Seasons of Angel
+    ben:
+      list:
+        - Season 1
+        - Season 2
+        - Season 3
+        - Season 4
+        - Season 5
+    matt: 
+      list:
+        - Season 1
+        - Season 2
+        - Season 3
+        - Season 5
+        - Season 4
+  buffySeasons:
+    title: Top 5 Seasons of Buffy
+    ben:
+      list:
+        - Season 1
+        - Season 7
+        - Season 4
+        - Season 5
+        - Season 3
+        - Season 2
+        - Season 6
+    matt: 
+      list:
+        - Season 1
+        - Season 7
+        - Season 4
+        - Season 5
+        - Season 6
+        - Season 2
+        - Season 3
+  bigBads:
+    title: Top 5 Big Bads
+    ben:
+      list:
+        - Adam
+        - The First Evil
+        - The Master
+        - Glory
+        - The Trio
+        - Dark Willow
+        - Mayor Wilkins
+        - Angelus
+    matt: 
+      list:
+        - Adam
+        - The Master
+        - The First Evil
+        - The Trio
+        - Glory
+        - Dark Willow
+        - Mayor Wilkins
+        - Angelus
+  worstCharacters:
+    title: Top 5 Worst Buffy/Angel Characters
+    ben:
+      list:
+        - Angel
+        - Connor
+        - Doyle
+        - Riley
+        - Kennedy
+      extra:
+        - Cordelia
+        - Adam
+  worstAngelCharacters:
+    title: Top 5 Worst Angel Characters
+    matt: 
+      list:
+        - Angel
+        - Connor
+        - The Grusalog
+        - Doyle
+        - Detective Kate
+  worstBuffyCharacters:
+    title: Top 5 Worst Buffy Characters
+    matt: 
+      list:
+        - Faith
+        - Riley
+        - Joyce
+        - Kendra
+        - Oz
+  bestCharacters:
+    title: Top 5 Best Buffy/Angel Characters
+    ben:
+      list:
+        - Anya
+        - Mayor Wilkins
+        - Wesley Windom-Price
+        - Giles
+        - Spike
+      extra:
+        - Angelus
+        - The Trio
+        - Faith
+        - Drusilla
+        - Fred
+  bestBuffyCharacters:
+    title: Top 5 Best Buffy Characters
+    matt: 
+      list:
+        - Xander
+        - Willow
+        - Anya
+        - Giles
+        - Buffy
+  bestAngelCharacters:
+    title: Top 5 Best Angel Characters
+    matt: 
+      list:
+        - Lorne
+        - Gunn
+        - Cordelia
+        - Spike
+        - Wesley Windom-Price
+  whedonShows:
+    title: Top 4 Joss Whedon Shows
+    ben:
+      list:
+        - Buffy
+        - Firefly
+        - Dollhouse
+        - Angel
+    matt: 
+      list:
+        - Buffy
+        - Firefly
+        - Dollhouse
+        - Angel
 ratings:
   buffyverse:
     matt:
@@ -41,224 +176,25 @@ recommendation_reason: Listen if you're a fan of the shows, otherwise skip.
   <q class="ben">Pause. I liked something more than Matt. Mark your calendars, everyone: it finally happened!</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Seasons of Angel</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Season 1
-        <li>Season 2
-        <li>Season 3
-        <li>Season 4
-        <li>Season 5
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Season 1
-        <li>Season 2
-        <li>Season 3
-        <li>Season 5
-        <li>Season 4
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.angelSeasons %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Seasons of Buffy</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Season 1
-        <li>Season 7
-        <li>Season 4
-        <li>Season 5
-        <li>Season 3
-        <li>Season 2
-        <li>Season 6
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Season 1
-        <li>Season 7
-        <li>Season 4
-        <li>Season 5
-        <li>Season 6
-        <li>Season 2
-        <li>Season 3
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.buffySeasons %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Big Bads</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Adam
-        <li>The Master
-        <li>The First Evil
-        <li>The Trio
-        <li>Glory
-        <li>Dark Willow
-        <li>Mayor Wilkins
-        <li>Angelus
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Adam
-        <li>The First Evil
-        <li>The Master
-        <li>Glory
-        <li>The Trio
-        <li>Dark Willow
-        <li>Mayor Wilkins
-        <li>Angelus
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.bigBads %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Worst Buffy/Angel Characters</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Angel
-        <li>Connor
-        <li>Doyle
-        <li>Riley
-        <li>Kennedy
-      </ol>
-      <ul class="runner-ups">
-        <li>Cordelia
-        <li>Adam
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.worstCharacters %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Worst Angel Characters</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Angel
-        <li>Connor
-        <li>The Grusalog
-        <li>Doyle
-        <li>Detective Kate
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.worstAngelCharacters %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Worst Buffy Characters</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Faith
-        <li>Riley
-        <li>Joyce
-        <li>Kendra
-        <li>Oz
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.worstBuffyCharacters %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Best Buffy/Angel Characters</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Anya
-        <li>Mayor Wilkins
-        <li>Wesley Windom-Price
-        <li>Giles
-        <li>Spike
-      </ol>
-      <ul class="runner-ups">
-        <li>Angelus
-        <li>The Trio
-        <li>Faith
-        <li>Drusilla
-        <li>Fred
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.bestCharacters %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Best Buffy Characters</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Xander
-        <li>Willow
-        <li>Anya
-        <li>Giles
-        <li>Buffy
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.bestBuffyCharacters %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Best Angel Characters</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Lorne
-        <li>Gunn
-        <li>Cordelia
-        <li>Spike
-        <li>Wesley Windom-Price
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.bestAngelCharacters %}
 
 
 
 # Closing
-<div class="top-five">
-  <h2 class="has-text-centered">Top 4 Joss Whedon Shows</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Buffy
-        <li>Firefly
-        <li>Dollhouse
-        <li>Angel
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Buffy
-        <li>Firefly
-        <li>Dollhouse
-        <li>Angel
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.whedonShows %}

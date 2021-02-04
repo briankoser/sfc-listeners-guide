@@ -19,7 +19,23 @@ time_loop_backward:
   - number: 6
   - number: 29
 
-notable_moments: 
+countdowns:
+  predictions:
+    title: Superhero Genre Predictions
+    ben:
+      list:
+        - Successful
+        - Nolan will continue as executive producer and make more movies in the Nolan-verse
+        - Good actors, will be awesome
+        - It will be awesome
+        - Captain America successful, Thor will be the best of the three but will get a so-so reception, Green Lantern bad
+    matt: 
+      list:
+        - Successful
+        - DC and WB will continue to make Batman movies in the Nolan-verse 
+        - Will be good, not successful
+        - "In my mind, there is almost no way it can fail."
+        - High hopes for Captain America, low hopes for Thor (it won't get many sequels unless it's fantastic), no hopes for Green Lantern (will not get sequels)
 firsts:
   - Time travel sound effect
 
@@ -48,31 +64,7 @@ recommendation_reason: Mostly predictions of which superhero movies will be good
 4. Will {% work "The Amazing Spider-Man" %} be a successful reboot?
 5. Can lesser-known characters like {% work "Thor" %}, {% work "Captain America" %}, and {% work "Green Lantern" %} be successful? 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Superhero Genre Predictions</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Matt</h3>
-      <ol>
-        <li>Successful
-        <li>DC and WB will continue to make Batman movies in the Nolan-verse 
-        <li>Will be good, not successful
-        <li>"In my mind, there is almost no way it can fail."
-        <li>High hopes for {% work "Captain America" %}, low hopes for {% work "Thor" %} (it won't get many sequels unless it's fantastic), no hopes for {% work "Green Lantern" %} (will not get sequels)
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Ben</h3>
-      <ol>
-        <li>Successful
-        <li>Nolan will continue as executive producer and make more movies in the Nolan-verse
-        <li>Good actors, will be awesome
-        <li>It will be awesome
-        <li>{% work "Captain America" %} successful, {% work "Thor" %} will be the best of the three but will get a so-so reception, {% work "Green Lantern" %} bad
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.predictions %}
 
 Hopefully superhero movies will help bring us through postmodernism.
 

@@ -16,6 +16,50 @@ hosts:
   - Ben
   - Matt
 
+countdowns:
+  topics:
+    title: Top 5 Topics We Should Cover
+    ben:
+      list:
+        - Contemporary cultural mythology
+        - Top 5 non-genre favorites / Top 5 non-genre favorites that would be good sci-fi adaptations 
+        - Homer
+        - LOST Part 3 with Des 
+        - Radio drama or musical (possibly the Sci-Fi Christian Christmas musical) 
+      extra:
+        - Superhero saints
+        - Catholic Q&A
+        - Wes Anderson
+    matt: 
+      list:
+        - Farscape 
+        - The Bermuda triangle
+        - Star Wars
+        - The origin of Satan 
+        - Firefly
+      extra:
+        - Tarot cards
+        - Ouija boards
+        - The Dragon Bandwagon
+        - Hypnotism
+        - Parenting advice from sci-fi characters 
+        - Babylon 5
+  badTopics:
+    title: 
+    ben:
+      list:
+        - Everything that is great about Warehouse 13
+        - Top 5 Michael Bay movies
+        - Anime extravaganza
+        - LOST Part 3
+        - My Little Pony
+    matt: 
+      list:
+        - LOST Part 3
+        - Top 5 Reasons Google is like Skynet
+        - Reasons anime rocks
+        - Twilight books and movies
+        - My life as a brony
 notable_moments: 
 future_episodes:
   - Pseudopigrapha
@@ -28,71 +72,10 @@ recommendation_reason: "Per Ben, alternate title is \"Show Planning: The Episode
 ---
 A listener suggests a {% work "Wheel of Time" %} episode. Ben does not recommend the books and Matt said he certainly won't read them. 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Topics We Should Cover</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Farscape 
-        <li>The Bermuda triangle
-        <li>Star Wars
-        <li>The Origin of Satan 
-        <li>Firefly
-      </ol>
-      <ul class="runner-ups">
-        <li>Tarot cards
-        <li>Ouija boards
-        <li>The Dragon Bandwagon
-        <li>Hypnotism
-        <li>Parenting advice from sci-fi characters 
-        <li>Babylon 5
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Contemporary cultural mythology
-        <li>Top 5 non-genre favorites / Top 5 non-genre favorites that would be good sci-fi adaptations 
-        <li>Homer
-        <li>LOST Part 3 with Des 
-        <li>Radio drama or musical (possibly the Sci-Fi Christian Christmas musical) 
-      </ol>
-      <ul class="runner-ups">
-        <li>Superhero saints
-        <li>Catholic q&a
-        <li>Wes Anderson
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.topics %}
 
 Ben comes up with the series Non-fantasy Fantasy
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Bad Topic Ideas</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Everything that is great about Warehouse 13
-        <li>Top 5 Michael Bay movies
-        <li>Anime extravaganza
-        <li>LOST Part 3
-        <li>My Little Pony
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>LOST Part 3
-        <li>Top 5 Reasons Google is like Skynet
-        <li>Reasons anime rocks
-        <li>Twilight books and movies
-        <li>My life as a brony
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.badTopics %}
 
 {% timeLink {url:podcast_file_url, t:'45:17'} %}  Sci-Fi Christian Story Time: Things to experience by 350 update
