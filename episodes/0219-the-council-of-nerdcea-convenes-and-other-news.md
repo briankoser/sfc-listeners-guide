@@ -31,7 +31,7 @@ prophecy:
 
 last_listen: 2019-08-12
 recommendation: no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
 Ben announces they're having a third child. 
@@ -55,7 +55,7 @@ Ben Avery drafted players who had sci-fi-sounding names, like Rob Gronkowski.
 
 Matt traded Andrew Luck, Marshawn Lynch, Golden Tate, and Dez Bryant to Ben Avery for Peyton Manning, who went on to have one of the best fantasy seasons ever.
 
-Dr. Jayce predicts that hte Patriots will win Super Bowl over Seahawks by 4.
+Dr. Jayce predicts that the Patriots will win Super Bowl over the Seahawks by 4.
 
 What the Frodo: George R. R. Martin's next book will contain a controversial chapter
 
@@ -63,7 +63,7 @@ What the Frodo: found-footage Christian movie about teens at a church lock-in wh
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'28:15'} %}
-  <q class="ben">There's a Christian movie that's getting in on the found-footage game</q>
+  <q class="ben">There's a Christian movie that's getting in on the found-footage game.</q>
   <q class="matt">Oh good. And just three years too late this time, so that's not bad for Christians!</q>
 </div>
 

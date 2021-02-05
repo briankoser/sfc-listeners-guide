@@ -15,7 +15,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+firsts:
+  - Pun title
 rating:
   ben: 5
   matt: 4.5

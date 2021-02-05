@@ -45,7 +45,7 @@ Part 2 was {% episodeLink 144 %}
   <q class="ben">Why is he here?! OK, this episode is titled, "Goodbye Koby".</q>
 </div>
 
-Matt made the show theme with sample music from Soundtrack, the old version of Garage Band 
+Matt made the show theme with sample music from Soundtrack, the old version of Garage Band.
 
 <div class="quote">
   <span class="quote-context is-size-6">Best quote from part 1:</span>

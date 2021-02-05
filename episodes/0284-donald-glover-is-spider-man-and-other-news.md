@@ -28,7 +28,7 @@ quotes:
 
 last_listen: 2019-12-18
 recommendation: no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 # Opening
 

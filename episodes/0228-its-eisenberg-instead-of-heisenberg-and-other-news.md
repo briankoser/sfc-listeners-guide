@@ -34,7 +34,7 @@ Take That, Science: the University of Queensland has the longest running pitch d
 
 Take That, Science: gaming grandma sues video game company for $28,000 after losing virtual sword
 
-Guy Ritchie is making a six-film King Arthur series
+Guy Ritchie is making a six-film King Arthur series.
 
 Matt is keeping track of all the unanswered LOST mysteries during his rewatch with Des.
 

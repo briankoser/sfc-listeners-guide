@@ -20,7 +20,7 @@ notable_moments:
 
 last_listen: 2019-09-23
 recommendation: no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 George R. R. Martin is now worried that the Game of Thrones show will overtake his book series. 
 

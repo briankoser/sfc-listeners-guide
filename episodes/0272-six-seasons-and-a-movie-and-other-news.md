@@ -34,4 +34,4 @@ Dan Simmons is releasing {% work "The Fifth Heart" %}, a Sherlock Holmes novel. 
 
 Matt went to see the new Transformers movie with Ryan Strelau.
 
-{% arc %}But Matt, you took a stand {% episodeLink 253 %}{% endarc %}
+{% arc %}But Matt, you took a stand ({% episodeLink 253 %}){% endarc %}

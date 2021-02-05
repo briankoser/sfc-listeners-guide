@@ -24,7 +24,7 @@ notable_moments:
 
 last_listen: 2019-07-30
 recommendation: no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 Doug from Atlanta is in Minneapolis for business. 
 

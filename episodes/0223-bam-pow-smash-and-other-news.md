@@ -26,7 +26,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 Batman 1966 is coming to DVD.
 
-What the Frodo: Kristin Stewart has been cast in a 1984 film adapted as a young adult romance
+What the Frodo: Kristin Stewart has been cast in a {% work "1984" %} film adapted as a young adult romance
 
 Ben likes Magic: The Gathering.
 

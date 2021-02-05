@@ -41,7 +41,7 @@ Alan Moore released {% work "Jerusalem" %}, a one-million-word novel.
 
 {% quotes podcast_file_url, quotes[0] %}
 
-Suicide squad movie is in production 
+Suicide Squad movie is in production 
 
 {% quotes podcast_file_url, quotes[1] %}
 

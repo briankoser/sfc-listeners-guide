@@ -22,9 +22,9 @@ notable_moments:
 
 last_listen: 2019-09-10
 recommendation: no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
+recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-A Star Wars Pixar movie is rumored to be in the works.
+A Star Wars-Pixar movie is rumored to be in the works.
 
 Stan Lee Quote of the Week: Forbes named Stan Lee one of the top ten most influential celebrities of 2014.
 
