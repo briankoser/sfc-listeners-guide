@@ -19,7 +19,38 @@ guests:
   - Dave Clements
   - David Hunt
 
-notable_moments:
+countdowns:
+  stories:
+    title: Top 5 Spider-Man Stories
+    ben:
+      list:
+        - Civil War 
+        - Spider-Man 3
+        - The Amazing Spider-Man 
+        - Spider-Man 
+        - Spider-Man 2
+    matt: 
+      list:
+        - Death of Gwen Stacy
+        - Kraven's Last Hunt
+        - The Introduction of Venom
+        - Superior Spider-Man
+        - The Clone Saga
+    guests:
+      - name: Dave
+        list:
+          - One More Day
+          - Dying Wish
+          - The Night Gwen Stacy Died
+          - The Civil War reveal
+          - Spider-Men
+      - name: David
+        list:
+          - Death of Ultimate Spider-Man
+          - Death of Gwen Stacy 
+          - What Happened to Flash Thompson? 
+          - Superior Spider-Man
+          - Spider-Man No More
 
 last_listen: 2019-09-04
 recommendation: no
@@ -45,48 +76,4 @@ The Davids from the Geek This podcast are guests.
   <q data-name="David">Clones.</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Spider-Man Stories</h2>
-  <div class="columns">
-    <div class="column guest">
-      <h3>Dave</h3>
-      <ol reversed>
-        <li>One More Day
-        <li>Dying Wish
-        <li>The Night Gwen Stacy Died
-        <li>The Civil War reveal
-        <li>Spider-Men
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Civil War 
-        <li>Spider-Man 3
-        <li>the amazing Spider-Man 
-        <li>Spider-Man 
-        <li>Spider-Man 2
-      </ol>
-    </div>
-    <div class="column guest">
-      <h3>David</h3>
-      <ol reversed>
-        <li>Death of Ultimate Spider-Man 
-        <li>Death of Gwen Stacy 
-        <li>What Happened to Flash Thompson? 
-        <li>Superior Spider-Man 
-        <li>Spider-Man No More 
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Death of Gwen Stacy 
-        <li>Kraven's Last Hunt 
-        <li>The Introduction of Venom
-        <li>Superior Spider-Man 
-        <li>The Clone Saga
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.stories %}

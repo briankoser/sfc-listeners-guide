@@ -15,56 +15,76 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+countdowns:
+  best:
+    title: Top 5 X-Men
+    ben:
+      list:
+        - Kitty Pryde
+        - Iceman
+        - Beast
+        - Professor x
+        - Nightcrawler
+    matt: 
+      list:
+        - Wolverine
+        - Kitty Pryde
+        - Bishop
+        - Gambit
+        - X-Man
+      extra:
+        - Emma Frost
+        - Colossus
+  worst:
+    title: Worst 4 X-Men
+    ben:
+      list:
+        - Cyclops
+        - Wolverine
+        - Storm
+        - Jean Grey
+  villains:
+    title: Top 5 X-Men Villains
+    ben:
+      list:
+        - The Juggernaut 
+        - Mystique
+        - Emma Frost
+        - Sebastian Shaw
+        - Magneto
+    matt: 
+      list:
+        - Mr. Sinister
+        - Dark Phoenix
+        - Mystique
+        - Apocalypse
+        - Magneto
+  movies:
+    title: Top 6 X-Men Movies
+    ben:
+      list:
+        - The Wolverine
+        - "X-Men 3: The Last Stand"
+        - X-Men 
+        - "X2: X-Men United"
+        - "X-Men: First Class"
+    matt: 
+      list:
+        - The Wolverine
+        - "X-Men 3: The Last Stand"
+        - "X-Men Origins: Wolverine"
+        - X-Men 
+        - "X2: X-Men United"
+        - "X-Men: First Class"
 
 last_listen: 2019-10-17
 recommendation: no
 recommendation_reason: Fine episode about a lackluster franchise
 ---
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 X-Men</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Kitty Pryde
-        <li>Iceman
-        <li>Beast
-        <li>Professor x
-        <li>Nightcrawler
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Wolverine
-        <li>Kitty Pryde
-        <li>Bishop
-        <li>Gambit
-        <li>X-Man
-      </ol>
-      <ul class="runner-ups">
-        <li>Emma Frost
-        <li>Colossus
-      </ul>
-    </div>
-  </div>
-</div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Worst 4 X-Men</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Cyclops
-        <li>Wolverine
-        <li>Storm
-        <li>Jean Grey
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.best %}
+
+{% countdown countdowns.worst %}
 
 When Matt reminds Ben that Nightcrawler is Catholic, he moves him from 5 to 1.
 
@@ -82,58 +102,11 @@ When Matt reminds Ben that Nightcrawler is Catholic, he moves him from 5 to 1.
   <q class="ben">She's totally grown up!</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 X-Men Villains</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>The Juggernaut 
-        <li>Mystique
-        <li>Emma Frost
-        <li>Sebastian Shaw
-        <li>Magneto
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Mr. Sinister
-        <li>Dark Phoenix
-        <li>Mystique
-        <li>Apocalypse
-        <li>Magneto
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.villains %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 6 X-Men Movies</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>The Wolverine
-        <li>X-Men 3: The Last Stand
-        <li>X-Men 
-        <li>X2: X-Men United
-        <li>X-Men: First Class
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The Wolverine
-        <li>X-Men 3: The Last Stand
-        <li>X-Men Origins: Wolverine
-        <li>X-Men 
-        <li>X2: X-Men United
-        <li>X-Men: First Class
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.movies %}
+
+
 
 # Closing
 All three takes of the intro

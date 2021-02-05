@@ -19,7 +19,62 @@ guests:
   - Brad Jorde
   - Eric Klein 
 
-notable_moments:
+countdowns:
+  sciFi:
+    title: Top 5 Manly Sci-Fi Characters
+    ben:
+      list:
+        - Aragorn (books) 
+        - Walter White
+        - Roland the Gunslinger
+        - Eddard Stark 
+        - Odysseus 
+      extra:
+        - Mario
+        - Sam (Lord of Light) 
+        - Joel (The Last of Us) 
+    matt: 
+      list:
+        - Mario
+        - Han Solo
+        - Batman
+        - Jason Bourne 
+        - Jean-Luc Picard 
+      extra:
+        - James T. Kirk
+    guests:
+      - name: Brad
+        list:
+          - Corbin Dallas (The Fifth Element) 
+          - Aragorn
+          - Jean-Luc Picard
+          - Worf
+          - Aslan
+        extra:
+          - Mario
+          - Sam (Lord of Light) 
+          - Joel (The Last of Us) 
+      - name: Eric
+        list:
+          - Gandalf
+          - Ned Land (20,000 Leagues Under the Sea) 
+          - Rubeus Hagrid
+          - Tony Stark 
+          - Ender Wiggin
+        extra:
+          - Mario
+          - Sam (Lord of Light) 
+          - Joel (The Last of Us) 
+  nonSciFi:
+    title: Top 5 Manly Non-Sci-Fi Characters
+    guests:
+      - name: Eric
+        list:
+          - Bryan Mills (Taken) 
+          - James Bond
+          - Cordell Walker (Walker, Texas Ranger)
+          - Rocky
+          - "Steven Seagal (Steven Seagal: Lawman)"
 odd_opening: Brad and Eric start with artificially deep voices
 future_episodes:
   - Top 5 heroes that are actually villains
@@ -84,69 +139,7 @@ Calling out, breaking down, exposing weak points, rebuilding with certain values
 
 What traits are manly? 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Manly Sci-Fi Characters</h2>
-  <div class="columns">
-    <div class="column guest">
-      <h3>Brad</h3>
-      <ol reversed>
-        <li>Corbin Dallas (The Fifth Element) 
-        <li>Aragorn
-        <li>Jean-Luc Picard
-        <li>Worf
-        <li>Aslan
-      </ol>
-      <ul class="runner-ups">
-        <li>Mario
-        <li>Sam (Lord of Light) 
-        <li>Joel (The Last of Us) 
-      </ul>
-    </div>
-    <div class="column guest">
-      <h3>Eric</h3>
-      <ol reversed>
-        <li>Gandalf
-        <li>Ned Land (20,000 Leagues Under the Sea) 
-        <li>Rubeus Hagrid
-        <li>Tony Stark 
-        <li>Ender Wiggin
-      </ol>
-      <ul class="runner-ups">
-        <li>Mario
-        <li>Sam (Lord of Light) 
-        <li>Joel (The Last of Us) 
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Aragorn (books) 
-        <li>Walter White
-        <li>Roland the Gunslinger
-        <li>Eddard Stark 
-        <li>Odysseus 
-      </ol>
-      <ul class="runner-ups">
-        <li>Mario
-        <li>Sam (Lord of Light) 
-        <li>Joel (The Last of Us) 
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Mario
-        <li>Han Solo
-        <li>Batman
-        <li>Jason Bourne 
-        <li>Jean-Luc Picard 
-      </ol>
-      <ul class="runner-ups">
-        <li>James T. Kirk
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.sciFi %}
 
 Ben says movie Aragorn is a wimp because he doesn't want to be king. {% arc %}I guess they tried to give him a hero's journey and this was his 'refusal of the call'.{% endarc %}
 
@@ -170,21 +163,7 @@ Brad uses the term "buttkickability" to mean "able to kick butt". Ben thinks it 
 
 Matt is the only one in the room without a beard. 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Manly Non-Sci-Fi Characters</h2>
-  <div class="columns">
-    <div class="column guest">
-      <h3>Eric</h3>
-      <ol reversed>
-        <li>Bryan Mills (Taken) 
-        <li>James Bond
-        <li>Cordell Walker (Walker, Texas Ranger)
-        <li>Rocky
-        <li>Steven Seagal (Steven Seagal: Lawman) 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.nonSciFi %}
 
 # Who is manlier? 
 - Liam Neeson or Harrison Ford? 
