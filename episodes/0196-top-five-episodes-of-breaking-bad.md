@@ -17,7 +17,70 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  characters:
+    title: Top 5 Characters
+    ben:
+      list:
+        - Hewell and Kirby
+        - Saul
+        - Hank
+        - Gus
+        - Walt
+      extra:
+        - Mike
+    matt: 
+      list:
+        - Mike
+        - Jesse
+        - Saul
+        - Gus
+        - Walt
+      extra:
+        - Hank
+        - Badger
+  moments:
+    title: Top 5 Moments
+    ben:
+      list:
+        - Walt raging after going into remission 
+        - Walt lets Jane die
+        - "I am the one who knocks."
+        - "We're done when I say we're done." 
+        - Mike's "no half measures" speech
+      extra:
+        - Gus's death
+        - Mike's ticking time bomb speech
+    matt: 
+      list:
+        - Whites and Schraders at the restaurant
+        - "Say my name."
+        - Walt lets Jane die
+        - Todd kills the kid
+        - The twins shootout
+  episodes:
+    title: Top 5 Episodes
+    ben:
+      list:
+        - The Pilot
+        - Face Off
+        - ABQ
+        - Crawl Space
+        - Dead Freight
+        - Crazy Handful of Nothing
+        - Fly
+        - Felina
+        - Salud
+        - Ozymandias
+    matt: 
+      list:
+        - Half Measures
+        - Blood Money
+        - ...and the Bag's in the River
+        - To'hajiilee/Ozymandias
+        - Face Off
+        - Fly
+        - Felina
 
 last_listen: 2019-05-19
 recommendation: yes
@@ -26,103 +89,13 @@ spoilers:
 - <i class="work-title">Breaking Bad</i>
 ---
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Characters</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Hewell and Kirby
-        <li>Saul
-        <li>Hank
-        <li>Gus
-        <li>Walt
-      </ol>
-      <ul class="runner-ups">
-        <li>Mike
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Mike
-        <li>Jesse
-        <li>Saul
-        <li>Gus
-        <li>Walt
-      </ol>
-      <ul class="runner-ups">
-        <li>Hank
-        <li>Badger 
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.characters %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Moments</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ul>
-        <li>Walt raging after going into remission 
-        <li>Walt lets Jane die
-        <li>"I am the one who knocks."
-        <li>"We're done when I say we're done." 
-        <li>Mike's "no half measures" speech
-      </ul>
-      <ul class="runner-ups">
-        <li>Gus's death
-        <li>Mike's ticking time bomb speech
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ul>
-        <li>Whites and Schraders at the restaurant
-        <li>"Say my name."
-        <li>Walt lets Jane die
-        <li>Todd kills the kid
-        <li>The twins shootout
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.moments %}
 
 Walt's chemistry lectures describe himself. 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Episodes</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>The Pilot
-        <li>Face Off
-        <li>ABQ
-        <li>Crawl Space
-        <li>Dead Freight
-        <li>Crazy Handful of Nothing
-        <li>Fly
-        <li>Felina
-        <li>Salud
-        <li>Ozymandias
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Half Measures
-        <li>Blood Money
-        <li>...and the Bag's in the River
-        <li>To'hajiilee/Ozymandias
-        <li>Face Off
-        <li>Fly
-        <li>Felina
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.episodes %}
 
 Is {% work "Breaking Bad" %} the greatest TV show of all time? Matt said yes. Ben said no with a lot of hesitation. It is a little better than {% work "Mad Men" %}, but not quite as good as {% work "The Wire" %}.
 
