@@ -36,6 +36,7 @@
       {"slug": "milestone", "name": "Milestone", "description": "A special episode every 50 shows."},
       {"slug": "news", "name": "News", "description": "It's time for Sci-Fi News!"},
       {"slug": "philosophy", "name": "Philosophy", "description": "I think, therefore I podcast"},
+      {"slug": "preview", "name": "Preview", "description": "Preview of upcoming movies, TV shows, books, or episodes"},
       {"slug": "review", "name": "Review", "description": "Reviews of books, movies, TV shows"},
       {"slug": "spinoff", "name": "Spinoff", "description": "Podcasts birthed by The Sci-Fi Christian and posted in the main feed"},
       {"slug": "theology", "name": "Theology", "description": "Theology without a sci-fi tie-in"}
@@ -63,7 +64,6 @@
       {"slug": "issues-of-the-day", "name": "Issues of the Day", "description": "Spinoff podcast: Mike Poteet and Ben Avery discuss comic books."},
       {"slug": "jubilee", "name": "Listener Appreciation Jubilees", "description": "The end-of-the-year listener-voted award shows"},
       {"slug": "lost", "name": "LOST", "description": "Matt's favorite show of all time"},
-      {"slug": "movie-preview", "name": "Movie Preview", "description": "A live reading of the Wikipedia article of upcoming sci-fi movies"},
       {"slug": "non-fantasy-fantasy", "name": "Non-Fantasy Fantasy", "description": "Surreal without being explicitly fantasy"},
       {"slug": "parallel-universes", "name": "Parallel Universes", "description": "Discussions about parallel and alternate universes."},
       {"slug": "recommendations", "name": "Recommendations", "description": "Follow Ben and Matt's likes and dislikes through the years."},
@@ -79,7 +79,8 @@
       {"slug": "things-to-experience", "name": "Things to Experience", "description": "23 things to experience in the next 100 episodes"},
       {"slug": "tolkien", "name": "Tolkien", "description": "Discussion about the books and films set in Middle Earth."},
       {"slug": "tv-show-countdown-2013", "name": "Top 50 Sci-Fi TV Show Countdown (2013)", "description": "The 2013 hiatus countdown"},
-      {"slug": "virtual-ethics", "name": "Virtual Ethics", "description": "Ethics in a virtual reality."}
+      {"slug": "virtual-ethics", "name": "Virtual Ethics", "description": "Ethics in a virtual reality."},
+      {"slug": "year-in-preview", "name": "Year in Preview", "description": "Usually a live reading of the Wikipedia article of upcoming sci-fi movies"}
     ],
     "tags": [
       {"slug": "a-slew-of-casting-news", "name": "A Slew of Casting News"},

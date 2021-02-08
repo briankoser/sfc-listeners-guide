@@ -17,8 +17,7 @@ podcast_url: http://thescifichristian.com/2013/04/episode-143-summer-movie-previ
 podcast_file_url: http://thescifichristian.com/sfc/sfc0143.mp3
 date: 2013-04-16
 length: '00:42:19'
-category: main-topic
-series: movie-preview
+category: preview
 hosts:
   - Ben
   - Matt

@@ -10,8 +10,7 @@ podcast_url: http://thescifichristian.com/2012/06/episode-68-summer-movie-previe
 podcast_file_url: http://thescifichristian.com/archive/Episode_68__Summer_Movie_Preview.mp3
 date: 2012-06-27
 length: '00:11:48'
-category: main-topic
-series: movie-preview
+category: preview
 hosts:
   - Matt
   - Daniel

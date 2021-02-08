@@ -10,7 +10,8 @@ podcast_url: http://thescifichristian.com/2014/01/episode-216-the-year-2014-in-p
 podcast_file_url: http://thescifichristian.com/sfc/sfc0216.mp3
 date: 2014-01-01
 length: '00:43:58'
-category: main-topic
+category: preview
+series: year-in-preview
 hosts:
   - Ben
   - Matt
