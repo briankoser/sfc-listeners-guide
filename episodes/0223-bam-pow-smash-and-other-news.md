@@ -18,8 +18,6 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-
 last_listen: 2019-09-05
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
@@ -37,4 +35,4 @@ Stan Lee Quote of the Week: Stan Lee is starring as an animated version of himse
 
 
 # Closing
-Matt appeared on Geekually Yoked for this year's Crossover Nexus event.
+Matt appeared on Geekually Yoked for this year's Crossover Nexus event. {% arc %}I don't think this ever got posted in the SFC feed.{% endarc %}

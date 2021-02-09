@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - crossover-nexus-promo
 
 title: It’s Anakin, Not Ana-Can’t
 number: 281

@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - crossover-nexus-promo
   - sci-fi-christian-story-time
   - surprising-thoughts
 

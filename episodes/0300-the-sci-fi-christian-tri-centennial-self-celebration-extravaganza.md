@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - crossover-nexus-promo
 
 title: The Sci-Fi Christian Tri-Centennial Self-Celebration Extravaganza
 number: 300

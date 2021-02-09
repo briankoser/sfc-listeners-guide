@@ -17,12 +17,30 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Matt opens with an odd cadence
+countdowns:
+  episodes:
+    title: Top 5 Heroes Episodes
+    ben:
+      list:
+        - &nbsp;
+        - &nbsp;
+        - &nbsp;
+        - &nbsp;
+        - Homecoming
+    matt: 
+      list:
+        - Genesis
+        - 5
+        - Company Man
+        - Homecoming
+        - Five Years Gone 
+      extra:
+        - The finale
 future_episodes:
   - Heroes Season 2 Rant
   - Heroes Season 3 Rant
   - Heroes Season 4 Rant 
+odd_opening: Matt opens with an odd cadence
 
 last_listen: 2019-03-14
 recommendation: yes
@@ -77,34 +95,7 @@ Liked:
 1. Linderman
 1. Claude
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 {% work "Heroes" %} episodes</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>&nbsp;
-        <li>&nbsp;
-        <li>&nbsp;
-        <li>&nbsp;
-        <li>Homecoming
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Genesis
-        <li>5
-        <li>Company Man
-        <li>Homecoming
-        <li>Five Years Gone 
-      </ol>
-      <ul class="runner-ups">
-        <li>The finale
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.episodes %}
 
 Ben doesn't like that the show pushes ultra-individualism over responsibility, eg Peter walking out on his nursing job.
 

@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - crossover-nexus-promo
 
 title: Ben Sees a Marvel Movie and Other News
 number: 279

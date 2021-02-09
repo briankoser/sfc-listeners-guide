@@ -2,7 +2,6 @@
 layout: episode
 tags:
   - episode
-  - crossover-nexus-promo
 
 title: Guardians of the Galaxy Movie Review
 number: 278
