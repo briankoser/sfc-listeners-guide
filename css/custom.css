@@ -399,6 +399,12 @@ main .hero {
 /******************************************************************************
   CARD CLASSES
 ******************************************************************************/
+.card,
+.card-header-title,
+.card-footer {
+    font-weight: 400;
+}
+
 .card-footer a {
     line-height: 1;
 }
@@ -530,7 +536,9 @@ a.tag.timestamp:hover {
 }
 
 .episode-list .card-header-icon {
-    justify-content: left;
+    justify-content: right;
+    font-size: 1rem;
+    flex-basis: 11em;
 }
 
 .episode-list .card-footer a:hover {
@@ -549,6 +557,7 @@ a.tag.timestamp:hover {
 
     .episode-list .card-header-icon {
         padding: 0 0.75rem 0.75rem 0.75rem;
+        flex-basis: initial;
     }
 }
 
@@ -920,7 +929,7 @@ div[data-rating='dont-know']::after {
 }
 
 .season-list .card {
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
 
 .season-nav {
