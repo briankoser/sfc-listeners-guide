@@ -20,7 +20,7 @@
         <meta name="msapplication-config" content="/img/favicons/browserconfig.xml?v=2">
         <meta name="theme-color" content="#41c6e7">
     </head>
-    <body>
+    <body class="{% if backgroundImage %}background-image-{{backgroundImage}}{% endif %}">
         <div>
             {{ layoutContent | safe }}
             

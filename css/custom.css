@@ -59,19 +59,28 @@
 ******************************************************************************/
 body {
     font-family: 
-        'IBM Plex Sans', 
-        sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji',
-        'Segoe UI Symbol';
+    'IBM Plex Sans', 
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
     font-size: 20px;
     font-weight: 450;
     font-variant-numeric: oldstyle-nums;
     line-height: 1.4;
 }
 
+main {
+    background-color: var(--color-black);
+    padding: 1rem .5rem;
+}
+
 main.container {
     margin-bottom: 2em;
+}
+
+body > div > .section {
+    padding: 0;
 }
 
 p {
@@ -277,6 +286,10 @@ cite i {
     margin-left: -1ch;
 }
 
+.background-image-meteor {
+    background-image: url("/img/meteor.png");
+}
+
 .hero-foot {
     padding: 0 1.5rem 1.5rem 1.5rem;
 }
@@ -304,6 +317,7 @@ main .hero {
 }
 
 .footer {
+    background-color: var(--color-dark-grey);
     font-weight: 300;
     padding: 3rem 1.5rem;
 }
@@ -331,6 +345,7 @@ main .hero {
 .home .journey {
     display: flex;
     align-items: center;
+    margin-top: 0;
 }
 
 .home .journey a {
@@ -1026,9 +1041,3 @@ footer.footer .feather {
 .odd-openings div {
     margin-bottom: 1em;
 }
-
-
-
-/******************************************************************************
-  PRINT STYLES
-******************************************************************************/
