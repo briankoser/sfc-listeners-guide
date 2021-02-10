@@ -9,7 +9,7 @@
     "analytics_url": "http://media.blubrry.com/scifichristian/",
     "stats": {},
     "hosts": [
-      {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "blue", "rgb": ""}, "weakness": "squirrels"},
+      {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "blue", "rgb": ""}, "weakness": "owls"},
       {"shortName": "Matt", "fullName": "Matt Anderson", "color": {"name": "orange", "rgb": ""}, "weakness": "time travel"},
       {"shortName": "Daniel", "fullName": "Daniel Butcher", "color": {"name": "purple", "rgb": ""}, "weakness": "disney"},
       {"shortName": "Koby", "fullName": "Koby Radcliffe", "color": {"name": "pink", "rgb": ""}, "weakness": "cats"}

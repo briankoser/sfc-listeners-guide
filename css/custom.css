@@ -304,6 +304,7 @@ main .hero {
 }
 
 .footer {
+    font-weight: 300;
     padding: 3rem 1.5rem;
 }
 
@@ -312,11 +313,10 @@ main .hero {
 /******************************************************************************
   HOME CLASSES
 ******************************************************************************/
+.home .journey,
 .home .recommendations,
-.home .historical-record,
-.home .stats,
-.home .testimonials {
-    margin-bottom: 4em;
+.home .stats {
+    margin-bottom: 8em;
 }
 
 .home .recommendations .notification {
@@ -328,19 +328,46 @@ main .hero {
     transition: var(--transition-time);
 }
 
+.home .journey {
+    display: flex;
+    align-items: center;
+}
+
+.home .journey a {
+    margin-left: 0.7ex;
+    margin-right: 1ex;
+}
+
+.home .journey .feather {
+    height: 3rem;
+    width: 3rem;
+}
+
+@media (max-width: 768px) {
+    .home .journey {
+        flex-direction: column;
+    }
+  
+    .home .journey a {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 .notification.is-warning h2 {
     color: var(--color-black);
 }
 
 .testimonial {
-    padding: 1.25rem 1.25rem 35px 55px;
+    min-height: 7rem;
+    padding: 1.7rem 1.25rem 35px 80px;
     position: relative;
 }
 
 .testimonial::before {
     content: "“";
     font-family: Georgia, serif;
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bold;
     position: absolute;
     left: 10px;
@@ -352,14 +379,6 @@ main .hero {
     position: absolute;
     right: 55px;
     bottom: 5px;
-}
-
-.testimonial.ben {
-    background-color: var(--color-blue-transparent);
-}
-
-.testimonial.matt {
-    background-color: var(--color-orange-transparent);
 }
 
 
