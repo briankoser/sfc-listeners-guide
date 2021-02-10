@@ -318,6 +318,7 @@ main .hero {
 
 .footer {
     background-color: var(--color-dark-grey);
+    font-size: 1rem;
     font-weight: 300;
     padding: 3rem 1.5rem;
 }
