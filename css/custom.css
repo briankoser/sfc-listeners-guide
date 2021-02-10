@@ -590,55 +590,6 @@ a.tag.timestamp:hover {
 }
 
 
-
-/******************************************************************************
-  CATEGORY CLASSES
-******************************************************************************/
-.category-countdown::after,
-.category-feedback::after,
-.category-literature::after,
-.category-main-topic::after,
-.category-news::after,
-.category-philosophy::after,
-.category-review::after,
-.category-theology::after {
-    padding-left: 3px;
-}
-
-.category-countdown::after {
-    content: '🚀';
-}
-
-.category-feedback::after {
-    content: '📪';
-}
-
-.category-literature::after {
-    content: '📚';
-}
-
-.category-main-topic::after {
-    content: '🌌';
-}
-
-.category-news::after {
-    content: '📰';
-}
-
-.category-philosophy::after {
-    content: '💭';
-}
-
-.category-review::after {
-    content: '👍';
-}
-
-.category-theology::after {
-    content: '⛪';
-}
-
-
-
 /******************************************************************************
   ARCHIVIST/HOST CLASSES
 ******************************************************************************/
@@ -693,19 +644,23 @@ q.archivist::before {
 }
 
 
-.card.Ben .card-header {
+.card.Ben .card-header,
+.prophecy header.ben {
     background-color: var(--color-blue-transparent);
 }
 
-.card.Matt .card-header {
+.card.Matt .card-header,
+.prophecy header.matt {
     background-color: var(--color-orange-transparent);
 }
 
-.card.Daniel .card-header {
+.card.Daniel .card-header,
+.prophecy header.daniel {
     background-color: var(--color-purple-transparent);
 }
 
-.card.Koby .card-header {
+.card.Koby .card-header,
+.prophecy header.koby {
     background-color: var(--color-pink-transparent);
 }
 
@@ -781,6 +736,8 @@ q.koby::before {
   PROPHECY CLASSES
 ******************************************************************************/
 .prophecy {
+    background-color: var(--color-medium-grey);
+    border-radius: 0 7px 7px 0;
     display: flex;
     max-width: 650px;
     margin-bottom: 1em;
