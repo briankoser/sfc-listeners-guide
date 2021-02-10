@@ -24,7 +24,7 @@ quotes:
       - m: I have a question. When author's have the biography, do they write those themselves? 
       - b: Sometimes.
       - m: "Here's what it says: 'She is a fan of the internet--'"
-      - benAction: "*laughter*"
+      - benAction: "*laughs*"
       - m: '--freedom of information, Creative Commons, and Neil Gaiman.'
       - b: I'm sure she wrote that herself. No competent publisher would have written that.
       - m: You don't think the publishing house let her list 'internet' as her number one interest?

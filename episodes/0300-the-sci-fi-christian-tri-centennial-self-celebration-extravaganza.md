@@ -187,7 +187,7 @@ quotes:
   - time: "1:29:53"
     lines:
       - m: That was a disaster.
-      - benAction: "*laughing*"
+      - benAction: "*laughs*"
       - m: That was a huge disaster.
       - b: That did not go well!
       - m: I never learn!
