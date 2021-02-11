@@ -35,7 +35,7 @@ last_listen: 2020-04-20
 recommendation: no
 recommendation_reason: Pretty good for a feedback episode!
 ---
-Mike Poteet recommends John Scalzi's {% arc %}Redshirts{% endarc %}.
+Mike Poteet recommends John Scalzi's {% work "Redshirts" %}.
 
 Nick felt slighted when Ben dissed paranormal romance.
 
