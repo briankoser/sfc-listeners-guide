@@ -91,7 +91,8 @@ p {
 
 footer p,
 .card p,
-.level p {
+.level p,
+.quote p {
     margin-top: 0;
 }
 
