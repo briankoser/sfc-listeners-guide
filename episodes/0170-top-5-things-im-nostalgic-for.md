@@ -16,85 +16,90 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  dontHoldUp:
+    title: Top 5 Things We're Nostalgic For That Don't Hold Up
+    ben:
+      list:
+        - Disney World
+        - Batman Forever
+        - Terry Brooks novels
+        - Superbook
+        - The Wheel of Time 
+      extra:
+        - Cartoon and BBC live action Narnia
+        - Superhero comics
+        - Teenage Mutant Ninja Turtles movies
+    matt: 
+      list:
+        - Captain Planet
+        - James Bond, Jr.
+        - He Man and the Masters of the Universe
+        - Tron
+        - Super Friends
+      extra:
+        - Captain N and the Game Master
+  mightSuck:
+    title: Top 5 Things We're Nostalgic for That Might Actually Suck but I Haven't Watched in a Long Time
+    ben:
+      list:
+        - Jurassic Park 
+        - Independence day 
+        - "Teenage Mutant Ninja Turtles: Turtles in Time"
+        - The Thrawn Trilogy
+        - Most Stephen King novels
+      extra:
+        - Batman 1966
+    matt: 
+      list:
+        - "Disney after-school cartoons: Duck Tales, Darkwing Duck, Talespin, Chip 'n Dale: Rescue Rangers, Gummi Bears"
+        - Ghost Writer
+        - Dick Tracy movie
+        - The Rocketeer 
+        - Flight of the Navigator
+      extra:
+        - Honey, I Shrunk the Kids!
+        - Lost in Space
+        - Dark Angel
+        - Teenage Mutant Ninja Turtles cartoons and movies
+        - MASK cartoon (GI Joe-Transformers crossover) 
+        - Muppet Babies and Tiny Toons Adventures
+  holdUp:
+    title: Top 5 Things I'm Nostalgic for That Hold Up
+    ben:
+      list:
+        - Doom video game
+        - "Batman: The Animated Series"
+        - Mario video games 
+        - Aliens
+        - Star Wars-Lewis-Tolkien 
+    matt: 
+      list:
+        - Choose Your Own Adventure books
+        - Bubble Bobble
+        - "Batman: The Animated Series"
+        - The Chronicles of Narnia
+        - Batman 1966 
+      extra:
+        - Sliders 
+        - Quantum Leap
+        - Spider-Man Clone Saga 
+        - "Star Trek: The Next Generation"
+        - Back to the Future
+        - Independence Day
+        - Mario Bros. 
+        - X-Men animated series
 
 last_listen: 2019-02-01
 recommendation: no
 recommendation_reason: Just read the lists for this one.
 ---
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Things We're Nostalgic For That Don't Hold Up</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Disney World
-        <li>Batman Forever
-        <li>Terry Brooks novels
-        <li>Superbook
-        <li>The Wheel of Time 
-      </ol>
-      <ul class="runner-ups">
-        <li>Cartoon and BBC live action Narnia
-        <li>Superhero comics
-        <li>Teenage Mutant Ninja Turtles movies
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Captain Planet
-        <li>James Bond, Jr.
-        <li>He Man and the Masters of the Universe
-        <li>Tron
-        <li>Super Friends
-      </ol>
-      <ul class="runner-ups">
-        <li>Captain N and the Game Master
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.dontHoldUp %}
 
 Ben is dreading his upcoming Disney World vacation. 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Things We're Nostalgic for That Might Actually Suck but I Haven't Watched in a Long Time</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Disney after-school cartoons: Duck Tales, Darkwing Duck, Talespin, Chip 'n Dale: Rescue Rangers, Gummi Bears
-        <li>Ghost Writer
-        <li>Dick Tracy movie
-        <li>The Rocketeer 
-        <li>Flight of the Navigator
-      </ol>
-      <ul class="runner-ups">
-        <li>Honey, I Shrunk the Kids!
-        <li>Lost in Space
-        <li>Dark Angel
-        <li>Teenage Mutant Ninja Turtles cartoons and movies
-        <li>MASK cartoon (GI Joe-Transformers crossover) 
-        <li>Muppet Babies and Tiny Toons Adventures
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Jurassic Park 
-        <li>Independence day 
-        <li>Teenage Mutant Ninja Turtles: Turtles in Time 
-        <li>The Thrawn Trilogy
-        <li>Most Stephen King novels
-      </ol>
-      <ul class="runner-ups">
-        <li>Batman 1966
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.mightSuck %}
 
 Ben made a Chip 'n Dale joke that Matt edited out. 
 
@@ -104,41 +109,7 @@ Matt had a toaster oven but wanted a new one so he put it on his registry. Someo
 
 Ben started biking this year. Today he did his first mile in under three minutes. Matt ran another half marathon.
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Things I'm Nostalgic for That Hold Up</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Choose Your Own Adventure books
-        <li>Bubble Bobble
-        <li>Batman: The Animated Series 
-        <li>The Chronicles of Narnia
-        <li>Batman 1966 
-      </ol>
-      <ul class="runner-ups">
-        <li>Sliders 
-        <li>Quantum Leap
-        <li>Spider-Man Clone Saga 
-        <li>Star Trek: The Next Generation
-        <li>Back to the Future
-        <li>Independence Day
-        <li>Mario Bros. 
-        <li>X-Men animated series
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Doom video game
-        <li>Batman: The Animated Series 
-        <li>Mario video games 
-        <li>Aliens
-        <li>Star Wars-Lewis-Tolkien 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.holdUp %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'1:00:52'} %}

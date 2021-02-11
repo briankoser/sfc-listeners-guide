@@ -16,7 +16,16 @@ hosts:
   - Matt
   - Koby
 
-notable_moments:
+countdowns:
+  themes:
+    title: Top 5 themes from Power Rangers
+    koby:
+      list:
+        - <s>Sacrifice</s> Teamwork
+        - Overcoming evil
+        - "&nbsp;"
+        - Hope
+        - "&nbsp;"
 
 last_listen: 2018-12-24
 recommendation: no
@@ -30,21 +39,7 @@ Strangers and Aliens didn't send the comics, so Matt declares the sale of Koby v
 # Main Topic
 {% timeLink {url:podcast_file_url, t:'4:45'} %} Ben leaves a voicemail challenging Koby to list his top 5 themes from {% work "Power Rangers" %}.
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 themes from {% work "Power Rangers" %}</h2>
-  <div class="columns">
-    <div class="column koby">
-      <h3>Koby</h3>
-      <ol reversed>
-        <li><s>Sacrifice</s> Teamwork
-        <li>Overcoming evil
-        <li>&nbsp;
-        <li>Hope
-        <li>&nbsp;
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.themes %}
 
 Matt says the show is geared towards children age 5-7.
 

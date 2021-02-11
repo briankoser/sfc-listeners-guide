@@ -20,7 +20,17 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  xbox:
+    title: Top 6 things Wrong with the Xbox One
+    ben:
+      list:
+        - Can't decide if it's for casual or hardcore gamers
+        - Lame opening day incentives
+        - Unclear used game policy
+        - Price
+        - Needs to be always on
+        - Kinect is required and must be always on 
 odd_opening: Matt opens with an odd cadence.
 future_episodes:
   - Marriage advice for Matt
@@ -51,22 +61,7 @@ Ben and Matt try a third time to come up with a video game news segment intro cl
 
 Ben is Right: Sony decided it's a bad idea to require Playstations to be always online
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 6 things wrong with the Xbox One</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Can't decide if it's for casual or hardcore gamers 
-        <li>Lame opening day incentives
-        <li>Unclear used game policy
-        <li>Price
-        <li>Needs to be always on
-        <li>Kinect is required and must be always on 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.xbox %}
 
 Everyone now knows that the NSA has all of Verizon's phone records. 
 

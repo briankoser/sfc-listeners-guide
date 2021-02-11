@@ -38,6 +38,7 @@ They answer 50 questions from the listeners.
 
 Matt thinks it would take him seven years to read a Neal Stephenson novel. Ben thinks 20 years.
 
+<!-- Keep out of shortcode so we can have episodeLinks -->
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Worst Episodes</h2>
   <div class="columns">
@@ -70,6 +71,7 @@ Ben was nice and didn't put any Daniel and Koby episodes on the list.
 
 {% timeLink {url:podcast_file_url, t:'43:58'} %} Matt gives his salvation testimony, and it's the best evangelism message Ben has ever heard, and the best story he's ever heard
 
+<!-- Keep out of shortcode so we can have episodeLinks -->
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Episodes</h2>
   <div class="columns">
@@ -168,6 +170,7 @@ Matt thinks Squirtle is a turtle with a squirrel's tail.
 
 {% timeLink {url:podcast_file_url, t:'1:46:05'} %} Jeremy Thatcher, Dragon Hatcher 
 
+<!-- Keep out of shortcode so we can have episodeLinks -->
 <div class="top-five">
   <h2 class="has-text-centered">Top 5 Episodes</h2>
   <div class="columns">
@@ -189,6 +192,7 @@ Matt thinks Squirtle is a turtle with a squirrel's tail.
 
 {% arc %}My favorites through 200 are:{% endarc %}
 
+<!-- Keep out of shortcode so we can have episodeLinks -->
 <div class="top-five">
   <h2 class="has-text-centered">Top 10 Episodes (sorted chronologically)</h2>
   <div class="columns">

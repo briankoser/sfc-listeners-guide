@@ -18,7 +18,31 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  adventures:
+    title: Top 5 Sci-Fi Bible Adventures
+    ben:
+      list:
+        - Naaman and the Nanobots
+        - The Babylalien Invasion
+        - Samson in Space
+        - The Third Heaven
+        - Clonesurrection
+      extra:
+        - The Book of Revelation
+        - Balaam's Donkey
+    matt: 
+      list:
+        - The Revolution of the Lion 
+        - Joseph and the Zeen Crystals of Power
+        - Draver the Donkey and the Sorcerer's Sword
+        - Ehud the Left-Handed Assassin
+        - The Elisha Trilogy
+      extra:
+        - The Exodus
+        - The Flood 
+        - David and Goliath
+        - Samson and Delilah
 future_episodes:
   - Prophets Super Team 
 
@@ -27,41 +51,7 @@ recommendation: yes
 recommendation_reason: Bonkers. In a good way.
 ---
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Bible Adventures</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Naaman and the Nanobots
-        <li>The Babylalien Invasion
-        <li>Samson in Space
-        <li>The Third Heaven
-        <li>Clonesurrection
-      </ol>
-      <ul class="runner-ups">
-        <li>The Book of Revelation
-        <li>Balaam's Donkey
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The Revolution of the Lion 
-        <li>Joseph and the Zeen Crystals of Power
-        <li>Draver the Donkey and the Sorcerer's Sword
-        <li>Ehud the Left-Handed Assassin
-        <li>The Elisha Trilogy
-      </ol>
-      <ul class="runner-ups">
-        <li>The Exodus
-        <li>The Flood 
-        <li>David and Goliath
-        <li>Samson and Delilah
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.adventures %}
 
 Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
 

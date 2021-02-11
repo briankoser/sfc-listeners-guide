@@ -16,13 +16,75 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Matt and Ben do sound effects
+countdowns:
+  interested:
+    title: Top 5 Sci-Fi Things We're Not into but Wish We Were
+    ben:
+      list:
+        - Red Dwarf
+        - Farscape
+        - Babylon 5
+        - The Aeneid
+        - "2001: A Space Odyssey"
+      extra:
+        - Highlander sequels
+        - Futurama 
+        - Metropolis
+        - Supernatural
+        - Close Encounters of the Third Kind
+        - Life on Mars
+        - Source Code
+        - Kings
+    matt: 
+      list:
+        - Farscape
+        - Babylon 5
+        - Doctor Who
+        - Jericho
+        - Harry Potter books
+      extra:
+        - Stargate
+        - Isaac Asimov
+        - Wizard of Oz books
+        - A Wrinkle in Time
+        - Legend of the Seeker 
+        - Eureka
+        - Battle Royale
+        - Star Wars expanded universe novels
+  uninterested:
+    title: Top 5 Sci-Fi Things We've Never Checked Out and Have No Desire to Do So
+    ben:
+      list:
+        - Superhero comics
+        - The Dresden Files books
+        - The original Planet of the Apes movies 
+        - Stargate SG-1
+        - Star Trek
+      extra:
+        - Alias
+        - ET
+        - Alien vs Predator
+        - The Hunger Games 
+    matt: 
+      list:
+        - Supernatural
+        - Futurama
+        - The original Battlestar Galactica
+        - World of Warcraft 
+        - Anime
+      extra:
+        - Alphas
+        - Terra Nova
+        - Vampire Diaries
+        - Charmed
+        - Warehouse 13
+        - Being Human
 future_episodes:
   - Doctor Who
   - X-Files retrospective
   - Video games
   - A feedback episode recorded a month ago
+odd_opening: Matt and Ben do sound effects
 take_that:
   - Joe 
 
@@ -42,51 +104,7 @@ recommendation_reason: The lists are interesting, the discussion is not very in-
 
 # Main Topic
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Things We're Not into but Wish We Were</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Red Dwarf 
-        <li>Farscape 
-        <li>Babylon 5
-        <li>The Aeneid
-        <li>2001: A Space Odyssey 
-      </ol>
-      <ul class="runner-ups">
-        <li>Highlander sequels
-        <li>Futurama 
-        <li>Metropolis
-        <li>Supernatural
-        <li>Close Encounters of the Third Kind
-        <li>Life on Mars
-        <li>Source Code
-        <li>Kings
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Farscape 
-        <li>Babylon 5
-        <li>Doctor Who 
-        <li>Jericho
-        <li>Harry Potter books
-      </ol>
-      <ul class="runner-ups">
-        <li>Stargate
-        <li>Isaac Asimov
-        <li>Wizard of Oz books
-        <li>A Wrinkle in Time
-        <li>Legend of the Seeker 
-        <li>Eureka
-        <li>Battle Royale
-        <li>Star Wars expanded universe novels
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.interested %}
 
 {% arc %}Off the top of my head, I think the only one either host ended up disliking was {% work "Farscape" %}.{% endarc %}
 
@@ -116,45 +134,7 @@ Ben quit halfway through the last {% work "Sword of Truth" %} book. {% arc %}Ver
   <q class="ben">Take that, Joe!</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Things We've Never Checked Out and Have No Desire to Do So</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Superhero comics
-        <li>The Dresden Files books
-        <li>The original Planet of the Apes movies 
-        <li>Stargate SG-1
-        <li>Star Trek
-      </ol>
-      <ul class="runner-ups">
-        <li>Alias
-        <li>ET
-        <li>Alien vs Predator
-        <li>The Hunger Games 
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Supernatural
-        <li>Futurama
-        <li>The original Battlestar Galactica
-        <li>World of Warcraft 
-        <li>Anime
-      </ol>
-      <ul class="runner-ups">
-        <li>Alphas
-        <li>Terra Nova
-        <li>Vampire Diaries
-        <li>Charmed
-        <li>Warehouse 13
-        <li>Being Human
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.uninterested %}
 
 {% timeLink {url:podcast_file_url, t:'41:50'} %} Sci-Fi Christian Story Time: Matt has a Zombie Nightmare
 

@@ -26,7 +26,20 @@ sponsors:
   - Casey
   - Josh
 
-notable_moments:
+countdowns:
+  movies:
+    title: Top 3 Anticipated Summer Movies
+    ben:
+      list:
+        - Elysium
+        - Man of Steel
+        - Star Trek Into Darkness
+    matt: 
+      list:
+        - Elysium
+        - Man of Steel
+        - Star Trek Into Darkness
+        - Iron Man 3
 firsts:
   - Re-recording the intro
 future_episodes:
@@ -72,28 +85,7 @@ Christopher Lee is Ben's favorite actor.
 
 Matt refuses to say the title of the movie {% work "Kickass 2" %}.
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 3 Anticipated Summer Movies</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Elysium
-        <li>Man of Steel
-        <li>Star Trek Into Darkness
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Elysium
-        <li>Man of Steel
-        <li>Star Trek Into Darkness
-        <li>Iron Man 3
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.movies %}
 
 Still excited about {% work "The Hobbit: Desolation of Smaug" %}
 

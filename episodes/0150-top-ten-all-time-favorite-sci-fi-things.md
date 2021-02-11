@@ -18,7 +18,77 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  current:
+    title: Top 10 Current Sci-Fi Favorites
+    ben:
+      list:
+        - Bioshock video games
+        - The Chronicles of Narnia 
+        - Anathem
+        - Doctor Who and Torchwood 
+        - The Iliad
+      extra:
+        - Game of Thrones
+        - Christopher Priest novels
+    matt: 
+      list:
+        - The Twilight Zone
+        - Star Trek
+        - Arrow
+        - Angel
+        - Buffy the Vampire Slayer 
+      extra:
+        - Space Trilogy
+        - Revolution 
+        - Once Upon a Time 
+        - Doctor Who 
+  allTime:
+    title: Top 10 All-Time Sci-Fi Favorites
+    ben:
+      list:
+        - Dune
+        - Dan Simmons novels
+        - Firefly and Buffy 
+        - The Dark Knight trilogy
+        - The Chronicles of Narnia
+        - A Song of Ice and Fire 
+        - Lord of Light
+        - The Empire Strikes Back
+        - Epic poetry (Homer, Paradise Lost, The Divine Comedy)
+        - The Lord of the Rings
+      extra:
+        - A New Hope and Return of the Jedi
+        - Battlestar Galactica 
+        - Christopher Nolan's other movies
+    matt: 
+      list:
+        - Alias
+        - Spider-Man
+        - Battlestar Galactica
+        - The X-Files
+        - Star Wars
+        - The Chronicles of Narnia 
+        - Back to the Future 
+        - All things Joss Whedon 
+        - Batman
+        - LOST
+      extra:
+        - Star Trek
+        - Inception
+        - The Prestige 
+        - X-Men 
+        - Quantum Leap
+        - Sliders 
+  tv:
+    title: Top 5 All-Time TV Shows
+    ben:
+      list:
+        - Game of Thrones or Breaking Bad
+        - Firefly
+        - Buffy the Vampire Slayer
+        - Mad Men
+        - The Wire
 firsts:
   - Top 10
 future_episodes:
@@ -37,41 +107,7 @@ Matt is wearing an Epic Life t-shirt
 
 # Main Topic
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 10 Current Sci-Fi Favorites</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Bioshock video games
-        <li>The Chronicles of Narnia 
-        <li>Anathem
-        <li>Doctor Who and Torchwood 
-        <li>The Iliad
-      </ol>
-      <ul class="runner-ups">
-        <li>Game of Thrones
-        <li>Christopher Priest novels
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The Twilight Zone
-        <li>Star Trek
-        <li>Arrow
-        <li>Angel
-        <li>Buffy the Vampire Slayer 
-      </ol>
-      <ul class="runner-ups">
-        <li>Space Trilogy
-        <li>Revolution 
-        <li>Once Upon a Time 
-        <li>Doctor Who 
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.current %}
 
 Ben doesn't recommend reading {% work "The Wheel of Time" %}.
 
@@ -89,54 +125,7 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
   <q class="matt">I felt blessed to be able to view this great show!</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 10 All-Time Sci-Fi Favorites</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Dune
-        <li>Dan Simmons novels
-        <li>Firefly and Buffy 
-        <li>The Dark Knight trilogy
-        <li>The Chronicles of Narnia
-        <li>A Song of Ice and Fire 
-        <li>Lord of Light
-        <li>The Empire Strikes Back
-        <li>Epic poetry (Homer, Paradise Lost, The Divine Comedy)
-        <li>The Lord of the Rings
-      </ol>
-      <ul class="runner-ups">
-        <li>A New Hope and Return of the Jedi
-        <li>Battlestar Galactica 
-        <li>Christopher Nolan's other movies
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Alias
-        <li>Spider-Man
-        <li>Battlestar Galactica
-        <li>The X-Files
-        <li>Star Wars
-        <li>The Chronicles of Narnia 
-        <li>Back to the Future 
-        <li>All things Joss Whedon 
-        <li>Batman
-        <li>LOST
-      </ol>
-      <ul class="runner-ups">
-        <li>Star Trek
-        <li>Inception
-        <li>The Prestige 
-        <li>X-Men 
-        <li>Quantum Leap
-        <li>Sliders 
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.allTime %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'35:00'} %}
@@ -145,21 +134,7 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
   <q class="matt">No, I don't think we feel exactly the same on that.</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 All-Time TV Shows</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Game of Thrones or Breaking Bad
-        <li>Firefly
-        <li>Buffy
-        <li>Mad Men
-        <li>The Wire
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.tv %}
 
 C. S. Lewis said {% work "The Lord of the Rings" %} is the greatest work of literature since {% work "The Odyssey" %}.
 

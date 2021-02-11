@@ -32,7 +32,7 @@ quotes:
     
 last_listen: 2020-03-05
 recommendation: essential
-recommendation_reason: 
+recommendation_reason: The best hiatus countdown continues
 ---
 
 <ol start="70" reversed>

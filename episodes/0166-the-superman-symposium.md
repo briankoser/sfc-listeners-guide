@@ -18,8 +18,33 @@ hosts:
 guests:
   - Rick Lee James
 
-notable_moments:
-manOfSteelRating:
+countdowns:
+  cons:
+    title: 8 Cons about Man of Steel
+    guests:
+      - name: Rick Lee James
+        list:
+          - Women in media are objectifying Henry Cavill.
+          - Why did Clark reveal himself to everyone? 
+          - Why did The Daily Planet get all their news from CNN? 
+          - Why was there a USB port in Lois's jail cell? 
+          - Why did Superman only save Lois? 
+          - Did Superman rebuild Metropolis?
+          - The prequel comic should not be required reading.
+          - Earth would have been better off if Kal-El had died on Krypton.
+  pros:
+    title: 8 Pros about Man of Steel
+    guests:
+      - name: Rick Lee James
+        list:
+          - Christ-like symbolism
+          - Good acting
+          - Definition of faith
+          - Jonathan Kent's quote "I am your father"
+          - Kal El's mom's quote "Make a better world than ours"
+          - Brief origin story. Like Jesus.
+          - Tone not too dark
+rating:
   ben: 4
   matt: 4
   guests:
@@ -36,26 +61,7 @@ The first version of Superman was a bald villain.
 
 Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic book character adaptation.
 
-{% rating manOfSteelRating %}
-
-<div class="top-five">
-  <h2 class="has-text-centered">8 Cons about {% work "Man of Steel" %}</h2>
-  <div class="columns">
-    <div class="column">
-      <h3>Rick</h3>
-      <ol reversed>
-        <li>Women in media are objectifying Henry Cavill.
-        <li>Why did Clark reveal himself to everyone? 
-        <li>Why did The Daily Planet get all their news from CNN? 
-        <li>Why was there a USB port in Lois's jail cell? 
-        <li>why did Superman only save Lois? 
-        <li>Did Superman rebuild Metropolis?
-        <li>The prequel comic should not be required reading.
-        <li>Earth would have been better off if Kal-El had died on Krypton.
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.cons %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'59:57'} %}
@@ -69,29 +75,13 @@ Ben wants to modify Newman's Theory of Doctrinal Development to apply to comic b
 
 Ben owns a Windows phone. 
 
-<div class="top-five">
-  <h2 class="has-text-centered">8 Pros about {% work "Man of Steel" %}</h2>
-  <div class="columns">
-    <div class="column">
-      <h3>Rick</h3>
-      <ol reversed>
-        <li>Christ-like symbolism
-        <li>Good acting
-        <li>Definition of faith
-        <li>Jonathan Kent's quote "I am your father"
-        <li>Kal El's mom's quote "Make a better world than ours"
-        <li>Brief origin story. Like Jesus.
-        <li>Tone not too dark
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.pros %}
 
 Ben jokes that Superman is probably a Catholic. {% arc %}Actually, he's <a href="http://www.adherents.com/lit/comics/Superman.html">Methodist</a>.{% endarc %}
 
 Patriotism to the extreme is wrong, as shown by Zod.
 
-Rick says God doesn't recognize country borders. {% arc %}I don't think you can say that definitively. He definitely deals with countries separately in the Old Testament, which I think requires borders; the counter-argument is that he didn't explicitly condemn polygamy or slavery either. I suppose you could argue that Paul invalidated borders when he said "There is neither Jew nor Greek" (Gal. 3:28), but I would say that was not what he meant at all.{% endarc %}
+Rick says God doesn't recognize country borders. {% arc %}He definitely deals with countries separately in the Old Testament, which I think requires borders. Maybe the counter is that Paul invalidated borders when he said "There is neither Jew nor Greek" (Gal. 3:28)?{% endarc %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'1:44:52'} %}

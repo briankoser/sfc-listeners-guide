@@ -18,12 +18,33 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Matt and Ben open calmly.
+countdowns:
+  best:
+    title: Top 5 Choices for the 12th Doctor
+    ben:
+      list:
+        - Benedict Cumberbatch
+        - Idris Elba
+        - David Tennant
+        - Ben Winshaw
+        - Helen Mirren
+    matt: 
+      list:
+        - President Obama
+  worst:
+    title: Top 5 Worst Choices for the 12th Doctor
+    ben:
+      list:
+        - Russell Tovey
+        - Previous companions
+        - Anyone chosen for PC reasons instead of ability
+        - Daniel Radcliffe
+        - Rupert Grint
 firsts:
   - Lost audio
 future_episodes:
   - Star Trek roundtable
+odd_opening: Matt and Ben open calmly.
 
 last_listen: 2018-12-28
 recommendation: no
@@ -42,43 +63,9 @@ What the Frodo: Whoopi Goldberg was cast in {% work "Teenage Mutant Ninja Turtle
 
 Matt Smith is actually leaving {% work "Doctor Who" %}. 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 choices for the 12th Doctor</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Benedict Cumberbatch
-        <li>Idris Elba
-        <li>David Tennant
-        <li>Ben Winshaw
-        <li>Helen Mirren
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>President Obama
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.best %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Worst choices for the 12th Doctor</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Russell Tovey
-        <li>Previous companions
-        <li>Anyone chosen for PC reasons instead of ability
-        <li>Daniel Radcliffe
-        <li>Rupert Grint 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.worst %}
 
 What the Frodo: people set up a {% work "Battlestar Galactica" %} LARP on a retired Swedish battleship.
 

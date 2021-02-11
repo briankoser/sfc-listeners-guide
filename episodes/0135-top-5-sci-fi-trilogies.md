@@ -19,7 +19,58 @@ sponsors:
   - Josh and Casey Lawson
   - Ethan
 
-notable_moments:
+countdowns:
+  best:
+    title: Top 5 Sci-Fi Trilogies
+    ben:
+      list:
+        - The Prince of Nothing
+        - Star Wars
+        - The Dark Knight Trilogy
+        - The Divine Comedy
+        - The Lord of the Rings
+      extra:
+        - Back to the Future
+        - The Matrix
+        - Indiana Jones
+        - Toy Story
+        - The First Law Trilogy
+    matt: 
+      list:
+        - The Lord of the Rings
+        - The Matrix
+        - Back to the Future 
+        - The Dark Knight Trilogy
+        - Star Wars
+      extra:
+        - The Bourne Trilogy
+        - Austin Powers
+        - The Circle Trilogy
+        - Toy Story
+        - The Hunger Games
+  worst:
+    title: Top 5 Worst Sci-Fi Trilogies
+    ben:
+      list:
+        - Pirates of the Caribbean
+        - Star Wars prequels
+        - Shannara Trilogy
+        - The Iron Tower
+        - Sovereign Stone Trilogy
+      extra:
+        - Jurassic Park
+        - Spider-Man
+        - X-Men
+        - The Terminator
+        - The Mummy
+        - The Space Trilogy
+    matt: 
+      list:
+        - Jurassic Park
+        - Star Wars prequels
+        - Teenage Mutant Ninja Turtles 
+        - Spider-Man
+        - X-Men
 
 last_listen: 2018-10-23
 recommendation: no
@@ -27,79 +78,9 @@ recommendation_reason: Not a super interesting discussion.
 ---
 
 # Main Topic
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Trilogies</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>The Prince of Nothing
-        <li>Star Wars
-        <li>The Dark Knight Trilogy
-        <li>The Divine Comedy
-        <li>The Lord of the Rings 
-      </ol>
-      <ul class="runner-up ">
-        <li>Back to the Future 
-        <li>The Matrix
-        <li>Indiana Jones
-        <li>Toy Story
-        <li>The First Law Trilogy
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The Lord of the Rings 
-        <li>The Matrix
-        <li>Back to the Future 
-        <li>The Dark Knight Trilogy
-        <li>Star Wars
-      </ol>
-      <ul class="runner-ups">
-        <li>The Bourne Trilogy
-        <li>Austin Powers
-        <li>The Circle Trilogy
-        <li>Toy Story
-        <li>The Hunger Games
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.best %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Worst Sci-Fi Trilogies</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Pirates of the Caribbean
-        <li>Star Wars prequels
-        <li>Shannara Trilogy
-        <li>The Iron Tower
-        <li>Sovereign Stone Trilogy
-      </ol>
-      <ul class="runner-ups">
-        <li>Jurassic Park
-        <li>Spider-Man
-        <li>X-Men
-        <li>The Terminator
-        <li>The Mummy
-        <li>The Space Trilogy
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Jurassic Park
-        <li>Star Wars prequels
-        <li>Teenage Mutant Ninja Turtles 
-        <li>Spider-Man
-        <li>X-Men
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.worst %}
 
 Ben and Matt are both reading {% work "Out of the Silent Planet" %} for the Strangers and Aliens book club. Both dislike the book.
 

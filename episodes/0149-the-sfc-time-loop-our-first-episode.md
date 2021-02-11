@@ -18,7 +18,59 @@ hosts:
 time_loop_backward: 
   - number: 1
 
-notable_moments:
+countdowns:
+  current:
+    title: Top 5 Current Sci-Fi Favorites
+    ben:
+      list:
+        - Wheel of Time
+        - Fringe
+        - Graphic novels (Fables, Sandman) 
+        - Ink
+        - Joss Whedon shows
+    matt: 
+      list:
+        - Scott Pilgrim
+        - The Avengers
+        - Star Trek
+        - Fringe
+        - Joss Whedon shows
+  allTime:
+    title: 
+    ben:
+      list:
+        - Battlestar Galactica
+        - Dune
+        - Lord of Light
+        - Firefly
+        - Star Wars
+      extra:
+        - The X-Files
+        - Fahrenheit 451
+        - LOST
+        - Aliens
+        - Inverted World
+        - Matrix
+        - Dark City
+    matt: 
+      list:
+        - Star Wars
+        - Circle Trilogy
+        - Spider-Man and Batman
+        - Back to the Future
+        - LOST
+      extra:
+        - The Chronicles of Narnia
+        - Planet of the Apes
+        - Sliders
+        - X-Files
+        - Battlestar Galactica
+        - Quantum Leap
+        - The Matrix
+        - Alias
+        - Groundhog Day
+        - Daybreak
+        - X-Men
 
 last_listen: 2018-12-05
 recommendation: yes
@@ -108,31 +160,7 @@ Ben likes superhero movies and TV shows.
 
 ## Main Topic
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Current Sci-Fi Favorites</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Wheel of Time
-        <li>Fringe
-        <li>Graphic novels (Fables, Sandman) 
-        <li>Ink
-        <li>Joss Whedon shows
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Scott Pilgrim
-        <li>The Avengers
-        <li>Star Trek
-        <li>Fringe
-        <li>Joss Whedon shows
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.current %}
 
 Ben did only sci-fi, no fantasy {% arc %}{% work "The Wheel of Time" %} isn't fantasy?{% endarc %}
 
@@ -236,53 +264,7 @@ Ben calls it "The Crappening".
 
 {% work "Firefly" %} is Ben's favorite show of all time
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 All-Time Sci-Fi Things</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Battlestar Galactica
-        <li>Dune
-        <li>Lord of Light
-        <li>Firefly
-        <li>Star Wars
-      </ol>
-      <ul>
-        <li>X-Files 
-        <li>Fahrenheit 451
-        <li>LOST
-        <li>Aliens
-        <li>Inverted World
-        <li>Matrix
-        <li>Dark City
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Star Wars
-        <li>Circle Trilogy
-        <li>Spider-Man and Batman
-        <li>Back to the Future
-        <li>LOST
-      </ol>
-      <ul>
-        <li>The Chronicles of Narnia
-        <li>Planet of the Apes
-        <li>Sliders
-        <li>X-Files
-        <li>Battlestar Galactica
-        <li>Quantum Leap
-        <li>The Matrix
-        <li>Alias
-        <li>Groundhog Day
-        <li>Daybreak
-        <li>X-Men
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.allTime %}
 
 <div class="review clearfix is-size-4">
   <header>Batman: Year 1</header>

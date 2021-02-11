@@ -24,7 +24,14 @@ guests:
 sponsors:
   - Dawn
 
-notable_moments:
+countdowns:
+  deaths:
+    title: 3 Recent Deaths
+    ben:
+      list:
+        - James Gandolfini
+        - Vince Flynn
+        - Richard Matheson
 firsts:
   - Appearance of Des
   - Recording at BAM Studios
@@ -64,19 +71,7 @@ What the Frodo: a Captain Planet movie is coming
 
 {% timeLink {url:podcast_file_url, t:'26:46'} %} Racist News of the Day
 
-<div class="top-five">
-  <h2 class="has-text-centered">3 Recent Deaths</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>James Gandolfini 
-        <li>Vince Flynn
-        <li>Richard Matheson 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.deaths %}
 
 {% timeLink {url:podcast_file_url, t:'30:43'} %} Matt wants news to brighten him up after the obituaries, so Ben introduces a new segment: Encouraging Signs.
 

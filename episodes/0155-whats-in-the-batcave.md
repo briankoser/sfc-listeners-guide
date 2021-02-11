@@ -19,7 +19,31 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  some:
+    title: Some things in the Batcave
+    matt: 
+      list:
+        - Penguin artifacts
+        - Mummy case
+        - Giant-sized big dice
+        - Red Hood's costume
+        - Giant chess pieces
+        - Thomas Wayne's "The Batman" costume
+        - Jason Todd's Robin costume
+        - Oversize Joker card
+        - Mechanical dinosaur
+        - Giant penny
+  more:
+    title: Six more things in the Batcave
+    matt: 
+      list:
+        - Two Face's original coins
+        - Deathstroke's sword
+        - Vampiric shroud 
+        - Giant bowling pins
+        - Skull of Hunter Rose
+        - Letter written by alternate universe Thomas Wayne
 odd_opening: Ben chants "What's in the Batcave" as Matt opens.
 
 last_listen: 2018-12-21
@@ -68,26 +92,7 @@ Matt lists a bunch of things in the Batcave.
   <q class="ben">No he didn't. OK, this is officially the hidden background of the Batcave: Batman executed a whole slew of workers who helped him construct all this crap. That is the only possible explanation. 'I don't kill! Unless it's to protect the Batcave.'</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Some things in the Batcave</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Penguin artifacts
-        <li>Mummy case
-        <li>Giant-sized big dice
-        <li>Red Hood's costume
-        <li>Giant chess pieces
-        <li>Thomas Wayne's "The Batman" costume
-        <li>Jason Todd's Robin costume
-        <li>Oversize Joker card
-        <li>Mechanical dinosaur
-        <li>Giant penny
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.some %}
 
 {% arc %}Matt doesn't say what makes it onto the list. I think halfway through listing the items he decided to start putting them on a countdown.{% endarc %}
 
@@ -127,23 +132,9 @@ Matt lists a bunch of things in the Batcave.
   <q class="ben">Oh. Against it against it against it against it against it.</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Six more things in the Batcave</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Two Face's original coins
-        <li>Deathstroke's sword
-        <li>Vampiric shroud 
-        <li>Giant bowling pins
-        <li>Skull of Hunter Rose
-        <li>Letter written by alternate universe Thomas Wayne
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.more %}
 
+<!-- Keep out of shortcode so we can have two #6 entries -->
 <div class="top-five">
   <h2 class="has-text-centered">Vehicles in the Batcave</h2>
   <div class="columns">

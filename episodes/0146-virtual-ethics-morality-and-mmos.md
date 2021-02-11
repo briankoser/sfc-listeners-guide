@@ -22,7 +22,15 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  ticket:
+    title: Top 4 Reasons Ben Shouldn't Get a Parking Ticket
+    ben:
+      list:
+        - No one explained to him that there were lots he couldn't park in.
+        - The signage around the lots is inadequate and confusing. 
+        - A warning would have been sufficient. 
+        - It was an employee space and he is a student worker. 
 future_episodes:
   - "Virtual Ethics: File sharing"
 
@@ -62,17 +70,4 @@ Ben thinks cheating at checkers is not a sin.
 
 {% timeLink {url:podcast_file_url, t:'45:39'} %} Sci-Fi Christian Story Time: Ben appeals his parking ticket
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 4 Reasons Ben Shouldn't Get a Parking Ticket</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>No one explained to him that there were lots he couldn't park in. 
-        <li>The signage around the lots is inadequate and confusing. 
-        <li>A warning would have been sufficient. 
-        <li>It was an employee space and he is a student worker. 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.ticket %}

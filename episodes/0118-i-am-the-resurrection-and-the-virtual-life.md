@@ -17,10 +17,19 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben makes "pow pow pow" sound effects
+countdowns:
+  issues:
+    title: Five Potential Moral Issues with Living in a Virtual World
+    ben:
+      list:
+        - Morality - morality seems to erode the further we get into a virtual environment
+        - Justice - we neglect our duty to others
+        - Identity - when we can be anything, identity becomes fluid and self improvement is unnecessary
+        - Gnostic - embraces the gnostic worldview of flesh bad, spirit good
+        - Eucharistic - communion grounds our worship in physicality
 future_episodes:
   - Ethics in MMOs
+odd_opening: Ben makes "pow pow pow" sound effects
 
 last_listen: 2018-09-25
 recommendation: essential
@@ -44,21 +53,7 @@ Would the Great Commission compel us to jack in to a virtual world if a large nu
 
 Could we have a church if a group of Christians decided to live in the virtual world?
 
-<div class="top-five">
-  <h2 class="has-text-centered">Five Potential Moral Issues with Living in a Virtual World</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Morality - morality seems to erode the further we get into a virtual environment
-        <li>Justice - we neglect our duty to others
-        <li>Identity - when we can be anything, identity becomes fluid and self improvement is unnecessary
-        <li>Gnostic - embraces the gnostic worldview of flesh bad, spirit good
-        <li>Eucharistic - communion grounds our worship in physicality
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.issues %}
 
 {% timeLink {url:podcast_file_url, t:'54:55'} %} Sci-Fi Christian Story Time: Cleverbot meets Ben De Bono
 

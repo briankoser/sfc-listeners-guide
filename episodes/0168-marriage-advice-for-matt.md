@@ -19,12 +19,36 @@ hosts:
 guests:
   - Des Anderson
 
-notable_moments:
-odd_opening: Matt says his name wrong in the opening.
+countdowns:
+  reini:
+    title: Marriage Advice
+    guests:
+      - name: Allan Reini
+        list:
+          - Can always improve
+          - Pray together
+          - Good conversations happen after crying
+          - Get away together
+          - Put your spouses needs first
+          - Share a sense of humor
+          - Display the character of Christ in everything
+          - Be a student of marriage
+          - Don't let expectations exceed reality
+          - Never criticise each other publically
+  ben:
+    title: Top 5 Pieces of Marriage Advice
+    ben:
+      list:
+        - Have kids sooner rather than later
+        - Learn to know each other's needs and rhythms
+        - Be aware that there are things that seem normal to you that will make your spouse say, "What the Frodo?"
+        - Change each other and be willing to be changed.
+        - Avoid projecting your own issues onto your spouse.
 firsts:
   - Parental warning 
 future_episodes:
   - Behind the Scenes 
+odd_opening: Matt says his name wrong in the opening.
 
 last_listen: 2019-01-30
 recommendation: yes
@@ -86,33 +110,13 @@ recommendation_reason: Fun interaction with Des, plus some good advice.
 
 
 # Advice
-
 Casey: communication, date night, no negative words about each other, make traditions
 
 Matt doesn't like seafood.
 
 Dawn: show your love, be best friends
 
-<div class="top-five">
-  <h2 class="has-text-centered">Marriage advice</h2>
-  <div class="columns">
-    <div class="column">
-      <h3>Allan Reini</h3>
-      <ol reversed>
-        <li>Can always improve</li>
-        <li>Pray together</li>
-        <li>Good conversations happen after crying</li>
-        <li>Get away together</li>
-        <li>Put your spouses needs first</li>
-        <li>Share a sense of humor</li>
-        <li>Display the character of Christ in everything</li>
-        <li>Be a student of marriage</li>
-        <li>Don't let expectations exceed reality</li>
-        <li>Never criticise each other publically</li>
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.reini %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'17:40'} %}
@@ -143,21 +147,7 @@ Andrew: don't throw away your Spider-Man suit
 
 JS Earls: women want sympathy, not solutions
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Pieces of Marriage Advice</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Have kids sooner rather than later</li>
-        <li>Learn to know each other's needs and rhythms</li>
-        <li>Be aware that there are things that seem normal to you that will make your spouse say, "What the Frodo?"</li>
-        <li>Change each other and be willing to be changed.</li>
-        <li>Avoid projecting your own issues onto your spouse.</li>
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.ben %}
 
 Steve Walker from Australia: study marriage together, have kids soon, do devotions together, prioritize each other over kids, pray together, play together, plan vacations, talk about the things you read and watch, expect tough times, have fun
 
@@ -166,7 +156,6 @@ Ben is Right: Steve agreed to have kids early
 
 
 # The Matt Anderson quiz
-
 Matt asks Des questions about himself and sci-fi. If she misses, Ben can steal. 
 
 <table class="table is-striped">
@@ -278,7 +267,7 @@ Matt asks Des questions about himself and sci-fi. If she misses, Ben can steal.
   </tbody>
 </table>
 
-{% arc %}I took the quiz and missed only Power Rangers and favorite color.{% endarc %}
+{% arc %}I took the quiz and missed Power Rangers and favorite color. 💪{% endarc %}
  
 Jonathan: you can't take what you say back
 
