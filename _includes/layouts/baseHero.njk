@@ -1,13 +1,11 @@
 ---
 layout: layouts/base.njk
+backgroundImage: meteor
 ---
-<section class="hero is-primary">
+<section class="hero site-hero is-primary">
     <div class="hero-head">
         <header class="navbar is-primary">
             <h1 class="navbar-brand">
-                <span class="navbar-item">
-                    <img src="/img/two-logo-flat.png">
-                </span>
                 <div class="navbar-burger" data-target="navMenu">
                     <span></span>
                     <span></span>
@@ -29,6 +27,8 @@ layout: layouts/base.njk
     </div>
 </section>
 
-<main class="container">
-    {{ layoutContent | safe }}
-</main>
+<div class="section">
+    <main class="container content home">
+        {{ layoutContent | safe }}
+    </main>
+</div>

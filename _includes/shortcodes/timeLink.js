@@ -9,5 +9,5 @@ module.exports = function (data, metadata) {
 
     let paddedTime = timePieces.map(x => x.padStart(2, '0')).join(':');
 
-    return `<a class="timestamp tag is-medium is-rounded is-primary" href="${linkUrl}#t=${paddedTime}">${data.t}</a>`;
+    return `<a class="timestamp tag" href="${linkUrl}#t=${paddedTime}">${data.t}</a>`;
 }

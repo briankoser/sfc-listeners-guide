@@ -13,12 +13,12 @@
     --color-primary: hsl(192, 78%, 58%); /* duplicated in main.scss for bulma */
     --color-primary-light: hsl(192, 78%, 80%);
     --color-black: black;
-    --color-blue: hsl(258, 84%, 48%);
+    --color-blue: hsl(258, 90%, 64%);
     --color-blue-transparent: hsla(258, 84%, 48%, 0.2);
     --color-dark-grey: hsl(0, 0%, 14%);
     --color-green: hsl(141, 71%, 48%);
     --color-medium-grey: hsl(0, 0%, 21%);
-    --color-orange: hsl(33, 99%, 54%);
+    --color-orange: hsl(33, 90%, 64%);
     --color-orange-transparent: hsla(33, 99%, 54%, 0.2);
     --color-pink: hsl(350, 100%, 74%);
     --color-pink-transparent: hsla(350, 100%, 74%, 0.2);
@@ -59,23 +59,40 @@
 ******************************************************************************/
 body {
     font-family: 
-        'Ubuntu',
-        'Segoe UI',
-		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji',
-        'Segoe UI Symbol';
+    'IBM Plex Sans', 
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
     font-size: 20px;
+    font-weight: 450;
     font-variant-numeric: oldstyle-nums;
+    line-height: 1.4;
+}
+
+main {
+    background-color: var(--color-black);
+    padding: 1rem .5rem;
 }
 
 main.container {
     margin-bottom: 2em;
 }
 
+body > div > .section {
+    padding: 0;
+}
+
 p {
     -webkit-hyphens: auto;
             hyphens: auto;
+    margin-top: 1.4em;
+}
+
+footer p,
+.card p,
+.level p {
+    margin-top: 0;
 }
 
 blockquote {
@@ -200,10 +217,7 @@ span[data-name]::before {
 }
 
 q {
-    background-color: var(--color-medium-grey);
-    border-radius: 10px;
     display: table;
-    padding: 0.2em;
 }
 
 q a {
@@ -250,9 +264,30 @@ cite i {
 /******************************************************************************
   STRUCTURE CLASSES
 ******************************************************************************/
-.hero.is-primary,
-.navbar.is-primary {
-    text-shadow: black 0px 0px 3px;
+.navbar {
+    border: none;
+}
+
+.site-hero .title,
+.navbar-brand {
+    font-family: 
+        "Sonic W01 Extra Bold",
+        'IBM Plex Sans', 
+        sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    font-size: 5rem;
+}
+
+.site-hero .subtitle {
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: -1ch;
+}
+
+.background-image-meteor {
+    background-image: url("/img/meteor.png");
 }
 
 .hero-foot {
@@ -267,10 +302,6 @@ main > h1 {
     margin-top: 1em;
 }
 
-main > .content {
-    margin: 2em 0;
-}
-
 main .hero {
     margin-bottom: 1.5rem;
 }
@@ -279,16 +310,28 @@ main .hero {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 768px) {
+    .level-item:not(:last-child) {
+        margin-bottom: 2.1em;
+    }
+}
+
+.footer {
+    background-color: var(--color-dark-grey);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 3rem 1.5rem;
+}
+
 
 
 /******************************************************************************
   HOME CLASSES
 ******************************************************************************/
+.home .journey,
 .home .recommendations,
-.home .historical-record,
-.home .stats,
-.home .testimonials {
-    margin-bottom: 4em;
+.home .stats {
+    margin-bottom: 8em;
 }
 
 .home .recommendations .notification {
@@ -300,19 +343,47 @@ main .hero {
     transition: var(--transition-time);
 }
 
+.home .journey {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.home .journey a {
+    margin-left: 0.7ex;
+    margin-right: 1ex;
+}
+
+.home .journey .feather {
+    height: 3rem;
+    width: 3rem;
+}
+
+@media (max-width: 768px) {
+    .home .journey {
+        flex-direction: column;
+    }
+  
+    .home .journey a {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 .notification.is-warning h2 {
     color: var(--color-black);
 }
 
 .testimonial {
-    padding: 1.25rem 1.25rem 35px 55px;
+    min-height: 7rem;
+    padding: 1.7rem 1.25rem 35px 80px;
     position: relative;
 }
 
 .testimonial::before {
     content: "“";
     font-family: Georgia, serif;
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bold;
     position: absolute;
     left: 10px;
@@ -324,14 +395,6 @@ main .hero {
     position: absolute;
     right: 55px;
     bottom: 5px;
-}
-
-.testimonial.ben {
-    background-color: var(--color-blue-transparent);
-}
-
-.testimonial.matt {
-    background-color: var(--color-orange-transparent);
 }
 
 
@@ -352,6 +415,12 @@ main .hero {
 /******************************************************************************
   CARD CLASSES
 ******************************************************************************/
+.card,
+.card-header-title,
+.card-footer {
+    font-weight: 400;
+}
+
 .card-footer a {
     line-height: 1;
 }
@@ -430,15 +499,14 @@ main .hero {
     margin-top: 6em;
 }
 
-a.tag.timestamp.is-rounded {
+a.tag.timestamp {
     background-color: initial;
     border-top: 2px solid var(--color-white);
     border-left: 2px solid var(--color-white);
-    border-radius: 10px;
     margin-right: 0.5em;
 }
 
-a.tag.timestamp.is-rounded:hover {
+a.tag.timestamp:hover {
     background-color: var(--color-primary);
     text-shadow: var(--color-black) 0px 0px 2px;
     text-decoration: none;
@@ -450,8 +518,12 @@ a.tag.timestamp.is-rounded:hover {
 }
 
 @media (max-width: 768px) {
-    .hero-body h1.title {
-        font-size: 2rem;
+    .site-hero .title {
+        font-size: 4rem;
+    }
+
+    .site-hero .subtitle {
+        font-size: 1.6rem;
     }
 }
 
@@ -480,7 +552,9 @@ a.tag.timestamp.is-rounded:hover {
 }
 
 .episode-list .card-header-icon {
-    justify-content: left;
+    justify-content: right;
+    font-size: 1rem;
+    flex-basis: 11em;
 }
 
 .episode-list .card-footer a:hover {
@@ -499,6 +573,7 @@ a.tag.timestamp.is-rounded:hover {
 
     .episode-list .card-header-icon {
         padding: 0 0.75rem 0.75rem 0.75rem;
+        flex-basis: initial;
     }
 }
 
@@ -531,95 +606,40 @@ a.tag.timestamp.is-rounded:hover {
 }
 
 
-
-/******************************************************************************
-  CATEGORY CLASSES
-******************************************************************************/
-.category-countdown::after,
-.category-feedback::after,
-.category-literature::after,
-.category-main-topic::after,
-.category-news::after,
-.category-philosophy::after,
-.category-review::after,
-.category-theology::after {
-    padding-left: 3px;
-}
-
-.category-countdown::after {
-    content: '🚀';
-}
-
-.category-feedback::after {
-    content: '📪';
-}
-
-.category-literature::after {
-    content: '📚';
-}
-
-.category-main-topic::after {
-    content: '🌌';
-}
-
-.category-news::after {
-    content: '📰';
-}
-
-.category-philosophy::after {
-    content: '💭';
-}
-
-.category-review::after {
-    content: '👍';
-}
-
-.category-theology::after {
-    content: '⛪';
-}
-
-
-
 /******************************************************************************
   ARCHIVIST/HOST CLASSES
 ******************************************************************************/
 .archivist {
-    background-color: var(--color-primary);
-    color: var(--color-black);
+    color: var(--color-primary);
 }
 
-.archivist h3 {
-    color: var(--color-black);
+.archivist-name,
+q.archivist::before {
+    font-family: 
+        "Sonic W01 Extra Bold",
+        'IBM Plex Sans', 
+        sans-serif;
 }
 
 .ben {
-    background-color: var(--color-blue);
-    color: var(--color-white);
+    color: var(--color-blue);
 }
 
 .listeners {
-    background-color: var(--color-medium-grey);
-    color: var(--color-white);
+    color: var(--color-medium-grey);
 }
 
 .matt,
 .roger {
-    background-color: var(--color-orange);
-    color: var(--color-white);
+    color: var(--color-orange);
 }
 
 .daniel {
-    background-color: var(--color-purple);
-    color: var(--color-white);
+    color: var(--color-purple);
 }
 
 .koby {
-    background-color: var(--color-pink);
-    color: var(--color-black);
-}
-
-.koby h3 {
-    color: var(--color-black);
+    color: var(--color-pink);
 }
 
 
@@ -640,19 +660,23 @@ a.tag.timestamp.is-rounded:hover {
 }
 
 
-.card.Ben .card-header {
+.card.Ben .card-header,
+.prophecy header.ben {
     background-color: var(--color-blue-transparent);
 }
 
-.card.Matt .card-header {
+.card.Matt .card-header,
+.prophecy header.matt {
     background-color: var(--color-orange-transparent);
 }
 
-.card.Daniel .card-header {
+.card.Daniel .card-header,
+.prophecy header.daniel {
     background-color: var(--color-purple-transparent);
 }
 
-.card.Koby .card-header {
+.card.Koby .card-header,
+.prophecy header.koby {
     background-color: var(--color-pink-transparent);
 }
 
@@ -728,6 +752,8 @@ q.koby::before {
   PROPHECY CLASSES
 ******************************************************************************/
 .prophecy {
+    background-color: var(--color-medium-grey);
+    border-radius: 0 7px 7px 0;
     display: flex;
     max-width: 650px;
     margin-bottom: 1em;
@@ -876,7 +902,7 @@ div[data-rating='dont-know']::after {
 }
 
 .season-list .card {
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
 
 .season-nav {
@@ -1016,9 +1042,3 @@ footer.footer .feather {
 .odd-openings div {
     margin-bottom: 1em;
 }
-
-
-
-/******************************************************************************
-  PRINT STYLES
-******************************************************************************/

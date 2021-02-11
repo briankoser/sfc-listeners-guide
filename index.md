@@ -1,9 +1,12 @@
 ---
 layout: baseHero
 ---
-<div class="content home">
-    
-<h1>Recommendations</h1>
+
+<h1 class="journey title is-4">
+    Follow me on a journey through every episode of <a href="http://thescifichristian.com/">The Sci-Fi Christian podcast</a> {% icon "fast-forward" %}
+</h1>
+
+# Recommendations
 <div class="columns recommendations">
     <div class="column is-one-quarter">
         <a href="/episodes/?r=essential">
@@ -39,28 +42,6 @@ layout: baseHero
     </div>
 </div>
 
-<div class="columns historical-record">
-    <div class="column is-half">
-        <h1>Stats and Minutiae</h1>
-            The guide is not transcripts or even show notes (usually), just a collection of trivia I found interesting:
-
-- [When did Ben first sing “Avataaaaaar”](/episodes/0015-top-5-sci-fi-worlds)?
-- [Which three superhero TV shows did Matt correctly predict?](/episodes/0029-superhero-summer-movies-recap)
-- [How many episodes have had a Stan Lee Quote of the Week?](/stats)
-
-And more!
-    </div>
-</div>
-
-<div class="testimonials">
-    <div class="box testimonial matt" data-name="Matt Anderson">
-        My favorite site on the entire Internet.
-    </div>
-    <div class="box testimonial ben" data-name="Ben De Bono">
-        I cannot tell you how much I love this...This is my favorite thing any listener has done.
-    </div>
-</div>
-
 <div class="level stats">
     <div class="level-item has-text-centered">
         <div>
@@ -70,13 +51,13 @@ And more!
     </div>
     <div class="level-item has-text-centered">
         <div>
-            <p class="heading">Episodes Aired</p>
+            <p class="heading">Eps Aired</p>
             <p class="title">{{ fetchdata.totalEpisodes }}</p>
         </div>
     </div>
     <div class="level-item has-text-centered">
         <div>
-            <p class="heading">Episodes catalogued</p>
+            <p class="heading">Eps catalogued</p>
             <p class="title">{{ collections.episodes.length }}</p>
         </div>
     </div>
@@ -96,6 +77,19 @@ And more!
         <div>
             <p class="heading">Skip</p>
             <p class="title">{{ collections.episodes[0].data.stats.counts.no }}</p>
+        </div>
+    </div>
+</div>
+
+<div class="testimonials columns">
+    <div class="column is-one-half">
+        <div class="testimonial matt" data-name="Matt Anderson">
+            My favorite site on the entire Internet.
+        </div>
+    </div>
+    <div class="column is-one-half">
+        <div class="testimonial ben" data-name="Ben De Bono">
+            I cannot tell you how much I love this...This is my favorite thing any listener has done.
         </div>
     </div>
 </div>

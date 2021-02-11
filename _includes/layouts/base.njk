@@ -7,19 +7,21 @@
         <meta name="description" content="The unofficial listener's guide to The Sci-Fi Christian Podcast, hosted by Ben de Bono and Matt Anderson">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="/css/main.css" rel="stylesheet" type="text/css">
+        <link href="/css/fonts.css" rel="stylesheet" type="text/css">
         <link href="/css/custom.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i" rel="stylesheet">
 
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#41c6e7">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png?v=2">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png?v=2">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png?v=2">
+        <link rel="manifest" href="/img/favicons/site.webmanifest?v=2">
+        <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg?v=2" color="#5bbad5">
+        <link rel="shortcut icon" href="/img/favicons/favicon.ico?v=2">
         <meta name="msapplication-TileColor" content="#41c6e7">
+        <meta name="msapplication-config" content="/img/favicons/browserconfig.xml?v=2">
         <meta name="theme-color" content="#41c6e7">
     </head>
-    <body>
-        <div class="section">
+    <body class="{% if backgroundImage %}background-image-{{backgroundImage}}{% endif %}">
+        <div>
             {{ layoutContent | safe }}
             
             <footer class="footer columns">
@@ -27,12 +29,13 @@
                     <p>
                         {% icon "user" %}
                         &nbsp;
-                        Created by <a href="mailto:archivist@sfc.blue" class="link-subtle">The Archivist</a>
+                        Created by <a href="mailto:archivist@sfc.blue" class="link-subtle archivist-name">The Archivist</a>
                     </p>
                     <p>
                         {% icon "database" %}
                         &nbsp;
-                        Built with <a href="https://www.11ty.io/" class="link-subtle">Eleventy</a>, 
+                        Built with <a href="https://www.11ty.io/" class="link-subtle">11ty</a>, 
+                        <a href="https://www.netlify.com/" class="link-subtle">Netlify</a>, 
                         <a href="https://bulma.io/" class="link-subtle">Bulma</a>, 
                         <a href="https://jenil.github.io/bulmaswatch/" class="link-subtle">Bulma Swatch</a>, and 
                         <a href="https://feathericons.com/" class="link-subtle">{% icon "feather" %} Feather Icons</a>
@@ -40,15 +43,14 @@
                     <p>
                         {% icon "power" %}
                         &nbsp;
-                        Powered by a flux capacitor and squirrels
+                        Powered by raw enthusiasm and off-the-shelf epistemology
                     </p>
                 </div>
-                <div class="column has-text-right">Copyright © {{'year' | today}} The Sci-Fi Christian and The Archivist</div>
             </footer>
         </div>
 
         <script src="/js/site.js"></script>
         <script src="/js/lunr.js"></script>
-        <script src="/js/sfc-chart.js"></script>        
+        <script src="/js/sfc-chart.js"></script>
     </body>
 </html>

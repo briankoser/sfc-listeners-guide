@@ -1,7 +1,6 @@
 {
-    "title": "The Unofficial Sci-Fi Christian Listener’s Guide",
-    "title_abbreviation": "SFCLG",
-    "subtitle": "Recommendations, Stats, and Minutiae for the Ultimate Christian-Pop Culture Podcast",
+    "title": "sfc.blue",
+    "subtitle": "Minutiae at warp speed!",
     "url": "http://sfc.blue/",
     "author": {
       "name": "Brian Koser",
@@ -10,7 +9,7 @@
     "analytics_url": "http://media.blubrry.com/scifichristian/",
     "stats": {},
     "hosts": [
-      {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "blue", "rgb": ""}, "weakness": "squirrels"},
+      {"shortName": "Ben", "fullName": "Ben De Bono", "color": {"name": "blue", "rgb": ""}, "weakness": "owls"},
       {"shortName": "Matt", "fullName": "Matt Anderson", "color": {"name": "orange", "rgb": ""}, "weakness": "time travel"},
       {"shortName": "Daniel", "fullName": "Daniel Butcher", "color": {"name": "purple", "rgb": ""}, "weakness": "disney"},
       {"shortName": "Koby", "fullName": "Koby Radcliffe", "color": {"name": "pink", "rgb": ""}, "weakness": "cats"}

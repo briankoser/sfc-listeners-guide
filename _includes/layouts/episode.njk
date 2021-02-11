@@ -36,7 +36,7 @@ layout: baseNavBar
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Category</p>
-                    <p class="title category-{{category}}"><a href="/categories/{{category}}/" class="link-subtle">{{category | categoryName}}</a></p>
+                    <p class="title"><a href="/categories/{{category}}/" class="link-subtle">{{category | categoryName}}</a></p>
                 </div>
             </div>
 
@@ -75,166 +75,168 @@ layout: baseNavBar
     </div> 
 </section>
 
-<div class="episode-recommendation">
-    <article class="message 
-        {{'is-success' if recommendation == 'yes' or recommendation == 'yes-timeloop'}} 
-        {{'is-primary' if recommendation == 'essential' or recommendation == 'essential-timeloop'}}
-        {{'is-danger'  if recommendation == 'no'}}">
-        <div class="message-header">
-            {% if recommendation == 'yes' %}
-                <h2 class="title">Listen</h2>
-            {% elif recommendation == 'yes-timeloop' %}
-                <div>
+<div class="section">
+    <div class="episode-recommendation">
+        <article class="message 
+            {{'is-success' if recommendation == 'yes' or recommendation == 'yes-timeloop'}} 
+            {{'is-primary' if recommendation == 'essential' or recommendation == 'essential-timeloop'}}
+            {{'is-danger'  if recommendation == 'no'}}">
+            <div class="message-header">
+                {% if recommendation == 'yes' %}
                     <h2 class="title">Listen</h2>
-                    <h3 class="subtitle is-5">
-                        to Time Loop ({% episodeShortLink time_loop_forward.number %})
-                    </h3>
-                </div>
-            {% elif recommendation == 'essential' %}
-                <h2 class="title">Essential</h2>
-            {% elif recommendation == 'essential-timeloop' %}
-                <div>
-                    <h2 class="title">Essential</h2> 
-                    <h3 class="subtitle is-5">
-                        Listen to Time Loop ({% episodeShortLink time_loop_forward.number %})
-                    </h3>
-                </div>
-            {% elif recommendation == 'no' %}
-                <h2 class="title">Skip</h2>
-            {% endif %}
-            <p>{{last_listen | readableDate}}</p>
+                {% elif recommendation == 'yes-timeloop' %}
+                    <div>
+                        <h2 class="title">Listen</h2>
+                        <h3 class="subtitle is-5">
+                            to Time Loop ({% episodeShortLink time_loop_forward.number %})
+                        </h3>
+                    </div>
+                {% elif recommendation == 'essential' %}
+                    <h2 class="title">Essential</h2>
+                {% elif recommendation == 'essential-timeloop' %}
+                    <div>
+                        <h2 class="title">Essential</h2> 
+                        <h3 class="subtitle is-5">
+                            Listen to Time Loop ({% episodeShortLink time_loop_forward.number %})
+                        </h3>
+                    </div>
+                {% elif recommendation == 'no' %}
+                    <h2 class="title">Skip</h2>
+                {% endif %}
+                <p>{{last_listen | readableDate}}</p>
+            </div>
+            <div class="message-body content">
+                <div class="recommendation-reason">{{recommendation_reason | safe}}</div>
+            </div>
+        </article>
+    </div>
+
+    {% if spoilers %}
+    <article class="message is-warning spoilers">
+        <div class="message-header">
+            <h2 class="title">Spoilers</h2>
         </div>
         <div class="message-body content">
-            <div class="recommendation-reason">{{recommendation_reason | safe}}</div>
-        </div>
-    </article>
-</div>
-
-{% if spoilers %}
-<article class="message is-warning spoilers">
-    <div class="message-header">
-        <h2 class="title">Spoilers</h2>
-    </div>
-    <div class="message-body content">
-        This guide entry contains spoilers for:
-        <ul>
-        {% for spoiler in spoilers %}
-            <li><strong>{{spoiler | safe}}</strong></li>
-        {% endfor %}
-        </ul>
-    </div>
-</article>
-{% endif %}
-
-<div class="content">
-    {% if celebrity_invites or firsts or future_episodes or notable_moments or odd_opening or prophecy or rating %}
-    <div class="box episode-secondary-metadata">
-        {% if rating %}
-        <h2>Rating</h2>
-        {% rating rating %}
-        {% endif %}
-
-        {% if notable_moments %}
-        <h2>Notable Moments</h2>
-        <ul class="notable-moments">
-        {% for moment in notable_moments %}
-            <li>{{moment}}</li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-
-        {% if firsts %}
-        <h2>Firsts</h2>
-        <ul class="firsts">
-        {% for first in firsts %}
-            <li>{{first | safe}}</li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-
-        {% if prophecy %}
-        <h2>Prophecy</h2>
-        <div class="prophecies">
-            {% for p in prophecy %}
-                {% prophecy p %}
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if future_episodes %}
-            <h2>Future Episodes</h2>
-            <ul class="future-episodes">
-            {% for episode in future_episodes %}
-                <li>{{episode | safe}}</li>
+            This guide entry contains spoilers for:
+            <ul>
+            {% for spoiler in spoilers %}
+                <li><strong>{{spoiler | safe}}</strong></li>
             {% endfor %}
             </ul>
-        {% endif %}
-
-        {% if celebrity_invites %}
-        <h2>Celebrity Invites</h2>
-        <ul class="celebrity-invites">
-        {% for invite in celebrity_invites %}
-            <li>{{invite}}</li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-
-        {% if odd_opening %}
-        <h2>Odd Opening</h2>
-        <p>{% timeLink {url:podcast_file_url, t:'0:00'} %} {{odd_opening}}</p>
-        {% endif %}
-    </div>
-    {% endif %}
-
-    <article class="episode-content">
-    {{ layoutContent | safe }}
+        </div>
     </article>
-
-    {% if archivist_note %}
-    <div class="columns">
-        <div class="column is-half">
-            <article class="archivist-note message">
-                <div class="message-header">
-                    <p>Archivist Note</p>
-                </div>
-                <div class="message-body">
-                    {{archivist_note | safe}}
-                </div>
-            </article>
-        </div>
-    </div>
     {% endif %}
-</div>
 
-<nav class="columns episode-nav">
-    <div class="column">
-        <div class="tabs is-fullwidth">
-            {% if previous %}
-            <ul>
-                <li>
-                    <a href="{{ previous.url }}">
-                        {% icon "arrow-left" %}
-                        &nbsp;
-                        № {{ previous.number }} {{ previous.title }}
-                    </a>
-                </li>
+    <div class="content">
+        {% if celebrity_invites or firsts or future_episodes or notable_moments or odd_opening or prophecy or rating %}
+        <div class="box episode-secondary-metadata">
+            {% if rating %}
+            <h2>Rating</h2>
+            {% rating rating %}
+            {% endif %}
+
+            {% if notable_moments %}
+            <h2>Notable Moments</h2>
+            <ul class="notable-moments">
+            {% for moment in notable_moments %}
+                <li>{{moment}}</li>
+            {% endfor %}
             </ul>
             {% endif %}
-        </div>
-    </div>
-    <div class="column">
-        <div class="tabs is-fullwidth">
-            {% if next %}
-            <ul>
-                <li>
-                    <a href="{{ next.url }}">
-                        № {{ next.number }} {{ next.title }}
-                        &nbsp;
-                        {% icon "arrow-right" %}
-                    </a>
-                </li>
+
+            {% if firsts %}
+            <h2>Firsts</h2>
+            <ul class="firsts">
+            {% for first in firsts %}
+                <li>{{first | safe}}</li>
+            {% endfor %}
             </ul>
             {% endif %}
+
+            {% if prophecy %}
+            <h2>Prophecy</h2>
+            <div class="prophecies">
+                {% for p in prophecy %}
+                    {% prophecy p %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if future_episodes %}
+                <h2>Future Episodes</h2>
+                <ul class="future-episodes">
+                {% for episode in future_episodes %}
+                    <li>{{episode | safe}}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if celebrity_invites %}
+            <h2>Celebrity Invites</h2>
+            <ul class="celebrity-invites">
+            {% for invite in celebrity_invites %}
+                <li>{{invite}}</li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if odd_opening %}
+            <h2>Odd Opening</h2>
+            <p>{% timeLink {url:podcast_file_url, t:'0:00'} %} {{odd_opening}}</p>
+            {% endif %}
         </div>
+        {% endif %}
+
+        <article class="episode-content">
+        {{ layoutContent | safe }}
+        </article>
+
+        {% if archivist_note %}
+        <div class="columns">
+            <div class="column is-half">
+                <article class="archivist-note message">
+                    <div class="message-header">
+                        <p class="archivist-name">Archivist Note</p>
+                    </div>
+                    <div class="message-body">
+                        {{archivist_note | safe}}
+                    </div>
+                </article>
+            </div>
+        </div>
+        {% endif %}
     </div>
-</nav>
+
+    <nav class="columns episode-nav">
+        <div class="column">
+            <div class="tabs is-fullwidth">
+                {% if previous %}
+                <ul>
+                    <li>
+                        <a href="{{ previous.url }}">
+                            {% icon "arrow-left" %}
+                            &nbsp;
+                            № {{ previous.number }} {{ previous.title }}
+                        </a>
+                    </li>
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+        <div class="column">
+            <div class="tabs is-fullwidth">
+                {% if next %}
+                <ul>
+                    <li>
+                        <a href="{{ next.url }}">
+                            № {{ next.number }} {{ next.title }}
+                            &nbsp;
+                            {% icon "arrow-right" %}
+                        </a>
+                    </li>
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+</div>
