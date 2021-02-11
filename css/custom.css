@@ -92,6 +92,7 @@ p {
 footer p,
 .card p,
 .level p,
+.message-header p,
 .quote p {
     margin-top: 0;
 }
