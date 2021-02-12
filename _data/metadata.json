@@ -32,7 +32,7 @@
       {"slug": "interview", "name": "Interview", "description": "Interviews, separate from guest host appearances"},
       {"slug": "literature", "name": "Literature", "description": "Discussions of classic books"},
       {"slug": "main-topic", "name": "Main Topic", "description": "The catch-all category. Usually a mixture of theology and pop culture."},
-      {"slug": "milestone", "name": "Milestone", "description": "A special episode every 50 shows."},
+      {"slug": "milestone", "name": "Milestone", "description": "Special annual episodes"},
       {"slug": "news", "name": "News", "description": "It's time for Sci-Fi News!"},
       {"slug": "philosophy", "name": "Philosophy", "description": "I think, therefore I podcast"},
       {"slug": "preview", "name": "Preview", "description": "Preview of upcoming movies, TV shows, books, or episodes"},
@@ -43,6 +43,7 @@
     "series": [
       {"slug": "advice", "name": "Advice", "description": "Life advice from Ben, Matt, and the listeners. Usually happens when Matt has a major life event."},
       {"slug": "alternate-readings", "name": "Alternate Readings", "description": "Interpretations that the author didn't intend"},
+      {"slug": "annual-books", "name": "Annual Books", "description": "Year in books in review"},
       {"slug": "authors-countdown-2014", "name": "Top 100 Sci-Fi Authors Countdown (2014)", "description": "The greatest of all hiatus countdowns."},
       {"slug": "bad-but-great", "name": "Bad but Great", "description": "The quality spectrum is a loop, and these episodes have gone so far towards the bad side they've looped around and are great."},
       {"slug": "batman-month", "name": "Batman Month", "description": "All the episodes in the month around The Dark Knight Rises premiere were on Batman."},
