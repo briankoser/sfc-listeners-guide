@@ -16,7 +16,54 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  goneBad:
+    title: Top 5 Sci-Fi Geniuses Gone Bad
+    ben:
+      list:
+        - Terry Brooks
+        - Terry Goodkind
+        - Orson Scott Card
+        - Frank Miller
+        - M. Night Shyamalan
+      extra:
+        - Patrick Rothfuss
+        - Frank Herbert
+        - David Goyer
+        - Frank Darabont
+        - Ursula K. Le Guin 
+        - James Cameron
+        - Tim Burton
+    matt: 
+      list:
+        - James Cameron
+        - Steven Spielberg
+        - The Wachowski Brothers
+        - George Lucas
+        - M. Night Shyamalan 
+      extra:
+        - Cris Carter
+  comebacks:
+    title: Sci-Fi Comebacks
+    ben:
+      list:
+        - Robert Jordan
+        - Stephen King
+        - Peter Jackson
+    matt: 
+      list:
+        - Joss Whedon
+  inDanger:
+    title: In Danger of Going Bad
+    ben:
+      list:
+        - Sam Raimi
+        - Joss Whedon
+        - JJ Abrams
+        - Bill Willingham
+    matt: 
+      list:
+        - John Favreau
 odd_opening: Matt and Ben say the opening together
 firsts:
   - Sci-Fi Christian Story Time
@@ -43,47 +90,11 @@ Matt's latest fundraising scheme: for $15 he will record an audio description of
 # Main Topic
 {% timeLink {url:podcast_file_url, t:'13:37'} %} Countdown starts
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Geniuses Gone Bad</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Terry Brooks
-        <li>Terry Goodkind
-        <li>Orson Scott Card
-        <li>Frank Miller
-        <li>M. Night Shyamalan
-      </ol>
-      <ul class="runner-ups">
-        <li>Patrick Rothfuss
-        <li>Frank Herbert
-        <li>David Goyer
-        <li>Frank Darabont
-        <li>Ursula K. Le Guin 
-        <li>James Cameron
-        <li>Tim Burton
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>James Cameron
-        <li>Steven Spielberg
-        <li>The Wachowski Brothers
-        <li>George Lucas
-        <li>M. Night Shyamalan 
-      </ol>
-      <ul class="runner-ups">
-        <li>Cris Carter
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.goneBad %}
 
 Matt's love for {% work "Reign of Fire" %} comes up again.
 
-Ben thinks {% work "Temple of Doom" %} is worse than {% work "Kingdom of the Crystal Skull" %} (for now).
+Ben thinks {% work "Temple of Doom" %} is worse than {% work "Kingdom of the Crystal Skull" %}.
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'29:42'} %}
@@ -110,50 +121,11 @@ Ben thinks {% work "Temple of Doom" %} is worse than {% work "Kingdom of the Cry
   <q class="ben">He will forever be known on The Sci-Fi Christian as 'Son Smith'.</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Sci-Fi Comebacks</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Joss Whedon
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Robert Jordan
-        <li>Stephen King
-        <li>Peter Jackson
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.comebacks %}
 
-{% arc %}After the second and third Hobbit movies, I'm guessing Peter Jackson is on both hosts "Gone bad" lists.{% endarc %}
+Matt and Ben's first idea for a podcast was a "Books of {% work "LOST" %}" podcast. 
 
-Matt and Ben's first idea for a podcast was a Books of {% work "LOST" %} podcast. 
-
-<div class="top-five">
-  <h2 class="has-text-centered">Sci-Fi Comebacks</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Sam Raimi
-        <li>Joss Whedon
-        <li>JJ Abrams
-        <li>Bill Willingham
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>John Favreau
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.inDanger %}
 
 Currently at 182 likes on Facebook.
 

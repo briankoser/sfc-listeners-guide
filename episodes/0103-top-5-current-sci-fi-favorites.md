@@ -16,7 +16,34 @@ hosts:
   - Daniel
   - Koby
 
-notable_moments:
+countdowns:
+  favorites:
+    title: Top 5 Current Sci-Fi Favorites
+    matt:
+      list:
+        - The X-Files and Fringe
+        - The Twilight Zone
+        - The Hobbit
+        - Buffy and Angel
+        - Arrow
+    daniel:
+      list:
+        - James Bond
+        - Once Upon a Time
+        - Marvel Cinematic Universe
+        - Batman
+        - Star Wars
+    koby:
+      list:
+        - Revolution
+        - Once Upon a Time
+        - The Walking Dead
+        - Star Trek Into Darkness
+        - Marvel Cinematic Universe
+future_episodes:
+  - The Twilight Zone
+  - DC's New 52
+  - The Space Trilogy
 odd_opening: Matt talks with a deep voice
 prophecy:
   - host: Koby
@@ -32,53 +59,15 @@ prophecy:
   - host: Matt
     prediction: Luke will die in Episode VII
     veracity: false
-future_episodes:
-  - The Twilight Zone
-  - DC's New 52
-  - The Space Trilogy
 
 last_listen: 2018-07-30 
 recommendation: no
 recommendation_reason: Not much happens other than the lists
 spoilers:
-- "<i class='work-title'>Star Wars: The Force Awakens</i>"
+  - "<i class='work-title'>Star Wars: The Force Awakens</i>"
 ---
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Current Sci-Fi Favorites</h2>
-  <div class="columns">
-    <div class="column daniel">
-      <h3>Daniel</h3>
-      <ol reversed>
-        <li>James Bond
-        <li>Once Upon a Time 
-        <li>Marvel Cinematic Universe
-        <li>Batman
-        <li>Star Wars
-      </ol>
-    </div>
-    <div class="column koby">
-      <h3>Koby</h3>
-      <ol reversed>
-        <li>Revolution
-        <li>Once Upon a Time
-        <li>The Walking Dead
-        <li>Star Trek Into Darkness
-        <li>Marvel Cinematic Universe
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The X-Files and Fringe
-        <li>The Twilight Zone
-        <li>The Hobbit
-        <li>Buffy and Angel
-        <li>Arrow
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.favorites %}
 
 Matt promises to finish {% work "Buffy" %} and {% work "Angel" %} in 2013.
 

@@ -16,45 +16,34 @@ hosts:
   - Daniel
   - Koby
 
-notable_moments:
+countdowns:
+  movies:
+    title: Top 5 Movies of 2012
+    matt: 
+      list:
+        - Cabin in the Woods
+        - The Hobbit
+        - Prometheus
+        - The Dark Knight Rises
+        - The Avengers
+    daniel: 
+      list:
+        - Silver Linings Playbook
+        - John Carter
+        - Wreck-It Ralph 
+        - The Dark Knight Rises
+        - The Avengers
+    koby: 
+      list:
+        - The Expendables 2
+        - 21 Jump Street
+        - Lincoln
+        - Argo
+        - The Avengers
 
 last_listen: 2018-07-30
 recommendation: no
 recommendation_reason: Just a list of 2012 movies.
 ---
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Movies of 2012</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Cabin in the Woods
-        <li>The Hobbit
-        <li>Prometheus
-        <li>The Dark Knight Rises
-        <li>The Avengers
-      </ol>
-    </div>
-    <div class="column daniel">
-      <h3>Daniel</h3>
-      <ol reversed>
-        <li>Silver Linings Playbook
-        <li>John Carter
-        <li>Wreck-It Ralph 
-        <li>The Dark Knight Rises
-        <li>The Avengers
-      </ol>
-    </div>
-    <div class="column koby">
-      <h3>Koby</h3>
-      <ol reversed>
-        <li>The Expendables 2
-        <li>21 Jump Street
-        <li>Lincoln 
-        <li>Argo 
-        <li>The Avengers 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.movies %}

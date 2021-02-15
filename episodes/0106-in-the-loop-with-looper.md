@@ -16,13 +16,22 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben sings along to the theme song
+countdowns:
+  coolestParts:
+    title: Top 5 Coolest Parts of Looper
+    ben:
+      list:
+        - The disappearing body parts scene
+        - Telekinesis
+        - The blunderbuss
+        - The 30-year montage
+        - Jeff Daniels
 firsts:
   - Both Ben and Matt can play sound clips
   - Ben De Bono countdown music
 future_episodes:
   - Primer review
+odd_opening: Ben sings along to the theme song
 rating:
   ben: 5
   matt: 4
@@ -47,34 +56,22 @@ Ben wants to start podcasting once a week again because he has a free night ever
 
 {% timeLink {url:podcast_file_url, t:'12:40'} %} Ben wants to play the "Matt Anderson Crackup" clip.
 
-Matt and Ben will send a link to the video for a $5 donation. {% arc %}<a href="https://www.youtube.com/watch?v=vOGiSyH3qbQ">Here ya go.</a>{% endarc %}
+Matt and Ben will send a link to the video for a $5 donation. 
+{% arc %}<a href="https://www.youtube.com/watch?v=vOGiSyH3qbQ">Here ya go.</a>{% endarc %}
 
 
 
 # Main Topic
 Matt is afraid listeners will think this episode is a time loop and skip it.
 
-{% timeLink {url:podcast_file_url, t:'16:50'} %} The hosts voted three to one to not give time loops new episode numbers, but Matt continues to do it anyway. {% arc %}Thanks, Matt!{% endarc %}
+{% timeLink {url:podcast_file_url, t:'16:50'} %} The hosts voted three to one to not give time loops new episode numbers, but Matt continues to do it anyway. 
+{% arc %}Thanks, Matt!{% endarc %}
 
 {% timeLink {url:podcast_file_url, t:'16:50'} %} The Ben De Bono countdown music
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Coolest Parts of {% work "Looper" %}</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>The disappearing body parts scene
-        <li>Telekinesis
-        <li>The blunderbuss
-        <li>The 30-year montage
-        <li>Jeff Daniels
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.coolestParts %}
 
-<a href="https://www.ted.com/talks/daniel_goldstein_the_battle_between_your_present_and_future_self">The battle between your present and future self</a>
+[The battle between your present and future self](https://www.ted.com/talks/daniel_goldstein_the_battle_between_your_present_and_future_self)
 
 
 
@@ -82,4 +79,4 @@ Matt is afraid listeners will think this episode is a time loop and skip it.
 
 {% timeLink {url:podcast_file_url, t:'55:24'} %} Sci-Fi Christian Story Time: Spoilers Save the Day
 
-{% arc %}Maybe there's an explanation I missed, but the existence of loopers seems like a major plot hole. It looks like the mob has control over the location when they send people back in time, so why not send people back into the furnace directly? Or into the ocean? Or 100 feet up in the air?{% endarc %}
+{% arc %}What is the point of loopers? If the mob has control over the location when they send people back in time, why not send people back into a  furnace? Or the middle of the ocean? Or 100 feet up in the air?{% endarc %}

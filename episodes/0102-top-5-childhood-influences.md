@@ -16,7 +16,44 @@ hosts:
   - Daniel
   - Koby
 
-notable_moments:
+countdowns:
+  influences:
+    title: Top 5 Childhood Influences
+    matt:
+      list:
+        - Unsolved Mysteries
+        - Spider-Man comic books
+        - Back to the Future 2, Flight of the Navigator
+        - Superhero action figures
+        - Batman 1960s
+      extra:
+        - Teenage Mutant Ninja Turtles
+        - X-Men 1990s
+        - "Star Trek: The Next Generation"
+        - The X-Files
+        - Captain Planet
+    daniel:
+      list:
+        - Superfriends
+        - "Star Trek: The Original Series"
+        - "Ralph McQuarrie: Battlestar Galactica 1978 and Buck Rogers in the 25th Century"
+        - Doctor Who
+        - James Bond, Star Wars
+      extra:
+        - The Incredible Hulk TV show
+        - Wizards and Warriors
+        - Dungeons and Dragons cartoon
+        - Lloyd Alexander
+        - V 1984
+    koby:
+      list:
+        - "Xena: Warrior Princess"
+        - "Star Trek: The Next Generation"
+        - The X-Files 
+        - Hercules
+        - Power Rangers, Teenage Mutant Ninja Turtles, Beetle Borgs 
+      extra:
+        - Captain Planet
 future_episodes:
   - <i class="work-title">Doctor Who</i>
   - <i class="work-title">Captain Planet</i>
@@ -40,50 +77,7 @@ Matt was Koby's youth leader.
 # Main Topic
 Season 3, still using the Dr. Horrible main topic transition.
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Childhood Influences</h2>
-  <div class="columns">
-    <div class="column koby">
-      <h3>Koby</h3>
-      <ol reversed>
-        <li>Xena: Warrior Princess
-        <li>Star Trek: The Next Generation
-        <li>The X-Files 
-        <li>Hercules
-        <li>Power Rangers, Teenage Mutant Ninja Turtles, Beetle Borgs 
-      </ol>
-      <ul class="runner-ups">
-        <li>Captain Planet
-      </ul>
-    </div>
-    <div class="column daniel">
-      <h3>Daniel</h3>
-      <ol reversed>
-        <li>Superfriends
-        <li>Star Trek: The Original Series
-        <li>Ralph McQuarry: Battlestar Galactica 1978, Buck Rogers in the 25th Century 
-        <li>Doctor Who
-        <li>James Bond, Star Wars
-      </ol>
-      <ul class="runner-ups">
-        <li>The Incredible Hulk tv show, Wizards and Warriors, Dungeons and Dragons cartoon, Lloyd Alexander, V 1984
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Unsolved Mysteries
-        <li>Spider-Man comic books
-        <li>Back to the Future 2, Flight of the Navigator
-        <li>Superhero action figures
-        <li>Batman 1960s
-      </ol>
-      <ul class="runner-ups">
-        <li>Teenage Mutant Ninja Turtles, X-Men 1990s, Star Trek: The Next Generation, The X-Files, Captain Planet
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.influences %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2013/01/episode-102-top-5-childhood-sci-fi-influences/#t=00:23:43">23:43</a>
