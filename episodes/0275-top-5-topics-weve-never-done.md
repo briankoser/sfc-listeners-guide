@@ -15,6 +15,8 @@ category: countdowns
 hosts:
   - Ben
   - Matt
+alternate_titles:
+  - "Show Planning: The Episode"
 
 countdowns:
   topics:
@@ -68,7 +70,7 @@ future_episodes:
 
 last_listen: 2019-12-12
 recommendation: no
-recommendation_reason: "Per Ben, alternate title is \"Show Planning: The Episode\""
+recommendation_reason: "Per Ben, \"Show Planning: The Episode\""
 ---
 A listener suggests a {% work "Wheel of Time" %} episode. Ben does not recommend the books and Matt said he certainly won't read them. 
 

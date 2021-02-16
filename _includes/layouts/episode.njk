@@ -130,16 +130,29 @@ layout: baseNavBar
     <div class="content">
         {% if celebrity_invites or firsts or future_episodes or notable_moments or odd_opening or prophecy or rating %}
         <div class="box episode-secondary-metadata">
-            {% if rating %}
-            <h2>Rating</h2>
-            {% rating rating %}
-            {% endif %}
-
             {% if notable_moments %}
             <h2>Notable Moments</h2>
             <ul class="notable-moments">
             {% for moment in notable_moments %}
                 <li>{{moment}}</li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if alternate_titles %}
+            <h2>Alternate Titles</h2>
+            <ul class="alternate-titles">
+            {% for title in alternate_titles %}
+                <li>{{title}}</li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if celebrity_invites %}
+            <h2>Celebrity Invites</h2>
+            <ul class="celebrity-invites">
+            {% for invite in celebrity_invites %}
+                <li>{{invite}}</li>
             {% endfor %}
             </ul>
             {% endif %}
@@ -153,15 +166,6 @@ layout: baseNavBar
             </ul>
             {% endif %}
 
-            {% if prophecy %}
-            <h2>Prophecy</h2>
-            <div class="prophecies">
-                {% for p in prophecy %}
-                    {% prophecy p %}
-                {% endfor %}
-            </div>
-            {% endif %}
-
             {% if future_episodes %}
                 <h2>Future Episodes</h2>
                 <ul class="future-episodes">
@@ -171,13 +175,18 @@ layout: baseNavBar
                 </ul>
             {% endif %}
 
-            {% if celebrity_invites %}
-            <h2>Celebrity Invites</h2>
-            <ul class="celebrity-invites">
-            {% for invite in celebrity_invites %}
-                <li>{{invite}}</li>
-            {% endfor %}
-            </ul>
+            {% if prophecy %}
+            <h2>Prophecy</h2>
+            <div class="prophecies">
+                {% for p in prophecy %}
+                    {% prophecy p %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if rating %}
+            <h2>Rating</h2>
+            {% rating rating %}
             {% endif %}
 
             {% if odd_opening %}

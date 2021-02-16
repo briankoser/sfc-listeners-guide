@@ -17,8 +17,9 @@ series: bad-but-great
 hosts:
   - Ben
   - Matt
+alternate_titles:
+  - Matt's Sinful Elbows
 
-notable_moments:
 firsts: 
   - Voicemail from Mike Poteet
   - Episode of Dream Month

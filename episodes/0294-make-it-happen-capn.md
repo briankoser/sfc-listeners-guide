@@ -15,7 +15,8 @@ category: review
 hosts:
   - Ben
   - Matt
-original_title: "Captain America: The Autumn Review"
+alternate_titles:
+  - "Captain America: The Autumn Review"
 
 quotes:
   - time: "5:20"
