@@ -17,15 +17,68 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+celebrity_invites: 
+  - Jake Lloyd 
+celebrity_promo: C. K. Kubasik
+countdowns:
+  tv:
+    title: Top 5 Sci-Fi TV Show Theme Songs
+    ben:
+      list:
+        - Fringe
+        - "X-Men: The Animated Series"
+        - Game of Thrones
+        - The X-Files
+        - Firefly
+      extra:
+        - "Batman: The Animated Series"
+        - Battlestar Galactica 
+        - Buffy the Vampire Slayer
+        - Angel
+    matt: 
+      list:
+        - Quantum Leap
+        - "X-Men: The Animated Series"
+        - Unsolved Mysteries
+        - Game of Thrones 
+        - The X-Files 
+      extra:
+        - Fringe
+        - Battlestar Galactica 
+        - "Batman: The Animated Series"
+        - The Twilight Zone 
+  movies:
+    title: 
+    ben:
+      list:
+        - "Terminator 2: Judgment Day"
+        - The Fountain
+        - Sunshine
+        - The Empire Strikes Back (Imperial March)
+        - Jurassic Park
+      extra:
+        - Ink
+        - The Matrix
+        - The Dark Knight
+        - Inception
+        - "X-Men: First Class"
+    matt: 
+      list:
+        - Superman
+        - Star Wars
+        - Back to the Future
+        - Cloverfield
+        - The Empire Strikes Back (Imperial March) 
+      extra:
+        - Batman Begins
+        - "Star Wars Episode I: The Phantom Menace (Duel of the Fates)"
+        - Indiana Jones
+        - Dr. Horrible's Sing-Along Blog
 future_episodes: 
   - Dreams
   - <i class="work-title">Inception</i> 
   - Biblical dreams
   - Young Adult fiction
-celebrity_invites: 
-  - Jake Lloyd 
-celebrity_promo: C. K. Kubasik
 
 last_listen: 2018-04-01
 recommendation: no
@@ -34,87 +87,18 @@ recommendation_reason: Some fun moments (check out Matt "playing the marimba"), 
 # Opening
 Matt and Ben discuss where they were on 9/11.
 
+
+
 # News
 The {% work "Back to the Future" %} trilogy is Matt's favorite movie series
 
+
+
 # Main Topic
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi TV Show Theme Songs</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Fringe
-        <li>X-Men: The Animated Series
-        <li>Game of Thrones
-        <li>The X-Files
-        <li>Firefly
-      </ol>
-      <ul class="runner-ups">
-        <li>Batman: The Animated Series
-        <li>Battlestar Galactica 
-        <li>Buffy the Vampire Slayer
-        <li>Angel
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Quantum Leap
-        <li>X-Men: The Animated Series 
-        <li>Unsolved Mysteries
-        <li>Game of Thrones 
-        <li>The X-Files 
-      </ol>
-      <ul class="runner-ups">
-        <li>Fringe
-        <li>Battlestar Galactica 
-        <li>Batman: The Animated Series
-        <li>The Twilight Zone 
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.tv %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Movie Theme Songs</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Superman
-        <li>Star Wars
-        <li>Back to the Future
-        <li>Cloverfield
-        <li>The Empire Strikes Back (Imperial March) 
-      </ol>
-      <ul class="runner-ups">
-        <li>Batman Begins
-        <li>Star Wars Episode I: The Phantom Menace (Duel of the Fates)
-        <li>Indiana Jones
-        <li>Dr. Horrible's Sing-Along Blog
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Terminator 2: Judgment Day
-        <li>The Fountain
-        <li>Sunshine
-        <li>The Empire Strikes Back (Imperial March)
-        <li>Jurassic Park
-      </ol>
-      <ul class="runner-ups">
-        <li>Ink
-        <li>The Matrix
-        <li>The Dark Knight
-        <li>Inception
-        <li>X-Men: First Class
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.movie %}
 
 "Life & Death" from {% work "LOST" %} makes Matt cry
 

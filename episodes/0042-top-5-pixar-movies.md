@@ -16,7 +16,23 @@ hosts:
   - Matt
   - Daniel
 
-notable_moments:
+countdowns:
+  movies:
+    title: Top 5 Pixar Movies
+    matt:
+      list:
+        - Toy Story 2
+        - The Incredibles
+        - Monsters, Inc. 
+        - Finding Nemo
+        - Toy Story 3
+    daniel: 
+      list:
+        - Finding Nemo
+        - Cars
+        - Monsters, Inc. 
+        - Toy Story Trilogy (3,2,1)
+        - Up
 
 last_listen: 2018-04-23
 recommendation: yes
@@ -24,31 +40,7 @@ recommendation_reason: More interesting animation history, this time focusing on
 ---
 Daniel claims that he says "and I'm Daniel Butcher!" after the host intros when he's listening to Sci-Fi Christian episodes at work. 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Pixar Movies</h2>
-  <div class="columns">
-    <div class="column daniel">
-      <h3>Daniel</h3>
-      <ol reversed>
-        <li>Finding Nemo
-        <li>Cars
-        <li>Monsters, Inc. 
-        <li>Toy Story Trilogy (3,2,1)
-        <li>Up
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Toy Story 2
-        <li>The Incredibles
-        <li>Monsters, Inc. 
-        <li>Finding Nemo
-        <li>Toy Story 3
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.movies %}
 
 Pixar had to make the water in {% work "Finding Nemo" %} look more animated because it initially looked too real.
 

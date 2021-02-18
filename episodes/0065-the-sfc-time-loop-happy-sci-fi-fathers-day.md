@@ -17,7 +17,25 @@ hosts:
 time_loop_backward: 
   - number: 21
 
-notable_moments:
+countdowns:
+  good:
+    title: Good Sci-Fi Examples for Each Characteristic
+    ben:
+      list:
+        - Professor X, Dumbledore, Giles from Buffy, Admiral Adama
+        - Anakin Skywalker, Admiral Adama, Walter Bishop, Henry Jones
+        - Obi-Wan Kenobi, Morpheus, Ned Stark, Gandalf
+        - "Admiral Adama, T-800 (Terminator 2: Judgment Day), Jack Shephard, Jack Briscoe"
+        - Gandalf, Henry Ducard (Batman Begins), Professor X, Bigby Wolf, Uncle Ben Parker, John Locke
+  bad:
+    title: Bad Sci-Fi Examples for Each Characteristic
+    ben:
+      list:
+        - Emperor Palpatine, Randall Flagg
+        - Norman Osborn
+        - Magneto, Norman Osborn, Robert Baratheon
+        - Anthony Cooper, Tywin Lannister
+        - Jacob (LOST), Ben Linus, Cigarette Smoking Man, Man in Black (LOST)
 
 last_listen: 2018-05-17
 recommendation: no
@@ -34,34 +52,6 @@ How we see our father influences how we see God
 4. Knowing God as father gives us a stake in Christ's inheritance and changes our hope for the future
 5. Changes our expectations for what life should look like: enduring suffering is part of being God's children
 
-<div class="top-five">
-  <h2 class="has-text-centered">Good Sci-Fi Examples for Each Characteristic</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol>
-        <li>Professor X, Dumbledore, Giles from Buffy, Admiral Adama
-        <li>Anakin Skywalker, Admiral Adama, Walter Bishop, Henry Jones
-        <li>Obi-Wan Kenobi, Morpheus, Ned Stark, Gandalf
-        <li>Admiral Adama, T-800 (Terminator 2: Judgment Day), Jack Shephard, Jack Briscoe
-        <li>Gandalf, Henry Ducard (Batman Begins), Professor X, Bigby Wolf, Uncle Ben Parker, John Locke
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.good %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Bad Sci-Fi Examples for Each Characteristic</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol>
-        <li>Emperor Palpatine, Randall Flagg
-        <li>Norman Osborn
-        <li>Magneto, Norman Osborn, Robert Baratheon
-        <li>Anthony Cooper, Tywin Lannister
-        <li>Jacob (LOST), Ben Linus, Cigarette Smoking Man, Man in Black (LOST)
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.bad %}

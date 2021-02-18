@@ -16,7 +16,28 @@ hosts:
   - Matt
   - Daniel
 
-notable_moments:
+countdowns:
+  movies:
+    title: Top 5 Disney Movies
+    matt:
+      list:
+        - Flight of the Navigator
+        - Pirates of the Caribbean
+        - Aladdin
+        - Beauty and the Beast
+        - The Lion King
+      extra:
+        - National Treasure
+        - "Tron: Legacy"
+        - The Rocketeer
+        - The Mighty Ducks
+    daniel: 
+      list:
+        - Snow White
+        - Mary Poppins 
+        - Meet the Robinsons
+        - Beauty and the Beast
+        - Peter Pan
 future_episodes: 
   - Top 5 Pixar Movies
 firsts: 
@@ -33,37 +54,7 @@ According to Matt, Daniel is the epitome of Disney expert.
 
 Daniel blogs at [Between Disney](http://www.betweendisney.com/)
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Disney Movies</h2>
-  <div class="columns">
-    <div class="column daniel">
-      <h3>Daniel</h3>
-      <ol reversed>
-        <li>Snow White
-        <li>Mary Poppins 
-        <li>Meet the Robinsons
-        <li>Beauty and the Beast
-        <li>Peter Pan
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Flight of the Navigator
-        <li>Pirates of the Caribbean
-        <li>Aladdin
-        <li>Beauty and the Beast
-        <li>The Lion King
-      </ol>
-      <ul class="runner-ups">
-        <li>National Treasure
-        <li>Tron: Legacy
-        <li>The Rocketeer
-        <li>The Mighty Ducks
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.movies %}
 
 If {% work "Snow White" %} had failed, Disney would likely have gone out of business. 
 

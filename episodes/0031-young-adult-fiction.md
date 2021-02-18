@@ -18,7 +18,26 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+celebrity_invites: 
+  - Marion Cotillard 
+celebrity_promo: Ricky Gervais
+countdowns:
+  cartoons:
+    title: The Disney Afternoon
+    ben:
+      list:
+        - Gummi Bears
+        - Chip and Dale Rescue Rangers
+        - Talespin
+        - DuckTales
+        - Darkwing Duck
+    matt: 
+      list:
+        - Gummi Bears
+        - Chip and Dale Rescue Rangers
+        - Darkwing Duck
+        - Talespin
+        - DuckTales
 firsts: 
   - Fake Celebrity Promo
   - "Ben mocks the <i class='work-title'>Star Trek: Enterprise</i> theme song"
@@ -27,9 +46,6 @@ firsts:
   - "Unofficial \"Take that, Science!\""
 future_episodes: 
   - Top 5 Non-Genre Fiction
-celebrity_invites: 
-  - Marion Cotillard 
-celebrity_promo: Ricky Gervais
 
 last_listen: 2018-03-16
 recommendation: yes
@@ -63,31 +79,7 @@ They discuss their favorite cartoons
   <q class="matt">It's hard...Arbor Day?</q>
 </div>
  
-<div class="top-five">
-  <h2 class="has-text-centered">Ranking of an Arbitrary List of 5 Cartoons</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Gummi Bears
-        <li>Chip and Dale Rescue Rangers
-        <li>Talespin
-        <li>DuckTales
-        <li>Darkwing Duck
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Gummi Bears
-        <li>Chip and Dale Rescue Rangers
-        <li>Darkwing Duck
-        <li>Talespin
-        <li>DuckTales
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.cartoons %}
 
 Recommendations:
 - Darkwing Duck

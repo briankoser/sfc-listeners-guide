@@ -71,7 +71,7 @@ Ben finished reading {% work "A Dance with Dragons" %}
   <span class="quote-context is-size-6">On {% work "A Dance with Dragons" %}</span>
   <q class="ben">There's way too many cliffhangers at the end of this book for me to wait five and a half years [for the next book in the series].</q>
 </div>
-{% arc %}At this point it's been almost 7 years with no new book, although Season 7 of the show came out in July 2017, exactly 6 years later.{% endarc %}
+{% arc %}At this point it's been 10 years with no new book, although Season 7 of the show came out in July 2017, exactly 6 years later.{% endarc %}
 
 
 

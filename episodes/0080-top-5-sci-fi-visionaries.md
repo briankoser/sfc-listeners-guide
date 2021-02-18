@@ -15,7 +15,35 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+countdowns:
+  visionaries:
+    title: Top 5 Sci-Fi Visionaries
+    ben:
+      list:
+        - China Mieville
+        - Terry Gilliam
+        - H. R. Geiger
+        - J. R. R. Tolkien 
+        - John Milton and Dante Alighieri
+      extra:
+        - Alex Proyas
+        - The Wachowksi Brothers
+        - Alastair Reynolds
+        - Matt Anderson
+    matt: 
+      list:
+        - Isaac Asimov
+        - H. G. Wells 
+        - Gene Roddenberry 
+        - J. R. R. Tolkien 
+        - Rod Serling
+      extra:
+        - Ray Bradbury
+        - Jules Verne
+        - Philip K. Dick
+        - Charlie Kaufman
+        - God
+        - Kurt Vonnegut 
 future_episodes: 
   - Sci-Fi Feud with Strangers and Aliens
   - Satan
@@ -121,45 +149,7 @@ Ben is worried about {% work "The Hobbit" %} becoming a trilogy <q class="ben in
   <q class="matt">But, I'm just going to give him a shout-out, because if I gave God a shout-out, of course Kurt Vonnegut needs one.</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Visionaries</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>China Mieville
-        <li>Terry Gilliam
-        <li>H. R. Geiger
-        <li>J. R. R. Tolkien 
-        <li>John Milton and Dante Alighieri
-      </ol>
-      <ul class="runner-ups">
-        <li>Alex Proyas
-        <li>The Wachowksi Brothers
-        <li>Alastair Reynolds
-        <li>Matt Anderson
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Isaac Asimov
-        <li>H. G. Wells 
-        <li>Gene Roddenberry 
-        <li>J. R. R. Tolkien 
-        <li>Rod Serling
-      </ol>
-      <ul class="runner-ups">
-        <li>Ray Bradbury
-        <li>Jules Verne
-        <li>Philip K. Dick
-        <li>Charlie Kaufman
-        <li>God
-        <li>Kurt Vonnegut 
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.visionaries %}
 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/09/episode-80-top-5-sci-fi-visionaries/#t=40:17">40:17</a>

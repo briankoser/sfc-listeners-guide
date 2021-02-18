@@ -20,18 +20,35 @@ hosts:
 alternate_titles:
   - Matt's Sinful Elbows
 
+countdowns:
+  dreams:
+    title: Top 5 Dreams
+    ben:
+      list:
+        - Ben hung out with George R. R. Martin, broke one of his vases, watched TV and discussed his books.
+        - Ben hung out with Neil Gaiman, who declared them lifelong friends. Then he was a good demon that was trapped in an angelic cocoon by an angel bounty hunter.
+        - Ben went to New York with Matt and got accused of murder.
+        - Ben was the king of an alternate universe but got trapped in our universe. He got a construction job but was fired because he didn't know anything about construction.
+        - Ben directed a children's play of Game of Thrones.
+    matt: 
+      list:
+        - Matt was attacked by trees, zombies, and aliens. He also dated a Green Lantern. 
+        - \"Phantom Pain in My Elbow\"
+        - "The much-anticipated Snake Dream (plus bonus dream: snakes take over Matt's house and he fights them off with shaving cream)."
+        - Matt got to relive his life so he spent more time with his grandpa.
+        - Matt could run fast like The Flash.
 firsts: 
   - Voicemail from Mike Poteet
   - Episode of Dream Month
+future_episodes: 
+  - Inception
+  - Biblical dreams
+  - The Sci-Fi Christian End of the Year Listener Appreciation Jubilee
 prophecy:
   - host: Matt
     prediction: "The Sheriff on <i class='work-title'>Once Upon a Time</i> is the Big Bad Wolf."
     veracity: false
     comments: He was The Huntsman from Snow White.
-future_episodes: 
-  - Inception
-  - Biblical dreams
-  - The Sci-Fi Christian End of the Year Listener Appreciation Jubilee
 take_that:
   - Brigham Young
   - James Cameron
@@ -76,31 +93,7 @@ The SFC lost the Podcast Awards to a Mormon podcast.
 
 Matt's deja vu theory: we're all a little bit psychic and we dream about the future, or our brain is smart enough to figure out the future and puts it in our dreams.
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Dreams</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Ben hung out with George R. R. Martin, broke one of his vases, watched TV and discussed his books.
-        <li>Ben hung out with Neil Gaiman, who declared them lifelong friends. Then he was a good demon that was trapped in an angelic cocoon by an angel bounty hunter.
-        <li>Ben went to New York with Matt and got accused of murder.
-        <li>Ben was the king of an alternate universe but got trapped in our universe. He got a construction job but was fired because he didn't know anything about construction.
-        <li>Ben directed a children's play of {% work "Game of Thrones" %}.
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Matt was attacked by trees, zombies, and aliens. He also dated a Green Lantern. 
-        <li>"Phantom Pain in My Elbow"
-        <li>The much-anticipated Snake Dream (plus bonus dream: snakes take over Matt's house and he fights them off with shaving cream).
-        <li>Matt got to relive his life so he spent more time with his grandpa.
-        <li>Matt could run fast like The Flash.
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.dreams %}
 
 <div class="quote">
   <q class="matt">So courtesy to nature pays off.</q>

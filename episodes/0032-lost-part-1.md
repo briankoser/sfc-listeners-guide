@@ -21,26 +21,47 @@ hosts:
 time_loop_forward: 
   number: 288
 
-notable_moments:
+countdowns:
+  episodes:
+    title: Top 16 LOST episodes (not in any particular order, except for 1-3)
+    matt:
+      list:
+        - The Constant
+        - Through the Looking Glass Parts 1 and 2
+        - Walkabout
+      extra:
+        - Exodus Parts 1 and 2
+        - Lockdown
+        - Live Together, Die Alone
+        - The Brig
+        - The Man Behind the Curtain
+        - The Shape of Things to Come
+        - Jughead
+        - LeFleur
+        - LA X
+        - What They Died For
+        - The End
+        - The Other 48 Days
+        - The Pilot
+celebrity_invites: 
+  - Any astronaut
+celebrity_promo: George Lucas
 firsts: 
   - Take That, Science! 
   - Take That, Science! sound clip             
+future_episodes: 
+  - End of the Year Listener Jubilee 
+  - Time Travel
 prophecy:
   - host: Ben
     prediction: The Mass Effect movie will get stuck in development hell and not be seen in theatres.
     veracity: true
-future_episodes: 
-  - End of the Year Listener Jubilee 
-  - Time Travel
 take_that:
   - Science
   - government
   - Obama
   - comics
   - book publishers
-celebrity_invites: 
-  - Any astronaut
-celebrity_promo: George Lucas
 
 last_listen: 2018-03-17
 recommendation: no
@@ -126,32 +147,5 @@ The {% work "LOST" %} mystery that drives Matt crazy is Christian Shephard appea
 </div>
 
 Matt thinks "whatever happened, happened" is the best rule for time travel stories.
-       
-<div class="top-five">
-  <h2 class="has-text-centered">Top 16 {% work "LOST" %} episodes (not in any particular order, except for 1-3)</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The Constant
-        <li>Through the Looking Glass Parts 1 and 2
-        <li>Walkabout
-      </ol>
-      <ul class="runner-ups">
-        <li>Exodus Parts 1 and 2
-        <li>Lockdown
-        <li>Live Together, Die Alone
-        <li>The Brig
-        <li>The Man Behind the Curtain
-        <li>The Shape of Things to Come
-        <li>Jughead
-        <li>LeFleur
-        <li>LA X
-        <li>What They Died For
-        <li>The End
-        <li>The Other 48 Days
-        <li>The Pilot
-      </ul>
-    </div>
-  </div>
-</div>
+
+{% countdown countdowns.episodes %}

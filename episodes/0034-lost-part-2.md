@@ -21,7 +21,26 @@ hosts:
 time_loop_forward: 
   number: 288
 
-notable_moments:
+celebrity_promo: Damon Lindelof and Carlton Cuse 
+countdowns:
+  seasons:
+    title: Top 6 LOST Seasons
+    ben:
+      list:
+        - Season 6
+        - Season 2
+        - Season 5
+        - Season 3
+        - Season 1
+        - Season 4
+    matt: 
+      list:
+        - Season 6
+        - Season 4
+        - Season 5
+        - Season 2
+        - Season 3
+        - Season 1
 firsts: 
   - Matt's love for Scarlet Spider mentioned
 future_episodes: 
@@ -29,7 +48,6 @@ future_episodes:
 take_that:
   - terrorists
   - Sayid
-celebrity_promo: Damon Lindelof and Carlton Cuse 
 
 last_listen: 2018-03-21
 recommendation: no
@@ -84,33 +102,7 @@ Is torture ever OK?
   <q class="ben">Take that, Sayid!</q>
 </div> 
       
-<div class="top-five">
-  <h2 class="has-text-centered">Top 6 {% work "LOST" %} Seasons</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Season 6
-        <li>Season 4
-        <li>Season 5
-        <li>Season 2
-        <li>Season 3
-        <li>Season 1
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Season 6
-        <li>Season 2
-        <li>Season 5
-        <li>Season 3
-        <li>Season 1
-        <li>Season 4
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.seasons %}
 
 
 
