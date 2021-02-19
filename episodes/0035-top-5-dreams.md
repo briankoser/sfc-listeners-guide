@@ -33,7 +33,7 @@ countdowns:
     matt: 
       list:
         - Matt was attacked by trees, zombies, and aliens. He also dated a Green Lantern. 
-        - \"Phantom Pain in My Elbow\"
+        - Phantom Pain in My Elbow
         - "The much-anticipated Snake Dream (plus bonus dream: snakes take over Matt's house and he fights them off with shaving cream)."
         - Matt got to relive his life so he spent more time with his grandpa.
         - Matt could run fast like The Flash.

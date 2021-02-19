@@ -23,16 +23,18 @@ firsts:
   - Contest (The Secondhand Spectacular)
   - Wayne Henderson appearance
   - N. T. Wright mentioned
-
-prophecy:
-  - host: Ben
-    prediction: "Batman will die at the end of <i class='work-title'>The Dark Knight Rises</i>"
-    veracity: false
 future_episodes: 
   - End Times
   - <i class="work-title">The Lord of the Rings</i> expanded edition marathon
   - Alan Moore
   - Clones Revisited
+prophecy:
+  - host: Ben
+    prediction: Batman will die at the end of The Dark Knight Rises
+    veracity: false
+rating:
+  ben: 3.5
+  matt: 5
 
 last_listen: 2018-01-31
 recommendation: essential-timeloop

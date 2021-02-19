@@ -48,7 +48,7 @@ countdowns:
         - "Batman: The Animated Series"
         - The Twilight Zone 
   movies:
-    title: 
+    title: Top 5 Sci-Fi Movie Theme Songs
     ben:
       list:
         - "Terminator 2: Judgment Day"
@@ -98,7 +98,7 @@ The {% work "Back to the Future" %} trilogy is Matt's favorite movie series
 
 {% countdown countdowns.tv %}
 
-{% countdown countdowns.movie %}
+{% countdown countdowns.movies %}
 
 "Life & Death" from {% work "LOST" %} makes Matt cry
 
