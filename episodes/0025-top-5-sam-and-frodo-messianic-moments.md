@@ -19,21 +19,55 @@ hosts:
 time_loop_forward: 
   number: 497
 
-notable_moments:
-odd_opening: Matt imitates Ben
+celebrity_invites: 
+  - George Lucas 
+countdowns:
+  sam:
+    title: Top 5 Sam Messianic Moments
+    ben:
+      list:
+        - Brought restoration to the Shire
+        - Didn't forsake Frodo
+        - Inspired Frodo to keep going
+        - Resists temptation
+        - He carried Frodo 
+    matt: 
+      list:
+        - Kept his promise
+        - Supported Frodo like a rock
+        - Frodo could not have been a savior without Sam
+        - Sacrificed safety and comfort for the good of others
+        - He carried Frodo
+      extra:
+        - He walked on water
+  frodo:
+    title: Top 5 Frodo Messianic Moments
+    ben:
+      list:
+        - Takes the burden of the Ring onto himself, sacrificing himself for the Fellowship
+        - Carrying the burden of the Ring to save the world 
+        - Tormented as he travelled
+        - He stands against darkness at the river
+        - Sparing Gollum 
+    matt: 
+      list:
+        - Carrying the burden of the Ring to save the world 
+        - Frodo left his world and came to a new world
+        - Resolute to complete his purpose
+        - Restored the world after man's error 
+        - Forgiving gollum / gave life and hope 
+      extra:
+        - Kind of resurrected
 firsts: 
   - Matt re-listening to SFC episodes mentioned
-
+future_episodes: 
+  - Harry Potter
+odd_opening: Matt imitates Ben
 prophecy:
   - host: Matt
     prediction: "<i class='work-title'>Once Upon a Time</i> will be his favorite new show in 2011, not including <i class='work-title'>Game of Thrones</i> which was already out"
     veracity: true
     comments: "Correct, although not sure if he ended up liking <i class='work-title'>Person of Interest</i> more."
-
-future_episodes: 
-  - Harry Potter
-celebrity_invites: 
-  - George Lucas 
 
 last_listen: 2018-03-02
 recommendation: no
@@ -77,34 +111,7 @@ Ben finished reading {% work "A Dance with Dragons" %}
 
 # Main Topic
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sam Messianic Moments</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Kept his promise
-        <li>Supported Frodo like a rock
-        <li>Frodo could not have been a savior without Sam
-        <li>Sacrificed safety and comfort for the good of others
-        <li>He carried Frodo
-      </ol>
-      <ul class="runner-ups">
-        <li>He walked on water
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Brought restoration to the Shire
-        <li>Didn't forsake Frodo
-        <li>Inspired Frodo to keep going
-        <li>Resists temptation
-        <li>He carried Frodo 
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.sam %}
 
 <div class="quote">
   <span class="quote-context is-size-6"></span>
@@ -115,34 +122,7 @@ Ben finished reading {% work "A Dance with Dragons" %}
 
 Matt "literally almost died" (was sipping water during Ben's last statement, started choking, then spit the water on the floor) 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Frodo Messianic Moments</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Takes the burden of the Ring onto himself, sacrificing himself for the Fellowship
-        <li>Carrying the burden of the Ring to save the world 
-        <li>Tormented as he travelled
-        <li>He stands against darkness at the river
-        <li>sparing Gollum 
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Carrying the burden of the Ring to save the world 
-        <li>Frodo left his world and came to a new world
-        <li>Resolute to complete his purpose
-        <li>Restored the world after man's error 
-        <li>Forgiving gollum / gave life and hope 
-      </ol>
-      <ul class="runner-ups">
-        <li>kind of resurrected
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.frodo %}
 
 <div class="quote">
   <q class="ben">I don't think choking on your water and drooling all over my floor is messianic of you in the slightest.</q>
