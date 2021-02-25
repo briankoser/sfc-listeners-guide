@@ -17,7 +17,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - Annie agreed the parking sign was confusing
 
 last_listen: 2018-12-11
 recommendation: yes 

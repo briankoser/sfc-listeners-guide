@@ -24,6 +24,8 @@ guests:
 sponsors:
   - Dawn
 
+ben_is_right:
+  - Des agrees that 3 Pixar movies every 2 years is too many
 countdowns:
   deaths:
     title: 3 Recent Deaths
@@ -87,6 +89,6 @@ Take That, Science: investigator warns UN of impending killer robot uprising, ca
 
 Fox is developing a movie adaptation of the Choose Your Own Adventure books.
 
-Ben is Right: Des agrees with Ben that 3 Pixar movies every 2 years is too many
+{% benIsRight ben_is_right[0] %}
 
 Ben says the show will never end, not even with Matt's marriage.

@@ -19,6 +19,8 @@ hosts:
 guests:
   - Des Anderson
 
+ben_is_right:
+  - Steve agreed that you should have kids early 
 countdowns:
   reini:
     title: Marriage Advice
@@ -151,8 +153,7 @@ JS Earls: women want sympathy, not solutions
 
 Steve Walker from Australia: study marriage together, have kids soon, do devotions together, prioritize each other over kids, pray together, play together, plan vacations, talk about the things you read and watch, expect tough times, have fun
 
-Ben is Right: Steve agreed to have kids early 
-
+{% benIsRight ben_is_right[0] %}
 
 
 # The Matt Anderson quiz

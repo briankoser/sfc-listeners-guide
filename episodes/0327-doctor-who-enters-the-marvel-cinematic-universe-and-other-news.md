@@ -20,6 +20,8 @@ hosts:
   - Ben
   - Matt
 
+ben_is_right:
+  - Measles is spreading at Disney Land
 quotes:
   - time: "1:30"
     context: Matt tells Ben that David Tennant is going to play Killgrave, The Purple Man
@@ -46,7 +48,7 @@ What the Frodo: Julia Roberts is making a Batkid movie
 
 Bill Burr said modern movies are always budgeted at $500 thousand or $500 million, there's no mid-size movies anymore. Ben wonders if Netflix could fill that void.
 
-Ben is Right: Measles is spreading at Disney Land
+{% benIsRight ben_is_right[0] %}
 
 Take That, Science: Measles is spreading at Disney Land
 

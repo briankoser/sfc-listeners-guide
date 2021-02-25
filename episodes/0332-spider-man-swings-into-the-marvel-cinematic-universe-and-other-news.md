@@ -16,6 +16,8 @@ hosts:
   - Ben
   - Matt
 
+ben_is_right:
+  - DC said they want to prioritize story over continuity
 future_episodes:
   - "Fantasy Non-Fantasy: Parks and Recreation"
 prophecy:
@@ -47,7 +49,7 @@ Netflix is developing a Legend of Zelda series as "Game of Thrones for all ages"
 
 {% quotes podcast_file_url, quotes[0] %}
 
-Ben is Right: DC said they want to prioritize story over continuity
+{% benIsRight ben_is_right[0] %}
 
 Ben thanks Christopher Tolkien for preventing the otherwise-inevitable Lord of the Rings cinematic universe.
 

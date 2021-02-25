@@ -20,7 +20,8 @@ guests:
   - Allan Reini
   - Aaron Reini
 
-notable_moments:
+ben_is_right:
+  - Future Flight of the Angels books will include non-evangelical Christians
 firsts:
   - Matt and Ben sharing a mic
 
@@ -52,7 +53,7 @@ Tom Bombadil represents the ideal pacifist. Tolkien used him to represent the id
   <q class="ben">So, influences on the series: Star Wars, Star Trek, Blade Runner...Ben De Bono.</q>
 </div>
 
-Ben is Right: Future {% work "Flight of the Angels" %} books will include non-evangelical Christians
+{% benIsRight ben_is_right[0] %}
 
 October 2014 is the Reini's release date goal for the sequel. {% arc %}They released it only five years later, not bad{% endarc %}
 

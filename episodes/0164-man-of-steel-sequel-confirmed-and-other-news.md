@@ -20,6 +20,8 @@ hosts:
   - Ben
   - Matt
 
+ben_is_right:
+  - Sony decided it's a bad idea to require Playstations to be always online
 countdowns:
   xbox:
     title: Top 6 things Wrong with the Xbox One
@@ -31,10 +33,10 @@ countdowns:
         - Price
         - Needs to be always on
         - Kinect is required and must be always on 
-odd_opening: Matt opens with an odd cadence.
 future_episodes:
   - Marriage advice for Matt
   - "Injustice: Gods Among Us review"
+odd_opening: Matt opens with an odd cadence.
 
 last_listen: 2019-01-02
 recommendation: no
@@ -59,7 +61,7 @@ What the Frodo: WB is developing {% work "Afterlife with Archie" %}, a zombie mo
 
 Ben and Matt try a third time to come up with a video game news segment intro clip.
 
-Ben is Right: Sony decided it's a bad idea to require Playstations to be always online
+{% benIsRight ben_is_right[0] %}
 
 {% countdown countdowns.xbox %}
 

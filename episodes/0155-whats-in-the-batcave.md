@@ -19,6 +19,8 @@ hosts:
   - Ben
   - Matt
 
+ben_is_right:
+  - The Batcave sucks
 countdowns:
   some:
     title: Some things in the Batcave
@@ -163,8 +165,7 @@ Matt lists a bunch of things in the Batcave.
 
 How does the depiction of the Batcave affect how that version of Batman interpreted? 
 
-Ben is Right: The Batcave sucks
-
+{% benIsRight ben_is_right[0] %}
 
 
 # Closing

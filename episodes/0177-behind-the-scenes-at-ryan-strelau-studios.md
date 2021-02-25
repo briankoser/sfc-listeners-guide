@@ -16,7 +16,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - Hilo's real name is Karl Agathon
+  - Don't stress yourself rushing to edit a clip show
 
 last_listen: 2019-02-15
 recommendation: no
@@ -69,8 +71,8 @@ Matt puts his mic on the altar at the Catholic Church.
 
 Matt tells Eric (on episode 121) not to say that he's only seen Episode 1 of Star Wars so the listeners don't hate him.
 
-Ben is right: Hilo's real name is Karl Agathon
+{% benIsRight ben_is_right[0] %}
 
 Matt was too busy to continue the Bible Trivia podcast.
 
-Ben is Right: don't stress yourself rushing to edit a clip show
+{% benIsRight ben_is_right[1] %}

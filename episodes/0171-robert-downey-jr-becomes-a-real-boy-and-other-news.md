@@ -20,11 +20,12 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-future_episodes:
-  - How to fix superhero comics
+ben_is_right:
+  - A listener agreed that LOST writers were good at character stories but not mystery
 celebrity_invites: 
   - A listener from the afterlife
+future_episodes:
+  - How to fix superhero comics
 
 last_listen: 2019-02-04
 recommendation: no
@@ -46,7 +47,7 @@ Stan Lee Quote of the Week: Spider-Man is the only hyphenated superhero, and he 
 
 # Feedback 
 
-Ben is Right: a listener agreed that {% work "LOST" %} writers were good at character stories but not mystery
+{% benIsRight ben_is_right[0] %}
 
 No one edited a Season 2 highlight reel. Matt invites the listeners to make a Season 3 highlight reel.
 

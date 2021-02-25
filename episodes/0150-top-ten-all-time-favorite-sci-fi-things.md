@@ -18,6 +18,8 @@ hosts:
   - Ben
   - Matt
 
+ben_is_right:
+  - Ben got his parking ticket revoked
 countdowns:
   current:
     title: Top 10 Current Sci-Fi Favorites
@@ -140,4 +142,4 @@ C. S. Lewis said {% work "The Lord of the Rings" %} is the greatest work of lite
 
 {% timeLink {url:podcast_file_url, t:'1:00:11'} %} Sci-Fi Christian Story Time: Ben's Parking Ticket, Part 3
 
-Ben is Right: Ben got his parking ticket revoked.
+{% benIsRight ben_is_right[0] %}

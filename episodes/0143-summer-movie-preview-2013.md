@@ -26,6 +26,8 @@ sponsors:
   - Casey
   - Josh
 
+ben_is_right:
+  - William Shatner was joking/not joking when he dissed JJ Abrams
 countdowns:
   movies:
     title: Top 3 Anticipated Summer Movies
@@ -63,7 +65,7 @@ Matt announces his birthday is May 5 for all the listeners who want to send him 
   <q class="matt">I like it.</q>
 </div>
 
-Ben is Right: William Shatner was joking/not joking when he dissed JJ Abrams
+{% benIsRight ben_is_right[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'15:06'} %}

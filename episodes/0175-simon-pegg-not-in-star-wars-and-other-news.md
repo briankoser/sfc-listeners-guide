@@ -19,7 +19,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - Chlo has dropped some TV shows with bad writing
 firsts:
   - Feedback from Jordan in Australia
 future_episodes:
@@ -47,7 +48,7 @@ Take That, Science: guy on craigslist is selling a time machine
 
 # Feedback
 
-Ben is Right: Chlo has dropped some TV shows with bad writing
+{% benIsRight ben_is_right[0] %}
 
 Jordan from Australia made SFC desktop wallpaper 
 

@@ -16,7 +16,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - Ben's wife realized Disney World was terrible
 future_episodes:
   - Ender's Game review
 
@@ -58,4 +59,4 @@ Could C. S. Lewis have written the Narnia books if he spent his weekends watchin
   <q class="ben">'I hate this ride, I hate this ride, I don't want to be here.'</q>
 </div>
 
-Ben is Right: Ben's wife realized Disney World was terrible
+{% benIsRight ben_is_right[0] %}

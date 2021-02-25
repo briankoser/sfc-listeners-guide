@@ -17,7 +17,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - Tolkien and Lewis wouldn't have written fiction together
+  - Outback Steakhouse was busy Easter week
 odd_opening: Ben acts surprised when Matt says the title.
 
 last_listen: 2018-11-09
@@ -58,11 +60,11 @@ Ben again makes fun of how Matt says "Middle Earth".
 
 {% timeLink {url:podcast_file_url, t:'18:10'} %} Ben's entry: a drama to show why they would never collaborate
 
-Ben is Right: Tolkien and Lewis wouldn't have written fiction together
+{% benIsRight ben_is_right[0] %}
 
 {% timeLink {url:podcast_file_url, t:'23:40'} %} Sci-Fi Christian Story Time: Ben "Ben is right"ed his wife
 
-Ben is Right: Outback Steakhouse was busy Easter week
+{% benIsRight ben_is_right[1] %}
 
 Matt doesn't like steak. 
 

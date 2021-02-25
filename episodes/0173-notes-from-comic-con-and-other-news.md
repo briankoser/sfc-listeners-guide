@@ -24,7 +24,10 @@ hosts:
 sponsors:
   - Magnus from Sweden
 
-notable_moments:
+ben_is_right:
+  - Joss Whedon has abandoned his principles
+  - Matt misidentified an actor
+  - In season 1 of Super Book, the kids got sucked into the book instead of the computer
 
 last_listen: 2019-02-08
 recommendation: no
@@ -38,13 +41,13 @@ What the Frodo: Karen Gillian shaved her head to pay Nebula
 
 What the Frodo: Joss Whedon said all the rehashing is bad for pop culture
 
-Ben is Right: Joss Whedon has abandoned his principles
+{% benIsRight ben_is_right[0] %}
 
 Encouraging Signs: Ryan Reynolds bombed twice in one week (Turbo and RIPD)
 
 Ben tries to make a video game news segment music happen again
 
-Ben is Right: Matt misidentified an actor
+{% benIsRight ben_is_right[1] %}
 
 {% timeLink {url:podcast_file_url, t:'39:46'} %} Take That, Science: politician admits to having an affair and love child with an alien
 
@@ -69,6 +72,6 @@ They're planning to live-blog {% work "Sharknado" %}
 # Feedback 
 A lot of listeners sent in negative feedback about Episode 172 What We Would Change about the Comics Industry. Steve unsubscribed because of the negativity over superhero movies.
 
-Ben is Right: in season 1 of {% work "Super Book" %}, the kids got sucked into the book instead of the computer
+{% benIsRight ben_is_right[2] %}
 
 Matt bleeped a {% work "Man of Steel" %} spoiler

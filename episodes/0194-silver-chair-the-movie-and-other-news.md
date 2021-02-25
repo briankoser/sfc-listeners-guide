@@ -20,7 +20,14 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - Steven Moffat said there will be a female doctor when the right person comes along, not just for the sake of political correctness.
+future_episodes:
+  - Chronicles of Narnia film comparison
+  - Granchise thoughts
+  - Alan Moore
+  - Gravity review
+  - Doctrines my church believes that I don't
 odd_opening: Ben is laughing in the middle of the music because Matt forgot to start recording. 
 prophecy:
   - {"host": "Ben", "prediction": "<i class='work-title'>The Silver Chair</i> will be released in 2016", "veracity": false, "comments": "It's been in development hell for years. Netflix recently bought the rights to all seven books, so that's probably when we'll see this adaptation."}
@@ -32,12 +39,6 @@ prophecy:
   - host: Matt
     prediction: "<i class='work-title'>The Silver Chair</i> will be released in 2016"
     veracity: false
-future_episodes:
-  - Chronicles of Narnia film comparison
-  - Granchise thoughts
-  - Alan Moore
-  - Gravity review
-  - Doctrines my church believes that I don't
 
 last_listen: 2019-04-16
 recommendation: no
@@ -67,7 +68,7 @@ Tom Clancy died.
 
 Encouraging Signs: a man was fired for liking My Little Pony too much
 
-Ben is Right: Steven Moffat said there will be a female doctor when the right person comes along, not just for the sake of political correctness
+{% benIsRight ben_is_right[0] %}
 
 Take That, Science: astronaut nearly drowned in space
 

@@ -23,7 +23,10 @@ hosts:
 guests:
   - Koby
 
-notable_moments:
+ben_is_right:
+  - Joss Whedon said The Avengers was a great time but not a great movie
+  - Joss Whedon hasn't done Dr. Horrible 2 or Hamlet because he's busy with the MCU
+  - Joss Whedon is script doctoring other MCU movies
 take_that:
   - Avengers Defenders
 
@@ -42,16 +45,16 @@ What the Frodo: a naked haunted house is opening
 
 Ben says he will start enunciating the H in Lindelhof
 
-Ben is Right: Joss Whedon said {% work "The Avengers" %} was a great time but not a great movie
+{% benIsRight ben_is_right[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'28:15'} %}
   <q class="ben">Take that, Avengers Defenders.</q>
 </div>
 
-Ben is Right: Joss Whedon hasn't done Dr. Horrible 2 or Hamlet because he's busy with the MCU
+{% benIsRight ben_is_right[1] %}
 
-Ben is Right: Joss Whedon is script doctoring other MCU movies
+{% benIsRight ben_is_right[2] %}
 
 Matt is Right: Joss Whedon would be better off making original material
 

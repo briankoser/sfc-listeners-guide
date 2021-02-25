@@ -18,9 +18,13 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - A brony found a chapel that will marry him to Twilight Sparkle
 firsts:
   -  Ben is Right
+future_episodes:
+  - Tolkien-Lewis fictional collaboration
+  - Parallel universes
 prophecy:
   - host: Matt
     prediction: Godzilla will win the Battle Royale
@@ -34,9 +38,6 @@ prophecy:
   - host: Ben
     prediction: Batman 1966 will be released on DVD in 2014
     veracity: true
-future_episodes:
-  - Tolkien-Lewis fictional collaboration
-  - Parallel universes
 take_that:
   - Calvin
 
@@ -67,7 +68,7 @@ The audio is so good Matt starts laughing and crying.
 
 The music is from <a href="https://www.youtube.com/watch?v=uq0pygjQK74">In the Beginning by K'Naan</a>.
 
-Ben is Right: a brony found a chapel that will marry him to Twilight Sparkle.
+{% benIsRight ben_is_right[0] %}
 
 Stan Lee Quote of the Week: Stan hates people who pack products in too much plastic.
 

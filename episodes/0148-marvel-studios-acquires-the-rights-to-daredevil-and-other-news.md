@@ -19,7 +19,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - John Wilkerson says oversaturation is a sin and asks for the Ben is Right song
 future_episodes:
   - Superhero Spotlight on the Power Rangers
   - Time Loop of Episode 1
@@ -123,4 +124,4 @@ Ben's says oversaturation means low quality and poor intent, not quantity.
   <q class="ben">I don't hate him! I think he's a fool...</q>
 </div>
 
-Ben is Right: John Wilkerson says oversaturation is a sin and asks for the Ben is Right song.
+{% benIsRight ben_is_right[0] %}

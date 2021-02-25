@@ -18,7 +18,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - Pirates of the Caribbean 5 is delayed because The Lone Ranger bombed
 firsts:
   - Ben drinks while recording
 future_episodes:
@@ -68,7 +69,7 @@ JK Rowling says the Harry Potter prequel movies will be fantastic.
 
 {% timeLink {url:podcast_file_url, t:'22:29'} %} A look at the Clifford mythology
 
-Ben is Right: {% work "Pirates of the Caribbean 5" %} is delayed because {% work "The Lone Ranger" %} bombed
+{% benIsRight ben_is_right[0] %}
 
 What the Frodo: someone secretly filmed a horror movie at Disney Land. 
 

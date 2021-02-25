@@ -16,6 +16,8 @@ hosts:
   - Ben
   - Matt
 
+ben_is_right:
+  - Video games let you choose your own adventure, so the book series is unnecessary
 countdowns:
   dontHoldUp:
     title: Top 5 Things We're Nostalgic For That Don't Hold Up
@@ -119,7 +121,7 @@ Ben started biking this year. Today he did his first mile in under three minutes
   <q class="ben">They didn't know that it was gonna do that. If you're a scientist, you're experimenting with a portal, you don't think it's gonna go to hell, but sometimes it does.</q>
 </div>
 
-Ben is Right: video games let you choose your own adventure, so the book series is unnecessary
+{% benIsRight ben_is_right[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'1:07:48'} %}

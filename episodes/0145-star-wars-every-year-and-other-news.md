@@ -19,7 +19,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+ben_is_right:
+  - There was no character development in The Avengers
 odd_opening: Both do a voice during the opening.
 
 last_listen: 2018-11-21
@@ -65,8 +66,7 @@ Take That, Science: the speed of light in a vacuum can vary.
 
 Stan Lee Quote of the Week: Stan rants about commercials
 
-Ben is Right: there was no character development in {% work "The Avengers" %}
-
+{% benIsRight ben_is_right[0] %}
 
 
 # Feedback 
