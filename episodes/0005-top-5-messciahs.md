@@ -18,11 +18,67 @@ hosts:
 time_loop_forward: 
   number: 584
 
-notable_moments:
+countdowns:
+  satanic:
+    title: Top 5 Satanic Characters
+    ben:
+      list:
+        - Darth Vader
+        - Randall Flagg
+        - Mayor Wilkins
+        - Saruman
+        - The Joker
+      extra:
+        - Sauron
+        - The Emperor
+        - Agent Smith
+        - Brother Cavill (Battlestar Galactica)
+        - The Adversary (Fables)
+    matt: 
+      list:
+        - Magneto
+        - Marsuvees Black
+        - The White Witch 
+        - The Joker
+        - The Emperor 
+      extra:
+        - The Man in Black
+        - Teeleh (Circle Trilogy)
+        - The Cigarette-Smoking Man
+  messciahs:
+    title: Top 5 Messciahs
+    ben:
+      list:
+        - Angel (Buffy)
+        - Sam (Lord of Light)
+        - Batman
+        - Neo
+        - Frodo
+      extra:
+        - Anakin Skywalker
+        - Paul Atreides
+        - Leave (Ache)
+        - John Murdoch (Dark City)
+        - Fox Mulder
+    matt: 
+      list:
+        - Captain America
+        - Thomas Hunter (Circle Trilogy)
+        - Luke Skywalker
+        - Batman
+        - Neo
+      extra:
+        - Jack Shephard
 firsts: 
   - "<a href='http://scifidinerpodcast.com/'>SciFi Diner</a> mentioned"
   - "Readalong: The Stand"
   - Dark Knight News
+future_episodes: 
+  - Watchmen
+  - <i class="work-title">The Stand</i>
+  - <i class="work-title">Lord of Light</i> read-along
+  - Movie commentary track (like a director's commentary)
+  - <i class="work-title">This Present Darkness</i>
 prophecy:
   - host: Ben
     prediction: I gotta believe if Nolan's putting Robin in the series, he has a really good way of doing it.
@@ -31,14 +87,6 @@ prophecy:
   - host: Matt
     prediction: Robin will be the villain in <i class='work-title'>The Dark Knight Rises</i>
     veracity: false
-
-future_episodes: 
-  - Watchmen
-  - <i class="work-title">The Stand</i>
-  - <i class="work-title">Lord of Light</i> read-along
-  - Movie commentary track (like a director's commentary)
-  - <i class="work-title">This Present Darkness</i>
-celebrity_invites: 
 
 last_listen: 2018-01-25
 recommendation: no
@@ -72,79 +120,9 @@ Ben is still really excited about {% work "The Hobbit" %} movie {% arc %}☹️{
 First Dark Knight Rises news <q class="ben inline">We are going to cover everything that is newsworthy, or even not newsworthy.</q>
 
 # Main Topic
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Satanic Characters</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Magneto
-        <li>Marsuvees Black
-        <li>The White Witch 
-        <li>The Joker
-        <li>The Emperor 
-      </ol>
-      <ul class="runner-ups">
-        <li>The Man in Black
-        <li>Teeleh (Circle Trilogy)
-        <li>The Cigarette-Smoking Man
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Darth Vader
-        <li>Randall Flagg
-        <li>Mayor Wilkins
-        <li>Saruman
-        <li>The joker
-      </ol>
-      <ul class="runner-ups">
-        <li>Sauron
-        <li>The Emperor
-        <li>Agent Smith
-        <li>Brother Cavill (Battlestar Galactica)
-        <li>The Adversary (Fables)
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.satanic %}
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Messciahs</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Captain America
-        <li>Thomas Hunter (Circle Trilogy)
-        <li>Luke Skywalker
-        <li>Batman
-        <li>Neo
-      </ol>
-      <ul class="runner-ups">
-        <li>Jack Shephard
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Angel (Buffy)
-        <li>Sam (Lord of Light)
-        <li>Batman
-        <li>Neo
-        <li>Frodo
-      </ol>
-      <ul class="runner-ups">
-        <li>Anakin Skywalker
-        <li>Paul Atreides
-        <li>Leave (Ache)
-        <li>John Murdoch (Dark City)
-        <li>Fox Mulder
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.messciahs %}
 
 Why do messianic characters appear in fiction so often? 
 

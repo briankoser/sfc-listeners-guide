@@ -19,8 +19,25 @@ hosts:
 time_loop_forward: 
   number: 413
 
-notable_moments:
-odd_opening: Ben overdoes the intro
+countdowns:
+  movies:
+    title: Movies that Everyone Else Hates but I Like
+    ben:
+      list:
+        - The Matrix Revolutions
+        - Daredevil
+        - Knowing
+        - Vanilla Sky
+    matt: 
+      list:
+        - Planet of the Apes (2001)
+        - Reign of Fire
+        - Armageddon
+        - Terminator 3
+        - Independence Day
+        - Signs
+        - Transformers 1,2
+        - Waterworld
 firsts: 
   - Daniel Butcher mentioned
   - Dark Knight News music 
@@ -31,6 +48,7 @@ future_episodes:
   - Batman and Robin commentary
   - Signs
   - Top 5 Angelic and Demonic figures in sci-fi movies
+odd_opening: Ben overdoes the intro
 
 last_listen: 2018-01-29
 recommendation: yes-timeloop
@@ -131,33 +149,7 @@ Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", 
 - Howard the Duck
 - Lost in Space
 
-<div class="top-five">
-  <h2 class="has-text-centered">Movies that Everyone Else Hates but I Like</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ul reversed>
-        <li>Planet of the Apes (2001)
-        <li>Reign of Fire
-        <li>Armageddon
-        <li>Terminator 3
-        <li>Independence Day
-        <li>Signs
-        <li>Transformers 1,2
-        <li>Waterworld
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ul reversed>
-        <li>The Matrix Revolutions
-        <li>Daredevil
-        <li>Knowing
-        <li>Vanilla Sky
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.movies %}
 
 <div class="quote">
   <q class="matt">I don't know if you've even seen this, it's called {% work "Reign of Fire" %}.</q>

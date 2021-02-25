@@ -16,6 +16,56 @@ hosts:
   - Ben
   - Matt
 
+countdowns:
+  gospel:
+    title: Top 5 Worlds That Need the Gospel
+    ben:
+      list:
+        - Fables universe
+        - Star Trek universe
+        - The Matrix universe
+        - Westeros
+        - Middle Earth
+      extra:
+        - Firefly universe
+        - Ilium universe
+    matt: 
+      list:
+        - Sunshine universe
+        - Westeros
+        - Battlestar Galactica universe
+        - Avatar universe
+        - Terminator universe
+      extra:
+        - 1984 universe
+        - Reign of fire universe
+  live:
+    title: Top 5 Sci-Fi Worlds Where We Want to Live
+    ben:
+      list:
+        - Neverwhere universe
+        - Star Trek universe
+        - Narnia
+        - Star Wars universe
+        - Middle Earth
+      extra:
+        - Firefly universe
+        - Revelation Space universe
+    matt: 
+      list:
+        - The Island (LOST)
+        - Star Trek universe
+        - Marvel and DC universes
+        - Narnia
+        - Back to the Future 2 universe
+      extra:
+        - Fables
+future_episodes: 
+  - <i class="work-title">Battlestar Galactica</i> rewatch
+  - Top 5 Favorite Scenes (№ 20 or 25), Ben and Matt will reenact 
+  - Recommendations (aka sci-fi current events) 
+  - Multiverse with Talan Gwinn
+  - Post-apocalyptic worlds in sci-fi  
 prophecy:
   - host: Ben
     prediction: "Rebuilt Wayne Manor will be in <i class='work-title'>The Dark Knight Rises</i>"
@@ -24,13 +74,6 @@ prophecy:
     prediction: "I'm calling it here first: you're going to see the Penguin! You're going to see the Riddler! You're going to see the Scarecrow!"
     veracity: false
     comments: Well, 1/3 correct
-
-future_episodes: 
-  - <i class="work-title">Battlestar Galactica</i> rewatch
-  - Top 5 Favorite Scenes (№ 20 or 25), Ben and Matt will reenact 
-  - Recommendations (aka sci-fi current events) 
-  - Multiverse with Talan Gwinn
-  - Post-apocalyptic worlds in sci-fi  
 take_that:
   - Brady
   - talking animals
@@ -61,39 +104,8 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
 
 
 # Main Topic
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Worlds That Need the Gospel</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Sunshine universe
-        <li>Westeros
-        <li>Battlestar Galactica universe
-        <li>Avatar universe
-        <li>Terminator universe
-      </ol>
-      <ul class="runner-ups">
-        <li>1984 universe
-        <li>Reign of fire universe
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Fables universe
-        <li>Star Trek universe
-        <li>The Matrix universe
-        <li>Westeros
-        <li>Middle Earth
-      </ol>
-      <ul class="runner-ups">
-        <li>Firefly universe
-        <li>Ilium universe
-      </ul>
-    </div>
-  </div>
-</div>
+
+{% countdown countdowns.gospel %}
 
 <div class="quote">
   <span class="quote-context is-size-6">On Avatar</span>
@@ -125,38 +137,7 @@ Maybe the worst title in the history of titles announced: Terminator 2012.
   <q class="matt">You think so?</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Sci-Fi Worlds Where We Want to Live</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Neverwhere universe
-        <li>Star Trek universe
-        <li>Narnia
-        <li>Star Wars universe
-        <li>Middle Earth
-      </ol>
-      <ul class="runner-ups">
-        <li>Firefly universe
-        <li>Revelation Space universe
-      </ul>
-    </div>
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>The Island (LOST)
-        <li>Star Trek universe
-        <li>Marvel and DC universes
-        <li>Narnia
-        <li>Back to the Future 2 universe
-      </ol>
-      <ul class="runner-ups">
-        <li>Fables
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.live %}
 
 <div class="quote">
   <q class="ben">There needs to be a sequel series to {% work "LOST" %} called {% work "Matt Anderson Lives Outside" %}.</q>

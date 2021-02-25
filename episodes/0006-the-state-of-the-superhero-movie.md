@@ -19,6 +19,23 @@ hosts:
 time_loop_forward: 
   number: 258
 
+countdowns:
+  predictions:
+    title: Superhero Genre Predictions
+    ben:
+      list:
+        - Successful
+        - Nolan will continue as executive producer and make more movies in the Nolan-verse
+        - Good actors, will be awesome
+        - It will be awesome
+        - Captain America successful, Thor will be the best of the three but will get a so-so reception, Green Lantern bad
+    matt: 
+      list:
+        - Successful
+        - DC and WB will continue to make Batman movies in the Nolan-verse 
+        - Will be good, not successful
+        - "In my mind, there is almost no way it can fail."
+        - High hopes for Captain America, low hopes for Thor (it won't get many sequels unless it's fantastic), no hopes for Green Lantern (will not get sequels)
 firsts: 
   - Discussion of postmodernism
   - Ben challenges <i class="work-title">Superman</i> movie fans to defend the film
@@ -26,6 +43,16 @@ firsts:
   - Mention of Heroes (Ben has not yet seen it) 
   - Feedback from Colin from the UK
   - Audio feedback (from Scott Hertzog)
+future_episodes: 
+  - Talan Gwynn
+  - Human cloning
+  - Cryosleep
+  - Near-future technology
+  - Parallel universes
+  - <i class="work-title">LOST</i>
+  - Top 5 sci-fi TV show theme songs
+  - Superman 1-4 commentary
+  - <i class="work-title">The Prestige</i>
 prophecy:
   - host: Ben
     prediction: Unlikely that Daredevil will have a big screen comeback
@@ -54,16 +81,6 @@ prophecy:
     prediction: Postmodernism will break down, due in part to superhero films
     veracity: false
     comments: Has not happened yet, and Ben now wants no more superhero movies, so maybe was too optimistic.
-future_episodes: 
-  - Talan Gwynn
-  - Human cloning
-  - Cryosleep
-  - Near-future technology
-  - Parallel universes
-  - <i class="work-title">LOST</i>
-  - Top 5 sci-fi TV show theme songs
-  - Superman 1-4 commentary
-  - <i class="work-title">The Prestige</i>
 
 last_listen: 2018-01-26
 recommendation: no
@@ -102,31 +119,7 @@ Unbreakable will be a trilogy
 4. Will {% work "The Amazing Spider-Man" %} be a successful reboot?
 5. Can lesser-known characters like {% work "Thor" %}, {% work "Captain America" %}, and {% work "Green Lantern" %} be successful? 
 
-<div class="top-five">
-  <h2 class="has-text-centered">Superhero Genre Predictions</h2>
-  <div class="columns">
-    <div class="column ben">
-      <h3>Matt</h3>
-      <ol>
-        <li>Successful
-        <li>DC and WB will continue to make Batman movies in the Nolan-verse 
-        <li>Will be good, not successful
-        <li>"In my mind, there is almost no way it can fail."
-        <li>High hopes for {% work "Captain America" %}, low hopes for {% work "Thor" %} (it won't get many sequels unless it's fantastic), no hopes for {% work "Green Lantern" %} (will not get sequels)
-      </ol>
-    </div>
-    <div class="column matt">
-      <h3>Ben</h3>
-      <ol>
-        <li>Successful
-        <li>Nolan will continue as executive producer and make more movies in the Nolan-verse
-        <li>Good actors, will be awesome
-        <li>It will be awesome
-        <li>{% work "Captain America" %} successful, {% work "Thor" %} will be the best of the three but will get a so-so reception, {% work "Green Lantern" %} bad
-      </ol>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.predictions %}
 
 Hopefully superhero movies will help bring us through postmodernism.
 
