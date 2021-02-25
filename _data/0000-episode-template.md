@@ -123,8 +123,8 @@ archivist_note:
 {% arc %}note{% endarc %}
 {% benIsRight ben_is_right[0] %}
 {% ben "" %}
-{% encouragingSigns encouraging_signs[0] %}
 {% countdown countdowns.myCountdown %}
+{% encouragingSigns encouraging_signs[0] %}
 {% episodeLink 100 %}
 {% episodeShortLink 100 %}
 {% matt "" %}
