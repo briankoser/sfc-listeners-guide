@@ -16,8 +16,65 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-  - Sidekick Jesus
+countdowns:
+  best:
+    title: Top 5 Best Sidekicks
+    ben:
+      list:
+        - Wesley Windom Price (Buffy the Vampire Slayer)
+        - Walter Bishop (Fringe) 
+        - Wash and Zoe (Firefly) 
+        - Chewbacca
+        - Samwise Gamgee
+      extra:
+        - Ron Weasley and Hermione Granger
+        - Hugo Reyes (LOST) 
+        - Willow and Spike (Buffy) 
+        - Gary the Pathetic Fallacy (Fables) 
+        - Samwell Tarly (A Song of Ice and Fire) 
+        - R2-D2
+        - Saul Tigh (Battlestar Galactica) 
+        - Matt and Perrin (Wheel of Time) 
+        - Luigi (Super Mario Bros.) 
+        - Abe Sapien (Hellboy) 
+        - Trinity (The Matrix) 
+        - Eddie, Susanna, Jake (The Dark Tower) 
+        - Newt (Aliens) 
+    matt:
+      list:
+        - Boy Blue (Fables) / Felix Gaeta (Battlestar Galactica)
+        - Ron Weasley and Hermione Granger
+        - Robin (Dick Grayson) 
+        - Samwise Gamgee
+        - Chewbacca 
+      extra:
+        - Walter Bishop (Fringe)
+        - Hugo Reyes (LOST) 
+        - Ando (Heroes) 
+        - Al (Quantum Leap) 
+        - The Lone Gunman (X-Files) 
+        - Mr. Spock
+        - John the Disciple (sidekick to Jesus) 
+        - Luigi (Super Mario Bros.) 
+        - The fish (Aquaman) 
+        - Jesus (sidekick to God the Father) 
+        - Launchpad McQuack (Darkwing Duck)
+  worst:
+    title: Top 5 Worst Sidekicks
+    ben: 
+      list:
+        - Doyle (Angel season 1)
+        - Robin (Batman) 
+        - Short Round (Indiana Jones and the Temple of Doom) 
+        - Wicket (Return of the Jedi)
+        - Jar Jar Binks
+    matt: 
+      list:
+        - Kate Austen (LOST)
+        - Cypher (The Matrix) 
+        - Ben Linus (LOST) 
+        - Scrappy Doo (Scooby Doo) 
+        - Anakin Skywalker
 firsts: 
   - Mention of the salute the hosts do when signing off
 future_episodes: 
@@ -25,6 +82,8 @@ future_episodes:
   - Live tweet <i class="work-title">The Lord of the Rings</i> extended edition
   - Top 5 Henchmen
   - Comics Continuity with Dave Johnson
+notable_moments:
+  - Sidekick Jesus
 
 last_listen: 2018-02-21
 recommendation: yes
@@ -46,59 +105,7 @@ Matt is obsessed with The Rock
   <q class="matt">I can take a good joke, and I can also ban someone from ever appearing on our show again.</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Best Sidekicks</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Boy Blue (Fables) / Felix Gaeta (Battlestar Galactica)
-        <li>Ron Weasley and Hermione Granger
-        <li>Robin (Dick Grayson) 
-        <li>Samwise Gamgee
-        <li>Chewbacca 
-      </ol>
-      <ul class="runner-ups">
-        <li>Walter Bishop (Fringe)
-        <li>Hugo Reyes (LOST) 
-        <li>Ando (Heroes) 
-        <li>Al (Quantum Leap) 
-        <li>The Lone Gunman (X-Files) 
-        <li>Mr. Spock
-        <li>John the Disciple (sidekick to Jesus) 
-        <li>Luigi (Super Mario Bros.) 
-        <li>The fish (Aquaman) 
-        <li>Jesus (sidekick to God the Father) 
-        <li>Launchpad McQuack (Darkwing Duck)
-      </ul>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Wesley Windom Price (Buffy the Vampire Slayer)
-        <li>Walter Bishop (Fringe) 
-        <li>Wash and Zoe (Firefly) 
-        <li>Chewbacca
-        <li>Samwise Gamgee
-      </ol>
-      <ul class="runner-ups">
-        <li>Ron Weasley and Hermione Granger
-        <li>Hugo Reyes (LOST) 
-        <li>Willow and Spike (Buffy) 
-        <li>Gary the Pathetic Fallacy (Fables) 
-        <li>Samwell Tarly (A Song of Ice and Fire) 
-        <li>R2-D2
-        <li>Saul Tigh (Battlestar Galactica) 
-        <li>Matt and Perrin (Wheel of Time) 
-        <li>Luigi (Super Mario Bros.) 
-        <li>Abe Sapien (Hellboy) 
-        <li>Trinity (The Matrix) 
-        <li>Eddie, Susanna, Jake (The Dark Tower) 
-        <li>Newt (Aliens) 
-      </ul>
-    </div>
-  </div>
-</div>
+{% countdown countdowns.best %}
 
 <div class="quote">
   <span class="quote-context is-size-6">Matt picks John the Disciple as a runner-up Best Sidekick</span>
@@ -120,32 +127,8 @@ Matt is obsessed with The Rock
   <q class="ben">That's basically what a wife is, right?</q>
 </div>
 
-<div class="top-five">
-  <h2 class="has-text-centered">Top 5 Worst Sidekicks</h2>
-  <div class="columns">
-    <div class="column matt">
-      <h3>Matt</h3>
-      <ol reversed>
-        <li>Kate Austen (LOST)
-        <li>Cypher (The Matrix) 
-        <li>Ben Linus (LOST) 
-        <li>Scrappy Doo (Scooby Doo) 
-        <li>Anakin Skywalker
-      </ol>
-    </div>
-    <div class="column ben">
-      <h3>Ben</h3>
-      <ol reversed>
-        <li>Doyle (Angel season 1)
-        <li>Robin (Batman) 
-        <li>Short Round (Indiana Jones and the Temple of Doom) 
-        <li>Wicket (Return of the Jedi)
-        <li>Jar Jar Binks
-      </ol>
-    </div>
-  </div>
-</div>
- 
+{% countdown countdowns.worst %}
+
 
 
 # Feedback
