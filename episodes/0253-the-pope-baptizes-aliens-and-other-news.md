@@ -15,6 +15,10 @@ hosts:
   - Ben
   - Matt
 
+encouraging_signs:
+  - Ben Affleck looks good in the Batsuit
+future_episodes:
+  - Popin' It Up with Ben De Bono 
 notable_moments: 
 prophecy:
   - host: Ben
@@ -23,8 +27,6 @@ prophecy:
   - host: Matt
     prediction: Wonder Woman will just cameo in <i class="work-title">Batman v Superman</i>
     veracity: true
-future_episodes:
-  - Popin' It Up with Ben De Bono 
 
 last_listen: 2019-10-14
 recommendation: no
@@ -40,7 +42,7 @@ The pope said he would baptize any aliens that land on earth and ask.
 
 Ben got Matt a Ben De Bono Beer Show t-shirt and a Spider-Man pint glass for his birthday. When Matt drinks his first beer on the Ben De Bono Beer Show, he will do it out of his new pint glass.
 
-Encouraging Signs: Ben Affleck looks good in the Batsuit.
+{% encouragingSigns encouraging_signs[0] %}
 
 H. R. Geiger died
 

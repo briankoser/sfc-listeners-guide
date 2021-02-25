@@ -34,6 +34,9 @@ countdowns:
         - James Gandolfini
         - Vince Flynn
         - Richard Matheson
+encouraging_signs:
+  - Networks are doing short TV seasons 
+  - Christian Bale says three Dark Knight movies is enough
 firsts:
   - Appearance of Des
   - Recording at BAM Studios
@@ -77,9 +80,9 @@ What the Frodo: a Captain Planet movie is coming
 
 {% timeLink {url:podcast_file_url, t:'30:43'} %} Matt wants news to brighten him up after the obituaries, so Ben introduces a new segment: Encouraging Signs.
 
-Encouraging Signs: networks are doing short TV seasons 
+{% encouragingSigns encouraging_signs[0] %}
 
-Encouraging Signs: Christian Bale says three Dark Knight movies is enough
+{% encouragingSigns encouraging_signs[1] %}
 
 Des arrives early for the next episode.
 

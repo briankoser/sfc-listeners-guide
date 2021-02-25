@@ -24,6 +24,9 @@ ben_is_right:
   - A listener agreed that LOST writers were good at character stories but not mystery
 celebrity_invites: 
   - A listener from the afterlife
+encouraging_signs:
+  - Massachusetts allowed a utility box to be painted like a TARDIS
+  - Disney will give Jerry Bruckheimer smaller budgets after The Lone Ranger bombed
 future_episodes:
   - How to fix superhero comics
 
@@ -37,9 +40,9 @@ What the Frodo: Robert Downey Jr. is playing Pinocchio and Gepetto in Ben Stille
 
 It's become a tradition for Ben to pretend to step on Matt's grandpa's thermometer. 
 
-Encouraging Signs: Massachusetts allowed a utility box to be painted like a TARDIS. 
+{% encouragingSigns encouraging_signs[0] %}
 
-Encouraging Signs: Disney will give Jerry Bruckheimer smaller budgets after {% work "The Lone Ranger" %} bombed. 
+{% encouragingSigns encouraging_signs[1] %}
 
 Stan Lee Quote of the Week: Spider-Man is the only hyphenated superhero, and he was hyphenated to differentiate him from Superman.
 

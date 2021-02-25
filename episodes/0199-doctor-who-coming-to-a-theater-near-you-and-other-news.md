@@ -21,11 +21,12 @@ hosts:
 sponsors:
   - Anthony
 
-notable_moments:
-odd_opening: Matt tries to whisper the opening dramatically.
+encouraging_signs:
+  - Anthony said Buffy is getting better
 future_episodes:
   - The Fountain review
   - Pi review
+odd_opening: Matt tries to whisper the opening dramatically.
 
 last_listen: 2019-06-14
 recommendation: no
@@ -54,7 +55,7 @@ Stan Lee Quote of the Week: Stan thinks he should cameo in the next Superman mov
 
 # Feedback 
 
-Encouraging Signs: Anthony said Buffy is getting better
+{% encouragingSigns encouraging_signs[0] %}
 
 
 

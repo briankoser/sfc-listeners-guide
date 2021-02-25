@@ -28,7 +28,8 @@ ben_is_right:
   - Joss Whedon has abandoned his principles
   - Matt misidentified an actor
   - In season 1 of Super Book, the kids got sucked into the book instead of the computer
-
+encouraging_signs:
+  - Ryan Reynolds bombed twice in one week (Turbo and RIPD)
 last_listen: 2019-02-08
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
@@ -43,7 +44,7 @@ What the Frodo: Joss Whedon said all the rehashing is bad for pop culture
 
 {% benIsRight ben_is_right[0] %}
 
-Encouraging Signs: Ryan Reynolds bombed twice in one week (Turbo and RIPD)
+{% encouragingSigns encouraging_signs[0] %}
 
 Ben tries to make a video game news segment music happen again
 

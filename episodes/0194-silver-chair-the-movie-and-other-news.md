@@ -22,6 +22,8 @@ hosts:
 
 ben_is_right:
   - Steven Moffat said there will be a female doctor when the right person comes along, not just for the sake of political correctness.
+encouraging_signs:
+  - A man was fired for liking My Little Pony too much
 future_episodes:
   - Chronicles of Narnia film comparison
   - Granchise thoughts
@@ -66,7 +68,7 @@ What the Frodo: Dinosaur erotica is selling well
 
 Tom Clancy died.
 
-Encouraging Signs: a man was fired for liking My Little Pony too much
+{% encouragingSigns encouraging_signs[0] %}
 
 {% benIsRight ben_is_right[0] %}
 

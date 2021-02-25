@@ -17,7 +17,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+encouraging_signs:
+  - Bill Watterson said he stopped Calvin and Hobbes because "repetition is the death of magic".
 future_episodes:
   - The Fountain review
   - Franchises 
@@ -46,7 +47,7 @@ Take That, Science: Venezuelan president blames country's violence on Spider-Man
 
 Breaking news: Hugo Chavez has been dead since March.
 
-Encouraging Signs: Bill Watterson said he stopped Calvin and Hobbes because "repetition is the death of magic".
+{% encouragingSigns encouraging_signs[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'33:50'} %}

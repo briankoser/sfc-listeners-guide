@@ -19,13 +19,14 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+encouraging_signs:
+  - The Lone Ranger movie bombed 
 
 last_listen: 2019-01-30
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
-Encouraging Signs: The Lone Ranger movie bombed 
+{% encouragingSigns encouraging_signs[0] %}
 
 What the Frodo: Michael Jackson was almost cast as The Doctor in the 90s Doctor Who TV movie.
 

@@ -22,6 +22,9 @@ hosts:
 
 ben_is_right:
   - Measles is spreading at Disney Land
+encouraging_signs:
+  - "Zachary Quinto turned down the offer to appear in Heroes: Reborn"
+  - "Joss Whedon said it's unlikely that he'll direct Avengers: Infinity War"
 quotes:
   - time: "1:30"
     context: Matt tells Ben that David Tennant is going to play Killgrave, The Purple Man
@@ -36,11 +39,11 @@ David Tennant is going to be the villain on {% work "AKA Jessica Jones" %}.
 
 Fox is considering rebooting Indiana Jones with Chris Pratt.
 
-Encouraging Signs: Zachary Quinto turned down the offer to appear in {% work "Heroes: Reborn" %}
+{% encouragingSigns encouraging_signs[0] %}
 
 A writer said that a {% work "LOST" %} writer admitted to him that they just made up plot points and knew they would never pay them off. Matt refuses to believe that it's true.
 
-Encouraging Signs: Joss Whedon said it's unlikely that he'll direct {% work "Avengers: Infinity War" %}
+{% encouragingSigns encouraging_signs[1] %}
 
 What the Frodo: Brett Ratner is involved with a {% work "Rush Hour" %} TV show on CBS
 

@@ -19,11 +19,12 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben eats pizza during the intro
+encouraging_signs:
+  - After he's done with Game of Thrones, Jack Gleason is quitting acting to work on humanitarian projects.
 future_episodes:
   - Alan Moore 
   - Catholicism vs the Orthodox Church
+odd_opening: Ben eats pizza during the intro
 
 last_listen: 2019-07-23
 recommendation: no
@@ -39,8 +40,7 @@ Take That, Science: Harvard and MIT scientists created a lightsaber
 
 What the Frodo: drunk and high ghost hunters couldn't find a ghost
 
-Encouraging Signs: after he's done with {% work "Game of Thrones" %}, Jack Gleason is quitting acting to work on humanitarian projects.
-
+{% encouragingSigns encouraging_signs[0] %}
 
 
 # Closing

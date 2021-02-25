@@ -17,7 +17,10 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+encouraging_signs:
+  - The Peggy Carter show will be 8 episodes only
+future_episodes:
+  - Alan Moore 
 prophecy:
   - host: Matt
     prediction: Owen Wilson will be the orange crayon in <i class="work-title">The Hero of Color City</i>
@@ -31,8 +34,6 @@ prophecy:
     prediction: Green Crayon won't talk
     veracity: undefined
     comments: I care enough to write this down but not enough to check
-future_episodes:
-  - Alan Moore 
 
 last_listen: 2019-10-15
 recommendation: no
@@ -58,7 +59,7 @@ They watch the trailer and give commentary.
 
 Take That, Science: Internet nabs man who attacked cosplayer
 
-Encouraging Signs: The Peggy Carter show will be 8 episodes only
+{% encouragingSigns encouraging_signs[0] %}
 
 Minnesota is getting the Super Bowl in 2018 {% arc %}🦅{% endarc %}
 

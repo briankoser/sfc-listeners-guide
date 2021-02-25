@@ -21,6 +21,8 @@ hosts:
 
 ben_is_right:
   - Chlo has dropped some TV shows with bad writing
+encouraging_signs:
+  - Under the Dome only got renewed for 13 episodes
 firsts:
   - Feedback from Jordan in Australia
 future_episodes:
@@ -38,7 +40,7 @@ No one has made a "Matt is Right" clip.
 
 The hosts tease their upcoming gear store. 
 
-Encouraging Signs: {% work "Under the Dome" %} only got renewed for 13 episodes
+{% encouragingSigns encouraging_signs[0] %}
 
 What the Frodo: Colin Ferguson said the end of lighthearted programming at Syfy is here with {% work "Warehouse 13" %} and {% work "Eureka" %} ending (even though movies like {% work "Sharknado 2" %} are still coming)
 
