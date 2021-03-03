@@ -33,7 +33,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 # News
 Ben added a search bar to the website.
 
-Ben bought Matt an early Christmas present: an edition of Paradise Lost with footnotes.
+Ben bought Matt an early Christmas present: the Barnes and Noble edition of Paradise Lost with footnotes.
 
 Ben starts to give Mary Poppins news, but decides to give it next week so they can call the episode, "Hoppin' with Mary Poppins".
 

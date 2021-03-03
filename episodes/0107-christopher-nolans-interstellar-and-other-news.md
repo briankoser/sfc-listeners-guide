@@ -21,7 +21,7 @@ hosts:
 
 notable_moments:
 firsts:
-  - News episode with unique title
+  - News episode with "and Other News" suffix
   - Matt bleeps Ben
   - Last News of the Day sound clip
 prophecy:
