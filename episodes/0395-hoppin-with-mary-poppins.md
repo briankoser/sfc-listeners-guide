@@ -27,13 +27,6 @@ quotes:
     context: Ben's plot summary of Mary Poppins
     lines:
       - b: She's in league with the devil, and she comes to watch the kids. And hilarity ensues.
-  - time: "0:00"
-    context: 
-    lines:
-      - b: 
-      - m: 
-      - benAction: "**"
-      - mattAction: "**"
 take_that_science:
   - A new record was set for the fastest speed on a bicycle
 
@@ -54,6 +47,8 @@ Ben guarantees that Dick Van Dyke and Julia Andrews are dead. Matt thinks they a
 {% takeThatScience take_that_science[0] %}
 
 The Star Wars theatrical editions are rumored to be coming out on Blu Ray.
+
+Matt suggests moving the End of the Year Awards to January so they can include movies that came out at the end of the year. Ben suggests moving to a September-September calendar.
 
 
 
