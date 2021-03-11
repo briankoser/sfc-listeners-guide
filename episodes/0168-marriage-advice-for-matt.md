@@ -54,7 +54,7 @@ odd_opening: Matt says his name wrong in the opening.
 
 last_listen: 2019-01-30
 recommendation: yes
-recommendation_reason: Fun interaction with Des, plus some good advice.
+recommendation_reason: Des plus good advice
 ---
 {% timeLink {url:podcast_file_url, t:'0:28'} %} Matt says his name wrong in the opening.
 
