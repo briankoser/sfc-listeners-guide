@@ -28,8 +28,8 @@ quotes:
     context: Ben pitches two songs for the Back to the Future musical
 
 last_listen: 2021-03-12
-recommendation: no
-recommendation_reason: Listen if you're a big Back to the Future fan
+recommendation: yes
+recommendation_reason: Listen if you're a Back to the Future fan
 ---
 
 It's Back to the Future Day, the day Marty and Doc travelled to in {% work "Back to the Future II" %}.
