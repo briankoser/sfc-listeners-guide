@@ -17,10 +17,6 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
-firsts:
-  - Feedback from Daniel Ford
-
 last_listen: 2019-10-14
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
