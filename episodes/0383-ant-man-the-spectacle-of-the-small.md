@@ -18,7 +18,7 @@ guests:
   - Mikey “Fizz” Fissel
   - Griffin Kale
   - Josh Crabb
-visit: Reel World Theology
+visit: Reel World Theology podcast
 
 quotes:
   - time: "0:59"
