@@ -2,18 +2,6 @@
 layout: episode
 tags:
   - episode
-- a-slew-of-casting-news
-- ben-is-right
-- ben-was-wrong
-- bleeping
-- encouraging-signs
-- matt-is-right
-- questions-for-matt
-- remote
-- sci-fi-christian-story-time
-- stan-lee-quote-of-the-week
-- take-that-science
-- what-the-frodo
 
 title: Who Killed Stanley Kubrick?
 number: 396
