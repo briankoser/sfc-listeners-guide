@@ -77,15 +77,15 @@ Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", 
 # Main Topic
 <div class="quote">
   <q class="ben">Are you ready to talk about crap?</q>
-  <q class="ben">Absolutely.</q>
+  <q class="matt">Absolutely.</q>
   <q class="ben">Crapsolutely!</q>
 </div>
 
-<q data-name="Skip Crust">Marky Mark and the monkey bunch</q>
+<q data-name="Skip Crust">Marky Mark and the Monkey Bunch</q>
 
 ### Ben's Hasn't Seen
 - Starship Troopers
-- Transformers 1,2
+- Transformers
 
 ### Ben's Hate but Still Might Watch
 - The Matrix Reloaded 
@@ -105,9 +105,9 @@ Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", 
 - Van Helsing 
 - Troy
 
-{% arc %}Ben tells Matt that he should watch Kingdom of the Crystal Skull "because it is Indiana Jones", leading to one of the best review episodes in SFC history.{% endarc %}
+Ben tells Matt that he should watch Kingdom of the Crystal Skull "because it is Indiana Jones".
 
-{% arc %}Ben is ashamed of Matt for previously owning {% work "Armageddon" %}. Eventually Ben will buy it because it's in the Criterion collection.{% endarc %}
+Ben is ashamed of Matt for previously owning {% work "Armageddon" %}. {% arc %}Eventually Ben will buy it because it's in the Criterion collection.{% endarc %}
 
 ### Ben's Hate and Have No Desire to Watch Again:
 - Planet of the Apes (2001) 
@@ -157,6 +157,6 @@ Ben and Matt disagree about how to pronounce "Darkseid": Matt says "Dark Side", 
 </div>
 
 <div class="quote">
-  <q class="ben">Daniel Day Lewis is the greatest actor working today.</q>
+  <q class="ben">Daniel Day-Lewis is the greatest actor working today.</q>
   <q class="matt">Better than Ben Stiller?</q>
 </div>
