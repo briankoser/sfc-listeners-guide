@@ -18,6 +18,7 @@ hosts:
 notable_moments:
 firsts:
   - Time looping a YouTube video
+visit: YouTube video
 
 last_listen: 2019-07-03
 recommendation: no

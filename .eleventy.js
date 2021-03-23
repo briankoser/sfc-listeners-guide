@@ -545,16 +545,16 @@ module.exports = function(eleventyConfig) {
     return episodesGroupBy(episodes, 'series');
   });
 
-  eleventyConfig.addCollection("visits", function(collection) {
-    let episodes = collection.getFilteredByTag("episode");
+  eleventyConfig.addCollection("timeLoops", function(collection) {
+    return collection
+      .getFilteredByTag("episode")
+      .filter(e => e.data.hasOwnProperty('time_loop_backward'));
+  });
 
-    return episodes
-      .filter(e => e.data.hasOwnProperty('visit'))
-      .map(e => {return {
-        'url': e.url,
-        'displayTitle': `№ ${e.data.number} ${e.data.title}`,
-        'visit': e.data.visit
-      }});
+  eleventyConfig.addCollection("visits", function(collection) {
+    return collection
+      .getFilteredByTag("episode")
+      .filter(e => e.data.hasOwnProperty('visit'));
   })
 
 

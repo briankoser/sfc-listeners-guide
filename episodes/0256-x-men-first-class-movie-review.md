@@ -15,10 +15,10 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
 rating:
   ben: 5
   matt: 4.5
+visit: YouTube video
 
 last_listen: 2019-10-16
 recommendation: no

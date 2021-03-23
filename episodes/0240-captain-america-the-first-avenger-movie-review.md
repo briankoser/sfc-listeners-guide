@@ -15,7 +15,7 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+visit: YouTube video
 
 last_listen: 2019-09-26
 recommendation: no

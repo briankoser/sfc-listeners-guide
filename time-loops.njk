@@ -28,6 +28,19 @@ pageTitle: Time Loops and Visits
   });
 </script>
 
+{#<tr>
+  <td>{% episodeLink 435 %}</td>
+  <td>{% episodeLink 4 %}</td>
+</tr>
+<tr>
+  <td>{% episodeLink 497 %}</td>
+  <td>{% episodeLink 25 %}</td>
+</tr>
+<tr>
+  <td>{% episodeLink 584 %}</td>
+  <td>{% episodeLink 5 %}</td>
+</tr>#}
+
 <h2 class="title is-3">Time Loops</h2>
 <table class="table is-striped">
   <thead>
@@ -37,110 +50,18 @@ pageTitle: Time Loops and Visits
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>{% episodeLink 46 %}</td>
-      <td>{% episodeLink 27 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 65 %}</td>
-      <td>{% episodeLink 21 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 77 %}</td>
-      <td>{% episodeLink 3 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 87 %}</td>
-      <td>{% episodeLink 9 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 95 %}</td>
-      <td>{% episodeLink 23 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 125 %}</td>
-      <td>{% episodeLink 2 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 138 %}</td>
-      <td>{% episodeLink 18 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 149 %}</td>
-      <td>{% episodeLink 1 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 158 %}</td>
-      <td>{% episodeLink 22 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 178 %}</td>
-      <td>{% episodeLink 12 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 193 %}</td>
-      <td>{% episodeLink 19 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 201 %}</td>
-      <td>{% episodeLink 16 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 227 %}</td>
-      <td>{% episodeLink 7 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 258 %}</td>
-      <td>{% episodeLink 6 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 269 %}</td>
-      <td>{% episodeLink 11 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 288 %}</td>
-      <td>{% episodeLink 32 %}, {% episodeLink 34 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 299 %}</td>
-      <td>{% episodeLink 36 %}</td>
-    </tr>
-    {#<tr>
-      <td>{% episodeLink 354 %}</td>
-      <td>{% episodeLink 55 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 369 %}</td>
-      <td>{% episodeLink 33 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 379 %}</td>
-      <td>{% episodeLink 10 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 380 %}</td>
-      <td>{% episodeLink 26 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 413 %}</td>
-      <td>{% episodeLink 8 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 435 %}</td>
-      <td>{% episodeLink 4 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 497 %}</td>
-      <td>{% episodeLink 25 %}</td>
-    </tr>
-    <tr>
-      <td>{% episodeLink 584 %}</td>
-      <td>{% episodeLink 5 %}</td>
-    </tr>#}
+{% for timeLoop in collections.timeLoops %}
+  <tr>
+    <td>{% episodeLink timeLoop.data.number %}</td>
+    <td>
+    {% for episode in timeLoop.data.time_loop_backward %}
+        {% episodeLink episode.number %}
+        {%- if not loop.last %}, {% endif %}
+    {% endfor %}
+  </tr>
+{% endfor %}
   </tbody>
 </table>
-
-
 
 <h2 class="title is-3">Visits</h2>
 <h2 class="subtitle is-5">Appearances on other podcasts and videos</h2>
@@ -155,38 +76,9 @@ pageTitle: Time Loops and Visits
     <tbody>
       {% for episode in collections.visits %}
       <tr>
-        <td><a href="{{episode.url}}">{{episode.displayTitle}}</a></td>
-        <td>{{episode.visit | safe}}</td>
+        <td>{% episodeLink episode.data.number %}</td>
+        <td>{{episode.data.visit | safe}}</td>
       </tr>
       {% endfor %}
-      <tr>
-        <td>{% episodeLink 43 %}</td>
-        <td>Life Report № 0 (practice episode 1)</td>
-      </tr>
-      <tr>
-        <td>{% episodeLink 53 %}</td>
-        <td>Life Report № 0.5 (practice episode 2)</td>
-      </tr>
-      <tr>
-        <td>{% episodeLink 66 %}</td>
-        <td>Epic Life sermon from The Life Report</td>
-      </tr>
-       <tr>
-        <td>{% episodeLink 202 %}</td>
-        <td>Video</td>
-      </tr>
-      <tr>
-        <td>{% episodeLink 240 %}</td>
-        <td>Video</td>
-      </tr>
-      
-      <tr>
-        <td>{% episodeLink 256 %}</td>
-        <td>Video</td>
-      </tr>
-      {#<tr>
-        <td>№ 354</td>
-        <td>video</td>
-      </tr>#}
     </tbody>
 </table>
