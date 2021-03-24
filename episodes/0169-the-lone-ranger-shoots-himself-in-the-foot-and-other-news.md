@@ -21,6 +21,8 @@ hosts:
 
 encouraging_signs:
   - The Lone Ranger movie bombed 
+stan_lee:
+  - They invented Spider-Woman to prevent another company from making a ripoff Spider-Man 
 
 last_listen: 2019-01-30
 recommendation: no
@@ -30,6 +32,6 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 
 What the Frodo: Michael Jackson was almost cast as The Doctor in the 90s Doctor Who TV movie.
 
-Stan Lee Quote of the Week: they invented Spider Woman to prevent another company from making a ripoff Spider-Man 
+{% stanLee stan_lee[0] %}
 
 Take That, Science: man throws his mother off a bridge claiming she is a clone.

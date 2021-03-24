@@ -18,7 +18,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+future_episodes:
+  - Revelation with Rick Lee James
 prophecy:
   - host: Matt
     prediction: "Iron Man will be a main character in <i class='work-title'>Guardians of the Galaxy</i>"
@@ -30,8 +31,8 @@ prophecy:
     prediction: Instead of a Justice League movie, DC will do a Batman-Superman movie next.
     veracity: true
     comments: I think this is my favorite in the history of the show. Listen to the clip for this one.
-future_episodes:
-  - Revelation with Rick Lee James
+stan_lee:
+  - Stan thinks that kids that wear helmets while roller skating are "soggy"
 take_that:
   - Obama
   - Wizard
@@ -66,7 +67,7 @@ Ben wants DC to fire Henry Cavill and cast Benedict Cumberbatch and Martin Freem
 
 {% timeLink {url:podcast_file_url, t:'22:34'} %} Matt invents a new segment: A Slew of Casting News. Ben pushes to record a musical intro.
 
-Stan Lee Quote of the Week: Stan thinks that kids that wear helmets while roller skating are "soggy"
+{% stanLee stan_lee[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'40:37'} %}

@@ -18,12 +18,18 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben beat boxes and a light goes out
+celebrity_invites: 
+  - William Shatner
+  - Daniel Day-Lewis
+  - Jennifer Lawrence
 firsts:
   - Mention of Half-Price Books
   - For It or Against It
   - Ben and Matt switch seats
+future_episodes:
+  - Marriage Advice for Matt
+  - Genesis 1
+odd_opening: Ben beat boxes and a light goes out
 prophecy:
   - host: Matt
     prediction: "<i class='work-title'>Super Clyde</i> with Rupert Grint will get a full first season"
@@ -36,13 +42,8 @@ prophecy:
     prediction: There will not be a Ewan MacGregor Obi-Wan prequel because Disney wants to distance itself from the prequels.
     veracity: false
     comments: Coming 2021 (and will even feature Hayden Christensen)
-future_episodes:
-  - Marriage Advice for Matt
-  - Genesis 1
-celebrity_invites: 
-  - William Shatner
-  - Daniel Day-Lewis
-  - Jennifer Lawrence
+stan_lee:
+  - Stan rants about weather reports
 
 last_listen: 2018-10-02
 recommendation: no
@@ -118,7 +119,7 @@ Take That, Science: Chechnya banned wizards and sorcery
 
 Take That, Science: someone hacked an early response system in Montana and sent a warning that dead bodies were rising from their graves
 
-Stan Lee Quote of the Week: Stan rants about weather reports
+{% stanLee stan_lee[0] %}
 
 They switch seats so Ben can read an email from Matt's computer. 
 

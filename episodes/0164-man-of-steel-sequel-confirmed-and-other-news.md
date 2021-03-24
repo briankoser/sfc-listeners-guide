@@ -37,6 +37,8 @@ future_episodes:
   - Marriage advice for Matt
   - "Injustice: Gods Among Us review"
 odd_opening: Matt opens with an odd cadence.
+stan_lee:
+  - Stan Lee is launching a cologne that smells like him
 
 last_listen: 2019-01-02
 recommendation: no

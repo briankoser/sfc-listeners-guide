@@ -20,7 +20,8 @@ hosts:
 sponsors:
   - Scott
 
-notable_moments:
+stan_lee:
+  - Stan rants about Superman flying without visible means of propulsion
 
 last_listen: 2019-07-10
 recommendation: no
@@ -34,6 +35,6 @@ Take That, Science: archeologists discovered a spear that predates <i>Homo Sapie
 
 {% timeLink {url:podcast_file_url, t:'11:18'} %} Ben plays Temple Run while giving his news
 
-Stan Lee Quote of the Week: Stan rants about Superman flying without visible means of propulsion
+{% stanLee stan_lee[0] %}
 
 Ben discusses avoiding <a href="https://en.m.wikipedia.org/wiki/God_of_the_gaps">"God of the gaps"</a> thinking.

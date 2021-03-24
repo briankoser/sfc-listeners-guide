@@ -25,6 +25,9 @@ future_episodes:
   - Superhero Spotlight on the Power Rangers
   - Time Loop of Episode 1
   - Special episode 150
+stan_lee:
+  - Stan teams up with HISHE to make fun of Star Wars
+  - Stan is tough and gritty
 
 last_listen: 2018-11-30
 recommendation: no
@@ -84,9 +87,9 @@ Ben reviews moon creation theories:
 - Co-formation Theory: moon formed at same time
 - Capture Theory: Earth snagged a passing body
 
-Stan Lee Quote of the Week: Stan teams up with hishe to make fun of Star wars
+{% stanLee stan_lee[0] %}
 
-Stan Lee Quote of the Week: Stan is tough and gritty
+{% stanLee stan_lee[1] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'35:18'} %}

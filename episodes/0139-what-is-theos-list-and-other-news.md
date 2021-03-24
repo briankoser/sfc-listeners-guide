@@ -18,9 +18,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 firsts:
   -  Mario Underground theme for time travel sound clip
+future_episodes:
+  - Top 5 Dumb Things We Liked As Kids
+  - Behind the Scenes 
 prophecy:
   - host: Ben
     prediction: "Matthew McConaughey will be the correct choice for <i class='work-title'>Interstellar</i>"
@@ -30,9 +32,8 @@ prophecy:
     prediction: "Matthew McConaughey will not be the correct choice for <i class='work-title'>Interstellar</i>"
     veracity: false
     comments: Objectively false
-future_episodes:
-  - Top 5 Dumb Things We Liked As Kids
-  - Behind the Scenes 
+stan_lee:
+  - Stan rants about birthdays
 
 last_listen: 2018-10-31
 recommendation: no
@@ -80,7 +81,7 @@ Ben would rather the show pass the books than delay the show and risk ending up 
 
 Ben thinks they won't pass the books until after {% work "Winds of Winter" %}.
 
-Stan Lee Quote of the Week: Stan rants about birthdays
+{% stanLee stan_lee[0] %}
 
 Ben wants HBO to make a Bible limited series.
 

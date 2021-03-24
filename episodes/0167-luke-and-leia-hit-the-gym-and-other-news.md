@@ -43,6 +43,8 @@ firsts:
   - Encouraging Signs
 future_episodes:
   - Marriage Advice for Matt
+stan_lee:
+  - A Black Panther movie is coming
 
 last_listen: 2019-01-08
 recommendation: no
@@ -86,7 +88,7 @@ What the Frodo: a Captain Planet movie is coming
 
 Des arrives early for the next episode.
 
-Stan Lee Quote of the Week: a Black Panther movie is coming.
+{% stanLee stan_lee[0] %}
 
 Take That, Science: investigator warns UN of impending killer robot uprising, calls for ban
 

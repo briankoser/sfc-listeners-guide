@@ -19,12 +19,17 @@ hosts:
 time_loop_forward: 
   number: 193
 
-notable_moments:
 firsts: 
   - Episode with topic suggested by listener (Max) 
   - Stan Lee Quote of the Week
   - Post-credits Easter Egg scene
-
+future_episodes: 
+  - Comic Continuity with Dave Johnson
+  - Live tweeting <i class='work-title'>The Lord of the Rings</i> extended editions back-to-back-to-back <q class='matt inline'>I'm not going to stay over.</q> <q class='archivist inline'>He stayed over.</q>
+  - Review of the Left Behind video game (video)
+  - Zombies
+  - Revisit of the Multiverse, without <i class="work-title">Fringe</i> references (in the distant future)
+  - Revisit the State of the Superhero Movie
 prophecy:
   - host: Matt
     prediction: "I will watch <i class='work-title'>The Shawshank Redemption</i> by the Comics Continuity episode"
@@ -40,14 +45,8 @@ prophecy:
   - host: Matt
     prediction: Joss Whedon will stick with Marvel and not direct a Batman movie
     veracity: true
-
-future_episodes: 
-  - Comic Continuity with Dave Johnson
-  - Live tweeting <i class='work-title'>The Lord of the Rings</i> extended editions back-to-back-to-back <q class='matt inline'>I'm not going to stay over.</q> <q class='archivist inline'>He stayed over.</q>
-  - Review of the Left Behind video game (video)
-  - Zombies
-  - Revisit of the Multiverse, without <i class="work-title">Fringe</i> references (in the distant future)
-  - Revisit the State of the Superhero Movie
+stan_lee:
+  - "Todo: find the quote"
 
 last_listen: 2018-02-19
 recommendation: yes-timeloop

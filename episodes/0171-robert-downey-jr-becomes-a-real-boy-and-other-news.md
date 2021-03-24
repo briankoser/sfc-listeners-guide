@@ -29,6 +29,8 @@ encouraging_signs:
   - Disney will give Jerry Bruckheimer smaller budgets after The Lone Ranger bombed
 future_episodes:
   - How to fix superhero comics
+stan_lee:
+  - Spider-Man is the only hyphenated superhero, and he was hyphenated to differentiate him from Superman.
 
 last_listen: 2019-02-04
 recommendation: no
@@ -44,7 +46,7 @@ It's become a tradition for Ben to pretend to step on Matt's grandpa's thermomet
 
 {% encouragingSigns encouraging_signs[1] %}
 
-Stan Lee Quote of the Week: Spider-Man is the only hyphenated superhero, and he was hyphenated to differentiate him from Superman.
+{% stanLee stan_lee[0] %}
 
 
 

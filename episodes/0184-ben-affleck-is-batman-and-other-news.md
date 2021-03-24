@@ -27,6 +27,8 @@ firsts:
 future_episodes:
   - The after life
   - LOST trivia challenge
+stan_lee:
+  - Stan sings his own version of Yankee Doodle about Geeks 
 take_that:
   - Everyone
   - Avatar
@@ -76,7 +78,8 @@ What the Frodo: Vin Diesel mortgaged his house to finance the third Riddick movi
 
 Matt Damon is in Interstellar {% arc %}Did Matt forget? IIRC he's surprised when Damon shows up in the movie.{% endarc %}
 
-Stan Lee Quote of the Week: Stan sings his own version of Yankee Doodle about Geeks {% arc %}Painful.{% endarc %}
+{% stanLee stan_lee[0] %}
+{% arc %}Painful.{% endarc %}
 
 Take That, Science: scientists say they found key to actual warp drive
 

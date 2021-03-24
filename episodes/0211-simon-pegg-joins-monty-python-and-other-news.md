@@ -20,7 +20,8 @@ hosts:
 guests:
   - Doug Payton
 
-notable_moments:
+stan_lee:
+  - Why summer blockbusters? Why not winter blockbusters?
 
 last_listen: 2019-07-30
 recommendation: no
@@ -65,4 +66,4 @@ What the Frodo: A valve engineer created controllers, one for your mouth, one fo
   <q class="matt">I wouldn't go that far.</q>
 </div>
 
-Stan Lee Quote of the Week: Why summer blockbusters? Why not winter blockbusters?
+{% stanLee stan_lee[0] %}

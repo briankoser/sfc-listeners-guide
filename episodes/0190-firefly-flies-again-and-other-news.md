@@ -27,6 +27,8 @@ ben_is_right:
   - Joss Whedon said The Avengers was a great time but not a great movie
   - Joss Whedon hasn't done Dr. Horrible 2 or Hamlet because he's busy with the MCU
   - Joss Whedon is script doctoring other MCU movies
+stan_lee:
+  - Marvel is making the Inhumans a big deal
 take_that:
   - Avengers Defenders
 
@@ -58,7 +60,7 @@ Ben says he will start enunciating the H in Lindelhof
 
 Matt is Right: Joss Whedon would be better off making original material
 
-Stan Lee Quote of the Week: Marvel is making the Inhumans a big deal
+{% stanLee stan_lee[0] %}
 
 Koby started The Green Screen podcast about DC movies and TV shows like {% work "Arrow" %}.
 

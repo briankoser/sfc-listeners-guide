@@ -17,6 +17,9 @@ hosts:
   - Ben
   - Matt
 
+stan_lee:
+  - Marvel is combining the 616 and Ultimate universes. Stan Lee says it's good for stories to be unexpected and surprising.
+
 last_listen: 2020-04-20
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
@@ -24,7 +27,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 
 Fox is bringing back {% work "The X-Files" %}. Both hosts are cautiously in favor. Ben says they'd better finish the story and not do Monster of the Week episodes.
 
-Stan Lee Quote of the Week: Marvel is combining the 616 and Ultimate universes. Stan Lee says it's good for stories to be unexpected and surprising.
+{% stanLee stan_lee[0] %}
 
 {% work "The Avatar" %} sequels have been delayed.
 

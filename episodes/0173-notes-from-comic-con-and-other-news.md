@@ -30,6 +30,9 @@ ben_is_right:
   - In season 1 of Super Book, the kids got sucked into the book instead of the computer
 encouraging_signs:
   - Ryan Reynolds bombed twice in one week (Turbo and RIPD)
+stan_lee:
+  - Stan rants about lines at Comic Con
+
 last_listen: 2019-02-08
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
@@ -62,7 +65,7 @@ Ben tries to make a video game news segment music happen again
   <q class="matt">I know. But, on the other hand, he does see his baby more than my dad saw me when I was growing up. So take that, science.</q>
 </div>
 
-Stan Lee Quote of the Week: Stan rants about lines at Comic Con
+{% stanLee stan_lee[0] %}
 
 Matt also put {% work "Twelve Monkeys" %} on his wedding registry
 

@@ -38,6 +38,8 @@ prophecy:
   - host: Ben
     prediction: Batman 1966 will be released on DVD in 2014
     veracity: true
+stan_lee:
+  - Stan hates people who pack products in too much plastic.
 take_that:
   - Calvin
 
@@ -70,7 +72,7 @@ The music is from <a href="https://www.youtube.com/watch?v=uq0pygjQK74">In the B
 
 {% benIsRight ben_is_right[0] %}
 
-Stan Lee Quote of the Week: Stan hates people who pack products in too much plastic.
+{% stanLee stan_lee[0] %}
 
 Take That, Science: scientists have made a phaser like device with sound waves.
 

@@ -22,6 +22,8 @@ hosts:
 ben_is_right:
   - There was no character development in The Avengers
 odd_opening: Both do a voice during the opening.
+stan_lee:
+  - Stan rants about commercials
 
 last_listen: 2018-11-21
 recommendation: no
@@ -64,7 +66,7 @@ Take That, Science: scientists claim aliens put a secret genetic code in human D
 
 Take That, Science: the speed of light in a vacuum can vary.
 
-Stan Lee Quote of the Week: Stan rants about commercials
+{% stanLee stan_lee[0] %}
 
 {% benIsRight ben_is_right[0] %}
 

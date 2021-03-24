@@ -27,6 +27,8 @@ future_episodes:
   - The Fountain review
   - Pi review
 odd_opening: Matt tries to whisper the opening dramatically.
+stan_lee:
+  - Stan thinks he should cameo in the next Superman movie
 
 last_listen: 2019-06-14
 recommendation: no
@@ -49,7 +51,7 @@ What the Frodo: Ben Kingsley is doing another project with Marvel after {% work 
 
 What the Frodo: Marilyn Manson has been cast in {% work "Once Upon a Time" %}.
 
-Stan Lee Quote of the Week: Stan thinks he should cameo in the next Superman movie
+{% stanLee stan_lee[0] %}
 
 
 

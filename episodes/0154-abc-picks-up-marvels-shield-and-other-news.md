@@ -20,13 +20,14 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 firsts:
   - What the Frodo segment
   - Video Game News segment
 future_episodes:
   - What's in the Batcave?
   - How to survive Disney with Daniel
+stan_lee:
+  - Stan wants an Academy Award for best cameos
 
 last_listen: 2018-12-13
 recommendation: no
@@ -87,7 +88,7 @@ EA will be making Star Wars video games. They've registered the following URLs:
 - wolfpackadventures.net
 - wookiehunters.com
 
-Stan Lee Quote of the Week: Stan wants an Academy Award for best cameos
+{% stanLee stan_lee[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'40:18'} %}

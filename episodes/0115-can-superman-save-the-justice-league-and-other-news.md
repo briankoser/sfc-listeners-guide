@@ -17,9 +17,10 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 firsts:
   - Video Remix 
+future_episodes:
+  - Video Games
 prophecy:
   - host: Matt
     prediction: "<i class='work-title'>Justice League</i> will not come out in 2015."
@@ -34,8 +35,8 @@ prophecy:
   - host: Matt
     prediction: "<i class='work-title'>Tomorrowland</i> is not about Walt Disney"
     veracity: true
-future_episodes:
-  - Video Games
+stan_lee:
+  - Stan rants about prequels
 
 last_listen: 2018-09-19
 recommendation: no
@@ -93,4 +94,4 @@ Take That, Science: Science has proven that pretending to be a superhero can mak
   <q class="matt">That's why you want to do the next episode though, on fandom. We can't just do episodes when you want to complain!</q>
 </div>
 
-Stan Lee Quote of the Week: Stan rants about prequels.
+{% stanLee stan_lee[0] %}

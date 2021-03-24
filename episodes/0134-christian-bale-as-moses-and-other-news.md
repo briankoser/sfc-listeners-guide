@@ -17,7 +17,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+future_episodes:
+  - Top 100 Sci-Fi TV shows
+  - Top 5 Sci-Fi trilogies
 odd_opening: I'm not sure what they're doing here
 prophecy:
   - host: Ben
@@ -26,10 +28,8 @@ prophecy:
     comments: It did form Alphabet Inc., launch Project Fi, and unveil a new logo.
   - host: Matt
     prediction: Google will take over the world à la Skynet in 2023.
-
-future_episodes:
-  - Top 100 Sci-Fi TV shows
-  - Top 5 Sci-Fi trilogies
+stan_lee:
+  - Stan thinks "comicbook" should be one word because they are not funny books.
 take_that:
   - Matt Anderson
   - Lasik surgery
@@ -62,7 +62,7 @@ Skip Crust started listening again.
 
 Iran is planning to "sue Hollywood" because they looked bad in Argo.
 
-Stan Lee Quote of the Week: Stan thinks "comicbook" should be one word because they are not funny books. 
+{% stanLee stan_lee[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'30:17'} %}

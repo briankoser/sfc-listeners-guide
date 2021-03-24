@@ -48,13 +48,16 @@ future_episodes:
 take_that:
   - terrorists
   - Sayid
+stan_lee:
+  - Ben mentioned Joel Osteen during his last sermon
 
 last_listen: 2018-03-21
 recommendation: no
 recommendation_reason: Not as bad as its reputation, but mostly a rehash of previous topics like if "greatest show ever" is objective or subjective.
 ---
 # Opening
-Stan Lee Quote of the Week: Ben mentioned Joel Osteen during his last sermon {% arc %}Yes, not Stan Lee or a quote{% endarc %} 
+{% stanLee stan_lee[0] %}
+{% arc %}Yes, not Stan Lee or a quote{% endarc %} 
 
 
 

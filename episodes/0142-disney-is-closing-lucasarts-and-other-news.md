@@ -18,11 +18,12 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 future_episodes:
   - Movies preview
   - Marriage advice for Matt
   - Top 100 Sci-Fi TV shows
+stan_lee:
+  - Stan Lee rants against neckties
 
 last_listen: 2018-11-13
 recommendation: no
@@ -40,7 +41,7 @@ Ben listened to the {% work "G. I. Joe: Retaliation" %} episode. He just couldn'
 
 Ben accidentally calls Koby, "Koby"  
 
-Stan Lee Quote of the Week: Stan Lee rants against neckties
+{% stanLee stan_lee[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'24:17'} %}

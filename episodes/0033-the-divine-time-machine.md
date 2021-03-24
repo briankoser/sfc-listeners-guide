@@ -20,7 +20,11 @@ hosts:
 time_loop_forward: 
   number: 369
 
-notable_moments:
+celebrity_promo: 
+  - Ben de Bono
+future_episodes: 
+  - Super Mario Bros. movie review
+  - Time travel 
 prophecy:
   - host: Matt
     prediction: Doctor Strange movie will be announced within the next year
@@ -29,11 +33,8 @@ prophecy:
   - host: Ben
     prediction: Doctor Strange movie will not be announced within the next year
     veracity: true
-future_episodes: 
-  - Super Mario Bros. movie review
-  - Time travel 
-celebrity_promo: 
-  - Ben de Bono
+stan_lee:
+  - Second Stan Lee Quote of the Week by William Shatner 
 
 last_listen: 2018-03-19
 recommendation: no
@@ -44,7 +45,7 @@ History of Christianity 1 was the last Life Report episode
 
 Nominated for the podcast awards in the Religion/Spirituality category
 
-Second Stan Lee Quote of the Week by William Shatner 
+{% stanLee stan_lee[0] %}
 
 
 

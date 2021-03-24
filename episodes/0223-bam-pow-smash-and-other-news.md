@@ -18,6 +18,9 @@ hosts:
   - Ben
   - Matt
 
+stan_lee:
+  - Stan Lee is starring as an animated version of himself in an animated movie
+
 last_listen: 2019-09-05
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
@@ -30,7 +33,7 @@ Ben likes Magic: The Gathering.
 
 Take That, Science: the majority of the most valuable movie stars of 2013 are in sci-fi movies
 
-Stan Lee Quote of the Week: Stan Lee is starring as an animated version of himself in an animated movie
+{% stanLee stan_lee[0] %}
 
 
 
