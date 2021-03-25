@@ -20,6 +20,9 @@ hosts:
 quotes:
   - time: "1:03:19"
     context: Ben doesn't think superheroes are a modern mythology because their stories are fandom instead of classical storytelling.
+story_time:
+  - time: "1:07:30"
+    title: Matt Made a Crib 
 
 last_listen: 2019-12-24
 recommendation: essential
@@ -94,4 +97,4 @@ Matt's new computer made the last thirteen minutes of the original recording unu
 
 Matt decides to join Audible and pick up the Sherlock Holmes stories.
 
-{% timeLink {url:podcast_file_url, t:'1:07:30'} %} Sci-Fi Christian Story Time: Matt made a crib 
+{% storyTime podcast_file_url, story_time[0] %}

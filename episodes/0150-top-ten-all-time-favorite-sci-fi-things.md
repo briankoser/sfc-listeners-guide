@@ -97,6 +97,9 @@ future_episodes:
   - AMC TV shows
   - Top 5 <i class="work-title">Buffy the Vampire Slayer</i> episodes
   - Top 5 <i class="work-title">Angel</i> episodes
+story_time:
+  - time: "1:00:11"
+    title: Ben's Parking Ticket, Part 3
 
 last_listen: 2018-12-04
 recommendation: yes 
@@ -140,6 +143,6 @@ C. S. Lewis's rule: for every new book you read, you should read an old book.
 
 C. S. Lewis said {% work "The Lord of the Rings" %} is the greatest work of literature since {% work "The Odyssey" %}.
 
-{% timeLink {url:podcast_file_url, t:'1:00:11'} %} Sci-Fi Christian Story Time: Ben's Parking Ticket, Part 3
+{% storyTime podcast_file_url, story_time[0] %}
 
 {% benIsRight ben_is_right[0] %}

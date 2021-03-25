@@ -30,6 +30,11 @@ countdowns:
 future_episodes:
   - Ethics in MMOs
 odd_opening: Ben makes "pow pow pow" sound effects
+story_time:
+  - time: "54:55"
+    title: Cleverbot meets Ben De Bono
+  - time: "55:52"
+    title: Is My Wife a Prophet?
 
 last_listen: 2018-09-25
 recommendation: essential
@@ -55,10 +60,9 @@ Could we have a church if a group of Christians decided to live in the virtual w
 
 {% countdown countdowns.issues %}
 
-{% timeLink {url:podcast_file_url, t:'54:55'} %} Sci-Fi Christian Story Time: Cleverbot meets Ben De Bono
+{% storyTime podcast_file_url, story_time[0] %}
 
-{% timeLink {url:podcast_file_url, t:'55:52'} %} Sci-Fi Christian Story Time: Is my wife a prophet?
-
+{% storyTime podcast_file_url, story_time[1] %}
 
 
 # Closing

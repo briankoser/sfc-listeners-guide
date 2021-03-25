@@ -18,8 +18,10 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 odd_opening: Ben opens as Peter Patrelli
+story_time:
+  - time: "1:02:04"
+    title: Ben Flips Off Two Rednecks
 
 last_listen: 2019-04-11
 recommendation: essential 
@@ -112,4 +114,4 @@ A scene in the finale made Ben laugh.
   <q class="ben">I'm like Jesus: taking the sins of Tim Kring upon my shoulders and bearing it for the Sci-Fi Christian world.</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'1:02:04'} %} Sci-Fi Christian Story Time: Ben flips off two rednecks
+{% storyTime podcast_file_url, story_time[0] %}

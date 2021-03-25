@@ -45,6 +45,9 @@ countdowns:
         - Samson and Delilah
 future_episodes:
   - Prophets Super Team 
+story_time:
+  - time: "43:44"
+    title: Is That You, Matt and Ben? 
 
 last_listen: 2018-09-14
 recommendation: yes
@@ -84,7 +87,7 @@ Ben calls leprosy <q class="ben inline">the AIDS of the Old Testament</q>.
   <q class="ben">Wait, we don't have one of those.</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'43:44'} %} Sci-Fi Christian Story Time: Is that you, Matt and Ben? 
+{% storyTime podcast_file_url, story_time[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'44:22'} %}

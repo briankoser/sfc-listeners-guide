@@ -15,7 +15,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+story_time:
+  - time: "45:16"
+    title: "Ben's Disney Trip, Day 4: The Turning Point"
 
 last_listen: 2019-07-22
 recommendation: yes
@@ -38,6 +40,6 @@ Ben did not buy Matt {% work "The Rocketeer" %} or {% work "Talladega Nights" %}
   <q class="matt">I think we're going different directions there.</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'45:16'} %} Sci-Fi Christian Story Time: Ben's Disney Trip, Day 4: The Turning Point
+{% storyTime podcast_file_url, story_time[0] %}
 
 {% work "The Lion King" %} is Matt and Ben's favorite Disney movie. 

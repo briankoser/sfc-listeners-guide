@@ -17,7 +17,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+story_time:
+  - time: "1:04:09"
+    title: Ben's Trip to Disney, Part 1
 
 last_listen: 2019-06-07
 recommendation: no
@@ -33,9 +35,9 @@ Matt wants to just do quick thoughts, but Ben wants to go more in depth.
   <q class="matt">Wait wait wait wait wait. Let me step back a little bit. Not that I don't like your terms. But that happens years later.</q>
 </div>
 
-Real-life X-File: The astronauts saw Alien spaceships on the moon
+Real-Life X-File: The astronauts saw Alien spaceships on the moon
 
-{% timeLink {url:podcast_file_url, t:'1:04:09'} %} Sci-Fi Christian Story Time: Ben's trip to Disney
+{% storyTime podcast_file_url, story_time[0] %}
 
 
 # Closing

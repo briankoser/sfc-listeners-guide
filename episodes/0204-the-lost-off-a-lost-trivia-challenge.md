@@ -17,12 +17,14 @@ hosts:
 guests:
   - Wayne Henderson
 
-notable_moments:
 prophecy:
   - host: Ben
     prediction: The Packers will not go 3-0 in their next three games against the Eagles, Giants, and Vikings while Aaron Rodgers is out (as predicted by Wayne Henderson).
     veracity: true
     comments: "Per <a href='https://www.footballdb.com/teams/nfl/green-bay-packers/results/2013'>The Football Database</a>, the Packers went 0-2-1."
+story_time:
+  - time: "1:16:23"
+    title: Ben's Disney Trip, Day 2
 
 last_listen: 2019-07-09
 recommendation: yes
@@ -51,7 +53,7 @@ Ben is disgusted at how easily Matt answered the questions after not watching th
   <q class="matt">I thought it was a boy! I didn't even know it wasn't a man! Oh, it's a girl?</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'1:16:23'} %} Sci-Fi Christian Story Time: Ben's Disney Trip, Day 2
+{% storyTime podcast_file_url, story_time[0] %}
 
 
 

@@ -17,7 +17,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+story_time:
+  - time: "46:06"
+    title: Matt Wonders Why Superheroes Don't Have Grey Hair
 
 last_listen: 2019-12-09
 recommendation: no
@@ -41,7 +43,7 @@ Suprising Thoughts from Ben De Bono: Ben predicts {% work "Guardians of the Gala
 
 Suprising Thoughts from Ben De Bono: Damon Lindelof might be a genius
 
-{% timeLink {url:podcast_file_url, t:'46:06'} %}  Sci-Fi Christian Story Time: Matt wonders why superheroes don't have grey hair
+{% storyTime podcast_file_url, story_time[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'55:20'} %}

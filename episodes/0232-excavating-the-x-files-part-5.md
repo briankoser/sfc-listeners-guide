@@ -17,7 +17,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+story_time:
+  - time: "56:57"
+    title: The De Bonos Play Basketball
 
 last_listen: 2019-09-18
 recommendation: no
@@ -43,4 +45,4 @@ Ben still likes the show but is seeing a lot of problems.
 
 {% timeLink {url:podcast_file_url, t:'51:15'} %} Real-Life X-File: Animal Conspiracy Theories from Israel
 
-{% timeLink {url:podcast_file_url, t:'56:57'} %}  Sci-Fi Christian Story Time: The De Bonos Play Basketball
+{% storyTime podcast_file_url, story_time[0] %}

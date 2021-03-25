@@ -64,13 +64,16 @@ countdowns:
     matt: 
       list:
         - John Favreau
-odd_opening: Matt and Ben say the opening together
 firsts:
   - Sci-Fi Christian Story Time
   - Next Week on The Sci-Fi Christian
 future_episodes:
   - <i class="work-title">The Happening</i> Review
   - "Books of LOST: The Stand"
+odd_opening: Matt and Ben say the opening together
+story_time:
+  - time: "1:07:03"
+    title: Sci-Fi Catholics Unite
 
 last_listen: 2018-09-06
 recommendation: no
@@ -136,5 +139,3 @@ Ben says the schedule is to release two episodes a week, with special appearance
 Ben jokes that he'll just stop forwarding feedback to Matt. {% arc %}For now it's a joke.{% endarc %} 
 
 {% timeLink {url:podcast_file_url, t:'1:06:54'} %} Recording of the Sci-Fi Christian Story Time sound clip
-
-{% timeLink {url:podcast_file_url, t:'1:07:03'} %} Sci-Fi Christian Story Time: Sci-Fi Catholics Unite

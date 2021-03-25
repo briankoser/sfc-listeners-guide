@@ -16,7 +16,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
+story_time:
+  - time: "7:30"
+    title: The Wasp Nest the Size of a Football
 
 last_listen: 2019-12-04
 recommendation: no
@@ -39,7 +41,7 @@ Starting with the next episode in the series, they will cover a season at a time
   <q class="matt">Or if I say, 'Seems reasonable,' or something like that, it means I'm just trying to think of some sort of phrase to keep the conversation going while I'm not paying attention.</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'7:30'} %}  Sci-Fi Christian Story Time: The wasp nest the size of a football
+{% storyTime podcast_file_url, story_time[0] %}
 
 Ben remembered Seasons 4 and 5 being the high point, but has been disappointed by the Season 4 rewatch. It's poorly written and the mythology doesn't hold together.
 

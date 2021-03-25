@@ -18,10 +18,12 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben makes "pow pow pow" sound effects
 future_episodes:
   - Marriage Advice for Matt
+odd_opening: Ben makes "pow pow pow" sound effects
+story_time:
+  - time: "1:07:08"
+    title: Even Batman Hates Batman Live
 
 last_listen: 2018-09-21
 recommendation: essential
@@ -55,4 +57,4 @@ Is fandom a problem? Ben says yes, Matt says maybe.
   <q class="matt">I'm still gonna beep it out.</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'1:07:08'} %} Sci-Fi Christian Story Time: Even Batman Hates Batman Live
+{% storyTime podcast_file_url, story_time[0] %}

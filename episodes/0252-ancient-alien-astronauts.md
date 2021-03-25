@@ -16,9 +16,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
 future_episodes:
   - Live time loop with commentary
+story_time:
+  - time: "28:50"
+    title: Matt Bought the Sound Equipment from Ben
 
 last_listen: 2019-10-14
 recommendation: yes
@@ -56,4 +58,4 @@ They first had the idea for this episode during Episode 2. Matt starts playing r
 
 Are ancient aliens compatible with Christianity? 
 
-{% timeLink {url:podcast_file_url, t:'28:50'} %}  Sci-Fi Christian Story Time: Matt bought the sound equipment from Ben
+{% storyTime podcast_file_url, story_time[0] %}

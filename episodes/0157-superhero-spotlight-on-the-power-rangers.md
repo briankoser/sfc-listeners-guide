@@ -26,6 +26,9 @@ countdowns:
         - "&nbsp;"
         - Hope
         - "&nbsp;"
+story_time:
+  - time: "59:00"
+    title: Koby Says the Feud With Ben Is Over
 
 last_listen: 2018-12-24
 recommendation: no
@@ -66,4 +69,4 @@ Matt asked the listeners to send three-word reactions to {% work "Power Rangers"
 - Jason: Best show ever
 - Tom: Thunderbirds are go
 
-{% timeLink {url:podcast_file_url, t:'59:00'} %} Sci-Fi Christian Story Time: Koby says the Feud with Ben is over
+{% storyTime podcast_file_url, story_time[0] %}

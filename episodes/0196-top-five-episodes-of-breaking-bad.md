@@ -81,6 +81,9 @@ countdowns:
         - Face Off
         - Fly
         - Felina
+story_time:
+  - time: "1:16:55"
+    title: Ben Almost Missed the Breaking Bad Finale
 
 last_listen: 2019-05-19
 recommendation: yes
@@ -99,6 +102,6 @@ Walt's chemistry lectures describe himself.
 
 Is {% work "Breaking Bad" %} the greatest TV show of all time? Matt said yes. Ben said no with a lot of hesitation. It is a little better than {% work "Mad Men" %}, but not quite as good as {% work "The Wire" %}.
 
-{% timeLink {url:podcast_file_url, t:'1:16:55'} %} Sci-Fi Christian Story Time: Ben almost missed the {% work "Breaking Bad" %} finale
+{% storyTime podcast_file_url, story_time[0] %}
 
 Ben will tell the story about the worst vacation of his life in installments.

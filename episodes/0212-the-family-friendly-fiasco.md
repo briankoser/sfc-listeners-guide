@@ -17,7 +17,9 @@ hosts:
 guests:
   - Doug Payton 
 
-notable_moments:
+story_time:
+  - time: "1:07:40"
+    title: Ben's Trip to Disney, Day 5
 
 last_listen: 2019-12-31
 recommendation: yes
@@ -42,4 +44,4 @@ Ben's secret to not watching TV and movies with his wife: agree to watch, then c
 
 The Bible isn't always positive and encouraging. Christianity is about more than happiness. 
 
-{% timeLink {url:podcast_file_url, t:'1:07:40'} %} Sci-Fi Christian Story Time: Ben's Trip to Disney, Day 5
+{% storyTime podcast_file_url, story_time[0] %}

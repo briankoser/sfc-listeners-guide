@@ -33,6 +33,9 @@ countdowns:
         - It was an employee space and he is a student worker. 
 future_episodes:
   - "Virtual Ethics: File sharing"
+story_time:
+  - time: "45:39"
+    title: Ben Appeals His Parking Ticket
 
 last_listen: 2018-11-26
 recommendation: yes
@@ -68,6 +71,6 @@ Are you disobeying an authority if you break a game's rules? If you cheat at che
 
 Ben thinks cheating at checkers is not a sin. 
 
-{% timeLink {url:podcast_file_url, t:'45:39'} %} Sci-Fi Christian Story Time: Ben appeals his parking ticket
+{% storyTime podcast_file_url, story_time[0] %}
 
 {% countdown countdowns.ticket %}

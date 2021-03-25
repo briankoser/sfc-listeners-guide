@@ -19,6 +19,9 @@ hosts:
 
 ben_is_right:
   - Annie agreed the parking sign was confusing
+story_time:
+  - time: "51:50"
+    title: "Ben is Right: Annie Agreed the Parking Sign Was Confusing"
 
 last_listen: 2018-12-11
 recommendation: yes 
@@ -85,4 +88,4 @@ Comic book characters represent mythological characters. When the villain dies, 
 
 Ben is defending his thesis tomorrow: "Is Christ Divided? A Study in Dissenting Ecclesiology from the Donatist Controversy to the Reformation". They will post the audio or video of his defense.
 
-{% timeLink {url:podcast_file_url, t:'51:50'} %} Sci-Fi Christian Story Time: Ben is Right: Annie agreed the parking sign was confusing
+{% storyTime podcast_file_url, story_time[0] %}

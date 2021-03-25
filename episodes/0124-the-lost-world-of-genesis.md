@@ -18,11 +18,13 @@ hosts:
 sponsors: 
   - Stephen in Australia
 
-notable_moments:
-odd_opening: Ben says "hoo hoo hoo"
 future_episodes:
   - Surprised by Hope
   - End Times
+odd_opening: Ben says "hoo hoo hoo"
+story_time:
+  - time: "1:16:30"
+    title: "CS Lewis: Sci-Fi Catholic?"
 
 last_listen: 2018-10-04
 recommendation: essential
@@ -60,9 +62,9 @@ Though Walton believes God did create the universe materially ex nihilo, that's 
 Walton looks at parallels between Genesis 1 and other Ancient Near East creation accounts.
 
 Matt points out that the days of creation parallel each other: 
-- day 1 (light) and day 4 (sun, moon, stars)
-- day 2 (sea, sky) and day 5 (fish and birds)
-- day 3 (dry land) and day 6 (land animals, man)
+- Day 1 (light) and Day 4 (sun, moon, stars)
+- Day 2 (sea, sky) and Day 5 (fish and birds)
+- Day 3 (dry land) and Day 6 (land animals, man)
 
 He believes this points to a poetic interpretation (the framework hypothesis).
 
@@ -122,7 +124,7 @@ Ben believes in evolution because the Bible is silent on the issue.
 
 When someone says evolution happened by chance, they are making a physical and a metaphysical statement: evolution is a scientific theory, by chance is a metaphysical theory. 
 
-{% timeLink {url:podcast_file_url, t:'1:16:30'} %} Sci-Fi Christian Story Time: CS Lewis: Sci-Fi Catholic? 
+{% storyTime podcast_file_url, story_time[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'1:19:06'} %}

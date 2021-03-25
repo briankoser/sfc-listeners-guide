@@ -16,7 +16,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+story_time:
+  - time: "23:52"
+    title: Disturbing Biking Imagery
 
 last_listen: 2019-09-20
 recommendation: yes
@@ -24,4 +26,4 @@ recommendation_reason: Definite listen if you've seen LOST and read The Stand.
 ---
 Matt runs down the influences of {% work "The Stand" %} on {% work "LOST" %}.
 
-{% timeLink {url:podcast_file_url, t:'23:52'} %}  Sci-Fi Christian Story Time: Disturbing biking imagery
+{% storyTime podcast_file_url, story_time[0] %}

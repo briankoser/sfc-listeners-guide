@@ -16,10 +16,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 future_episodes:
   - Edgar Cayce and Nostradamus
-
 ratings:
   confidence:
     title: Confidence in the Existence of Specific Supernatural Phenomena
@@ -45,6 +43,9 @@ ratings:
         score: 5
       - title: Demons
         score: 5
+story_time:
+  - time: "1:27:35"
+    title: Ben's House Almost Burned Down
 
 last_listen: 2019-09-13
 recommendation: no
@@ -74,4 +75,4 @@ Rating their confidence in the existence of:
 
 {% ratings ratings.confidence %}
 
-{% timeLink {url:podcast_file_url, t:'1:27:35'} %}  Sci-Fi Christian Story Time: Ben's house almost burned down
+{% storyTime podcast_file_url, story_time[0] %}

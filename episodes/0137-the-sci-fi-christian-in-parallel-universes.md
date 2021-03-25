@@ -17,9 +17,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 future_episodes:
   - Marriage advice for Matt 
+story_time:
+  - time: "1:08:53"
+    title: Ben Gets Busted
 take_that:
   - Listeners
   - Arius
@@ -122,4 +124,4 @@ What if Jesus came today?
   <q class="ben">Take that, John.</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'1:08:53'} %} Sci-Fi Christian Story Time: Ben Gets Busted
+{% storyTime podcast_file_url, story_time[0] %}

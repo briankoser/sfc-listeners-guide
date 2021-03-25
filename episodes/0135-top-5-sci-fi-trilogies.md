@@ -71,6 +71,9 @@ countdowns:
         - Teenage Mutant Ninja Turtles 
         - Spider-Man
         - X-Men
+story_time:
+  - time: "55:51"
+    title: Ben Gives in to Fandom
 
 last_listen: 2018-10-23
 recommendation: no
@@ -98,4 +101,4 @@ Ben and Matt call foul on Chad picking {% work "The Hitchhiker's Guide to the Ga
 
 Aaron Reini names {% work "The Hobbit" %} movie trilogy "the most unnecessary trilogy". Ben says he could not disagree more after how good the first movie was.
 
-{% timeLink {url:podcast_file_url, t:'55:51'} %} Sci-Fi Christian Story Time: Ben Gives in to Fandom
+{% storyTime podcast_file_url, story_time[0] %}

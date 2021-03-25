@@ -20,7 +20,10 @@ hosts:
 ben_is_right:
   - Tolkien and Lewis wouldn't have written fiction together
   - Outback Steakhouse was busy Easter week
-odd_opening: Ben acts surprised when Matt says the title.
+odd_opening: Ben acts surprised when Matt says the title
+story_time:
+  - time: "23:40"
+    title: Ben "Ben Is Right"ed His Wife
 
 last_listen: 2018-11-09
 recommendation: yes
@@ -62,7 +65,7 @@ Ben again makes fun of how Matt says "Middle Earth".
 
 {% benIsRight ben_is_right[0] %}
 
-{% timeLink {url:podcast_file_url, t:'23:40'} %} Sci-Fi Christian Story Time: Ben "Ben is right"ed his wife
+{% storyTime podcast_file_url, story_time[0] %}
 
 {% benIsRight ben_is_right[1] %}
 

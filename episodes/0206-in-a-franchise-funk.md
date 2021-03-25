@@ -20,6 +20,9 @@ ben_is_right:
   - Ben's wife realized Disney World was terrible
 future_episodes:
   - Ender's Game review
+story_time:
+  - time: "49:12"
+    title: Ben's Disney Trip, Day 3
 
 last_listen: 2019-07-12
 recommendation: essential
@@ -39,7 +42,7 @@ Could C. S. Lewis have written the Narnia books if he spent his weekends watchin
 
 {% timeLink {url:podcast_file_url, t:'39:50'} %} Be dissatisfied with your entertainment
 
-{% timeLink {url:podcast_file_url, t:'49:12'} %} Sci-Fi Christian Story Time: Ben's Disney Trip, day 3
+{% storyTime podcast_file_url, story_time[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'58:45'} %}

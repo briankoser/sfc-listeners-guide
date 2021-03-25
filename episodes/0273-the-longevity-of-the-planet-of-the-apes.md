@@ -39,6 +39,9 @@ countdowns:
 rating:
   ben: 2.5
   matt: 3
+story_time:
+  - time: "56:08"
+    title: Another De Bono Vacation
 take_that_science:
   - Oliver Stone almost directed a Planet of the Apes reboot movie starting Arnold Schwarzenegger
   - Three gorillas at the Como Zoo in St. Paul, MN escaped their cage the day before Planet of the Apes was released in theatres
@@ -71,4 +74,4 @@ Matt plays a clip from {% episodeLink 30 %} where Ben agrees to watch the entire
 
 {% takeThatScience take_that_science[1] %}
 
-{% timeLink {url:podcast_file_url, t:'56:08'} %} Sci-Fi Christian Story Time: Another De Bono Vacation
+{% storyTime podcast_file_url, story_time[0] %}

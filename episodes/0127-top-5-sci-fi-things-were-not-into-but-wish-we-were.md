@@ -85,6 +85,9 @@ future_episodes:
   - Video games
   - A feedback episode recorded a month ago
 odd_opening: Matt and Ben do sound effects
+story_time:
+  - time: "41:50"
+    title: Matt has a Zombie Nightmare
 take_that:
   - Joe 
 
@@ -136,7 +139,7 @@ Ben quit halfway through the last {% work "Sword of Truth" %} book. {% arc %}Ver
 
 {% countdown countdowns.uninterested %}
 
-{% timeLink {url:podcast_file_url, t:'41:50'} %} Sci-Fi Christian Story Time: Matt has a Zombie Nightmare
+{% storyTime podcast_file_url, story_time[0] %}
 
 Ben says it's the creepiest story time the show has ever had.
 

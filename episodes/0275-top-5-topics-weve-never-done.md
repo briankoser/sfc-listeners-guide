@@ -62,11 +62,13 @@ countdowns:
         - Reasons anime rocks
         - Twilight books and movies
         - My life as a brony
-notable_moments: 
 future_episodes:
   - Pseudopigrapha
   - The occult
   - Alan Moore
+story_time:
+  - time: "45:17"
+    title: Things to Experience by 350 Update
 
 last_listen: 2019-12-12
 recommendation: no
@@ -80,4 +82,4 @@ Ben comes up with the series Non-fantasy Fantasy
 
 {% countdown countdowns.badTopics %}
 
-{% timeLink {url:podcast_file_url, t:'45:17'} %}  Sci-Fi Christian Story Time: Things to experience by 350 update
+{% storyTime podcast_file_url, story_time[0] %}

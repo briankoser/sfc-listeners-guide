@@ -16,9 +16,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 future_episodes:
   - Ender's Game 
+story_time:
+  - time: "43:15"
+    title: Don't be Robert Stannick
 
 last_listen: 2019-07-05
 recommendation: no
@@ -30,4 +32,4 @@ What the Frodo: {% work "Olympos Has Fallen" %} is getting a sequel
 
 What the Frodo: The Rock was cast in a movie called {% work "Seal Team 666" %}
 
-{% timeLink {url:podcast_file_url, t:'43:15'} %} Sci-Fi Christian Story Time: Don't be Robert Stannick
+{% storyTime podcast_file_url, story_time[0] %}

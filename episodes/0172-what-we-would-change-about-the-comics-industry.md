@@ -16,7 +16,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+story_time:
+  - time: "1:23:04"
+    title: Matt Gives His First 0-Star Review
 
 last_listen: 2019-02-07
 recommendation: yes
@@ -80,4 +82,4 @@ Ben's dad sent in feedback
 
 Koby argues with Skip that the average fan doesn't want compelling stories
 
-{% timeLink {url:podcast_file_url, t:'1:23:04'} %} Sci-Fi Christian Story Time: Matt gives his first 0 star review
+{% storyTime podcast_file_url, story_time[0] %}

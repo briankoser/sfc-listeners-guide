@@ -16,7 +16,6 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
 prophecy:
   - host: Matt
     prediction: "Hugh Jackman will be Wolverine two more times after <i class='work-title'>X-Men: Days of Future Past</i>"
@@ -25,6 +24,9 @@ prophecy:
 rating:
   ben: 5
   matt: 3
+story_time:
+  - time: "51:11"
+    title: Ben Saved Casey's Life
 
 last_listen: 2019-10-08
 recommendation: yes
@@ -55,4 +57,4 @@ Ben has watched the movie at least 10 times.
 - The seed from the Tree of Life
 - Tom vs Noah
 
-{% timeLink {url:podcast_file_url, t:'51:11'} %}  Sci-Fi Christian Story Time: Ben saved Casey's life
+{% storyTime podcast_file_url, story_time[0] %}

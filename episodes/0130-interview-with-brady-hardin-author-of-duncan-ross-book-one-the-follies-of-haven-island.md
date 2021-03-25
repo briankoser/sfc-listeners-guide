@@ -18,9 +18,11 @@ hosts:
 guests:
   - Brady Hardin
 
-notable_moments:
 firsts:
   - Appearance of Brady Hardin
+story_time:
+  - time: "1:04:55"
+    title: Dashed Hopes
 take_that:
   - Daniel Butcher
   - Amish
@@ -78,7 +80,7 @@ Brady was heavily influenced by Campbell's {% work "Hero of a Thousand Faces" %}
   <q class="matt">What would we do? Like, introduce them to lights?</q>
 </div>
 
-{% timeLink {url:podcast_file_url, t:'1:04:55'} %} Sci-Fi Christian Story Time: Dashed Hopes
+{% storyTime podcast_file_url, story_time[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'1:07:11'} %}

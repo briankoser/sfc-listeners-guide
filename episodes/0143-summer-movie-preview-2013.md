@@ -46,6 +46,9 @@ firsts:
   - Re-recording the intro
 future_episodes:
   - Crossover with Strangers and Aliens
+story_time:
+  - time: "39:05"
+    title: Ben Got a Library Fine and a Parking Ticket from St. John's
 
 last_listen: 2018-11-19
 recommendation: no
@@ -91,4 +94,4 @@ Matt refuses to say the title of the movie {% work "Kickass 2" %}.
 
 Still excited about {% work "The Hobbit: Desolation of Smaug" %}
 
-{% timeLink {url:podcast_file_url, t:'39:05'} %} Sci-Fi Christian Story Time: Ben got a library fine and a parking ticket from St. John's
+{% storyTime podcast_file_url, story_time[0] %}

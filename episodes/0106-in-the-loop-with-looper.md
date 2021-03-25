@@ -35,6 +35,9 @@ odd_opening: Ben sings along to the theme song
 rating:
   ben: 5
   matt: 4
+story_time:
+  - time: "55:24"
+    title: Spoilers Save the Day
 
 last_listen: 2018-08-04
 recommendation: no
@@ -77,6 +80,6 @@ Matt is afraid listeners will think this episode is a time loop and skip it.
 
 # Closing
 
-{% timeLink {url:podcast_file_url, t:'55:24'} %} Sci-Fi Christian Story Time: Spoilers Save the Day
+{% storyTime podcast_file_url, story_time[0] %}
 
 {% arc %}What is the point of loopers? If the mob has control over the location when they send people back in time, why not send people back into a  furnace? Or the middle of the ocean? Or 100 feet up in the air?{% endarc %}

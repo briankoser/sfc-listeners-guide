@@ -17,13 +17,15 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben beatboxes and uses the mic as a drum
+celebrity_invites: 
+  - Pope Benedict XVI
 future_episodes:
   - Worship songs
   - Matt's engagement story
-celebrity_invites: 
-  - Pope Benedict XVI
+odd_opening: Ben beatboxes and uses the mic as a drum
+story_time:
+  - time: "1:01:27"
+    title: Matt Anderson Gets Engaged
 
 last_listen: 2018-09-11
 recommendation: yes
@@ -80,4 +82,4 @@ Are angels corporeal? Did Gabriel have a body when he appeared to Mary?
 
 
 # Closing
-{% timeLink {url:podcast_file_url, t:'1:01:27'} %} Sci-Fi Christian Story Time: Matt Anderson Gets Engaged
+{% storyTime podcast_file_url, story_time[0] %}

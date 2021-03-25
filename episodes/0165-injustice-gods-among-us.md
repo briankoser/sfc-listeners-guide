@@ -16,10 +16,12 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Matt opens with a silly voice and goes out of control.
 future_episodes:
   - Red Son review
+odd_opening: Matt opens with a silly voice and goes out of control.
+story_time:
+  - time: "38:45"
+    title: Hello and Goodbye to Ryan Strelau
 
 last_listen: 2018-01-03
 recommendation: no
@@ -38,7 +40,7 @@ Ben says the story is deeper thematically than any superhero movie outside The D
 
 Is it OK for Superman to exist? 
 
-{% timeLink {url:podcast_file_url, t:'38:45'} %} Sci-Fi Christian Story Time: Hello and Goodbye to Ryan Strelau 
+{% storyTime podcast_file_url, story_time[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'38:58'} %}
