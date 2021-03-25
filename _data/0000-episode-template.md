@@ -97,6 +97,9 @@ ratings:
     matt: 
       - title: 
         score: 
+real_life_xfile: 
+  title: 
+  time: 
 spoilers: 
   - <i class="work-title"></i>
 sponsors:
@@ -132,6 +135,7 @@ archivist_note:
 {% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
 {% quotes podcast_file_url, quotes[0] %}
 {% ratings ratings.myRating %}
+{% realLifeXFile podcast_file_url, real_life_xfile %}
 {% stanLee stan_lee[0] %}
 {% storyTime podcast_file_url, story_time[0] %}
 {% takeThatScience take_that_science[0] %}

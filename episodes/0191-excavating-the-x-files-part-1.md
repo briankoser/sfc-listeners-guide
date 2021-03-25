@@ -16,7 +16,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+real_life_xfile: 
+  title: Nazi UFOs
 
 last_listen: 2019-04-10
 recommendation: no
@@ -32,4 +33,4 @@ archivist_note: I'm interested to see when the turning point of this series happ
 
 Vince Gilligan met Bryan Cranston on {% work "The X-Files" %}. 
 
-Real-Life X-File: Nazi UFOs
+{% realLifeXFile podcast_file_url, real_life_xfile %}

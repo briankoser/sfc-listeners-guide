@@ -21,8 +21,9 @@ quotes:
     lines:
       - m: Along the way, Mulder finds a room full of pregnant women. Like, all hooked up to those machines. So there's something not right happening.
       - b: Yeah. That's how I feel every time I see a pregnant woman.
-  - time: "1:15:54"
-    context: "Real-Life X-File: Reptilians"
+real_life_xfile: 
+  title: Reptilians
+  time: "1:15:54"
 story_time:
   - time: "1:26:43"
     title: Ben bought Matt a Kwanzaa present
@@ -38,7 +39,7 @@ Both are "X-Filed out".
 
 Ben Google-image-searched the character "Quiet Willy" and got pictures of naked women.
 
-{% quotes podcast_file_url, quotes[1] %}
+{% realLifeXFile podcast_file_url, real_life_xfile %}
 {% arc %}Hear more in {% episodeLink 867 %}!{% endarc %}
 
 {% storyTime podcast_file_url, story_time[0] %}

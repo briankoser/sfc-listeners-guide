@@ -26,6 +26,8 @@ quotes:
       - b: That is a little sad.
       - m: And I'm kinda sad about that.
       - b: I feel like it's more menacing when you see it.
+real_life_xfile: 
+  title: Ben's first Stanley Kubrick conspiracy theory
 
 last_listen: 2021-02-27
 recommendation: no
@@ -34,4 +36,4 @@ recommendation_reason: The last gasp of X-Files positivity?
 
 {% quotes podcast_file_url, quotes[0] %}
 
-Real-Life X-File: Ben's first Stanley Kubrick conspiracy theory
+{% realLifeXFile podcast_file_url, real_life_xfile %}

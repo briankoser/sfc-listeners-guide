@@ -145,6 +145,7 @@ module.exports = function(eleventyConfig) {
   addShortcode('wtf');
   eleventyConfig.addShortcode('quotes', (url, quote) => shortcodes['quotes'](url, quote, metadata));
   eleventyConfig.addShortcode('storyTime', (url, data) => shortcodes['storyTime'](url, data, metadata));
+  eleventyConfig.addShortcode('realLifeXFile', (url, data) => shortcodes['realLifeXFile'](url, data, metadata));
   eleventyConfig.addShortcode('swatch', (brightness, color, text) => shortcodes['swatch'](brightness, color, text));
 
 

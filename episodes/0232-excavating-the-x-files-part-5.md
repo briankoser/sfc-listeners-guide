@@ -17,6 +17,9 @@ hosts:
   - Ben
   - Matt
 
+real_life_xfile: 
+  title: Animal Conspiracy Theories from Israel
+  time: "51:15"
 story_time:
   - time: "56:57"
     title: The De Bonos Play Basketball
@@ -43,6 +46,6 @@ Chris Carter says "The Musings of the Cigarette Smoking Man" is no longer canon.
 
 Ben still likes the show but is seeing a lot of problems.
 
-{% timeLink {url:podcast_file_url, t:'51:15'} %} Real-Life X-File: Animal Conspiracy Theories from Israel
+{% realLifeXFile podcast_file_url, real_life_xfile %}
 
 {% storyTime podcast_file_url, story_time[0] %}

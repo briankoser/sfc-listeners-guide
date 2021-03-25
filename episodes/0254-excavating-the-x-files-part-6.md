@@ -18,9 +18,10 @@ hosts:
 guests:
   - Dave Johnson
 
-notable_moments: 
 future_episodes:
   - Good advice from Ben De Bono
+real_life_xfile: 
+  title: Dave Johnson had strange spiritual dreams
 
 last_listen: 2019-10-15
 recommendation: no
@@ -58,6 +59,6 @@ Ben is sad that the rewatch is making him like the show less.
   <q class="matt">There's only one episode left—nope, two episodes left in Season 4 that are worth discussing. And then…yep, and then quite a bit more. One two three four five six seven…twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen—yeah we have…oh boy. Oh boy, Ben. We have a lot more. We have a lot more to do. We have over twenty more episodes to watch, if not thirty.</q>
 </div>
 
-Real-Life X-File: Dave Johnson had strange spiritual dreams
+{% realLifeXFile podcast_file_url, real_life_xfile %}
 
 Dave Johnson plugs his YouTube channel, Fragrance Bros. {% arc %}Still going! Now 40k subscribers{% endarc %}

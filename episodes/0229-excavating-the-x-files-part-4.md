@@ -43,6 +43,8 @@ ratings:
         score: 5
       - title: Demons
         score: 5
+real_life_xfile: 
+  title: Ben the Lame Psychic, Part 2
 story_time:
   - time: "1:27:35"
     title: Ben's House Almost Burned Down
@@ -69,7 +71,7 @@ Matt is more into {% work "The X-Files" %} than ever.
 
 {% timeLink {url:podcast_file_url, t:'47:00'} %} A discussion on whether it would be better to be shot in the stomach or the testicles
 
-Real-Life X-File: Ben the Lame Psychic, Part 2 (one time Ben heard the phone ring and guessed who was calling) 
+{% realLifeXFile podcast_file_url, real_life_xfile %}
 
 Rating their confidence in the existence of:
 

@@ -16,7 +16,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+real_life_xfile: 
+  title: Project Stargate
 
 last_listen: 2019-08-08
 recommendation: no
@@ -32,4 +33,4 @@ Scully's gravestone reads: Dana Katherine Scully, Loving Daughter & Friend, “T
   <q class="matt">I don't think so. It looks like it just leads to bad things.</q>
 </div>
 
-Real-Life X-File: Project Stargate
+{% realLifeXFile podcast_file_url, real_life_xfile %}

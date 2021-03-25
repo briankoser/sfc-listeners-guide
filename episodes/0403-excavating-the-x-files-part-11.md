@@ -22,8 +22,6 @@ quotes:
     lines:
       - b: I don't mind the fun facts.
       - m: It feels like you hate the fun facts.
-  - time: "1:06:50"
-    context: "Real-Life X-File: Is the moon really there?"
   - time: "1:07:26"
     lines:
       - b: Does the moon actually exist?
@@ -32,6 +30,9 @@ quotes:
       - m: I think it's time to unpack this.
       - b: The moon is not real!
       - m: What!?
+real_life_xfile: 
+  title: Is the Moon Really There?
+  time: "1:06:50"
 
 last_listen: 2021-03-11
 recommendation: no
@@ -42,6 +43,6 @@ Matt's life lesson: whenever someone says they're nothing to see here, there's s
 
 {% quotes podcast_file_url, quotes[0] %}
 
-{% quotes podcast_file_url, quotes[1] %}
+{% realLifeXFile podcast_file_url, real_life_xfile %}
 
-{% quotes podcast_file_url, quotes[2] %}
+{% quotes podcast_file_url, quotes[1] %}

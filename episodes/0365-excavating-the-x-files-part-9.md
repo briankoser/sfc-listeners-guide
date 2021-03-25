@@ -40,8 +40,9 @@ quotes:
     lines:
       - b: I don't even know how you would grow bees in a dome. I mean, you don't grow bees...
       - m: That's true. You don't grow bees. We all know that.
-  - time: "1:17:01"
-    context: "Real-Life X-File: The Curse of MacBeth"
+real_life_xfile: 
+  title: The Curse of MacBeth
+  time: "1:17:01"
 
 last_listen: 2021-02-02
 recommendation: no
@@ -53,3 +54,5 @@ When the series first came out on DVD, it cost $100 per season.
 {% quotes podcast_file_url, quotes[0] %}
 
 {% countdown countdowns.top5 %}
+
+{% realLifeXFile podcast_file_url, real_life_xfile %}

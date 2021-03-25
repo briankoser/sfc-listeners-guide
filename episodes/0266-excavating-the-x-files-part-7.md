@@ -16,6 +16,8 @@ hosts:
   - Ben
   - Matt
 
+real_life_xfile: 
+  title: Living in a Simulation
 story_time:
   - time: "7:30"
     title: The Wasp Nest the Size of a Football
@@ -50,4 +52,4 @@ Ben remembered Seasons 4 and 5 being the high point, but has been disappointed b
   <q class="matt">I wonder if X-Files is better left in your memories.</q>
 </div>
 
-Real-Life X-File: Living in a Simulation
+{% realLifeXFile podcast_file_url, real_life_xfile %}

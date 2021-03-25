@@ -17,6 +17,8 @@ hosts:
   - Ben
   - Matt
 
+real_life_xfile: 
+  title: The astronauts saw Alien spaceships on the moon
 story_time:
   - time: "1:04:09"
     title: Ben's Trip to Disney, Part 1
@@ -35,7 +37,7 @@ Matt wants to just do quick thoughts, but Ben wants to go more in depth.
   <q class="matt">Wait wait wait wait wait. Let me step back a little bit. Not that I don't like your terms. But that happens years later.</q>
 </div>
 
-Real-Life X-File: The astronauts saw Alien spaceships on the moon
+{% realLifeXFile podcast_file_url, real_life_xfile %}
 
 {% storyTime podcast_file_url, story_time[0] %}
 
