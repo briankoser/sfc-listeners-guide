@@ -20,6 +20,8 @@ hosts:
 
 stan_lee:
   - Stan Lee is starring as an animated version of himself in an animated movie
+take_that_science:
+  - The majority of the most valuable movie stars of 2013 are in sci-fi movies
 
 last_listen: 2019-09-05
 recommendation: no
@@ -31,7 +33,7 @@ What the Frodo: Kristin Stewart has been cast in a {% work "1984" %} film adapte
 
 Ben likes Magic: The Gathering.
 
-Take That, Science: the majority of the most valuable movie stars of 2013 are in sci-fi movies
+{% takeThatScience take_that_science[0] %}
 
 {% stanLee stan_lee[0] %}
 

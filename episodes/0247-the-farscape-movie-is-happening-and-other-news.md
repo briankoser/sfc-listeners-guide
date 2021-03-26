@@ -17,9 +17,10 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
 future_episodes:
   - Top 50 Sci-Fi Authors
+take_that_science:
+  - Newspaper confuses video game technology for real
 
 last_listen: 2019-10-04
 recommendation: no
@@ -41,6 +42,6 @@ What the Frodo: {% work "Mrs. Doubtfire 2" %} was announced
   <q class="matt">It's been twenty years, is he even gonna have to dress up?</q>
 </div>
 
-Take That, Science: newspaper confuses video game technology for real
+{% takeThatScience take_that_science[0] %}
 
 Ben is going to C2E2 this weekend with Rick Lee James.

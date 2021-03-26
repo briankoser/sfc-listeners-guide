@@ -28,6 +28,9 @@ future_episodes:
   - How to survive Disney with Daniel
 stan_lee:
   - Stan wants an Academy Award for best cameos
+take_that_science:
+  - 78,000 people have applied for positions on a private Mars colony project. The project will be funded by turning the selection and training process into a reality TV show.
+  - Boob armor is dangerous
 
 last_listen: 2018-12-13
 recommendation: no
@@ -98,10 +101,10 @@ EA will be making Star Wars video games. They've registered the following URLs:
   <q class="matt">How about this then? We'll keep that open: we'll see what movie finally turns me.</q>
 </div>
 
-Take That, Science: 78,000 people have applied for positions on a private Mars colony project. The project will be funded by turning the selection and training process into a reality TV show.
+{% takeThatScience take_that_science[0] %}
 {% arc %}<a href="https://en.m.wikipedia.org/wiki/Mars_One">The company went bankrupt in 2019.</a>{% endarc %}
 
-Take That, Science: boob armor is dangerous
+{% takeThatScience take_that_science[1] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'45:49'} %}

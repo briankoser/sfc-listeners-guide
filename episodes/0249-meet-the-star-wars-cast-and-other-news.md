@@ -19,11 +19,12 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
 firsts:
   - Fake News of the Day segment
 take_that:
   - Doctor
+take_that_science:
+  - Doctor claims watching The Walking Dead is hurting society
 
 last_listen: 2019-10-09
 recommendation: no
@@ -68,7 +69,7 @@ Yahoo! is creating a streaming service.
 
 Matt is Right: Hugh Jackman says the next Wolverine movie will probably be his last 
 
-Take That, Science: Doctor claims watching {% work "The Walking Dead" %} is hurting society
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'30:36'} %}

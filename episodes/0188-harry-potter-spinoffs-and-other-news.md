@@ -25,6 +25,8 @@ firsts:
 future_episodes:
   - Why franchises are bad for movies
   - Doctor Who 
+take_that_science:
+  - Newly declassified report confirms the existence of Area 51
 
 last_listen: 2019-03-18
 recommendation: no
@@ -75,4 +77,4 @@ What the Frodo: someone secretly filmed a horror movie at Disney Land.
 
 Ben is going to Disney Land in 2 weeks. 
 
-Take That, Science: newly declassified report confirms the existence of Area 51.
+{% takeThatScience take_that_science[0] %}

@@ -23,6 +23,8 @@ encouraging_signs:
   - The Lone Ranger movie bombed 
 stan_lee:
   - They invented Spider-Woman to prevent another company from making a ripoff Spider-Man 
+take_that_science:
+  - Man throws his mother off a bridge claiming she is a clone
 
 last_listen: 2019-01-30
 recommendation: no
@@ -34,4 +36,4 @@ What the Frodo: Michael Jackson was almost cast as The Doctor in the 90s Doctor 
 
 {% stanLee stan_lee[0] %}
 
-Take That, Science: man throws his mother off a bridge claiming she is a clone.
+{% takeThatScience take_that_science[0] %}

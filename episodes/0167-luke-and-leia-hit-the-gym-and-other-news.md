@@ -45,6 +45,8 @@ future_episodes:
   - Marriage Advice for Matt
 stan_lee:
   - A Black Panther movie is coming
+take_that_science:
+  - Investigator warns UN of impending killer robot uprising, calls for ban
 
 last_listen: 2019-01-08
 recommendation: no
@@ -90,7 +92,7 @@ Des arrives early for the next episode.
 
 {% stanLee stan_lee[0] %}
 
-Take That, Science: investigator warns UN of impending killer robot uprising, calls for ban
+{% takeThatScience take_that_science[0] %}
 
 Fox is developing a movie adaptation of the Choose Your Own Adventure books.
 

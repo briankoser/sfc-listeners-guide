@@ -41,6 +41,8 @@ prophecy:
   - host: Matt
     prediction: "<i class='work-title'>The Silver Chair</i> will be released in 2016"
     veracity: false
+take_that_science:
+  - Astronaut nearly drowned in space
 
 last_listen: 2019-04-16
 recommendation: no
@@ -72,6 +74,6 @@ Tom Clancy died.
 
 {% benIsRight ben_is_right[0] %}
 
-Take That, Science: astronaut nearly drowned in space
+{% takeThatScience take_that_science[0] %}
 
 Nine missing Doctor Who episodes were found.

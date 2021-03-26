@@ -21,7 +21,6 @@ hosts:
 sponsors:
   - Andrew
 
-notable_moments:
 prophecy:
   - host: Koby
     prediction: "Ant-Man will appear in <i class='work-title'>Avengers 2</i>"
@@ -30,6 +29,8 @@ prophecy:
     prediction: "Ant-Man will not appear in <i class='work-title'>Avengers 2</i>"
     veracity: true
     comments: "He did appear in <i class='work-title'>Captain America: Civil War</i>"
+take_that_science:
+  - The NSA has agents playing World of Warcraft to surveil terrorists
 
 last_listen: 2019-08-01
 recommendation: no
@@ -51,4 +52,4 @@ Matt wants to raise money for a cause in 2014. Ben wants to pay their own bills 
 
 What the Frodo: James Cameron said you should watch {% work "Avatar" %} like it was {% work "The Godfather" %} 
 
-Take That, Science: the NSA has agents playing World of Warcraft to surveil terrorists
+{% takeThatScience take_that_science[0] %}

@@ -47,6 +47,8 @@ countdowns:
         - Skull of Hunter Rose
         - Letter written by alternate universe Thomas Wayne
 odd_opening: Ben chants "What's in the Batcave" as Matt opens.
+take_that_science:
+  - Chris Weir built a Batcave in his basement for $250,000 as a place to hold his $100,000-worth of Batman memorabilia
 
 last_listen: 2018-12-21
 recommendation: essential
@@ -57,7 +59,7 @@ Matt realizes before he starts that this isn't going to be a good episode. {% ar
 
 
 # Main Topic
-Take That, Science: Chris Weir built a Batcave in his basement for $250,000 as a place to hold his $100,000-worth of Batman memorabilia. 
+{% takeThatScience take_that_science[0] %} 
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'3:12'} %}

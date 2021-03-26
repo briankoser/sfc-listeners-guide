@@ -17,12 +17,13 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben coos like a dove
 future_episodes:
   - State of the Disney Union
   - Star Trek round table
   - Brady Hardin
+odd_opening: Ben coos like a dove
+take_that_science:
+  - "A \"study\" showed that red shirts died in greater numbers in Star Trek: The Original Series but not in greater number proportionally."
 
 last_listen: 2018-10-15
 recommendation: no
@@ -32,7 +33,8 @@ Ben suggests making the show's statute of limitations on spoilers 10 years.
 
 Ben's idea for the opening of {% work "Star Wars: Episode VII" %}: the opening scrawl says there's a Gungan reunion party on Naboo. Then a Death Star nukes Naboo. Then there's a second scrawl and the movie goes from there.
 
-Take That, Science: a "study" showed that red shirts died in greater numbers in {% work "Star Trek: TOS" %} but not in greater number proportionally. Ben says that's the worst news ever reported on the show.
+{% takeThatScience take_that_science[0] %}
+Ben says that's the worst news ever reported on the show.
 
 
 

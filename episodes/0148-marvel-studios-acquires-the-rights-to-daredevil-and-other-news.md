@@ -28,6 +28,8 @@ future_episodes:
 stan_lee:
   - Stan teams up with HISHE to make fun of Star Wars
   - Stan is tough and gritty
+take_that_science:
+  - A new discovery on Europa could lead to finding alien life
 
 last_listen: 2018-11-30
 recommendation: no
@@ -60,7 +62,7 @@ Dave Johnson suggests uploading podcast episodes to YouTube. {% arc %}No no no{%
   <q class="ben">Take that, JJ!</q>
 </div>
 
-Take That, Science: a new discovery on Europa could lead to finding alien life. 
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'24:11'} %}

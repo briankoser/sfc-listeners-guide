@@ -17,13 +17,16 @@ hosts:
   - Ben
   - Matt
 
+take_that_science:
+  - Japan has built an asteroid cannon
+
 last_listen: 2019-10-14
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 Fake News of the Day: Andy Serkis is playing Mar Mar Jinks in Star Wars 7
 
-Take That, Science: Japan has built an asteroid cannon
+{% takeThatScience take_that_science[0] %}
 
 
 

@@ -16,9 +16,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 future_episodes:
   - Unanswered LOST mysteries 
+take_that_science:
+  - The University of Queensland has the longest running pitch drop experiment
+  - Gaming grandma sues video game company for $28,000 after losing virtual sword
 
 last_listen: 2019-09-11
 recommendation: no
@@ -30,9 +32,9 @@ Matt asks Ben who owns the Internet. Ben explains the Internet.
 
 
 # News
-Take That, Science: the University of Queensland has the longest running pitch drop experiment
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: gaming grandma sues video game company for $28,000 after losing virtual sword
+{% takeThatScience take_that_science[1] %}
 
 Guy Ritchie is making a six-film King Arthur series.
 

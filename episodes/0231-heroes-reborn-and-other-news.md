@@ -17,10 +17,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben yells "No!"
 firsts:
   - Feedback from Daniel Ford 
+odd_opening: Ben yells "No!"
+take_that_science:
+  - The military has plans to create an Iron Man suit by 2018
 
 last_listen: 2019-09-17
 recommendation: no
@@ -38,4 +39,4 @@ Ben says it's the worst news they've ever reported.
 
 What the Frodo: {% work "Space Jam 2" %} is in development
 
-Take That, Science: the military has plans to create an Iron Man suit by 2018
+{% takeThatScience take_that_science[0] %}

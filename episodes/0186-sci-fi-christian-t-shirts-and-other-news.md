@@ -18,10 +18,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben opens with a Batman voice
 future_episodes:
   - <i class="work-title">Heroes</i> rant
+odd_opening: Ben opens with a Batman voice
+take_that_science:
+  - Jetpack moves closer to market
 
 last_listen: 2019-03-12
 recommendation: no
@@ -37,4 +38,4 @@ What the Frodo: Red Wedding Halloween costumes are being sold with spoiler warni
 
 {% timeLink {url:podcast_file_url, t:'24:10'} %} Matt has a box in his room labeled Francis Coppola. He says he's holding Coppola's stuff.
 
-Take That, Science: jetpack moves closer to market
+{% takeThatScience take_that_science[0] %}

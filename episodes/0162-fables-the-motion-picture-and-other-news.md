@@ -45,6 +45,10 @@ firsts:
 future_episodes:
   - Star Trek roundtable
 odd_opening: Matt and Ben open calmly.
+take_that_science:
+  - Scientists have discovered mammoth blood, making cloning more possible
+  - Buzz Aldrin blasted After Earth for being scientific inaccurate
+  - NASA is trying to implement an emotion control mechanism to prevent astronauts from going crazy on the trip to Mars
 
 last_listen: 2018-12-28
 recommendation: no
@@ -79,11 +83,11 @@ More video game news: Ben tries again to create a sound clip.
   <q class="matt">That was only said one time, in private.</q>
 </div>
 
-Take That, Science: scientists have discovered mammoth blood, making cloning more possible
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: Buzz Aldrin blasted {% work "After Earth" %} for being scientific inaccurate
+{% takeThatScience take_that_science[1] %}
 
-Take That, Science: NASA is trying to implement an emotion control mechanism to prevent astronauts from going crazy on the trip to Mars
+{% takeThatScience take_that_science[2] %}
 
 A Grumpy Cat movie is in the works.
 

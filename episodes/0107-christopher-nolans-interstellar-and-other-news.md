@@ -19,11 +19,13 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 firsts:
   - News episode with "and Other News" suffix
   - Matt bleeps Ben
   - Last News of the Day sound clip
+future_episodes:
+  - Top 5 Sci-Fi Geniuses Gone Bad
+  - Bible Trivia podcast
 prophecy:
   - host: Matt
     prediction: "Michael Caine will be in <i class='work-title'>Interstellar</i>"
@@ -36,11 +38,12 @@ prophecy:
     prediction: "<i class='work-title'>Guardians of the Galaxy</i> will have a <i class='work-title'>Star Wars</i> easter egg."
     veracity: true
     comments: "According to Kevin Feige, each MCU Phase 2 movie pays tribute to <i class='work-title'>Star Wars</i> by having a character lose an arm (like Anakin and Luke lost hands)."
-future_episodes:
-  - Top 5 Sci-Fi Geniuses Gone Bad
-  - Bible Trivia podcast
 take_that:
   - America
+take_that_science:
+  - A petition on petitions.gov asking the US government to build a Death Star reached enough signatures that the government responded
+  - A killer asteroid is not coming to destroy earth
+  - A former congressman proposes funding space flights with advertising on rockets
 
 last_listen: 2018-08-05
 recommendation: no
@@ -76,7 +79,7 @@ Zack Snyder is rumored to be involved with a film described as "{% work "Star Wa
 
 {% timeLink {url:podcast_file_url, t:'20:09'} %} Ben eviscerates the Green Bay Packers
 
-Take that, Science: A petition on petitions.gov asking the US government to build a Death Star reached enough signatures that the government responded.
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'30:31'} %}
@@ -97,9 +100,9 @@ Take that, Science: A petition on petitions.gov asking the US government to buil
   <q class="matt">No, Dumas. Dumas.</q>
 </div>
 
-Take that, Science: a killer asteroid is not coming to destroy earth.
+{% takeThatScience take_that_science[1] %}
 
-Take that, Science: a former congressman proposes funding space flights with advertising on rockets.
+{% takeThatScience take_that_science[2] %}
 
 Matt wonders if {% work "Guardians of the Galaxy" %} will crossover with {% work "Star Wars" %}.
 

@@ -17,7 +17,9 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+future_episodes:
+  - Interview with the author of a book about the John Carter movie
+  - End Times sequel
 prophecy:
   - host: Ben
     prediction: The current iteration of the Justice League movie will not happen.
@@ -25,9 +27,9 @@ prophecy:
   - host: Matt
     prediction: The current iteration of the Justice League movie will not happen.
     veracity: true
-future_episodes:
-  - Interview with the author of a book about the John Carter movie
-  - End Times sequel
+take_that_science:
+  - A filmmaker is using an AI to help write the script to a short film
+  - A new prime has been discovered, the largest yet
 
 last_listen: 2018-09-24
 recommendation: no
@@ -111,12 +113,12 @@ Jim Carrey and Adam Sandler are being considered as voice actors for {% work "Gu
 Ben makes fun of {% work "Supernatural" %}'s 78th season 
 {% arc %}It's 14th season premiered last week.{% endarc %}
 
-Take That, Science: a filmmaker is using an AI to help write the script to a short film
+{% takeThatScience take_that_science[0] %}
 
 Matt asks <a href="cleverbot.com">Clever Bot</a>, what do you think about The Sci-Fi Christian? Answer: I have never been to the Netherlands.
 {% arc %}I asked Clever Bot the same question 5 years later. It's answer this time was, Very cold!{% endarc %}
 
-Take That, Science: a new prime has been discovered, the largest yet.
+{% takeThatScience take_that_science[1] %}
 
 
 

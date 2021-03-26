@@ -16,10 +16,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben lists the seven deadly sins
 future_episodes:
   - Flight of the Angels discussion with the Reinis
+odd_opening: Ben lists the seven deadly sins
+take_that_science:
+  - SETI chief astronomer predicts we will meet aliens within 25 years 
 
 last_listen: 2019-08-08
 recommendation: no
@@ -42,6 +43,6 @@ Ben's furnace broke.
 
 {% arc %}I remember{% endarc %}
 
-Take That, Science: SETI chief astronomer predicts we will meet aliens within 25 years 
+{% takeThatScience take_that_science[0] %}
 
 Ben thinks the next Wes Anderson film is titled "Pest Hotel". {% arc %}That would be a very different movie{% endarc %}

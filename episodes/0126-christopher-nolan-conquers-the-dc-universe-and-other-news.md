@@ -18,6 +18,8 @@ hosts:
   - Ben
   - Matt
 
+first:
+  - A Slew of Casting News segment
 future_episodes:
   - Revelation with Rick Lee James
 prophecy:
@@ -38,9 +40,9 @@ take_that:
   - Wizard
   - Andre
   - RC
-
-first:
-- A Slew of Casting News segment
+take_that_science:
+  - The world's first space tourist is planning to fund a trip to Mars in 2018
+  - Scientists cured HIV in a newborn baby
 
 last_listen: 2018-10-09
 recommendation: no
@@ -76,9 +78,10 @@ Ben wants DC to fire Henry Cavill and cast Benedict Cumberbatch and Martin Freem
   <q class="ben">I heard it sucked. I mean, the Bible's great, but the adaptation...</q>
 </div>
 
-Take That, Science: The world's first space tourist is planning to fund a trip to Mars in 2018 {% arc %}He decided 8 months later that <a href="https://www.newscientist.com/article/dn24633-ambitious-mars-joy-ride-cannot-succeed-without-nasa/">he couldn't do it without NASA's Space Launch System</a>, which will not be ready for use until 2020 (and probably not available for Tito's use anyway).{% endarc %}
+{% takeThatScience take_that_science[0] %}
+{% arc %}He decided 8 months later that [he couldn't do it without NASA's Space Launch System](https://www.newscientist.com/article/dn24633-ambitious-mars-joy-ride-cannot-succeed-without-nasa/), which will not be ready for use until 2020 (and probably not available for Tito's use anyway).{% endarc %}
 
-Take That, Science: scientists cured HIV in a newborn baby
+{% takeThatScience take_that_science[1] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'47:36'} %}

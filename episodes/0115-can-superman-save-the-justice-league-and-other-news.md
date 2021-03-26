@@ -37,6 +37,12 @@ prophecy:
     veracity: true
 stan_lee:
   - Stan rants about prequels
+take_that_science:
+  - Earth is now on the edge of the habitable zone
+  - Economists believe that if aliens invade in the next ten years, we will not be prepared
+  - Scientists have captured the first video of thoughts being formed
+  - The closest asteroid yet will be passing Earth
+  - Science has proven that pretending to be a superhero can make you a better person
 
 last_listen: 2018-09-19
 recommendation: no
@@ -73,15 +79,15 @@ IgnotusWyrd remixed The History of Christianity: <a href="https://youtu.be/O7P6B
   <q class="matt">There's talks though that this actress might be related to—so like, he'll have dated the grandma and then dated the granddaughter. That's hot.</q>
 </div>
 
-Take That, Science: Earth is now on the edge of the habitable zone
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: Economists believe that if aliens invade in the next ten years, we will not be prepared.
+{% takeThatScience take_that_science[1] %}
 
-Take That, Science: Scientists have captured the first video of thoughts being formed.
+{% takeThatScience take_that_science[2] %}
 
-Take That, Science: The closest asteroid yet will be passing Earth.
+{% takeThatScience take_that_science[3] %}
 
-Take That, Science: Science has proven that pretending to be a superhero can make you a better person. 
+{% takeThatScience take_that_science[4] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'47:23'} %}

@@ -22,6 +22,8 @@ encouraging_signs:
   - JJ Abrams is using practical effects for Star Wars Episode VIII
 future_episodes:
   - Alan Moore
+take_that_science:
+  - Scientists believe there might be a wormhole at the center of our galaxy
 
 last_listen: 2019-11-27
 recommendation: no
@@ -42,4 +44,4 @@ Ben has never heard of {% work "Reading Rainbow" %}. Matt plays the {% work "Rea
   <q class="ben">Probably. Probably. That would certainly be more entertaining to watch than the actual movies.</q>
 </div>
 
-Take That, Science: scientists believe there might be a wormhole at the center of our galaxy
+{% takeThatScience take_that_science[0] %}

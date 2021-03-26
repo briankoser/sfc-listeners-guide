@@ -19,7 +19,6 @@ hosts:
 guests:
   - Jayce O'Neil 
 
-notable_moments:
 prophecy:
   - host: Ben
     prediction: Patriots win Super Bowl over 49ers by 1
@@ -28,6 +27,8 @@ prophecy:
     prediction: Seahawks win Super Bowl over Broncos by 3
     veracity: true
     comments: Teams and result correct, although the score was 43-8
+take_that_science:
+  - Scientists create glow in the dark pigs
 
 last_listen: 2019-08-12
 recommendation: no
@@ -69,4 +70,4 @@ What the Frodo: found-footage Christian movie about teens at a church lock-in wh
 
 Matt finished {% work "Flight of the Angels" %}. He's already finished two books this year to start his Reading Revolution. 
 
-Take That, Science: scientists create glow in the dark pigs
+{% takeThatScience take_that_science[0] %}

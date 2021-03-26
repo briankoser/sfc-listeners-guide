@@ -24,6 +24,9 @@ future_episodes:
   - Top 100 Sci-Fi TV shows
 stan_lee:
   - Stan Lee rants against neckties
+take_that_science:
+  - A doctor claims to have an alien corpse
+  - <i>Voyager 1</i> exited the solar system
 
 last_listen: 2018-11-13
 recommendation: no
@@ -59,9 +62,9 @@ Ben accidentally calls Koby, "Koby"
 
 Christopher Eccleston will not appear in the Doctor Who 50th anniversary episode
 
-Take That, Science: a doctor claims to have an alien corpse
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: <i>Voyager 1</i> exited the solar system
+{% takeThatScience take_that_science[1] %}
 
 Roger Ebert died
 

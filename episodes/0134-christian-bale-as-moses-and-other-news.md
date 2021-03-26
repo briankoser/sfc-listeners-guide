@@ -33,6 +33,9 @@ stan_lee:
 take_that:
   - Matt Anderson
   - Lasik surgery
+take_that_science:
+  - Babies conceived in space might not develop normally
+  - People are trying to ban Google glass
 
 last_listen: 2018-10-22
 recommendation: no
@@ -77,7 +80,7 @@ Iran is planning to "sue Hollywood" because they looked bad in Argo.
   <q class="ben">Lindelof? Like, 'Go Lindelof yourself!' 'Lindel off!'</q>
 </div>
 
-Take That, Science: babies conceived in space might not develop normally.
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'30:48'} %}
@@ -104,7 +107,7 @@ Take That, Science: babies conceived in space might not develop normally.
   <q class="ben">{% work "The Sci-Fi Christian's Guide to Sex in Space" %}.</q>
 </div>
 
-Take That, Science: people are trying to ban Google glass 
+{% takeThatScience take_that_science[1] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'33:02'} %}

@@ -34,6 +34,8 @@ prophecy:
     prediction: Green Crayon won't talk
     veracity: undefined
     comments: I care enough to write this down but not enough to check
+take_that_science:
+  - Internet nabs man who attacked cosplayer
 
 last_listen: 2019-10-15
 recommendation: no
@@ -57,7 +59,7 @@ They watch the trailer and give commentary.
   <q class="matt">Brush your teeth, even if you are a crayon.</q>
 </div>
 
-Take That, Science: Internet nabs man who attacked cosplayer
+{% takeThatScience take_that_science[0] %}
 
 {% encouragingSigns encouraging_signs[0] %}
 

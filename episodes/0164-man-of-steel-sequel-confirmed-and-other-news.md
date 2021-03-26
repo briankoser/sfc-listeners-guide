@@ -39,6 +39,8 @@ future_episodes:
 odd_opening: Matt opens with an odd cadence.
 stan_lee:
   - Stan Lee is launching a cologne that smells like him
+take_that_science:
+  - Theatre hires "gunmen" to promote Iron Man 3
 
 last_listen: 2019-01-02
 recommendation: no
@@ -69,6 +71,6 @@ Ben and Matt try a third time to come up with a video game news segment intro cl
 
 Everyone now knows that the NSA has all of Verizon's phone records. 
 
-Take That, Science: theatre hires "gunmen" to promote {% work "Iron Man 3" %}.
+{% takeThatScience take_that_science[0] %}
 
 Iain M. Banks died.

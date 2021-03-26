@@ -16,7 +16,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+take_that_science:
+  - NASA is now accepting applications to mine the moon
 
 last_listen: 2019-09-23
 recommendation: no
@@ -24,7 +25,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 George R. R. Martin is now worried that the Game of Thrones show will overtake his book series. 
 
-Take That, Science: NASA is now accepting applications to mine the Moon
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'27:57'} %}

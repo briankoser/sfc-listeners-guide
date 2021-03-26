@@ -21,6 +21,8 @@ hosts:
 stan_lee:
   - Forbes named Stan Lee one of the top ten most influential celebrities of 2014.
   - Stan will not make a cameo in Guardians of the Galaxy
+take_that_science:
+  - Why NASA will pay you $18,000 to stay in bed and relax for a long, long time 
 
 last_listen: 2019-09-10
 recommendation: no
@@ -32,6 +34,6 @@ A Star Wars-Pixar movie is rumored to be in the works.
 
 {% stanLee stan_lee[1] %}
 
-Take That, Science: why NASA will pay you $18,000 to stay in bed and relax for a long, long time 
+{% takeThatScience take_that_science[0] %}
 
 What the Frodo: a fan is trying to get enough Jaws movies made so that Jaws 19 can come out in 2015, like in {% work "Back to the Future 2" %}

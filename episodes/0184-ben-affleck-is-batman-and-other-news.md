@@ -21,7 +21,6 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 firsts:
   - Ben was Wrong clip
 future_episodes:
@@ -32,6 +31,8 @@ stan_lee:
 take_that:
   - Everyone
   - Avatar
+take_that_science:
+  - Scientists say they found key to actual warp drive
 
 last_listen: 2019-03-06
 recommendation: no
@@ -81,8 +82,7 @@ Matt Damon is in Interstellar {% arc %}Did Matt forget? IIRC he's surprised when
 {% stanLee stan_lee[0] %}
 {% arc %}Painful.{% endarc %}
 
-Take That, Science: scientists say they found key to actual warp drive
-
+{% takeThatScience take_that_science[0] %}
 
 
 # Closing

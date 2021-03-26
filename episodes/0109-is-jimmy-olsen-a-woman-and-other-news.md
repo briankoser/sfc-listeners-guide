@@ -21,13 +21,18 @@ hosts:
 guests:
   - Brandon Gibbs
 
-notable_moments:
 firsts:
   - Appearance of Brandon Gibbs
   - Matt swears
   - Matt bleeps himself
 take_that:
   - Listeners
+take_that_science:
+  - Scientists hid an object in space and time, creating a temporal hole in light
+  - A Back to the Future fan made a DeLorean hovercraft
+  - Scientists think they found signs of life on Mars
+  - NASA transmitted the image of the Mona Lisa to the moon with lasers
+  - Scientists think they found a planet with the core of a diamond
 
 last_listen: 2018-09-10
 recommendation: no
@@ -99,19 +104,19 @@ Zeus, Ra, and Buddha team up for {% work "Godyssey" %}, a comic-book movie. The 
 
 Matt observes that NBC has started doing short TV seasons like Ben called for two years ago. 
 
-Take That, Science: scientists hid an object in space and time, creating a temporal hole in light. 
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'39:11'} %}
   <q class="ben">Take that, listeners!</q>
 </div>
 
-Take That, Science: a {% work "Back to the Future" %} fan made a DeLorean hovercraft.
+{% takeThatScience take_that_science[1] %}
 
-Take That, Science: scientists think they found signs of life on Mars.
+{% takeThatScience take_that_science[2] %}
 
-Take That, Science: NASA transmitted the image of the Mona Lisa to the moon with lasers.
+{% takeThatScience take_that_science[3] %}
 
-Take That, Science: scientists think they found a planet with the core of a diamond.
+{% takeThatScience take_that_science[4] %}
 
 Ben brings back the Dark Knight News music.

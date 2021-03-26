@@ -50,6 +50,8 @@ rating:
   guests:
     - guest: Rick Lee James
       score: 4
+take_that_science:
+  - Vsauce about the power of Supermans punch
 
 last_listen: 2019-01-07
 recommendation: no
@@ -94,4 +96,4 @@ Rick says God doesn't recognize country borders. {% arc %}He definitely deals wi
 # Closing
 Video review included at end
 
-Take That, Science: Vsauce about the power of Supermans punch
+{% takeThatScience take_that_science[0] %}

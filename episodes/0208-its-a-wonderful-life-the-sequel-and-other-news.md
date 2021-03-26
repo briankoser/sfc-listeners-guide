@@ -25,6 +25,9 @@ future_episodes:
   - Alan Moore 
   - Catholicism vs the Orthodox Church
 odd_opening: Ben eats pizza during the intro
+take_that_science:
+  - Artist plans to put a sculpture on the moon with blood samples from thirty-three different artists
+  - Harvard and MIT scientists created a lightsaber
 
 last_listen: 2019-07-23
 recommendation: no
@@ -34,9 +37,9 @@ Star Partners and Hummingbird Productions are planning a sequel to {% work "It's
 
 The Coca Cola polar bears are getting a movie.
 
-Take That, Science: artist plans to put a sculpture on the moon with blood samples from thirty-three different artists
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: Harvard and MIT scientists created a lightsaber
+{% takeThatScience take_that_science[1] %}
 
 What the Frodo: drunk and high ghost hunters couldn't find a ghost
 

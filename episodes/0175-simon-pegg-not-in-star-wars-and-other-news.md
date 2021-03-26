@@ -27,6 +27,8 @@ firsts:
   - Feedback from Jordan in Australia
 future_episodes:
   - Top 5 video game cutscene movies
+take_that_science:
+  - A guy is selling a time machine on craigslist
 
 last_listen: 2019-02-12
 recommendation: no
@@ -44,8 +46,7 @@ The hosts tease their upcoming gear store.
 
 What the Frodo: Colin Ferguson said the end of lighthearted programming at Syfy is here with {% work "Warehouse 13" %} and {% work "Eureka" %} ending (even though movies like {% work "Sharknado 2" %} are still coming)
 
-Take That, Science: guy on craigslist is selling a time machine
-
+{% takeThatScience take_that_science[0] %}
 
 
 # Feedback

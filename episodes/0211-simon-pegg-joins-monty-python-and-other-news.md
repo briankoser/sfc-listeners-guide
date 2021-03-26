@@ -22,6 +22,8 @@ guests:
 
 stan_lee:
   - Why summer blockbusters? Why not winter blockbusters?
+take_that_science:
+  - Amazon announced plans for delivery by drone
 
 last_listen: 2019-07-30
 recommendation: no
@@ -33,7 +35,7 @@ Ben and Matt are still upset about the 1998 NFC championship where Atlanta beat 
 
 They chat with Doug for 36 minutes and have him vote for the end of year awards live. 
 
-Take That, Science: Amazon announced plans for delivery by drone
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'43:40'} %}

@@ -17,12 +17,13 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
 future_episodes:
   - "Injustice: Gods Among Us"
   - <i class="work-title">Deep Space 9</i> review
 take_that:
   - Matt
+take_that_science:
+  - "A man found an issue of Action Comics #1 in his attic drywall"
 
 last_listen: 2018-12-27
 recommendation: no
@@ -30,7 +31,7 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 ---
 Ben's one geek request for {% work "Star Wars VII" %}: cast Simon Pegg. {% arc %}Wishes do come true{% endarc %}
 
-Take That, Science: a man found an issue of Action Comics #1 in his attic drywall
+{% takeThatScience take_that_science[0] %}
 
 What the Frodo: The original screenwriters for {% work "Super Mario Bros" %} are releasing a sequel in a webcomic
 

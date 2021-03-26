@@ -28,6 +28,9 @@ encouraging_signs:
 quotes:
   - time: "1:30"
     context: Matt tells Ben that David Tennant is going to play Killgrave, The Purple Man
+take_that_science:
+  - Measles is spreading at Disney Land
+  - Scientists have uploaded a worm's mind into a LEGO robot
 
 last_listen: 2020-04-22
 recommendation: no
@@ -53,9 +56,9 @@ Bill Burr said modern movies are always budgeted at $500 thousand or $500 millio
 
 {% benIsRight ben_is_right[0] %}
 
-Take That, Science: Measles is spreading at Disney Land
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: Scientists have uploaded a worm's mind into a LEGO robot
+{% takeThatScience take_that_science[1] %}
 
 Simon Pegg will co-write the Star Trek 3 script.
 

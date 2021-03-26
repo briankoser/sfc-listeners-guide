@@ -17,7 +17,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+take_that_science:
+  - Nike is making self-lacing sneakers for the anniversary of Back to the Future 2
 
 last_listen: 2019-09-13
 recommendation: no
@@ -29,9 +30,10 @@ Ben co-hosts over the phone. He was in Minnetonka helping a friend brew beer and
 
 
 # News
-Take That, Science: Nike is making self-lacing sneakers for the anniversary of {% work "Back to the Future 2" %}.
+{% takeThatScience take_that_science[0] %}
 
-Matt says it's crazy that {% work "Supernatural" %} got renewed. {% arc %}And then it got renewed for 5 more seasons before ending in 2019!{% endarc %} 
+Matt says it's crazy that {% work "Supernatural" %} got renewed. 
+{% arc %}And then it got renewed for 5 more seasons before ending in 2019!{% endarc %} 
 
 
 

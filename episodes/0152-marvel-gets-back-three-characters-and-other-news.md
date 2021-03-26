@@ -17,7 +17,14 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+celebrity_invites: 
+  - Joss Whedon
+future_episodes:
+  - Marriage Advice for Matt 
+  - Top 100 Sci-Fi TV Shows
+  - What's in the Batcave?
+  - Review of every DC New 52 Volume 1
+  - Power Rangers
 prophecy:
   - host: Matt
     prediction: "Iron Man will die in <i class='work-title'>Avengers 2</i>"
@@ -25,17 +32,11 @@ prophecy:
   - host: Ben
     prediction: "Iron Man will not die in <i class='work-title'>Avengers 2</i> but it will be his send-off"
     veracity: false
-future_episodes:
-  - Marriage Advice for Matt 
-  - Top 100 Sci-Fi TV Shows
-  - What's in the Batcave?
-  - Review of every DC New 52 Volume 1
-  - Power Rangers
 take_that:
   - Protestants
   - Bronies
-celebrity_invites: 
-  - Joss Whedon
+take_that_science:
+  - The Nepalese government released a memo from 1959 with regulations for yeti hunting
 spoilers: 
   - "<i class='work-title'>Avengers 2: Age of Ultron</i>"
 
@@ -65,7 +66,7 @@ Ben calls Quicksilver, "Pumpernickel"
 
 Robert Downey Jr. will star in a {% work "Pinocchio" %} movie
 
-Take That, Science: the Nepalese government released a memo from 1959 with regulations for yeti hunting
+{% takeThatScience take_that_science[0] %}
 
 Daniel calls in with the hosts' favorite {% work "Guardians of the Galaxy" %} news: David Tennant is rumored to voice Rocket Raccoon.
 

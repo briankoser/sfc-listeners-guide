@@ -17,7 +17,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+take_that_science:
+  - Professional Bigfoot hunter claims to have killed Sasquatch
 
 last_listen: 2019-09-18
 recommendation: no
@@ -33,6 +34,6 @@ Ben is giving up dessert again for Lent.
 
 
 # News 
-Take That, Science: professional Bigfoot hunter claims to have killed Sasquatch
+{% takeThatScience take_that_science[0] %}
 
-What the Frodo: movie studio is developing a gritty Viking origin story of Santa Claus
+What the Frodo: Movie studio is developing a gritty Viking origin story of Santa Claus

@@ -27,11 +27,13 @@ sponsors:
 ben_is_right:
   - Joss Whedon has abandoned his principles
   - Matt misidentified an actor
-  - In season 1 of Super Book, the kids got sucked into the book instead of the computer
+  - In Season 1 of Super Book, the kids got sucked into the book instead of the computer
 encouraging_signs:
   - Ryan Reynolds bombed twice in one week (Turbo and RIPD)
 stan_lee:
   - Stan rants about lines at Comic Con
+take_that_science:
+  - Politician admits to having an affair and love child with an alien
 
 last_listen: 2019-02-08
 recommendation: no
@@ -53,7 +55,7 @@ Ben tries to make a video game news segment music happen again
 
 {% benIsRight ben_is_right[1] %}
 
-{% timeLink {url:podcast_file_url, t:'39:46'} %} Take That, Science: politician admits to having an affair and love child with an alien
+{% timeLink {url:podcast_file_url, t:'39:46'} %} Take That, Science: Politician admits to having an affair and love child with an alien
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'41:28'} %}

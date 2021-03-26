@@ -22,6 +22,8 @@ encouraging_signs:
 future_episodes:
   - The Fountain review
   - Franchises 
+take_that_science:
+  - Venezuelan president blames country's violence on Spider-Man
 
 last_listen: 2019-05-22
 recommendation: no
@@ -43,7 +45,7 @@ Episode 200 will include a listener-voted best episode of all time.
   <q class="matt">I'm not going to correct you.</q>
 </div>
 
-Take That, Science: Venezuelan president blames country's violence on Spider-Man
+{% takeThatScience take_that_science[0] %}
 
 Breaking news: Hugo Chavez has been dead since March.
 

@@ -24,6 +24,10 @@ ben_is_right:
 odd_opening: Both do a voice during the opening.
 stan_lee:
   - Stan rants about commercials
+take_that_science:
+  - An Iranian created a "time machine" (it actually just predicts future events)
+  - Scientists claim aliens put a secret genetic code in human DNA
+  - The speed of light in a vacuum can vary
 
 last_listen: 2018-11-21
 recommendation: no
@@ -60,11 +64,11 @@ Christopher Nolan will not be the executive producer for the entire DC cinematic
 
 Fox is banning people from selling Jayne's cunning hat.
 
-Take That, Science: An Iranian created a "time machine" (it actually just predicts future events).
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: scientists claim aliens put a secret genetic code in human DNA. 
+{% takeThatScience take_that_science[1] %}
 
-Take That, Science: the speed of light in a vacuum can vary.
+{% takeThatScience take_that_science[2] %}
 
 {% stanLee stan_lee[0] %}
 

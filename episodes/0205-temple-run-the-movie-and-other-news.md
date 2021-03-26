@@ -22,6 +22,8 @@ sponsors:
 
 stan_lee:
   - Stan rants about Superman flying without visible means of propulsion
+take_that_science:
+  - Archeologists discovered a spear that predates <i>Homo Sapiens </i>
 
 last_listen: 2019-07-10
 recommendation: no
@@ -31,7 +33,7 @@ What the Frodo: the endless runner app game Temple Run is getting a film adaptat
 
 What the Frodo: Google has plans to do neck-implanted devices for hands-free uses 
 
-Take That, Science: archeologists discovered a spear that predates <i>Homo Sapiens </i>
+{% takeThatScience take_that_science[0] %}
 
 {% timeLink {url:podcast_file_url, t:'11:18'} %} Ben plays Temple Run while giving his news
 

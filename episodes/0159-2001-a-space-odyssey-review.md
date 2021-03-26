@@ -16,13 +16,14 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
-odd_opening: Ben chants "monkeys" over the opening theme.
+odd_opening: Ben chants "monkeys" over the opening theme
 rating:
   ben: 5
   matt: 2.5
 take_that:
   - Kubrick
+take_that_science:
+  - Are dwarf lemurs the key to long-distance space travel?
 
 last_listen: 2018-12-26
 recommendation: yes 
@@ -38,4 +39,4 @@ archivist_note: Watched the movie for the first time for this episode. Reading a
   <q class="matt">Take that, Kubrick!</q>
 </div>
 
-Take That, Science: Are dwarf lemurs the key to long-distance space travel?
+{% takeThatScience take_that_science[0] %}

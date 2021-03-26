@@ -42,6 +42,8 @@ stan_lee:
   - Stan hates people who pack products in too much plastic.
 take_that:
   - Calvin
+take_that_science:
+  - Scientists have made a phaser like device with sound waves
 
 last_listen: 2018-10-24
 recommendation: no
@@ -75,7 +77,7 @@ The music is from <a href="https://www.youtube.com/watch?v=uq0pygjQK74">In the B
 
 {% stanLee stan_lee[0] %}
 
-Take That, Science: scientists have made a phaser like device with sound waves.
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'34:53'} %}

@@ -34,6 +34,11 @@ prophecy:
     comments: Objectively false
 stan_lee:
   - Stan rants about birthdays
+take_that_science:
+  - A man designed a board game and buried it in the desert so future civilizations could have an archeological discovery
+  - Scientists have concluded the Game of Thrones wall would be impossible to build
+  - A breeder is trying to breed dogs that look like direwolves 
+  - Texas has a Star Trek scratch off lottery ticket. To promote it they're trying to set a record for most people dressed like Star Trek characters at one event
 
 last_listen: 2018-10-31
 recommendation: no
@@ -85,13 +90,13 @@ Ben thinks they won't pass the books until after {% work "Winds of Winter" %}.
 
 Ben wants HBO to make a Bible limited series.
 
-Take That, Science: a man designed a board game and buried it in the desert so future civilizations could have an archeological discovery
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: scientists have concluded the Game of Thrones wall would be impossible to build
+{% takeThatScience take_that_science[1] %}
 
-Take That, Science: a breeder is trying to breed dogs that look like direwolves 
+{% takeThatScience take_that_science[2] %}
 
-Take That, Science: Texas has a Star Trek scratch off lottery ticket. To promote it they're trying to set a record for most people dressed like Star Trek characters at one event
+{% takeThatScience take_that_science[3] %}
 
 Fasting in Catholicism is one meal, two snacks per day.
 

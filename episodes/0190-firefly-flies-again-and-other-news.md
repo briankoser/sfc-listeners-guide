@@ -31,6 +31,8 @@ stan_lee:
   - Marvel is making the Inhumans a big deal
 take_that:
   - Avengers Defenders
+take_that_science:
+  - A man's stomach brewed beer when he ate bread
 
 last_listen: 2019-04-08
 recommendation: no
@@ -64,7 +66,7 @@ Matt is Right: Joss Whedon would be better off making original material
 
 Koby started The Green Screen podcast about DC movies and TV shows like {% work "Arrow" %}.
 
-Take That, Science: a man's stomach brewed beer when he ate bread
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'43:36'} %}

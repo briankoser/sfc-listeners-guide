@@ -44,6 +44,14 @@ prophecy:
     comments: Coming 2021 (and will even feature Hayden Christensen)
 stan_lee:
   - Stan rants about weather reports
+take_that_science:
+  - Scientists have created zombie cells
+  - Scientists have provided limited sight to the blind
+  - It definitely was an asteroid that killed the dinosaurs
+  - A meteorite injured a thousand people in Russia
+  - Police say a man died by spontaneous combustion
+  - Chechnya banned wizards and sorcery
+  - Someone hacked an early response system in Montana and sent a warning that dead bodies were rising from their graves
 
 last_listen: 2018-10-02
 recommendation: no
@@ -105,19 +113,19 @@ Ben does "For It or Against It" for which {% work "Star Wars" %} characters shou
   <q class="ben">I didn't say you had, I just thought that was the rule.</q>
 </div>
 
-Take That, Science: scientists have created zombie cells
+{% takeThatScience take_that_science[0] %}
 
-Take That, Science: scientists have provided limited sight to the blind
+{% takeThatScience take_that_science[1] %}
 
-Take That, Science: it definitely was an asteroid that killed the dinosaurs
+{% takeThatScience take_that_science[2] %}
 
-Take That, Science: a meteorite injured a thousand people in Russia
+{% takeThatScience take_that_science[3] %}
 
-Take That, Science: police say a man died by spontaneous combustion
+{% takeThatScience take_that_science[4] %}
 
-Take That, Science: Chechnya banned wizards and sorcery
+{% takeThatScience take_that_science[5] %}
 
-Take That, Science: someone hacked an early response system in Montana and sent a warning that dead bodies were rising from their graves
+{% takeThatScience take_that_science[6] %}
 
 {% stanLee stan_lee[0] %}
 

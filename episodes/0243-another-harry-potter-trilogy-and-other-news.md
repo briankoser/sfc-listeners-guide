@@ -17,7 +17,8 @@ hosts:
   - Ben
   - Matt
 
-notable_moments:
+take_that_science:
+  - Researchers are claiming they have proof that the Kraken was real
 
 last_listen: 2019-10-01
 recommendation: no
@@ -40,7 +41,7 @@ What the Frodo: Brett Ratner is doing an origin-story film for Winnie the Pooh
   <q class="ben">Aw, that was sweet. And also somewhat insulting at the same time.</q>
 </div>
 
-Take That, Science: researchers are claiming they have proof that the Kraken was real
+{% takeThatScience take_that_science[0] %}
 
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'21:48'} %}

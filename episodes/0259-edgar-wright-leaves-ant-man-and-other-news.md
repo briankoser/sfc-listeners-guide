@@ -16,10 +16,11 @@ hosts:
   - Ben
   - Matt
 
-notable_moments: 
 future_episodes:
   - Heroes Season 3 Rant
   - Heroes Season 4 Rant
+take_that_science:
+  - Ancient Egyptians used water to make the sand stiffer where they pulled the giant stone sledges
 
 last_listen: 2019-10-18
 recommendation: no
@@ -29,7 +30,7 @@ Edgar Wright is off {% work "Ant-Man" %}, after working on it since 2006.
 
 Drew Goddard is off {% work "Daredevil" %}.
 
-Take That, Science: Ancient Egyptians used water to make the sand stiffer where they pulled the giant stone sledges
+{% takeThatScience take_that_science[0] %}
 
 {% timeLink {url:podcast_file_url, t:'14:18'} %} They discuss the title <i class='work-title'>Batman v Superman: Dawn of Justice</i>
 

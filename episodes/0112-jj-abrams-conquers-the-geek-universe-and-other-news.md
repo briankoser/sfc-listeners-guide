@@ -20,9 +20,10 @@ hosts:
 sponsors:
   - David
 
-notable_moments:
 celebrity_invites: 
   - Any US President
+take_that_science:
+  - An engineer petitioned the US Government to do a feasibility study on building a Starship Enterprise
 
 last_listen: 2018-09-12
 recommendation: no
@@ -72,7 +73,7 @@ Ben is going to restart the {% work "Game of Thrones" %} videos without Matt.
   <q class="ben">You bet your [bleep]!</q>
 </div>
 
-Take that, Science: an engineer petitioned the US Government to do a feasibility study on building a Starship Enterprise.
+{% takeThatScience take_that_science[0] %}
 
 Gargoyles were for the illiterate, to tell them part of the Story, showing that there is evil outside the church, and to scare people.
 
