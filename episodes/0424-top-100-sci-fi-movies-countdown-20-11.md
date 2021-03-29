@@ -16,9 +16,9 @@ hosts:
   - Ben
   - Matt
 
-last_listen: 2021-03-26
+last_listen: 2021-03-29
 recommendation: yes
-recommendation_reason: The countdown continues
+recommendation_reason: The penultimate episode of the countdown
 ---
 
 <ol start="20" reversed>
@@ -31,5 +31,5 @@ recommendation_reason: The countdown continues
 <li>The Princess Bride
 <li>Terminator 2: Judgment Day
 <li>Star Trek: The Wrath of Khan
-<li>Star Wars: Return of the Jedi
+<li>Return of the Jedi
 </ol>
