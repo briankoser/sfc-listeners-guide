@@ -2,136 +2,78 @@
 layout: episode
 tags:
   - episode
-- a-slew-of-casting-news
-- ben-is-right
-- ben-was-wrong
-- bleeping
-- encouraging-signs
-- matt-is-right
-- questions-for-matt
-- remote
-- sci-fi-christian-story-time
-- stan-lee-quote-of-the-week
-- take-that-science
-- what-the-frodo
 
-title: "Top 10 Things About Star Wars: The Force Awakens"
-number: 428
+title: Top 5 Sci-Fi Fandoms
+number: 427
 season: 5
-podcast_url: http://thescifichristian.com/2015/12/episode-428-top-10-things-about-star-wars-the-force-awakens/
-podcast_file_url: http://thescifichristian.com/sfc/sfc0428.mp3
-date: 2015-12-28
-length: '01:09:27'
-category: review
-series: 
+podcast_url: http://thescifichristian.com/2015/12/episode-427-top-5-sci-fi-fandoms/
+podcast_file_url: http://thescifichristian.com/sfc/sfc0427.mp3
+date: 2015-12-22
+length: '01:55:40'
+category: countdowns
 hosts:
   - Ben
   - Matt
 guests:
-  - 
-alternate_titles:
-  - 
-time_loop_backward: 
-  - number: 
+  - Leeman Kessler
+  - Rachel Kessler
+visit: Geekually Yoked
 
-ben_is_right:
-  - 
-celebrity_invites: 
-  - 
-celebrity_promo: 
 countdowns:
-  myCountdown:
-    title: 
+  bensFandoms:
+    title: Top 5 Sci-Fi Fandoms
     ben:
       list:
-        - 
-      extra:
-        - 
+        - The Lord of the Rings
+        - The Sci-Fi Christian
+        - Heroes Haters
+        - Disney World Haters
+        - <s>Beer</s> Miraculous Saints
+  fandoms:
+    title: Top 5 Sci-Fi Fandoms
     matt: 
       list:
-        - 
+        - Quantum Leap
+        - Sliders
+        - Batman 1966
+        - The Chronicles of Narnia
+        - LOST
       extra:
-        - 
+        - The X-Files
     guests:
-      - name: 
+      - name: Leeman Kessler 
         list:
-          - 
+          - Star Trek/Star Wars
+          - Discworld
+          - Lucasarts adventure games
+          - George R. R. Martin/Lois McMaster Bujold
+          - Podcasts
+      - name: Rachel Kessler 
+        list:
+          - Madeleine L'Engle
+          - Jim Henson
+          - Star Wars
+          - The Whedonverse
+          - C. S. Lewis
         extra:
-          - 
-encouraging_signs:
-  - 
-firsts:
-  - 
-future_episodes:
-  - 
-odd_opening: Singing the title to the Star Wars theme
-prophecy:
-  - host:
-    prediction: 
-    veracity: true
-    comments: 
-questions_for_matt:
-  - 
-quotes:
-  - time: "0:00"
-    context: 
-    lines:
-      - b: 
-      - m: 
-      - benAction: "**"
-      - mattAction: "**"
-      - guest: 
-        quote: 
-rating:
-  ben: 3
-  matt: 5
-ratings:
-  myRating:
-    title: 
-    ben:
-      - title: 
-        score: 
-    matt: 
-      - title: 
-        score: 
-spoilers: 
-  - <i class="work-title"></i>
-sponsors:
-  - 
-stan_lee:
-  - 
-story_time:
-  - time: "0:00"
-    title: 
-take_that:
-  - 
-take_that_science:
-  - 
-visit: 
-what_the_frodo:
-  - 
+          - J. R. R. Tolkien
+          - Terry Pratchett
 
-last_listen: 
-recommendation: essential yes no
-recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.|Any notable feedback is included in the guide.
-archivist_note: 
+last_listen: 2021-04-02
+recommendation: yes
+recommendation_reason: Great guests have a really interesting, rambling discussion
 ---
 
-{% arc %}note{% endarc %}
-{% benIsRight ben_is_right[0] %}
-{% ben "" %}
-{% encouragingSigns encouraging_signs[0] %}
-{% countdown countdowns.myCountdown %}
-{% episodeLink 100 %}
-{% episodeShortLink 100 %}
-{% matt "" %}
-{% questionsForMatt questions_for_matt %}
-{% quote {b:'ben quote'} %}, {% quote {m:'matt quote'} %}, {% quote {guest:'name', quote:'test'} %}
-{% quotes podcast_file_url, quotes[0] %}
-{% ratings ratings.myRating %}
-{% stanLee stan_lee[0] %}
-{% storyTime podcast_file_url, story_time[0] %}
-{% takeThatScience take_that_science[0] %}
-{% work "title" %}
-{% wtf what_the_frodo[0] %}
-[bleep]
+Ben feels left out and makes his list on the fly.
+
+{% countdown countdowns.bensFandoms %}
+
+Matt guested on Geekually Yoked in January 2014.
+
+{% countdown countdowns.fandoms %}
+
+Andrew Reeves (former guest on Geekually Yoked) shared an idea he read from some 14th-century Franciscan monks: anything that a human can imagine is also in the mind of God, and therefore has a certain amount of reality to it.
+
+Leeman recommends starting the Discworld series with {% work "Mort" %}.
+
+Rachel recommends Dorothy Sayers. Start with her book {% work "Letters to a Diminished Church" %}.
