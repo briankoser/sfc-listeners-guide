@@ -148,6 +148,16 @@ layout: baseNavBar
             </ul>
             {% endif %}
 
+            {% if odd_opening %}
+            <h2>Odd Opening</h2>
+            <p>{% timeLink {url:podcast_file_url, t:'0:00'} %} {{odd_opening}}</p>
+            {% endif %}
+
+            {% if rating %}
+            <h2>Rating</h2>
+            {% rating rating %}
+            {% endif %}
+
             {% if celebrity_invites %}
             <h2>Celebrity Invites</h2>
             <ul class="celebrity-invites">
@@ -182,16 +192,6 @@ layout: baseNavBar
                     {% prophecy p %}
                 {% endfor %}
             </div>
-            {% endif %}
-
-            {% if rating %}
-            <h2>Rating</h2>
-            {% rating rating %}
-            {% endif %}
-
-            {% if odd_opening %}
-            <h2>Odd Opening</h2>
-            <p>{% timeLink {url:podcast_file_url, t:'0:00'} %} {{odd_opening}}</p>
             {% endif %}
         </div>
         {% endif %}
