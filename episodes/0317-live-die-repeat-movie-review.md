@@ -16,7 +16,7 @@ hosts:
   - Ben
   - Matt
 guests:
-  - Mikey Fissel
+  - Mikey “Fizz” Fissel
   - Mark Wingerter
 visit: Reel World Theology podcast
 

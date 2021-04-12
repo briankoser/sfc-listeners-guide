@@ -34,8 +34,8 @@ quotes:
       - b: The question is--
       - m: Okay, we're ending this segment.
 what_the_frodo:
-  - LucasFilm announces midnight release for {% work "Star Wars" %} merchandise
-  - Ellen DeGeneres is producing a {% work "Green Eggs and Ham" %} series for Netflix that will be the most expensive high-end animated series ever for TV
+  - LucasFilm announces midnight release for Star Wars merchandise
+  - Ellen DeGeneres is producing a Green Eggs and Ham series for Netflix that will be the most expensive high-end animated series ever for TV
 
 last_listen: 2021-01-25
 recommendation: no

@@ -21,7 +21,7 @@ encouraging_signs:
   - Brian Grazer, producer of Cowboys and Aliens, regrets the "good enough" attitude
   - Ava DuVernay passed on a Black Panther role
 questions_for_matt:
-  - Joss Whedon said he doesn't want to make an "Avengers: Age of Ultron" director's cut. Does he not want to, or is he not allowed to?
+  - "Joss Whedon said he doesn't want to make an Avengers: Age of Ultron director's cut. Does he not want to, or is he not allowed to?"
   - "What's the best way to release a trailer: release at Comic Con and online simultaneously, release at Comic Con and online later, release at Comic Con and not online?"
   - Who would you cosplay as?
 quotes:

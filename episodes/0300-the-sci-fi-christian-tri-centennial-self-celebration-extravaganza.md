@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2014/11/episode-300-the-sci-fi-christi
 podcast_file_url: http://thescifichristian.com/sfc/sfc0300.mp3
 date: 2014-11-09
 length: '01:30:57'
-category: special
+category: countdowns
 series: self-celebration
 hosts:
   - Ben

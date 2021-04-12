@@ -41,7 +41,7 @@ quotes:
     lines:
       - b: I'm not gonna pray for you, Harrison Ford.
   - time: "3:40"
-    lcontext: Questions for Matt theme
+    context: Questions for Matt theme
 
 last_listen: 2021-01-04
 recommendation: no

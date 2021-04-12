@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2015/10/episode-400-the-sci-fi-christi
 podcast_file_url: http://thescifichristian.com/sfc/sfc0400.mp3
 date: 2015-10-07
 length: '01:07:24'
-category: special
+category: conversation
 series: self-celebration
 hosts:
   - Ben

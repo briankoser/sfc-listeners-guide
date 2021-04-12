@@ -18,7 +18,7 @@ hosts:
 
 last_listen: 2021-02-14
 recommendation: essential
-recommendation_reason: 
+recommendation_reason: Wrap-up to the iconic series
 ---
 
 # Overview of Paradiso

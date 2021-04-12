@@ -41,6 +41,7 @@
       {"slug": "theology", "name": "Theology", "description": "Theology without a sci-fi tie-in"}
     ],
     "series": [
+      {"slug": "a-song-of-ice-and-fire", "name": "A Song of Ice and Fire", "description": "George R. R. Martin's unfinished epic"},
       {"slug": "advice", "name": "Advice", "description": "Life advice from Ben, Matt, and the listeners. Usually happens when Matt has a major life event."},
       {"slug": "alternate-readings", "name": "Alternate Readings", "description": "Interpretations that the author didn't intend"},
       {"slug": "annual-books", "name": "Annual Books", "description": "Year in books in review"},

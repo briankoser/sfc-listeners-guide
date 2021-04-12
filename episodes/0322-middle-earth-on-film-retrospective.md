@@ -68,7 +68,7 @@ future_episodes:
   - Narnia film comparison
 
 last_listen: 2020-04-16
-recommendation: essential yes
+recommendation: essential
 recommendation_reason: Final discussion of Peter Jackson's Middle Earth films
 ---
 # Opening
