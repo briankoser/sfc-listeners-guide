@@ -17,19 +17,16 @@ hosts:
 time_loop_forward: 
   number: 435
 
-notable_moments:
 firsts: 
   - Sci-Fi Song of the Week ("Farewell Apollo", <i class="work-title">Battlestar Galactica</i>)
   - Skip Crust mentioned
   - Post-outro easter egg (Matt saying the Numbers from <i class="work-title">LOST</i>)
 future_episodes: 
   - <i class="work-title">Battlestar Galactica</i>
-celebrity_invites: 
 
 last_listen: 2018-01-25
 recommendation: no
-recommendation_reason: Instead watch the highlights on the <a href="https://www.youtube.com/watch?v=qGIErCzLlfI">YouTube video</a>. Ben at least later regrets doing this show in a debate format; both hosts were more focused on winning than on discussion. This doesn't make it a bad episode, but it could have been better.
-archivist_note: 
+recommendation_reason: Would be a better discussion than a debate. Watch the highlights on <a href="https://www.youtube.com/watch?v=qGIErCzLlfI">YouTube</a> instead. 
 ---
 # Opening
 Planning to go to San Diego Comic Con
