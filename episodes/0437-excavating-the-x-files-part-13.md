@@ -39,6 +39,7 @@ countdowns:
 last_listen: 2021-04-16
 recommendation: no
 recommendation_reason: The end of the show's original run
+archivist_note: "Fun fact: this episode got accidentally deleted from the website. SFC IT had to find the URL on Facebook, then get the archived page on Archive.org, then download the MP3 from Hipcast, which the SFC website no longer used for storage."
 ---
 
 {% countdown countdowns.favorite %}
