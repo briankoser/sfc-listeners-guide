@@ -2,6 +2,7 @@
 layout: episode
 tags:
   - episode
+  - koser-sighting
 
 title: More Gilmore and Other News
 number: 406
