@@ -2,24 +2,25 @@
 layout: episode
 tags:
   - episode
-  - a-slew-of-casting-news
-  - ben-is-right
-  - ben-was-wrong
-  - bleeping
-  - encouraging-signs
-  - matt-is-right
-  - questions-for-matt
-  - remote
-  - sci-fi-christian-story-time
-  - stan-lee-quote-of-the-week
-  - take-that-science
-  - what-the-frodo
+- a-slew-of-casting-news
+- ben-is-right
+- ben-was-wrong
+- bleeping
+- encouraging-signs
+- koser-sighting
+- matt-is-right
+- questions-for-matt
+- remote
+- sci-fi-christian-story-time
+- stan-lee-quote-of-the-week
+- take-that-science
+- what-the-frodo
 
 title: 
 number: 
 season: 5
 podcast_url: 
-podcast_file_url: http://thescifichristian.com/sfc/sfc0300.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0400.mp3
 date: 
 length: '00:12:34'
 category: 
@@ -29,6 +30,7 @@ hosts:
   - Matt
 guests:
   - 
+visit: 
 alternate_titles:
   - 
 time_loop_backward: 
@@ -113,7 +115,6 @@ take_that:
   - 
 take_that_science:
   - 
-visit: 
 what_the_frodo:
   - 
 
