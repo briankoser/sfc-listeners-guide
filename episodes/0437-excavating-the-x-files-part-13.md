@@ -8,7 +8,7 @@ number: 437
 season: 5
 podcast_url: http://thescifichristian.com/2016/01/episode-437-excavating-the-x-files-part-13/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0437.mp3
-date: 2021-01-20
+date: 2016-01-20
 length: '00:59:46'
 category: review
 series: excavating-the-x-files
