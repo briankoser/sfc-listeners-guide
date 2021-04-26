@@ -82,6 +82,7 @@
       {"slug": "tolkien", "name": "Tolkien", "description": "Discussion about the books and films set in Middle Earth."},
       {"slug": "tv-show-countdown-2013", "name": "Top 50 Sci-Fi TV Show Countdown (2013)", "description": "The 2013 hiatus countdown"},
       {"slug": "virtual-ethics", "name": "Virtual Ethics", "description": "Ethics in a virtual reality."},
+      {"slug": "worlds-of-neil-gaiman", "name": "The Worlds of Neil Gaiman", "description": "The stories of a podcast-favorite author"},
       {"slug": "year-in-preview", "name": "Year in Preview", "description": "Usually a live reading of the Wikipedia article of upcoming sci-fi movies"}
     ],
     "tags": [

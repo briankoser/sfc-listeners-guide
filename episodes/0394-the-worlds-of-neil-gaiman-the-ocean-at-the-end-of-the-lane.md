@@ -11,6 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0394.mp3
 date: 2015-09-21
 length: '00:42:42'
 category: review
+series: worlds-of-neil-gaiman
 hosts:
   - Ben
   - Matt
