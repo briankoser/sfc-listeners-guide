@@ -8,7 +8,7 @@ number: 433
 season: 5
 podcast_url: http://thescifichristian.com/2016/01/episode-433-aquinas-meets-dante/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0433.mp3
-date: 2016-06-06
+date: 2016-01-06
 length: '00:21:28'
 category: literature
 hosts:
