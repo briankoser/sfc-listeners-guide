@@ -24,7 +24,7 @@ quotes:
       - b: All your scores are inflated by a half point of niceness!
 ratings:
   top25:
-    title: Top 25 Things Experienced
+    title: Top 25 Things Experienced Since Episode 250
     ben:
       - title: Chariot of the Gods
         score: 0
