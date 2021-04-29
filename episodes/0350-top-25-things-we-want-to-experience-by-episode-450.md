@@ -148,7 +148,7 @@ top25:
 
 last_listen: 2021-01-19
 recommendation: no
-recommendation_reason: Skip to episode 449 to see which they liked
+recommendation_reason: Fun to listen when live, but now skip to Episode 449 to see which they liked
 ---
 
 {% quotes podcast_file_url, quotes[0] %}
