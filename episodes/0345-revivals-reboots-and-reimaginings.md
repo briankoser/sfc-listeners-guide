@@ -11,6 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0345.mp3
 date: 2015-04-09
 length: '01:07:44'
 category: countdowns
+series: fandom
 hosts:
   - Ben
   - Matt

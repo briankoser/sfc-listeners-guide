@@ -17,7 +17,7 @@ hosts:
   - Matt
 
 firsts:
-  - CJ appearance
+  - CJ Stunkard appearance
 prophecy:
   - host: Ben
     prediction: Chris Pratt will be cast as Han Solo
@@ -53,4 +53,4 @@ The {% work "Deadwood" %} movie is rumored to be back on.
 # Feedback
 Robin from the UK has listened to every episode and has them all on iTunes. He hopes to get a bigger hard drive before Episode 1000 so he doesn't have to delete family photos to make space.
 
-CJ is a new avid listener.
+CJ Stunkard is a new avid listener.
