@@ -56,3 +56,5 @@ Steven Spielberg and Harrison Ford are reuniting for another Indiana Jones movie
 {% encouragingSigns encouraging_signs[0] %}
 
 {% storyTime podcast_file_url, story_time[0] %}
+
+{% arc %}Rick Lee James finishes the story in {% episodeLink 462 %}{% endarc %}

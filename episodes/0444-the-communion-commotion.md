@@ -11,6 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0444.mp3
 date: 2016-02-24
 length: '01:11:05'
 category: theology
+series: sacraments
 hosts:
   - Ben
   - Matt
