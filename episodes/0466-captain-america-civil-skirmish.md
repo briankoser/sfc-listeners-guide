@@ -73,7 +73,7 @@ rating:
 
 last_listen: 2021-05-18
 recommendation: no
-recommendation_reason: Listen if you're an MCU fan
+recommendation_reason: Listen if you're a fan of the movie
 ---
 
 Ben and Matt's friends Betty and Tony Notto started a podcast, [Weekly Wine Show](https://weeklywineshow.com/). 
