@@ -79,6 +79,9 @@ future_episodes:
   - <i class="work-title">Inception</i> 
   - Biblical dreams
   - Young Adult fiction
+quotes:
+  - time: "1:27:47"
+    context: Matt "plays" the Jurassic Park theme "on the marimba"
 
 last_listen: 2018-04-01
 recommendation: no
@@ -106,7 +109,7 @@ They hug while "Moving On" from {% work "LOST" %} plays
 
 Ben agrees that the final episode of {% work "LOST" %} was perfect. 
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/09/episode-30-top-5-sci-fi-theme-songs/#t=1:28:30">1:28:30</a> Matt "plays" the Jurassic Park theme "on the marimba"
+{% quotes podcast_file_url, quotes[0] %}
 
 
 

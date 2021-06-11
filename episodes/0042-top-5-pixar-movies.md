@@ -33,6 +33,9 @@ countdowns:
         - Monsters, Inc. 
         - Toy Story Trilogy (3,2,1)
         - Up
+quotes:
+  - time: "8:15"
+    context: Matt realizes that movies aren't "streaming free on Netflix" because he is paying for Netflix every month.
 
 last_listen: 2018-04-23
 recommendation: yes
@@ -44,7 +47,7 @@ Daniel claims that he says "and I'm Daniel Butcher!" after the host intros when 
 
 Pixar had to make the water in {% work "Finding Nemo" %} look more animated because it initially looked too real.
 
-<a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/01/episode-42-top-5-pixar-movies/#t=8:15">8:15</a> Matt realizes that movies aren't "streaming free on Netflix" because he is paying for Netflix every month. 
+{% quotes podcast_file_url, quotes[0] %}
 
 <div class="quote">
   <span class="quote-context is-size-6">Matt says he'll have to have Daniel on again to talk about more Disney or whatever else he's into. </span>

@@ -19,10 +19,19 @@ guests:
 time_loop_backward: 
   - number: 27
 
-notable_moments:
+celebrity_promo: C. K. Kubasik
 firsts: 
   - Time Loop
-celebrity_promo: C. K. Kubasik
+quotes:
+  - time: "53:51"
+    context: What is it about moral dilemmas that makes stories intriguing?
+    lines:
+      - guest: C. K. Kubasik
+        quote: It is my belief that these moral dilemmas are what storytelling is about.
+  - time: "58:28"
+    lines:
+      - guest: C. K. Kubasik
+        quote: It's like our soap; we scrub ourselves with stories.
 
 last_listen: 2018-04-30
 recommendation: yes
@@ -37,13 +46,6 @@ He set up the design and cinematography of the show with the internet (different
 
 Great history quick history of television
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/03/episode-46-the-sfc-time-loop-interview-with-c-k-kubasik/#t=53:51">53:51</a>
-  <span class="quote-context is-size-6">What is it about moral dilemmas that makes stories intriguing?</span>
-  <q data-name="C. K. Kubasik">It is my belief that these moral dilemmas are what storytelling is about.</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/03/episode-46-the-sfc-time-loop-interview-with-c-k-kubasik/#t=58:28">58:28</a>
-  <q data-name="C. K. Kubasik">It's like our soap; we scrub ourselves with stories.</q>
-</div>
+{% quotes podcast_file_url, quotes[1] %}

@@ -88,6 +88,25 @@ prophecy:
     prediction: "<i class='work-title'>V</i> just started its second season and will get cancelled soon"
     veracity: true
     comments: ABC cancelled it 4 months later
+quotes:
+  - time: "4:21"
+    lines:
+      - b: Even before I got into ministry, I am a lifelong nerd and completely unapologetic about it.
+      - m: I thought you were going to say, 'lifelong lover of Christ'.
+      - b: ...That too.
+  - time: "9:47"
+    lines:
+      - m: I was surprised by how many people were offended by me saying that Jesus might have been a zombie.
+  - time: "14:40"
+    context: Ben was interested in The Cape until it got bad reviews
+    lines:
+      - b: It has Summer Glau in it. And I love Summer Glau--
+      - m: Yep, she's good.
+      - b: --if you know what I mean. For her acting abilities only, of course.
+  - time: "30:44"
+    context: "On Star Trek: The Motion Picture"
+    lines:
+      - b: I hated hated hated that movie.
 
 last_listen: 2018-01-22
 recommendation: yes-timeloop
@@ -100,12 +119,7 @@ Ben reveals that they have a lifetime contract for the show.
 
 The LOST Report addicted Ben to podcasting.
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:04:21">4:21</a>
-  <q class="ben">Even before I got into ministry, I am a lifelong nerd and completely unapologetic about it.</q>
-  <q class="matt">I thought you were going to say, 'lifelong lover of Christ'.</q>
-  <q class="ben">...That too.</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}
 
 The show won't be strictly sci-fi, it will include all of genre fiction and related topics.
 
@@ -115,10 +129,7 @@ They will have guest hosts over Skype to discuss topics they're not knowledgeabl
 
 They will report news, review movies and TV shows, and discuss philosophy and theology.
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:09:47">9:47</a>
-  <q class="matt">I was surprised by how many people were offended by me saying that Jesus might have been a zombie.</q>
-</div>
+{% quotes podcast_file_url, quotes[1] %}
 
 R2-D2 is the transition sound for everything.
 
@@ -139,13 +150,7 @@ Matt vowed to read {% work "The Hobbit" %} before the movie comes out.
 
 Ben likes superhero movies and TV shows.
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:14:40">14:40</a>
-  <span class="quote-context is-size-6">Ben was interested in {% work "The Cape" %} until it got bad reviews</span>
-  <q class="ben">It has Summer Glau in it. And I love Summer Glau--</q>
-  <q class="matt">Yep, she's good.</q>
-  <q class="ben">--if you know what I mean. For her acting abilities only, of course.</q>
-</div>
+{% quotes podcast_file_url, quotes[2] %}
 
 <div class="review clearfix is-size-4">
   <header>The Event</header>
@@ -223,11 +228,7 @@ Ben calls it "The Crappening".
   <div class="rating matt">&nbsp;</div>
 </div>
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/01/SFChristian101WorldPremiere.mp3#t=00:30:44">30:44</a>
-  <span class="quote-context is-size-6">On {% work "Star Trek: The Motion Picture" %}</span>
-  <q class="ben">I hated hated hated that movie.</q>
-</div>
+{% quotes podcast_file_url, quotes[3] %}
 
 <div class="review clearfix is-size-4">
   <header>Star Trek (2009)</header>

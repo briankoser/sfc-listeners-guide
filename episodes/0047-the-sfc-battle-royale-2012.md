@@ -15,9 +15,12 @@ hosts:
   - Matt
   - Daniel
 
-notable_moments:
 firsts:
   - Max Pfeffer appearance (voicemail)
+quotes:
+  - time: "20:44"
+    lines:
+      - m: Half-marathons are nothing to me these days.
 
 last_listen: 2018-04-30
 recommendation: no
@@ -26,7 +29,4 @@ archivist_note: Daniel is still just a guest host, as far as I can tell.
 ---
 Daniel is upset that {% work "John Carter" %} is doing poorly at the box office.
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/03/episode-47-the-sfc-battle-royale-2012//#t=20:44">20:440</a>
-  <q class="matt">Half-marathons are nothing to me these days.</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}

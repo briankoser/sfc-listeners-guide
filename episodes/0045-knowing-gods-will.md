@@ -18,9 +18,12 @@ guests:
   - Ben
 visit: Epic Life sermon from The Life Report
 
-notable_moments:
 firsts: 
   - Sermon
+quotes:
+  - time: "37:00"
+    lines:
+      - b: If we have any hope of knowing the will of God, it is in a state of compete dependence on God. It is not something we go do, it is not something we go find, it is something that is given to us moment by moment by God's grace.
 
 last_listen: 2018-04-26
 recommendation: yes
@@ -116,10 +119,7 @@ Christian ethics should say we only know good and evil through God.
 
 Finding the will of God is the same mistake.
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/02/episode-45-knowing-gods-will/#t=37:00">37:00</a>
-  <q class="ben">If we have any hope of knowing the will of God, it is in a state of compete dependence on God. It is not something we go do, it is not something we go find, it is something that is given to us moment by moment by God's grace.</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}
 
 John emphasizes the importance of abiding in Christ.
 

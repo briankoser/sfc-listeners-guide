@@ -18,7 +18,8 @@ hosts:
 time_loop_forward: 
   number: 125
 
-notable_moments:
+celebrity_invites:
+  - JJ Abrams
 firsts: 
   - <i class="work-title">X-Files</i> theme for Sci-Fi News (and Main Topic transition)
   - Feedback (from Koby)
@@ -28,10 +29,13 @@ firsts:
 future_episodes: 
   - Nephilim
   - How "Life on earth was started by aliens" is compatible with Christianity
+quotes:
+  - time: "13:11"
+    context: "Regarding Pirates of the Caribbean 3: At World's End"
+    lines:
+      - b: I hated it. I hated it. I hated it.
 take_that:
   - Jimmy Carter
-celebrity_invites:
-  - JJ Abrams
 
 last_listen: 2018-01-23
 recommendation: yes-timeloop
@@ -51,11 +55,7 @@ Ben says "yes sir" a lot and "yeppers" once.
 # News
 {% work "Pirates of the Caribbean 5" %} was announced. {% arc %}Not released until 2017{% endarc %}
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2011/01/episode-102-i-want-to-believe/#t=13:11">13:11</a>
-  <span class="quote-context is-size-6">Regarding {% work "Pirates of the Caribbean 3: At World's End" %}</span>
-  <q class="ben">I hated it. I hated it. I hated it.</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}
 
 <div class="quote">
   <q class="ben">Take that, Jimmy Carter!</q>

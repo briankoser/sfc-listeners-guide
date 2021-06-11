@@ -15,12 +15,17 @@ hosts:
   - Matt
   - Koby
 
-notable_moments:
 firsts: 
   - Rick Lee James feedback
 future_episodes: 
   - Ben's sermon on the Will of God
   - Brady Harden guest host
+quotes:
+  - time: "33:58"
+    context: Matt and Koby discuss how easy it is to podcast
+    lines:
+      - m: You're proving right now how it's not easy.
+      - koby: I'm proving right now it's super easy. It's so easy, people. If you ever want to do this, seriously. I'm texting right now, at this very moment.
 
 last_listen: 2018-04-25
 recommendation: no
@@ -55,11 +60,6 @@ Koby doesn't like the name "time loop".
 
 Koby said {% work "Firefly" %} can't be a good show because it got low ratings and was cancelled.
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/02/episode-44-sci-fi-feedback/#t=33:58">33:58</a>
-  <span class="quote-context is-size-6">Matt and Koby discuss how easy it is to podcast</span>
-  <q class="matt">You're proving right now how it's not easy.</q>
-  <q class="koby">I'm proving right now it's super easy. It's so easy, people. If you ever want to do this, seriously. I'm texting right now, at this very moment.</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}
 
 Koby wants to co-host again.

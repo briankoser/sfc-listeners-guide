@@ -43,6 +43,11 @@ future_episodes:
 firsts: 
   - Daniel Butcher appearance
   - Matt says the episode title before the music
+quotes:
+  - time: "20:02"
+    context: On the Pirates of the Caribbean ride at Disney World
+    lines:
+      - m: I don't think I've heard of the wife auction. Is that something they let the visitors participate in?
 
 last_listen: 2018-04-23
 recommendation: yes
@@ -60,10 +65,6 @@ If {% work "Snow White" %} had failed, Disney would likely have gone out of busi
 
 "Feed the Birds" was Walt Disney's favorite song.
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/01/episode-41-top-5-disney-movies/#t=20:02">20:02</a>
-  <span class="quote-context is-size-6">On the Pirates of the Caribbean ride at Disney World</span>
-  <q class="matt">I don't think I've heard of the wife auction. Is that something they let the visitors participate in?</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}
 
 {% work "Treasure Island" %} was the first Disney live-action film.

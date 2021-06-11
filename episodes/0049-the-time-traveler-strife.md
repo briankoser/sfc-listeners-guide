@@ -18,9 +18,11 @@ hosts:
 guests:
   - Ben
 
-notable_moments:
 firsts:
   - Post-outro episode title discussion
+future_episodes: 
+  - Skip Crust
+  - Conspiracy episodes
 prophecy:
   - host: Matt
     prediction: Time travel will be invented.
@@ -28,10 +30,33 @@ prophecy:
     prediction: Time travel will not be invented.
   - host: Koby
     prediction: Time travel will not be invented.
-future_episodes: 
-  - Skip Crust
-  - Conspiracy episodes
-celebrity_invites: 
+quotes:
+  - time: "3:49"
+    lines:
+      - m: "Koby: back years ago, I remember you first heard about open theism, and you got so mad. Tell me why."
+      - koby: I just don't like it.
+      - m: I'm so glad that you're on the show today.
+      - daniel: That's the sort of in-depth analysis that you're not going to find on a lot of other podcasts out there in the Christian sector.
+  - time: "46:36"
+    lines:
+      - m: Let's say that in ten years I time travel for the first time.
+      - koby: I doubt it.
+      - m: Back to 1992.
+      - koby: Why would you be the first one?
+  - time: "58:34"
+    lines:
+      - daniel: Would you like to change history there, Koby?
+      - koby: I don't know why I'm apparently the villain right now. I don't get it.
+      - m: Are you the villain?
+      - daniel: You're not the villain.
+      - koby: I want to be a villain some day.
+      - m: Is that actually what you want to do for your life?
+      - koby: No, it's not....well, maybe. But, as a youth pastor I can't say that. So no. Nope. I always want to be a good guy. *slurp*
+      - m: Are you seriously drinking that into the microphone? Oh, Koby.
+  - time: "1:18:39"
+    context: Matt asks if Daniel or Koby has read Slaughterhouse-Five
+    lines:
+      - koby: I don't read books.
 
 last_listen: 2018-05-03
 recommendation: yes
@@ -48,14 +73,7 @@ Is time travel compatible with Christianity?
 
 Koby doesn't like N. T. Wright
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=3:49">3:49</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="matt">Koby: back years ago, I remember you first heard about open theism, and you got so mad. Tell me why.</q>
-  <q class="koby">I just don't like it.</q>
-  <q class="matt">I'm so glad that you're on the show today.</q>
-  <q class="daniel">That's the sort of in-depth analysis that you're not going to find on a lot of other podcasts out there in the Christian sector.</q>
-</div>
+{% quotes podcast_file_url, quotes[0] %}
 
 Could you interfere with God's plan by time travelling? {% arc %}Can you interfere with God's plan without time travelling?{% endarc %}
 
@@ -93,14 +111,7 @@ Matt's theory on time travel is "whatever happened, happened": all time happens 
 Not a Scrooge scenario where it's observation only. 
 {% arc %}Maybe the best way to explain this view would be to say: all of time happens/happened/is happening at once. We think the present is special because we're here, the past is set, and the future has not happened yet, but in this theory there's no difference between the three.{% endarc %}
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=46:36">46:36</a>
-  <span class="quote-context is-size-6"></span>
-  <q class="matt">Let's say that in ten years I time travel for the first time.</q>
-  <q class="koby">I doubt it.</q>
-  <q class="matt">Back to 1992.</q>
-  <q class="koby">Why would you be the first one?</q>
-</div>
+{% quotes podcast_file_url, quotes[1] %}
 
 When the prophets had a vision, were they time travelling? 
 
@@ -113,17 +124,7 @@ Koby thinks {% work "Doctor Who" %} is completely ridiculous and really dumb.
 
 [Philippians 3:13](https://www.biblegateway.com/passage/?search=Philippians+3%3A13&version=ESV): God doesn't want us to meddle with the past through time travel
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=58:34">58:34</a>
-  <q class="daniel">Would you like to change history there, Koby?</q>
-  <q class="koby">I don't know why I'm apparently the villain right now. I don't get it.</q>
-  <q class="matt">Are you the villain?</q>
-  <q class="daniel">You're not the villain.</q>
-  <q class="koby">I want to be a villain some day.</q>
-  <q class="matt">Is that actually what you want to do for your life?</q>
-  <q class="koby">No, it's not....well, maybe. But, as a youth pastor I can't say that. So no. Nope. I always want to be a good guy. *slurp*</q>
-  <q class="matt">Are you seriously drinking that into the microphone? Oh, Koby.</q>
-</div>
+{% quotes podcast_file_url, quotes[2] %}
 
 Matt says time travel is compatible with Christianity, Koby says it's not
 
@@ -137,8 +138,4 @@ Paul says the end times are now, and that God has made the future come into the 
 
 The last 6 minutes of the show are the hosts trying to come up with episode title. {% arc %}Should have gone with "Quantum Leap of Faith" or "God's Excellent Adventure".{% endarc %}
 
-<div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/04/episode-49-the-time-traveler-strife/#t=1:18:39">1:18:39</a>
-  <span class="quote-context is-size-6">Matt asks if Daniel or Koby has read Slaughterhouse-Five</span>
-  <q class="koby">I don't read books.</q>
-</div>
+{% quotes podcast_file_url, quotes[3] %}
