@@ -36,7 +36,35 @@ module.exports = function(eleventyConfig) {
       acc[key].push(episode)
       return acc
     }, {})
-  }
+  };
+
+  let episodeLengthSumReduce = function (accumulator, current) {
+    return accumulator + lengthToSeconds(current.data.length);
+  };
+
+  let lengthToSeconds = function (length) {
+    let pieces = length.split(':');
+    let hours = parseInt(pieces[0]);
+    let minutes = parseInt(pieces[1]);
+    let seconds = parseInt(pieces[2]);
+    return (hours * 3600) + (minutes * 60) + seconds;
+  };
+
+  let secondsToDisplayLength = function (totalSeconds) {
+    totalSeconds = Math.floor(totalSeconds);
+    let seconds = totalSeconds % 60;
+    let minutes = Math.floor(totalSeconds / 60) % 60;
+    let hours = Math.floor(totalSeconds / 3600);
+    let secondsDisplay = seconds.toString().padStart(2, '0');
+    let minutesDisplay = minutes.toString().padStart(2, '0');
+    
+    if (hours > 0) {
+      return `${hours}:${minutesDisplay}:${secondsDisplay}`;  
+    }
+    else {
+      return `${minutes}:${secondsDisplay}`;  
+    }
+  };
 
 
 
@@ -61,6 +89,16 @@ module.exports = function(eleventyConfig) {
   /*
       filters
   */
+  eleventyConfig.addFilter('averageEpisodeLength', (episodes, seasonNumber) => {
+    let seasonEpisodes = episodes.filter(e => e.data.season == seasonNumber);
+    let average = 0;
+    if (seasonEpisodes.length > 0) {
+      let sum = seasonEpisodes.reduce(episodeLengthSumReduce, 0);
+      average = sum / seasonEpisodes.length;
+    }
+    return secondsToDisplayLength(average);
+  });
+
   eleventyConfig.addFilter('categoryFilter', (episodes, category) => category ? episodes.filter(e => e.data.category == category) : episodes);
   eleventyConfig.addFilter("categoryDescription", slug => (metadata.categories.find(s => s.slug === slug) || {}).description || '');
   eleventyConfig.addFilter("categoryName", slug => (metadata.categories.find(s => s.slug === slug) || {}).name || slug);
