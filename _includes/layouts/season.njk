@@ -46,6 +46,18 @@ layout: baseNavBar
                     <p class="title">{{timeloops}}</p>
                 </div>
             </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Total Time</p>
+                    <p class="title">{{ collections.episodes | totalEpisodeLength(seasonNumber) }}</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="heading">Average Episode Length</p>
+                    <p class="title">{{ collections.episodes | averageEpisodeLength(seasonNumber) }}</p>
+                </div>
+            </div>
         </div>
     </div> 
 </section>

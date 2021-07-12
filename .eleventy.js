@@ -89,16 +89,6 @@ module.exports = function(eleventyConfig) {
   /*
       filters
   */
-  eleventyConfig.addFilter('averageEpisodeLength', (episodes, seasonNumber) => {
-    let seasonEpisodes = episodes.filter(e => e.data.season == seasonNumber);
-    let average = 0;
-    if (seasonEpisodes.length > 0) {
-      let sum = seasonEpisodes.reduce(episodeLengthSumReduce, 0);
-      average = sum / seasonEpisodes.length;
-    }
-    return secondsToDisplayLength(average);
-  });
-
   eleventyConfig.addFilter('categoryFilter', (episodes, category) => category ? episodes.filter(e => e.data.category == category) : episodes);
   eleventyConfig.addFilter("categoryDescription", slug => (metadata.categories.find(s => s.slug === slug) || {}).description || '');
   eleventyConfig.addFilter("categoryName", slug => (metadata.categories.find(s => s.slug === slug) || {}).name || slug);
@@ -113,6 +103,28 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("seriesName", slug => (metadata.series.find(s => s.slug === slug) || {}).name || slug);
   eleventyConfig.addFilter("today", option => option === "year" ? new Date().getFullYear() : new Date());
   eleventyConfig.addFilter("weakness", shortName => metadata.hosts.find(host => host.shortName === shortName).weakness);
+
+
+
+  /*
+      stat filters
+  */
+  eleventyConfig.addFilter('averageEpisodeLength', (episodes, seasonNumber) => {
+    let seasonEpisodes = episodes.filter(e => e.data.season == seasonNumber);
+    let average = 0;
+    if (seasonEpisodes.length > 0) {
+      let sum = seasonEpisodes.reduce(episodeLengthSumReduce, 0);
+      average = sum / seasonEpisodes.length;
+    }
+    return secondsToDisplayLength(average);
+  });
+  
+  eleventyConfig.addFilter('totalEpisodeLength', (episodes, seasonNumber) => {
+    let seasonEpisodes = episodes.filter(e => e.data.season == seasonNumber);
+    let total = seasonEpisodes.reduce(episodeLengthSumReduce, 0);
+    
+    return secondsToDisplayLength(total);
+  });
 
 
 
