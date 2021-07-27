@@ -23,6 +23,7 @@ rating:
 
 last_listen: 2021-07-27
 recommendation: no
-recommendation_reason: 
+recommendation_reason: As always with old reviews, listen if you're interested in discussion on that movie
 ---
 
+Matt doesn't like the movie, but he recommends it since other people like it.
