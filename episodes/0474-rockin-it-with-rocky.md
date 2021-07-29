@@ -31,7 +31,7 @@ rating:
 
 last_listen: 2021-07-21
 recommendation: yes
-recommendation_reason: Great movies series, great podcast series
+recommendation_reason: Great movie series, great podcast series
 ---
 
 [Video](https://www.youtube.com/watch?v=-O0PcBJ3cqo)
