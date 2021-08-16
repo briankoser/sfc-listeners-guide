@@ -12,11 +12,10 @@ date: 2012-01-15
 length: '03:03:50'
 category: clip-show
 hosts:
-  - Matt
-guests: 
   - Ben
+  - Matt
 
-last_listen: 
+last_listen: 2018-04-20
 recommendation: yes
 recommendation_reason: If you want the 1-hour Season 1 overview, listen to № 39. If you want the 3-hour version, listen to № 40.
 archivist_note: Great selection of Season 1 clips.

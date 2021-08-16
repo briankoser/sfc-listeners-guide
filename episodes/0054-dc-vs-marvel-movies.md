@@ -12,11 +12,10 @@ date: 2012-05-03
 length: '00:34:18'
 category: main-topic
 hosts:
+  - Ben
   - Matt
   - Daniel
   - Koby
-guest:
-  - Ben
 
 notable_moments:
 

@@ -14,6 +14,7 @@ category: review
 series: superhero-spotlight
 hosts:
   - Ben
+  - Matt
   - Daniel
 guests:
   - Ben Avery

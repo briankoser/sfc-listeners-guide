@@ -14,6 +14,8 @@ category: review
 hosts:
   - Ben
   - Matt
+guests:
+  - Sam Fredin
 
 future_episodes:
   - Citizen Kane

@@ -12,10 +12,9 @@ date: 2013-01-29
 length: '00:22:34'
 category: announcement
 hosts:
-  - Matt
- 
-guests:
   - Ben
+  - Matt
+guests:
   - Daniel
   - Koby
 

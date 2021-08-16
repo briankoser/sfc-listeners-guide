@@ -15,7 +15,7 @@ hosts:
   - Ben
   - Matt
 guests:
-  - Sam
+  - Sam Fredin
 
 countdowns:
   good:
