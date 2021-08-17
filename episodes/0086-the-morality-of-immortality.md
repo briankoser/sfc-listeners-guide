@@ -25,7 +25,6 @@ recommendation: yes
 recommendation_reason: Great discussion about the moral implications of an immortal society. Also quite funny.
 ---
 # Opening
-1:13 voices in my head 
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-86-the-morality-of-immortality#t=1:10">1:10</a>
   <span class="quote-context is-size-6">Matt tries to gin up voters for The Podcast Awards</span>
@@ -45,7 +44,6 @@ The Sci-Fi Feud...continues?
   <q class="ben">Who knows? I certainly won't.</q>
 </div>
 
-10:14 catholic words, great strategy
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/10/episode-86-the-morality-of-immortality#t=10:07">10:07</a>
   <span class="quote-context is-size-6">Matt says Ben will never preach again.</span>

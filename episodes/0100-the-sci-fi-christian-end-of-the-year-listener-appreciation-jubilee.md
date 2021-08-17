@@ -207,7 +207,6 @@ Matt says 2013 will be the Year of the Guest Host.
 
 Francisco Ruiz does the second Reject or Resurrect on The Fifth Element. It's a resurrect.
 
-56:19 perfect again, worst episode
 <div class="quote">
   <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/12/episode-100-the-sci-fi-christian-end-of-the-year-listener-appreciation-jubilee/#t=00:56:08">56:08</a>
   <q class="matt">Alright, who's up for the next opening?</q>
