@@ -83,7 +83,7 @@ Matt was mildly disappointed on the first view of the movie, liked it better on 
 </div>
 
 <div class="quote">
-  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=52:34">53:34</a>
+  <a class="timestamp tag is-medium is-rounded is-primary" href="http://thescifichristian.com/2012/08/episode-78-the-dark-knight-revisited/#t=53:34">53:34</a>
   <span class="quote-context is-size-6">Ben has more free time, so he might start appearing on the podcast again. Matt says he won't welcome Ben back with open arms; his new co-hosts have been dedicated.</span>
   <q class="ben">But it's not the genius spark that you and I have. Koby gets up to go to the bathroom all the time! He's got the weakest bladder in the world!</q>
   <q class="matt">He continues to receive text messages after numerous warnings.</q>
