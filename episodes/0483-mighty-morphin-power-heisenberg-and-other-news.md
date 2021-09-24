@@ -22,7 +22,7 @@ quotes:
     lines:
       - m: Does his involvement at all increase your interest in this movie?
       - b: No. No! Why would it? If they made a movie called 'Watching Grass Grow' with Bryan Cranston, I wouldn't watch it.
-      - b: What if it was getting good reviews?
+      - m: What if it was getting good reviews?
 
 last_listen: 2021-09-23
 recommendation: no
