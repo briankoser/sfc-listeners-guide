@@ -61,7 +61,7 @@ Matt says the pope is chosen by all Catholics in a process similar to {% work "A
   <span class="quote-context is-size-6">Matt picks a candidate for pope</span>
   <q class="matt">I'm pro-Africa and Latin America, but I'm just going to say here on the podcast, I'm going with the USA.</q>
   <q class="ben">You're pullin' for Dolan?</q>
-  <q class="ben">I'm pullin' for Dolan!</q>
+  <q class="matt">I'm pullin' for Dolan!</q>
 </div>
 
 <div class="quote">

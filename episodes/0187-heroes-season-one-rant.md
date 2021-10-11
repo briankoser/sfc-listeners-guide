@@ -22,10 +22,10 @@ countdowns:
     title: Top 5 Heroes Episodes
     ben:
       list:
-        - &nbsp;
-        - &nbsp;
-        - &nbsp;
-        - &nbsp;
+        - " "
+        - " "
+        - " "
+        - " "
         - Homecoming
     matt: 
       list:

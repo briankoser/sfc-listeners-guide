@@ -19,15 +19,6 @@ guests:
   - Mike Poteet
   - Ben Avery
 
-notable_moments:
-intoDarknessRating:
-  ben: 5
-  matt: 5
-  koby: "4.7"
-  guests:
-    - guest: Rich Kumarcy
-      score: 5
-
 last_listen: 2018-12-31
 recommendation: no
 recommendation_reason: In spite of the length, fairly shallow discussion. This many hosts doesn't work. 
@@ -47,4 +38,7 @@ Why should Star Trek matter to Christians?
 
 
 # Star Trek Into Darkness review
-{% rating intoDarknessRating %}
+- Ben: 5
+- Matt: 5
+- Koby: 4.7
+- Rich Kumarcy: 5

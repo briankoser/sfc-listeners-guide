@@ -63,7 +63,7 @@ Ben is going to restart the {% work "Game of Thrones" %} videos without Matt.
   <span class="quote-context is-size-6">Matt thinks {% work "X-Men: Days of Future Past" %} is trying to bring all the X-Men film characters together to emulate {% work "The Avengers" %}</span>
   <q class="ben">I think it's a true theory. I endorse it.</q>
   <q class="matt">Thank you.</q>
-  <q class="matt">We'll call it, 'The Ben de Bono Theory'.</q>
+  <q class="ben">We'll call it, 'The Ben de Bono Theory'.</q>
 </div>
 
 <div class="quote">

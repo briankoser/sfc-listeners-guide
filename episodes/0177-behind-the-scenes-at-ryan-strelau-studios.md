@@ -43,7 +43,7 @@ Des's favorite sci-fi character is Harry Potter. Ben's favorite is Samwise Gamge
 Matt puts his mic on the altar at the Catholic Church.
 
 <div class="quote">
-  {% timeLink {url:podcast_file_url, t:'25:40'} %}
+  {% timeLink {url:podcast_file_url, t:'25:30'} %}
   <span class="quote-context is-size-6">Matt paid Ben to come over late at night to fix his mixer and it started working by itself</span>
   <q class="ben">OK. *taps on the mic* It's working.</q>
   <q class="matt">No, I swear! I swear it wasn't working! I swear! I swear! I swear!</q>
