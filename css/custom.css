@@ -684,7 +684,7 @@ q.archivist::before {
 }
 
 .top-five .archivist a {
-    color: var(--color-black);   
+    color: var(--color-primary);   
 }
 
 .top-five .archivist a:hover {
