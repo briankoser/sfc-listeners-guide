@@ -8,7 +8,7 @@ number: 209
 season: 3
 podcast_url: http://thescifichristian.com/2013/11/episode-209-dissecting-doctor-who/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0209.mp3
-date: 2013-09-28
+date: 2013-11-28
 length: '01:27:45'
 category: review
 hosts:

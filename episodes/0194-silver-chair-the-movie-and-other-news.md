@@ -32,8 +32,6 @@ future_episodes:
   - Doctrines my church believes that I don't
 odd_opening: Ben is laughing in the middle of the music because Matt forgot to start recording. 
 prophecy:
-  - {"host": "Ben", "prediction": "<i class='work-title'>The Silver Chair</i> will be released in 2016", "veracity": false, "comments": "It's been in development hell for years. Netflix recently bought the rights to all seven books, so that's probably when we'll see this adaptation."}
-  - {"host": "Matt", "prediction": "<i class='work-title'>The Silver Chair</i> will be released in 2016", "veracity": false, "comments": ""}
   - host: Ben
     prediction: "<i class='work-title'>The Silver Chair</i> will be released in 2016"
     veracity: false
@@ -60,7 +58,7 @@ For Season 4, Matt wants to to record 3 episodes a week: news, main topic, and r
 
 
 # News
-{% work "The Silver Chair" %} is coming {% arc %}False{% endarc %}
+{% work "The Silver Chair" %} is coming
 
 George Lucas is on the phone with JJ Abrams almost every day. 
 

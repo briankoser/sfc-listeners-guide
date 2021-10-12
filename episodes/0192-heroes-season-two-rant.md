@@ -106,7 +106,6 @@ A scene in the finale made Ben laugh.
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'1:23'} %}
   <q class="ben">I'm surprised this show didn't keep going with the writer's strike. It seems like, y'know—it's not like there was any writing going on anyway.</q>
-  <q class="matt"></q>
 </div>
 
 <div class="quote">
