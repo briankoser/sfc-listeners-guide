@@ -22,7 +22,6 @@ notable_moments:
 last_listen: 2019-09-09
 recommendation: yes
 recommendation_reason: Neat conversation about ghosts. 
-archivist_note: Unfortunately, according to Goodreads Clay never published his book
 ---
 # Opening
 Another part of the Crossover Nexus event. 
