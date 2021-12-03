@@ -37,7 +37,6 @@ Similarities to the Intelligent Design theory
 
 How did ancient humans build the megaliths?
 
-11:10 oh no, I thought this was going to be interesting
 <div class="quote">
   {% timeLink {url:podcast_file_url, t:'11:10'} %}
   <q class="ben">This episode's going along swimmingly. Let's just get through this, everyone.</q>

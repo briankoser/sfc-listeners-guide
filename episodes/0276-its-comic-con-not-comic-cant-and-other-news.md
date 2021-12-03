@@ -41,7 +41,7 @@ Edgar Wright is making a movie based on {% work "Grasshopper Jungle" %}, a YA no
   {% timeLink {url:podcast_file_url, t:'31:35'} %}
   <span class="quote-context is-size-6">{% work "Agent Carter" %} will feature Jarvis, Iron Man's dad's butler</span>
   <q class="matt">Kind of interesting to see a human Jarvis that was the inspiration for AI Jarvis.</q>
-  <q class="ben">Man, if that doesn't get you pyched for getting to see a real butler. What else could they do to hype this up?</q>
+  <q class="ben">Man, if that doesn't get you psyched for getting to see a real butler. What else could they do to hype this up?</q>
 </div>
 
 {% countdown countdowns.trinity %}

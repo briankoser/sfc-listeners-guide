@@ -20,7 +20,6 @@ notable_moments:
 last_listen: 2019-09-20
 recommendation: yes
 recommendation_reason: Interesting discussion of The Stand and King's oeuvre in general
-archivist_note: made a plan for the project, read it 
 ---
 After three years, {% work "The Stand" %} readalong is complete.
 
@@ -28,7 +27,7 @@ Ben read the book in three days in high school.
 
 Stephen King wrote {% work "The Stand" %} as an American fantasy epic, like {% work "The Lord of the Rings" %}.
 
-Stephen King got his worst writer's block during the writing. He didn't quit only because he was already two-thirds through the book.
+Stephen King got his worst case of writer's block during the writing. He didn't quit only because he was already two-thirds through the book.
 
 Ben's off-the-top-of-the-head recommended Dark Tower reading list:
 - The Dark Tower series

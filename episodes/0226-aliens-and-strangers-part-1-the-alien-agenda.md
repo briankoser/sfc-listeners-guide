@@ -21,7 +21,8 @@ guests:
   - Steve MacDonald
 visit: Strangers and Aliens podcast
 
-notable_moments:
+alternate_titles:
+  - Goodbye Koby
 
 last_listen: 2019-09-10
 recommendation: no

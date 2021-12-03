@@ -47,7 +47,7 @@ countdowns:
         - Parenting advice from sci-fi characters 
         - Babylon 5
   badTopics:
-    title: 
+    title: Top 5 Bad Topics For Us
     ben:
       list:
         - Everything that is great about Warehouse 13

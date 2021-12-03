@@ -62,7 +62,7 @@ countdowns:
         - Michael Crichton
         - Roger Zelazny
         - George Orwell
-        - J. K.
+        - J. K. Rowling
         - Philip Pullman
         - Suzanne Collins
         - Seth Grahame-Smith

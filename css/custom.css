@@ -628,10 +628,6 @@ q.archivist::before {
     color: var(--color-blue);
 }
 
-.listeners {
-    color: var(--color-medium-grey);
-}
-
 .matt,
 .roger {
     color: var(--color-orange);
