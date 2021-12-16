@@ -5,7 +5,7 @@ tags:
 
 title: The 2001 Movie Review
 number: 486
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-486-the-2001-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0486.mp3
 date: 2016-07-12

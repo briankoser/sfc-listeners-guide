@@ -5,7 +5,7 @@ tags:
 
 title: Squirrel Girl Casting and Other News
 number: 485
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-485-squirrel-girl-casting-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0485.mp3
 date: 2016-07-10

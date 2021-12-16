@@ -5,7 +5,7 @@ tags:
 
 title: Marvel’s Least Wanted and Other News
 number: 468
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/05/episode-468-marvels-least-wanted-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0468.mp3
 date: 2016-05-23

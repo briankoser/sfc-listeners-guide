@@ -6,7 +6,7 @@ tags:
 
 title: The Sci-Fi Christian Quint-Centennial Self-Celebration Extravaganza
 number: 500
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-500-the-sci-fi-christian-quint-centennial-self-celebration-extravaganza/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0500.mp3
 date: 2016-09-08

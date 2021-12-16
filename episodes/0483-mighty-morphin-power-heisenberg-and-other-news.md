@@ -5,7 +5,7 @@ tags:
 
 title: Mighty Morphin Power Heisenberg and Other News
 number: 483
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-483-mighty-morphin-power-heisenberg-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0483.mp3
 date: 2016-07-05

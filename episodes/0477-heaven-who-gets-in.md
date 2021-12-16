@@ -5,7 +5,7 @@ tags:
 
 title: "Heaven: Who Gets In?"
 number: 477
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-477-heaven-who-gets-in/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0477.mp3
 date: 2016-06-17

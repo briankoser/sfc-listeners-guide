@@ -6,7 +6,7 @@ tags:
 
 title: The Return of Double Dare and Other News
 number: 487
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-487-the-return-of-double-dare-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0487.mp3
 date: 2016-07-15

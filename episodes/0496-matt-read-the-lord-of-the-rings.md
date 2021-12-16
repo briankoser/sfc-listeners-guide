@@ -5,7 +5,7 @@ tags:
 
 title: Matt Read The Lord of the Rings
 number: 496
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/08/episode-496-matt-read-the-lord-of-the-rings/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0496.mp3
 date: 2016-08-26

@@ -6,7 +6,7 @@ tags:
 
 title: Top 100 Countdown Feedback
 number: 455
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/03/episode-455-top-100-countdown-feedback/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0455.mp3
 date: 2016-03-31

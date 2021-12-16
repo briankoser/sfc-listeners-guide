@@ -17,7 +17,7 @@ tags:
 
 title: "The SFC Time Loop: Mythology vs. Allegory"
 number: 435
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/01/episode-435-the-sfc-time-loop-mythology-vs-allegory/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0435.mp3
 date: 2016-01-10

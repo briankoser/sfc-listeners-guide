@@ -6,7 +6,7 @@ tags:
 
 title: Joss Whedon Strikes Again and Other News
 number: 472
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/05/episode-472-joss-whedon-strikes-again-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0472.mp3
 date: 2016-05-31

@@ -5,7 +5,7 @@ tags:
 
 title: Top 25 Things We’ve Experienced Since Episode 350
 number: 449
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/03/episode-449-top-25-things-weve-experienced-since-episode-350/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0449.mp3
 date: 2016-03-13

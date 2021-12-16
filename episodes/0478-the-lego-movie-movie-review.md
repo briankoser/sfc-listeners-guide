@@ -5,7 +5,7 @@ tags:
 
 title: The Lego Movie Movie Review
 number: 478
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-478-the-lego-movie-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0478.mp3
 date: 2016-06-19

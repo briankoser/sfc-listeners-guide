@@ -5,7 +5,7 @@ tags:
 
 title: "The Highway to Hell: Paradise Lost – Book II"
 number: 471
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/05/episode-471-the-highway-to-hell-paradise-lost-book-ii/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0471.mp3
 date: 2016-05-29

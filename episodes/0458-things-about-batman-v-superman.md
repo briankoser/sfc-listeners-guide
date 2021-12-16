@@ -6,7 +6,7 @@ tags:
 
 title: Things About Batman v Superman
 number: 458
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/04/episode-458-things-about-batman-v-superman/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0458.mp3
 date: 2016-04-14

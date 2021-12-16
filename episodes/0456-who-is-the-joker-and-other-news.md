@@ -5,7 +5,7 @@ tags:
 
 title: Who is the Joker?…and Other News
 number: 456
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/04/episode-456-who-is-the-joker-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0456.mp3
 date: 2016-04-01

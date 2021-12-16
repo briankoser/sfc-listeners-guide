@@ -5,7 +5,7 @@ tags:
 
 title: "When Adam Met Eve: Paradise Lost – Book VIII"
 number: 505
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-505-when-adam-met-eve-paradise-lost-book-viii/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0505.mp3
 date: 2016-09-28

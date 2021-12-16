@@ -5,7 +5,7 @@ tags:
 
 title: What is The Criterion Collection?
 number: 488
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-488-what-is-the-criterion-collection/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0488.mp3
 date: 2016-07-18

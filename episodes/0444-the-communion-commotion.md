@@ -5,7 +5,7 @@ tags:
 
 title: The Communion Commotion
 number: 444
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/02/episode-444-the-communion-commotion/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0444.mp3
 date: 2016-02-24

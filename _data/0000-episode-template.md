@@ -18,9 +18,9 @@ tags:
 
 title: 
 number: 
-season: 5
+season: 6
 podcast_url: 
-podcast_file_url: http://thescifichristian.com/sfc/sfc0400.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc0500.mp3
 date: 
 length: '00:12:34'
 category: 

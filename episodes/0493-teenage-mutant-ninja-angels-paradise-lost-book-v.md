@@ -5,7 +5,7 @@ tags:
 
 title: "Teenage Mutant Ninja Angels: Paradise Lost – Book V"
 number: 493
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/08/episode-493-teenage-mutant-ninja-angels-paradise-lost-book-v/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0493.mp3
 date: 2016-08-06

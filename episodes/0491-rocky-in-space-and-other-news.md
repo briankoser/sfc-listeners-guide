@@ -5,7 +5,7 @@ tags:
 
 title: Rocky in Space and Other News
 number: 491
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/08/episode-491-rocky-in-space-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0491.mp3
 date: 2016-08-01

@@ -5,7 +5,7 @@ tags:
 
 title: Rockin’ It With Rocky
 number: 474
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-474-rockin-it-with-rocky/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0474.mp3
 date: 2016-06-06

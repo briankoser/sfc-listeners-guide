@@ -6,7 +6,7 @@ tags:
 
 title: Anthony Hopkins Hops Into the Transformers Universe and Other News
 number: 476
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-476-anthony-hopkins-hops-into-the-transformers-universe-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0476.mp3
 date: 2016-06-13

@@ -5,7 +5,7 @@ tags:
 
 title: "The SFC Time Loop: Messianic Moments in The Lord of the Rings"
 number: 497
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-497-the-sfc-time-loop-messianic-moments-in-the-lord-of-the-rings/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0497.mp3
 date: 2016-09-01

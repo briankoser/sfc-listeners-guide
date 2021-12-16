@@ -5,7 +5,7 @@ tags:
 
 title: Top 5 Ways We’ve Changed in 5 Years
 number: 436
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/01/episode-436-top-5-ways-weve-changed-in-5-years/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0436.mp3
 date: 2016-01-11

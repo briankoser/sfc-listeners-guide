@@ -5,7 +5,7 @@ tags:
 
 title: "The War in Heaven: Paradise Lost – Book VI"
 number: 498
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-498-the-war-in-heaven-paradise-lost-book-vi/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0498.mp3
 date: 2016-09-03

@@ -6,7 +6,7 @@ tags:
 
 title: Staying Classy with the Classics
 number: 442
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/02/episode-442-staying-classy-with-the-classics/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0442.mp3
 date: 2016-02-17

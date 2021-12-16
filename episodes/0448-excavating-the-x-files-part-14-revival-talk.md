@@ -5,7 +5,7 @@ tags:
 
 title: "Excavating the X-Files: Part 14 – Revival Talk"
 number: 448
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/03/episode-448-excavating-the-x-files-part-14-revival-talk/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0448.mp3
 date: 2016-03-11

@@ -5,7 +5,7 @@ tags:
 
 title: The Martian Movie Review
 number: 434
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/01/episode-434-the-martian-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0434.mp3
 date: 2016-01-08

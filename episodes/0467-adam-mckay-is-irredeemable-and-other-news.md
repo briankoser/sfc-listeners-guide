@@ -5,7 +5,7 @@ tags:
 
 title: Adam McKay is Irredeemable and Other News
 number: 467
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/05/episode-467-adam-mckay-is-irredeemable-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0467.mp3
 date: 2016-05-12

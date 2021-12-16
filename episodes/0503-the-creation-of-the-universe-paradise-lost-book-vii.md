@@ -5,7 +5,7 @@ tags:
 
 title: "The Creation of the Universe: Paradise Lost – Book VII"
 number: 503
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-503-the-creation-of-the-universe-paradise-lost-book-vii/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0503.mp3
 date: 2016-09-19

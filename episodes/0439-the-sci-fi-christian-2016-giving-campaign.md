@@ -5,7 +5,7 @@ tags:
 
 title: The Sci-Fi Christian 2016 Giving Campaign
 number: 439
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/02/episode-439-the-sci-fi-christian-2016-giving-campaign/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0439.mp3
 date: 2016-02-05

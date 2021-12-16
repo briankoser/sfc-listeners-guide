@@ -6,7 +6,7 @@ tags:
 
 title: Yoda Strikes Back and Other News
 number: 501
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-501-yoda-strikes-back-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0501.mp3
 date: 2016-09-05

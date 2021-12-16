@@ -5,7 +5,7 @@ tags:
 
 title: Diverting Divergent and Other News
 number: 495
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/08/episode-495-diverting-divergent-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0400.mp3
 date: 2016-08-23

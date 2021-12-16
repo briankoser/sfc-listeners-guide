@@ -5,7 +5,7 @@ tags:
 
 title: Introduction to Paradise Lost
 number: 460
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/04/episode-460-introduction-to-paradise-lost/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0460.mp3
 date: 2016-04-21

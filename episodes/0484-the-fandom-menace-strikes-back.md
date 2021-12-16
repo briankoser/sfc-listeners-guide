@@ -6,7 +6,7 @@ tags:
 
 title: The Fandom Menace Strikes Back
 number: 484
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-484-the-fandom-menace-strikes-back/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0484.mp3
 date: 2016-07-08

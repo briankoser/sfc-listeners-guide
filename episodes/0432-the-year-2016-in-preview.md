@@ -5,7 +5,7 @@ tags:
 
 title: The Year 2016 In Preview
 number: 432
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/01/episode-432-the-year-2016-in-preview/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0432.mp3
 date: 2016-01-04

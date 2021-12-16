@@ -5,7 +5,7 @@ tags:
 
 title: Opining on the Eastern Orthodox
 number: 504
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-504-opining-on-the-eastern-orthodox/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0504.mp3
 date: 2016-09-26

@@ -5,7 +5,7 @@ tags:
 
 title: Living it Up with Lawrence of Arabia
 number: 482
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-482-living-it-up-with-lawrence-of-arabia/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0482.mp3
 date: 2016-07-01

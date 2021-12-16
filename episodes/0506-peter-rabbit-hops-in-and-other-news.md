@@ -5,7 +5,7 @@ tags:
 
 title: Peter Rabbit Hops In and Other News
 number: 506
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-506-peter-rabbit-hops-in-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0506.mp3
 date: 2016-09-30

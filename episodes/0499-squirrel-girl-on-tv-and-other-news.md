@@ -6,7 +6,7 @@ tags:
 
 title: Squirrel Girl on TV and Other News
 number: 499
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/09/episode-499-squirrel-girl-on-tv-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0499.mp3
 date: 2016-09-05

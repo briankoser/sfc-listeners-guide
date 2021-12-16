@@ -6,7 +6,7 @@ tags:
 
 title: Heroes Re-Canceled and Other News
 number: 438
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/01/episode-438-heroes-re-canceled-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0438.mp3
 date: 2016-01-27

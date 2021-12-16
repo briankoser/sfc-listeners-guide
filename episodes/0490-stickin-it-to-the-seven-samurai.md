@@ -5,7 +5,7 @@ tags:
 
 title: Stickin’ It To The Seven Samurai
 number: 490
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-490-stickin-it-to-the-seven-samurai/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0490.mp3
 date: 2016-07-29

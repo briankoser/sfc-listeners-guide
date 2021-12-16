@@ -5,7 +5,7 @@ tags:
 
 title: "Rollin’ with Roland: The Dark Tower – Part 1"
 number: 507
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/10/episode-507-rollin-with-roland-the-dark-tower-part-1/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0507.mp3
 date: 2016-10-03

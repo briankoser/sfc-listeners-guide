@@ -5,7 +5,7 @@ tags:
 
 title: Channing Tatum Makes a Splash and Other News
 number: 494
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/08/episode-494-channing-tatum-makes-a-splash-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0494.mp3
 date: 2016-08-07

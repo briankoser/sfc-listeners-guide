@@ -5,7 +5,7 @@ tags:
 
 title: Aquinas Meets Dante
 number: 433
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/01/episode-433-aquinas-meets-dante/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0433.mp3
 date: 2016-01-06

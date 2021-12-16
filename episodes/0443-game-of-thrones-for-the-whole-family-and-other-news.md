@@ -6,7 +6,7 @@ tags:
 
 title: Game of Thrones For the Whole Family and Other News
 number: 443
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/02/episode-443-game-of-thrones-for-the-whole-family-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0443.mp3
 date: 2016-02-19

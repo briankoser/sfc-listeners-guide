@@ -5,7 +5,7 @@ tags:
 
 title: "The Worlds of Neil Gaiman: American Gods and the Anansi Boys"
 number: 446
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/03/episode-446-the-worlds-of-neil-gaiman-american-gods-and-the-anansi-boys/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0446.mp3
 date: 2016-03-06

@@ -5,7 +5,7 @@ tags:
 
 title: "Shapeshifting Satan: Paradise Lost – Book IV"
 number: 492
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/08/episode-492-shapeshifting-satan-paradise-lost-book-iv/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0492.mp3
 date: 2016-08-05

@@ -5,7 +5,7 @@ tags:
 
 title: "Captain America: Civil Skirmish"
 number: 466
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/05/episode-466-captain-america-civil-skirmish/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0466.mp3
 date: 2016-05-11

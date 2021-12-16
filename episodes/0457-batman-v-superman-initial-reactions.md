@@ -5,7 +5,7 @@ tags:
 
 title: "Batman v Superman: Initial Reactions"
 number: 457
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/04/episode-457-batman-v-superman-initial-reactions/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0457.mp3
 date: 2016-04-11

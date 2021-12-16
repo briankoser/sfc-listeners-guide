@@ -8,7 +8,7 @@ tags:
 
 title: Indiana Jones and the Return of Harrison Ford and Other News
 number: 452
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/03/episode-452-indiana-jones-and-the-return-of-harrison-ford-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0452.mp3
 date: 2016-03-24

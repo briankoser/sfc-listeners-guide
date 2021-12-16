@@ -5,7 +5,7 @@ tags:
 
 title: Elysium Movie Review
 number: 489
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/07/episode-489-elysium-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0489.mp3
 date: 2016-07-25

@@ -5,7 +5,7 @@ tags:
 
 title: "Grumpy God: Paradise Lost – Book III"
 number: 480
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-480-grumpy-god-paradise-lost-book-iii/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0480.mp3
 date: 2016-06-24

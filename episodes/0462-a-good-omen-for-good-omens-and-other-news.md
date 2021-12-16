@@ -5,7 +5,7 @@ tags:
 
 title: A Good Omen for Good Omens and Other News
 number: 462
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/04/episode-462-a-good-omen-for-good-omens-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0462.mp3
 date: 2016-04-25

@@ -5,7 +5,7 @@ tags:
 
 title: The Redemption of George Lucas
 number: 469
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/05/episode-469-the-redemption-of-george-lucas/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0469.mp3
 date: 2016-05-24

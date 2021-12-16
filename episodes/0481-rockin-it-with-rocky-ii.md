@@ -5,7 +5,7 @@ tags:
 
 title: Rockin’ It With Rocky II
 number: 481
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-481-rockin-it-with-rocky-ii/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0481.mp3
 date: 2016-06-27

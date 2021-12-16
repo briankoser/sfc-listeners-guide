@@ -5,7 +5,7 @@ tags:
 
 title: Rita Repulsa Returns and Other News
 number: 441
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/02/episode-441-rita-repulsa-returns-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0441.mp3
 date: 2016-02-11

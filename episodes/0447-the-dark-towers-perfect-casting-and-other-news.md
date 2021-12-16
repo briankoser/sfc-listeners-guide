@@ -6,7 +6,7 @@ tags:
 
 title: The Dark Tower’s Perfect Casting and Other News
 number: 447
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/03/episode-447-the-dark-towers-perfect-casting-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0447.mp3
 date: 2016-03-09

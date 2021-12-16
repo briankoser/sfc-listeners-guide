@@ -5,7 +5,7 @@ tags:
 
 title: "Star Wars: Attack of the Clones Movie Review"
 number: 473
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-473-star-wars-attack-of-the-clones-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0473.mp3
 date: 2016-06-02

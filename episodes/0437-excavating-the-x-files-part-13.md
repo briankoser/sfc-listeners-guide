@@ -5,7 +5,7 @@ tags:
 
 title: "Excavating the X-Files: Part 13"
 number: 437
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/01/episode-437-excavating-the-x-files-part-13/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0437.mp3
 date: 2016-01-20

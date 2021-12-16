@@ -5,7 +5,7 @@ tags:
 
 title: Dinner and a Movie and Other News
 number: 475
-season: 5
+season: 6
 podcast_url: http://thescifichristian.com/2016/06/episode-475-dinner-and-a-movie-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0475.mp3
 date: 2016-06-09
