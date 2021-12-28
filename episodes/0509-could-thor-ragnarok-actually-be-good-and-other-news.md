@@ -29,4 +29,4 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 Disney is developing a Don Quixote movie, in the style of Pirates of the Caribbean.
 
 {% quotes podcast_file_url, quotes[0] %}
-{% arc %}The phrase "top-dog judger" set off a firestorm of controversy in the SFC community.{% endarc %}
+{% arc %}This phrase escapes Matt's notice, but it will soon cause a firestorm of controversy.{% endarc %}
