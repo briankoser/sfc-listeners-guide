@@ -15,7 +15,7 @@ hosts:
   - Ben
   - Matt
 
-last_listen: 2022-10-24
+last_listen: 2022-10-26
 recommendation: yes
 recommendation_reason: Footnote to Episode 510
 ---
