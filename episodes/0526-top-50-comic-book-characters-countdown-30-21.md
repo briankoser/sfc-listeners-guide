@@ -69,6 +69,8 @@ Matt voted Scarlet Spider to #29 on his own.
 
 {% quotes podcast_file_url, quotes[0] %}
 
+{% countdown countdowns.turtles %}
+
 {% quotes podcast_file_url, quotes[1] %}
 
 {% quotes podcast_file_url, quotes[2] %}
