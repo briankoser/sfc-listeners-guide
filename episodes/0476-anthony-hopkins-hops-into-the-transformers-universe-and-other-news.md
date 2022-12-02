@@ -16,6 +16,10 @@ hosts:
   - Ben
   - Matt
 
+prophecy:
+  - host: Ben
+    prediction: "Matt will watch Transformers: The Last Knight"
+    veracity: false
 quotes:
   - time: "2:15"
     context: Matt suggests that Anthony Hopkins could be doing Transformers for his grandchildren

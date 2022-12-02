@@ -30,7 +30,7 @@ Eating dinner at Leeann Chin in Coon Rapids, MN before going to Ben's house to w
 
 Ben wonders if Mr. T plays Apollo Creed.
 
-Ben knows Rocky is going to win. Matt said he can't win in every movie.
+Ben knows Rocky is going to win. Matt says he can't win in every movie.
 
 Matt says Robocop doesn't deserve a statue in Detroit.
 
