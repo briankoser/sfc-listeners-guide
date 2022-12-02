@@ -8,7 +8,7 @@ number: 530
 season: 6
 podcast_url: http://thescifichristian.com/2016/12/episode-530-frolicking-with-father-merrin-the-exorcist-movie-review/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0530.mp3
-date: 2016-12-31
+date: 2016-12-21
 length: '01:20:09'
 category: review
 hosts:
