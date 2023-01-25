@@ -15,6 +15,8 @@ hosts:
   - Ben
   - Matt
 
+firsts:
+  - Title spoken is different from the title written
 quotes:
   - time: "6:00"
     context: The upcoming Avengers Infinity War film
@@ -44,6 +46,8 @@ recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
 
+JJ Abrams is done making sequels.
+
 {% work "Twin Peaks" %} is getting a Season 3.
 
 Confusion between Betty Ross, the comic book character, and Betsy Ross, the creator of the American flag.
@@ -57,3 +61,6 @@ Ben reads the Betsy Ross page on Wikipedia and wonders why she was married three
 {% quotes podcast_file_url, quotes[2] %}
 
 {% quotes podcast_file_url, quotes[3] %}
+
+# Closing
+Matt records an extra minute without Ben or the audio equipment to correct the top news: JJ Abrams is done making reboots. He will change the episode title but not re-record the spoken title.
