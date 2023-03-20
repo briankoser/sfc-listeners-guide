@@ -5,7 +5,7 @@ tags:
 
 title: 2017 in Preview and Other News
 number: 535 
-season: 6
+season: 7
 podcast_url: http://thescifichristian.com/2017/01/episode-535-2017-in-preview-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0535.mp3
 date: 2017-01-11

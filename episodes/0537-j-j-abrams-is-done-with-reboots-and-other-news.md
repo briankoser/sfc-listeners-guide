@@ -5,7 +5,7 @@ tags:
 
 title: J.J. Abrams is Done with Reboots and Other News
 number: 537
-season: 6
+season: 7
 podcast_url: http://thescifichristian.com/2017/01/episode-537-j-j-abrams-is-done-with-reboots-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0537.mp3
 date: 2017-01-31

@@ -5,7 +5,7 @@ tags:
 
 title: "Top 100 Sci-Fi Characters Countdown: Runners Up"
 number: 538
-season: 6
+season: 7
 podcast_url: http://thescifichristian.com/2017/02/episode-538-top-100-sci-fi-characters-countdown-runners-up/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0538.mp3
 date: 2017-02-08
