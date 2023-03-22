@@ -21,7 +21,7 @@ recommendation: yes
 recommendation_reason: Another fine countdown
 ---
 
-<ol start="100" reversed>
+<ol start="90" reversed>
 <li>Jack Torrance (The Shining)
 <li>Gulliver Foyle (The Stars My Destination)
 <li>Roy Batty (Blade Runner)
