@@ -21,7 +21,7 @@ recommendation: yes
 recommendation_reason: Another fine countdown
 ---
 
-<ol start="80" reversed>
+<ol start="70" reversed>
 <li>Sam Vimes (Discworld)
 <li>Frankenstein's monster
 <li>Jonathan Strange (Jonathan Strange and Mr. Norrell)
