@@ -22,18 +22,18 @@ countdowns:
     title: Star Trek captains
     ben:
       list:
-        - Picard
-        - The Voyager captain, who I think was a woman
-        - Benjamin Sisko
-        - Kirk
         - Archer
+        - Kirk
+        - Benjamin Sisko
+        - The Voyager captain, who I think was a woman
+        - Picard
     matt: 
       list:
-        - Picard
-        - Kirk
-        - Janeway
-        - Sisko
         - Archer
+        - Sisko
+        - Janeway
+        - Kirk
+        - Picard
 
 last_listen: 2023-04-04
 recommendation: yes
