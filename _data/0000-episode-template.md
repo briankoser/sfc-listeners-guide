@@ -18,7 +18,7 @@ tags:
 
 title: 
 number: 
-season: 6
+season: 7
 podcast_url: 
 podcast_file_url: http://thescifichristian.com/sfc/sfc0500.mp3
 date: 
