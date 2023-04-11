@@ -5,7 +5,7 @@ tags:
 
 title: Top 25 Things We've Experience Since Episode 450
 number: 549
-season: 6
+season: 7
 podcast_url: http://thescifichristian.com/2017/03/episode-549-top-25-things-weve-experience-since-episode-450/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0549.mp3
 date: 2017-03-15

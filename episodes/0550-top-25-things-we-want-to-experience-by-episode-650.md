@@ -5,7 +5,7 @@ tags:
 
 title: Top 25 Things We Want to Experience by Episode 650
 number: 550
-season: 6
+season: 7
 podcast_url: http://thescifichristian.com/2017/03/episode-550-top-25-things-we-want-to-experience-by-episode-650/
 podcast_file_url: http://thescifichristian.com/sfc/sfc0550.mp3
 date: 2017-03-17
