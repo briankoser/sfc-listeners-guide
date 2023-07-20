@@ -3,7 +3,7 @@ layout: episode
 tags:
   - episode
   - a-slew-of-casting-news
-  - ben-was-wrong
+  - ben-is-wrong
   - matt-is-right
   - stan-lee-quote-of-the-week
   - take-that-science
@@ -22,7 +22,7 @@ hosts:
   - Matt
 
 firsts:
-  - Ben was Wrong clip
+  - Ben Is Wrong clip
 future_episodes:
   - The after life
   - LOST trivia challenge

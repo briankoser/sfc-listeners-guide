@@ -2,6 +2,7 @@
 layout: episode
 tags:
   - episode
+  - ben-is-wrong
 
 title: The Impossible Puzzle
 number: 237

@@ -17,5 +17,5 @@ hosts:
 
 last_listen: 2023-04-12
 recommendation: no
-recommendation_reason: Interesting at the time behind-the-scenes and speculation
+recommendation_reason: Interesting-at-the-time behind-the-scenes and speculation
 ---

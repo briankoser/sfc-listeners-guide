@@ -4,7 +4,7 @@ tags:
   - episode
   - a-slew-of-casting-news
   - ben-is-right
-  - ben-was-wrong
+  - ben-is-wrong
   - bleeping
   - encouraging-signs
   - matt-is-right
