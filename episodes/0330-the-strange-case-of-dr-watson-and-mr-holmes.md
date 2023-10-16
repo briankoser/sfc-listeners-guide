@@ -11,7 +11,7 @@ podcast_file_url: http://thescifichristian.com/sfc/sfc0330.mp3
 date: 2015-02-05
 length: '00:39:16'
 category: literature
-series: alternate-reading
+series: alternate-readings
 hosts:
   - Ben
   - Matt

@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2015/01/episode-326-podcast-awards-201
 podcast_file_url: http://thescifichristian.com/sfc/sfc0326.mp3
 date: 2015-01-27
 length: '00:11:00'
-category: announcements
+category: announcement
 hosts:
   - Ben
   - Matt

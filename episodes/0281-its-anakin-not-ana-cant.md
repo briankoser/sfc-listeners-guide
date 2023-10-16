@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2014/08/episode-281-its-anakin-not-ana
 podcast_file_url: http://thescifichristian.com/sfc/sfc0281.mp3
 date: 2014-08-15
 length: '00:40:27'
-category:  reviews
+category: review
 series: star-wars
 hosts:
   - Ben

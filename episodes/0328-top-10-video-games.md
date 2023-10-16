@@ -11,7 +11,7 @@ podcast_url: http://thescifichristian.com/2015/01/episode-328-top-10-video-games
 podcast_file_url: http://thescifichristian.com/sfc/sfc0328.mp3
 date: 2015-01-29
 length: '00:55:43'
-category: countdown
+category: countdowns
 hosts:
   - Ben
   - Matt
