@@ -2,6 +2,7 @@
 layout: episode
 tags:
   - episode
+  - koser-sighting
 
 title: Joss Whedon is Directing Justice League and Other News
 number: 562
