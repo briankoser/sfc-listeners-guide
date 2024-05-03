@@ -22,4 +22,4 @@ recommendation_reason: No need to listen to old news. Check the guide for what's
 
 The Woody Woodpecker dolls that David Lynch bought from a gas station in the 1980s are "no longer in his life".
 
-Matt says he is done watching Transformer movies.
+Matt says he is done watching Transformer movies. {% arc %}According to Letterboxd, this time he meant it{% endarc %}
