@@ -20,12 +20,12 @@ hosts:
 prophecy:
   - host: Matt
     prediction: James Cameron will make two Avatar sequels.
-    veracity: false
+    veracity: undefined
     comments: Originally intended for 2014, Avatar 2 is now planned to release in 2022.
   - host: Ben
     prediction: James Cameron will make zero Avatar sequels.
-    veracity: true
-    comments: Could still happen
+    veracity: false
+    comments: Avatar 2 was released in 2022, 7 years later
 questions_for_matt:
   - Frank Miller is creating a third installment in The Dark Knight saga. Will it restore his legacy or cement his place as the George Lucas of comics?
   - James Horner revealed that there are four Avatar sequel scripts. How many sequels will actually get made?
