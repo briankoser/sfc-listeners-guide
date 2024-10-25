@@ -27,7 +27,7 @@ quotes:
       - m: I don't have official notes.
       - b: Right. It doesn't sound like you have any notes.
       - m: Well, it's up here in my head. I know what I want to say.
-      - m: Those aren't notes, those are thoughts.
+      - b: Those aren't notes, those are thoughts.
       - m: Yeah, they're more of thoughts.
 rating:
   ben: 2

@@ -24,6 +24,6 @@ recommendation: yes
 recommendation_reason: Solid discussion
 ---
 
-Madeline L'Engle is an Episcolpalian Universalist, drawing ire from both Christians and non-Christians.
+Madeline L'Engle is an Episcopalian Universalist, drawing ire from both Christians and non-Christians.
 
 Ben outlines the sequels.

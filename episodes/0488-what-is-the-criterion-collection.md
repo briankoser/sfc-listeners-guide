@@ -27,7 +27,7 @@ countdowns:
         - Paths of Glory
         - Autumn Sonata
         - Orpheus
-        - Chasing Amy
+        - Hunger
         - Bicycle Thieves
         - In the Mood For Love
   criterionSeen:
@@ -41,7 +41,7 @@ countdowns:
         - Brazil
         - Life of Brian
         - Rushmore
-        - Hunger
+        - Chasing Amy
         - Do the Right Thing
         - The Royal Tenenbaums
 
@@ -58,7 +58,7 @@ They innovated disc special features and correct aspect ratios for home video.
 
 {% countdown countdowns.criterionSeen %}
 
-Watch {% work "The Passion of Joan of Arc" %} from Criterion instead of Hulu because for the orchestral soundtrack they created.
+Watch {% work "The Passion of Joan of Arc" %} from Criterion instead of Hulu for the orchestral soundtrack they created.
 
 The {% work "Life Aquatic with Steve Zizou" %} is maybe Ben's favorite movie.
 

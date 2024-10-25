@@ -143,7 +143,7 @@ The last Water Fund donation was over a month ago. Ben asks if they'll still mak
 
 Ben's grandpa is getting married. He clarified that it's not a polygamist situation.
 
-{% quotes podcast_file_url, quotes[1] %}
+{% quotes podcast_file_url, quotes[2] %}
 
 Ben realizes that Matt is a professional fundraiser and hasn't raised funds for the podcast.
 
