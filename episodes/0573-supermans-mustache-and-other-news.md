@@ -33,3 +33,6 @@ Lily has a piggy bank in the shape of either (according to Matt) a cupcake emoji
 After watching Denis Villeneuve's English films, Ben is now excited for {% work "Blade Runner 2049" %}.
 
 Ben gets angry about new DuckTales stories after getting excited about new Blade Runner.
+
+# After Credits
+Matt pretends he can't get a good picture of Ben.
