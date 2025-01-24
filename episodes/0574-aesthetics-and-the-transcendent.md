@@ -4,7 +4,7 @@ tags:
   - episode
   - koser-sighting
 
-title: How Not to Change the World
+title: Aesthetics and the Transcendent
 number: 574
 season: 7
 podcast_url: http://thescifichristian.com/2017/07/episode-574-aesthetics-and-the-transcendent/
