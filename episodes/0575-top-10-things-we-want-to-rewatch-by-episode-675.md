@@ -73,3 +73,5 @@ recommendation_reason: Fun to listen when live, but now you can skip to Episode 
 ---
 
 {% ratings ratings.top10 %}
+
+{% quotes podcast_file_url, quotes[0] %}
