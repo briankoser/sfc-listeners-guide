@@ -35,9 +35,9 @@ quotes:
       - m: The worst thing about this movie is that it could hurt the name 'Dark Tower'—
       - b: Could? Could?!
 
-last_listen: 2024-03-24
-recommendation: yes
-recommendation_reason: 
+last_listen: 2025-03-24
+recommendation: no
+recommendation_reason: Fun movie disagreement, though not as memorable as BvS
 ---
 
 Starts with the audio from Ben's first Facebook Live video
