@@ -3,21 +3,18 @@ layout: episode
 tags:
   - episode
 
-title: "Top 100 Sci-Fi Movies Countdown: 90-81"
-number: 417
+title: "Top 100 Sci-Fi Movies Countdown:80-71"
+number: 418
 season: 5
-podcast_url: http://thescifichristian.com/2015/11/episode-417-top-100-sci-fi-movies-countdown-90-81/
-podcast_file_url: http://thescifichristian.com/sfc/sfc0417.mp3
-date: 2015-11-29
-length: '00:16:28'
+podcast_url: http://thescifichristian.com/2015/12/episode-418-top-100-sci-fi-movies-countdown-80-71/
+podcast_file_url: http://thescifichristian.com/sfc/sfc0418.mp3
+date: 2015-12-01
+length: '00:14:54'
 category: countdowns
 series: movies-countdown-2015
 hosts:
   - Ben
   - Matt
-
-future_episodes:
-  - The Anime Episode (just voicemails)
 
 last_listen: 2021-03-25
 recommendation: yes
