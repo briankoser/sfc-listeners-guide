@@ -37,7 +37,7 @@ pageTitle: Seasons
 <div class="columns">
 <div class="column is-half">
 	<div class="season-list">
-		{% for season in seasonlist %}
+		{% for season in seasonlist | reverse %}
         <div class="card season-card">
             <header class="card-header">
                 <p class="card-header-title">
