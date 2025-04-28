@@ -891,6 +891,10 @@ div[data-rating='dont-know']::after {
     margin-bottom: 2em;
 }
 
+.standalone-stat p {
+    margin-top: 0;
+}
+
 
 
 /******************************************************************************
