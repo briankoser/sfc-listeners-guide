@@ -7,6 +7,10 @@ All stats are through episode № {{ collections.episodes.length - collections.e
 <div class="columns">
 <div class="column is-two-thirds">
 
+## Guide
+<h3><span style="color:var(--color-orange);">Episodes aired</span> vs <span style="color:var(--color-primary);">Episodes recorded in sfc.blue</span></h3>
+<div id="guide-progress-chart" style="height: 50vh"></div>
+
 ## Episodes
 
 <div class="level stats">
