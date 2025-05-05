@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
       type: Chartist.FixedScaleAxis,
       ticks: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100],
       low: 0
-    },
-    chartPadding: {
-      left: 10
     }
   };
   
-  new Chartist.Line('#guide-progress-chart', data, options);
+  const chart = new Chartist.Line('#guide-progress-chart', data, options)
+  chart.on('created', () => {
+    document.getElementById('guide-progress-chart').querySelectorAll('g:not([class])')[0].setAttribute("transform", "translate(15)");
+  });
 });
