@@ -3,7 +3,7 @@ layout: episode
 tags:
   - episode
 
-title: Star Wars: Episode IX Gets a New Director and Other News
+title: "Star Wars: Episode IX Gets a New Director and Other News"
 number: 582
 season: 7
 podcast_url: http://thescifichristian.com/2017/09/episode-582-star-wars-episode-ix-gets-a-new-director-and-other-news/
