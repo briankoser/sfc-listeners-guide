@@ -25,6 +25,6 @@ recommendation_reason: Good discussion
 
 Ben calls it the best superhero film since Nolan's Dark Knight trilogy.
 
-There are comic books about superheroes in the Marvel universe. Matt liked that because that's true in the comics. Ben doesn't because if there were really superheroes, we wouldn't write comics about them. {% arc "Wrong. Now they're mostly superheroes, but originally comic books were mostly realistic settings: westerns, pirates, soldiers." %}
+There are comic books about superheroes in the Marvel universe. Matt liked that because that's true in the comics. Ben doesn't because if there were really superheroes, we wouldn't write comics about them. {% arc %}Wrong. Now they're mostly superheroes, but originally comic books were mostly realistic settings: westerns, pirates, soldiers." {% endarc %}
 
 Matt notices that Logan died on a tree, which is a Christ image. Ben says he almost died on a branch that day.
