@@ -93,7 +93,6 @@ recommendation: no
 recommendation_reason: Not noteworthy.
 spoilers:
 - <i class="work-title">The Dark Knight Rises</i>
-archivist_note: 
 ---
 # Opening
 <div class="quote">
