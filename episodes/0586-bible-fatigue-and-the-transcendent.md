@@ -7,7 +7,7 @@ title: Bible Fatigue and the Transcendent
 number: 586
 season: 7
 podcast_url: http://thescifichristian.com/2017/09/episode-586-bible-fatigue-and-the-transcendent/
-podcast_file_url: http://thescifichristian.com/sfc/sfc0586.mp3
+podcast_file_url: http://thescifichristian.com/sfc/sfc586.mp3
 date: 2017-09-16
 length: '00:49:15'
 category: theology
