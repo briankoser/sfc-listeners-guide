@@ -20,7 +20,7 @@ title:
 number: 
 season: 7
 podcast_url: 
-podcast_file_url: http://thescifichristian.com/sfc/sfc0500.mp3
+podcast_file_url: 
 date: 
 length: '00:12:34'
 category: 
