@@ -28,7 +28,7 @@ quotes:
       - b: That's true! That's 100%—how could I be more right than that?
       - m: You could be more right if he actually did it!
 
-last_listen: 2025-05-05
+last_listen: 2025-10-05
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
