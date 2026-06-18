@@ -17,7 +17,7 @@ hosts:
 alternate_titles:
   - IT is a Hit and Other News
 
-last_listen: 2025-05-04
+last_listen: 2026-05-04
 recommendation: no
 recommendation_reason: No need to listen to old news. Check the guide for what's interesting in hindsight.
 ---
