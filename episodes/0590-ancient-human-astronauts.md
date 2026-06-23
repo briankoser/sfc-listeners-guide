@@ -44,6 +44,8 @@ Hieroglyphics in the pyramids that look like airplanes and helicopters.
 
 Plato records Atlantis sunk at the end of the Younger Dryas period, 11 thousand years ago.
 
+{% quotes podcast_file_url, quotes[0] %}
+
 Maybe Genesis is a mythic history. The Flood and Tower of Babel are end-of-civilization cataclysms. Maybe the Flood narratives are remembering the Younger Dryas sea levels rising.
 
 How would the existence of ancient civilizations affect theology?
