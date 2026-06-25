@@ -10,7 +10,7 @@ podcast_url: http://thescifichristian.com/2017/09/episode-590-ancient-human-astr
 podcast_file_url: http://thescifichristian.com/sfc/Episode590AncientHumanAstronauts.mp3
 date: 2017-09-26
 length: '01:03:58'
-category: main-topic
+category: theology
 hosts:
   - Ben
   - Matt
