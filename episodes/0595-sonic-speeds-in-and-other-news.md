@@ -4,7 +4,7 @@ tags:
   - episode
 
 title: Sonic Speeds in and Other News
-number: 596
+number: 595
 season: 7
 podcast_url: http://thescifichristian.com/2017/10/episode-595-sonic-speeds-in-and-other-news/
 podcast_file_url: http://thescifichristian.com/sfc/Episode595SonicSpeedsInAndOtherNews.mp3
